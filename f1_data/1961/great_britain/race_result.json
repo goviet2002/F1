@@ -1,0 +1,293 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "4",
+      "Wolfgang von Trips",
+      "Ferrari",
+      "75",
+      "2:40:53.600",
+      "9"
+    ],
+    [
+      "2",
+      "2",
+      "Phil Hill",
+      "Ferrari",
+      "75",
+      "+46.000s",
+      "6"
+    ],
+    [
+      "3",
+      "6",
+      "Richie Ginther",
+      "Ferrari",
+      "75",
+      "+46.800s",
+      "4"
+    ],
+    [
+      "4",
+      "12",
+      "Jack Brabham",
+      "Cooper Climax",
+      "75",
+      "+68.600s",
+      "3"
+    ],
+    [
+      "5",
+      "8",
+      "Jo Bonnier",
+      "Porsche",
+      "75",
+      "+76.200s",
+      "2"
+    ],
+    [
+      "6",
+      "36",
+      "Roy Salvadori",
+      "Cooper Climax",
+      "75",
+      "+86.200s",
+      "1"
+    ],
+    [
+      "7",
+      "10",
+      "Dan Gurney",
+      "Porsche",
+      "74",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "8",
+      "14",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "74",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "9",
+      "22",
+      "Tony Brooks",
+      "BRM Climax",
+      "73",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "10",
+      "16",
+      "Innes Ireland",
+      "Lotus Climax",
+      "72",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "11",
+      "42",
+      "Masten Gregory",
+      "Cooper Climax",
+      "71",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "12",
+      "62",
+      "Lorenzo Bandini",
+      "Cooper Maserati",
+      "71",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "13",
+      "50",
+      "Tony Maggs",
+      "Lotus Climax",
+      "69",
+      "+6 laps",
+      "0"
+    ],
+    [
+      "14",
+      "44",
+      "Ian Burgess ",
+      "Lotus Climax",
+      "69",
+      "+6 laps",
+      "0"
+    ],
+    [
+      "15",
+      "54",
+      "Keith  Greene ",
+      "Gilby Climax",
+      "69",
+      "+6 laps",
+      "0"
+    ],
+    [
+      "16",
+      "56",
+      "Carel Godin de Beaufort ",
+      "Porsche",
+      "69",
+      "+6 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "18",
+      "Jim Clark",
+      "Lotus Climax",
+      "62",
+      "DNF",
+      "0"
+    ],
+    [
+      "17",
+      "52",
+      "Wolfgang Seidel",
+      "Lotus Climax",
+      "58",
+      "+17 laps",
+      "0"
+    ],
+    [
+      "DQ",
+      "26",
+      "Jack  Fairman",
+      "Ferguson Climax",
+      "",
+      "DSQ",
+      "0"
+    ],
+    [
+      "DQ",
+      "26",
+      "Stirling Moss",
+      "Ferguson Climax",
+      "56",
+      "DSQ",
+      "0"
+    ],
+    [
+      "NC",
+      "32",
+      "Lucien Bianchi",
+      "Lotus Climax",
+      "45",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "28",
+      "Stirling Moss",
+      "Lotus Climax",
+      "44",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Graham Hill",
+      "BRM Climax",
+      "43",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "58",
+      "Giancarlo Baghetti",
+      "Ferrari",
+      "27",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "25",
+      "Tony  Marsh ",
+      "Lotus Climax",
+      "25",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "34",
+      "John Surtees",
+      "Cooper Climax",
+      "23",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "38",
+      "Tim  Parnell ",
+      "Lotus Climax",
+      "12",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "46",
+      "Jackie  Lewis ",
+      "Cooper Climax",
+      "7",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "40",
+      "Gerry  Ashmore ",
+      "Lotus Climax",
+      "7",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "30",
+      "Henry Taylor",
+      "Lotus Climax",
+      "5",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "62",
+      "Massimo  Natili ",
+      "Cooper Maserati",
+      "0",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

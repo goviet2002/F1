@@ -1,0 +1,167 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Jack Brabham",
+      "Cooper Climax",
+      "36",
+      "2:21:37.300",
+      "8"
+    ],
+    [
+      "2",
+      "4",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "36",
+      "+63.300s",
+      "6"
+    ],
+    [
+      "NC",
+      "10",
+      "Graham Hill",
+      "BRM",
+      "35",
+      "DNF",
+      "0"
+    ],
+    [
+      "3",
+      "34",
+      "Olivier  Gendebien",
+      "Cooper Climax",
+      "35",
+      "+1 lap",
+      "4"
+    ],
+    [
+      "4",
+      "24",
+      "Phil Hill",
+      "Ferrari",
+      "35",
+      "+1 lap",
+      "3"
+    ],
+    [
+      "5",
+      "18",
+      "Jim Clark",
+      "Lotus Climax",
+      "34",
+      "+2 laps",
+      "2"
+    ],
+    [
+      "6",
+      "32",
+      "Lucien Bianchi",
+      "Cooper Climax",
+      "28",
+      "+8 laps",
+      "1"
+    ],
+    [
+      "NC",
+      "16",
+      "Alan  Stacey ",
+      "Lotus Climax",
+      "24",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "22",
+      "Willy Mairesse",
+      "Ferrari",
+      "23",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "26",
+      "Wolfgang von Trips",
+      "Ferrari",
+      "22",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "36",
+      "Chris  Bristow ",
+      "Cooper Climax",
+      "19",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "30",
+      "Chuck  Daigh ",
+      "Scarab",
+      "16",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "6",
+      "Jo Bonnier",
+      "BRM",
+      "14",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "14",
+      "Innes Ireland",
+      "Lotus Climax",
+      "13",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "8",
+      "Dan Gurney",
+      "BRM",
+      "4",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "38",
+      "Tony Brooks",
+      "Cooper Climax",
+      "2",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "28",
+      "Lance  Reventlow ",
+      "Scarab",
+      "1",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

@@ -1,0 +1,138 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "20",
+      "Jim Clark",
+      "Lotus Climax",
+      "1:28.500"
+    ],
+    [
+      "2",
+      "16",
+      "Jack Brabham",
+      "Brabham Repco",
+      "1:28.800"
+    ],
+    [
+      "3",
+      "4",
+      "Bruce McLaren",
+      "McLaren BRM",
+      "1:29.310"
+    ],
+    [
+      "4",
+      "2",
+      "Chris Amon",
+      "Ferrari",
+      "1:29.350"
+    ],
+    [
+      "5",
+      "8",
+      "Dan Gurney",
+      "Eagle Climax",
+      "1:29.380"
+    ],
+    [
+      "6",
+      "18",
+      "Denny Hulme",
+      "Brabham Repco",
+      "1:29.460"
+    ],
+    [
+      "7",
+      "34",
+      "Jackie Stewart",
+      "BRM",
+      "1:29.600"
+    ],
+    [
+      "8",
+      "22",
+      "Graham Hill",
+      "Lotus Climax",
+      "1:29.700"
+    ],
+    [
+      "9",
+      "14",
+      "John Surtees",
+      "Honda",
+      "1:30.300"
+    ],
+    [
+      "10",
+      "10",
+      "Ludovico Scarfiotti",
+      "Eagle Climax",
+      "1:30.800"
+    ],
+    [
+      "11",
+      "30",
+      "Jochen Rindt",
+      "Cooper Maserati",
+      "1:31.300"
+    ],
+    [
+      "12",
+      "36",
+      "Mike Spence",
+      "BRM",
+      "1:32.100"
+    ],
+    [
+      "13",
+      "6",
+      "Jo Siffert",
+      "Cooper Maserati",
+      "1:32.300"
+    ],
+    [
+      "14",
+      "26",
+      "Jo Bonnier",
+      "Cooper Maserati",
+      "1:32.500"
+    ],
+    [
+      "15",
+      "32",
+      "Jacky Ickx",
+      "Cooper Maserati",
+      "1:33.000"
+    ],
+    [
+      "16",
+      "38",
+      "Chris   Irwin",
+      "Lotus BRM",
+      "1:33.200"
+    ],
+    [
+      "17",
+      "24",
+      "Giancarlo Baghetti",
+      "Lotus Climax",
+      "1:35.200"
+    ],
+    [
+      "18",
+      "12",
+      "Guy  Ligier ",
+      "Cooper Maserati",
+      "1:37.300"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

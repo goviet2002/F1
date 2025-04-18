@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:34.779"
+    ],
+    [
+      "2",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing Honda",
+      "1:35.139"
+    ],
+    [
+      "3",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "1:35.219"
+    ],
+    [
+      "4",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      "1:35.339"
+    ],
+    [
+      "5",
+      "23",
+      "Alexander Albon",
+      "Red Bull Racing Honda",
+      "1:35.682"
+    ],
+    [
+      "6",
+      "4",
+      "Lando Norris",
+      "McLaren Renault",
+      "1:36.436"
+    ],
+    [
+      "7",
+      "3",
+      "Daniel Ricciardo",
+      "Renault",
+      "1:36.456"
+    ],
+    [
+      "8",
+      "55",
+      "Carlos Sainz",
+      "McLaren Renault",
+      "1:36.459"
+    ],
+    [
+      "9",
+      "27",
+      "Nico Hulkenberg",
+      "Renault",
+      "1:36.710"
+    ],
+    [
+      "10",
+      "11",
+      "Sergio Perez",
+      "Racing Point BWT Mercedes",
+      "1:37.055"
+    ],
+    [
+      "11",
+      "10",
+      "Pierre Gasly",
+      "Scuderia Toro Rosso Honda",
+      "1:37.089"
+    ],
+    [
+      "12",
+      "18",
+      "Lance Stroll",
+      "Racing Point BWT Mercedes",
+      "1:37.103"
+    ],
+    [
+      "13",
+      "26",
+      "Daniil Kvyat",
+      "Scuderia Toro Rosso Honda",
+      "1:37.141"
+    ],
+    [
+      "14",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "1:37.254"
+    ],
+    [
+      "15",
+      "8",
+      "Romain Grosjean",
+      "Haas Ferrari",
+      "1:38.051"
+    ],
+    [
+      "16",
+      "99",
+      "Antonio Giovinazzi",
+      "Alfa Romeo Racing Ferrari",
+      "1:38.114"
+    ],
+    [
+      "17",
+      "7",
+      "Kimi Räikkönen",
+      "Alfa Romeo Racing Ferrari",
+      "1:38.383"
+    ],
+    [
+      "18",
+      "63",
+      "George Russell",
+      "Williams Mercedes",
+      "1:38.717"
+    ],
+    [
+      "19",
+      "88",
+      "Robert Kubica",
+      "Williams Mercedes",
+      "1:39.236"
+    ],
+    [
+      "20",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes",
+      "1:34.973"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

@@ -1,0 +1,194 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Riccardo Patrese",
+      "Brabham Ford",
+      "76",
+      "1:54:11.259",
+      "9"
+    ],
+    [
+      "2",
+      "28",
+      "Didier Pironi",
+      "Ferrari",
+      "75",
+      "DNF",
+      "6"
+    ],
+    [
+      "3",
+      "22",
+      "Andrea de Cesaris",
+      "Alfa Romeo",
+      "75",
+      "DNF",
+      "4"
+    ],
+    [
+      "4",
+      "12",
+      "Nigel Mansell",
+      "Lotus Ford",
+      "75",
+      "+1 lap",
+      "3"
+    ],
+    [
+      "5",
+      "11",
+      "Elio de Angelis",
+      "Lotus Ford",
+      "75",
+      "+1 lap",
+      "2"
+    ],
+    [
+      "6",
+      "5",
+      "Derek Daly",
+      "Williams Ford",
+      "74",
+      "DNF",
+      "1"
+    ],
+    [
+      "7",
+      "15",
+      "Alain Prost",
+      "Renault",
+      "73",
+      "DNF",
+      "0"
+    ],
+    [
+      "8",
+      "4",
+      "Brian Henton",
+      "Tyrrell Ford",
+      "72",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "9",
+      "29",
+      "Marc Surer",
+      "Arrows Ford",
+      "70",
+      "+6 laps",
+      "0"
+    ],
+    [
+      "10",
+      "3",
+      "Michele Alboreto",
+      "Tyrrell Ford",
+      "69",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "6",
+      "Keke Rosberg",
+      "Williams Ford",
+      "64",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "8",
+      "Niki Lauda",
+      "McLaren Ford",
+      "56",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "1",
+      "Nelson Piquet",
+      "Brabham BMW",
+      "49",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "7",
+      "John Watson",
+      "McLaren Ford",
+      "35",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "9",
+      "Manfred Winkelhock",
+      "ATS Ford",
+      "31",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "26",
+      "Jacques Laffite",
+      "Ligier Matra",
+      "29",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "25",
+      "Eddie  Cheever",
+      "Ligier Matra",
+      "27",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "10",
+      "Eliseo Salazar",
+      "ATS Ford",
+      "22",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "16",
+      "Rene Arnoux",
+      "Renault",
+      "14",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "23",
+      "Bruno Giacomelli",
+      "Alfa Romeo",
+      "4",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

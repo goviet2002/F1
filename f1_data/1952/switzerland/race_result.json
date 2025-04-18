@@ -1,0 +1,212 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "30",
+      "Piero  Taruffi",
+      "Ferrari",
+      "62",
+      "3:01:46.100",
+      "9"
+    ],
+    [
+      "2",
+      "42",
+      "Rudi  Fischer ",
+      "Ferrari",
+      "62",
+      "+157.200s",
+      "6"
+    ],
+    [
+      "3",
+      "6",
+      "Jean Behra",
+      "Gordini",
+      "61",
+      "+1 lap",
+      "4"
+    ],
+    [
+      "4",
+      "22",
+      "Ken  Wharton",
+      "Frazer Nash",
+      "60",
+      "+2 laps",
+      "3"
+    ],
+    [
+      "5",
+      "26",
+      "Alan Brown",
+      "Cooper Bristol",
+      "59",
+      "+3 laps",
+      "2"
+    ],
+    [
+      "6",
+      "38",
+      "Toulo de Graffenried",
+      "Maserati Plate",
+      "58",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "7",
+      "44",
+      "Peter Hirt",
+      "Ferrari",
+      "56",
+      "+6 laps",
+      "0"
+    ],
+    [
+      "8",
+      "24",
+      "Eric  Brandon",
+      "Cooper Bristol",
+      "55",
+      "+7 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "10",
+      "Prince Bira",
+      "Gordini",
+      "52",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "32",
+      "Andre  Simon",
+      "Ferrari",
+      "",
+      "SHC",
+      "0"
+    ],
+    [
+      "NC",
+      "32",
+      "Nino Farina",
+      "Ferrari",
+      "51",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "40",
+      "Harry Schell",
+      "Maserati Plate",
+      "31",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "46",
+      "Stirling Moss",
+      "HWM Alta",
+      "24",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Lance Macklin",
+      "HWM Alta",
+      "24",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "8",
+      "Robert  Manzon",
+      "Gordini",
+      "20",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "28",
+      "Nino Farina",
+      "Ferrari",
+      "16",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "18",
+      "Peter Collins",
+      "HWM Alta",
+      "12",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "16",
+      "George  Abecassis ",
+      "HWM Alta",
+      "12",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "4",
+      "Toni Ulmen",
+      "Veritas",
+      "4",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "2",
+      "Hans Von Stuck",
+      "AFM Kuchen",
+      "4",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "12",
+      "Louis  Rosier",
+      "Ferrari",
+      "2",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "50",
+      "Max de Terra",
+      "Simca-Gordini",
+      "1",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

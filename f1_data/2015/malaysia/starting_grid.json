@@ -1,0 +1,145 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:49.834"
+    ],
+    [
+      "2",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      "1:49.908"
+    ],
+    [
+      "3",
+      "6",
+      "Nico Rosberg",
+      "Mercedes",
+      "1:50.299"
+    ],
+    [
+      "4",
+      "3",
+      "Daniel Ricciardo",
+      "Red Bull Racing Renault",
+      "1:51.541"
+    ],
+    [
+      "5",
+      "26",
+      "Daniil Kvyat",
+      "Red Bull Racing Renault",
+      "1:51.951"
+    ],
+    [
+      "6",
+      "33",
+      "Max Verstappen",
+      "STR Renault",
+      "1:51.981"
+    ],
+    [
+      "7",
+      "19",
+      "Felipe Massa",
+      "Williams Mercedes",
+      "1:52.473"
+    ],
+    [
+      "8",
+      "77",
+      "Valtteri Bottas",
+      "Williams Mercedes",
+      "1:53.179"
+    ],
+    [
+      "9",
+      "9",
+      "Marcus Ericsson",
+      "Sauber Ferrari",
+      "1:53.261"
+    ],
+    [
+      "10",
+      "8",
+      "Romain Grosjean",
+      "Lotus Mercedes",
+      "1:52.981"
+    ],
+    [
+      "11",
+      "7",
+      "Kimi Räikkönen",
+      "Ferrari",
+      "1:42.173"
+    ],
+    [
+      "12",
+      "13",
+      "Pastor Maldonado",
+      "Lotus Mercedes",
+      "1:42.198"
+    ],
+    [
+      "13",
+      "27",
+      "Nico Hulkenberg",
+      "Force India Mercedes",
+      "1:43.023"
+    ],
+    [
+      "14",
+      "11",
+      "Sergio Perez",
+      "Force India Mercedes",
+      "1:43.469"
+    ],
+    [
+      "15",
+      "55",
+      "Carlos Sainz",
+      "STR Renault",
+      "1:43.701"
+    ],
+    [
+      "16",
+      "12",
+      "Felipe Nasr",
+      "Sauber Ferrari",
+      "1:41.308"
+    ],
+    [
+      "17",
+      "22",
+      "Jenson Button",
+      "McLaren Honda",
+      "1:41.636"
+    ],
+    [
+      "18",
+      "14",
+      "Fernando Alonso",
+      "McLaren Honda",
+      "1:41.746"
+    ],
+    [
+      "19",
+      "98",
+      "Roberto Merhi",
+      "Marussia Ferrari",
+      "1:46.677"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

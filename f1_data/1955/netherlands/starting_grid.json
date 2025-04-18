@@ -1,0 +1,124 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "8",
+      "Juan Manuel Fangio",
+      "Mercedes-Benz",
+      "1:40.000"
+    ],
+    [
+      "2",
+      "10",
+      "Stirling Moss",
+      "Mercedes-Benz",
+      "1:40.400"
+    ],
+    [
+      "3",
+      "12",
+      "Karl Kling",
+      "Mercedes-Benz",
+      "1:41.100"
+    ],
+    [
+      "4",
+      "18",
+      "Luigi Musso",
+      "Maserati",
+      "1:41.200"
+    ],
+    [
+      "5",
+      "2",
+      "Mike Hawthorn",
+      "Lancia",
+      "1:41.500"
+    ],
+    [
+      "6",
+      "14",
+      "Jean Behra",
+      "Maserati",
+      "1:41.500"
+    ],
+    [
+      "7",
+      "16",
+      "Roberto Mieres",
+      "Maserati",
+      "1:42.100"
+    ],
+    [
+      "8",
+      "4",
+      "Maurice  Trintignant",
+      "Lancia",
+      "1:42.400"
+    ],
+    [
+      "9",
+      "6",
+      "Eugenio Castellotti",
+      "Lancia",
+      "1:42.700"
+    ],
+    [
+      "10",
+      "26",
+      "Peter  Walker ",
+      "Maserati",
+      "1:44.900"
+    ],
+    [
+      "11",
+      "20",
+      "Robert  Manzon",
+      "Gordini",
+      "1:46.000"
+    ],
+    [
+      "12",
+      "24",
+      "Jacques  Pollet",
+      "Gordini",
+      "1:48.400"
+    ],
+    [
+      "13",
+      "28",
+      "Louis  Rosier",
+      "Maserati",
+      "1:49.200"
+    ],
+    [
+      "14",
+      "22",
+      "Hermano da Silva Ramos",
+      "Gordini",
+      "1:50.200"
+    ],
+    [
+      "15",
+      "32",
+      "Horace  Gould ",
+      "Maserati",
+      "1:50.400"
+    ],
+    [
+      "16",
+      "30",
+      "Johnny Claes",
+      "Ferrari",
+      "1:53.300"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

@@ -1,0 +1,181 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Damon Hill",
+      "Williams Renault",
+      "65",
+      "1:21.547"
+    ],
+    [
+      "2",
+      "3",
+      "Jean Alesi",
+      "Benetton Renault",
+      "58",
+      "1:21.866"
+    ],
+    [
+      "3",
+      "12",
+      "Martin Brundle",
+      "Jordan Peugeot",
+      "64",
+      "1:22.043"
+    ],
+    [
+      "4",
+      "7",
+      "Mika Hakkinen",
+      "McLaren Mercedes",
+      "69",
+      "1:22.283"
+    ],
+    [
+      "5",
+      "11",
+      "Rubens Barrichello",
+      "Jordan Peugeot",
+      "52",
+      "1:22.359"
+    ],
+    [
+      "6",
+      "19",
+      "Mika Salo",
+      "Tyrrell Yamaha",
+      "61",
+      "1:22.483"
+    ],
+    [
+      "7",
+      "18",
+      "Ukyo Katayama",
+      "Tyrrell Yamaha",
+      "63",
+      "1:22.722"
+    ],
+    [
+      "8",
+      "9",
+      "Olivier Panis",
+      "Ligier Mugen Honda",
+      "61",
+      "1:22.743"
+    ],
+    [
+      "9",
+      "1",
+      "Michael Schumacher",
+      "Ferrari",
+      "55",
+      "1:22.889"
+    ],
+    [
+      "10",
+      "2",
+      "Eddie Irvine",
+      "Ferrari",
+      "69",
+      "1:23.062"
+    ],
+    [
+      "11",
+      "20",
+      "Pedro Lamy",
+      "Minardi Ford",
+      "67",
+      "1:23.559"
+    ],
+    [
+      "12",
+      "10",
+      "Pedro Diniz",
+      "Ligier Mugen Honda",
+      "53",
+      "1:23.576"
+    ],
+    [
+      "13",
+      "22",
+      "Luca Badoer",
+      "Forti Ford",
+      "55",
+      "1:25.627"
+    ],
+    [
+      "14",
+      "17",
+      "Jos Verstappen",
+      "Footwork Hart",
+      "14",
+      "1:35.435"
+    ],
+    [
+      "15",
+      "15",
+      "Heinz-Harald Frentzen",
+      "Sauber Ford",
+      "25",
+      "1:36.166"
+    ],
+    [
+      "16",
+      "8",
+      "David Coulthard",
+      "McLaren Mercedes",
+      "24",
+      "1:36.245"
+    ],
+    [
+      "17",
+      "6",
+      "Jacques Villeneuve",
+      "Williams Renault",
+      "24",
+      "1:36.383"
+    ],
+    [
+      "18",
+      "16",
+      "Ricardo Rosset",
+      "Footwork Hart",
+      "24",
+      "1:36.981"
+    ],
+    [
+      "19",
+      "4",
+      "Gerhard Berger",
+      "Benetton Renault",
+      "24",
+      "1:36.998"
+    ],
+    [
+      "20",
+      "14",
+      "Johnny Herbert",
+      "Sauber Ford",
+      "23",
+      "1:38.127"
+    ],
+    [
+      "21",
+      "23",
+      "Andrea Montermini",
+      "Forti Ford",
+      "22",
+      "1:40.661"
+    ]
+  ],
+  "session_name": "Fastest Laps"
+}

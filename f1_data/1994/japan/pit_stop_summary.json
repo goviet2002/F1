@@ -1,0 +1,155 @@
+{
+  "header": [
+    "Stops",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time of day",
+    "Time",
+    "Total"
+  ],
+  "data": [
+    [
+      "1",
+      "11",
+      "Mika Salo",
+      "Lotus Mugen Honda",
+      "1",
+      "14:03:15",
+      "40.990",
+      "40.990"
+    ],
+    [
+      "1",
+      "31",
+      "David Brabham",
+      "Simtek Ford",
+      "1",
+      "14:03:18",
+      "42.822",
+      "42.822"
+    ],
+    [
+      "1",
+      "5",
+      "Michael Schumacher",
+      "Benetton Ford",
+      "5",
+      "14:12:56",
+      "34.569",
+      "34.569"
+    ],
+    [
+      "1",
+      "30",
+      "Heinz-Harald Frentzen",
+      "Sauber Mercedes",
+      "7",
+      "14:17:12",
+      "38.930",
+      "38.930"
+    ],
+    [
+      "1",
+      "4",
+      "Mark Blundell",
+      "Tyrrell Yamaha",
+      "8",
+      "14:19:25",
+      "36.414",
+      "36.414"
+    ],
+    [
+      "2",
+      "31",
+      "David Brabham",
+      "Simtek Ford",
+      "8",
+      "14:20:04",
+      "46.126",
+      "1:28.948"
+    ],
+    [
+      "1",
+      "0",
+      "Damon Hill",
+      "Williams Renault",
+      "12",
+      "14:26:40",
+      "35.113",
+      "35.113"
+    ],
+    [
+      "1",
+      "2",
+      "Nigel Mansell",
+      "Williams Renault",
+      "13",
+      "14:29:02",
+      "35.665",
+      "35.665"
+    ],
+    [
+      "1",
+      "7",
+      "Mika Hakkinen",
+      "McLaren Peugeot",
+      "14",
+      "14:31:23",
+      "33.630",
+      "33.630"
+    ],
+    [
+      "1",
+      "27",
+      "Jean Alesi",
+      "Ferrari",
+      "16",
+      "14:34:58",
+      "35.690",
+      "35.690"
+    ],
+    [
+      "1",
+      "9",
+      "Christian Fittipaldi",
+      "Footwork Ford",
+      "17",
+      "14:37:39",
+      "37.541",
+      "37.541"
+    ],
+    [
+      "1",
+      "15",
+      "Eddie Irvine",
+      "Jordan Hart",
+      "20",
+      "14:43:15",
+      "35.977",
+      "35.977"
+    ],
+    [
+      "1",
+      "20",
+      "Erik Comas",
+      "Larrousse Ford",
+      "22",
+      "14:48:03",
+      "36.863",
+      "36.863"
+    ],
+    [
+      "2",
+      "5",
+      "Michael Schumacher",
+      "Benetton Ford",
+      "27",
+      "14:56:54",
+      "32.831",
+      "1:07.400"
+    ]
+  ],
+  "session_name": "Pit Stop Summary"
+}

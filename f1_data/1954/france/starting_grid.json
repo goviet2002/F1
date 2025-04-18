@@ -1,0 +1,159 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "18",
+      "Juan Manuel Fangio",
+      "Mercedes-Benz",
+      "2:29.400"
+    ],
+    [
+      "2",
+      "20",
+      "Karl Kling",
+      "Mercedes-Benz",
+      "2:30.400"
+    ],
+    [
+      "3",
+      "10",
+      "Alberto Ascari",
+      "Maserati",
+      "2:30.500"
+    ],
+    [
+      "4",
+      "2",
+      "Jose Froilan Gonzalez",
+      "Ferrari",
+      "2:30.600"
+    ],
+    [
+      "5",
+      "12",
+      "Onofre Marimon",
+      "Maserati",
+      "2:31.600"
+    ],
+    [
+      "6",
+      "46",
+      "Prince Bira",
+      "Maserati",
+      "2:35.100"
+    ],
+    [
+      "7",
+      "22",
+      "Hans  Herrmann",
+      "Mercedes-Benz",
+      "2:35.300"
+    ],
+    [
+      "8",
+      "6",
+      "Mike Hawthorn",
+      "Ferrari",
+      "2:35.600"
+    ],
+    [
+      "9",
+      "4",
+      "Maurice  Trintignant",
+      "Maserati",
+      "2:36.100"
+    ],
+    [
+      "10",
+      "44",
+      "Roy Salvadori",
+      "Maserati",
+      "2:36.300"
+    ],
+    [
+      "11",
+      "16",
+      "Roberto Mieres",
+      "Maserati",
+      "2:38.700"
+    ],
+    [
+      "12",
+      "34",
+      "Robert  Manzon",
+      "Maserati",
+      "2:42.000"
+    ],
+    [
+      "13",
+      "36",
+      "Louis  Rosier",
+      "Maserati",
+      "2:42.100"
+    ],
+    [
+      "14",
+      "14",
+      "Luigi  Villoresi",
+      "Maserati",
+      "2:42.700"
+    ],
+    [
+      "15",
+      "32",
+      "Lance Macklin",
+      "HWM Alta",
+      "2:52.500"
+    ],
+    [
+      "16",
+      "42",
+      "Ken  Wharton",
+      "Maserati",
+      "3:09.300"
+    ],
+    [
+      "17",
+      "24",
+      "Jean Behra",
+      "Gordini",
+      ""
+    ],
+    [
+      "18",
+      "26",
+      "Jacques  Pollet",
+      "Gordini",
+      ""
+    ],
+    [
+      "19",
+      "28",
+      "Paul Frere",
+      "Gordini",
+      ""
+    ],
+    [
+      "20",
+      "30",
+      "Georges Berger",
+      "Gordini",
+      ""
+    ],
+    [
+      "21",
+      "48",
+      "Harry Schell",
+      "Maserati",
+      ""
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

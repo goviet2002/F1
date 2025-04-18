@@ -1,0 +1,239 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Alain Prost",
+      "Williams Renault",
+      "65",
+      "1:32:27.685",
+      "10"
+    ],
+    [
+      "2",
+      "8",
+      "Ayrton Senna",
+      "McLaren Ford",
+      "65",
+      "+16.873s",
+      "6"
+    ],
+    [
+      "3",
+      "5",
+      "Michael Schumacher",
+      "Benetton Ford",
+      "65",
+      "+27.125s",
+      "4"
+    ],
+    [
+      "4",
+      "6",
+      "Riccardo Patrese",
+      "Benetton Ford",
+      "64",
+      "+1 lap",
+      "3"
+    ],
+    [
+      "5",
+      "7",
+      "Michael Andretti",
+      "McLaren Ford",
+      "64",
+      "+1 lap",
+      "2"
+    ],
+    [
+      "6",
+      "28",
+      "Gerhard Berger",
+      "Ferrari",
+      "63",
+      "+2 laps",
+      "1"
+    ],
+    [
+      "7",
+      "26",
+      "Mark Blundell",
+      "Ligier Renault",
+      "63",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "8",
+      "23",
+      "Christian Fittipaldi",
+      "Minardi Ford",
+      "63",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "9",
+      "20",
+      "Erik Comas",
+      "Larrousse Lamborghini",
+      "63",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "10",
+      "10",
+      "Aguri Suzuki",
+      "Footwork Mugen Honda",
+      "63",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "11",
+      "15",
+      "Thierry Boutsen",
+      "Jordan Hart",
+      "62",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "12",
+      "14",
+      "Rubens Barrichello",
+      "Jordan Hart",
+      "62",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "13",
+      "9",
+      "Derek Warwick",
+      "Footwork Mugen Honda",
+      "62",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "14",
+      "11",
+      "Alessandro Zanardi",
+      "Lotus Ford",
+      "60",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "30",
+      "Jyrki Jarvilehto",
+      "Sauber",
+      "53",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "22",
+      "Luca Badoer",
+      "Lola Ferrari",
+      "43",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "29",
+      "Karl Wendlinger",
+      "Sauber",
+      "42",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "4",
+      "Andrea de Cesaris",
+      "Tyrrell Yamaha",
+      "42",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "0",
+      "Damon Hill",
+      "Williams Renault",
+      "41",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "27",
+      "Jean Alesi",
+      "Ferrari",
+      "40",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "24",
+      "Fabrizio Barbazza",
+      "Minardi Ford",
+      "37",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "19",
+      "Philippe Alliot",
+      "Larrousse Lamborghini",
+      "26",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "25",
+      "Martin Brundle",
+      "Ligier Renault",
+      "11",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "3",
+      "Ukyo Katayama",
+      "Tyrrell Yamaha",
+      "11",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "12",
+      "Johnny Herbert",
+      "Lotus Ford",
+      "2",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

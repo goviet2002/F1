@@ -1,0 +1,145 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "6",
+      "Juan Manuel Fangio",
+      "Alfa Romeo",
+      "2:30.600"
+    ],
+    [
+      "2",
+      "2",
+      "Nino Farina",
+      "Alfa Romeo",
+      "2:32.500"
+    ],
+    [
+      "3",
+      "4",
+      "Luigi Fagioli",
+      "Alfa Romeo",
+      "2:34.700"
+    ],
+    [
+      "4",
+      "16",
+      "Philippe  Etancelin",
+      "Talbot-Lago",
+      "2:39.000"
+    ],
+    [
+      "5",
+      "18",
+      "Yves Giraud-Cabantous",
+      "Talbot-Lago",
+      "2:42.700"
+    ],
+    [
+      "6",
+      "20",
+      "Louis  Rosier",
+      "Talbot-Lago",
+      "2:46.000"
+    ],
+    [
+      "7",
+      "28",
+      "Franco  Rol",
+      "Maserati",
+      "2:46.700"
+    ],
+    [
+      "8",
+      "36",
+      "Jose Froilan Gonzalez",
+      "Maserati",
+      "2:48.000"
+    ],
+    [
+      "9",
+      "22",
+      "Pierre  Levegh",
+      "Talbot-Lago",
+      "2:49.000"
+    ],
+    [
+      "10",
+      "16",
+      "Eugene  Chaboud",
+      "Talbot-Lago",
+      ""
+    ],
+    [
+      "11",
+      "40",
+      "Felice  Bonetto",
+      "Maserati",
+      ""
+    ],
+    [
+      "12",
+      "32",
+      "Reg  Parnell",
+      "Maserati",
+      ""
+    ],
+    [
+      "13",
+      "44",
+      "Robert  Manzon",
+      "Simca-Gordini",
+      ""
+    ],
+    [
+      "14",
+      "30",
+      "Louis  Chiron",
+      "Maserati",
+      ""
+    ],
+    [
+      "15",
+      "42",
+      "Johnny Claes",
+      "Talbot-Lago",
+      ""
+    ],
+    [
+      "16",
+      "26",
+      "Charles  Pozzi ",
+      "Talbot-Lago",
+      ""
+    ],
+    [
+      "17",
+      "12",
+      "Raymond  Sommer",
+      "Talbot-Lago",
+      ""
+    ],
+    [
+      "18",
+      "34",
+      "David  Hampshire",
+      "Maserati",
+      ""
+    ],
+    [
+      "19",
+      "14",
+      "Peter  Whitehead",
+      "Ferrari",
+      ""
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

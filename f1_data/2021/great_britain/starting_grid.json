@@ -1,0 +1,131 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car"
+  ],
+  "data": [
+    [
+      "1",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing Honda"
+    ],
+    [
+      "2",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes"
+    ],
+    [
+      "3",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes"
+    ],
+    [
+      "4",
+      "16",
+      "Charles Leclerc",
+      "Ferrari"
+    ],
+    [
+      "5",
+      "4",
+      "Lando Norris",
+      "McLaren Mercedes"
+    ],
+    [
+      "6",
+      "3",
+      "Daniel Ricciardo",
+      "McLaren Mercedes"
+    ],
+    [
+      "7",
+      "14",
+      "Fernando Alonso",
+      "Alpine Renault"
+    ],
+    [
+      "8",
+      "5",
+      "Sebastian Vettel",
+      "Aston Martin Mercedes"
+    ],
+    [
+      "9",
+      "31",
+      "Esteban Ocon",
+      "Alpine Renault"
+    ],
+    [
+      "10",
+      "55",
+      "Carlos Sainz",
+      "Ferrari"
+    ],
+    [
+      "11",
+      "10",
+      "Pierre Gasly",
+      "AlphaTauri Honda"
+    ],
+    [
+      "12",
+      "63",
+      "George Russell",
+      "Williams Mercedes"
+    ],
+    [
+      "13",
+      "7",
+      "Kimi Räikkönen",
+      "Alfa Romeo Racing Ferrari"
+    ],
+    [
+      "14",
+      "18",
+      "Lance Stroll",
+      "Aston Martin Mercedes"
+    ],
+    [
+      "15",
+      "99",
+      "Antonio Giovinazzi",
+      "Alfa Romeo Racing Ferrari"
+    ],
+    [
+      "16",
+      "22",
+      "Yuki Tsunoda",
+      "AlphaTauri Honda"
+    ],
+    [
+      "17",
+      "6",
+      "Nicholas Latifi",
+      "Williams Mercedes"
+    ],
+    [
+      "18",
+      "47",
+      "Mick Schumacher",
+      "Haas Ferrari"
+    ],
+    [
+      "19",
+      "9",
+      "Nikita Mazepin",
+      "Haas Ferrari"
+    ],
+    [
+      "20",
+      "11",
+      "Sergio Perez",
+      "Red Bull Racing Honda"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

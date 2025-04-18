@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "1:03.003"
+    ],
+    [
+      "2",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing Honda",
+      "1:03.439"
+    ],
+    [
+      "3",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes",
+      "1:03.537"
+    ],
+    [
+      "4",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:03.262"
+    ],
+    [
+      "5",
+      "4",
+      "Lando Norris",
+      "McLaren Renault",
+      "1:04.099"
+    ],
+    [
+      "6",
+      "7",
+      "Kimi Räikkönen",
+      "Alfa Romeo Racing Ferrari",
+      "1:04.166"
+    ],
+    [
+      "7",
+      "99",
+      "Antonio Giovinazzi",
+      "Alfa Romeo Racing Ferrari",
+      "1:04.179"
+    ],
+    [
+      "8",
+      "10",
+      "Pierre Gasly",
+      "Red Bull Racing Honda",
+      "1:04.199"
+    ],
+    [
+      "9",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      ""
+    ],
+    [
+      "10",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "1:04.072"
+    ],
+    [
+      "11",
+      "8",
+      "Romain Grosjean",
+      "Haas Ferrari",
+      "1:04.490"
+    ],
+    [
+      "12",
+      "3",
+      "Daniel Ricciardo",
+      "Renault",
+      "1:04.790"
+    ],
+    [
+      "13",
+      "11",
+      "Sergio Perez",
+      "Racing Point BWT Mercedes",
+      "1:04.789"
+    ],
+    [
+      "14",
+      "18",
+      "Lance Stroll",
+      "Racing Point BWT Mercedes",
+      "1:04.832"
+    ],
+    [
+      "15",
+      "27",
+      "Nico Hulkenberg",
+      "Renault",
+      "1:04.516"
+    ],
+    [
+      "16",
+      "26",
+      "Daniil Kvyat",
+      "Scuderia Toro Rosso Honda",
+      "1:05.324"
+    ],
+    [
+      "17",
+      "88",
+      "Robert Kubica",
+      "Williams Mercedes",
+      "1:06.206"
+    ],
+    [
+      "18",
+      "23",
+      "Alexander Albon",
+      "Scuderia Toro Rosso Honda",
+      "1:04.665"
+    ],
+    [
+      "19",
+      "55",
+      "Carlos Sainz",
+      "McLaren Renault",
+      "1:13.601"
+    ],
+    [
+      "20",
+      "63",
+      "George Russell",
+      "Williams Mercedes",
+      "1:05.904"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

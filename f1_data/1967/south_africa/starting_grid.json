@@ -1,0 +1,138 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "1",
+      "Jack Brabham",
+      "Brabham Repco",
+      "1:28.300"
+    ],
+    [
+      "2",
+      "2",
+      "Denny Hulme",
+      "Brabham Repco",
+      "1:28.900"
+    ],
+    [
+      "3",
+      "7",
+      "Jim Clark",
+      "Lotus Climax",
+      "1:29.000"
+    ],
+    [
+      "4",
+      "4",
+      "Pedro Rodriguez",
+      "Cooper Maserati",
+      "1:29.100"
+    ],
+    [
+      "5",
+      "17",
+      "John Love",
+      "Cooper Climax",
+      "1:29.500"
+    ],
+    [
+      "6",
+      "11",
+      "John Surtees",
+      "Honda",
+      "1:29.600"
+    ],
+    [
+      "7",
+      "3",
+      "Jochen Rindt",
+      "Cooper Maserati",
+      "1:30.200"
+    ],
+    [
+      "8",
+      "19",
+      "Dave Charlton",
+      "Brabham Climax",
+      "1:30.200"
+    ],
+    [
+      "9",
+      "5",
+      "Jackie Stewart",
+      "BRM",
+      "1:30.300"
+    ],
+    [
+      "10",
+      "14",
+      "Bob Anderson",
+      "Brabham Climax",
+      "1:30.600"
+    ],
+    [
+      "11",
+      "9",
+      "Dan Gurney",
+      "Eagle Climax",
+      "1:30.700"
+    ],
+    [
+      "12",
+      "15",
+      "Jo Bonnier",
+      "Cooper Maserati",
+      "1:31.800"
+    ],
+    [
+      "13",
+      "6",
+      "Mike Spence",
+      "BRM",
+      "1:32.100"
+    ],
+    [
+      "14",
+      "18",
+      "Sam Tingle",
+      "LDS Climax",
+      "1:32.400"
+    ],
+    [
+      "15",
+      "8",
+      "Graham Hill",
+      "Lotus Climax",
+      "1:32.600"
+    ],
+    [
+      "16",
+      "12",
+      "Jo Siffert",
+      "Cooper Maserati",
+      "1:32.800"
+    ],
+    [
+      "17",
+      "20",
+      "Luki  Botha ",
+      "Brabham Climax",
+      "1:33.100"
+    ],
+    [
+      "18",
+      "16",
+      "Piers   Courage",
+      "Lotus BRM",
+      "1:33.800"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "11",
+      "Jacky Ickx",
+      "Brabham Climax",
+      "1:17.400"
+    ],
+    [
+      "2",
+      "18",
+      "Jean-Pierre Beltoise",
+      "Matra Ford",
+      "1:17.900"
+    ],
+    [
+      "3",
+      "2",
+      "Jochen Rindt",
+      "Lotus Ford",
+      "1:17.900"
+    ],
+    [
+      "4",
+      "17",
+      "Jackie Stewart",
+      "Matra Ford",
+      "1:17.900"
+    ],
+    [
+      "5",
+      "5",
+      "Denny Hulme",
+      "McLaren Ford",
+      "1:18.000"
+    ],
+    [
+      "6",
+      "12",
+      "Jack Brabham",
+      "Brabham Climax",
+      "1:18.000"
+    ],
+    [
+      "7",
+      "1",
+      "Graham Hill",
+      "Lotus Ford",
+      "1:18.300"
+    ],
+    [
+      "8",
+      "9",
+      "Jo Siffert",
+      "Lotus Ford",
+      "1:18.500"
+    ],
+    [
+      "9",
+      "4",
+      "Bruce McLaren",
+      "McLaren Ford",
+      "1:18.500"
+    ],
+    [
+      "10",
+      "21",
+      "Piers   Courage",
+      "Brabham Ford",
+      "1:19.500"
+    ],
+    [
+      "11",
+      "3",
+      "John   Miles",
+      "Lotus Ford",
+      "1:20.000"
+    ],
+    [
+      "12",
+      "15",
+      "Jackie Oliver",
+      "BRM",
+      "1:20.200"
+    ],
+    [
+      "13",
+      "6",
+      "Pedro Rodriguez",
+      "Ferrari",
+      "1:20.500"
+    ],
+    [
+      "14",
+      "14",
+      "John Surtees",
+      "BRM",
+      "1:20.600"
+    ],
+    [
+      "15",
+      "19",
+      "Johnny  Servoz-Gavin ",
+      "Matra Ford",
+      "1:21.400"
+    ],
+    [
+      "16",
+      "25",
+      "Pete  Lovely ",
+      "Lotus Ford",
+      "1:22.900"
+    ],
+    [
+      "17",
+      "69",
+      "Al  Pease ",
+      "Eagle Climax",
+      "1:28.500"
+    ],
+    [
+      "18",
+      "16",
+      "Bill   Brack",
+      "BRM",
+      "1:28.700"
+    ],
+    [
+      "19",
+      "26",
+      "John  Cordts ",
+      "Brabham Climax",
+      "1:29.700"
+    ],
+    [
+      "20",
+      "20",
+      "Silvio  Moser ",
+      "Brabham Ford",
+      "1:41.400"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

@@ -1,0 +1,212 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time",
+    "Gap",
+    "Laps"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Damon Hill",
+      "Williams Renault",
+      "1:29.694",
+      "",
+      "30"
+    ],
+    [
+      "2",
+      "1",
+      "Michael Schumacher",
+      "Ferrari",
+      "1:29.799",
+      "+0.105s",
+      "30"
+    ],
+    [
+      "3",
+      "3",
+      "Jean Alesi",
+      "Benetton Renault",
+      "1:30.019",
+      "+0.325s",
+      "29"
+    ],
+    [
+      "4",
+      "7",
+      "Mika Hakkinen",
+      "McLaren Mercedes",
+      "1:30.033",
+      "+0.339s",
+      "24"
+    ],
+    [
+      "5",
+      "19",
+      "Mika Salo",
+      "Tyrrell Yamaha",
+      "1:30.140",
+      "+0.446s",
+      "28"
+    ],
+    [
+      "6",
+      "15",
+      "Heinz-Harald Frentzen",
+      "Sauber Ford",
+      "1:30.497",
+      "+0.803s",
+      "30"
+    ],
+    [
+      "7",
+      "11",
+      "Rubens Barrichello",
+      "Jordan Peugeot",
+      "1:30.766",
+      "+1.072s",
+      "28"
+    ],
+    [
+      "8",
+      "8",
+      "David Coulthard",
+      "McLaren Mercedes",
+      "1:30.770",
+      "+1.076s",
+      "30"
+    ],
+    [
+      "9",
+      "4",
+      "Gerhard Berger",
+      "Benetton Renault",
+      "1:30.890",
+      "+1.196s",
+      "30"
+    ],
+    [
+      "10",
+      "9",
+      "Olivier Panis",
+      "Ligier Mugen Honda",
+      "1:31.013",
+      "+1.319s",
+      "28"
+    ],
+    [
+      "11",
+      "6",
+      "Jacques Villeneuve",
+      "Williams Renault",
+      "1:31.082",
+      "+1.388s",
+      "29"
+    ],
+    [
+      "12",
+      "2",
+      "Eddie Irvine",
+      "Ferrari",
+      "1:31.368",
+      "+1.674s",
+      "28"
+    ],
+    [
+      "13",
+      "18",
+      "Ukyo Katayama",
+      "Tyrrell Yamaha",
+      "1:31.408",
+      "+1.714s",
+      "26"
+    ],
+    [
+      "14",
+      "20",
+      "Pedro Lamy",
+      "Minardi Ford",
+      "1:31.811",
+      "+2.117s",
+      "29"
+    ],
+    [
+      "15",
+      "14",
+      "Johnny Herbert",
+      "Sauber Ford",
+      "1:32.038",
+      "+2.344s",
+      "29"
+    ],
+    [
+      "16",
+      "17",
+      "Jos Verstappen",
+      "Footwork Hart",
+      "1:32.084",
+      "+2.390s",
+      "17"
+    ],
+    [
+      "17",
+      "12",
+      "Martin Brundle",
+      "Jordan Peugeot",
+      "1:32.176",
+      "+2.482s",
+      "29"
+    ],
+    [
+      "18",
+      "21",
+      "Tarso Marques",
+      "Minardi Ford",
+      "1:32.359",
+      "+2.665s",
+      "29"
+    ],
+    [
+      "19",
+      "10",
+      "Pedro Diniz",
+      "Ligier Mugen Honda",
+      "1:32.819",
+      "+3.125s",
+      "21"
+    ],
+    [
+      "20",
+      "16",
+      "Ricardo Rosset",
+      "Footwork Hart",
+      "1:32.833",
+      "+3.139s",
+      "25"
+    ],
+    [
+      "21",
+      "23",
+      "Andrea Montermini",
+      "Forti Ford",
+      "1:34.103",
+      "+4.409s",
+      "30"
+    ],
+    [
+      "22",
+      "22",
+      "Luca Badoer",
+      "Forti Ford",
+      "1:35.044",
+      "+5.350s",
+      "30"
+    ]
+  ],
+  "session_name": "Practice 1"
+}

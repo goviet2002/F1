@@ -1,0 +1,180 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "12",
+      "Niki Lauda",
+      "Ferrari",
+      "1:20.290"
+    ],
+    [
+      "2",
+      "11",
+      "Clay Regazzoni",
+      "Ferrari",
+      "1:20.570"
+    ],
+    [
+      "3",
+      "24",
+      "James Hunt",
+      "Hesketh Ford",
+      "1:20.700"
+    ],
+    [
+      "4",
+      "3",
+      "Jody Scheckter",
+      "Tyrrell Ford",
+      "1:20.740"
+    ],
+    [
+      "5",
+      "7",
+      "Carlos Reutemann",
+      "Brabham Ford",
+      "1:20.870"
+    ],
+    [
+      "6",
+      "1",
+      "Emerson Fittipaldi",
+      "McLaren Ford",
+      "1:20.910"
+    ],
+    [
+      "7",
+      "23",
+      "Tony Brise",
+      "Lola Ford",
+      "1:20.940"
+    ],
+    [
+      "8",
+      "2",
+      "Jochen Mass",
+      "McLaren Ford",
+      "1:21.010"
+    ],
+    [
+      "9",
+      "8",
+      "Carlos Pace",
+      "Brabham Ford",
+      "1:21.060"
+    ],
+    [
+      "10",
+      "17",
+      "Jean-Pierre Jarier",
+      "Shadow Matra",
+      "1:21.100"
+    ],
+    [
+      "11",
+      "9",
+      "Vittorio Brambilla",
+      "March Ford",
+      "1:21.140"
+    ],
+    [
+      "12",
+      "16",
+      "Tom Pryce",
+      "Shadow Matra",
+      "1:21.160"
+    ],
+    [
+      "13",
+      "4",
+      "Patrick Depailler",
+      "Tyrrell Ford",
+      "1:21.200"
+    ],
+    [
+      "14",
+      "18",
+      "John Watson",
+      "Surtees Ford",
+      "1:21.230"
+    ],
+    [
+      "15",
+      "21",
+      "Jacques Laffite",
+      "Frank Williams Racing Cars/Williams",
+      "1:21.320"
+    ],
+    [
+      "16",
+      "5",
+      "Ronnie Peterson",
+      "Lotus Ford",
+      "1:21.460"
+    ],
+    [
+      "17",
+      "22",
+      "Alan  Jones",
+      "Lola Ford",
+      "1:22.010"
+    ],
+    [
+      "18",
+      "28",
+      "Mark Donohue",
+      "March Ford",
+      "1:22.330"
+    ],
+    [
+      "19",
+      "20",
+      "Ian Scheckter",
+      "Frank Williams Racing Cars/Williams",
+      "1:22.820"
+    ],
+    [
+      "20",
+      "14",
+      "Bob Evans",
+      "BRM",
+      "1:22.970"
+    ],
+    [
+      "21",
+      "6",
+      "Jacky Ickx",
+      "Lotus Ford",
+      "1:23.200"
+    ],
+    [
+      "22",
+      "31",
+      "Gijs van Lennep",
+      "Ensign Ford",
+      "1:23.300"
+    ],
+    [
+      "23",
+      "10",
+      "Lella Lombardi",
+      "March Ford",
+      "1:23.990"
+    ],
+    [
+      "24",
+      "30",
+      "Wilson Fittipaldi",
+      "Fittipaldi Ford",
+      "1:24.150"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

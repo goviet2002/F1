@@ -1,0 +1,215 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time of day",
+    "Time",
+    "Avg speed"
+  ],
+  "data": [
+    [
+      "1",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "38",
+      "19:15:24",
+      "1:33.411",
+      "208.575"
+    ],
+    [
+      "2",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "36",
+      "19:12:22",
+      "1:33.528",
+      "208.314"
+    ],
+    [
+      "3",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes",
+      "42",
+      "19:22:19",
+      "1:34.209",
+      "206.808"
+    ],
+    [
+      "4",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      "43",
+      "19:24:28",
+      "1:34.895",
+      "205.313"
+    ],
+    [
+      "5",
+      "26",
+      "Daniil Kvyat",
+      "Scuderia Toro Rosso Honda",
+      "40",
+      "19:20:26",
+      "1:34.934",
+      "205.228"
+    ],
+    [
+      "6",
+      "27",
+      "Nico Hulkenberg",
+      "Renault",
+      "14",
+      "18:36:54",
+      "1:35.215",
+      "204.623"
+    ],
+    [
+      "7",
+      "99",
+      "Antonio Giovinazzi",
+      "Alfa Romeo Racing Ferrari",
+      "42",
+      "19:23:29",
+      "1:35.237",
+      "204.575"
+    ],
+    [
+      "8",
+      "10",
+      "Pierre Gasly",
+      "Red Bull Racing Honda",
+      "42",
+      "19:23:08",
+      "1:35.291",
+      "204.460"
+    ],
+    [
+      "9",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing Honda",
+      "47",
+      "19:30:24",
+      "1:35.311",
+      "204.417"
+    ],
+    [
+      "10",
+      "55",
+      "Carlos Sainz",
+      "McLaren Renault",
+      "42",
+      "19:24:19",
+      "1:35.586",
+      "203.829"
+    ],
+    [
+      "11",
+      "7",
+      "Kimi Räikkönen",
+      "Alfa Romeo Racing Ferrari",
+      "45",
+      "19:27:45",
+      "1:35.589",
+      "203.822"
+    ],
+    [
+      "12",
+      "4",
+      "Lando Norris",
+      "McLaren Renault",
+      "14",
+      "18:36:55",
+      "1:35.777",
+      "203.422"
+    ],
+    [
+      "13",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "41",
+      "19:22:00",
+      "1:35.892",
+      "203.178"
+    ],
+    [
+      "14",
+      "11",
+      "Sergio Perez",
+      "Racing Point BWT Mercedes",
+      "51",
+      "19:37:46",
+      "1:36.330",
+      "202.254"
+    ],
+    [
+      "15",
+      "3",
+      "Daniel Ricciardo",
+      "Renault",
+      "42",
+      "19:22:55",
+      "1:36.697",
+      "201.487"
+    ],
+    [
+      "16",
+      "23",
+      "Alexander Albon",
+      "Scuderia Toro Rosso Honda",
+      "39",
+      "19:18:14",
+      "1:36.752",
+      "201.372"
+    ],
+    [
+      "17",
+      "18",
+      "Lance Stroll",
+      "Racing Point BWT Mercedes",
+      "31",
+      "19:05:57",
+      "1:37.037",
+      "200.781"
+    ],
+    [
+      "18",
+      "8",
+      "Romain Grosjean",
+      "Haas Ferrari",
+      "3",
+      "18:19:33",
+      "1:37.262",
+      "200.316"
+    ],
+    [
+      "19",
+      "63",
+      "George Russell",
+      "Williams Mercedes",
+      "14",
+      "18:37:25",
+      "1:37.313",
+      "200.211"
+    ],
+    [
+      "20",
+      "88",
+      "Robert Kubica",
+      "Williams Mercedes",
+      "13",
+      "18:35:42",
+      "1:37.903",
+      "199.005"
+    ]
+  ],
+  "session_name": "Fastest Laps"
+}

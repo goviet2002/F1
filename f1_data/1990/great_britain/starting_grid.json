@@ -1,0 +1,194 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Nigel Mansell",
+      "Ferrari",
+      "1:07.428"
+    ],
+    [
+      "2",
+      "27",
+      "Ayrton Senna",
+      "McLaren Honda",
+      "1:08.071"
+    ],
+    [
+      "3",
+      "28",
+      "Gerhard Berger",
+      "McLaren Honda",
+      "1:08.246"
+    ],
+    [
+      "4",
+      "5",
+      "Thierry Boutsen",
+      "Williams Renault",
+      "1:08.291"
+    ],
+    [
+      "5",
+      "1",
+      "Alain Prost",
+      "Ferrari",
+      "1:08.336"
+    ],
+    [
+      "6",
+      "4",
+      "Jean Alesi",
+      "Tyrrell Ford",
+      "1:08.370"
+    ],
+    [
+      "7",
+      "6",
+      "Riccardo Patrese",
+      "Williams Renault",
+      "1:08.677"
+    ],
+    [
+      "8",
+      "29",
+      "Eric Bernard",
+      "Lola Lamborghini",
+      "1:09.003"
+    ],
+    [
+      "9",
+      "30",
+      "Aguri Suzuki",
+      "Lola Lamborghini",
+      "1:09.243"
+    ],
+    [
+      "10",
+      "16",
+      "Ivan Capelli",
+      "Leyton House Judd",
+      "1:09.308"
+    ],
+    [
+      "11",
+      "20",
+      "Nelson Piquet",
+      "Benetton Ford",
+      "1:09.407"
+    ],
+    [
+      "12",
+      "3",
+      "Satoru Nakajima",
+      "Tyrrell Ford",
+      "1:09.608"
+    ],
+    [
+      "13",
+      "19",
+      "Alessandro Nannini",
+      "Benetton Ford",
+      "1:09.641"
+    ],
+    [
+      "14",
+      "12",
+      "Martin Donnelly",
+      "Lotus Lamborghini",
+      "1:09.741"
+    ],
+    [
+      "15",
+      "15",
+      "Mauricio Gugelmin",
+      "Leyton House Judd",
+      "1:10.044"
+    ],
+    [
+      "16",
+      "11",
+      "Derek Warwick",
+      "Lotus Lamborghini",
+      "1:10.092"
+    ],
+    [
+      "17",
+      "10",
+      "Alex Caffi",
+      "Arrows Ford",
+      "1:10.110"
+    ],
+    [
+      "18",
+      "23",
+      "Pierluigi Martini",
+      "Minardi Ford",
+      "1:10.303"
+    ],
+    [
+      "19",
+      "21",
+      "Emanuele Pirro",
+      "Dallara Ford",
+      "1:10.847"
+    ],
+    [
+      "20",
+      "8",
+      "Stefano Modena",
+      "Brabham Judd",
+      "1:11.070"
+    ],
+    [
+      "21",
+      "25",
+      "Nicola Larini",
+      "Ligier Ford",
+      "1:11.180"
+    ],
+    [
+      "22",
+      "26",
+      "Philippe Alliot",
+      "Ligier Ford",
+      "1:11.215"
+    ],
+    [
+      "23",
+      "22",
+      "Andrea de Cesaris",
+      "Dallara Ford",
+      "1:11.234"
+    ],
+    [
+      "24",
+      "24",
+      "Paolo Barilla",
+      "Minardi Ford",
+      "1:11.387"
+    ],
+    [
+      "25",
+      "9",
+      "Michele Alboreto",
+      "Arrows Ford",
+      "1:11.562"
+    ],
+    [
+      "26",
+      "17",
+      "Gabriele Tarquini",
+      "AGS Ford",
+      "1:11.681"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

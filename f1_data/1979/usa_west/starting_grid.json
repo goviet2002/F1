@@ -1,0 +1,180 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "12",
+      "Gilles Villeneuve",
+      "Ferrari",
+      "1:18.825"
+    ],
+    [
+      "2",
+      "2",
+      "Carlos Reutemann",
+      "Lotus Ford",
+      "1:18.886"
+    ],
+    [
+      "3",
+      "11",
+      "Jody Scheckter",
+      "Ferrari",
+      "1:18.911"
+    ],
+    [
+      "4",
+      "25",
+      "Patrick Depailler",
+      "Ligier Ford",
+      "1:19.025"
+    ],
+    [
+      "5",
+      "26",
+      "Jacques Laffite",
+      "Ligier Ford",
+      "1:19.032"
+    ],
+    [
+      "6",
+      "1",
+      "Mario Andretti",
+      "Lotus Ford",
+      "1:19.454"
+    ],
+    [
+      "7",
+      "4",
+      "Jean-Pierre Jarier",
+      "Tyrrell Ford",
+      "1:19.580"
+    ],
+    [
+      "8",
+      "20",
+      "James Hunt",
+      "Wolf Ford",
+      "1:19.643"
+    ],
+    [
+      "9",
+      "29",
+      "Riccardo Patrese",
+      "Arrows Ford",
+      "1:19.727"
+    ],
+    [
+      "10",
+      "27",
+      "Alan  Jones",
+      "Williams Ford",
+      "1:19.910"
+    ],
+    [
+      "11",
+      "5",
+      "Niki Lauda",
+      "Brabham Ford",
+      "1:20.041"
+    ],
+    [
+      "12",
+      "6",
+      "Nelson Piquet",
+      "Brabham Ford",
+      "1:20.456"
+    ],
+    [
+      "13",
+      "30",
+      "Jochen Mass",
+      "Arrows Ford",
+      "1:20.608"
+    ],
+    [
+      "14",
+      "17",
+      "Jan Lammers",
+      "Shadow Ford",
+      "1:20.740"
+    ],
+    [
+      "15",
+      "28",
+      "Clay Regazzoni",
+      "Williams Ford",
+      "1:20.768"
+    ],
+    [
+      "16",
+      "14",
+      "Emerson Fittipaldi",
+      "Fittipaldi Ford",
+      "1:21.033"
+    ],
+    [
+      "17",
+      "3",
+      "Didier Pironi",
+      "Tyrrell Ford",
+      "1:21.192"
+    ],
+    [
+      "18",
+      "7",
+      "John Watson",
+      "McLaren Ford",
+      "1:21.304"
+    ],
+    [
+      "19",
+      "8",
+      "Patrick Tambay",
+      "McLaren Ford",
+      "1:21.411"
+    ],
+    [
+      "20",
+      "18",
+      "Elio de Angelis",
+      "Shadow Ford",
+      "1:21.961"
+    ],
+    [
+      "21",
+      "9",
+      "Hans-Joachim Stuck",
+      "ATS Ford",
+      "1:22.828"
+    ],
+    [
+      "22",
+      "24",
+      "Arturo Merzario",
+      "Merzario Ford",
+      "1:22.938"
+    ],
+    [
+      "23",
+      "31",
+      "Hector Rebaque",
+      "Lotus Ford",
+      "1:22.990"
+    ],
+    [
+      "24",
+      "22",
+      "Derek Daly",
+      "Ensign Ford",
+      "1:23.888"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

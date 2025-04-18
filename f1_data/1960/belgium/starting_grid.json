@@ -1,0 +1,131 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Jack Brabham",
+      "Cooper Climax",
+      "3:50.000"
+    ],
+    [
+      "2",
+      "38",
+      "Tony Brooks",
+      "Cooper Climax",
+      "3:52.500"
+    ],
+    [
+      "3",
+      "24",
+      "Phil Hill",
+      "Ferrari",
+      "3:53.300"
+    ],
+    [
+      "4",
+      "34",
+      "Olivier  Gendebien",
+      "Cooper Climax",
+      "3:53.500"
+    ],
+    [
+      "5",
+      "10",
+      "Graham Hill",
+      "BRM",
+      "3:54.200"
+    ],
+    [
+      "6",
+      "6",
+      "Jo Bonnier",
+      "BRM",
+      "3:54.800"
+    ],
+    [
+      "7",
+      "14",
+      "Innes Ireland",
+      "Lotus Climax",
+      "3:55.400"
+    ],
+    [
+      "8",
+      "36",
+      "Chris  Bristow ",
+      "Cooper Climax",
+      "3:56.300"
+    ],
+    [
+      "9",
+      "18",
+      "Jim Clark",
+      "Lotus Climax",
+      "3:57.500"
+    ],
+    [
+      "10",
+      "26",
+      "Wolfgang von Trips",
+      "Ferrari",
+      "3:57.800"
+    ],
+    [
+      "11",
+      "8",
+      "Dan Gurney",
+      "BRM",
+      "3:58.300"
+    ],
+    [
+      "12",
+      "22",
+      "Willy Mairesse",
+      "Ferrari",
+      "3:58.900"
+    ],
+    [
+      "13",
+      "4",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "4:00.000"
+    ],
+    [
+      "14",
+      "32",
+      "Lucien Bianchi",
+      "Cooper Climax",
+      "4:00.600"
+    ],
+    [
+      "15",
+      "28",
+      "Lance  Reventlow ",
+      "Scarab",
+      "4:09.700"
+    ],
+    [
+      "16",
+      "16",
+      "Alan  Stacey ",
+      "Lotus Climax",
+      "4:17.600"
+    ],
+    [
+      "17",
+      "30",
+      "Chuck  Daigh ",
+      "Scarab",
+      "4:18.500"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

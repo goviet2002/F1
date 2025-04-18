@@ -1,0 +1,125 @@
+{
+  "header": [
+    "Stops",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time of day",
+    "Time",
+    "Total"
+  ],
+  "data": [
+    [
+      "1",
+      "27",
+      "Patrick Tambay",
+      "Ferrari",
+      "32",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "28",
+      "Rene Arnoux",
+      "Ferrari",
+      "20",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "12",
+      "Nigel Mansell",
+      "Lotus Ford",
+      "29",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "11",
+      "Elio de Angelis",
+      "Lotus Ford",
+      "38",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "2",
+      "Jacques Laffite",
+      "Williams Honda",
+      "35",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "22",
+      "Andrea de Cesaris",
+      "Alfa Romeo",
+      "27",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "6",
+      "Riccardo Patrese",
+      "Brabham BMW",
+      "34",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "23",
+      "Mauro Baldi",
+      "Alfa Romeo",
+      "32",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "5",
+      "Nelson Piquet",
+      "Brabham BMW",
+      "36",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "15",
+      "Alain Prost",
+      "Renault",
+      "27",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "1",
+      "Keke Rosberg",
+      "Williams Honda",
+      "30",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "session_name": "Pit Stop Summary"
+}

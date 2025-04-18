@@ -1,0 +1,145 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "6",
+      "Jacques Villeneuve",
+      "Williams Renault",
+      "1:38.909"
+    ],
+    [
+      "2",
+      "5",
+      "Damon Hill",
+      "Williams Renault",
+      "1:39.370"
+    ],
+    [
+      "3",
+      "1",
+      "Michael Schumacher",
+      "Ferrari",
+      "1:40.071"
+    ],
+    [
+      "4",
+      "4",
+      "Gerhard Berger",
+      "Benetton Renault",
+      "1:40.364"
+    ],
+    [
+      "5",
+      "7",
+      "Mika Hakkinen",
+      "McLaren Mercedes",
+      "1:40.458"
+    ],
+    [
+      "6",
+      "2",
+      "Eddie Irvine",
+      "Ferrari",
+      "1:41.005"
+    ],
+    [
+      "7",
+      "15",
+      "Heinz-Harald Frentzen",
+      "Sauber Ford",
+      "1:41.277"
+    ],
+    [
+      "8",
+      "8",
+      "David Coulthard",
+      "McLaren Mercedes",
+      "1:41.384"
+    ],
+    [
+      "9",
+      "3",
+      "Jean Alesi",
+      "Benetton Renault",
+      "1:41.562"
+    ],
+    [
+      "10",
+      "12",
+      "Martin Brundle",
+      "Jordan Peugeot",
+      "1:41.600"
+    ],
+    [
+      "11",
+      "11",
+      "Rubens Barrichello",
+      "Jordan Peugeot",
+      "1:41.919"
+    ],
+    [
+      "12",
+      "9",
+      "Olivier Panis",
+      "Ligier Mugen Honda",
+      "1:42.206"
+    ],
+    [
+      "13",
+      "14",
+      "Johnny Herbert",
+      "Sauber Ford",
+      "1:42.658"
+    ],
+    [
+      "14",
+      "18",
+      "Ukyo Katayama",
+      "Tyrrell Yamaha",
+      "1:42.711"
+    ],
+    [
+      "15",
+      "19",
+      "Mika Salo",
+      "Tyrrell Yamaha",
+      "1:42.840"
+    ],
+    [
+      "16",
+      "10",
+      "Pedro Diniz",
+      "Ligier Mugen Honda",
+      "1:43.196"
+    ],
+    [
+      "17",
+      "17",
+      "Jos Verstappen",
+      "Footwork Hart",
+      "1:43.383"
+    ],
+    [
+      "18",
+      "20",
+      "Pedro Lamy",
+      "Minardi Ford",
+      "1:44.874"
+    ],
+    [
+      "19",
+      "16",
+      "Ricardo Rosset",
+      "Footwork Hart",
+      "1:45.412"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

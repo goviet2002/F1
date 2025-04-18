@@ -1,0 +1,239 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "27",
+      "Ayrton Senna",
+      "McLaren Honda",
+      "72",
+      "1:52:32.829",
+      "9"
+    ],
+    [
+      "2",
+      "4",
+      "Jean Alesi",
+      "Tyrrell Ford",
+      "72",
+      "+8.685s",
+      "6"
+    ],
+    [
+      "3",
+      "5",
+      "Thierry Boutsen",
+      "Williams Renault",
+      "72",
+      "+54.080s",
+      "4"
+    ],
+    [
+      "4",
+      "20",
+      "Nelson Piquet",
+      "Benetton Ford",
+      "72",
+      "+68.358s",
+      "3"
+    ],
+    [
+      "5",
+      "8",
+      "Stefano Modena",
+      "Brabham Judd",
+      "72",
+      "+69.503s",
+      "2"
+    ],
+    [
+      "6",
+      "3",
+      "Satoru Nakajima",
+      "Tyrrell Ford",
+      "71",
+      "+1 lap",
+      "1"
+    ],
+    [
+      "7",
+      "23",
+      "Pierluigi Martini",
+      "Minardi Ford",
+      "71",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "8",
+      "29",
+      "Eric Bernard",
+      "Lola Lamborghini",
+      "71",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "9",
+      "6",
+      "Riccardo Patrese",
+      "Williams Renault",
+      "71",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "10",
+      "9",
+      "Michele Alboreto",
+      "Arrows Ford",
+      "70",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "11",
+      "19",
+      "Alessandro Nannini",
+      "Benetton Ford",
+      "70",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "12",
+      "10",
+      "Bernd Schneider",
+      "Arrows Ford",
+      "70",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "13",
+      "33",
+      "Roberto Moreno",
+      "Euro Brun Judd",
+      "67",
+      "+5 laps",
+      "0"
+    ],
+    [
+      "14",
+      "15",
+      "Mauricio Gugelmin",
+      "Leyton House Judd",
+      "66",
+      "+6 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "24",
+      "Paolo Barilla",
+      "Minardi Ford",
+      "54",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "30",
+      "Aguri Suzuki",
+      "Lola Lamborghini",
+      "53",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "2",
+      "Nigel Mansell",
+      "Ferrari",
+      "49",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "28",
+      "Gerhard Berger",
+      "McLaren Honda",
+      "44",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "7",
+      "Gregor Foitek",
+      "Brabham Judd",
+      "39",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "14",
+      "Olivier Grouillard",
+      "Osella Ford",
+      "39",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "22",
+      "Andrea de Cesaris",
+      "Dallara Ford",
+      "25",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "1",
+      "Alain Prost",
+      "Ferrari",
+      "21",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "16",
+      "Ivan Capelli",
+      "Leyton House Judd",
+      "20",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "11",
+      "Derek Warwick",
+      "Lotus Lamborghini",
+      "6",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "25",
+      "Nicola Larini",
+      "Ligier Ford",
+      "4",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

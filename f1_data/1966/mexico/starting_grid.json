@@ -1,0 +1,138 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "7",
+      "John Surtees",
+      "Cooper Maserati",
+      "1:53.180"
+    ],
+    [
+      "2",
+      "1",
+      "Jim Clark",
+      "Lotus Climax",
+      "1:53.500"
+    ],
+    [
+      "3",
+      "12",
+      "Richie Ginther",
+      "Honda",
+      "1:53.560"
+    ],
+    [
+      "4",
+      "5",
+      "Jack Brabham",
+      "Brabham Climax",
+      "1:53.950"
+    ],
+    [
+      "5",
+      "8",
+      "Jochen Rindt",
+      "Cooper Maserati",
+      "1:54.190"
+    ],
+    [
+      "6",
+      "6",
+      "Denny Hulme",
+      "Brabham Climax",
+      "1:54.210"
+    ],
+    [
+      "7",
+      "3",
+      "Graham Hill",
+      "BRM",
+      "1:54.610"
+    ],
+    [
+      "8",
+      "11",
+      "Pedro Rodriguez",
+      "Lotus Climax",
+      "1:54.780"
+    ],
+    [
+      "9",
+      "15",
+      "Dan Gurney",
+      "Eagle Climax",
+      "1:54.930"
+    ],
+    [
+      "10",
+      "4",
+      "Jackie Stewart",
+      "BRM",
+      "1:55.900"
+    ],
+    [
+      "11",
+      "19",
+      "Jo Siffert",
+      "Cooper Maserati",
+      "1:55.990"
+    ],
+    [
+      "12",
+      "22",
+      "Jo Bonnier",
+      "Brabham Climax",
+      "1:56.490"
+    ],
+    [
+      "13",
+      "14",
+      "Ronnie Bucknum",
+      "Honda",
+      "1:56.590"
+    ],
+    [
+      "14",
+      "17",
+      "Bruce McLaren",
+      "McLaren Serenissima",
+      "1:56.840"
+    ],
+    [
+      "15",
+      "9",
+      "Moises Solana",
+      "Cooper Maserati",
+      "1:57.440"
+    ],
+    [
+      "16",
+      "10",
+      "Innes Ireland",
+      "BRM",
+      "1:57.460"
+    ],
+    [
+      "17",
+      "2",
+      "Peter  Arundell ",
+      "Lotus Climax",
+      "2:00.790"
+    ],
+    [
+      "18",
+      "16",
+      "Bob Bondurant",
+      "Eagle Climax",
+      "2:02.880"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

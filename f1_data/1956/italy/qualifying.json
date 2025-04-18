@@ -1,0 +1,19 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "22",
+      "Juan Manuel Fangio",
+      "Ferrari",
+      "2:42.600"
+    ]
+  ],
+  "session_name": "Qualifying"
+}

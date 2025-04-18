@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "4",
+      "Juan Manuel Fangio",
+      "Maserati",
+      "4:30.000"
+    ],
+    [
+      "2",
+      "10",
+      "Alberto Ascari",
+      "Ferrari",
+      "4:32.000"
+    ],
+    [
+      "3",
+      "2",
+      "Jose Froilan Gonzalez",
+      "Maserati",
+      "4:32.000"
+    ],
+    [
+      "4",
+      "12",
+      "Nino Farina",
+      "Ferrari",
+      "4:36.000"
+    ],
+    [
+      "5",
+      "8",
+      "Luigi  Villoresi",
+      "Ferrari",
+      "4:39.000"
+    ],
+    [
+      "6",
+      "28",
+      "Onofre Marimon",
+      "Maserati",
+      "4:40.000"
+    ],
+    [
+      "7",
+      "14",
+      "Mike Hawthorn",
+      "Ferrari",
+      "4:42.000"
+    ],
+    [
+      "8",
+      "18",
+      "Maurice  Trintignant",
+      "Gordini",
+      "4:45.000"
+    ],
+    [
+      "9",
+      "30",
+      "Toulo de Graffenried",
+      "Maserati",
+      "4:49.000"
+    ],
+    [
+      "10",
+      "6",
+      "Johnny Claes",
+      "Maserati",
+      "4:50.000"
+    ],
+    [
+      "11",
+      "24",
+      "Paul Frere",
+      "HWM Alta",
+      "4:52.000"
+    ],
+    [
+      "12",
+      "20",
+      "Harry Schell",
+      "Gordini",
+      "4:53.000"
+    ],
+    [
+      "13",
+      "32",
+      "Louis  Rosier",
+      "Ferrari",
+      "4:56.000"
+    ],
+    [
+      "14",
+      "16",
+      "Jean Behra",
+      "Gordini",
+      "4:57.000"
+    ],
+    [
+      "15",
+      "38",
+      "Fred Wacker",
+      "Gordini",
+      "5:03.000"
+    ],
+    [
+      "16",
+      "26",
+      "Peter Collins",
+      "HWM Alta",
+      "5:03.000"
+    ],
+    [
+      "17",
+      "22",
+      "Lance Macklin",
+      "HWM Alta",
+      "5:14.000"
+    ],
+    [
+      "18",
+      "40",
+      "Andre Pilette",
+      "Connaught Lea Francis",
+      "5:23.000"
+    ],
+    [
+      "19",
+      "36",
+      "Arthur Legat",
+      "Veritas",
+      "5:41.000"
+    ],
+    [
+      "20",
+      "34",
+      "Georges Berger",
+      "Simca-Gordini",
+      "5:58.000"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

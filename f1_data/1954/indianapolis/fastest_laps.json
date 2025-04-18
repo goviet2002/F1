@@ -1,0 +1,21 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Jack McGrath",
+      "Kurtis Kraft Offenhauser",
+      "29",
+      "1:04.040"
+    ]
+  ],
+  "session_name": "Fastest Laps"
+}

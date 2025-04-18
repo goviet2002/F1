@@ -1,0 +1,35 @@
+{
+  "header": [
+    "Stops",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time of day",
+    "Time",
+    "Total"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Nelson Piquet",
+      "Brabham BMW",
+      "41",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "1",
+      "Keke Rosberg",
+      "Williams Honda",
+      "29",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "session_name": "Pit Stop Summary"
+}

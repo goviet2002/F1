@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "18",
+      "Juan Manuel Fangio",
+      "Mercedes-Benz",
+      "2:46.500"
+    ],
+    [
+      "2",
+      "16",
+      "Stirling Moss",
+      "Mercedes-Benz",
+      "2:46.800"
+    ],
+    [
+      "3",
+      "20",
+      "Karl Kling",
+      "Mercedes-Benz",
+      "2:48.300"
+    ],
+    [
+      "4",
+      "4",
+      "Eugenio Castellotti",
+      "Lancia",
+      "2:49.600"
+    ],
+    [
+      "6",
+      "36",
+      "Jean Behra",
+      "Maserati",
+      "2:50.100"
+    ],
+    [
+      "7",
+      "28",
+      "Roberto Mieres",
+      "Maserati",
+      "2:51.100"
+    ],
+    [
+      "9",
+      "14",
+      "Piero  Taruffi",
+      "Mercedes-Benz",
+      "2:51.800"
+    ],
+    [
+      "10",
+      "30",
+      "Luigi Musso",
+      "Maserati",
+      "2:52.200"
+    ],
+    [
+      "11",
+      "32",
+      "Peter Collins",
+      "Maserati",
+      "2:55.300"
+    ],
+    [
+      "12",
+      "12",
+      "Umberto  Maglioli",
+      "Lancia",
+      "2:55.400"
+    ],
+    [
+      "13",
+      "42",
+      "Harry Schell",
+      "Vanwall",
+      "2:55.500"
+    ],
+    [
+      "14",
+      "6",
+      "Mike Hawthorn",
+      "Lancia",
+      "2:56.200"
+    ],
+    [
+      "15",
+      "8",
+      "Maurice  Trintignant",
+      "Lancia",
+      "2:56.300"
+    ],
+    [
+      "16",
+      "34",
+      "Carlos Menditeguy",
+      "Maserati",
+      "2:58.400"
+    ],
+    [
+      "17",
+      "44",
+      "Ken  Wharton",
+      "Vanwall",
+      "2:59.500"
+    ],
+    [
+      "18",
+      "22",
+      "Hermano da Silva Ramos",
+      "Gordini",
+      "2:59.800"
+    ],
+    [
+      "19",
+      "26",
+      "Jacques  Pollet",
+      "Gordini",
+      "2:59.900"
+    ],
+    [
+      "20",
+      "40",
+      "John  Fitch",
+      "Maserati",
+      "3:03.100"
+    ],
+    [
+      "21",
+      "38",
+      "Horace  Gould ",
+      "Maserati",
+      "3:05.200"
+    ],
+    [
+      "22",
+      "24",
+      "Jean  Lucas",
+      "Gordini",
+      "3:15.900"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

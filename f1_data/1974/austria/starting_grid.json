@@ -1,0 +1,187 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "12",
+      "Niki Lauda",
+      "Ferrari",
+      "1:35.400"
+    ],
+    [
+      "2",
+      "7",
+      "Carlos Reutemann",
+      "Brabham Ford",
+      "1:35.560"
+    ],
+    [
+      "3",
+      "5",
+      "Emerson Fittipaldi",
+      "McLaren Ford",
+      "1:35.760"
+    ],
+    [
+      "4",
+      "8",
+      "Carlos Pace",
+      "Brabham Ford",
+      "1:35.910"
+    ],
+    [
+      "5",
+      "3",
+      "Jody Scheckter",
+      "Tyrrell Ford",
+      "1:35.940"
+    ],
+    [
+      "6",
+      "1",
+      "Ronnie Peterson",
+      "Lotus Ford",
+      "1:36.000"
+    ],
+    [
+      "7",
+      "24",
+      "James Hunt",
+      "March Ford",
+      "1:36.110"
+    ],
+    [
+      "8",
+      "11",
+      "Clay Regazzoni",
+      "Ferrari",
+      "1:36.310"
+    ],
+    [
+      "9",
+      "20",
+      "Arturo Merzario",
+      "Iso Marlboro Ford",
+      "1:36.350"
+    ],
+    [
+      "10",
+      "6",
+      "Denny Hulme",
+      "McLaren Ford",
+      "1:36.390"
+    ],
+    [
+      "11",
+      "28",
+      "John Watson",
+      "Brabham Ford",
+      "1:36.520"
+    ],
+    [
+      "12",
+      "21",
+      "Jacques Laffite",
+      "Iso Marlboro Ford",
+      "1:36.860"
+    ],
+    [
+      "13",
+      "27",
+      "Rolf Stommelen",
+      "Lola Ford",
+      "1:37.180"
+    ],
+    [
+      "14",
+      "4",
+      "Patrick Depailler",
+      "Tyrrell Ford",
+      "1:37.250"
+    ],
+    [
+      "15",
+      "9",
+      "Hans-Joachim Stuck",
+      "March Ford",
+      "1:37.370"
+    ],
+    [
+      "16",
+      "16",
+      "Tom Pryce",
+      "Shadow Ford",
+      "1:37.390"
+    ],
+    [
+      "17",
+      "33",
+      "David   Hobbs",
+      "McLaren Ford",
+      "1:37.410"
+    ],
+    [
+      "18",
+      "14",
+      "Jean-Pierre Beltoise",
+      "BRM",
+      "1:37.430"
+    ],
+    [
+      "19",
+      "23",
+      "Tim   Schenken",
+      "Trojan Ford",
+      "1:37.430"
+    ],
+    [
+      "20",
+      "10",
+      "Vittorio Brambilla",
+      "March Ford",
+      "1:37.470"
+    ],
+    [
+      "21",
+      "26",
+      "Graham Hill",
+      "Lola Ford",
+      "1:37.540"
+    ],
+    [
+      "22",
+      "2",
+      "Jacky Ickx",
+      "Lotus Ford",
+      "1:38.090"
+    ],
+    [
+      "23",
+      "17",
+      "Jean-Pierre Jarier",
+      "Shadow Ford",
+      "1:38.170"
+    ],
+    [
+      "24",
+      "35",
+      "Ian Ashley",
+      "Token Ford",
+      "1:38.670"
+    ],
+    [
+      "25",
+      "30",
+      "Dieter  Quester ",
+      "March Ford",
+      "1:38.880"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

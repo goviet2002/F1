@@ -1,0 +1,145 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Alberto Ascari",
+      "Ferrari",
+      "1:51.100"
+    ],
+    [
+      "2",
+      "12",
+      "Juan Manuel Fangio",
+      "Maserati",
+      "1:52.700"
+    ],
+    [
+      "3",
+      "6",
+      "Nino Farina",
+      "Ferrari",
+      "1:53.000"
+    ],
+    [
+      "4",
+      "4",
+      "Luigi  Villoresi",
+      "Ferrari",
+      "1:53.700"
+    ],
+    [
+      "5",
+      "14",
+      "Jose Froilan Gonzalez",
+      "Maserati",
+      "1:54.100"
+    ],
+    [
+      "6",
+      "8",
+      "Mike Hawthorn",
+      "Ferrari",
+      "1:54.900"
+    ],
+    [
+      "7",
+      "18",
+      "Toulo de Graffenried",
+      "Maserati",
+      "1:58.700"
+    ],
+    [
+      "8",
+      "10",
+      "Louis  Rosier",
+      "Ferrari",
+      "1:59.500"
+    ],
+    [
+      "9",
+      "34",
+      "Stirling Moss",
+      "Connaught Lea Francis",
+      "2:00.000"
+    ],
+    [
+      "10",
+      "20",
+      "Harry Schell",
+      "Gordini",
+      "2:00.100"
+    ],
+    [
+      "11",
+      "26",
+      "Roy Salvadori",
+      "Connaught Lea Francis",
+      "2:00.500"
+    ],
+    [
+      "12",
+      "24",
+      "Maurice  Trintignant",
+      "Gordini",
+      "2:01.200"
+    ],
+    [
+      "13",
+      "16",
+      "Felice  Bonetto",
+      "Maserati",
+      "2:01.500"
+    ],
+    [
+      "14",
+      "28",
+      "Kenneth McAlpine",
+      "Connaught Lea Francis",
+      "2:01.900"
+    ],
+    [
+      "15",
+      "38",
+      "Lance Macklin",
+      "HWM Alta",
+      "2:02.400"
+    ],
+    [
+      "16",
+      "36",
+      "Peter Collins",
+      "HWM Alta",
+      "2:03.100"
+    ],
+    [
+      "17",
+      "30",
+      "Johnny Claes",
+      "Connaught Lea Francis",
+      "2:03.900"
+    ],
+    [
+      "18",
+      "32",
+      "Ken  Wharton",
+      "Cooper Bristol",
+      "2:06.400"
+    ],
+    [
+      "19",
+      "22",
+      "Roberto Mieres",
+      "Gordini",
+      "2:08.500"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

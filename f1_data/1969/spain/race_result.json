@@ -1,0 +1,140 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "7",
+      "Jackie Stewart",
+      "Matra Ford",
+      "90",
+      "2:16:53.990",
+      "9"
+    ],
+    [
+      "2",
+      "6",
+      "Bruce McLaren",
+      "McLaren Ford",
+      "88",
+      "+2 laps",
+      "6"
+    ],
+    [
+      "3",
+      "8",
+      "Jean-Pierre Beltoise",
+      "Matra Ford",
+      "87",
+      "+3 laps",
+      "4"
+    ],
+    [
+      "4",
+      "5",
+      "Denny Hulme",
+      "McLaren Ford",
+      "87",
+      "+3 laps",
+      "3"
+    ],
+    [
+      "5",
+      "14",
+      "John Surtees",
+      "BRM",
+      "84",
+      "+6 laps",
+      "2"
+    ],
+    [
+      "6",
+      "4",
+      "Jacky Ickx",
+      "Brabham Ford",
+      "83",
+      "DNF",
+      "1"
+    ],
+    [
+      "NC",
+      "9",
+      "Pedro Rodriguez",
+      "BRM",
+      "73",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "15",
+      "Chris Amon",
+      "Ferrari",
+      "56",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "3",
+      "Jack Brabham",
+      "Brabham Ford",
+      "51",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "10",
+      "Jo Siffert",
+      "Lotus Ford",
+      "30",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "2",
+      "Jochen Rindt",
+      "Lotus Ford",
+      "19",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "11",
+      "Piers   Courage",
+      "Brabham Ford",
+      "18",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "1",
+      "Graham Hill",
+      "Lotus Ford",
+      "8",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "12",
+      "Jackie Oliver",
+      "BRM",
+      "1",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

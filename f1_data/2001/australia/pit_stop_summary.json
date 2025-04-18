@@ -1,0 +1,215 @@
+{
+  "header": [
+    "Stops",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time of day",
+    "Time",
+    "Total"
+  ],
+  "data": [
+    [
+      "1",
+      "14",
+      "Jos Verstappen",
+      "Arrows Asiatech",
+      "14",
+      "14:34:06",
+      "28.519",
+      "28.519"
+    ],
+    [
+      "1",
+      "8",
+      "Jenson Button",
+      "Benetton Renault",
+      "18",
+      "14:41:26",
+      "30.061",
+      "30.061"
+    ],
+    [
+      "1",
+      "7",
+      "Giancarlo Fisichella",
+      "Benetton Renault",
+      "26",
+      "14:53:54",
+      "30.358",
+      "30.358"
+    ],
+    [
+      "1",
+      "21",
+      "Fernando Alonso",
+      "Minardi European",
+      "32",
+      "15:03:14",
+      "28.632",
+      "28.632"
+    ],
+    [
+      "2",
+      "8",
+      "Jenson Button",
+      "Benetton Renault",
+      "32",
+      "15:03:54",
+      "30.919",
+      "1:00.980"
+    ],
+    [
+      "1",
+      "12",
+      "Jarno Trulli",
+      "Jordan Honda",
+      "33",
+      "15:04:17",
+      "32.295",
+      "32.295"
+    ],
+    [
+      "1",
+      "22",
+      "Jean Alesi",
+      "Prost Acer",
+      "35",
+      "15:07:39",
+      "29.025",
+      "29.025"
+    ],
+    [
+      "1",
+      "17",
+      "Kimi Räikkönen",
+      "Sauber Petronas",
+      "36",
+      "15:08:51",
+      "29.246",
+      "29.246"
+    ],
+    [
+      "1",
+      "19",
+      "Luciano Burti",
+      "Jaguar Cosworth",
+      "36",
+      "15:09:09",
+      "30.202",
+      "30.202"
+    ],
+    [
+      "1",
+      "1",
+      "Michael Schumacher",
+      "Ferrari",
+      "37",
+      "15:09:27",
+      "28.717",
+      "28.717"
+    ],
+    [
+      "1",
+      "16",
+      "Nick Heidfeld",
+      "Sauber Petronas",
+      "37",
+      "15:10:12",
+      "28.247",
+      "28.247"
+    ],
+    [
+      "1",
+      "11",
+      "Heinz-Harald Frentzen",
+      "Jordan Honda",
+      "37",
+      "15:10:22",
+      "28.142",
+      "28.142"
+    ],
+    [
+      "2",
+      "14",
+      "Jos Verstappen",
+      "Arrows Asiatech",
+      "38",
+      "15:12:32",
+      "29.084",
+      "57.603"
+    ],
+    [
+      "1",
+      "2",
+      "Rubens Barrichello",
+      "Ferrari",
+      "39",
+      "15:12:46",
+      "28.658",
+      "28.658"
+    ],
+    [
+      "1",
+      "18",
+      "Eddie Irvine",
+      "Jaguar Cosworth",
+      "39",
+      "15:13:49",
+      "28.852",
+      "28.852"
+    ],
+    [
+      "1",
+      "9",
+      "Olivier Panis",
+      "BAR Honda",
+      "40",
+      "15:14:42",
+      "28.763",
+      "28.763"
+    ],
+    [
+      "1",
+      "4",
+      "David Coulthard",
+      "McLaren Mercedes",
+      "41",
+      "15:15:40",
+      "28.516",
+      "28.516"
+    ],
+    [
+      "2",
+      "21",
+      "Fernando Alonso",
+      "Minardi European",
+      "41",
+      "15:18:06",
+      "29.170",
+      "57.802"
+    ],
+    [
+      "2",
+      "18",
+      "Eddie Irvine",
+      "Jaguar Cosworth",
+      "50",
+      "15:31:29",
+      "32.568",
+      "1:01.420"
+    ],
+    [
+      "2",
+      "7",
+      "Giancarlo Fisichella",
+      "Benetton Renault",
+      "50",
+      "15:33:27",
+      "25.972",
+      "56.330"
+    ]
+  ],
+  "session_name": "Pit Stop Summary"
+}

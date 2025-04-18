@@ -1,0 +1,117 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Jochen Rindt",
+      "Lotus Ford",
+      "1:20.850"
+    ],
+    [
+      "2",
+      "4",
+      "Jackie Stewart",
+      "Matra Ford",
+      "1:21.140"
+    ],
+    [
+      "3",
+      "1",
+      "Graham Hill",
+      "Lotus Ford",
+      "1:22.010"
+    ],
+    [
+      "4",
+      "8",
+      "Chris Amon",
+      "Ferrari",
+      "1:22.690"
+    ],
+    [
+      "5",
+      "12",
+      "Jacky Ickx",
+      "Brabham Climax",
+      "1:22.850"
+    ],
+    [
+      "6",
+      "6",
+      "Bruce McLaren",
+      "McLaren Ford",
+      "1:22.870"
+    ],
+    [
+      "7",
+      "7",
+      "Denny Hulme",
+      "McLaren Ford",
+      "1:23.070"
+    ],
+    [
+      "8",
+      "11",
+      "Jack Brabham",
+      "Brabham Climax",
+      "1:23.100"
+    ],
+    [
+      "9",
+      "16",
+      "Piers   Courage",
+      "Brabham Ford",
+      "1:23.360"
+    ],
+    [
+      "10",
+      "10",
+      "Jo Siffert",
+      "Lotus Ford",
+      "1:23.940"
+    ],
+    [
+      "11",
+      "5",
+      "Jean-Pierre Beltoise",
+      "Matra Ford",
+      "1:24.440"
+    ],
+    [
+      "12",
+      "14",
+      "John Surtees",
+      "BRM",
+      "1:25.070"
+    ],
+    [
+      "13",
+      "15",
+      "Jackie Oliver",
+      "BRM",
+      "1:25.110"
+    ],
+    [
+      "14",
+      "17",
+      "Silvio  Moser ",
+      "Brabham Ford",
+      "1:26.500"
+    ],
+    [
+      "15",
+      "18",
+      "Vic  Elford ",
+      "McLaren Ford",
+      "1:28.470"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

@@ -1,0 +1,133 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "David Coulthard",
+      "Williams Renault",
+      "11",
+      "1:46.211"
+    ],
+    [
+      "2",
+      "0",
+      "Damon Hill",
+      "Williams Renault",
+      "9",
+      "1:46.303"
+    ],
+    [
+      "3",
+      "5",
+      "Michael Schumacher",
+      "Benetton Ford",
+      "17",
+      "1:47.103"
+    ],
+    [
+      "4",
+      "28",
+      "Gerhard Berger",
+      "Ferrari",
+      "12",
+      "1:47.544"
+    ],
+    [
+      "5",
+      "8",
+      "Martin Brundle",
+      "McLaren Peugeot",
+      "11",
+      "1:48.329"
+    ],
+    [
+      "6",
+      "6",
+      "Jos Verstappen",
+      "Benetton Ford",
+      "12",
+      "1:49.219"
+    ],
+    [
+      "7",
+      "26",
+      "Olivier Panis",
+      "Ligier Renault",
+      "11",
+      "1:49.253"
+    ],
+    [
+      "8",
+      "25",
+      "Eric Bernard",
+      "Ligier Renault",
+      "8",
+      "1:49.459"
+    ],
+    [
+      "9",
+      "3",
+      "Ukyo Katayama",
+      "Tyrrell Yamaha",
+      "4",
+      "1:49.966"
+    ],
+    [
+      "10",
+      "10",
+      "Gianni Morbidelli",
+      "Footwork Ford",
+      "12",
+      "1:49.981"
+    ],
+    [
+      "11",
+      "9",
+      "Christian Fittipaldi",
+      "Footwork Ford",
+      "13",
+      "1:49.982"
+    ],
+    [
+      "12",
+      "20",
+      "Erik Comas",
+      "Larrousse Ford",
+      "9",
+      "1:50.409"
+    ],
+    [
+      "13",
+      "19",
+      "Olivier Beretta",
+      "Larrousse Ford",
+      "12",
+      "1:50.466"
+    ],
+    [
+      "14",
+      "32",
+      "Jean-Marc Gounon",
+      "Simtek Ford",
+      "17",
+      "1:52.023"
+    ],
+    [
+      "15",
+      "31",
+      "David Brabham",
+      "Simtek Ford",
+      "18",
+      "1:52.364"
+    ]
+  ],
+  "session_name": "Fastest Laps"
+}

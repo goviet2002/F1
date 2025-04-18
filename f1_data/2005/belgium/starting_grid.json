@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "10",
+      "Juan Pablo Montoya",
+      "McLaren Mercedes",
+      "1:46.391"
+    ],
+    [
+      "2",
+      "9",
+      "Kimi Räikkönen",
+      "McLaren Mercedes",
+      "1:46.440"
+    ],
+    [
+      "3",
+      "16",
+      "Jarno Trulli",
+      "Toyota",
+      "1:46.596"
+    ],
+    [
+      "4",
+      "5",
+      "Fernando Alonso",
+      "Renault",
+      "1:46.760"
+    ],
+    [
+      "5",
+      "17",
+      "Ralf Schumacher",
+      "Toyota",
+      "1:47.401"
+    ],
+    [
+      "6",
+      "1",
+      "Michael Schumacher",
+      "Ferrari",
+      "1:47.476"
+    ],
+    [
+      "7",
+      "12",
+      "Felipe Massa",
+      "Sauber Petronas",
+      "1:47.867"
+    ],
+    [
+      "8",
+      "3",
+      "Jenson Button",
+      "BAR Honda",
+      "1:47.978"
+    ],
+    [
+      "9",
+      "7",
+      "Mark Webber",
+      "Williams BMW",
+      "1:48.071"
+    ],
+    [
+      "10",
+      "4",
+      "Takuma Sato",
+      "BAR Honda",
+      "1:48.353"
+    ],
+    [
+      "11",
+      "14",
+      "David Coulthard",
+      "RBR Cosworth",
+      "1:48.508"
+    ],
+    [
+      "12",
+      "2",
+      "Rubens Barrichello",
+      "Ferrari",
+      "1:48.550"
+    ],
+    [
+      "13",
+      "6",
+      "Giancarlo Fisichella",
+      "Renault",
+      "1:46.497"
+    ],
+    [
+      "14",
+      "11",
+      "Jacques Villeneuve",
+      "Sauber Petronas",
+      "1:48.889"
+    ],
+    [
+      "15",
+      "8",
+      "Antonio Pizzonia",
+      "Williams BMW",
+      "1:48.898"
+    ],
+    [
+      "16",
+      "15",
+      "Christian Klien",
+      "RBR Cosworth",
+      "1:48.994"
+    ],
+    [
+      "17",
+      "20",
+      "Robert Doornbos",
+      "Minardi Cosworth",
+      "1:49.779"
+    ],
+    [
+      "18",
+      "21",
+      "Christijan Albers",
+      "Minardi Cosworth",
+      "1:49.842"
+    ],
+    [
+      "19",
+      "18",
+      "Tiago Monteiro",
+      "Jordan Toyota",
+      "1:51.498"
+    ],
+    [
+      "20",
+      "19",
+      "Narain Karthikeyan",
+      "Jordan Toyota",
+      "1:51.675"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

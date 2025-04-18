@@ -1,0 +1,180 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "27",
+      "Alan  Jones",
+      "Williams Ford",
+      "1:45.850"
+    ],
+    [
+      "2",
+      "15",
+      "Jean-Pierre Jabouille",
+      "Renault",
+      "1:45.890"
+    ],
+    [
+      "3",
+      "16",
+      "Rene Arnoux",
+      "Renault",
+      "1:46.000"
+    ],
+    [
+      "4",
+      "28",
+      "Carlos Reutemann",
+      "Williams Ford",
+      "1:46.140"
+    ],
+    [
+      "5",
+      "26",
+      "Jacques Laffite",
+      "Ligier Ford",
+      "1:46.780"
+    ],
+    [
+      "6",
+      "5",
+      "Nelson Piquet",
+      "Brabham Ford",
+      "1:46.900"
+    ],
+    [
+      "7",
+      "25",
+      "Didier Pironi",
+      "Ligier Ford",
+      "1:47.200"
+    ],
+    [
+      "8",
+      "21",
+      "Keke Rosberg",
+      "Fittipaldi Ford",
+      "1:47.640"
+    ],
+    [
+      "9",
+      "11",
+      "Mario Andretti",
+      "Lotus Ford",
+      "1:48.450"
+    ],
+    [
+      "10",
+      "29",
+      "Riccardo Patrese",
+      "Arrows Ford",
+      "1:48.580"
+    ],
+    [
+      "11",
+      "12",
+      "Elio de Angelis",
+      "Lotus Ford",
+      "1:48.590"
+    ],
+    [
+      "12",
+      "20",
+      "Emerson Fittipaldi",
+      "Fittipaldi Ford",
+      "1:48.700"
+    ],
+    [
+      "13",
+      "9",
+      "Marc Surer",
+      "ATS Ford",
+      "1:48.720"
+    ],
+    [
+      "14",
+      "8",
+      "Alain Prost",
+      "McLaren Ford",
+      "1:48.750"
+    ],
+    [
+      "15",
+      "6",
+      "Hector Rebaque",
+      "Brabham Ford",
+      "1:48.780"
+    ],
+    [
+      "16",
+      "2",
+      "Gilles Villeneuve",
+      "Ferrari",
+      "1:48.860"
+    ],
+    [
+      "17",
+      "30",
+      "Jochen Mass",
+      "Arrows Ford",
+      "1:48.930"
+    ],
+    [
+      "18",
+      "31",
+      "Eddie  Cheever",
+      "Osella Ford",
+      "1:49.060"
+    ],
+    [
+      "19",
+      "23",
+      "Bruno Giacomelli",
+      "Alfa Romeo",
+      "1:49.110"
+    ],
+    [
+      "20",
+      "7",
+      "John Watson",
+      "McLaren Ford",
+      "1:49.260"
+    ],
+    [
+      "21",
+      "1",
+      "Jody Scheckter",
+      "Ferrari",
+      "1:49.350"
+    ],
+    [
+      "22",
+      "4",
+      "Derek Daly",
+      "Tyrrell Ford",
+      "1:49.510"
+    ],
+    [
+      "23",
+      "3",
+      "Jean-Pierre Jarier",
+      "Tyrrell Ford",
+      "1:49.520"
+    ],
+    [
+      "24",
+      "14",
+      "Jan Lammers",
+      "Ensign Ford",
+      "1:50.300"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

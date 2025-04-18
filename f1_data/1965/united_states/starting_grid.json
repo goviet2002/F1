@@ -1,0 +1,138 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "3",
+      "Graham Hill",
+      "BRM",
+      "1:11.250"
+    ],
+    [
+      "2",
+      "5",
+      "Jim Clark",
+      "Lotus Climax",
+      "1:11.350"
+    ],
+    [
+      "3",
+      "11",
+      "Richie Ginther",
+      "Honda",
+      "1:11.400"
+    ],
+    [
+      "4",
+      "6",
+      "Mike Spence",
+      "Lotus Climax",
+      "1:11.500"
+    ],
+    [
+      "5",
+      "2",
+      "Lorenzo Bandini",
+      "Ferrari",
+      "1:11.730"
+    ],
+    [
+      "6",
+      "4",
+      "Jackie Stewart",
+      "BRM",
+      "1:11.760"
+    ],
+    [
+      "7",
+      "7",
+      "Jack Brabham",
+      "Brabham Climax",
+      "1:12.200"
+    ],
+    [
+      "8",
+      "8",
+      "Dan Gurney",
+      "Brabham Climax",
+      "1:12.250"
+    ],
+    [
+      "9",
+      "9",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "1:12.450"
+    ],
+    [
+      "10",
+      "15",
+      "Jo Bonnier",
+      "Brabham Climax",
+      "1:12.450"
+    ],
+    [
+      "11",
+      "16",
+      "Jo Siffert",
+      "Brabham Climax",
+      "1:12.500"
+    ],
+    [
+      "12",
+      "12",
+      "Ronnie Bucknum",
+      "Honda",
+      "1:12.700"
+    ],
+    [
+      "13",
+      "10",
+      "Jochen Rindt",
+      "Cooper Climax",
+      "1:12.900"
+    ],
+    [
+      "14",
+      "24",
+      "Bob Bondurant",
+      "Ferrari",
+      "1:12.900"
+    ],
+    [
+      "15",
+      "14",
+      "Pedro Rodriguez",
+      "Ferrari",
+      "1:13.000"
+    ],
+    [
+      "16",
+      "21",
+      "Richard Attwood",
+      "Lotus BRM",
+      "1:13.700"
+    ],
+    [
+      "17",
+      "18",
+      "Moises Solana",
+      "Lotus Climax",
+      "1:13.700"
+    ],
+    [
+      "18",
+      "22",
+      "Innes Ireland",
+      "Lotus BRM",
+      "1:15.000"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

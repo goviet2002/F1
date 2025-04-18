@@ -1,0 +1,229 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "15",
+      "Gabriele Tarquini",
+      "Fondmetal Ford",
+      "1:45.518"
+    ],
+    [
+      "1",
+      "5",
+      "Nigel Mansell",
+      "Williams Renault",
+      "1:37.960"
+    ],
+    [
+      "2",
+      "6",
+      "Riccardo Patrese",
+      "Williams Renault",
+      "1:38.310"
+    ],
+    [
+      "2",
+      "29",
+      "Bertrand Gachot",
+      "Venturi Lamborghini",
+      "1:45.766"
+    ],
+    [
+      "3",
+      "30",
+      "Ukyo Katayama",
+      "Venturi Lamborghini",
+      "1:46.599"
+    ],
+    [
+      "3",
+      "1",
+      "Ayrton Senna",
+      "McLaren Honda",
+      "1:39.106"
+    ],
+    [
+      "4",
+      "2",
+      "Gerhard Berger",
+      "McLaren Honda",
+      "1:39.716"
+    ],
+    [
+      "4",
+      "14",
+      "Andrea Chiesa",
+      "Fondmetal Ford",
+      "1:48.502"
+    ],
+    [
+      "5",
+      "34",
+      "Roberto Moreno",
+      "Moda Judd",
+      "1:48.878"
+    ],
+    [
+      "5",
+      "27",
+      "Jean Alesi",
+      "Ferrari",
+      "1:40.959"
+    ],
+    [
+      "6",
+      "19",
+      "Michael Schumacher",
+      "Benetton Ford",
+      "1:41.132"
+    ],
+    [
+      "7",
+      "26",
+      "Erik Comas",
+      "Ligier Renault",
+      "1:41.942"
+    ],
+    [
+      "8",
+      "25",
+      "Thierry Boutsen",
+      "Ligier Renault",
+      "1:42.112"
+    ],
+    [
+      "9",
+      "20",
+      "Martin Brundle",
+      "Benetton Ford",
+      "1:42.136"
+    ],
+    [
+      "10",
+      "16",
+      "Karl Wendlinger",
+      "March Ilmor",
+      "1:42.357"
+    ],
+    [
+      "11",
+      "12",
+      "Johnny Herbert",
+      "Lotus Ford",
+      "1:42.645"
+    ],
+    [
+      "12",
+      "28",
+      "Ivan Capelli",
+      "Ferrari",
+      "1:42.748"
+    ],
+    [
+      "13",
+      "11",
+      "Mika Hakkinen",
+      "Lotus Ford",
+      "1:42.749"
+    ],
+    [
+      "14",
+      "3",
+      "Olivier Grouillard",
+      "Tyrrell Ilmor",
+      "1:42.797"
+    ],
+    [
+      "15",
+      "10",
+      "Aguri Suzuki",
+      "Footwork Mugen Honda",
+      "1:42.838"
+    ],
+    [
+      "17",
+      "9",
+      "Michele Alboreto",
+      "Footwork Mugen Honda",
+      "1:43.171"
+    ],
+    [
+      "18",
+      "22",
+      "Pierluigi Martini",
+      "Dallara Ferrari",
+      "1:43.556"
+    ],
+    [
+      "20",
+      "4",
+      "Andrea de Cesaris",
+      "Tyrrell Ilmor",
+      "1:43.790"
+    ],
+    [
+      "21",
+      "21",
+      "Jyrki Jarvilehto",
+      "Dallara Ferrari",
+      "1:43.931"
+    ],
+    [
+      "22",
+      "17",
+      "Paul Belmondo",
+      "March Ilmor",
+      "1:44.130"
+    ],
+    [
+      "23",
+      "33",
+      "Mauricio Gugelmin",
+      "Jordan Yamaha",
+      "1:44.521"
+    ],
+    [
+      "24",
+      "23",
+      "Alessandro Zanardi",
+      "Minardi Lamborghini",
+      "1:44.593"
+    ],
+    [
+      "26",
+      "24",
+      "Gianni Morbidelli",
+      "Minardi Lamborghini",
+      "1:44.763"
+    ],
+    [
+      "27",
+      "32",
+      "Stefano Modena",
+      "Jordan Yamaha",
+      "1:45.088"
+    ],
+    [
+      "28",
+      "7",
+      "Eric van de Poele",
+      "Brabham Judd",
+      "1:45.098"
+    ],
+    [
+      "30",
+      "8",
+      "Damon Hill",
+      "Brabham Judd",
+      "1:45.871"
+    ]
+  ],
+  "session_name": "Overall Qualifying"
+}

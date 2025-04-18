@@ -1,0 +1,185 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "18",
+      "Jim Clark",
+      "Lotus Climax",
+      "53",
+      "2:10:54.300",
+      "9"
+    ],
+    [
+      "2",
+      "12",
+      "Tony Maggs",
+      "Cooper Climax",
+      "53",
+      "+64.900s",
+      "6"
+    ],
+    [
+      "3",
+      "2",
+      "Graham Hill",
+      "BRM",
+      "53",
+      "+133.900s",
+      "0"
+    ],
+    [
+      "4",
+      "6",
+      "Jack Brabham",
+      "Brabham Climax",
+      "53",
+      "+135.200s",
+      "3"
+    ],
+    [
+      "5",
+      "8",
+      "Dan Gurney",
+      "Brabham Climax",
+      "53",
+      "+153.400s",
+      "2"
+    ],
+    [
+      "6",
+      "36",
+      "Jo Siffert",
+      "Lotus BRM",
+      "52",
+      "+1 lap",
+      "1"
+    ],
+    [
+      "7",
+      "30",
+      "Chris Amon",
+      "Lola Climax",
+      "51",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "8",
+      "28",
+      "Maurice  Trintignant",
+      "Lotus Climax",
+      "50",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "9",
+      "32",
+      "Innes Ireland",
+      "BRP BRM",
+      "49",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "10",
+      "46",
+      "Lorenzo Bandini",
+      "BRM",
+      "45",
+      "+8 laps",
+      "0"
+    ],
+    [
+      "11",
+      "34",
+      "Jim  Hall ",
+      "Lotus BRM",
+      "45",
+      "+8 laps",
+      "0"
+    ],
+    [
+      "12",
+      "10",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "42",
+      "DNF",
+      "0"
+    ],
+    [
+      "13",
+      "20",
+      "Trevor  Taylor ",
+      "Lotus Climax",
+      "41",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "42",
+      "Phil Hill",
+      "Lotus BRM",
+      "34",
+      "DNC",
+      "0"
+    ],
+    [
+      "NC",
+      "44",
+      "Jo Bonnier",
+      "Cooper Climax",
+      "32",
+      "DNC",
+      "0"
+    ],
+    [
+      "NC",
+      "48",
+      "Masten Gregory",
+      "Lotus BRM",
+      "30",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "16",
+      "John Surtees",
+      "Ferrari",
+      "12",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "38",
+      "Tony  Settember ",
+      "Scirocco BRM",
+      "5",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "4",
+      "Richie Ginther",
+      "BRM",
+      "4",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

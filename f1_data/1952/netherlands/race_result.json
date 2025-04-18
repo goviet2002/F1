@@ -1,0 +1,185 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Alberto Ascari",
+      "Ferrari",
+      "90",
+      "2:53:28.500",
+      "9"
+    ],
+    [
+      "2",
+      "4",
+      "Nino Farina",
+      "Ferrari",
+      "90",
+      "+40.100s",
+      "6"
+    ],
+    [
+      "3",
+      "6",
+      "Luigi  Villoresi",
+      "Ferrari",
+      "90",
+      "+94.400s",
+      "4"
+    ],
+    [
+      "4",
+      "32",
+      "Mike Hawthorn",
+      "Cooper Bristol",
+      "88",
+      "+2 laps",
+      "3"
+    ],
+    [
+      "5",
+      "10",
+      "Robert  Manzon",
+      "Gordini",
+      "87",
+      "+3 laps",
+      "2"
+    ],
+    [
+      "6",
+      "12",
+      "Maurice  Trintignant",
+      "Gordini",
+      "87",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "7",
+      "28",
+      "Duncan  Hamilton ",
+      "HWM Alta",
+      "85",
+      "+5 laps",
+      "0"
+    ],
+    [
+      "8",
+      "26",
+      "Lance Macklin",
+      "HWM Alta",
+      "84",
+      "+6 laps",
+      "0"
+    ],
+    [
+      "9",
+      "16",
+      "Chico Landi",
+      "Maserati",
+      "",
+      "SHC",
+      "0"
+    ],
+    [
+      "9",
+      "16",
+      "Jan Flinterman",
+      "Maserati",
+      "83",
+      "+7 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "34",
+      "Ken  Wharton",
+      "Frazer Nash",
+      "76",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "36",
+      "Stirling Moss",
+      "ERA Bristol",
+      "73",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "30",
+      "Dries van der Lof ",
+      "HWM Alta",
+      "70",
+      "DNC",
+      "0"
+    ],
+    [
+      "NC",
+      "22",
+      "Ken  Downing",
+      "Connaught Lea Francis",
+      "27",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "24",
+      "Charles de Tornaco",
+      "Ferrari",
+      "19",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "14",
+      "Paul Frere",
+      "Simca-Gordini",
+      "15",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "8",
+      "Jean Behra",
+      "Gordini",
+      "10",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Jan Flinterman",
+      "Maserati",
+      "7",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "18",
+      "Gino Bianco",
+      "Maserati",
+      "4",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

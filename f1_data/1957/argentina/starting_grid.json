@@ -1,0 +1,110 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "4",
+      "Stirling Moss",
+      "Maserati",
+      "1:42.600"
+    ],
+    [
+      "2",
+      "2",
+      "Juan Manuel Fangio",
+      "Maserati",
+      "1:43.700"
+    ],
+    [
+      "3",
+      "6",
+      "Jean Behra",
+      "Maserati",
+      "1:44.000"
+    ],
+    [
+      "4",
+      "14",
+      "Eugenio Castellotti",
+      "Lanica Ferrari",
+      "1:44.200"
+    ],
+    [
+      "5",
+      "10",
+      "Peter Collins",
+      "Lanica Ferrari",
+      "1:44.600"
+    ],
+    [
+      "6",
+      "12",
+      "Luigi Musso",
+      "Lanica Ferrari",
+      "1:44.800"
+    ],
+    [
+      "7",
+      "16",
+      "Mike Hawthorn",
+      "Lanica Ferrari",
+      "1:44.800"
+    ],
+    [
+      "8",
+      "8",
+      "Carlos Menditeguy",
+      "Maserati",
+      "1:45.100"
+    ],
+    [
+      "9",
+      "22",
+      "Harry Schell",
+      "Maserati",
+      "1:46.400"
+    ],
+    [
+      "10",
+      "20",
+      "Jose Froilan Gonzalez",
+      "Lanica Ferrari",
+      "1:46.800"
+    ],
+    [
+      "11",
+      "18",
+      "Cesare Perdisa",
+      "Lanica Ferrari",
+      "1:48.600"
+    ],
+    [
+      "12",
+      "26",
+      "Alessandro de Tomaso",
+      "Maserati",
+      "1:56.100"
+    ],
+    [
+      "13",
+      "24",
+      "Jo Bonnier",
+      "Maserati",
+      "1:58.200"
+    ],
+    [
+      "14",
+      "28",
+      "Luigi Piotti",
+      "Maserati",
+      "1:58.200"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

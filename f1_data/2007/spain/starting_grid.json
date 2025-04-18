@@ -1,0 +1,166 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Felipe Massa",
+      "Ferrari",
+      "1:21.421"
+    ],
+    [
+      "2",
+      "1",
+      "Fernando Alonso",
+      "McLaren Mercedes",
+      "1:21.451"
+    ],
+    [
+      "3",
+      "6",
+      "Kimi Räikkönen",
+      "Ferrari",
+      "1:21.723"
+    ],
+    [
+      "4",
+      "2",
+      "Lewis Hamilton",
+      "McLaren Mercedes",
+      "1:21.785"
+    ],
+    [
+      "5",
+      "10",
+      "Robert Kubica",
+      "Sauber BMW",
+      "1:22.253"
+    ],
+    [
+      "6",
+      "12",
+      "Jarno Trulli",
+      "Toyota",
+      "1:22.324"
+    ],
+    [
+      "7",
+      "9",
+      "Nick Heidfeld",
+      "Sauber BMW",
+      "1:22.389"
+    ],
+    [
+      "8",
+      "4",
+      "Heikki Kovalainen",
+      "Renault",
+      "1:22.568"
+    ],
+    [
+      "9",
+      "14",
+      "David Coulthard",
+      "Red Bull Renault",
+      "1:22.749"
+    ],
+    [
+      "10",
+      "3",
+      "Giancarlo Fisichella",
+      "Renault",
+      "1:22.881"
+    ],
+    [
+      "11",
+      "16",
+      "Nico Rosberg",
+      "Williams Toyota",
+      "1:21.968"
+    ],
+    [
+      "12",
+      "8",
+      "Rubens Barrichello",
+      "Honda",
+      "1:22.097"
+    ],
+    [
+      "13",
+      "22",
+      "Takuma Sato",
+      "Super Aguri Honda",
+      "1:22.115"
+    ],
+    [
+      "14",
+      "7",
+      "Jenson Button",
+      "Honda",
+      "1:22.120"
+    ],
+    [
+      "15",
+      "23",
+      "Anthony Davidson",
+      "Super Aguri Honda",
+      ""
+    ],
+    [
+      "16",
+      "18",
+      "Vitantonio Liuzzi",
+      "STR Ferrari",
+      ""
+    ],
+    [
+      "17",
+      "11",
+      "Ralf Schumacher",
+      "Toyota",
+      "1:22.666"
+    ],
+    [
+      "18",
+      "17",
+      "Alexander Wurz",
+      "Williams Toyota",
+      "1:22.769"
+    ],
+    [
+      "19",
+      "15",
+      "Mark Webber",
+      "Red Bull Renault",
+      "1:23.398"
+    ],
+    [
+      "20",
+      "20",
+      "Adrian Sutil",
+      "Spyker Ferrari",
+      "1:23.811"
+    ],
+    [
+      "21",
+      "21",
+      "Christijan Albers",
+      "Spyker Ferrari",
+      "1:23.990"
+    ],
+    [
+      "22",
+      "19",
+      "Scott Speed",
+      "STR Ferrari",
+      ""
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

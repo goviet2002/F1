@@ -1,0 +1,212 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "1",
+      "Mika Hakkinen",
+      "McLaren Mercedes",
+      "77",
+      "1:45:33.869",
+      "10"
+    ],
+    [
+      "2",
+      "3",
+      "Michael Schumacher",
+      "Ferrari",
+      "77",
+      "+7.916s",
+      "6"
+    ],
+    [
+      "3",
+      "2",
+      "David Coulthard",
+      "McLaren Mercedes",
+      "77",
+      "+8.454s",
+      "4"
+    ],
+    [
+      "4",
+      "4",
+      "Rubens Barrichello",
+      "Ferrari",
+      "77",
+      "+44.157s",
+      "3"
+    ],
+    [
+      "5",
+      "9",
+      "Ralf Schumacher",
+      "Williams BMW",
+      "77",
+      "+50.437s",
+      "2"
+    ],
+    [
+      "6",
+      "5",
+      "Heinz-Harald Frentzen",
+      "Jordan Mugen Honda",
+      "77",
+      "+68.099s",
+      "1"
+    ],
+    [
+      "7",
+      "6",
+      "Jarno Trulli",
+      "Jordan Mugen Honda",
+      "76",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "8",
+      "7",
+      "Eddie Irvine",
+      "Jaguar Cosworth",
+      "76",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "9",
+      "10",
+      "Jenson Button",
+      "Williams BMW",
+      "76",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "10",
+      "17",
+      "Mika Salo",
+      "Sauber Petronas",
+      "76",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "11",
+      "12",
+      "Alexander Wurz",
+      "Benetton Playlife",
+      "76",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "12",
+      "22",
+      "Jacques Villeneuve",
+      "BAR Honda",
+      "75",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "13",
+      "19",
+      "Jos Verstappen",
+      "Arrows Supertec",
+      "75",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "14",
+      "23",
+      "Ricardo Zonta",
+      "BAR Honda",
+      "75",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "15",
+      "20",
+      "Marc Gene",
+      "Minardi Fondmetal",
+      "74",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "16",
+      "18",
+      "Pedro de la Rosa",
+      "Arrows Supertec",
+      "73",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "21",
+      "Gaston Mazzacane",
+      "Minardi Fondmetal",
+      "68",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "8",
+      "Johnny Herbert",
+      "Jaguar Cosworth",
+      "67",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "16",
+      "Pedro Diniz",
+      "Sauber Petronas",
+      "62",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "11",
+      "Giancarlo Fisichella",
+      "Benetton Playlife",
+      "31",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "15",
+      "Nick Heidfeld",
+      "Prost Peugeot",
+      "22",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "14",
+      "Jean Alesi",
+      "Prost Peugeot",
+      "11",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

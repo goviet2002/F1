@@ -1,0 +1,167 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "18",
+      "Jim Clark",
+      "Lotus Climax",
+      "80",
+      "2:07:35.400",
+      "9"
+    ],
+    [
+      "2",
+      "2",
+      "John Surtees",
+      "Ferrari",
+      "80",
+      "+53.600s",
+      "6"
+    ],
+    [
+      "3",
+      "20",
+      "Peter  Arundell ",
+      "Lotus Climax",
+      "79",
+      "+1 lap",
+      "4"
+    ],
+    [
+      "4",
+      "6",
+      "Graham Hill",
+      "BRM",
+      "79",
+      "+1 lap",
+      "3"
+    ],
+    [
+      "5",
+      "10",
+      "Chris Amon",
+      "Lotus BRM",
+      "79",
+      "+1 lap",
+      "2"
+    ],
+    [
+      "6",
+      "34",
+      "Bob Anderson",
+      "Brabham Climax",
+      "78",
+      "+2 laps",
+      "1"
+    ],
+    [
+      "7",
+      "24",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "78",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "8",
+      "22",
+      "Phil Hill",
+      "Cooper Climax",
+      "76",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "9",
+      "26",
+      "Jo Bonnier",
+      "Brabham Climax",
+      "76",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "10",
+      "32",
+      "Giancarlo Baghetti",
+      "BRM",
+      "74",
+      "+6 laps",
+      "0"
+    ],
+    [
+      "11",
+      "8",
+      "Richie Ginther",
+      "BRM",
+      "64",
+      "+16 laps",
+      "0"
+    ],
+    [
+      "12",
+      "12",
+      "Mike Hailwood",
+      "Lotus BRM",
+      "57",
+      "DNF",
+      "0"
+    ],
+    [
+      "13",
+      "36",
+      "Jo Siffert",
+      "Brabham BRM",
+      "55",
+      "+25 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "14",
+      "Jack Brabham",
+      "Brabham Climax",
+      "44",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "4",
+      "Lorenzo Bandini",
+      "Ferrari",
+      "25",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "16",
+      "Dan Gurney",
+      "Brabham Climax",
+      "23",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "28",
+      "Carel Godin de Beaufort ",
+      "Porsche",
+      "8",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

@@ -1,0 +1,149 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "6",
+      "Graham Hill",
+      "BRM",
+      "100",
+      "2:41:49.700",
+      "9"
+    ],
+    [
+      "2",
+      "5",
+      "Richie Ginther",
+      "BRM",
+      "100",
+      "+4.600s",
+      "6"
+    ],
+    [
+      "3",
+      "7",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "100",
+      "+12.800s",
+      "4"
+    ],
+    [
+      "4",
+      "21",
+      "John Surtees",
+      "Ferrari",
+      "100",
+      "+14.100s",
+      "3"
+    ],
+    [
+      "5",
+      "8",
+      "Tony Maggs",
+      "Cooper Climax",
+      "98",
+      "+2 laps",
+      "2"
+    ],
+    [
+      "6",
+      "10",
+      "Trevor  Taylor ",
+      "Lotus Climax",
+      "98",
+      "+2 laps",
+      "1"
+    ],
+    [
+      "7",
+      "11",
+      "Jo Bonnier",
+      "Cooper Climax",
+      "94",
+      "+6 laps",
+      "0"
+    ],
+    [
+      "8",
+      "9",
+      "Jim Clark",
+      "Lotus Climax",
+      "78",
+      "DNF",
+      "0"
+    ],
+    [
+      "9",
+      "3",
+      "Jack Brabham",
+      "Lotus Climax",
+      "77",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "14",
+      "Innes Ireland",
+      "Lotus BRM",
+      "40",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Willy Mairesse",
+      "Ferrari",
+      "37",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "17",
+      "Maurice  Trintignant",
+      "Lola Climax",
+      "34",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "4",
+      "Dan Gurney",
+      "Brabham Climax",
+      "25",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "12",
+      "Jim  Hall ",
+      "Lotus BRM",
+      "20",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "25",
+      "Jo Siffert",
+      "Lotus BRM",
+      "3",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

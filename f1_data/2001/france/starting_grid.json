@@ -1,0 +1,166 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Ralf Schumacher",
+      "Williams BMW",
+      "1:12.989"
+    ],
+    [
+      "2",
+      "1",
+      "Michael Schumacher",
+      "Ferrari",
+      "1:12.999"
+    ],
+    [
+      "3",
+      "4",
+      "David Coulthard",
+      "McLaren Mercedes",
+      "1:13.186"
+    ],
+    [
+      "4",
+      "3",
+      "Mika Hakkinen",
+      "McLaren Mercedes",
+      "1:13.268"
+    ],
+    [
+      "5",
+      "12",
+      "Jarno Trulli",
+      "Jordan Honda",
+      "1:13.310"
+    ],
+    [
+      "6",
+      "6",
+      "Juan Pablo Montoya",
+      "Williams BMW",
+      "1:13.625"
+    ],
+    [
+      "7",
+      "11",
+      "Heinz-Harald Frentzen",
+      "Jordan Honda",
+      "1:13.815"
+    ],
+    [
+      "8",
+      "2",
+      "Rubens Barrichello",
+      "Ferrari",
+      "1:13.867"
+    ],
+    [
+      "9",
+      "16",
+      "Nick Heidfeld",
+      "Sauber Petronas",
+      "1:14.095"
+    ],
+    [
+      "10",
+      "10",
+      "Jacques Villeneuve",
+      "BAR Honda",
+      "1:14.096"
+    ],
+    [
+      "11",
+      "9",
+      "Olivier Panis",
+      "BAR Honda",
+      "1:14.181"
+    ],
+    [
+      "12",
+      "18",
+      "Eddie Irvine",
+      "Jaguar Cosworth",
+      "1:14.441"
+    ],
+    [
+      "13",
+      "17",
+      "Kimi Räikkönen",
+      "Sauber Petronas",
+      "1:14.536"
+    ],
+    [
+      "14",
+      "19",
+      "Pedro de la Rosa",
+      "Jaguar Cosworth",
+      "1:15.020"
+    ],
+    [
+      "15",
+      "23",
+      "Luciano Burti",
+      "Prost Acer",
+      "1:15.072"
+    ],
+    [
+      "16",
+      "7",
+      "Giancarlo Fisichella",
+      "Benetton Renault",
+      "1:15.220"
+    ],
+    [
+      "17",
+      "8",
+      "Jenson Button",
+      "Benetton Renault",
+      "1:15.420"
+    ],
+    [
+      "18",
+      "14",
+      "Jos Verstappen",
+      "Arrows Asiatech",
+      "1:15.707"
+    ],
+    [
+      "19",
+      "22",
+      "Jean Alesi",
+      "Prost Acer",
+      "1:15.774"
+    ],
+    [
+      "20",
+      "15",
+      "Enrique Bernoldi",
+      "Arrows Asiatech",
+      "1:15.828"
+    ],
+    [
+      "21",
+      "21",
+      "Fernando Alonso",
+      "Minardi European",
+      "1:16.039"
+    ],
+    [
+      "22",
+      "20",
+      "Tarso Marques",
+      "Minardi European",
+      "1:16.500"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

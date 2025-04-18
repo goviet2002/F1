@@ -1,0 +1,248 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Nigel Mansell",
+      "Williams Renault",
+      "65",
+      "1:56:10.674",
+      "10"
+    ],
+    [
+      "2",
+      "19",
+      "Michael Schumacher",
+      "Benetton Ford",
+      "65",
+      "+23.914s",
+      "6"
+    ],
+    [
+      "3",
+      "27",
+      "Jean Alesi",
+      "Ferrari",
+      "65",
+      "+26.462s",
+      "4"
+    ],
+    [
+      "4",
+      "2",
+      "Gerhard Berger",
+      "McLaren Honda",
+      "65",
+      "+80.647s",
+      "3"
+    ],
+    [
+      "5",
+      "9",
+      "Michele Alboreto",
+      "Footwork Mugen Honda",
+      "64",
+      "+1 lap",
+      "2"
+    ],
+    [
+      "6",
+      "22",
+      "Pierluigi Martini",
+      "Dallara Ferrari",
+      "63",
+      "+2 laps",
+      "1"
+    ],
+    [
+      "7",
+      "10",
+      "Aguri Suzuki",
+      "Footwork Mugen Honda",
+      "63",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "8",
+      "16",
+      "Karl Wendlinger",
+      "March Ilmor",
+      "63",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "9",
+      "1",
+      "Ayrton Senna",
+      "McLaren Honda",
+      "62",
+      "DNF",
+      "0"
+    ],
+    [
+      "10",
+      "28",
+      "Ivan Capelli",
+      "Ferrari",
+      "62",
+      "DNF",
+      "0"
+    ],
+    [
+      "11",
+      "23",
+      "Christian Fittipaldi",
+      "Minardi Lamborghini",
+      "61",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "12",
+      "17",
+      "Paul Belmondo",
+      "March Ilmor",
+      "61",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "21",
+      "Jyrki Jarvilehto",
+      "Dallara Ferrari",
+      "56",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "15",
+      "Gabriele Tarquini",
+      "Fondmetal Ford",
+      "56",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "11",
+      "Mika Hakkinen",
+      "Lotus Ford",
+      "56",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "26",
+      "Erik Comas",
+      "Ligier Renault",
+      "55",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "29",
+      "Bertrand Gachot",
+      "Venturi Lamborghini",
+      "35",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "3",
+      "Olivier Grouillard",
+      "Tyrrell Ilmor",
+      "30",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "24",
+      "Gianni Morbidelli",
+      "Minardi Lamborghini",
+      "26",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "33",
+      "Mauricio Gugelmin",
+      "Jordan Yamaha",
+      "24",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "14",
+      "Andrea Chiesa",
+      "Fondmetal Ford",
+      "22",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "6",
+      "Riccardo Patrese",
+      "Williams Renault",
+      "19",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "12",
+      "Johnny Herbert",
+      "Lotus Ford",
+      "13",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "25",
+      "Thierry Boutsen",
+      "Ligier Renault",
+      "11",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Martin Brundle",
+      "Benetton Ford",
+      "4",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "4",
+      "Andrea de Cesaris",
+      "Tyrrell Ilmor",
+      "2",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

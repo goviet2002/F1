@@ -1,0 +1,180 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "12",
+      "Stirling Moss",
+      "Mercedes-Benz",
+      "2:00.400"
+    ],
+    [
+      "2",
+      "10",
+      "Juan Manuel Fangio",
+      "Mercedes-Benz",
+      "2:00.600"
+    ],
+    [
+      "3",
+      "2",
+      "Jean Behra",
+      "Maserati",
+      "2:01.400"
+    ],
+    [
+      "4",
+      "14",
+      "Karl Kling",
+      "Mercedes-Benz",
+      "2:02.000"
+    ],
+    [
+      "5",
+      "50",
+      "Piero  Taruffi",
+      "Mercedes-Benz",
+      "2:03.000"
+    ],
+    [
+      "6",
+      "6",
+      "Roberto Mieres",
+      "Maserati",
+      "2:03.200"
+    ],
+    [
+      "7",
+      "30",
+      "Harry Schell",
+      "Vanwall",
+      "2:03.800"
+    ],
+    [
+      "8",
+      "8",
+      "Andre  Simon",
+      "Maserati",
+      "2:04.000"
+    ],
+    [
+      "9",
+      "4",
+      "Luigi Musso",
+      "Maserati",
+      "2:04.200"
+    ],
+    [
+      "10",
+      "20",
+      "Eugenio Castellotti",
+      "Lancia",
+      "2:05.000"
+    ],
+    [
+      "11",
+      "22",
+      "Robert  Manzon",
+      "Gordini",
+      "2:05.000"
+    ],
+    [
+      "12",
+      "16",
+      "Mike Hawthorn",
+      "Lancia",
+      "2:05.400"
+    ],
+    [
+      "13",
+      "18",
+      "Maurice  Trintignant",
+      "Lancia",
+      "2:05.400"
+    ],
+    [
+      "14",
+      "36",
+      "Tony Rolt",
+      "Connaught Alta",
+      "2:06.600"
+    ],
+    [
+      "15",
+      "28",
+      "Ken  Wharton",
+      "Vanwall",
+      "2:08.400"
+    ],
+    [
+      "16",
+      "46",
+      "Lance Macklin",
+      "Maserati",
+      "2:08.400"
+    ],
+    [
+      "17",
+      "32",
+      "Kenneth McAlpine",
+      "Connaught Alta",
+      "2:09.600"
+    ],
+    [
+      "18",
+      "24",
+      "Hermano da Silva Ramos",
+      "Gordini",
+      "2:10.600"
+    ],
+    [
+      "19",
+      "38",
+      "Leslie Marr",
+      "Connaught Alta",
+      "2:11.600"
+    ],
+    [
+      "20",
+      "44",
+      "Roy Salvadori",
+      "Maserati",
+      "2:11.600"
+    ],
+    [
+      "22",
+      "48",
+      "Horace  Gould ",
+      "Maserati",
+      "2:11.800"
+    ],
+    [
+      "23",
+      "26",
+      "Mike Sparken",
+      "Gordini",
+      "2:12.800"
+    ],
+    [
+      "24",
+      "42",
+      "Peter Collins",
+      "Maserati",
+      "2:13.400"
+    ],
+    [
+      "25",
+      "40",
+      "Jack Brabham",
+      "Cooper Bristol",
+      "2:27.400"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

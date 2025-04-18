@@ -1,0 +1,212 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "46",
+      "Alberto Ascari",
+      "Ferrari",
+      "65",
+      "3:01:34.400",
+      "9"
+    ],
+    [
+      "2",
+      "24",
+      "Nino Farina",
+      "Ferrari",
+      "65",
+      "+72.930s",
+      "6"
+    ],
+    [
+      "3",
+      "26",
+      "Mike Hawthorn",
+      "Ferrari",
+      "65",
+      "+95.960s",
+      "4"
+    ],
+    [
+      "4",
+      "32",
+      "Juan Manuel Fangio",
+      "Maserati",
+      "",
+      "SHC",
+      "1.5"
+    ],
+    [
+      "4",
+      "32",
+      "Felice  Bonetto",
+      "Maserati",
+      "64",
+      "+1 lap",
+      "1.5"
+    ],
+    [
+      "5",
+      "34",
+      "Hermann Lang",
+      "Maserati",
+      "62",
+      "+3 laps",
+      "2"
+    ],
+    [
+      "6",
+      "28",
+      "Luigi  Villoresi",
+      "Ferrari",
+      "62",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "7",
+      "20",
+      "Ken  Wharton",
+      "Cooper Bristol",
+      "62",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "4",
+      "Chico Landi",
+      "Maserati",
+      "54",
+      "DNF",
+      "0"
+    ],
+    [
+      "8",
+      "40",
+      "Max de Terra",
+      "Ferrari",
+      "51",
+      "+14 laps",
+      "0"
+    ],
+    [
+      "9",
+      "18",
+      "Albert Scherrer",
+      "HWM Alta",
+      "49",
+      "+16 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "42",
+      "Toulo de Graffenried",
+      "Maserati",
+      "48",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "36",
+      "Onofre Marimon",
+      "Maserati",
+      "46",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "8",
+      "Maurice  Trintignant",
+      "Gordini",
+      "43",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "6",
+      "Jean Behra",
+      "Gordini",
+      "37",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "30",
+      "Felice  Bonetto",
+      "Maserati",
+      "",
+      "SHC",
+      "0"
+    ],
+    [
+      "NC",
+      "30",
+      "Juan Manuel Fangio",
+      "Maserati",
+      "29",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "16",
+      "Lance Macklin",
+      "HWM Alta",
+      "29",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "38",
+      "Peter Hirt",
+      "Ferrari",
+      "17",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "14",
+      "Paul Frere",
+      "HWM Alta",
+      "1",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "10",
+      "Louis  Rosier",
+      "Ferrari",
+      "0",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "2",
+      "Jacques Swaters",
+      "Ferrari",
+      "0",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

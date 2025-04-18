@@ -1,0 +1,221 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Damon Hill",
+      "Williams Renault",
+      "81",
+      "1:49:15.946",
+      "10"
+    ],
+    [
+      "2",
+      "26",
+      "Olivier Panis",
+      "Ligier Mugen Honda",
+      "79",
+      "+2 laps",
+      "6"
+    ],
+    [
+      "3",
+      "9",
+      "Gianni Morbidelli",
+      "Footwork Hart",
+      "79",
+      "+2 laps",
+      "4"
+    ],
+    [
+      "4",
+      "7",
+      "Mark Blundell",
+      "McLaren Mercedes",
+      "79",
+      "+2 laps",
+      "3"
+    ],
+    [
+      "5",
+      "4",
+      "Mika Salo",
+      "Tyrrell Yamaha",
+      "78",
+      "+3 laps",
+      "2"
+    ],
+    [
+      "6",
+      "23",
+      "Pedro Lamy",
+      "Minardi Ford",
+      "78",
+      "+3 laps",
+      "1"
+    ],
+    [
+      "7",
+      "21",
+      "Pedro Diniz",
+      "Forti Ford",
+      "77",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "8",
+      "16",
+      "Bertrand Gachot",
+      "Pacific Ilmor",
+      "76",
+      "+5 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "3",
+      "Ukyo Katayama",
+      "Tyrrell Yamaha",
+      "70",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "2",
+      "Johnny Herbert",
+      "Benetton Renault",
+      "69",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "15",
+      "Eddie Irvine",
+      "Jordan Peugeot",
+      "62",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "30",
+      "Heinz-Harald Frentzen",
+      "Sauber Ford",
+      "39",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "28",
+      "Gerhard Berger",
+      "Ferrari",
+      "34",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "25",
+      "Martin Brundle",
+      "Ligier Mugen Honda",
+      "29",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "1",
+      "Michael Schumacher",
+      "Benetton Renault",
+      "25",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "27",
+      "Jean Alesi",
+      "Ferrari",
+      "23",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "22",
+      "Roberto Moreno",
+      "Forti Ford",
+      "21",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "14",
+      "Rubens Barrichello",
+      "Jordan Peugeot",
+      "20",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "6",
+      "David Coulthard",
+      "Williams Renault",
+      "19",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "10",
+      "Taki Inoue",
+      "Footwork Hart",
+      "15",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "29",
+      "Karl Wendlinger",
+      "Sauber Ford",
+      "8",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "17",
+      "Andrea Montermini",
+      "Pacific Ilmor",
+      "2",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "24",
+      "Luca Badoer",
+      "Minardi Ford",
+      "0",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

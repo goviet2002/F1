@@ -1,0 +1,194 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes",
+      "18",
+      "27:54.078",
+      "3"
+    ],
+    [
+      "2",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing Honda",
+      "18",
+      "+2.325s",
+      "2"
+    ],
+    [
+      "3",
+      "3",
+      "Daniel Ricciardo",
+      "McLaren Mercedes",
+      "18",
+      "+14.534s",
+      "1"
+    ],
+    [
+      "4",
+      "4",
+      "Lando Norris",
+      "McLaren Mercedes",
+      "18",
+      "+18.835s",
+      "0"
+    ],
+    [
+      "5",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "18",
+      "+20.011s",
+      "0"
+    ],
+    [
+      "6",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "18",
+      "+23.442s",
+      "0"
+    ],
+    [
+      "7",
+      "55",
+      "Carlos Sainz",
+      "Ferrari",
+      "18",
+      "+27.952s",
+      "0"
+    ],
+    [
+      "8",
+      "99",
+      "Antonio Giovinazzi",
+      "Alfa Romeo Racing Ferrari",
+      "18",
+      "+31.089s",
+      "0"
+    ],
+    [
+      "9",
+      "11",
+      "Sergio Perez",
+      "Red Bull Racing Honda",
+      "18",
+      "+31.680s",
+      "0"
+    ],
+    [
+      "10",
+      "18",
+      "Lance Stroll",
+      "Aston Martin Mercedes",
+      "18",
+      "+38.671s",
+      "0"
+    ],
+    [
+      "11",
+      "14",
+      "Fernando Alonso",
+      "Alpine Renault",
+      "18",
+      "+39.795s",
+      "0"
+    ],
+    [
+      "12",
+      "5",
+      "Sebastian Vettel",
+      "Aston Martin Mercedes",
+      "18",
+      "+41.177s",
+      "0"
+    ],
+    [
+      "13",
+      "31",
+      "Esteban Ocon",
+      "Alpine Renault",
+      "18",
+      "+43.373s",
+      "0"
+    ],
+    [
+      "14",
+      "6",
+      "Nicholas Latifi",
+      "Williams Mercedes",
+      "18",
+      "+45.977s",
+      "0"
+    ],
+    [
+      "15",
+      "63",
+      "George Russell",
+      "Williams Mercedes",
+      "18",
+      "+46.821s",
+      "0"
+    ],
+    [
+      "16",
+      "22",
+      "Yuki Tsunoda",
+      "AlphaTauri Honda",
+      "18",
+      "+49.977s",
+      "0"
+    ],
+    [
+      "17",
+      "9",
+      "Nikita Mazepin",
+      "Haas Ferrari",
+      "18",
+      "+62.599s",
+      "0"
+    ],
+    [
+      "18",
+      "88",
+      "Robert Kubica",
+      "Alfa Romeo Racing Ferrari",
+      "18",
+      "+65.096s",
+      "0"
+    ],
+    [
+      "19",
+      "47",
+      "Mick Schumacher",
+      "Haas Ferrari",
+      "18",
+      "+66.154s",
+      "0"
+    ],
+    [
+      "NC",
+      "10",
+      "Pierre Gasly",
+      "AlphaTauri Honda",
+      "0",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Sprint"
+}

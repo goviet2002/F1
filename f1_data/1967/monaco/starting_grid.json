@@ -1,0 +1,124 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "8",
+      "Jack Brabham",
+      "Brabham Repco",
+      "1:27.600"
+    ],
+    [
+      "2",
+      "18",
+      "Lorenzo Bandini",
+      "Ferrari",
+      "1:28.300"
+    ],
+    [
+      "3",
+      "7",
+      "John Surtees",
+      "Honda",
+      "1:28.400"
+    ],
+    [
+      "4",
+      "9",
+      "Denny Hulme",
+      "Brabham Repco",
+      "1:28.800"
+    ],
+    [
+      "5",
+      "12",
+      "Jim Clark",
+      "Lotus Climax",
+      "1:28.800"
+    ],
+    [
+      "6",
+      "10",
+      "Jackie Stewart",
+      "BRM",
+      "1:29.000"
+    ],
+    [
+      "7",
+      "23",
+      "Dan Gurney",
+      "Eagle Climax",
+      "1:29.300"
+    ],
+    [
+      "8",
+      "14",
+      "Graham Hill",
+      "Lotus Climax",
+      "1:29.900"
+    ],
+    [
+      "9",
+      "17",
+      "Jo Siffert",
+      "Cooper Maserati",
+      "1:30.000"
+    ],
+    [
+      "10",
+      "16",
+      "Bruce McLaren",
+      "McLaren BRM",
+      "1:30.000"
+    ],
+    [
+      "11",
+      "2",
+      "Johnny  Servoz-Gavin ",
+      "Matra Ford",
+      "1:30.400"
+    ],
+    [
+      "12",
+      "5",
+      "Mike Spence",
+      "BRM",
+      "1:30.600"
+    ],
+    [
+      "13",
+      "6",
+      "Piers   Courage",
+      "Lotus BRM",
+      "1:30.600"
+    ],
+    [
+      "14",
+      "20",
+      "Chris Amon",
+      "Ferrari",
+      "1:30.700"
+    ],
+    [
+      "15",
+      "4",
+      "Jochen Rindt",
+      "Cooper Maserati",
+      "1:30.800"
+    ],
+    [
+      "16",
+      "11",
+      "Pedro Rodriguez",
+      "Cooper Maserati",
+      "1:32.400"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

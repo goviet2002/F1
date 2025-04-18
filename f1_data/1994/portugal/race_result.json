@@ -1,0 +1,239 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "0",
+      "Damon Hill",
+      "Williams Renault",
+      "71",
+      "1:41:10.165",
+      "10"
+    ],
+    [
+      "2",
+      "2",
+      "David Coulthard",
+      "Williams Renault",
+      "71",
+      "+0.603s",
+      "6"
+    ],
+    [
+      "3",
+      "7",
+      "Mika Hakkinen",
+      "McLaren Peugeot",
+      "71",
+      "+20.193s",
+      "4"
+    ],
+    [
+      "4",
+      "14",
+      "Rubens Barrichello",
+      "Jordan Hart",
+      "71",
+      "+28.003s",
+      "3"
+    ],
+    [
+      "5",
+      "6",
+      "Jos Verstappen",
+      "Benetton Ford",
+      "71",
+      "+29.385s",
+      "2"
+    ],
+    [
+      "6",
+      "8",
+      "Martin Brundle",
+      "McLaren Peugeot",
+      "71",
+      "+52.702s",
+      "1"
+    ],
+    [
+      "7",
+      "15",
+      "Eddie Irvine",
+      "Jordan Hart",
+      "70",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "8",
+      "9",
+      "Christian Fittipaldi",
+      "Footwork Ford",
+      "70",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "9",
+      "10",
+      "Gianni Morbidelli",
+      "Footwork Ford",
+      "70",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "10",
+      "25",
+      "Eric Bernard",
+      "Ligier Renault",
+      "70",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "11",
+      "12",
+      "Johnny Herbert",
+      "Lotus Mugen Honda",
+      "70",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "12",
+      "23",
+      "Pierluigi Martini",
+      "Minardi Ford",
+      "69",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "13",
+      "24",
+      "Michele Alboreto",
+      "Minardi Ford",
+      "69",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "14",
+      "19",
+      "Yannick Dalmas",
+      "Larrousse Ford",
+      "69",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "15",
+      "32",
+      "Jean-Marc Gounon",
+      "Simtek Ford",
+      "67",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "16",
+      "11",
+      "Philippe Adams",
+      "Lotus Mugen Honda",
+      "67",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "4",
+      "Mark Blundell",
+      "Tyrrell Yamaha",
+      "61",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "5",
+      "Jyrki Jarvilehto",
+      "Benetton Ford",
+      "60",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "29",
+      "Andrea de Cesaris",
+      "Sauber Mercedes",
+      "54",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "27",
+      "Jean Alesi",
+      "Ferrari",
+      "38",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "31",
+      "David Brabham",
+      "Simtek Ford",
+      "36",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "30",
+      "Heinz-Harald Frentzen",
+      "Sauber Mercedes",
+      "31",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Erik Comas",
+      "Larrousse Ford",
+      "27",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "3",
+      "Ukyo Katayama",
+      "Tyrrell Yamaha",
+      "26",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "28",
+      "Gerhard Berger",
+      "Ferrari",
+      "7",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

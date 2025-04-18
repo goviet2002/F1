@@ -1,0 +1,75 @@
+{
+  "header": [
+    "Stops",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time of day",
+    "Time",
+    "Total"
+  ],
+  "data": [
+    [
+      "1",
+      "28",
+      "Rene Arnoux",
+      "Ferrari",
+      "29",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "36",
+      "Bruno Giacomelli",
+      "Toleman Hart",
+      "31",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "15",
+      "Alain Prost",
+      "Renault",
+      "19",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "2",
+      "Jacques Laffite",
+      "Williams Honda",
+      "32",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "22",
+      "Andrea de Cesaris",
+      "Alfa Romeo",
+      "29",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "1",
+      "Keke Rosberg",
+      "Williams Honda",
+      "29",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "session_name": "Pit Stop Summary"
+}

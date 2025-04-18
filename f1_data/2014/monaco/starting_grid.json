@@ -1,0 +1,159 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "6",
+      "Nico Rosberg",
+      "Mercedes",
+      "1:15.989"
+    ],
+    [
+      "2",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:16.048"
+    ],
+    [
+      "3",
+      "3",
+      "Daniel Ricciardo",
+      "Red Bull Racing Renault",
+      "1:16.384"
+    ],
+    [
+      "4",
+      "1",
+      "Sebastian Vettel",
+      "Red Bull Racing Renault",
+      "1:16.547"
+    ],
+    [
+      "5",
+      "14",
+      "Fernando Alonso",
+      "Ferrari",
+      "1:16.686"
+    ],
+    [
+      "6",
+      "7",
+      "Kimi Räikkönen",
+      "Ferrari",
+      "1:17.389"
+    ],
+    [
+      "7",
+      "25",
+      "Jean-Eric Vergne",
+      "STR Renault",
+      "1:17.540"
+    ],
+    [
+      "8",
+      "20",
+      "Kevin Magnussen",
+      "McLaren Mercedes",
+      "1:17.555"
+    ],
+    [
+      "9",
+      "26",
+      "Daniil Kvyat",
+      "STR Renault",
+      "1:18.090"
+    ],
+    [
+      "10",
+      "11",
+      "Sergio Perez",
+      "Force India Mercedes",
+      "1:18.327"
+    ],
+    [
+      "11",
+      "27",
+      "Nico Hulkenberg",
+      "Force India Mercedes",
+      "1:17.846"
+    ],
+    [
+      "12",
+      "22",
+      "Jenson Button",
+      "McLaren Mercedes",
+      "1:17.988"
+    ],
+    [
+      "13",
+      "77",
+      "Valtteri Bottas",
+      "Williams Mercedes",
+      "1:18.082"
+    ],
+    [
+      "14",
+      "8",
+      "Romain Grosjean",
+      "Lotus Renault",
+      "1:18.196"
+    ],
+    [
+      "15",
+      "13",
+      "Pastor Maldonado",
+      "Lotus Renault",
+      "1:18.356"
+    ],
+    [
+      "16",
+      "19",
+      "Felipe Massa",
+      "Williams Mercedes",
+      ""
+    ],
+    [
+      "17",
+      "21",
+      "Esteban Gutierrez ",
+      "Sauber Ferrari",
+      "1:18.741"
+    ],
+    [
+      "18",
+      "99",
+      "Adrian Sutil",
+      "Sauber Ferrari",
+      "1:18.745"
+    ],
+    [
+      "19",
+      "4",
+      "Max Chilton",
+      "Marussia Ferrari",
+      "1:19.928"
+    ],
+    [
+      "20",
+      "10",
+      "Kamui Kobayashi",
+      "Caterham Renault",
+      "1:20.133"
+    ],
+    [
+      "21",
+      "17",
+      "Jules Bianchi",
+      "Marussia Ferrari",
+      "1:19.332"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

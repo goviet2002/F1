@@ -1,0 +1,145 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "6",
+      "Nico Rosberg",
+      "Mercedes",
+      "1:40.237"
+    ],
+    [
+      "2",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:40.614"
+    ],
+    [
+      "3",
+      "7",
+      "Kimi Räikkönen",
+      "Ferrari",
+      "1:41.051"
+    ],
+    [
+      "4",
+      "11",
+      "Sergio Perez",
+      "Force India Mercedes",
+      "1:41.184"
+    ],
+    [
+      "5",
+      "3",
+      "Daniel Ricciardo",
+      "Red Bull Racing Renault",
+      "1:41.444"
+    ],
+    [
+      "6",
+      "77",
+      "Valtteri Bottas",
+      "Williams Mercedes",
+      "1:41.656"
+    ],
+    [
+      "7",
+      "27",
+      "Nico Hulkenberg",
+      "Force India Mercedes",
+      "1:41.686"
+    ],
+    [
+      "8",
+      "19",
+      "Felipe Massa",
+      "Williams Mercedes",
+      "1:41.759"
+    ],
+    [
+      "9",
+      "26",
+      "Daniil Kvyat",
+      "Red Bull Racing Renault",
+      "1:41.933"
+    ],
+    [
+      "10",
+      "55",
+      "Carlos Sainz",
+      "STR Renault",
+      "1:42.708"
+    ],
+    [
+      "11",
+      "33",
+      "Max Verstappen",
+      "STR Renault",
+      "1:42.521"
+    ],
+    [
+      "12",
+      "22",
+      "Jenson Button",
+      "McLaren Honda",
+      "1:42.668"
+    ],
+    [
+      "13",
+      "13",
+      "Pastor Maldonado",
+      "Lotus Mercedes",
+      "1:42.807"
+    ],
+    [
+      "14",
+      "12",
+      "Felipe Nasr",
+      "Sauber Ferrari",
+      "1:43.614"
+    ],
+    [
+      "15",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      "1:42.941"
+    ],
+    [
+      "16",
+      "14",
+      "Fernando Alonso",
+      "McLaren Honda",
+      "1:43.187"
+    ],
+    [
+      "17",
+      "9",
+      "Marcus Ericsson",
+      "Sauber Ferrari",
+      "1:43.838"
+    ],
+    [
+      "18",
+      "8",
+      "Romain Grosjean",
+      "Lotus Mercedes",
+      ""
+    ],
+    [
+      "19",
+      "28",
+      "Will Stevens",
+      "Marussia Ferrari",
+      "1:46.297"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

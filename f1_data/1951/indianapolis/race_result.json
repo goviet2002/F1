@@ -1,0 +1,320 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "99",
+      "Lee Wallard",
+      "Kurtis Kraft Offenhauser",
+      "200",
+      "3:57:38.050",
+      "9"
+    ],
+    [
+      "2",
+      "83",
+      "Mike Nazaruk",
+      "Kurtis Kraft Offenhauser",
+      "200",
+      "+107.243s",
+      "6"
+    ],
+    [
+      "3",
+      "9",
+      "Manny Ayulo",
+      "Kurtis Kraft Offenhauser",
+      "200",
+      "",
+      "2"
+    ],
+    [
+      "3",
+      "9",
+      "Jack McGrath",
+      "Kurtis Kraft Offenhauser",
+      "",
+      "SHC",
+      "2"
+    ],
+    [
+      "4",
+      "57",
+      "Andy Linden",
+      "Sherman Offenhauser",
+      "200",
+      "",
+      "3"
+    ],
+    [
+      "5",
+      "52",
+      "Bobby Ball",
+      "Schroeder Offenhauser",
+      "200",
+      "",
+      "2"
+    ],
+    [
+      "6",
+      "1",
+      "Henry Banks",
+      "Moore Offenhauser",
+      "200",
+      "",
+      "0"
+    ],
+    [
+      "7",
+      "68",
+      "Carl Forberg",
+      "Kurtis Kraft Offenhauser",
+      "193",
+      "+7 laps",
+      "0"
+    ],
+    [
+      "8",
+      "27",
+      "Duane Carter",
+      "Deidt Offenhauser",
+      "180",
+      "+20 laps",
+      "0"
+    ],
+    [
+      "9",
+      "5",
+      "Tony  Bettenhausen",
+      "Deidt Offenhauser",
+      "178",
+      "DNF",
+      "0"
+    ],
+    [
+      "10",
+      "18",
+      "Duke Nalon",
+      "Kurtis Kraft Novi",
+      "151",
+      "DNF",
+      "0"
+    ],
+    [
+      "11",
+      "69",
+      "Gene Force",
+      "Kurtis Kraft Offenhauser",
+      "142",
+      "DNF",
+      "0"
+    ],
+    [
+      "12",
+      "25",
+      "Sam Hanks",
+      "Kurtis Kraft Offenhauser",
+      "135",
+      "DNF",
+      "0"
+    ],
+    [
+      "13",
+      "10",
+      "Bill Schindler",
+      "Kurtis Kraft Offenhauser",
+      "129",
+      "DNF",
+      "0"
+    ],
+    [
+      "14",
+      "16",
+      "Mauri  Rose",
+      "Deidt Offenhauser",
+      "126",
+      "DNF",
+      "0"
+    ],
+    [
+      "15",
+      "2",
+      "Walt  Faulkner",
+      "Kuzma Offenhauser",
+      "123",
+      "DNF",
+      "0"
+    ],
+    [
+      "16",
+      "76",
+      "Jimmy Davies",
+      "Pawl Offenhauser",
+      "110",
+      "DNF",
+      "0"
+    ],
+    [
+      "17",
+      "59",
+      "Fred Agabashian",
+      "Kurtis Kraft Offenhauser",
+      "109",
+      "DNF",
+      "0"
+    ],
+    [
+      "18",
+      "73",
+      "Carl Scarborough",
+      "Kurtis Kraft Offenhauser",
+      "100",
+      "DNF",
+      "0"
+    ],
+    [
+      "19",
+      "71",
+      "Bill  Mackey",
+      "Hall Offenhauser",
+      "97",
+      "DNF",
+      "0"
+    ],
+    [
+      "20",
+      "8",
+      "Chuck  Stevenson",
+      "Marchese Offenhauser",
+      "93",
+      "DNF",
+      "0"
+    ],
+    [
+      "21",
+      "3",
+      "Johnnie  Parsons",
+      "Kurtis Kraft Offenhauser",
+      "87",
+      "DNF",
+      "0"
+    ],
+    [
+      "22",
+      "4",
+      "Cecil  Green",
+      "Kurtis Kraft Offenhauser",
+      "80",
+      "DNF",
+      "0"
+    ],
+    [
+      "23",
+      "98",
+      "Troy Ruttman",
+      "Kurtis Kraft Offenhauser",
+      "78",
+      "DNF",
+      "0"
+    ],
+    [
+      "24",
+      "6",
+      "Duke Dinsmore",
+      "Schroeder Offenhauser",
+      "73",
+      "DNF",
+      "0"
+    ],
+    [
+      "25",
+      "32",
+      "Chet  Miller",
+      "Kurtis Kraft Novi",
+      "56",
+      "DNF",
+      "0"
+    ],
+    [
+      "26",
+      "44",
+      "Walt Brown",
+      "Kurtis Kraft Offenhauser",
+      "55",
+      "DNF",
+      "0"
+    ],
+    [
+      "27",
+      "48",
+      "Rodger Ward",
+      "Bromme Offenhauser",
+      "34",
+      "DNF",
+      "0"
+    ],
+    [
+      "28",
+      "23",
+      "Cliff Griffith",
+      "Kurtis Kraft Offenhauser",
+      "30",
+      "DNF",
+      "0"
+    ],
+    [
+      "29",
+      "81",
+      "Bill  Vukovich ",
+      "Trevis Offenhauser",
+      "29",
+      "DNF",
+      "0"
+    ],
+    [
+      "30",
+      "22",
+      "George Connor",
+      "Lesovsky Offenhauser",
+      "29",
+      "DNF",
+      "0"
+    ],
+    [
+      "31",
+      "19",
+      "Mack Hellings",
+      "Deidt Offenhauser",
+      "18",
+      "DNF",
+      "0"
+    ],
+    [
+      "32",
+      "12",
+      "Johnny McDowell",
+      "Maserati-Offenhauser",
+      "15",
+      "DNF",
+      "0"
+    ],
+    [
+      "33",
+      "26",
+      "Joe James",
+      "Watson Offenhauser",
+      "8",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

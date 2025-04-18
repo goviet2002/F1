@@ -1,0 +1,194 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "1",
+      "Jim Clark",
+      "Lotus Climax",
+      "32",
+      "2:27:47.600",
+      "9"
+    ],
+    [
+      "2",
+      "14",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "32",
+      "+294.000s",
+      "6"
+    ],
+    [
+      "3",
+      "18",
+      "Dan Gurney",
+      "Brabham Climax",
+      "31",
+      "+1 lap",
+      "4"
+    ],
+    [
+      "4",
+      "8",
+      "Richie Ginther",
+      "BRM",
+      "31",
+      "+1 lap",
+      "3"
+    ],
+    [
+      "5",
+      "12",
+      "Jo Bonnier",
+      "Cooper Climax",
+      "30",
+      "+2 laps",
+      "2"
+    ],
+    [
+      "6",
+      "29",
+      "Carel Godin de Beaufort ",
+      "Porsche",
+      "30",
+      "+2 laps",
+      "1"
+    ],
+    [
+      "7",
+      "15",
+      "Tony Maggs",
+      "Cooper Climax",
+      "27",
+      "DNF",
+      "0"
+    ],
+    [
+      "8",
+      "24",
+      "Tony  Settember ",
+      "Scirocco BRM",
+      "25",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "9",
+      "John Surtees",
+      "Ferrari",
+      "19",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "7",
+      "Graham Hill",
+      "BRM",
+      "17",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "22",
+      "Lucien Bianchi",
+      "Lola Climax",
+      "17",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "5",
+      "Jim  Hall ",
+      "Lotus BRM",
+      "16",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "28",
+      "Jo Siffert",
+      "Lotus BRM",
+      "16",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "26",
+      "Phil Hill",
+      "ATS",
+      "13",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "17",
+      "Jack Brabham",
+      "Brabham Climax",
+      "12",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "21",
+      "Chris Amon",
+      "Lola Climax",
+      "10",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "4",
+      "Innes Ireland",
+      "BRP BRM",
+      "9",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "27",
+      "Giancarlo Baghetti",
+      "ATS",
+      "7",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "10",
+      "Willy Mairesse",
+      "Ferrari",
+      "7",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "2",
+      "Trevor  Taylor ",
+      "Lotus Climax",
+      "5",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

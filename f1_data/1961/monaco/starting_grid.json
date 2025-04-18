@@ -1,0 +1,124 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "20",
+      "Stirling Moss",
+      "Lotus Climax",
+      "1:39.100"
+    ],
+    [
+      "2",
+      "36",
+      "Richie Ginther",
+      "Ferrari",
+      "1:39.300"
+    ],
+    [
+      "3",
+      "28",
+      "Jim Clark",
+      "Lotus Climax",
+      "1:39.600"
+    ],
+    [
+      "4",
+      "18",
+      "Graham Hill",
+      "BRM Climax",
+      "1:39.600"
+    ],
+    [
+      "5",
+      "38",
+      "Phil Hill",
+      "Ferrari",
+      "1:39.800"
+    ],
+    [
+      "6",
+      "40",
+      "Wolfgang von Trips",
+      "Ferrari",
+      "1:39.800"
+    ],
+    [
+      "7",
+      "26",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "1:39.800"
+    ],
+    [
+      "8",
+      "16",
+      "Tony Brooks",
+      "BRM Climax",
+      "1:40.100"
+    ],
+    [
+      "9",
+      "2",
+      "Jo Bonnier",
+      "Porsche",
+      "1:40.300"
+    ],
+    [
+      "10",
+      "4",
+      "Dan Gurney",
+      "Porsche",
+      "1:40.600"
+    ],
+    [
+      "11",
+      "22",
+      "John Surtees",
+      "Cooper Climax",
+      "1:41.100"
+    ],
+    [
+      "12",
+      "6",
+      "Hans  Herrmann",
+      "Porsche",
+      "1:41.100"
+    ],
+    [
+      "13",
+      "8",
+      "Michael  May ",
+      "Lotus Climax",
+      "1:42.000"
+    ],
+    [
+      "14",
+      "32",
+      "Cliff Allison",
+      "Lotus Climax",
+      "1:42.300"
+    ],
+    [
+      "15",
+      "42",
+      "Maurice  Trintignant",
+      "De Tomaso OSCA",
+      "1:42.400"
+    ],
+    [
+      "16",
+      "24",
+      "Jack Brabham",
+      "Cooper Climax",
+      "1:44.000"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

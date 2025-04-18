@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:20.827"
+    ],
+    [
+      "2",
+      "10",
+      "Pierre Gasly",
+      "AlphaTauri Honda",
+      "1:21.640"
+    ],
+    [
+      "3",
+      "14",
+      "Fernando Alonso",
+      "Alpine Renault",
+      "1:21.670"
+    ],
+    [
+      "4",
+      "4",
+      "Lando Norris",
+      "McLaren Mercedes",
+      "1:21.731"
+    ],
+    [
+      "5",
+      "55",
+      "Carlos Sainz",
+      "Ferrari",
+      "1:21.840"
+    ],
+    [
+      "6",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes",
+      "1:21.478"
+    ],
+    [
+      "7",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing Honda",
+      "1:21.424"
+    ],
+    [
+      "8",
+      "22",
+      "Yuki Tsunoda",
+      "AlphaTauri Honda",
+      "1:21.881"
+    ],
+    [
+      "9",
+      "31",
+      "Esteban Ocon",
+      "Alpine Renault",
+      "1:22.028"
+    ],
+    [
+      "10",
+      "5",
+      "Sebastian Vettel",
+      "Aston Martin Mercedes",
+      "1:22.785"
+    ],
+    [
+      "11",
+      "11",
+      "Sergio Perez",
+      "Red Bull Racing Honda",
+      "1:22.346"
+    ],
+    [
+      "12",
+      "18",
+      "Lance Stroll",
+      "Aston Martin Mercedes",
+      "1:22.460"
+    ],
+    [
+      "13",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "1:22.463"
+    ],
+    [
+      "14",
+      "3",
+      "Daniel Ricciardo",
+      "McLaren Mercedes",
+      "1:22.597"
+    ],
+    [
+      "15",
+      "63",
+      "George Russell",
+      "Williams Mercedes",
+      "1:22.756"
+    ],
+    [
+      "16",
+      "7",
+      "Kimi Räikkönen",
+      "Alfa Romeo Racing Ferrari",
+      "1:23.156"
+    ],
+    [
+      "17",
+      "6",
+      "Nicholas Latifi",
+      "Williams Mercedes",
+      "1:23.213"
+    ],
+    [
+      "18",
+      "99",
+      "Antonio Giovinazzi",
+      "Alfa Romeo Racing Ferrari",
+      "1:23.262"
+    ],
+    [
+      "19",
+      "47",
+      "Mick Schumacher",
+      "Haas Ferrari",
+      "1:23.407"
+    ],
+    [
+      "20",
+      "9",
+      "Nikita Mazepin",
+      "Haas Ferrari",
+      "1:25.859"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

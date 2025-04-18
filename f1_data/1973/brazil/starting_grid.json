@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Ronnie Peterson",
+      "Lotus Ford",
+      "2:30.500"
+    ],
+    [
+      "2",
+      "1",
+      "Emerson Fittipaldi",
+      "Lotus Ford",
+      "2:30.700"
+    ],
+    [
+      "3",
+      "9",
+      "Jacky Ickx",
+      "Ferrari",
+      "2:32.000"
+    ],
+    [
+      "4",
+      "14",
+      "Clay Regazzoni",
+      "BRM",
+      "2:32.400"
+    ],
+    [
+      "5",
+      "7",
+      "Denny Hulme",
+      "McLaren Ford",
+      "2:32.700"
+    ],
+    [
+      "6",
+      "6",
+      "Carlos Pace",
+      "Surtees Ford",
+      "2:32.700"
+    ],
+    [
+      "7",
+      "17",
+      "Carlos Reutemann",
+      "Brabham Ford",
+      "2:32.900"
+    ],
+    [
+      "8",
+      "3",
+      "Jackie Stewart",
+      "Tyrrell Ford",
+      "2:33.300"
+    ],
+    [
+      "9",
+      "4",
+      "Francois  Cevert ",
+      "Tyrrell Ford",
+      "2:33.400"
+    ],
+    [
+      "10",
+      "15",
+      "Jean-Pierre Beltoise",
+      "BRM",
+      "2:33.500"
+    ],
+    [
+      "11",
+      "18",
+      "Wilson Fittipaldi",
+      "Brabham Ford",
+      "2:34.300"
+    ],
+    [
+      "12",
+      "8",
+      "Peter   Revson",
+      "McLaren Ford",
+      "2:34.300"
+    ],
+    [
+      "13",
+      "16",
+      "Niki Lauda",
+      "BRM",
+      "2:35.100"
+    ],
+    [
+      "14",
+      "5",
+      "Mike Hailwood",
+      "Surtees Ford",
+      "2:35.500"
+    ],
+    [
+      "15",
+      "11",
+      "Jean-Pierre Jarier",
+      "March Ford",
+      "2:37.600"
+    ],
+    [
+      "16",
+      "19",
+      "Howden  Ganley ",
+      "Iso Marlboro Ford",
+      "2:37.600"
+    ],
+    [
+      "17",
+      "10",
+      "Arturo Merzario",
+      "Ferrari",
+      "2:37.700"
+    ],
+    [
+      "18",
+      "20",
+      "Nanni  Galli ",
+      "Iso Marlboro Ford",
+      "2:38.700"
+    ],
+    [
+      "19",
+      "12",
+      "Mike  Beuttler ",
+      "March Ford",
+      "2:39.900"
+    ],
+    [
+      "20",
+      "23",
+      "Luiz  Bueno ",
+      "Surtees Ford",
+      "2:42.500"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

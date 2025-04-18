@@ -1,0 +1,181 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "1",
+      "Michael Schumacher",
+      "Benetton Renault",
+      "51",
+      "1:20.218"
+    ],
+    [
+      "2",
+      "5",
+      "Damon Hill",
+      "Williams Renault",
+      "9",
+      "1:20.635"
+    ],
+    [
+      "3",
+      "25",
+      "Martin Brundle",
+      "Ligier Mugen Honda",
+      "60",
+      "1:21.005"
+    ],
+    [
+      "4",
+      "6",
+      "David Coulthard",
+      "Williams Renault",
+      "71",
+      "1:21.235"
+    ],
+    [
+      "5",
+      "27",
+      "Jean Alesi",
+      "Ferrari",
+      "51",
+      "1:21.360"
+    ],
+    [
+      "6",
+      "26",
+      "Olivier Panis",
+      "Ligier Mugen Honda",
+      "7",
+      "1:21.398"
+    ],
+    [
+      "7",
+      "14",
+      "Rubens Barrichello",
+      "Jordan Peugeot",
+      "8",
+      "1:21.455"
+    ],
+    [
+      "8",
+      "15",
+      "Eddie Irvine",
+      "Jordan Peugeot",
+      "54",
+      "1:21.541"
+    ],
+    [
+      "9",
+      "28",
+      "Gerhard Berger",
+      "Ferrari",
+      "8",
+      "1:21.782"
+    ],
+    [
+      "10",
+      "8",
+      "Mika Hakkinen",
+      "McLaren Mercedes",
+      "40",
+      "1:22.058"
+    ],
+    [
+      "11",
+      "30",
+      "Heinz-Harald Frentzen",
+      "Sauber Ford",
+      "70",
+      "1:22.688"
+    ],
+    [
+      "12",
+      "7",
+      "Mark Blundell",
+      "McLaren Mercedes",
+      "45",
+      "1:22.698"
+    ],
+    [
+      "13",
+      "29",
+      "Jean-Christophe Boullion",
+      "Sauber Ford",
+      "46",
+      "1:22.866"
+    ],
+    [
+      "14",
+      "2",
+      "Johnny Herbert",
+      "Benetton Renault",
+      "2",
+      "1:23.080"
+    ],
+    [
+      "15",
+      "4",
+      "Mika Salo",
+      "Tyrrell Yamaha",
+      "50",
+      "1:23.711"
+    ],
+    [
+      "16",
+      "9",
+      "Gianni Morbidelli",
+      "Footwork Hart",
+      "35",
+      "1:24.256"
+    ],
+    [
+      "17",
+      "23",
+      "Pierluigi Martini",
+      "Minardi Ford",
+      "10",
+      "1:24.354"
+    ],
+    [
+      "18",
+      "24",
+      "Luca Badoer",
+      "Minardi Ford",
+      "30",
+      "1:24.546"
+    ],
+    [
+      "19",
+      "17",
+      "Andrea Montermini",
+      "Pacific Ilmor",
+      "39",
+      "1:24.812"
+    ],
+    [
+      "20",
+      "16",
+      "Bertrand Gachot",
+      "Pacific Ilmor",
+      "7",
+      "1:26.158"
+    ],
+    [
+      "21",
+      "22",
+      "Roberto Moreno",
+      "Forti Ford",
+      "7",
+      "1:26.748"
+    ]
+  ],
+  "session_name": "Fastest Laps"
+}

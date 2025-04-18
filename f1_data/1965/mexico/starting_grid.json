@@ -1,0 +1,131 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Jim Clark",
+      "Lotus Climax",
+      "1:56.170"
+    ],
+    [
+      "2",
+      "8",
+      "Dan Gurney",
+      "Brabham Climax",
+      "1:56.240"
+    ],
+    [
+      "3",
+      "11",
+      "Richie Ginther",
+      "Honda",
+      "1:56.480"
+    ],
+    [
+      "4",
+      "7",
+      "Jack Brabham",
+      "Brabham Climax",
+      "1:56.780"
+    ],
+    [
+      "5",
+      "3",
+      "Graham Hill",
+      "BRM",
+      "1:57.060"
+    ],
+    [
+      "6",
+      "6",
+      "Mike Spence",
+      "Lotus Climax",
+      "1:57.220"
+    ],
+    [
+      "7",
+      "2",
+      "Lorenzo Bandini",
+      "Ferrari",
+      "1:57.310"
+    ],
+    [
+      "8",
+      "4",
+      "Jackie Stewart",
+      "BRM",
+      "1:57.530"
+    ],
+    [
+      "9",
+      "18",
+      "Moises Solana",
+      "Lotus Climax",
+      "1:57.550"
+    ],
+    [
+      "10",
+      "12",
+      "Ronnie Bucknum",
+      "Honda",
+      "1:57.880"
+    ],
+    [
+      "11",
+      "16",
+      "Jo Siffert",
+      "Brabham Climax",
+      "1:57.940"
+    ],
+    [
+      "12",
+      "15",
+      "Jo Bonnier",
+      "Brabham Climax",
+      "1:58.220"
+    ],
+    [
+      "13",
+      "14",
+      "Pedro Rodriguez",
+      "Ferrari",
+      "1:59.060"
+    ],
+    [
+      "14",
+      "9",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "1:59.150"
+    ],
+    [
+      "15",
+      "10",
+      "Jochen Rindt",
+      "Cooper Climax",
+      "1:59.300"
+    ],
+    [
+      "16",
+      "21",
+      "Richard Attwood",
+      "Lotus BRM",
+      "2:00.610"
+    ],
+    [
+      "17",
+      "22",
+      "Bob Bondurant",
+      "Lotus BRM",
+      "2:00.800"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

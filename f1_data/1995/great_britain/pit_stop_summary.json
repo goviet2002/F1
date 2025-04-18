@@ -1,0 +1,355 @@
+{
+  "header": [
+    "Stops",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time of day",
+    "Time",
+    "Total"
+  ],
+  "data": [
+    [
+      "1",
+      "21",
+      "Pedro Diniz",
+      "Forti Ford",
+      "6",
+      "14:10:33",
+      "3:17.089",
+      "3:17.089"
+    ],
+    [
+      "1",
+      "22",
+      "Roberto Moreno",
+      "Forti Ford",
+      "10",
+      "14:16:45",
+      "1:13.215",
+      "1:13.215"
+    ],
+    [
+      "1",
+      "26",
+      "Olivier Panis",
+      "Ligier Mugen Honda",
+      "12",
+      "14:18:48",
+      "39.455",
+      "39.455"
+    ],
+    [
+      "2",
+      "21",
+      "Pedro Diniz",
+      "Forti Ford",
+      "10",
+      "14:20:58",
+      "4:23.054",
+      "7:40.143"
+    ],
+    [
+      "1",
+      "6",
+      "David Coulthard",
+      "Williams Renault",
+      "15",
+      "14:23:03",
+      "41.015",
+      "41.015"
+    ],
+    [
+      "1",
+      "14",
+      "Rubens Barrichello",
+      "Jordan Peugeot",
+      "15",
+      "14:23:13",
+      "40.165",
+      "40.165"
+    ],
+    [
+      "1",
+      "27",
+      "Jean Alesi",
+      "Ferrari",
+      "18",
+      "14:27:39",
+      "42.056",
+      "42.056"
+    ],
+    [
+      "1",
+      "17",
+      "Andrea Montermini",
+      "Pacific Ilmor",
+      "17",
+      "14:27:46",
+      "42.161",
+      "42.161"
+    ],
+    [
+      "1",
+      "4",
+      "Mika Salo",
+      "Tyrrell Yamaha",
+      "19",
+      "14:30:17",
+      "40.867",
+      "40.867"
+    ],
+    [
+      "1",
+      "28",
+      "Gerhard Berger",
+      "Ferrari",
+      "20",
+      "14:30:56",
+      "42.890",
+      "42.890"
+    ],
+    [
+      "1",
+      "29",
+      "Jean-Christophe Boullion",
+      "Sauber Ford",
+      "20",
+      "14:31:48",
+      "45.197",
+      "45.197"
+    ],
+    [
+      "1",
+      "2",
+      "Johnny Herbert",
+      "Benetton Renault",
+      "21",
+      "14:32:17",
+      "39.886",
+      "39.886"
+    ],
+    [
+      "2",
+      "14",
+      "Rubens Barrichello",
+      "Jordan Peugeot",
+      "21",
+      "14:32:50",
+      "49.913",
+      "1:30.078"
+    ],
+    [
+      "1",
+      "5",
+      "Damon Hill",
+      "Williams Renault",
+      "22",
+      "14:33:24",
+      "40.303",
+      "40.303"
+    ],
+    [
+      "1",
+      "7",
+      "Mark Blundell",
+      "McLaren Mercedes",
+      "22",
+      "14:34:12",
+      "40.248",
+      "40.248"
+    ],
+    [
+      "1",
+      "16",
+      "Bertrand Gachot",
+      "Pacific Ilmor",
+      "21",
+      "14:34:13",
+      "44.218",
+      "44.218"
+    ],
+    [
+      "2",
+      "26",
+      "Olivier Panis",
+      "Ligier Mugen Honda",
+      "22",
+      "14:34:46",
+      "41.340",
+      "1:20.795"
+    ],
+    [
+      "2",
+      "22",
+      "Roberto Moreno",
+      "Forti Ford",
+      "27",
+      "14:44:17",
+      "47.295",
+      "2:00.510"
+    ],
+    [
+      "1",
+      "9",
+      "Massimiliano Papis",
+      "Footwork Hart",
+      "28",
+      "14:44:48",
+      "46.595",
+      "46.595"
+    ],
+    [
+      "1",
+      "30",
+      "Heinz-Harald Frentzen",
+      "Sauber Ford",
+      "29",
+      "14:45:25",
+      "43.229",
+      "43.229"
+    ],
+    [
+      "1",
+      "1",
+      "Michael Schumacher",
+      "Benetton Renault",
+      "31",
+      "14:47:21",
+      "43.190",
+      "43.190"
+    ],
+    [
+      "1",
+      "23",
+      "Pierluigi Martini",
+      "Minardi Ford",
+      "30",
+      "14:47:49",
+      "45.490",
+      "45.490"
+    ],
+    [
+      "1",
+      "24",
+      "Luca Badoer",
+      "Minardi Ford",
+      "32",
+      "14:51:03",
+      "45.984",
+      "45.984"
+    ],
+    [
+      "2",
+      "27",
+      "Jean Alesi",
+      "Ferrari",
+      "39",
+      "15:00:21",
+      "42.111",
+      "1:24.167"
+    ],
+    [
+      "2",
+      "4",
+      "Mika Salo",
+      "Tyrrell Yamaha",
+      "38",
+      "15:00:32",
+      "52.103",
+      "1:32.970"
+    ],
+    [
+      "2",
+      "2",
+      "Johnny Herbert",
+      "Benetton Renault",
+      "40",
+      "15:01:48",
+      "40.396",
+      "1:20.282"
+    ],
+    [
+      "3",
+      "14",
+      "Rubens Barrichello",
+      "Jordan Peugeot",
+      "40",
+      "15:02:28",
+      "52.388",
+      "2:22.466"
+    ],
+    [
+      "2",
+      "5",
+      "Damon Hill",
+      "Williams Renault",
+      "41",
+      "15:02:37",
+      "40.581",
+      "1:20.884"
+    ],
+    [
+      "2",
+      "29",
+      "Jean-Christophe Boullion",
+      "Sauber Ford",
+      "40",
+      "15:03:53",
+      "43.795",
+      "1:28.992"
+    ],
+    [
+      "2",
+      "7",
+      "Mark Blundell",
+      "McLaren Mercedes",
+      "41",
+      "15:04:00",
+      "38.878",
+      "1:19.126"
+    ],
+    [
+      "2",
+      "16",
+      "Bertrand Gachot",
+      "Pacific Ilmor",
+      "40",
+      "15:05:30",
+      "1:07.141",
+      "1:51.359"
+    ],
+    [
+      "3",
+      "26",
+      "Olivier Panis",
+      "Ligier Mugen Honda",
+      "42",
+      "15:06:06",
+      "43.794",
+      "2:04.589"
+    ],
+    [
+      "2",
+      "6",
+      "David Coulthard",
+      "Williams Renault",
+      "43",
+      "15:06:28",
+      "40.782",
+      "1:21.797"
+    ],
+    [
+      "3",
+      "6",
+      "David Coulthard",
+      "Williams Renault",
+      "51",
+      "15:19:13",
+      "38.909",
+      "2:00.706"
+    ]
+  ],
+  "session_name": "Pit Stop Summary"
+}

@@ -1,0 +1,29 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "7",
+      "John Surtees",
+      "McLaren Ford",
+      "6",
+      "1:20.800"
+    ],
+    [
+      "1",
+      "12",
+      "Jack Brabham",
+      "Brabham Ford",
+      "71",
+      "1:20.800"
+    ]
+  ],
+  "session_name": "Fastest Laps"
+}

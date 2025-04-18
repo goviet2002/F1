@@ -1,0 +1,166 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "1",
+      "James Hunt",
+      "McLaren Ford",
+      "2:30.110"
+    ],
+    [
+      "2",
+      "12",
+      "Carlos Reutemann",
+      "Ferrari",
+      "2:30.180"
+    ],
+    [
+      "3",
+      "5",
+      "Mario Andretti",
+      "Lotus Ford",
+      "2:30.350"
+    ],
+    [
+      "4",
+      "2",
+      "Jochen Mass",
+      "McLaren Ford",
+      "2:30.360"
+    ],
+    [
+      "5",
+      "8",
+      "Carlos Pace",
+      "Brabham Alfa Romeo",
+      "2:30.570"
+    ],
+    [
+      "6",
+      "4",
+      "Patrick Depailler",
+      "Tyrrell Ford",
+      "2:30.690"
+    ],
+    [
+      "7",
+      "7",
+      "John Watson",
+      "Brabham Alfa Romeo",
+      "2:31.090"
+    ],
+    [
+      "8",
+      "3",
+      "Ronnie Peterson",
+      "Tyrrell Ford",
+      "2:31.630"
+    ],
+    [
+      "9",
+      "22",
+      "Clay Regazzoni",
+      "Ensign Ford",
+      "2:31.690"
+    ],
+    [
+      "10",
+      "6",
+      "Gunnar Nilsson",
+      "Lotus Ford",
+      "2:32.140"
+    ],
+    [
+      "11",
+      "19",
+      "Vittorio Brambilla",
+      "Surtees Ford",
+      "2:32.190"
+    ],
+    [
+      "12",
+      "16",
+      "Tom Pryce",
+      "Shadow Ford",
+      "2:32.220"
+    ],
+    [
+      "13",
+      "11",
+      "Niki Lauda",
+      "Ferrari",
+      "2:32.370"
+    ],
+    [
+      "14",
+      "26",
+      "Jacques Laffite",
+      "Ligier Matra",
+      "2:32.430"
+    ],
+    [
+      "15",
+      "20",
+      "Jody Scheckter",
+      "Wolf Ford",
+      "2:32.810"
+    ],
+    [
+      "16",
+      "28",
+      "Emerson Fittipaldi",
+      "Fittipaldi Ford",
+      "2:32.940"
+    ],
+    [
+      "17",
+      "10",
+      "Ian Scheckter",
+      "March Ford",
+      "2:33.460"
+    ],
+    [
+      "18",
+      "17",
+      "Renzo Zorzi",
+      "Shadow Ford",
+      "2:34.620"
+    ],
+    [
+      "19",
+      "29",
+      "Ingo Hoffman",
+      "Fittipaldi Ford",
+      "2:35.570"
+    ],
+    [
+      "20",
+      "18",
+      "Hans Binder",
+      "Surtees Ford",
+      "2:35.790"
+    ],
+    [
+      "21",
+      "9",
+      "Alex Ribeiro",
+      "March Ford",
+      "2:36.190"
+    ],
+    [
+      "22",
+      "14",
+      "Larry Perkins",
+      "BRM",
+      "2:42.220"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

@@ -1,0 +1,194 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Clay Regazzoni",
+      "Ferrari",
+      "80",
+      "1:53:18.471",
+      "9"
+    ],
+    [
+      "2",
+      "1",
+      "Niki Lauda",
+      "Ferrari",
+      "80",
+      "+42.414s",
+      "6"
+    ],
+    [
+      "3",
+      "4",
+      "Patrick Depailler",
+      "Tyrrell Ford",
+      "80",
+      "+49.972s",
+      "4"
+    ],
+    [
+      "4",
+      "26",
+      "Jacques Laffite",
+      "Ligier Matra",
+      "80",
+      "+72.828s",
+      "3"
+    ],
+    [
+      "5",
+      "12",
+      "Jochen Mass",
+      "McLaren Ford",
+      "80",
+      "+82.292s",
+      "2"
+    ],
+    [
+      "6",
+      "30",
+      "Emerson Fittipaldi",
+      "Fittipaldi Ford",
+      "79",
+      "+1 lap",
+      "1"
+    ],
+    [
+      "7",
+      "17",
+      "Jean-Pierre Jarier",
+      "Shadow Ford",
+      "79",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "8",
+      "22",
+      "Chris Amon",
+      "Ensign Ford",
+      "78",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "9",
+      "8",
+      "Carlos Pace",
+      "Brabham Alfa Romeo",
+      "77",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "10",
+      "10",
+      "Ronnie Peterson",
+      "March Ford",
+      "77",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "19",
+      "Alan  Jones",
+      "Surtees Ford",
+      "70",
+      "+10 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "28",
+      "John Watson",
+      "Penske Ford",
+      "69",
+      "+11 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "3",
+      "Jody Scheckter",
+      "Tyrrell Ford",
+      "34",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "16",
+      "Tom Pryce",
+      "Shadow Ford",
+      "32",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "27",
+      "Mario Andretti",
+      "Parnelli Ford",
+      "15",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "11",
+      "James Hunt",
+      "McLaren Ford",
+      "3",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "34",
+      "Hans-Joachim Stuck",
+      "March Ford",
+      "2",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "6",
+      "Gunnar Nilsson",
+      "Lotus Ford",
+      "0",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "7",
+      "Carlos Reutemann",
+      "Brabham Alfa Romeo",
+      "0",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "9",
+      "Vittorio Brambilla",
+      "March Ford",
+      "0",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

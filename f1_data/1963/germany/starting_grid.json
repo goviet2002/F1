@@ -1,0 +1,166 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "3",
+      "Jim Clark",
+      "Lotus Climax",
+      "8:45.800"
+    ],
+    [
+      "2",
+      "7",
+      "John Surtees",
+      "Ferrari",
+      "8:46.700"
+    ],
+    [
+      "3",
+      "15",
+      "Lorenzo Bandini",
+      "Cooper Climax",
+      "8:54.300"
+    ],
+    [
+      "4",
+      "1",
+      "Graham Hill",
+      "BRM",
+      "8:57.200"
+    ],
+    [
+      "5",
+      "5",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "8:57.300"
+    ],
+    [
+      "6",
+      "2",
+      "Richie Ginther",
+      "BRM",
+      "9:02.800"
+    ],
+    [
+      "7",
+      "8",
+      "Willy Mairesse",
+      "Ferrari",
+      "9:03.500"
+    ],
+    [
+      "8",
+      "9",
+      "Jack Brabham",
+      "Lotus Climax",
+      "9:04.200"
+    ],
+    [
+      "9",
+      "18",
+      "Jo Siffert",
+      "Lotus BRM",
+      "9:11.100"
+    ],
+    [
+      "10",
+      "6",
+      "Tony Maggs",
+      "Cooper Climax",
+      "9:11.600"
+    ],
+    [
+      "11",
+      "14",
+      "Innes Ireland",
+      "Lotus BRM",
+      "9:14.600"
+    ],
+    [
+      "12",
+      "16",
+      "Jo Bonnier",
+      "Cooper Climax",
+      "9:16.000"
+    ],
+    [
+      "13",
+      "10",
+      "Dan Gurney",
+      "Lotus Climax",
+      "9:17.200"
+    ],
+    [
+      "14",
+      "21",
+      "Chris Amon",
+      "Lola Climax",
+      "9:20.100"
+    ],
+    [
+      "15",
+      "26",
+      "Gerhard Mitter",
+      "Porsche",
+      "9:20.900"
+    ],
+    [
+      "16",
+      "20",
+      "Jim  Hall ",
+      "Lotus BRM",
+      "9:22.700"
+    ],
+    [
+      "17",
+      "17",
+      "Carel Godin de Beaufort ",
+      "Porsche",
+      "9:25.100"
+    ],
+    [
+      "18",
+      "4",
+      "Trevor  Taylor ",
+      "Lotus Climax",
+      "9:33.800"
+    ],
+    [
+      "19",
+      "24",
+      "Ian Burgess ",
+      "Scirocco BRM",
+      "9:52.200"
+    ],
+    [
+      "20",
+      "22",
+      "Mario  de Araujo Cabral ",
+      "Cooper Climax",
+      "9:53.100"
+    ],
+    [
+      "21",
+      "28",
+      "Bernard  Collomb ",
+      "Lotus Climax",
+      "10:01.000"
+    ],
+    [
+      "22",
+      "23",
+      "Tony  Settember ",
+      "Scirocco BRM",
+      "10:02.000"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

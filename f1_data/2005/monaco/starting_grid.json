@@ -1,0 +1,138 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "9",
+      "Kimi Räikkönen",
+      "McLaren Mercedes",
+      "2:30.323"
+    ],
+    [
+      "2",
+      "5",
+      "Fernando Alonso",
+      "Renault",
+      "2:30.406"
+    ],
+    [
+      "3",
+      "7",
+      "Mark Webber",
+      "Williams BMW",
+      "2:31.656"
+    ],
+    [
+      "4",
+      "6",
+      "Giancarlo Fisichella",
+      "Renault",
+      "2:32.100"
+    ],
+    [
+      "5",
+      "16",
+      "Jarno Trulli",
+      "Toyota",
+      "2:32.590"
+    ],
+    [
+      "6",
+      "8",
+      "Nick Heidfeld",
+      "Williams BMW",
+      "2:32.883"
+    ],
+    [
+      "7",
+      "14",
+      "David Coulthard",
+      "RBR Cosworth",
+      "2:33.867"
+    ],
+    [
+      "8",
+      "1",
+      "Michael Schumacher",
+      "Ferrari",
+      "2:34.736"
+    ],
+    [
+      "9",
+      "11",
+      "Jacques Villeneuve",
+      "Sauber Petronas",
+      "2:34.936"
+    ],
+    [
+      "10",
+      "2",
+      "Rubens Barrichello",
+      "Ferrari",
+      "2:34.983"
+    ],
+    [
+      "11",
+      "12",
+      "Felipe Massa",
+      "Sauber Petronas",
+      "2:35.120"
+    ],
+    [
+      "12",
+      "15",
+      "Vitantonio Liuzzi",
+      "RBR Cosworth",
+      "2:37.152"
+    ],
+    [
+      "13",
+      "20",
+      "Patrick Friesacher ",
+      "Minardi Cosworth",
+      "2:40.810"
+    ],
+    [
+      "14",
+      "21",
+      "Christijan Albers",
+      "Minardi Cosworth",
+      "2:42.206"
+    ],
+    [
+      "15",
+      "18",
+      "Tiago Monteiro",
+      "Jordan Toyota",
+      "2:43.078"
+    ],
+    [
+      "16",
+      "10",
+      "Juan Pablo Montoya",
+      "McLaren Mercedes",
+      ""
+    ],
+    [
+      "17",
+      "19",
+      "Narain Karthikeyan",
+      "Jordan Toyota",
+      "2:43.442"
+    ],
+    [
+      "18",
+      "17",
+      "Ralf Schumacher",
+      "Toyota",
+      ""
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

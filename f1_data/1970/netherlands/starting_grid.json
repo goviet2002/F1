@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "10",
+      "Jochen Rindt",
+      "Lotus Ford",
+      "1:18.500"
+    ],
+    [
+      "2",
+      "5",
+      "Jackie Stewart",
+      "Tyrrell Ford",
+      "1:18.730"
+    ],
+    [
+      "3",
+      "25",
+      "Jacky Ickx",
+      "Ferrari",
+      "1:18.930"
+    ],
+    [
+      "4",
+      "8",
+      "Chris Amon",
+      "March Ford",
+      "1:19.250"
+    ],
+    [
+      "5",
+      "2",
+      "Jackie Oliver",
+      "BRM",
+      "1:19.300"
+    ],
+    [
+      "6",
+      "26",
+      "Clay Regazzoni",
+      "Ferrari",
+      "1:19.480"
+    ],
+    [
+      "7",
+      "1",
+      "Pedro Rodriguez",
+      "BRM",
+      "1:20.070"
+    ],
+    [
+      "8",
+      "12",
+      "John   Miles",
+      "Lotus Ford",
+      "1:20.240"
+    ],
+    [
+      "9",
+      "4",
+      "Piers   Courage",
+      "De Tomaso Ford",
+      "1:20.320"
+    ],
+    [
+      "10",
+      "23",
+      "Jean-Pierre Beltoise",
+      "Matra",
+      "1:20.380"
+    ],
+    [
+      "11",
+      "20",
+      "Peter  Gethin ",
+      "McLaren Alfa Romeo",
+      "1:20.410"
+    ],
+    [
+      "12",
+      "18",
+      "Jack Brabham",
+      "Brabham Ford",
+      "1:20.760"
+    ],
+    [
+      "13",
+      "24",
+      "Henri Pescarolo",
+      "Matra",
+      "1:20.890"
+    ],
+    [
+      "14",
+      "16",
+      "John Surtees",
+      "McLaren Ford",
+      "1:21.180"
+    ],
+    [
+      "15",
+      "6",
+      "Francois  Cevert ",
+      "Tyrrell Ford",
+      "1:21.180"
+    ],
+    [
+      "16",
+      "22",
+      "Ronnie Peterson",
+      "March Ford",
+      "1:21.240"
+    ],
+    [
+      "17",
+      "9",
+      "Jo Siffert",
+      "March Ford",
+      "1:21.270"
+    ],
+    [
+      "18",
+      "3",
+      "George Eaton",
+      "BRM",
+      "1:21.350"
+    ],
+    [
+      "19",
+      "32",
+      "Dan Gurney",
+      "McLaren Alfa Romeo",
+      "1:21.360"
+    ],
+    [
+      "20",
+      "15",
+      "Graham Hill",
+      "Lotus Ford",
+      "1:21.750"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

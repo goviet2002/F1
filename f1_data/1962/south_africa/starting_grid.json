@@ -1,0 +1,131 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "1",
+      "Jim Clark",
+      "Lotus Climax",
+      "1:29.300"
+    ],
+    [
+      "2",
+      "3",
+      "Graham Hill",
+      "BRM",
+      "1:29.600"
+    ],
+    [
+      "3",
+      "10",
+      "Jack Brabham",
+      "Lotus Climax",
+      "1:31.000"
+    ],
+    [
+      "4",
+      "11",
+      "Innes Ireland",
+      "Lotus BRM",
+      "1:31.100"
+    ],
+    [
+      "5",
+      "6",
+      "John Surtees",
+      "Lola Climax",
+      "1:31.500"
+    ],
+    [
+      "6",
+      "9",
+      "Tony Maggs",
+      "Cooper Climax",
+      "1:31.700"
+    ],
+    [
+      "7",
+      "4",
+      "Richie Ginther",
+      "BRM",
+      "1:31.700"
+    ],
+    [
+      "8",
+      "8",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "1:31.700"
+    ],
+    [
+      "9",
+      "2",
+      "Trevor  Taylor ",
+      "Lotus Climax",
+      "1:32.700"
+    ],
+    [
+      "10",
+      "20",
+      "Neville Lederle",
+      "Lotus Climax",
+      "1:33.600"
+    ],
+    [
+      "11",
+      "7",
+      "Roy Salvadori",
+      "Lola Climax",
+      "1:35.400"
+    ],
+    [
+      "12",
+      "18",
+      "John Love",
+      "Cooper Climax",
+      "1:36.400"
+    ],
+    [
+      "13",
+      "14",
+      "Ernie Pieterse",
+      "Lotus Climax",
+      "1:36.800"
+    ],
+    [
+      "14",
+      "21",
+      "Doug Serrurier",
+      "LDS Alfa Romeo",
+      "1:36.800"
+    ],
+    [
+      "15",
+      "22",
+      "Mike  Harris ",
+      "Cooper Alfa Romeo",
+      "1:39.100"
+    ],
+    [
+      "16",
+      "15",
+      "Carel Godin de Beaufort ",
+      "Porsche",
+      "1:39.200"
+    ],
+    [
+      "17",
+      "5",
+      "Bruce  Johnstone ",
+      "BRM",
+      ""
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

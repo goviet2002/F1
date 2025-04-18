@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "11",
+      "Jody Scheckter",
+      "Ferrari",
+      "1:26.450"
+    ],
+    [
+      "2",
+      "12",
+      "Gilles Villeneuve",
+      "Ferrari",
+      "1:26.520"
+    ],
+    [
+      "3",
+      "25",
+      "Patrick Depailler",
+      "Ligier Ford",
+      "1:27.110"
+    ],
+    [
+      "4",
+      "5",
+      "Niki Lauda",
+      "Brabham Ford",
+      "1:27.210"
+    ],
+    [
+      "5",
+      "26",
+      "Jacques Laffite",
+      "Ligier Ford",
+      "1:27.260"
+    ],
+    [
+      "6",
+      "4",
+      "Jean-Pierre Jarier",
+      "Tyrrell Ford",
+      "1:27.420"
+    ],
+    [
+      "7",
+      "3",
+      "Didier Pironi",
+      "Tyrrell Ford",
+      "1:27.420"
+    ],
+    [
+      "8",
+      "30",
+      "Jochen Mass",
+      "Arrows Ford",
+      "1:27.470"
+    ],
+    [
+      "9",
+      "27",
+      "Alan  Jones",
+      "Williams Ford",
+      "1:27.670"
+    ],
+    [
+      "10",
+      "20",
+      "James Hunt",
+      "Wolf Ford",
+      "1:27.960"
+    ],
+    [
+      "11",
+      "2",
+      "Carlos Reutemann",
+      "Lotus Ford",
+      "1:27.990"
+    ],
+    [
+      "12",
+      "9",
+      "Hans-Joachim Stuck",
+      "ATS Ford",
+      "1:28.220"
+    ],
+    [
+      "13",
+      "1",
+      "Mario Andretti",
+      "Lotus Ford",
+      "1:28.230"
+    ],
+    [
+      "14",
+      "7",
+      "John Watson",
+      "McLaren Ford",
+      "1:28.230"
+    ],
+    [
+      "15",
+      "29",
+      "Riccardo Patrese",
+      "Arrows Ford",
+      "1:28.300"
+    ],
+    [
+      "16",
+      "28",
+      "Clay Regazzoni",
+      "Williams Ford",
+      "1:28.480"
+    ],
+    [
+      "17",
+      "14",
+      "Emerson Fittipaldi",
+      "Fittipaldi Ford",
+      "1:28.490"
+    ],
+    [
+      "18",
+      "6",
+      "Nelson Piquet",
+      "Brabham Ford",
+      "1:28.520"
+    ],
+    [
+      "19",
+      "16",
+      "Rene Arnoux",
+      "Renault",
+      "1:28.570"
+    ],
+    [
+      "20",
+      "15",
+      "Jean-Pierre Jabouille",
+      "Renault",
+      "1:28.680"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

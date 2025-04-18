@@ -1,0 +1,173 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "1",
+      "Emerson Fittipaldi",
+      "Lotus Ford",
+      "1:34.980"
+    ],
+    [
+      "2",
+      "2",
+      "Ronnie Peterson",
+      "Lotus Ford",
+      "1:35.370"
+    ],
+    [
+      "3",
+      "7",
+      "Denny Hulme",
+      "McLaren Ford",
+      "1:35.690"
+    ],
+    [
+      "4",
+      "8",
+      "Peter   Revson",
+      "McLaren Ford",
+      "1:35.860"
+    ],
+    [
+      "5",
+      "10",
+      "Carlos Reutemann",
+      "Brabham Ford",
+      "1:36.010"
+    ],
+    [
+      "6",
+      "4",
+      "Arturo Merzario",
+      "Ferrari",
+      "1:36.420"
+    ],
+    [
+      "7",
+      "5",
+      "Jackie Stewart",
+      "Tyrrell Ford",
+      "1:36.440"
+    ],
+    [
+      "8",
+      "24",
+      "Carlos Pace",
+      "Surtees Ford",
+      "1:36.480"
+    ],
+    [
+      "9",
+      "27",
+      "James Hunt",
+      "March Ford",
+      "1:36.630"
+    ],
+    [
+      "10",
+      "6",
+      "Francois  Cevert ",
+      "Tyrrell Ford",
+      "1:36.770"
+    ],
+    [
+      "11",
+      "15",
+      "Mike  Beuttler ",
+      "March Ford",
+      "1:36.830"
+    ],
+    [
+      "12",
+      "18",
+      "Jean-Pierre Jarier",
+      "March Ford",
+      "1:36.930"
+    ],
+    [
+      "13",
+      "20",
+      "Jean-Pierre Beltoise",
+      "BRM",
+      "1:37.460"
+    ],
+    [
+      "14",
+      "19",
+      "Clay Regazzoni",
+      "BRM",
+      "1:37.520"
+    ],
+    [
+      "15",
+      "23",
+      "Mike Hailwood",
+      "Surtees Ford",
+      "1:37.600"
+    ],
+    [
+      "16",
+      "11",
+      "Wilson Fittipaldi",
+      "Brabham Ford",
+      "1:37.810"
+    ],
+    [
+      "17",
+      "9",
+      "Rolf Stommelen",
+      "Brabham Ford",
+      "1:37.850"
+    ],
+    [
+      "18",
+      "17",
+      "Jackie Oliver",
+      "Shadow Ford",
+      "1:37.970"
+    ],
+    [
+      "19",
+      "28",
+      "Rikky von Opel",
+      "Ensign Ford",
+      "1:38.220"
+    ],
+    [
+      "20",
+      "16",
+      "George  Follmer ",
+      "Shadow Ford",
+      "1:38.300"
+    ],
+    [
+      "21",
+      "25",
+      "Howden  Ganley ",
+      "Iso Marlboro Ford",
+      "1:39.380"
+    ],
+    [
+      "22",
+      "12",
+      "Graham Hill",
+      "Shadow Ford",
+      "1:39.500"
+    ],
+    [
+      "23",
+      "26",
+      "Gijs van Lennep",
+      "Iso Marlboro Ford",
+      "1:41.040"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

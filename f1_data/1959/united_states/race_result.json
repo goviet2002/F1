@@ -1,0 +1,176 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "9",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "42",
+      "2:12:35.700",
+      "8"
+    ],
+    [
+      "2",
+      "6",
+      "Maurice  Trintignant",
+      "Cooper Climax",
+      "42",
+      "+0.600s",
+      "7"
+    ],
+    [
+      "3",
+      "2",
+      "Tony Brooks",
+      "Ferrari",
+      "42",
+      "+180.900s",
+      "4"
+    ],
+    [
+      "4",
+      "8",
+      "Jack Brabham",
+      "Cooper Climax",
+      "42",
+      "+297.300s",
+      "3"
+    ],
+    [
+      "5",
+      "10",
+      "Innes Ireland",
+      "Lotus Climax",
+      "39",
+      "+3 laps",
+      "2"
+    ],
+    [
+      "6",
+      "4",
+      "Wolfgang von Trips",
+      "Ferrari",
+      "38",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "7",
+      "17",
+      "Harry  Blanchard ",
+      "Porsche",
+      "38",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "12",
+      "Roy Salvadori",
+      "Cooper Maserati",
+      "23",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "3",
+      "Cliff Allison",
+      "Ferrari",
+      "23",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "1",
+      "Rodger Ward",
+      "Kurtis Kraft Offenhauser",
+      "20",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "14",
+      "Alessandro de Tomaso",
+      "Cooper OSCA",
+      "13",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "5",
+      "Phil Hill",
+      "Ferrari",
+      "8",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "15",
+      "Fritz d'Orey",
+      "Tec-Mec Maserati",
+      "6",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "19",
+      "Harry Schell",
+      "Cooper Climax",
+      "5",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "16",
+      "George  Constantine",
+      "Cooper Climax",
+      "5",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "7",
+      "Stirling Moss",
+      "Cooper Climax",
+      "5",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "11",
+      "Alan  Stacey ",
+      "Lotus Climax",
+      "1",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "18",
+      "Bob  Said ",
+      "Connaught Alta",
+      "0",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

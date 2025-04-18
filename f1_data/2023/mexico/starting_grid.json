@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "1:17.166"
+    ],
+    [
+      "2",
+      "55",
+      "Carlos Sainz",
+      "Ferrari",
+      "1:17.233"
+    ],
+    [
+      "3",
+      "1",
+      "Max Verstappen",
+      "Red Bull Racing Honda RBPT",
+      "1:17.263"
+    ],
+    [
+      "4",
+      "3",
+      "Daniel Ricciardo",
+      "AlphaTauri Honda RBPT",
+      "1:17.382"
+    ],
+    [
+      "5",
+      "11",
+      "Sergio Perez",
+      "Red Bull Racing Honda RBPT",
+      "1:17.423"
+    ],
+    [
+      "6",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:17.454"
+    ],
+    [
+      "7",
+      "81",
+      "Oscar Piastri",
+      "McLaren Mercedes",
+      "1:17.623"
+    ],
+    [
+      "8",
+      "63",
+      "George Russell",
+      "Mercedes",
+      "1:17.674"
+    ],
+    [
+      "9",
+      "77",
+      "Valtteri Bottas",
+      "Alfa Romeo Ferrari",
+      "1:18.032"
+    ],
+    [
+      "10",
+      "24",
+      "Zhou Guanyu",
+      "Alfa Romeo Ferrari",
+      "1:18.050"
+    ],
+    [
+      "11",
+      "10",
+      "Pierre Gasly",
+      "Alpine Renault",
+      "1:18.521"
+    ],
+    [
+      "12",
+      "27",
+      "Nico Hulkenberg",
+      "Haas Ferrari",
+      "1:18.524"
+    ],
+    [
+      "13",
+      "14",
+      "Fernando Alonso",
+      "Aston Martin Aramco Mercedes",
+      "1:18.738"
+    ],
+    [
+      "14",
+      "23",
+      "Alexander Albon",
+      "Williams Mercedes",
+      "1:19.147"
+    ],
+    [
+      "15",
+      "31",
+      "Esteban Ocon",
+      "Alpine Renault",
+      "1:19.080"
+    ],
+    [
+      "16",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "1:19.163"
+    ],
+    [
+      "17",
+      "4",
+      "Lando Norris",
+      "McLaren Mercedes",
+      "1:21.554"
+    ],
+    [
+      "18",
+      "22",
+      "Yuki Tsunoda",
+      "AlphaTauri Honda RBPT",
+      ""
+    ],
+    [
+      "19",
+      "2",
+      "Logan Sargeant",
+      "Williams Mercedes",
+      ""
+    ],
+    [
+      "20",
+      "18",
+      "Lance Stroll",
+      "Aston Martin Aramco Mercedes",
+      "1:19.227"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

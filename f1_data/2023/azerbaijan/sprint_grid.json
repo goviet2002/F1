@@ -1,0 +1,138 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "1:41.697"
+    ],
+    [
+      "2",
+      "11",
+      "Sergio Perez",
+      "Red Bull Racing Honda RBPT",
+      "1:41.844"
+    ],
+    [
+      "3",
+      "1",
+      "Max Verstappen",
+      "Red Bull Racing Honda RBPT",
+      "1:41.987"
+    ],
+    [
+      "4",
+      "63",
+      "George Russell",
+      "Mercedes",
+      "1:42.252"
+    ],
+    [
+      "5",
+      "55",
+      "Carlos Sainz",
+      "Ferrari",
+      "1:42.287"
+    ],
+    [
+      "6",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:42.502"
+    ],
+    [
+      "7",
+      "23",
+      "Alexander Albon",
+      "Williams Mercedes",
+      "1:42.846"
+    ],
+    [
+      "8",
+      "14",
+      "Fernando Alonso",
+      "Aston Martin Aramco Mercedes",
+      "1:43.010"
+    ],
+    [
+      "9",
+      "18",
+      "Lance Stroll",
+      "Aston Martin Aramco Mercedes",
+      "1:43.064"
+    ],
+    [
+      "10",
+      "4",
+      "Lando Norris",
+      "McLaren Mercedes",
+      ""
+    ],
+    [
+      "11",
+      "81",
+      "Oscar Piastri",
+      "McLaren Mercedes",
+      "1:43.427"
+    ],
+    [
+      "12",
+      "27",
+      "Nico Hulkenberg",
+      "Haas Ferrari",
+      "1:43.806"
+    ],
+    [
+      "13",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "1:44.332"
+    ],
+    [
+      "14",
+      "24",
+      "Zhou Guanyu",
+      "Alfa Romeo Ferrari",
+      "1:45.177"
+    ],
+    [
+      "15",
+      "77",
+      "Valtteri Bottas",
+      "Alfa Romeo Ferrari",
+      "1:45.352"
+    ],
+    [
+      "16",
+      "22",
+      "Yuki Tsunoda",
+      "AlphaTauri Honda RBPT",
+      "1:45.436"
+    ],
+    [
+      "17",
+      "10",
+      "Pierre Gasly",
+      "Alpine Renault",
+      "1:46.951"
+    ],
+    [
+      "18",
+      "21",
+      "Nyck De Vries",
+      "AlphaTauri Honda RBPT",
+      "1:48.180"
+    ]
+  ],
+  "session_name": "Sprint Grid"
+}

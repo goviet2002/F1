@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "7",
+      "John Watson",
+      "Brabham Alfa Romeo",
+      "1:29.860"
+    ],
+    [
+      "2",
+      "20",
+      "Jody Scheckter",
+      "Wolf Ford",
+      "1:30.270"
+    ],
+    [
+      "3",
+      "12",
+      "Carlos Reutemann",
+      "Ferrari",
+      "1:30.440"
+    ],
+    [
+      "4",
+      "3",
+      "Ronnie Peterson",
+      "Tyrrell Ford",
+      "1:30.720"
+    ],
+    [
+      "5",
+      "8",
+      "Hans-Joachim Stuck",
+      "Brabham Alfa Romeo",
+      "1:30.730"
+    ],
+    [
+      "6",
+      "11",
+      "Niki Lauda",
+      "Ferrari",
+      "1:30.760"
+    ],
+    [
+      "7",
+      "1",
+      "James Hunt",
+      "McLaren Ford",
+      "1:30.850"
+    ],
+    [
+      "8",
+      "4",
+      "Patrick Depailler",
+      "Tyrrell Ford",
+      "1:31.160"
+    ],
+    [
+      "9",
+      "2",
+      "Jochen Mass",
+      "McLaren Ford",
+      "1:31.360"
+    ],
+    [
+      "10",
+      "5",
+      "Mario Andretti",
+      "Lotus Ford",
+      "1:31.500"
+    ],
+    [
+      "11",
+      "17",
+      "Alan  Jones",
+      "Shadow Ford",
+      "1:32.040"
+    ],
+    [
+      "12",
+      "34",
+      "Jean-Pierre Jarier",
+      "Penske Ford",
+      "1:32.320"
+    ],
+    [
+      "13",
+      "6",
+      "Gunnar Nilsson",
+      "Lotus Ford",
+      "1:32.370"
+    ],
+    [
+      "14",
+      "19",
+      "Vittorio Brambilla",
+      "Surtees Ford",
+      "1:32.400"
+    ],
+    [
+      "15",
+      "16",
+      "Riccardo Patrese",
+      "Shadow Ford",
+      "1:32.520"
+    ],
+    [
+      "16",
+      "26",
+      "Jacques Laffite",
+      "Ligier Matra",
+      "1:32.650"
+    ],
+    [
+      "17",
+      "22",
+      "Jacky Ickx",
+      "Ensign Ford",
+      "1:33.250"
+    ],
+    [
+      "18",
+      "28",
+      "Emerson Fittipaldi",
+      "Fittipaldi Ford",
+      "1:33.390"
+    ],
+    [
+      "19",
+      "18",
+      "Hans Binder",
+      "Surtees Ford",
+      "1:33.490"
+    ],
+    [
+      "20",
+      "24",
+      "Rupert Keegan",
+      "Hesketh Ford",
+      "1:33.780"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

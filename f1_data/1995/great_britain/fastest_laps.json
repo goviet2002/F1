@@ -1,0 +1,205 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Damon Hill",
+      "Williams Renault",
+      "37",
+      "1:29.752"
+    ],
+    [
+      "2",
+      "1",
+      "Michael Schumacher",
+      "Benetton Renault",
+      "28",
+      "1:30.271"
+    ],
+    [
+      "3",
+      "27",
+      "Jean Alesi",
+      "Ferrari",
+      "38",
+      "1:30.768"
+    ],
+    [
+      "4",
+      "6",
+      "David Coulthard",
+      "Williams Renault",
+      "42",
+      "1:30.812"
+    ],
+    [
+      "5",
+      "14",
+      "Rubens Barrichello",
+      "Jordan Peugeot",
+      "38",
+      "1:30.841"
+    ],
+    [
+      "6",
+      "2",
+      "Johnny Herbert",
+      "Benetton Renault",
+      "23",
+      "1:31.149"
+    ],
+    [
+      "7",
+      "26",
+      "Olivier Panis",
+      "Ligier Mugen Honda",
+      "37",
+      "1:31.393"
+    ],
+    [
+      "8",
+      "28",
+      "Gerhard Berger",
+      "Ferrari",
+      "16",
+      "1:31.435"
+    ],
+    [
+      "9",
+      "7",
+      "Mark Blundell",
+      "McLaren Mercedes",
+      "54",
+      "1:31.694"
+    ],
+    [
+      "10",
+      "25",
+      "Martin Brundle",
+      "Ligier Mugen Honda",
+      "9",
+      "1:31.881"
+    ],
+    [
+      "11",
+      "8",
+      "Mika Hakkinen",
+      "McLaren Mercedes",
+      "17",
+      "1:31.901"
+    ],
+    [
+      "12",
+      "29",
+      "Jean-Christophe Boullion",
+      "Sauber Ford",
+      "58",
+      "1:32.588"
+    ],
+    [
+      "13",
+      "30",
+      "Heinz-Harald Frentzen",
+      "Sauber Ford",
+      "27",
+      "1:33.012"
+    ],
+    [
+      "14",
+      "4",
+      "Mika Salo",
+      "Tyrrell Yamaha",
+      "41",
+      "1:33.081"
+    ],
+    [
+      "15",
+      "3",
+      "Ukyo Katayama",
+      "Tyrrell Yamaha",
+      "20",
+      "1:33.242"
+    ],
+    [
+      "16",
+      "24",
+      "Luca Badoer",
+      "Minardi Ford",
+      "31",
+      "1:33.631"
+    ],
+    [
+      "17",
+      "23",
+      "Pierluigi Martini",
+      "Minardi Ford",
+      "53",
+      "1:33.774"
+    ],
+    [
+      "18",
+      "9",
+      "Massimiliano Papis",
+      "Footwork Hart",
+      "21",
+      "1:34.633"
+    ],
+    [
+      "19",
+      "10",
+      "Taki Inoue",
+      "Footwork Hart",
+      "15",
+      "1:35.021"
+    ],
+    [
+      "20",
+      "16",
+      "Bertrand Gachot",
+      "Pacific Ilmor",
+      "8",
+      "1:36.313"
+    ],
+    [
+      "21",
+      "17",
+      "Andrea Montermini",
+      "Pacific Ilmor",
+      "8",
+      "1:36.445"
+    ],
+    [
+      "22",
+      "22",
+      "Roberto Moreno",
+      "Forti Ford",
+      "4",
+      "1:37.734"
+    ],
+    [
+      "23",
+      "21",
+      "Pedro Diniz",
+      "Forti Ford",
+      "4",
+      "1:37.859"
+    ],
+    [
+      "24",
+      "15",
+      "Eddie Irvine",
+      "Jordan Peugeot",
+      "2",
+      "1:43.961"
+    ]
+  ],
+  "session_name": "Fastest Laps"
+}

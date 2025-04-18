@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Rubens Barrichello",
+      "Ferrari",
+      "1:13.333"
+    ],
+    [
+      "2",
+      "1",
+      "Michael Schumacher",
+      "Ferrari",
+      "1:13.392"
+    ],
+    [
+      "3",
+      "5",
+      "Ralf Schumacher",
+      "Williams BMW",
+      "1:13.746"
+    ],
+    [
+      "4",
+      "6",
+      "Juan Pablo Montoya",
+      "Williams BMW",
+      "1:14.706"
+    ],
+    [
+      "5",
+      "9",
+      "Giancarlo Fisichella",
+      "Jordan Honda",
+      "1:14.880"
+    ],
+    [
+      "6",
+      "14",
+      "Jarno Trulli",
+      "Renault",
+      "1:14.980"
+    ],
+    [
+      "7",
+      "8",
+      "Felipe Massa",
+      "Sauber Petronas",
+      "1:15.047"
+    ],
+    [
+      "8",
+      "7",
+      "Nick Heidfeld",
+      "Sauber Petronas",
+      "1:15.129"
+    ],
+    [
+      "9",
+      "15",
+      "Jenson Button",
+      "Renault",
+      "1:15.214"
+    ],
+    [
+      "10",
+      "3",
+      "David Coulthard",
+      "McLaren Mercedes",
+      "1:15.223"
+    ],
+    [
+      "11",
+      "4",
+      "Kimi Räikkönen",
+      "McLaren Mercedes",
+      "1:15.243"
+    ],
+    [
+      "12",
+      "12",
+      "Olivier Panis",
+      "BAR Honda",
+      "1:15.556"
+    ],
+    [
+      "13",
+      "11",
+      "Jacques Villeneuve",
+      "BAR Honda",
+      "1:15.583"
+    ],
+    [
+      "14",
+      "10",
+      "Takuma Sato",
+      "Jordan Honda",
+      "1:15.804"
+    ],
+    [
+      "15",
+      "17",
+      "Pedro de la Rosa",
+      "Jaguar Cosworth",
+      "1:15.867"
+    ],
+    [
+      "16",
+      "16",
+      "Eddie Irvine",
+      "Jaguar Cosworth",
+      "1:16.419"
+    ],
+    [
+      "17",
+      "24",
+      "Mika Salo",
+      "Toyota",
+      "1:16.473"
+    ],
+    [
+      "18",
+      "25",
+      "Allan McNish",
+      "Toyota",
+      "1:16.626"
+    ],
+    [
+      "19",
+      "23",
+      "Mark Webber",
+      "Minardi Asiatech",
+      "1:17.428"
+    ],
+    [
+      "20",
+      "22",
+      "Anthony Davidson",
+      "Minardi Asiatech",
+      "1:17.959"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

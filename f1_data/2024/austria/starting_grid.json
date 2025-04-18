@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "1",
+      "Max Verstappen",
+      "Red Bull Racing Honda RBPT",
+      "1:04.314"
+    ],
+    [
+      "2",
+      "4",
+      "Lando Norris",
+      "McLaren Mercedes",
+      "1:04.718"
+    ],
+    [
+      "3",
+      "63",
+      "George Russell",
+      "Mercedes",
+      "1:04.840"
+    ],
+    [
+      "4",
+      "55",
+      "Carlos Sainz",
+      "Ferrari",
+      "1:04.851"
+    ],
+    [
+      "5",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:04.903"
+    ],
+    [
+      "6",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "1:05.044"
+    ],
+    [
+      "7",
+      "81",
+      "Oscar Piastri",
+      "McLaren Mercedes",
+      "1:05.048"
+    ],
+    [
+      "8",
+      "11",
+      "Sergio Perez",
+      "Red Bull Racing Honda RBPT",
+      "1:05.202"
+    ],
+    [
+      "9",
+      "27",
+      "Nico Hulkenberg",
+      "Haas Ferrari",
+      "1:05.385"
+    ],
+    [
+      "10",
+      "31",
+      "Esteban Ocon",
+      "Alpine Renault",
+      "1:05.883"
+    ],
+    [
+      "11",
+      "3",
+      "Daniel Ricciardo",
+      "RB Honda RBPT",
+      "1:05.289"
+    ],
+    [
+      "12",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "1:05.347"
+    ],
+    [
+      "13",
+      "10",
+      "Pierre Gasly",
+      "Alpine Renault",
+      "1:05.359"
+    ],
+    [
+      "14",
+      "22",
+      "Yuki Tsunoda",
+      "RB Honda RBPT",
+      "1:05.412"
+    ],
+    [
+      "15",
+      "14",
+      "Fernando Alonso",
+      "Aston Martin Aramco Mercedes",
+      "1:05.639"
+    ],
+    [
+      "16",
+      "23",
+      "Alexander Albon",
+      "Williams Mercedes",
+      "1:05.736"
+    ],
+    [
+      "17",
+      "18",
+      "Lance Stroll",
+      "Aston Martin Aramco Mercedes",
+      "1:05.819"
+    ],
+    [
+      "18",
+      "77",
+      "Valtteri Bottas",
+      "Kick Sauber Ferrari",
+      "1:05.847"
+    ],
+    [
+      "19",
+      "2",
+      "Logan Sargeant",
+      "Williams Mercedes",
+      "1:05.856"
+    ],
+    [
+      "20",
+      "24",
+      "Zhou Guanyu",
+      "Kick Sauber Ferrari",
+      "1:06.061"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

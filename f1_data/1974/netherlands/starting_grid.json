@@ -1,0 +1,187 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "12",
+      "Niki Lauda",
+      "Ferrari",
+      "1:18.310"
+    ],
+    [
+      "2",
+      "11",
+      "Clay Regazzoni",
+      "Ferrari",
+      "1:18.910"
+    ],
+    [
+      "3",
+      "5",
+      "Emerson Fittipaldi",
+      "McLaren Ford",
+      "1:19.560"
+    ],
+    [
+      "4",
+      "33",
+      "Mike Hailwood",
+      "McLaren Ford",
+      "1:19.680"
+    ],
+    [
+      "5",
+      "3",
+      "Jody Scheckter",
+      "Tyrrell Ford",
+      "1:19.910"
+    ],
+    [
+      "6",
+      "24",
+      "James Hunt",
+      "March Ford",
+      "1:19.950"
+    ],
+    [
+      "7",
+      "17",
+      "Jean-Pierre Jarier",
+      "Shadow Ford",
+      "1:20.070"
+    ],
+    [
+      "8",
+      "4",
+      "Patrick Depailler",
+      "Tyrrell Ford",
+      "1:20.140"
+    ],
+    [
+      "9",
+      "6",
+      "Denny Hulme",
+      "McLaren Ford",
+      "1:20.150"
+    ],
+    [
+      "10",
+      "1",
+      "Ronnie Peterson",
+      "Lotus Ford",
+      "1:20.220"
+    ],
+    [
+      "11",
+      "16",
+      "Tom Pryce",
+      "Shadow Ford",
+      "1:20.440"
+    ],
+    [
+      "12",
+      "7",
+      "Carlos Reutemann",
+      "Brabham Ford",
+      "1:20.450"
+    ],
+    [
+      "13",
+      "28",
+      "John Watson",
+      "Brabham Ford",
+      "1:20.780"
+    ],
+    [
+      "14",
+      "27",
+      "Guy Edwards",
+      "Lola Ford",
+      "1:21.000"
+    ],
+    [
+      "15",
+      "10",
+      "Vittorio Brambilla",
+      "March Ford",
+      "1:21.010"
+    ],
+    [
+      "16",
+      "14",
+      "Jean-Pierre Beltoise",
+      "BRM",
+      "1:21.040"
+    ],
+    [
+      "17",
+      "22",
+      "Vern Schuppan",
+      "Ensign Ford",
+      "1:21.140"
+    ],
+    [
+      "18",
+      "2",
+      "Jacky Ickx",
+      "Lotus Ford",
+      "1:21.210"
+    ],
+    [
+      "19",
+      "26",
+      "Graham Hill",
+      "Lola Ford",
+      "1:21.220"
+    ],
+    [
+      "20",
+      "19",
+      "Jochen Mass",
+      "Surtees Ford",
+      "1:21.270"
+    ],
+    [
+      "21",
+      "20",
+      "Arturo Merzario",
+      "Iso Marlboro Ford",
+      "1:21.520"
+    ],
+    [
+      "22",
+      "9",
+      "Hans-Joachim Stuck",
+      "March Ford",
+      "1:21.530"
+    ],
+    [
+      "23",
+      "8",
+      "Rikky von Opel",
+      "Brabham Ford",
+      "1:21.560"
+    ],
+    [
+      "24",
+      "15",
+      "Henri Pescarolo",
+      "BRM",
+      "1:21.840"
+    ],
+    [
+      "25",
+      "37",
+      "Francois  Migault",
+      "BRM",
+      "1:22.340"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

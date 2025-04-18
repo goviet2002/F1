@@ -1,0 +1,176 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "32",
+      "Juan Manuel Fangio",
+      "Maserati",
+      "105",
+      "3:10:12.800",
+      "9"
+    ],
+    [
+      "2",
+      "20",
+      "Tony Brooks",
+      "Vanwall",
+      "105",
+      "+25.200s",
+      "6"
+    ],
+    [
+      "3",
+      "2",
+      "Masten Gregory",
+      "Maserati",
+      "103",
+      "+2 laps",
+      "4"
+    ],
+    [
+      "4",
+      "10",
+      "Stuart  Lewis-Evans ",
+      "Connaught Alta",
+      "102",
+      "+3 laps",
+      "3"
+    ],
+    [
+      "5",
+      "30",
+      "Maurice  Trintignant",
+      "Ferrari",
+      "100",
+      "+5 laps",
+      "2"
+    ],
+    [
+      "6",
+      "14",
+      "Jack Brabham",
+      "Cooper Climax",
+      "100",
+      "+5 laps",
+      "0"
+    ],
+    [
+      "7",
+      "24",
+      "Wolfgang von Trips",
+      "Ferrari",
+      "",
+      "SHC",
+      "0"
+    ],
+    [
+      "7",
+      "24",
+      "Mike Hawthorn",
+      "Ferrari",
+      "95",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "34",
+      "Giorgio  Scarlatti ",
+      "Maserati",
+      "",
+      "SHC",
+      "0"
+    ],
+    [
+      "NC",
+      "34",
+      "Harry Schell",
+      "Maserati",
+      "64",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "6",
+      "Ron Flockhart",
+      "BRM",
+      "60",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "36",
+      "Carlos Menditeguy",
+      "Maserati",
+      "51",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "12",
+      "Ivor  Bueb ",
+      "Connaught Alta",
+      "47",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "38",
+      "Harry Schell",
+      "Maserati",
+      "23",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "22",
+      "Horace  Gould ",
+      "Maserati",
+      "10",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "28",
+      "Mike Hawthorn",
+      "Ferrari",
+      "4",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "26",
+      "Peter Collins",
+      "Ferrari",
+      "4",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "18",
+      "Stirling Moss",
+      "Vanwall",
+      "4",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

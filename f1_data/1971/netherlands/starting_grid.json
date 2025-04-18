@@ -1,0 +1,180 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Jacky Ickx",
+      "Ferrari",
+      "1:17.420"
+    ],
+    [
+      "2",
+      "8",
+      "Pedro Rodriguez",
+      "BRM",
+      "1:17.460"
+    ],
+    [
+      "3",
+      "5",
+      "Jackie Stewart",
+      "Tyrrell Ford",
+      "1:17.640"
+    ],
+    [
+      "4",
+      "3",
+      "Clay Regazzoni",
+      "Ferrari",
+      "1:17.980"
+    ],
+    [
+      "5",
+      "20",
+      "Chris Amon",
+      "Matra",
+      "1:18.460"
+    ],
+    [
+      "6",
+      "14",
+      "Reine   Wisell",
+      "Lotus Pratt & Whitney",
+      "1:18.700"
+    ],
+    [
+      "7",
+      "23",
+      "John Surtees",
+      "Surtees Ford",
+      "1:18.710"
+    ],
+    [
+      "8",
+      "9",
+      "Jo Siffert",
+      "BRM",
+      "1:18.910"
+    ],
+    [
+      "9",
+      "10",
+      "Howden  Ganley ",
+      "BRM",
+      "1:19.090"
+    ],
+    [
+      "10",
+      "29",
+      "Rolf Stommelen",
+      "Surtees Ford",
+      "1:19.110"
+    ],
+    [
+      "11",
+      "21",
+      "Jean-Pierre Beltoise",
+      "Matra",
+      "1:19.160"
+    ],
+    [
+      "12",
+      "6",
+      "Francois  Cevert ",
+      "Tyrrell Ford",
+      "1:19.540"
+    ],
+    [
+      "13",
+      "16",
+      "Ronnie Peterson",
+      "March Alfa Romeo",
+      "1:19.730"
+    ],
+    [
+      "14",
+      "26",
+      "Denny Hulme",
+      "McLaren Ford",
+      "1:19.740"
+    ],
+    [
+      "15",
+      "31",
+      "Henri Pescarolo",
+      "March Ford",
+      "1:20.010"
+    ],
+    [
+      "16",
+      "24",
+      "Graham Hill",
+      "Brabham Ford",
+      "1:20.070"
+    ],
+    [
+      "17",
+      "19",
+      "Alex  Soler-Roig ",
+      "March Alfa Romeo",
+      "1:20.260"
+    ],
+    [
+      "18",
+      "4",
+      "Mario Andretti",
+      "Ferrari",
+      "1:20.320"
+    ],
+    [
+      "19",
+      "25",
+      "Tim   Schenken",
+      "Brabham Ford",
+      "1:20.350"
+    ],
+    [
+      "20",
+      "18",
+      "Nanni  Galli ",
+      "March Alfa Romeo",
+      "1:20.610"
+    ],
+    [
+      "21",
+      "30",
+      "Gijs van Lennep",
+      "Surtees Ford",
+      "1:20.790"
+    ],
+    [
+      "22",
+      "15",
+      "Dave  Walker ",
+      "Lotus Pratt & Whitney",
+      "1:21.830"
+    ],
+    [
+      "23",
+      "28",
+      "Peter  Gethin ",
+      "McLaren Ford",
+      "1:22.070"
+    ],
+    [
+      "24",
+      "22",
+      "Skip  Barber ",
+      "March Ford",
+      "1:22.190"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

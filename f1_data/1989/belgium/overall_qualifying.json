@@ -1,0 +1,285 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "36",
+      "Stefan Johansson",
+      "Onyx Ford",
+      "1:56.279"
+    ],
+    [
+      "1",
+      "1",
+      "Ayrton Senna",
+      "McLaren Honda",
+      "1:50.867"
+    ],
+    [
+      "2",
+      "29",
+      "Michele Alboreto",
+      "Lola Lamborghini",
+      "1:57.509"
+    ],
+    [
+      "2",
+      "2",
+      "Alain Prost",
+      "McLaren Honda",
+      "1:51.463"
+    ],
+    [
+      "3",
+      "28",
+      "Gerhard Berger",
+      "Ferrari",
+      "1:52.391"
+    ],
+    [
+      "3",
+      "37",
+      "Bertrand Gachot",
+      "Onyx Ford",
+      "1:57.720"
+    ],
+    [
+      "4",
+      "5",
+      "Thierry Boutsen",
+      "Williams Renault",
+      "1:52.786"
+    ],
+    [
+      "4",
+      "30",
+      "Philippe Alliot",
+      "Lola Lamborghini",
+      "1:57.748"
+    ],
+    [
+      "5",
+      "6",
+      "Riccardo Patrese",
+      "Williams Renault",
+      "1:52.875"
+    ],
+    [
+      "5",
+      "17",
+      "Nicola Larini",
+      "Osella Ford",
+      "1:58.065"
+    ],
+    [
+      "6",
+      "18",
+      "Piercarlo Ghinzani",
+      "Osella Ford",
+      "1:58.209"
+    ],
+    [
+      "6",
+      "27",
+      "Nigel Mansell",
+      "Ferrari",
+      "1:52.898"
+    ],
+    [
+      "7",
+      "31",
+      "Roberto Moreno",
+      "Coloni Ford",
+      "1:58.650"
+    ],
+    [
+      "7",
+      "19",
+      "Alessandro Nannini",
+      "Benetton Ford",
+      "1:55.075"
+    ],
+    [
+      "8",
+      "40",
+      "Gabriele Tarquini",
+      "AGS Ford",
+      "1:59.432"
+    ],
+    [
+      "8",
+      "8",
+      "Stefano Modena",
+      "Brabham Judd",
+      "1:55.642"
+    ],
+    [
+      "9",
+      "15",
+      "Mauricio Gugelmin",
+      "March Judd",
+      "1:55.729"
+    ],
+    [
+      "9",
+      "34",
+      "Bernd Schneider",
+      "Zakspeed Yamaha",
+      "2:00.713"
+    ],
+    [
+      "10",
+      "35",
+      "Aguri Suzuki",
+      "Zakspeed Yamaha",
+      "2:00.757"
+    ],
+    [
+      "10",
+      "9",
+      "Derek Warwick",
+      "Arrows Ford",
+      "1:55.864"
+    ],
+    [
+      "11",
+      "41",
+      "Yannick Dalmas",
+      "AGS Ford",
+      "2:02.205"
+    ],
+    [
+      "12",
+      "21",
+      "Alex Caffi",
+      "Dallara Ford",
+      "1:55.892"
+    ],
+    [
+      "12",
+      "33",
+      "Gregor Foitek",
+      "Euro Brun Judd",
+      "2:02.767"
+    ],
+    [
+      "13",
+      "20",
+      "Emanuele Pirro",
+      "Benetton Ford",
+      "1:55.902"
+    ],
+    [
+      "13",
+      "32",
+      "Enrico Bertaggia",
+      "Coloni Ford",
+      "2:21.709"
+    ],
+    [
+      "14",
+      "23",
+      "Pierluigi Martini",
+      "Minardi Ford",
+      "1:56.115"
+    ],
+    [
+      "16",
+      "4",
+      "Johnny Herbert",
+      "Tyrrell Ford",
+      "1:56.248"
+    ],
+    [
+      "17",
+      "25",
+      "Rene Arnoux",
+      "Ligier Ford",
+      "1:56.251"
+    ],
+    [
+      "18",
+      "22",
+      "Andrea de Cesaris",
+      "Dallara Ford",
+      "1:56.257"
+    ],
+    [
+      "19",
+      "16",
+      "Ivan Capelli",
+      "March Judd",
+      "1:56.291"
+    ],
+    [
+      "20",
+      "7",
+      "Martin Brundle",
+      "Brabham Judd",
+      "1:56.327"
+    ],
+    [
+      "21",
+      "3",
+      "Jonathan  Palmer",
+      "Tyrrell Ford",
+      "1:56.600"
+    ],
+    [
+      "24",
+      "10",
+      "Eddie  Cheever",
+      "Arrows Ford",
+      "1:56.748"
+    ],
+    [
+      "25",
+      "24",
+      "Luis Perez-Sala",
+      "Minardi Ford",
+      "1:56.957"
+    ],
+    [
+      "26",
+      "26",
+      "Olivier Grouillard",
+      "Ligier Ford",
+      "1:57.027"
+    ],
+    [
+      "27",
+      "12",
+      "Satoru Nakajima",
+      "Lotus Judd",
+      "1:57.251"
+    ],
+    [
+      "28",
+      "11",
+      "Nelson Piquet",
+      "Lotus Judd",
+      "1:57.771"
+    ],
+    [
+      "29",
+      "38",
+      "Christian Danner",
+      "Rial Ford",
+      "2:00.247"
+    ],
+    [
+      "30",
+      "39",
+      "Pierre Henri Raphanel",
+      "Rial Ford",
+      "2:02.937"
+    ]
+  ],
+  "session_name": "Overall Qualifying"
+}

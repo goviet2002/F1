@@ -1,0 +1,284 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "101",
+      "Alberto Ascari",
+      "Ferrari",
+      "18",
+      "3:06:13.300",
+      "9"
+    ],
+    [
+      "2",
+      "102",
+      "Nino Farina",
+      "Ferrari",
+      "18",
+      "+14.100s",
+      "6"
+    ],
+    [
+      "3",
+      "117",
+      "Rudi  Fischer ",
+      "Ferrari",
+      "18",
+      "+430.100s",
+      "4"
+    ],
+    [
+      "4",
+      "103",
+      "Piero  Taruffi",
+      "Ferrari",
+      "17",
+      "+1 lap",
+      "3"
+    ],
+    [
+      "5",
+      "108",
+      "Jean Behra",
+      "Gordini",
+      "17",
+      "+1 lap",
+      "2"
+    ],
+    [
+      "6",
+      "119",
+      "Roger Laurent",
+      "Ferrari",
+      "16",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "7",
+      "121",
+      "Fritz Riess",
+      "Veritas",
+      "16",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "8",
+      "125",
+      "Toni Ulmen",
+      "Veritas",
+      "16",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "9",
+      "124",
+      "Helmut Niedermayr",
+      "AFM BMW",
+      "15",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "10",
+      "113",
+      "Johnny Claes",
+      "HWM Alta",
+      "15",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "11",
+      "128",
+      "Hans Klenk",
+      "Veritas",
+      "14",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "12",
+      "135",
+      "Ernst Klodwig",
+      "BMW",
+      "14",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "107",
+      "Robert  Manzon",
+      "Gordini",
+      "8",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "123",
+      "Willi Heeks",
+      "AFM BMW",
+      "7",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "120",
+      "Tony Gaze",
+      "HWM Alta",
+      "6",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "110",
+      "Marcel  Balsa",
+      "BMW",
+      "5",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "126",
+      "Adolf Brudes",
+      "Veritas",
+      "5",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "130",
+      "Günther Bechem",
+      "BMW",
+      "5",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "116",
+      "Eitel Cantoni",
+      "Maserati",
+      "4",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "136",
+      "Rudolf Krause",
+      "BMW",
+      "3",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "118",
+      "Rudolf Schoeller",
+      "Ferrari",
+      "3",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "114",
+      "Bill  Aston",
+      "Aston Butterworth",
+      "2",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "104",
+      "Piero Carini",
+      "Ferrari",
+      "1",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "127",
+      "Paul  Pietsch",
+      "Veritas",
+      "1",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "122",
+      "Theo Helfrich",
+      "Veritas",
+      "1",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "112",
+      "Paul Frere",
+      "HWM Alta",
+      "1",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "129",
+      "Josef Peters",
+      "Veritas",
+      "1",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "109",
+      "Maurice  Trintignant",
+      "Gordini",
+      "1",
+      "DNF",
+      "0"
+    ],
+    [
+      "DQ",
+      "105",
+      "Felice  Bonetto",
+      "Maserati",
+      "1",
+      "DSQ",
+      "0"
+    ],
+    [
+      "NC",
+      "115",
+      "Gino Bianco",
+      "Maserati",
+      "0",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

@@ -1,0 +1,145 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "1",
+      "Juan Manuel Fangio",
+      "Lanica Ferrari",
+      "9:51.200"
+    ],
+    [
+      "2",
+      "2",
+      "Peter Collins",
+      "Lanica Ferrari",
+      "9:51.500"
+    ],
+    [
+      "3",
+      "3",
+      "Eugenio Castellotti",
+      "Lanica Ferrari",
+      "9:54.400"
+    ],
+    [
+      "4",
+      "7",
+      "Stirling Moss",
+      "Maserati",
+      "10:03.400"
+    ],
+    [
+      "5",
+      "4",
+      "Luigi Musso",
+      "Lanica Ferrari",
+      "10:20.300"
+    ],
+    [
+      "7",
+      "8",
+      "Umberto  Maglioli",
+      "Maserati",
+      "10:23.500"
+    ],
+    [
+      "8",
+      "6",
+      "Jean Behra",
+      "Maserati",
+      "10:31.600"
+    ],
+    [
+      "9",
+      "16",
+      "Roy Salvadori",
+      "Maserati",
+      "10:32.400"
+    ],
+    [
+      "10",
+      "5",
+      "Alfonso de Portago ",
+      "Lanica Ferrari",
+      "10:37.100"
+    ],
+    [
+      "11",
+      "21",
+      "Bruce  Halford ",
+      "Maserati",
+      "11:04.100"
+    ],
+    [
+      "12",
+      "12",
+      "Harry Schell",
+      "Maserati",
+      "11:16.500"
+    ],
+    [
+      "13",
+      "19",
+      "Horace  Gould ",
+      "Maserati",
+      "11:33.200"
+    ],
+    [
+      "14",
+      "15",
+      "Louis  Rosier",
+      "Maserati",
+      "11:39.000"
+    ],
+    [
+      "15",
+      "10",
+      "Robert  Manzon",
+      "Gordini",
+      "11:55.800"
+    ],
+    [
+      "16",
+      "20",
+      "Paco  Godia",
+      "Maserati",
+      "11:57.600"
+    ],
+    [
+      "17",
+      "14",
+      "Giorgio  Scarlatti ",
+      "Maserati",
+      "13:05.200"
+    ],
+    [
+      "19",
+      "22",
+      "Ottorino  Volonterio ",
+      "Maserati",
+      "14:17.100"
+    ],
+    [
+      "20",
+      "18",
+      "Luigi  Villoresi",
+      "Maserati",
+      ""
+    ],
+    [
+      "21",
+      "11",
+      "Andre  Milhoux ",
+      "Gordini",
+      ""
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

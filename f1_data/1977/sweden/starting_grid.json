@@ -1,0 +1,180 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Mario Andretti",
+      "Lotus Ford",
+      "1:25.404"
+    ],
+    [
+      "2",
+      "7",
+      "John Watson",
+      "Brabham Alfa Romeo",
+      "1:25.545"
+    ],
+    [
+      "3",
+      "1",
+      "James Hunt",
+      "McLaren Ford",
+      "1:25.626"
+    ],
+    [
+      "4",
+      "20",
+      "Jody Scheckter",
+      "Wolf Ford",
+      "1:25.681"
+    ],
+    [
+      "5",
+      "8",
+      "Hans-Joachim Stuck",
+      "Brabham Alfa Romeo",
+      "1:26.127"
+    ],
+    [
+      "6",
+      "4",
+      "Patrick Depailler",
+      "Tyrrell Ford",
+      "1:26.209"
+    ],
+    [
+      "7",
+      "6",
+      "Gunnar Nilsson",
+      "Lotus Ford",
+      "1:26.227"
+    ],
+    [
+      "8",
+      "26",
+      "Jacques Laffite",
+      "Ligier Matra",
+      "1:26.259"
+    ],
+    [
+      "9",
+      "2",
+      "Jochen Mass",
+      "McLaren Ford",
+      "1:26.380"
+    ],
+    [
+      "10",
+      "3",
+      "Ronnie Peterson",
+      "Tyrrell Ford",
+      "1:26.383"
+    ],
+    [
+      "11",
+      "17",
+      "Alan  Jones",
+      "Shadow Ford",
+      "1:26.529"
+    ],
+    [
+      "12",
+      "12",
+      "Carlos Reutemann",
+      "Ferrari",
+      "1:26.542"
+    ],
+    [
+      "13",
+      "19",
+      "Vittorio Brambilla",
+      "Surtees Ford",
+      "1:26.573"
+    ],
+    [
+      "14",
+      "22",
+      "Clay Regazzoni",
+      "Ensign Ford",
+      "1:26.616"
+    ],
+    [
+      "15",
+      "11",
+      "Niki Lauda",
+      "Ferrari",
+      "1:26.826"
+    ],
+    [
+      "16",
+      "16",
+      "Jackie Oliver",
+      "Shadow Ford",
+      "1:27.492"
+    ],
+    [
+      "17",
+      "34",
+      "Jean-Pierre Jarier",
+      "Penske Ford",
+      "1:27.537"
+    ],
+    [
+      "18",
+      "28",
+      "Emerson Fittipaldi",
+      "Fittipaldi Ford",
+      "1:27.620"
+    ],
+    [
+      "19",
+      "31",
+      "David Purley",
+      "LEC Ford",
+      "1:27.716"
+    ],
+    [
+      "20",
+      "27",
+      "Patrick Neve",
+      "",
+      "1:27.758"
+    ],
+    [
+      "21",
+      "10",
+      "Ian Scheckter",
+      "March Ford",
+      "1:27.806"
+    ],
+    [
+      "22",
+      "30",
+      "Brett Lunger",
+      "McLaren Ford",
+      "1:28.205"
+    ],
+    [
+      "23",
+      "25",
+      "Harald Ertl",
+      "Hesketh Ford",
+      "1:28.377"
+    ],
+    [
+      "24",
+      "24",
+      "Rupert Keegan",
+      "Hesketh Ford",
+      "1:28.404"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

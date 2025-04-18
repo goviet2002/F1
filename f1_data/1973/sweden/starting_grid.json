@@ -1,0 +1,159 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Ronnie Peterson",
+      "Lotus Ford",
+      "1:23.810"
+    ],
+    [
+      "2",
+      "6",
+      "Francois  Cevert ",
+      "Tyrrell Ford",
+      "1:23.899"
+    ],
+    [
+      "3",
+      "5",
+      "Jackie Stewart",
+      "Tyrrell Ford",
+      "1:23.912"
+    ],
+    [
+      "4",
+      "1",
+      "Emerson Fittipaldi",
+      "Lotus Ford",
+      "1:24.084"
+    ],
+    [
+      "5",
+      "10",
+      "Carlos Reutemann",
+      "Brabham Ford",
+      "1:24.489"
+    ],
+    [
+      "6",
+      "7",
+      "Denny Hulme",
+      "McLaren Ford",
+      "1:24.625"
+    ],
+    [
+      "7",
+      "8",
+      "Peter   Revson",
+      "McLaren Ford",
+      "1:24.937"
+    ],
+    [
+      "8",
+      "3",
+      "Jacky Ickx",
+      "Ferrari",
+      "1:25.604"
+    ],
+    [
+      "9",
+      "20",
+      "Jean-Pierre Beltoise",
+      "BRM",
+      "1:25.738"
+    ],
+    [
+      "10",
+      "23",
+      "Mike Hailwood",
+      "Surtees Ford",
+      "1:25.776"
+    ],
+    [
+      "11",
+      "25",
+      "Howden  Ganley ",
+      "Iso Marlboro Ford",
+      "1:25.800"
+    ],
+    [
+      "12",
+      "19",
+      "Clay Regazzoni",
+      "BRM",
+      "1:25.995"
+    ],
+    [
+      "13",
+      "11",
+      "Wilson Fittipaldi",
+      "Brabham Ford",
+      "1:26.127"
+    ],
+    [
+      "14",
+      "27",
+      "Reine   Wisell",
+      "March Ford",
+      "1:26.187"
+    ],
+    [
+      "15",
+      "21",
+      "Niki Lauda",
+      "BRM",
+      "1:26.211"
+    ],
+    [
+      "16",
+      "24",
+      "Carlos Pace",
+      "Surtees Ford",
+      "1:26.255"
+    ],
+    [
+      "17",
+      "17",
+      "Jackie Oliver",
+      "Shadow Ford",
+      "1:26.305"
+    ],
+    [
+      "18",
+      "12",
+      "Graham Hill",
+      "Shadow Ford",
+      "1:26.382"
+    ],
+    [
+      "19",
+      "16",
+      "George  Follmer ",
+      "Shadow Ford",
+      "1:26.632"
+    ],
+    [
+      "20",
+      "14",
+      "Jean-Pierre Jarier",
+      "March Ford",
+      "1:26.874"
+    ],
+    [
+      "21",
+      "15",
+      "Mike  Beuttler ",
+      "March Ford",
+      "1:28.580"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

@@ -1,0 +1,212 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "56",
+      "1:40:25.974",
+      "25"
+    ],
+    [
+      "2",
+      "6",
+      "Nico Rosberg",
+      "Mercedes",
+      "56",
+      "+17.313s",
+      "18"
+    ],
+    [
+      "3",
+      "1",
+      "Sebastian Vettel",
+      "Red Bull Racing Renault",
+      "56",
+      "+24.534s",
+      "15"
+    ],
+    [
+      "4",
+      "14",
+      "Fernando Alonso",
+      "Ferrari",
+      "56",
+      "+35.992s",
+      "12"
+    ],
+    [
+      "5",
+      "27",
+      "Nico Hulkenberg",
+      "Force India Mercedes",
+      "56",
+      "+47.199s",
+      "10"
+    ],
+    [
+      "6",
+      "22",
+      "Jenson Button",
+      "McLaren Mercedes",
+      "56",
+      "+83.691s",
+      "8"
+    ],
+    [
+      "7",
+      "19",
+      "Felipe Massa",
+      "Williams Mercedes",
+      "56",
+      "+85.076s",
+      "6"
+    ],
+    [
+      "8",
+      "77",
+      "Valtteri Bottas",
+      "Williams Mercedes",
+      "56",
+      "+85.537s",
+      "4"
+    ],
+    [
+      "9",
+      "20",
+      "Kevin Magnussen",
+      "McLaren Mercedes",
+      "55",
+      "+1 lap",
+      "2"
+    ],
+    [
+      "10",
+      "26",
+      "Daniil Kvyat",
+      "STR Renault",
+      "55",
+      "+1 lap",
+      "1"
+    ],
+    [
+      "11",
+      "8",
+      "Romain Grosjean",
+      "Lotus Renault",
+      "55",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "12",
+      "7",
+      "Kimi Räikkönen",
+      "Ferrari",
+      "55",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "13",
+      "10",
+      "Kamui Kobayashi",
+      "Caterham Renault",
+      "55",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "14",
+      "9",
+      "Marcus Ericsson",
+      "Caterham Renault",
+      "54",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "15",
+      "4",
+      "Max Chilton",
+      "Marussia Ferrari",
+      "54",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "3",
+      "Daniel Ricciardo",
+      "Red Bull Racing Renault",
+      "49",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "21",
+      "Esteban Gutierrez ",
+      "Sauber Ferrari",
+      "35",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "99",
+      "Adrian Sutil",
+      "Sauber Ferrari",
+      "32",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "25",
+      "Jean-Eric Vergne",
+      "STR Renault",
+      "18",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "17",
+      "Jules Bianchi",
+      "Marussia Ferrari",
+      "8",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "13",
+      "Pastor Maldonado",
+      "Lotus Renault",
+      "7",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "11",
+      "Sergio Perez",
+      "Force India Mercedes",
+      "0",
+      "DNS",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

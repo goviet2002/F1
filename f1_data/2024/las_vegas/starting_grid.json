@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "63",
+      "George Russell",
+      "Mercedes",
+      "1:32.312"
+    ],
+    [
+      "2",
+      "55",
+      "Carlos Sainz",
+      "Ferrari",
+      "1:32.410"
+    ],
+    [
+      "3",
+      "10",
+      "Pierre Gasly",
+      "Alpine Renault",
+      "1:32.664"
+    ],
+    [
+      "4",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "1:32.783"
+    ],
+    [
+      "5",
+      "1",
+      "Max Verstappen",
+      "Red Bull Racing Honda RBPT",
+      "1:32.797"
+    ],
+    [
+      "6",
+      "4",
+      "Lando Norris",
+      "McLaren Mercedes",
+      "1:33.008"
+    ],
+    [
+      "7",
+      "22",
+      "Yuki Tsunoda",
+      "RB Honda RBPT",
+      "1:33.029"
+    ],
+    [
+      "8",
+      "81",
+      "Oscar Piastri",
+      "McLaren Mercedes",
+      "1:33.033"
+    ],
+    [
+      "9",
+      "27",
+      "Nico Hulkenberg",
+      "Haas Ferrari",
+      "1:33.062"
+    ],
+    [
+      "10",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:48.106"
+    ],
+    [
+      "11",
+      "31",
+      "Esteban Ocon",
+      "Alpine Renault",
+      "1:33.221"
+    ],
+    [
+      "12",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "1:33.297"
+    ],
+    [
+      "13",
+      "24",
+      "Zhou Guanyu",
+      "Kick Sauber Ferrari",
+      "1:33.566"
+    ],
+    [
+      "14",
+      "30",
+      "Liam Lawson",
+      "RB Honda RBPT",
+      "1:34.257"
+    ],
+    [
+      "15",
+      "11",
+      "Sergio Perez",
+      "Red Bull Racing Honda RBPT",
+      "1:34.155"
+    ],
+    [
+      "16",
+      "14",
+      "Fernando Alonso",
+      "Aston Martin Aramco Mercedes",
+      "1:34.258"
+    ],
+    [
+      "17",
+      "23",
+      "Alexander Albon",
+      "Williams Mercedes",
+      "1:34.425"
+    ],
+    [
+      "18",
+      "18",
+      "Lance Stroll",
+      "Aston Martin Aramco Mercedes",
+      "1:34.484"
+    ],
+    [
+      "19",
+      "77",
+      "Valtteri Bottas",
+      "Kick Sauber Ferrari",
+      "1:34.430"
+    ],
+    [
+      "20",
+      "43",
+      "Franco Colapinto",
+      "Williams Mercedes",
+      "1:33.749"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

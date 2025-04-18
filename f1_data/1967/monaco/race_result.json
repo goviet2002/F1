@@ -1,0 +1,158 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "9",
+      "Denny Hulme",
+      "Brabham Repco",
+      "100",
+      "2:34:34.300",
+      "9"
+    ],
+    [
+      "2",
+      "14",
+      "Graham Hill",
+      "Lotus BRM",
+      "99",
+      "+1 lap",
+      "6"
+    ],
+    [
+      "3",
+      "20",
+      "Chris Amon",
+      "Ferrari",
+      "98",
+      "+2 laps",
+      "4"
+    ],
+    [
+      "4",
+      "16",
+      "Bruce McLaren",
+      "McLaren BRM",
+      "97",
+      "+3 laps",
+      "3"
+    ],
+    [
+      "5",
+      "11",
+      "Pedro Rodriguez",
+      "Cooper Maserati",
+      "96",
+      "+4 laps",
+      "2"
+    ],
+    [
+      "6",
+      "5",
+      "Mike Spence",
+      "BRM",
+      "96",
+      "+4 laps",
+      "1"
+    ],
+    [
+      "NC",
+      "18",
+      "Lorenzo Bandini",
+      "Ferrari",
+      "81",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "6",
+      "Piers   Courage",
+      "BRM",
+      "64",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "12",
+      "Jim Clark",
+      "Lotus Climax",
+      "42",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "7",
+      "John Surtees",
+      "Honda",
+      "32",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "17",
+      "Jo Siffert",
+      "Cooper Maserati",
+      "31",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "10",
+      "Jochen Rindt",
+      "Cooper Maserati",
+      "14",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "4",
+      "Jackie Stewart",
+      "BRM",
+      "14",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "23",
+      "Dan Gurney",
+      "Eagle Weslake",
+      "4",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "2",
+      "Johnny  Servoz-Gavin ",
+      "Matra Ford",
+      "4",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "8",
+      "Jack Brabham",
+      "Brabham Repco",
+      "0",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

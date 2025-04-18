@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:11.767"
+    ],
+    [
+      "2",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing Honda",
+      "1:12.113"
+    ],
+    [
+      "3",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes",
+      "1:12.129"
+    ],
+    [
+      "4",
+      "10",
+      "Pierre Gasly",
+      "Red Bull Racing Honda",
+      "1:12.522"
+    ],
+    [
+      "5",
+      "7",
+      "Kimi Räikkönen",
+      "Alfa Romeo Racing Ferrari",
+      "1:12.538"
+    ],
+    [
+      "6",
+      "8",
+      "Romain Grosjean",
+      "Haas Ferrari",
+      "1:12.851"
+    ],
+    [
+      "7",
+      "55",
+      "Carlos Sainz",
+      "McLaren Renault",
+      "1:12.897"
+    ],
+    [
+      "8",
+      "11",
+      "Sergio Perez",
+      "Racing Point BWT Mercedes",
+      "1:13.065"
+    ],
+    [
+      "9",
+      "27",
+      "Nico Hulkenberg",
+      "Renault",
+      "1:13.126"
+    ],
+    [
+      "10",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      ""
+    ],
+    [
+      "11",
+      "99",
+      "Antonio Giovinazzi",
+      "Alfa Romeo Racing Ferrari",
+      "1:12.786"
+    ],
+    [
+      "12",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "1:12.789"
+    ],
+    [
+      "13",
+      "3",
+      "Daniel Ricciardo",
+      "Renault",
+      "1:12.799"
+    ],
+    [
+      "14",
+      "26",
+      "Daniil Kvyat",
+      "Scuderia Toro Rosso Honda",
+      "1:13.135"
+    ],
+    [
+      "15",
+      "18",
+      "Lance Stroll",
+      "Racing Point BWT Mercedes",
+      "1:13.450"
+    ],
+    [
+      "16",
+      "23",
+      "Alexander Albon",
+      "Scuderia Toro Rosso Honda",
+      "1:13.461"
+    ],
+    [
+      "17",
+      "63",
+      "George Russell",
+      "Williams Mercedes",
+      "1:14.721"
+    ],
+    [
+      "18",
+      "88",
+      "Robert Kubica",
+      "Williams Mercedes",
+      "1:14.839"
+    ],
+    [
+      "19",
+      "4",
+      "Lando Norris",
+      "McLaren Renault",
+      "1:13.333"
+    ],
+    [
+      "20",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      ""
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

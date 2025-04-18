@@ -1,0 +1,166 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "3",
+      "Michael Schumacher",
+      "Ferrari",
+      "1:15.632"
+    ],
+    [
+      "2",
+      "2",
+      "David Coulthard",
+      "McLaren Mercedes",
+      "1:15.734"
+    ],
+    [
+      "3",
+      "4",
+      "Rubens Barrichello",
+      "Ferrari",
+      "1:16.047"
+    ],
+    [
+      "4",
+      "1",
+      "Mika Hakkinen",
+      "McLaren Mercedes",
+      "1:16.050"
+    ],
+    [
+      "5",
+      "9",
+      "Ralf Schumacher",
+      "Williams BMW",
+      "1:16.291"
+    ],
+    [
+      "6",
+      "7",
+      "Eddie Irvine",
+      "Jaguar Cosworth",
+      "1:16.399"
+    ],
+    [
+      "7",
+      "22",
+      "Jacques Villeneuve",
+      "BAR Honda",
+      "1:16.653"
+    ],
+    [
+      "8",
+      "5",
+      "Heinz-Harald Frentzen",
+      "Jordan Mugen Honda",
+      "1:16.658"
+    ],
+    [
+      "9",
+      "6",
+      "Jarno Trulli",
+      "Jordan Mugen Honda",
+      "1:16.669"
+    ],
+    [
+      "10",
+      "10",
+      "Jenson Button",
+      "Williams BMW",
+      "1:16.905"
+    ],
+    [
+      "11",
+      "8",
+      "Johnny Herbert",
+      "Jaguar Cosworth",
+      "1:17.176"
+    ],
+    [
+      "12",
+      "17",
+      "Mika Salo",
+      "Sauber Petronas",
+      "1:17.223"
+    ],
+    [
+      "13",
+      "18",
+      "Pedro de la Rosa",
+      "Arrows Supertec",
+      "1:17.279"
+    ],
+    [
+      "14",
+      "11",
+      "Giancarlo Fisichella",
+      "Benetton Playlife",
+      "1:17.317"
+    ],
+    [
+      "15",
+      "16",
+      "Pedro Diniz",
+      "Sauber Petronas",
+      "1:17.361"
+    ],
+    [
+      "16",
+      "15",
+      "Nick Heidfeld",
+      "Prost Peugeot",
+      "1:17.374"
+    ],
+    [
+      "17",
+      "12",
+      "Alexander Wurz",
+      "Benetton Playlife",
+      "1:17.408"
+    ],
+    [
+      "18",
+      "14",
+      "Jean Alesi",
+      "Prost Peugeot",
+      "1:17.569"
+    ],
+    [
+      "19",
+      "23",
+      "Ricardo Zonta",
+      "BAR Honda",
+      "1:17.668"
+    ],
+    [
+      "20",
+      "19",
+      "Jos Verstappen",
+      "Arrows Supertec",
+      "1:17.933"
+    ],
+    [
+      "21",
+      "20",
+      "Marc Gene",
+      "Minardi Fondmetal",
+      "1:18.130"
+    ],
+    [
+      "22",
+      "21",
+      "Gaston Mazzacane",
+      "Minardi Fondmetal",
+      "1:18.302"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

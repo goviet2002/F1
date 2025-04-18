@@ -1,0 +1,166 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "3",
+      "Michael Schumacher",
+      "Ferrari",
+      "1:20.974"
+    ],
+    [
+      "2",
+      "1",
+      "Mika Hakkinen",
+      "McLaren Mercedes",
+      "1:21.052"
+    ],
+    [
+      "3",
+      "4",
+      "Rubens Barrichello",
+      "Ferrari",
+      "1:21.416"
+    ],
+    [
+      "4",
+      "2",
+      "David Coulthard",
+      "McLaren Mercedes",
+      "1:21.422"
+    ],
+    [
+      "5",
+      "9",
+      "Ralf Schumacher",
+      "Williams BMW",
+      "1:21.605"
+    ],
+    [
+      "6",
+      "22",
+      "Jacques Villeneuve",
+      "BAR Honda",
+      "1:21.963"
+    ],
+    [
+      "7",
+      "6",
+      "Jarno Trulli",
+      "Jordan Mugen Honda",
+      "1:22.006"
+    ],
+    [
+      "8",
+      "5",
+      "Heinz-Harald Frentzen",
+      "Jordan Mugen Honda",
+      "1:22.135"
+    ],
+    [
+      "9",
+      "7",
+      "Eddie Irvine",
+      "Jaguar Cosworth",
+      "1:22.370"
+    ],
+    [
+      "10",
+      "10",
+      "Jenson Button",
+      "Williams BMW",
+      "1:22.385"
+    ],
+    [
+      "11",
+      "19",
+      "Jos Verstappen",
+      "Arrows Supertec",
+      "1:22.421"
+    ],
+    [
+      "12",
+      "17",
+      "Mika Salo",
+      "Sauber Petronas",
+      "1:22.443"
+    ],
+    [
+      "13",
+      "11",
+      "Giancarlo Fisichella",
+      "Benetton Playlife",
+      "1:22.569"
+    ],
+    [
+      "14",
+      "8",
+      "Johnny Herbert",
+      "Jaguar Cosworth",
+      "1:22.781"
+    ],
+    [
+      "15",
+      "16",
+      "Pedro Diniz",
+      "Sauber Petronas",
+      "1:22.841"
+    ],
+    [
+      "16",
+      "23",
+      "Ricardo Zonta",
+      "BAR Honda",
+      "1:22.882"
+    ],
+    [
+      "17",
+      "14",
+      "Jean Alesi",
+      "Prost Peugeot",
+      "1:22.894"
+    ],
+    [
+      "18",
+      "12",
+      "Alexander Wurz",
+      "Benetton Playlife",
+      "1:23.010"
+    ],
+    [
+      "19",
+      "15",
+      "Nick Heidfeld",
+      "Prost Peugeot",
+      "1:23.033"
+    ],
+    [
+      "20",
+      "20",
+      "Marc Gene",
+      "Minardi Fondmetal",
+      "1:23.486"
+    ],
+    [
+      "21",
+      "21",
+      "Gaston Mazzacane",
+      "Minardi Fondmetal",
+      "1:24.257"
+    ],
+    [
+      "22",
+      "18",
+      "Pedro de la Rosa",
+      "Arrows Supertec",
+      ""
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "4",
+      "John Surtees",
+      "Ferrari",
+      "1:37.300"
+    ],
+    [
+      "2",
+      "12",
+      "Graham Hill",
+      "BRM",
+      "1:38.500"
+    ],
+    [
+      "3",
+      "8",
+      "Jim Clark",
+      "Lotus Climax",
+      "1:39.000"
+    ],
+    [
+      "4",
+      "10",
+      "Richie Ginther",
+      "BRM",
+      "1:39.190"
+    ],
+    [
+      "5",
+      "24",
+      "Dan Gurney",
+      "Lotus Climax",
+      "1:39.250"
+    ],
+    [
+      "6",
+      "2",
+      "Lorenzo Bandini",
+      "Ferrari",
+      "1:40.100"
+    ],
+    [
+      "7",
+      "22",
+      "Jack Brabham",
+      "Lotus Climax",
+      "1:40.400"
+    ],
+    [
+      "8",
+      "18",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "1:40.500"
+    ],
+    [
+      "9",
+      "6",
+      "Mike Spence",
+      "Lotus Climax",
+      "1:40.900"
+    ],
+    [
+      "10",
+      "32",
+      "Innes Ireland",
+      "Lotus BRM",
+      "1:41.600"
+    ],
+    [
+      "11",
+      "58",
+      "Jo Bonnier",
+      "Cooper Climax",
+      "1:41.900"
+    ],
+    [
+      "12",
+      "42",
+      "Masten Gregory",
+      "Lola Climax",
+      "1:42.100"
+    ],
+    [
+      "13",
+      "20",
+      "Tony Maggs",
+      "Cooper Climax",
+      "1:42.200"
+    ],
+    [
+      "14",
+      "16",
+      "Phil Hill",
+      "ATS",
+      "1:42.700"
+    ],
+    [
+      "15",
+      "54",
+      "Jo Siffert",
+      "Lotus BRM",
+      "1:43.300"
+    ],
+    [
+      "16",
+      "30",
+      "Jim  Hall ",
+      "Lotus BRM",
+      "1:43.800"
+    ],
+    [
+      "17",
+      "40",
+      "Mike Hailwood",
+      "Lola Climax",
+      "1:43.900"
+    ],
+    [
+      "18",
+      "48",
+      "Bob Anderson",
+      "Lola Climax",
+      "1:44.200"
+    ],
+    [
+      "19",
+      "66",
+      "Maurice  Trintignant",
+      "Cooper Climax",
+      "1:44.400"
+    ],
+    [
+      "20",
+      "14",
+      "Giancarlo Baghetti",
+      "ATS",
+      "1:46.800"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

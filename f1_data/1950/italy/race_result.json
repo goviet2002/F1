@@ -1,0 +1,266 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "10",
+      "Nino Farina",
+      "Alfa Romeo",
+      "80",
+      "2:51:17.400",
+      "8"
+    ],
+    [
+      "2",
+      "48",
+      "Dorino  Serafini",
+      "Ferrari",
+      "",
+      "SHC",
+      "3"
+    ],
+    [
+      "2",
+      "48",
+      "Alberto Ascari",
+      "Ferrari",
+      "80",
+      "+78.600s",
+      "3"
+    ],
+    [
+      "3",
+      "36",
+      "Luigi Fagioli",
+      "Alfa Romeo",
+      "80",
+      "+95.600s",
+      "4"
+    ],
+    [
+      "4",
+      "58",
+      "Louis  Rosier",
+      "Talbot-Lago",
+      "75",
+      "+5 laps",
+      "3"
+    ],
+    [
+      "5",
+      "24",
+      "Philippe  Etancelin",
+      "Talbot-Lago",
+      "75",
+      "+5 laps",
+      "2"
+    ],
+    [
+      "6",
+      "38",
+      "Toulo de Graffenried",
+      "Maserati",
+      "72",
+      "+8 laps",
+      "0"
+    ],
+    [
+      "7",
+      "8",
+      "Peter  Whitehead",
+      "Ferrari",
+      "72",
+      "+8 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "50",
+      "David  Murray",
+      "Maserati",
+      "56",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "32",
+      "Cuth  Harrison",
+      "ERA",
+      "51",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "12",
+      "Raymond  Sommer",
+      "Talbot-Lago",
+      "48",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "40",
+      "Guy  Mairesse",
+      "Talbot-Lago",
+      "42",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "4",
+      "Franco  Rol",
+      "Maserati",
+      "39",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "60",
+      "Piero  Taruffi",
+      "Alfa Romeo",
+      "",
+      "SHC",
+      "0"
+    ],
+    [
+      "NC",
+      "60",
+      "Juan Manuel Fangio",
+      "Alfa Romeo",
+      "34",
+      "DNF",
+      "1"
+    ],
+    [
+      "NC",
+      "56",
+      "Pierre  Levegh",
+      "Talbot-Lago",
+      "29",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "18",
+      "Juan Manuel Fangio",
+      "Alfa Romeo",
+      "23",
+      "DNF",
+      "1"
+    ],
+    [
+      "NC",
+      "2",
+      "Johnny Claes",
+      "Talbot-Lago",
+      "22",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "16",
+      "Alberto Ascari",
+      "Ferrari",
+      "21",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "22",
+      "Clemente  Biondetti",
+      "Ferrari Jaguar",
+      "17",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "64",
+      "Henri Louveau",
+      "Talbot-Lago",
+      "16",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "62",
+      "Franco  Comotti",
+      "Maserati Milano",
+      "15",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "6",
+      "Louis  Chiron",
+      "Maserati",
+      "13",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "42",
+      "Maurice  Trintignant",
+      "Simca-Gordini",
+      "13",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "46",
+      "Consalvo  Sanesi",
+      "Alfa Romeo",
+      "11",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "44",
+      "Robert  Manzon",
+      "Simca-Gordini",
+      "7",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "30",
+      "Prince Bira",
+      "Maserati",
+      "1",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "28",
+      "Paul  Pietsch",
+      "Maserati",
+      "0",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

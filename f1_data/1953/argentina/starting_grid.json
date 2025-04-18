@@ -1,0 +1,124 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "10",
+      "Alberto Ascari",
+      "Ferrari",
+      "1:55.400"
+    ],
+    [
+      "2",
+      "2",
+      "Juan Manuel Fangio",
+      "Maserati",
+      "1:56.100"
+    ],
+    [
+      "3",
+      "14",
+      "Luigi  Villoresi",
+      "Ferrari",
+      "1:56.500"
+    ],
+    [
+      "4",
+      "12",
+      "Nino Farina",
+      "Ferrari",
+      "1:57.100"
+    ],
+    [
+      "5",
+      "4",
+      "Jose Froilan Gonzalez",
+      "Maserati",
+      "1:58.500"
+    ],
+    [
+      "6",
+      "16",
+      "Mike Hawthorn",
+      "Ferrari",
+      "1:59.400"
+    ],
+    [
+      "7",
+      "28",
+      "Maurice  Trintignant",
+      "Gordini",
+      "2:00.400"
+    ],
+    [
+      "8",
+      "26",
+      "Robert  Manzon",
+      "Gordini",
+      "2:00.900"
+    ],
+    [
+      "9",
+      "8",
+      "Oscar Alfredo Galvez",
+      "Maserati",
+      "2:01.300"
+    ],
+    [
+      "10",
+      "32",
+      "Carlos Menditeguy",
+      "Gordini",
+      "2:01.800"
+    ],
+    [
+      "11",
+      "30",
+      "Jean Behra",
+      "Gordini",
+      "2:02.600"
+    ],
+    [
+      "12",
+      "20",
+      "Alan Brown",
+      "Cooper Alta",
+      "2:03.200"
+    ],
+    [
+      "13",
+      "24",
+      "Adolfo Schewelm Cruz",
+      "Cooper Alta",
+      "2:03.700"
+    ],
+    [
+      "14",
+      "34",
+      "Pablo Birger",
+      "Gordini",
+      "2:03.800"
+    ],
+    [
+      "15",
+      "6",
+      "Felice  Bonetto",
+      "Maserati",
+      "2:04.200"
+    ],
+    [
+      "16",
+      "22",
+      "John Barber",
+      "Cooper Alta",
+      "2:06.800"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

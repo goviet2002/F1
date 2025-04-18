@@ -1,0 +1,124 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "18",
+      "Jim Clark",
+      "Lotus Climax",
+      "1:35.400"
+    ],
+    [
+      "2",
+      "10",
+      "Graham Hill",
+      "BRM",
+      "1:35.800"
+    ],
+    [
+      "3",
+      "14",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "1:36.400"
+    ],
+    [
+      "4",
+      "40",
+      "Willy Mairesse",
+      "Ferrari",
+      "1:36.400"
+    ],
+    [
+      "5",
+      "4",
+      "Dan Gurney",
+      "Porsche",
+      "1:36.400"
+    ],
+    [
+      "6",
+      "22",
+      "Jack Brabham",
+      "Lotus Climax",
+      "1:36.500"
+    ],
+    [
+      "7",
+      "30",
+      "Maurice  Trintignant",
+      "Lotus Climax",
+      "1:36.800"
+    ],
+    [
+      "8",
+      "34",
+      "Innes Ireland",
+      "Lotus BRM",
+      "1:37.000"
+    ],
+    [
+      "9",
+      "36",
+      "Phil Hill",
+      "Ferrari",
+      "1:37.100"
+    ],
+    [
+      "10",
+      "38",
+      "Lorenzo Bandini",
+      "Ferrari",
+      "1:37.200"
+    ],
+    [
+      "11",
+      "28",
+      "John Surtees",
+      "Lola Climax",
+      "1:37.900"
+    ],
+    [
+      "12",
+      "26",
+      "Roy Salvadori",
+      "Lola Climax",
+      "1:38.500"
+    ],
+    [
+      "13",
+      "8",
+      "Richie Ginther",
+      "BRM",
+      "1:39.000"
+    ],
+    [
+      "14",
+      "20",
+      "Trevor  Taylor ",
+      "Lotus Climax",
+      "1:40.000"
+    ],
+    [
+      "15",
+      "2",
+      "Jo Bonnier",
+      "Porsche",
+      "1:42.400"
+    ],
+    [
+      "16",
+      "16",
+      "Tony Maggs",
+      "Cooper Climax",
+      "1:42.700"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

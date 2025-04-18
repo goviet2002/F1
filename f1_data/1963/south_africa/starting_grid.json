@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "1",
+      "Jim Clark",
+      "Lotus Climax",
+      "1:28.900"
+    ],
+    [
+      "2",
+      "8",
+      "Jack Brabham",
+      "Lotus Climax",
+      "1:29.000"
+    ],
+    [
+      "3",
+      "9",
+      "Dan Gurney",
+      "Lotus Climax",
+      "1:29.100"
+    ],
+    [
+      "4",
+      "3",
+      "John Surtees",
+      "Ferrari",
+      "1:29.800"
+    ],
+    [
+      "5",
+      "4",
+      "Lorenzo Bandini",
+      "Ferrari",
+      "1:30.200"
+    ],
+    [
+      "6",
+      "5",
+      "Graham Hill",
+      "BRM",
+      "1:30.300"
+    ],
+    [
+      "7",
+      "6",
+      "Richie Ginther",
+      "BRM",
+      "1:30.400"
+    ],
+    [
+      "8",
+      "2",
+      "Trevor  Taylor ",
+      "Lotus Climax",
+      "1:30.400"
+    ],
+    [
+      "9",
+      "10",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "1:31.200"
+    ],
+    [
+      "10",
+      "11",
+      "Tony Maggs",
+      "Cooper Climax",
+      "1:31.500"
+    ],
+    [
+      "11",
+      "12",
+      "Jo Bonnier",
+      "Cooper Climax",
+      "1:32.000"
+    ],
+    [
+      "12",
+      "7",
+      "Ernie Pieterse",
+      "Lotus Climax",
+      "1:34.500"
+    ],
+    [
+      "13",
+      "19",
+      "John Love",
+      "Cooper Climax",
+      "1:34.600"
+    ],
+    [
+      "14",
+      "22",
+      "David Prophet",
+      "Brabham Ford",
+      "1:35.500"
+    ],
+    [
+      "15",
+      "21",
+      "Brausch Niemann",
+      "Lotus Ford",
+      "1:35.600"
+    ],
+    [
+      "16",
+      "18",
+      "Peter de Klerk",
+      "Alfa Romeo",
+      "1:35.700"
+    ],
+    [
+      "17",
+      "20",
+      "Sam Tingle",
+      "LDS Alfa Romeo",
+      "1:35.800"
+    ],
+    [
+      "18",
+      "16",
+      "Doug Serrurier",
+      "Alfa Romeo",
+      "1:36.400"
+    ],
+    [
+      "19",
+      "23",
+      "Trevor Blokdyk",
+      "Cooper Maserati",
+      "1:36.500"
+    ],
+    [
+      "20",
+      "14",
+      "Carel Godin de Beaufort ",
+      "Porsche",
+      "1:36.600"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

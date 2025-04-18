@@ -1,0 +1,21 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "6",
+      "Jean-Pierre Beltoise",
+      "Matra Ford",
+      "47",
+      "1:28.300"
+    ]
+  ],
+  "session_name": "Fastest Laps"
+}

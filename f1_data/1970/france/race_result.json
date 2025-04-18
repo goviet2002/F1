@@ -1,0 +1,194 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "6",
+      "Jochen Rindt",
+      "Lotus Ford",
+      "38",
+      "1:55:57.000",
+      "9"
+    ],
+    [
+      "2",
+      "14",
+      "Chris Amon",
+      "March Ford",
+      "38",
+      "+7.610s",
+      "6"
+    ],
+    [
+      "3",
+      "23",
+      "Jack Brabham",
+      "Brabham Ford",
+      "38",
+      "+44.830s",
+      "4"
+    ],
+    [
+      "4",
+      "19",
+      "Denny Hulme",
+      "McLaren Ford",
+      "38",
+      "+45.660s",
+      "3"
+    ],
+    [
+      "5",
+      "20",
+      "Henri Pescarolo",
+      "Matra",
+      "38",
+      "+79.420s",
+      "2"
+    ],
+    [
+      "6",
+      "17",
+      "Dan Gurney",
+      "McLaren Ford",
+      "38",
+      "+79.650s",
+      "1"
+    ],
+    [
+      "7",
+      "22",
+      "Rolf Stommelen",
+      "Brabham Ford",
+      "38",
+      "+140.160s",
+      "0"
+    ],
+    [
+      "8",
+      "7",
+      "John   Miles",
+      "Lotus Ford",
+      "38",
+      "+167.170s",
+      "0"
+    ],
+    [
+      "9",
+      "1",
+      "Jackie Stewart",
+      "March Ford",
+      "38",
+      "+189.610s",
+      "0"
+    ],
+    [
+      "10",
+      "8",
+      "Graham Hill",
+      "Lotus Ford",
+      "37",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "11",
+      "2",
+      "Francois  Cevert ",
+      "March Ford",
+      "37",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "12",
+      "4",
+      "George Eaton",
+      "BRM",
+      "36",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "13",
+      "21",
+      "Jean-Pierre Beltoise",
+      "Matra",
+      "35",
+      "DNF",
+      "0"
+    ],
+    [
+      "14",
+      "11",
+      "Ignazio  Giunti ",
+      "Ferrari",
+      "35",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "16",
+      "Andrea de Adamich ",
+      "McLaren Alfa Romeo",
+      "29",
+      "+9 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "12",
+      "Jo Siffert",
+      "March Ford",
+      "23",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "18",
+      "Ronnie Peterson",
+      "March Ford",
+      "17",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "10",
+      "Jacky Ickx",
+      "Ferrari",
+      "16",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "3",
+      "Pedro Rodriguez",
+      "BRM",
+      "6",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "5",
+      "Jackie Oliver",
+      "BRM",
+      "5",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

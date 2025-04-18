@@ -1,0 +1,194 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "55",
+      "1:39:40.382",
+      "25"
+    ],
+    [
+      "2",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      "55",
+      "+2.581s",
+      "18"
+    ],
+    [
+      "3",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing TAG Heuer",
+      "55",
+      "+12.706s",
+      "15"
+    ],
+    [
+      "4",
+      "3",
+      "Daniel Ricciardo",
+      "Red Bull Racing TAG Heuer",
+      "55",
+      "+15.379s",
+      "12"
+    ],
+    [
+      "5",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes",
+      "55",
+      "+47.957s",
+      "10"
+    ],
+    [
+      "6",
+      "55",
+      "Carlos Sainz",
+      "Renault",
+      "55",
+      "+72.548s",
+      "8"
+    ],
+    [
+      "7",
+      "16",
+      "Charles Leclerc",
+      "Sauber Ferrari",
+      "55",
+      "+90.789s",
+      "6"
+    ],
+    [
+      "8",
+      "11",
+      "Sergio Perez",
+      "Force India Mercedes",
+      "55",
+      "+91.275s",
+      "4"
+    ],
+    [
+      "9",
+      "8",
+      "Romain Grosjean",
+      "Haas Ferrari",
+      "54",
+      "+1 lap",
+      "2"
+    ],
+    [
+      "10",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "54",
+      "+1 lap",
+      "1"
+    ],
+    [
+      "11",
+      "14",
+      "Fernando Alonso",
+      "McLaren Renault",
+      "54",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "12",
+      "28",
+      "Brendon Hartley",
+      "Scuderia Toro Rosso Honda",
+      "54",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "13",
+      "18",
+      "Lance Stroll",
+      "Williams Mercedes",
+      "54",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "14",
+      "2",
+      "Stoffel Vandoorne",
+      "McLaren Renault",
+      "54",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "15",
+      "35",
+      "Sergey Sirotkin",
+      "Williams Mercedes",
+      "54",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "NC",
+      "10",
+      "Pierre Gasly",
+      "Scuderia Toro Rosso Honda",
+      "46",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "31",
+      "Esteban Ocon",
+      "Force India Mercedes",
+      "44",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "9",
+      "Marcus Ericsson",
+      "Sauber Ferrari",
+      "24",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "7",
+      "Kimi Räikkönen",
+      "Ferrari",
+      "6",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "27",
+      "Nico Hulkenberg",
+      "Renault",
+      "0",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

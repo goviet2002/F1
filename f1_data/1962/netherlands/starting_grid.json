@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "19",
+      "John Surtees",
+      "Lola Climax",
+      "1:32.500"
+    ],
+    [
+      "2",
+      "17",
+      "Graham Hill",
+      "BRM",
+      "1:32.600"
+    ],
+    [
+      "3",
+      "4",
+      "Jim Clark",
+      "Lotus Climax",
+      "1:33.200"
+    ],
+    [
+      "4",
+      "8",
+      "Jack Brabham",
+      "Lotus Climax",
+      "1:33.300"
+    ],
+    [
+      "5",
+      "6",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "1:33.900"
+    ],
+    [
+      "6",
+      "9",
+      "Innes Ireland",
+      "Lotus BRM",
+      "1:34.100"
+    ],
+    [
+      "7",
+      "18",
+      "Richie Ginther",
+      "BRM",
+      "1:34.500"
+    ],
+    [
+      "8",
+      "12",
+      "Dan Gurney",
+      "Porsche",
+      "1:34.700"
+    ],
+    [
+      "9",
+      "1",
+      "Phil Hill",
+      "Ferrari",
+      "1:35.000"
+    ],
+    [
+      "10",
+      "5",
+      "Trevor  Taylor ",
+      "Lotus Climax",
+      "1:35.400"
+    ],
+    [
+      "11",
+      "3",
+      "Ricardo  Rodriguez ",
+      "Ferrari",
+      "1:36.100"
+    ],
+    [
+      "12",
+      "2",
+      "Giancarlo Baghetti",
+      "Ferrari",
+      "1:36.300"
+    ],
+    [
+      "13",
+      "11",
+      "Jo Bonnier",
+      "Porsche",
+      "1:37.000"
+    ],
+    [
+      "14",
+      "14",
+      "Carel Godin de Beaufort ",
+      "Porsche",
+      "1:37.400"
+    ],
+    [
+      "15",
+      "7",
+      "Tony Maggs",
+      "Cooper Climax",
+      "1:37.500"
+    ],
+    [
+      "16",
+      "10",
+      "Masten Gregory",
+      "Lotus BRM",
+      "1:38.000"
+    ],
+    [
+      "17",
+      "20",
+      "Roy Salvadori",
+      "Lola Climax",
+      "1:38.800"
+    ],
+    [
+      "18",
+      "15",
+      "Ben  Pon ",
+      "Porsche",
+      "1:40.900"
+    ],
+    [
+      "19",
+      "21",
+      "Jackie  Lewis ",
+      "Cooper Climax",
+      "1:43.200"
+    ],
+    [
+      "20",
+      "16",
+      "Wolfgang Seidel",
+      "Porsche",
+      "1:46.000"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

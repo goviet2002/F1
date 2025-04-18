@@ -1,0 +1,221 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "4",
+      "Jim Clark",
+      "Lotus Climax",
+      "82",
+      "2:14:09.600",
+      "9"
+    ],
+    [
+      "2",
+      "10",
+      "John Surtees",
+      "Ferrari",
+      "82",
+      "+25.800s",
+      "6"
+    ],
+    [
+      "3",
+      "1",
+      "Graham Hill",
+      "BRM",
+      "82",
+      "+37.600s",
+      "4"
+    ],
+    [
+      "4",
+      "2",
+      "Richie Ginther",
+      "BRM",
+      "81",
+      "+1 lap",
+      "3"
+    ],
+    [
+      "5",
+      "3",
+      "Lorenzo Bandini",
+      "BRM",
+      "81",
+      "+1 lap",
+      "2"
+    ],
+    [
+      "6",
+      "12",
+      "Jim  Hall ",
+      "Lotus BRM",
+      "80",
+      "+2 laps",
+      "1"
+    ],
+    [
+      "7",
+      "19",
+      "Chris Amon",
+      "Lola Climax",
+      "80",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "8",
+      "20",
+      "Mike Hailwood",
+      "Lotus Climax",
+      "78",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "9",
+      "7",
+      "Tony Maggs",
+      "Cooper Climax",
+      "78",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "10",
+      "23",
+      "Carel Godin de Beaufort ",
+      "Porsche",
+      "76",
+      "+6 laps",
+      "0"
+    ],
+    [
+      "11",
+      "21",
+      "Masten Gregory",
+      "Lotus BRM",
+      "75",
+      "+7 laps",
+      "0"
+    ],
+    [
+      "12",
+      "22",
+      "Bob Anderson",
+      "Lola Climax",
+      "75",
+      "+7 laps",
+      "0"
+    ],
+    [
+      "13",
+      "24",
+      "John  Campbell-Jones ",
+      "Lola Climax",
+      "74",
+      "+8 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "25",
+      "Jo Siffert",
+      "Lotus BRM",
+      "66",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "14",
+      "Jo Bonnier",
+      "Cooper Climax",
+      "65",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "9",
+      "Dan Gurney",
+      "Brabham Climax",
+      "59",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "26",
+      "Ian Raby",
+      "Gilby BRM",
+      "59",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "16",
+      "Ian Burgess ",
+      "Scirocco BRM",
+      "36",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "8",
+      "Jack Brabham",
+      "Brabham Climax",
+      "27",
+      "DNF",
+      "0"
+    ],
+    [
+      "DQ",
+      "11",
+      "Innes Ireland",
+      "BRP BRM",
+      "26",
+      "DSQ",
+      "0"
+    ],
+    [
+      "DQ",
+      "5",
+      "Trevor  Taylor ",
+      "Lotus Climax",
+      "23",
+      "DSQ",
+      "0"
+    ],
+    [
+      "NC",
+      "15",
+      "Tony  Settember ",
+      "Scirocco BRM",
+      "20",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "6",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "6",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

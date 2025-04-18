@@ -1,0 +1,145 @@
+{
+  "header": [
+    "Stops",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time of day",
+    "Time",
+    "Total"
+  ],
+  "data": [
+    [
+      "1",
+      "12",
+      "Nigel Mansell",
+      "Lotus Ford",
+      "28",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "1",
+      "Keke Rosberg",
+      "Williams Honda",
+      "27",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "16",
+      "Eddie  Cheever",
+      "Renault",
+      "24",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "15",
+      "Alain Prost",
+      "Renault",
+      "25",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "5",
+      "Nelson Piquet",
+      "Brabham BMW",
+      "31",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "27",
+      "Patrick Tambay",
+      "Ferrari",
+      "28",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "35",
+      "Derek Warwick",
+      "Toleman Hart",
+      "27",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "11",
+      "Elio de Angelis",
+      "Lotus Ford",
+      "24",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "36",
+      "Bruno Giacomelli",
+      "Toleman Hart",
+      "30",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "28",
+      "Rene Arnoux",
+      "Ferrari",
+      "25",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "8",
+      "Niki Lauda",
+      "McLaren TAG",
+      "23",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "9",
+      "Manfred Winkelhock",
+      "ATS BMW",
+      "28",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "25",
+      "Jean-Pierre Jarier",
+      "Ligier Ford",
+      "26",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "session_name": "Pit Stop Summary"
+}

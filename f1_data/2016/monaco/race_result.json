@@ -1,0 +1,212 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "78",
+      "1:59:29.133",
+      "25"
+    ],
+    [
+      "2",
+      "3",
+      "Daniel Ricciardo",
+      "Red Bull Racing TAG Heuer",
+      "78",
+      "+7.252s",
+      "18"
+    ],
+    [
+      "3",
+      "11",
+      "Sergio Perez",
+      "Force India Mercedes",
+      "78",
+      "+13.825s",
+      "15"
+    ],
+    [
+      "4",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      "78",
+      "+15.846s",
+      "12"
+    ],
+    [
+      "5",
+      "14",
+      "Fernando Alonso",
+      "McLaren Honda",
+      "78",
+      "+85.076s",
+      "10"
+    ],
+    [
+      "6",
+      "27",
+      "Nico Hulkenberg",
+      "Force India Mercedes",
+      "78",
+      "+92.999s",
+      "8"
+    ],
+    [
+      "7",
+      "6",
+      "Nico Rosberg",
+      "Mercedes",
+      "78",
+      "+93.290s",
+      "6"
+    ],
+    [
+      "8",
+      "55",
+      "Carlos Sainz",
+      "Toro Rosso Ferrari",
+      "77",
+      "+1 lap",
+      "4"
+    ],
+    [
+      "9",
+      "22",
+      "Jenson Button",
+      "McLaren Honda",
+      "77",
+      "+1 lap",
+      "2"
+    ],
+    [
+      "10",
+      "19",
+      "Felipe Massa",
+      "Williams Mercedes",
+      "77",
+      "+1 lap",
+      "1"
+    ],
+    [
+      "11",
+      "21",
+      "Esteban Gutierrez ",
+      "Haas Ferrari",
+      "77",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "12",
+      "77",
+      "Valtteri Bottas",
+      "Williams Mercedes",
+      "77",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "13",
+      "8",
+      "Romain Grosjean",
+      "Haas Ferrari",
+      "76",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "14",
+      "94",
+      "Pascal Wehrlein",
+      "MRT Mercedes",
+      "76",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "15",
+      "88",
+      "Rio Haryanto",
+      "MRT Mercedes",
+      "74",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "9",
+      "Marcus Ericsson",
+      "Sauber Ferrari",
+      "51",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "12",
+      "Felipe Nasr",
+      "Sauber Ferrari",
+      "48",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing TAG Heuer",
+      "34",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Kevin Magnussen",
+      "Renault",
+      "32",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "26",
+      "Daniil Kvyat",
+      "Toro Rosso Ferrari",
+      "18",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "7",
+      "Kimi Räikkönen",
+      "Ferrari",
+      "10",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "30",
+      "Jolyon Palmer",
+      "Renault",
+      "7",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

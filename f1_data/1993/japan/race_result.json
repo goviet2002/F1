@@ -1,0 +1,221 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "8",
+      "Ayrton Senna",
+      "McLaren Ford",
+      "53",
+      "1:40:27.912",
+      "10"
+    ],
+    [
+      "2",
+      "2",
+      "Alain Prost",
+      "Williams Renault",
+      "53",
+      "+11.435s",
+      "6"
+    ],
+    [
+      "3",
+      "7",
+      "Mika Hakkinen",
+      "McLaren Ford",
+      "53",
+      "+26.129s",
+      "4"
+    ],
+    [
+      "4",
+      "0",
+      "Damon Hill",
+      "Williams Renault",
+      "53",
+      "+83.538s",
+      "3"
+    ],
+    [
+      "5",
+      "14",
+      "Rubens Barrichello",
+      "Jordan Hart",
+      "53",
+      "+95.101s",
+      "2"
+    ],
+    [
+      "6",
+      "15",
+      "Eddie Irvine",
+      "Jordan Hart",
+      "53",
+      "+106.421s",
+      "1"
+    ],
+    [
+      "7",
+      "26",
+      "Mark Blundell",
+      "Ligier Renault",
+      "52",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "8",
+      "30",
+      "Jyrki Jarvilehto",
+      "Sauber",
+      "52",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "9",
+      "25",
+      "Martin Brundle",
+      "Ligier Renault",
+      "51",
+      "DNF",
+      "0"
+    ],
+    [
+      "10",
+      "24",
+      "Pierluigi Martini",
+      "Minardi Ford",
+      "51",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "11",
+      "12",
+      "Johnny Herbert",
+      "Lotus Ford",
+      "51",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "12",
+      "19",
+      "Toshio  Suzuki",
+      "Larrousse Lamborghini",
+      "51",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "13",
+      "11",
+      "Pedro Lamy",
+      "Lotus Ford",
+      "49",
+      "DNF",
+      "0"
+    ],
+    [
+      "14",
+      "9",
+      "Derek Warwick",
+      "Footwork Mugen Honda",
+      "48",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "6",
+      "Riccardo Patrese",
+      "Benetton Ford",
+      "45",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "28",
+      "Gerhard Berger",
+      "Ferrari",
+      "40",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "10",
+      "Aguri Suzuki",
+      "Footwork Mugen Honda",
+      "28",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "3",
+      "Ukyo Katayama",
+      "Tyrrell Yamaha",
+      "26",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "23",
+      "Jean-Marc Gounon",
+      "Minardi Ford",
+      "26",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "29",
+      "Karl Wendlinger",
+      "Sauber",
+      "25",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Erik Comas",
+      "Larrousse Lamborghini",
+      "17",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "5",
+      "Michael Schumacher",
+      "Benetton Ford",
+      "10",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "27",
+      "Jean Alesi",
+      "Ferrari",
+      "7",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

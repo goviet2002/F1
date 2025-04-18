@@ -1,0 +1,212 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "17",
+      "Johnny Herbert",
+      "Stewart Ford",
+      "66",
+      "1:41:54.314",
+      "10"
+    ],
+    [
+      "2",
+      "19",
+      "Jarno Trulli",
+      "Prost Peugeot",
+      "66",
+      "+22.618s",
+      "6"
+    ],
+    [
+      "3",
+      "16",
+      "Rubens Barrichello",
+      "Stewart Ford",
+      "66",
+      "+22.865s",
+      "4"
+    ],
+    [
+      "4",
+      "6",
+      "Ralf Schumacher",
+      "Williams Supertec",
+      "66",
+      "+39.507s",
+      "3"
+    ],
+    [
+      "5",
+      "1",
+      "Mika Hakkinen",
+      "McLaren Mercedes",
+      "66",
+      "+62.950s",
+      "2"
+    ],
+    [
+      "6",
+      "21",
+      "Marc Gene",
+      "Minardi Ford",
+      "66",
+      "+65.154s",
+      "1"
+    ],
+    [
+      "7",
+      "4",
+      "Eddie Irvine",
+      "Ferrari",
+      "66",
+      "+66.683s",
+      "0"
+    ],
+    [
+      "8",
+      "23",
+      "Ricardo Zonta",
+      "BAR Supertec",
+      "65",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "9",
+      "18",
+      "Olivier Panis",
+      "Prost Peugeot",
+      "65",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "10",
+      "22",
+      "Jacques Villeneuve",
+      "BAR Supertec",
+      "61",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Luca Badoer",
+      "Minardi Ford",
+      "53",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "14",
+      "Pedro de la Rosa",
+      "Arrows",
+      "52",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "9",
+      "Giancarlo Fisichella",
+      "Benetton Playlife",
+      "48",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "3",
+      "Mika Salo",
+      "Ferrari",
+      "44",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "15",
+      "Toranosuke Takagi",
+      "Arrows",
+      "42",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "2",
+      "David Coulthard",
+      "McLaren Mercedes",
+      "37",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "11",
+      "Jean Alesi",
+      "Sauber Petronas",
+      "35",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "8",
+      "Heinz-Harald Frentzen",
+      "Jordan Mugen Honda",
+      "32",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "5",
+      "Alessandro Zanardi",
+      "Williams Supertec",
+      "10",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "7",
+      "Damon Hill",
+      "Jordan Mugen Honda",
+      "0",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "10",
+      "Alexander Wurz",
+      "Benetton Playlife",
+      "0",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "12",
+      "Pedro Diniz",
+      "Sauber Petronas",
+      "0",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

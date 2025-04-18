@@ -1,0 +1,145 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:19.273"
+    ],
+    [
+      "2",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing Honda",
+      "1:20.489"
+    ],
+    [
+      "3",
+      "55",
+      "Carlos Sainz",
+      "McLaren Renault",
+      "1:20.671"
+    ],
+    [
+      "4",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes",
+      "1:20.701"
+    ],
+    [
+      "5",
+      "31",
+      "Esteban Ocon",
+      "Renault",
+      "1:20.922"
+    ],
+    [
+      "6",
+      "23",
+      "Alexander Albon",
+      "Red Bull Racing Honda",
+      "1:21.011"
+    ],
+    [
+      "7",
+      "10",
+      "Pierre Gasly",
+      "AlphaTauri Honda",
+      "1:21.028"
+    ],
+    [
+      "8",
+      "3",
+      "Daniel Ricciardo",
+      "Renault",
+      "1:21.192"
+    ],
+    [
+      "9",
+      "4",
+      "Lando Norris",
+      "McLaren Renault",
+      "1:20.925"
+    ],
+    [
+      "10",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      "1:21.651"
+    ],
+    [
+      "11",
+      "63",
+      "George Russell",
+      "Williams Mercedes",
+      "1:19.636"
+    ],
+    [
+      "12",
+      "18",
+      "Lance Stroll",
+      "Racing Point BWT Mercedes",
+      "1:19.645"
+    ],
+    [
+      "13",
+      "26",
+      "Daniil Kvyat",
+      "AlphaTauri Honda",
+      "1:19.717"
+    ],
+    [
+      "14",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "1:19.628"
+    ],
+    [
+      "15",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "1:20.211"
+    ],
+    [
+      "16",
+      "7",
+      "Kimi Räikkönen",
+      "Alfa Romeo Racing Ferrari",
+      "1:21.372"
+    ],
+    [
+      "17",
+      "11",
+      "Sergio Perez",
+      "Racing Point BWT Mercedes",
+      "1:21.607"
+    ],
+    [
+      "18",
+      "6",
+      "Nicholas Latifi",
+      "Williams Mercedes",
+      "1:21.759"
+    ],
+    [
+      "19",
+      "99",
+      "Antonio Giovinazzi",
+      "Alfa Romeo Racing Ferrari",
+      "1:21.831"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

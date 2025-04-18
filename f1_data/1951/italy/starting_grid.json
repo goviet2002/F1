@@ -1,0 +1,166 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "38",
+      "Juan Manuel Fangio",
+      "Alfa Romeo",
+      "1:53.200"
+    ],
+    [
+      "2",
+      "34",
+      "Nino Farina",
+      "Alfa Romeo",
+      "1:53.900"
+    ],
+    [
+      "3",
+      "2",
+      "Alberto Ascari",
+      "Ferrari",
+      "1:55.100"
+    ],
+    [
+      "4",
+      "6",
+      "Jose Froilan Gonzalez",
+      "Talbot-Lago",
+      "1:55.900"
+    ],
+    [
+      "5",
+      "4",
+      "Luigi  Villoresi",
+      "Ferrari",
+      "1:57.900"
+    ],
+    [
+      "6",
+      "8",
+      "Piero  Taruffi",
+      "Ferrari",
+      "1:58.200"
+    ],
+    [
+      "7",
+      "40",
+      "Felice  Bonetto",
+      "Alfa Romeo",
+      "1:58.300"
+    ],
+    [
+      "8",
+      "30",
+      "Reg  Parnell",
+      "BRM",
+      "2:02.200"
+    ],
+    [
+      "9",
+      "36",
+      "Toulo de Graffenried",
+      "Alfa Romeo",
+      "2:05.200"
+    ],
+    [
+      "10",
+      "32",
+      "Ken Richardson",
+      "BRM",
+      "2:05.600"
+    ],
+    [
+      "11",
+      "48",
+      "Andre  Simon",
+      "Simca-Gordini",
+      "2:08.000"
+    ],
+    [
+      "12",
+      "50",
+      "Maurice  Trintignant",
+      "Simca-Gordini",
+      "2:08.900"
+    ],
+    [
+      "13",
+      "46",
+      "Robert  Manzon",
+      "Simca-Gordini",
+      "2:09.000"
+    ],
+    [
+      "14",
+      "24",
+      "Yves Giraud-Cabantous",
+      "Talbot-Lago",
+      "2:09.300"
+    ],
+    [
+      "15",
+      "18",
+      "Louis  Rosier",
+      "Talbot-Lago",
+      "2:10.800"
+    ],
+    [
+      "16",
+      "12",
+      "Chico Landi",
+      "Ferrari",
+      "2:11.200"
+    ],
+    [
+      "17",
+      "20",
+      "Louis  Chiron",
+      "Talbot-Lago",
+      "2:12.100"
+    ],
+    [
+      "18",
+      "44",
+      "Franco  Rol",
+      "OSCA",
+      "2:13.400"
+    ],
+    [
+      "19",
+      "16",
+      "Peter  Whitehead",
+      "Ferrari",
+      "2:16.200"
+    ],
+    [
+      "20",
+      "22",
+      "Pierre  Levegh",
+      "Talbot-Lago",
+      "2:16.500"
+    ],
+    [
+      "21",
+      "26",
+      "Johnny Claes",
+      "Talbot-Lago",
+      "2:18.600"
+    ],
+    [
+      "22",
+      "28",
+      "Jacques Swaters",
+      "Talbot-Lago",
+      "2:18.800"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}
