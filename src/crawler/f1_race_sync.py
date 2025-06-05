@@ -235,7 +235,7 @@ if __name__ == "__main__":
   
     # Save complete data
     print("Saving complete data...")
-    with open('f1_data_sync.json', 'w') as f:
+    with open('..', '..', 'data', 'f1_data_sync.json', 'w') as f:
         json.dump(all_data, f, indent=2)
     
     print(f"Complete! Execution time: {all_data['execution_time']:.2f} seconds")
