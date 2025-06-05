@@ -6,12 +6,13 @@ import json
 import time
 import sys
 
-sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "..", "..", "src")))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from utils.path import get_project_root
 from f1_shared import ssl_context, head, base_url, years, test_function
 
 PROJECT_ROOT = get_project_root()
 DATA_DIR = os.path.join(PROJECT_ROOT, "data", "f1_data")
+CHECKPOINTS_DIR = os.path.join(PROJECT_ROOT, "data", "f1_checkpoints")
 
 async def scrape_races_year(session, year):
     # URL of the page
@@ -160,7 +161,7 @@ async def collect_race_links():
     headers_race = []
     races = []
 
-    os.makedirs("f1_data", exist_ok=True)
+    os.makedirs(DATA_DIR, exist_ok=True)
     
     connector = aiohttp.TCPConnector(ssl=ssl_context)
 
@@ -188,10 +189,6 @@ async def collect_race_links():
                 
         return all_race_links, headers_race, races
 
-# Collect all race links 
-# collect_links = await collect_race_links()
-# print(collect_links)
-
 async def scrape_f1_data_with_checkpoints(all_race_links):
     connector = aiohttp.TCPConnector(ssl=ssl_context)
     
@@ -199,8 +196,8 @@ async def scrape_f1_data_with_checkpoints(all_race_links):
     timeout = aiohttp.ClientTimeout(total=60)
     
     # Create checkpoint directory and main data directory
-    os.makedirs("f1_checkpoints", exist_ok=True)
-    os.makedirs("f1_data", exist_ok=True)
+    os.makedirs(DATA_DIR, exist_ok=True)
+    os.makedirs(CHECKPOINTS_DIR, exist_ok=True)
     
     start_time = time.time()
     
@@ -237,7 +234,7 @@ async def scrape_f1_data_with_checkpoints(all_race_links):
                     json.dump(metadata, f, indent=2, ensure_ascii=False)
             
             # Save checkpoint every 100 races or at the end
-            checkpoint_file = "f1_checkpoints/race_locations_latest.json"
+            checkpoint_file =  os.path.join(CHECKPOINTS_DIR, "race_locations_latest.json")
             if (i + 1) % 1000 == 0 or i == len(all_race_links) - 1:
                 checkpoint_count += 1
                 with open(checkpoint_file, 'w', encoding='utf-8') as f:
@@ -261,7 +258,7 @@ async def scrape_f1_data_with_checkpoints(all_race_links):
                 all_sessions.extend(sessions)
                 
             # Save checkpoint every 100 races or at the end
-            checkpoint_file = "f1_checkpoints/race_sessions_latest.json"
+            checkpoint_file =  os.path.join(CHECKPOINTS_DIR, "race_sessions_latest.json")
             if (i + 1) % 1000 == 0 or i == len(all_race_links) - 1:
                 checkpoint_count += 1
                 with open(checkpoint_file, 'w', encoding='utf-8') as f:
@@ -311,7 +308,7 @@ async def scrape_f1_data_with_checkpoints(all_race_links):
                 results_processed += 1
                 
             # Save checkpoint every 200 sessions or at the end
-            checkpoint_file = "f1_checkpoints/race_results_latest.json"
+            checkpoint_file =  os.path.join(CHECKPOINTS_DIR, "race_results_latest.json")
             if (i + 1) % 1000 == 0 or i == len(all_sessions) - 1:
                 checkpoint_count += 1
                 with open(checkpoint_file, 'w', encoding='utf-8') as f:
@@ -342,5 +339,7 @@ async def scrape_f1_data_with_checkpoints(all_race_links):
             "execution_time": total_time
         }
 
-# all_data = await scrape_f1_data_with_checkpoints(collect_links[0])
+if __name__ == "__main__":
+    collect_links = asyncio.run(collect_race_links())
+    all_data = asyncio.run(scrape_f1_data_with_checkpoints(collect_links[0]))
 
