@@ -1,0 +1,194 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Damon Hill",
+      "Williams Renault",
+      "1:20.081"
+    ],
+    [
+      "2",
+      "1",
+      "Michael Schumacher",
+      "Benetton Renault",
+      "1:20.382"
+    ],
+    [
+      "3",
+      "6",
+      "David Coulthard",
+      "Williams Renault",
+      "1:20.422"
+    ],
+    [
+      "4",
+      "2",
+      "Johnny Herbert",
+      "Benetton Renault",
+      "1:20.888"
+    ],
+    [
+      "5",
+      "28",
+      "Gerhard Berger",
+      "Ferrari",
+      "1:20.906"
+    ],
+    [
+      "6",
+      "27",
+      "Jean Alesi",
+      "Ferrari",
+      "1:21.041"
+    ],
+    [
+      "7",
+      "8",
+      "Mika Hakkinen",
+      "McLaren Mercedes",
+      "1:21.399"
+    ],
+    [
+      "8",
+      "15",
+      "Eddie Irvine",
+      "Jordan Peugeot",
+      "1:21.749"
+    ],
+    [
+      "9",
+      "7",
+      "Mark Blundell",
+      "McLaren Mercedes",
+      "1:21.779"
+    ],
+    [
+      "10",
+      "26",
+      "Olivier Panis",
+      "Ligier Mugen Honda",
+      "1:21.914"
+    ],
+    [
+      "11",
+      "3",
+      "Ukyo Katayama",
+      "Tyrrell Yamaha",
+      "1:22.325"
+    ],
+    [
+      "12",
+      "4",
+      "Mika Salo",
+      "Tyrrell Yamaha",
+      "1:22.416"
+    ],
+    [
+      "13",
+      "9",
+      "Gianni Morbidelli",
+      "Footwork Hart",
+      "1:22.468"
+    ],
+    [
+      "14",
+      "30",
+      "Heinz-Harald Frentzen",
+      "Sauber Ford",
+      "1:22.872"
+    ],
+    [
+      "15",
+      "25",
+      "Aguri Suzuki",
+      "Ligier Mugen Honda",
+      "1:22.971"
+    ],
+    [
+      "16",
+      "14",
+      "Rubens Barrichello",
+      "Jordan Peugeot",
+      "1:22.975"
+    ],
+    [
+      "17",
+      "23",
+      "Pierluigi Martini",
+      "Minardi Ford",
+      "1:24.383"
+    ],
+    [
+      "18",
+      "24",
+      "Luca Badoer",
+      "Minardi Ford",
+      "1:24.443"
+    ],
+    [
+      "19",
+      "29",
+      "Karl Wendlinger",
+      "Sauber Ford",
+      "1:24.723"
+    ],
+    [
+      "20",
+      "16",
+      "Bertrand Gachot",
+      "Pacific Ilmor",
+      "1:25.127"
+    ],
+    [
+      "21",
+      "10",
+      "Taki Inoue",
+      "Footwork Hart",
+      "1:25.225"
+    ],
+    [
+      "22",
+      "17",
+      "Andrea Montermini",
+      "Pacific Ilmor",
+      "1:25.886"
+    ],
+    [
+      "23",
+      "22",
+      "Roberto Moreno",
+      "Forti Ford",
+      "1:26.269"
+    ],
+    [
+      "24",
+      "12",
+      "Jos Verstappen",
+      "Simtek Ford",
+      "1:26.323"
+    ],
+    [
+      "25",
+      "21",
+      "Pedro Diniz",
+      "Forti Ford",
+      "1:27.792"
+    ],
+    [
+      "26",
+      "11",
+      "Domenico Schiattarella",
+      "Simtek Ford",
+      "1:28.106"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

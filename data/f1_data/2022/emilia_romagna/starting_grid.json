@@ -1,0 +1,125 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car"
+  ],
+  "data": [
+    [
+      "1",
+      "1",
+      "Max Verstappen",
+      "Red Bull Racing RBPT"
+    ],
+    [
+      "2",
+      "16",
+      "Charles Leclerc",
+      "Ferrari"
+    ],
+    [
+      "3",
+      "11",
+      "Sergio Perez",
+      "Red Bull Racing RBPT"
+    ],
+    [
+      "4",
+      "55",
+      "Carlos Sainz",
+      "Ferrari"
+    ],
+    [
+      "5",
+      "4",
+      "Lando Norris",
+      "McLaren Mercedes"
+    ],
+    [
+      "6",
+      "3",
+      "Daniel Ricciardo",
+      "McLaren Mercedes"
+    ],
+    [
+      "7",
+      "77",
+      "Valtteri Bottas",
+      "Alfa Romeo Ferrari"
+    ],
+    [
+      "8",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari"
+    ],
+    [
+      "9",
+      "14",
+      "Fernando Alonso",
+      "Alpine Renault"
+    ],
+    [
+      "10",
+      "47",
+      "Mick Schumacher",
+      "Haas Ferrari"
+    ],
+    [
+      "11",
+      "63",
+      "George Russell",
+      "Mercedes"
+    ],
+    [
+      "12",
+      "22",
+      "Yuki Tsunoda",
+      "AlphaTauri RBPT"
+    ],
+    [
+      "13",
+      "5",
+      "Sebastian Vettel",
+      "Aston Martin Aramco Mercedes"
+    ],
+    [
+      "14",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes"
+    ],
+    [
+      "15",
+      "18",
+      "Lance Stroll",
+      "Aston Martin Aramco Mercedes"
+    ],
+    [
+      "16",
+      "31",
+      "Esteban Ocon",
+      "Alpine Renault"
+    ],
+    [
+      "17",
+      "10",
+      "Pierre Gasly",
+      "AlphaTauri RBPT"
+    ],
+    [
+      "18",
+      "23",
+      "Alexander Albon",
+      "Williams Mercedes"
+    ],
+    [
+      "19",
+      "6",
+      "Nicholas Latifi",
+      "Williams Mercedes"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

@@ -1,0 +1,265 @@
+{
+  "header": [
+    "Stops",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time of day",
+    "Time",
+    "Total"
+  ],
+  "data": [
+    [
+      "1",
+      "16",
+      "Pedro Diniz",
+      "Sauber Petronas",
+      "1",
+      "14:04:41",
+      "34.084",
+      "34.084"
+    ],
+    [
+      "1",
+      "19",
+      "Jos Verstappen",
+      "Arrows Supertec",
+      "2",
+      "14:06:16",
+      "37.806",
+      "37.806"
+    ],
+    [
+      "1",
+      "9",
+      "Ralf Schumacher",
+      "Williams BMW",
+      "8",
+      "14:14:08",
+      "50.166",
+      "50.166"
+    ],
+    [
+      "2",
+      "9",
+      "Ralf Schumacher",
+      "Williams BMW",
+      "9",
+      "14:16:23",
+      "8:16.808",
+      "9:06.974"
+    ],
+    [
+      "1",
+      "23",
+      "Ricardo Zonta",
+      "BAR Honda",
+      "17",
+      "14:25:24",
+      "32.490",
+      "32.490"
+    ],
+    [
+      "2",
+      "16",
+      "Pedro Diniz",
+      "Sauber Petronas",
+      "17",
+      "14:25:26",
+      "32.450",
+      "1:06.534"
+    ],
+    [
+      "1",
+      "14",
+      "Jean Alesi",
+      "Prost Peugeot",
+      "24",
+      "14:34:02",
+      "30.120",
+      "30.120"
+    ],
+    [
+      "1",
+      "21",
+      "Gaston Mazzacane",
+      "Minardi Fondmetal",
+      "34",
+      "14:47:20",
+      "31.260",
+      "31.260"
+    ],
+    [
+      "1",
+      "1",
+      "Mika Hakkinen",
+      "McLaren Mercedes",
+      "38",
+      "14:50:00",
+      "32.335",
+      "32.335"
+    ],
+    [
+      "1",
+      "15",
+      "Nick Heidfeld",
+      "Prost Peugeot",
+      "39",
+      "14:52:41",
+      "31.249",
+      "31.249"
+    ],
+    [
+      "1",
+      "2",
+      "David Coulthard",
+      "McLaren Mercedes",
+      "42",
+      "14:55:10",
+      "30.537",
+      "30.537"
+    ],
+    [
+      "1",
+      "7",
+      "Luciano Burti",
+      "Jaguar Cosworth",
+      "42",
+      "14:56:46",
+      "34.708",
+      "34.708"
+    ],
+    [
+      "1",
+      "20",
+      "Marc Gene",
+      "Minardi Fondmetal",
+      "43",
+      "14:57:37",
+      "29.954",
+      "29.954"
+    ],
+    [
+      "3",
+      "16",
+      "Pedro Diniz",
+      "Sauber Petronas",
+      "43",
+      "14:57:58",
+      "29.719",
+      "1:36.253"
+    ],
+    [
+      "1",
+      "17",
+      "Mika Salo",
+      "Sauber Petronas",
+      "44",
+      "14:58:45",
+      "30.275",
+      "30.275"
+    ],
+    [
+      "1",
+      "8",
+      "Johnny Herbert",
+      "Jaguar Cosworth",
+      "45",
+      "15:00:00",
+      "32.047",
+      "32.047"
+    ],
+    [
+      "2",
+      "23",
+      "Ricardo Zonta",
+      "BAR Honda",
+      "45",
+      "15:00:27",
+      "37.649",
+      "1:10.139"
+    ],
+    [
+      "1",
+      "4",
+      "Rubens Barrichello",
+      "Ferrari",
+      "46",
+      "15:00:32",
+      "29.659",
+      "29.659"
+    ],
+    [
+      "3",
+      "9",
+      "Ralf Schumacher",
+      "Williams BMW",
+      "39",
+      "15:01:59",
+      "21.386",
+      "9:28.360"
+    ],
+    [
+      "1",
+      "10",
+      "Jenson Button",
+      "Williams BMW",
+      "47",
+      "15:02:27",
+      "31.185",
+      "31.185"
+    ],
+    [
+      "4",
+      "9",
+      "Ralf Schumacher",
+      "Williams BMW",
+      "40",
+      "15:03:41",
+      "45.759",
+      "10:14.119"
+    ],
+    [
+      "1",
+      "22",
+      "Jacques Villeneuve",
+      "BAR Honda",
+      "49",
+      "15:04:56",
+      "29.979",
+      "29.979"
+    ],
+    [
+      "1",
+      "12",
+      "Alexander Wurz",
+      "Benetton Playlife",
+      "49",
+      "15:05:14",
+      "29.898",
+      "29.898"
+    ],
+    [
+      "5",
+      "9",
+      "Ralf Schumacher",
+      "Williams BMW",
+      "43",
+      "15:08:04",
+      "28.599",
+      "10:42.718"
+    ],
+    [
+      "2",
+      "21",
+      "Gaston Mazzacane",
+      "Minardi Fondmetal",
+      "59",
+      "15:19:24",
+      "32.116",
+      "1:03.376"
+    ]
+  ],
+  "session_name": "Pit Stop Summary"
+}

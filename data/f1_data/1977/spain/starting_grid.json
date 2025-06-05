@@ -1,0 +1,187 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Mario Andretti",
+      "Lotus Ford",
+      "1:18.700"
+    ],
+    [
+      "2",
+      "26",
+      "Jacques Laffite",
+      "Ligier Matra",
+      "1:19.420"
+    ],
+    [
+      "3",
+      "11",
+      "Niki Lauda",
+      "Ferrari",
+      "1:19.480"
+    ],
+    [
+      "4",
+      "12",
+      "Carlos Reutemann",
+      "Ferrari",
+      "1:19.520"
+    ],
+    [
+      "5",
+      "20",
+      "Jody Scheckter",
+      "Wolf Ford",
+      "1:19.570"
+    ],
+    [
+      "6",
+      "7",
+      "John Watson",
+      "Brabham Alfa Romeo",
+      "1:19.870"
+    ],
+    [
+      "7",
+      "1",
+      "James Hunt",
+      "McLaren Ford",
+      "1:20.110"
+    ],
+    [
+      "8",
+      "22",
+      "Clay Regazzoni",
+      "Ensign Ford",
+      "1:20.130"
+    ],
+    [
+      "9",
+      "2",
+      "Jochen Mass",
+      "McLaren Ford",
+      "1:20.140"
+    ],
+    [
+      "10",
+      "4",
+      "Patrick Depailler",
+      "Tyrrell Ford",
+      "1:20.160"
+    ],
+    [
+      "11",
+      "19",
+      "Vittorio Brambilla",
+      "Surtees Ford",
+      "1:20.260"
+    ],
+    [
+      "12",
+      "6",
+      "Gunnar Nilsson",
+      "Lotus Ford",
+      "1:20.380"
+    ],
+    [
+      "13",
+      "8",
+      "Hans-Joachim Stuck",
+      "Brabham Alfa Romeo",
+      "1:20.550"
+    ],
+    [
+      "14",
+      "17",
+      "Alan  Jones",
+      "Shadow Ford",
+      "1:20.740"
+    ],
+    [
+      "15",
+      "3",
+      "Ronnie Peterson",
+      "Tyrrell Ford",
+      "1:20.960"
+    ],
+    [
+      "16",
+      "24",
+      "Rupert Keegan",
+      "Hesketh Ford",
+      "1:21.030"
+    ],
+    [
+      "17",
+      "10",
+      "Ian Scheckter",
+      "March Ford",
+      "1:21.050"
+    ],
+    [
+      "18",
+      "25",
+      "Harald Ertl",
+      "Hesketh Ford",
+      "1:21.160"
+    ],
+    [
+      "19",
+      "28",
+      "Emerson Fittipaldi",
+      "Fittipaldi Ford",
+      "1:21.560"
+    ],
+    [
+      "20",
+      "18",
+      "Hans Binder",
+      "Surtees Ford",
+      "1:21.730"
+    ],
+    [
+      "21",
+      "37",
+      "Arturo Merzario",
+      "March Ford",
+      "1:21.820"
+    ],
+    [
+      "22",
+      "27",
+      "Patrick Neve",
+      "",
+      "1:21.920"
+    ],
+    [
+      "23",
+      "36",
+      "Emilio de Villota",
+      "McLaren Ford",
+      "1:21.970"
+    ],
+    [
+      "24",
+      "16",
+      "Renzo Zorzi",
+      "Shadow Ford",
+      "1:22.090"
+    ],
+    [
+      "25",
+      "30",
+      "Brett Lunger",
+      "McLaren Ford",
+      "1:22.240"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

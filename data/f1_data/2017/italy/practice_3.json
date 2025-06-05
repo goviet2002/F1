@@ -1,0 +1,194 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time",
+    "Gap",
+    "Laps"
+  ],
+  "data": [
+    [
+      "1",
+      "19",
+      "Felipe Massa",
+      "Williams Mercedes",
+      "1:40.660",
+      "",
+      "4"
+    ],
+    [
+      "2",
+      "18",
+      "Lance Stroll",
+      "Williams Mercedes",
+      "1:40.888",
+      "+0.228s",
+      "4"
+    ],
+    [
+      "3",
+      "27",
+      "Nico Hulkenberg",
+      "Renault",
+      "1:41.491",
+      "+0.831s",
+      "4"
+    ],
+    [
+      "4",
+      "55",
+      "Carlos Sainz",
+      "Toro Rosso",
+      "1:41.515",
+      "+0.855s",
+      "5"
+    ],
+    [
+      "5",
+      "30",
+      "Jolyon Palmer",
+      "Renault",
+      "1:44.369",
+      "+3.709s",
+      "4"
+    ],
+    [
+      "6",
+      "9",
+      "Marcus Ericsson",
+      "Sauber Ferrari",
+      "1:44.701",
+      "+4.041s",
+      "3"
+    ],
+    [
+      "7",
+      "26",
+      "Daniil Kvyat",
+      "Toro Rosso",
+      "1:45.033",
+      "+4.373s",
+      "4"
+    ],
+    [
+      "8",
+      "3",
+      "Daniel Ricciardo",
+      "Red Bull Racing TAG Heuer",
+      "",
+      "",
+      "1"
+    ],
+    [
+      "9",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing TAG Heuer",
+      "",
+      "",
+      "1"
+    ],
+    [
+      "10",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      "",
+      "",
+      "3"
+    ],
+    [
+      "11",
+      "7",
+      "Kimi Räikkönen",
+      "Ferrari",
+      "",
+      "",
+      "4"
+    ],
+    [
+      "12",
+      "14",
+      "Fernando Alonso",
+      "McLaren Honda",
+      "",
+      "",
+      "2"
+    ],
+    [
+      "13",
+      "2",
+      "Stoffel Vandoorne",
+      "McLaren Honda",
+      "",
+      "",
+      "4"
+    ],
+    [
+      "14",
+      "8",
+      "Romain Grosjean",
+      "Haas Ferrari",
+      "",
+      "",
+      "1"
+    ],
+    [
+      "15",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "",
+      "",
+      "1"
+    ],
+    [
+      "16",
+      "31",
+      "Esteban Ocon",
+      "Force India Mercedes",
+      "",
+      "",
+      "2"
+    ],
+    [
+      "17",
+      "94",
+      "Pascal Wehrlein",
+      "Sauber Ferrari",
+      "",
+      "",
+      "2"
+    ],
+    [
+      "18",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes",
+      "",
+      "",
+      "1"
+    ],
+    [
+      "19",
+      "11",
+      "Sergio Perez",
+      "Force India Mercedes",
+      "",
+      "",
+      "1"
+    ],
+    [
+      "20",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "",
+      "",
+      "1"
+    ]
+  ],
+  "session_name": "Practice 3"
+}

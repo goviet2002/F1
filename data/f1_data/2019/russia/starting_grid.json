@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "1:31.628"
+    ],
+    [
+      "2",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:32.030"
+    ],
+    [
+      "3",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      "1:32.053"
+    ],
+    [
+      "4",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes",
+      "1:32.632"
+    ],
+    [
+      "5",
+      "55",
+      "Carlos Sainz",
+      "McLaren Renault",
+      "1:33.222"
+    ],
+    [
+      "6",
+      "27",
+      "Nico Hulkenberg",
+      "Renault",
+      "1:33.289"
+    ],
+    [
+      "7",
+      "4",
+      "Lando Norris",
+      "McLaren Renault",
+      "1:33.301"
+    ],
+    [
+      "8",
+      "8",
+      "Romain Grosjean",
+      "Haas Ferrari",
+      "1:33.517"
+    ],
+    [
+      "9",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing Honda",
+      "1:32.310"
+    ],
+    [
+      "10",
+      "3",
+      "Daniel Ricciardo",
+      "Renault",
+      "1:33.661"
+    ],
+    [
+      "11",
+      "11",
+      "Sergio Perez",
+      "Racing Point BWT Mercedes",
+      "1:33.958"
+    ],
+    [
+      "12",
+      "99",
+      "Antonio Giovinazzi",
+      "Alfa Romeo Racing Ferrari",
+      "1:34.037"
+    ],
+    [
+      "13",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "1:34.082"
+    ],
+    [
+      "14",
+      "18",
+      "Lance Stroll",
+      "Racing Point BWT Mercedes",
+      "1:34.233"
+    ],
+    [
+      "15",
+      "7",
+      "Kimi Räikkönen",
+      "Alfa Romeo Racing Ferrari",
+      "1:34.840"
+    ],
+    [
+      "16",
+      "10",
+      "Pierre Gasly",
+      "Scuderia Toro Rosso Honda",
+      "1:33.950"
+    ],
+    [
+      "17",
+      "63",
+      "George Russell",
+      "Williams Mercedes",
+      "1:35.356"
+    ],
+    [
+      "18",
+      "88",
+      "Robert Kubica",
+      "Williams Mercedes",
+      "1:36.474"
+    ],
+    [
+      "19",
+      "26",
+      "Daniil Kvyat",
+      "Scuderia Toro Rosso Honda",
+      ""
+    ],
+    [
+      "20",
+      "23",
+      "Alexander Albon",
+      "Red Bull Racing Honda",
+      "1:39.197"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

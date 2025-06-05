@@ -1,0 +1,125 @@
+{
+  "header": [
+    "Stops",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time of day",
+    "Time",
+    "Total"
+  ],
+  "data": [
+    [
+      "1",
+      "1",
+      "Keke Rosberg",
+      "Williams Honda",
+      "29",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "6",
+      "Riccardo Patrese",
+      "Brabham BMW",
+      "28",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "8",
+      "Niki Lauda",
+      "McLaren TAG",
+      "33",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "25",
+      "Jean-Pierre Jarier",
+      "Ligier Ford",
+      "27",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "16",
+      "Eddie  Cheever",
+      "Renault",
+      "26",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "15",
+      "Alain Prost",
+      "Renault",
+      "22",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "5",
+      "Nelson Piquet",
+      "Brabham BMW",
+      "31",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "28",
+      "Rene Arnoux",
+      "Ferrari",
+      "28",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "9",
+      "Manfred Winkelhock",
+      "ATS BMW",
+      "29",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "12",
+      "Nigel Mansell",
+      "Lotus Ford",
+      "30",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "7",
+      "John Watson",
+      "McLaren TAG",
+      "29",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "session_name": "Pit Stop Summary"
+}

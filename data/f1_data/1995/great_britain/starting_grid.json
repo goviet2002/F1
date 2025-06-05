@@ -1,0 +1,180 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Damon Hill",
+      "Williams Renault",
+      "1:28.124"
+    ],
+    [
+      "2",
+      "1",
+      "Michael Schumacher",
+      "Benetton Renault",
+      "1:28.397"
+    ],
+    [
+      "3",
+      "6",
+      "David Coulthard",
+      "Williams Renault",
+      "1:28.947"
+    ],
+    [
+      "4",
+      "28",
+      "Gerhard Berger",
+      "Ferrari",
+      "1:29.657"
+    ],
+    [
+      "5",
+      "2",
+      "Johnny Herbert",
+      "Benetton Renault",
+      "1:29.867"
+    ],
+    [
+      "6",
+      "27",
+      "Jean Alesi",
+      "Ferrari",
+      "1:29.874"
+    ],
+    [
+      "7",
+      "15",
+      "Eddie Irvine",
+      "Jordan Peugeot",
+      "1:30.083"
+    ],
+    [
+      "8",
+      "8",
+      "Mika Hakkinen",
+      "McLaren Mercedes",
+      "1:30.140"
+    ],
+    [
+      "9",
+      "14",
+      "Rubens Barrichello",
+      "Jordan Peugeot",
+      "1:30.354"
+    ],
+    [
+      "10",
+      "7",
+      "Mark Blundell",
+      "McLaren Mercedes",
+      "1:30.453"
+    ],
+    [
+      "11",
+      "25",
+      "Martin Brundle",
+      "Ligier Mugen Honda",
+      "1:30.946"
+    ],
+    [
+      "12",
+      "30",
+      "Heinz-Harald Frentzen",
+      "Sauber Ford",
+      "1:31.602"
+    ],
+    [
+      "13",
+      "26",
+      "Olivier Panis",
+      "Ligier Mugen Honda",
+      "1:31.842"
+    ],
+    [
+      "14",
+      "3",
+      "Ukyo Katayama",
+      "Tyrrell Yamaha",
+      "1:32.087"
+    ],
+    [
+      "15",
+      "23",
+      "Pierluigi Martini",
+      "Minardi Ford",
+      "1:32.259"
+    ],
+    [
+      "16",
+      "29",
+      "Jean-Christophe Boullion",
+      "Sauber Ford",
+      "1:33.166"
+    ],
+    [
+      "17",
+      "9",
+      "Massimiliano Papis",
+      "Footwork Hart",
+      "1:34.154"
+    ],
+    [
+      "18",
+      "24",
+      "Luca Badoer",
+      "Minardi Ford",
+      "1:34.556"
+    ],
+    [
+      "19",
+      "10",
+      "Taki Inoue",
+      "Footwork Hart",
+      "1:35.323"
+    ],
+    [
+      "20",
+      "21",
+      "Pedro Diniz",
+      "Forti Ford",
+      "1:36.023"
+    ],
+    [
+      "21",
+      "16",
+      "Bertrand Gachot",
+      "Pacific Ilmor",
+      "1:36.076"
+    ],
+    [
+      "22",
+      "22",
+      "Roberto Moreno",
+      "Forti Ford",
+      "1:36.651"
+    ],
+    [
+      "23",
+      "4",
+      "Mika Salo",
+      "Tyrrell Yamaha",
+      "1:48.639"
+    ],
+    [
+      "24",
+      "17",
+      "Andrea Montermini",
+      "Pacific Ilmor",
+      "1:52.398"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

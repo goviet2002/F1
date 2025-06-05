@@ -1,0 +1,135 @@
+{
+  "header": [
+    "Stops",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time of day",
+    "Time",
+    "Total"
+  ],
+  "data": [
+    [
+      "1",
+      "11",
+      "Elio de Angelis",
+      "Lotus Ford",
+      "18",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "28",
+      "Rene Arnoux",
+      "Ferrari",
+      "19",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "36",
+      "Bruno Giacomelli",
+      "Toleman Hart",
+      "20",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "35",
+      "Derek Warwick",
+      "Toleman Hart",
+      "22",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "27",
+      "Patrick Tambay",
+      "Ferrari",
+      "21",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "1",
+      "Keke Rosberg",
+      "Williams Honda",
+      "20",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "12",
+      "Nigel Mansell",
+      "Lotus Ford",
+      "23",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "22",
+      "Andrea de Cesaris",
+      "Alfa Romeo",
+      "19",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "2",
+      "Jacques Laffite",
+      "Williams Honda",
+      "22",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "16",
+      "Eddie  Cheever",
+      "Renault",
+      "20",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "15",
+      "Alain Prost",
+      "Renault",
+      "23",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "5",
+      "Nelson Piquet",
+      "Brabham BMW",
+      "24",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "session_name": "Pit Stop Summary"
+}

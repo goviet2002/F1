@@ -1,0 +1,345 @@
+{
+  "header": [
+    "Stops",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time of day",
+    "Time",
+    "Total"
+  ],
+  "data": [
+    [
+      "1",
+      "88",
+      "Rio Haryanto",
+      "MRT Mercedes",
+      "1",
+      "17:05:57",
+      "33.405",
+      "33.405"
+    ],
+    [
+      "1",
+      "55",
+      "Carlos Sainz",
+      "Toro Rosso Ferrari",
+      "4",
+      "17:11:34",
+      "22.028",
+      "22.028"
+    ],
+    [
+      "1",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing TAG Heuer",
+      "5",
+      "17:13:24",
+      "20.069",
+      "20.069"
+    ],
+    [
+      "1",
+      "14",
+      "Fernando Alonso",
+      "McLaren Honda",
+      "5",
+      "17:13:24",
+      "20.282",
+      "20.282"
+    ],
+    [
+      "1",
+      "26",
+      "Daniil Kvyat",
+      "Toro Rosso Ferrari",
+      "5",
+      "17:13:37",
+      "24.802",
+      "24.802"
+    ],
+    [
+      "1",
+      "3",
+      "Daniel Ricciardo",
+      "Red Bull Racing TAG Heuer",
+      "6",
+      "17:15:04",
+      "19.840",
+      "19.840"
+    ],
+    [
+      "1",
+      "22",
+      "Jenson Button",
+      "McLaren Honda",
+      "6",
+      "17:15:21",
+      "20.185",
+      "20.185"
+    ],
+    [
+      "1",
+      "20",
+      "Kevin Magnussen",
+      "Renault",
+      "6",
+      "17:15:24",
+      "20.772",
+      "20.772"
+    ],
+    [
+      "1",
+      "19",
+      "Felipe Massa",
+      "Williams Mercedes",
+      "7",
+      "17:17:02",
+      "19.445",
+      "19.445"
+    ],
+    [
+      "1",
+      "12",
+      "Felipe Nasr",
+      "Sauber Ferrari",
+      "7",
+      "17:17:13",
+      "20.670",
+      "20.670"
+    ],
+    [
+      "1",
+      "7",
+      "Kimi Räikkönen",
+      "Ferrari",
+      "8",
+      "17:18:49",
+      "20.593",
+      "20.593"
+    ],
+    [
+      "1",
+      "21",
+      "Esteban Gutierrez ",
+      "Haas Ferrari",
+      "8",
+      "17:19:20",
+      "29.227",
+      "29.227"
+    ],
+    [
+      "1",
+      "8",
+      "Romain Grosjean",
+      "Haas Ferrari",
+      "10",
+      "17:22:51",
+      "21.132",
+      "21.132"
+    ],
+    [
+      "1",
+      "30",
+      "Jolyon Palmer",
+      "Renault",
+      "11",
+      "17:24:54",
+      "20.965",
+      "20.965"
+    ],
+    [
+      "1",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "15",
+      "17:31:52",
+      "20.108",
+      "20.108"
+    ],
+    [
+      "1",
+      "11",
+      "Sergio Perez",
+      "Force India Mercedes",
+      "16",
+      "17:33:39",
+      "20.614",
+      "20.614"
+    ],
+    [
+      "1",
+      "9",
+      "Marcus Ericsson",
+      "Sauber Ferrari",
+      "16",
+      "17:34:12",
+      "21.083",
+      "21.083"
+    ],
+    [
+      "1",
+      "77",
+      "Valtteri Bottas",
+      "Williams Mercedes",
+      "19",
+      "17:39:20",
+      "19.732",
+      "19.732"
+    ],
+    [
+      "1",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      "20",
+      "17:40:51",
+      "20.422",
+      "20.422"
+    ],
+    [
+      "1",
+      "27",
+      "Nico Hulkenberg",
+      "Force India Mercedes",
+      "20",
+      "17:41:18",
+      "20.347",
+      "20.347"
+    ],
+    [
+      "2",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing TAG Heuer",
+      "20",
+      "17:41:33",
+      "22.497",
+      "42.566"
+    ],
+    [
+      "1",
+      "6",
+      "Nico Rosberg",
+      "Mercedes",
+      "21",
+      "17:42:18",
+      "20.058",
+      "20.058"
+    ],
+    [
+      "2",
+      "3",
+      "Daniel Ricciardo",
+      "Red Bull Racing TAG Heuer",
+      "22",
+      "17:45:00",
+      "20.155",
+      "39.995"
+    ],
+    [
+      "2",
+      "14",
+      "Fernando Alonso",
+      "McLaren Honda",
+      "24",
+      "17:48:59",
+      "20.654",
+      "40.936"
+    ],
+    [
+      "2",
+      "12",
+      "Felipe Nasr",
+      "Sauber Ferrari",
+      "24",
+      "17:49:03",
+      "20.713",
+      "41.383"
+    ],
+    [
+      "2",
+      "22",
+      "Jenson Button",
+      "McLaren Honda",
+      "25",
+      "17:50:53",
+      "20.640",
+      "40.825"
+    ],
+    [
+      "2",
+      "9",
+      "Marcus Ericsson",
+      "Sauber Ferrari",
+      "25",
+      "17:51:13",
+      "20.559",
+      "41.642"
+    ],
+    [
+      "2",
+      "8",
+      "Romain Grosjean",
+      "Haas Ferrari",
+      "26",
+      "17:52:45",
+      "23.588",
+      "44.720"
+    ],
+    [
+      "2",
+      "55",
+      "Carlos Sainz",
+      "Toro Rosso Ferrari",
+      "27",
+      "17:54:32",
+      "21.030",
+      "43.058"
+    ],
+    [
+      "2",
+      "19",
+      "Felipe Massa",
+      "Williams Mercedes",
+      "28",
+      "17:56:01",
+      "19.858",
+      "39.303"
+    ],
+    [
+      "1",
+      "94",
+      "Pascal Wehrlein",
+      "MRT Mercedes",
+      "29",
+      "17:58:28",
+      "26.187",
+      "26.187"
+    ],
+    [
+      "2",
+      "21",
+      "Esteban Gutierrez ",
+      "Haas Ferrari",
+      "29",
+      "17:58:37",
+      "21.533",
+      "50.760"
+    ],
+    [
+      "2",
+      "30",
+      "Jolyon Palmer",
+      "Renault",
+      "31",
+      "18:02:14",
+      "20.561",
+      "41.526"
+    ]
+  ],
+  "session_name": "Pit Stop Summary"
+}

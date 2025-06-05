@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:34.794"
+    ],
+    [
+      "2",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes",
+      "1:34.956"
+    ],
+    [
+      "3",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      "1:35.125"
+    ],
+    [
+      "4",
+      "7",
+      "Kimi Räikkönen",
+      "Ferrari",
+      "1:35.365"
+    ],
+    [
+      "5",
+      "3",
+      "Daniel Ricciardo",
+      "Red Bull Racing TAG Heuer",
+      "1:35.401"
+    ],
+    [
+      "6",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing TAG Heuer",
+      "1:35.589"
+    ],
+    [
+      "7",
+      "8",
+      "Romain Grosjean",
+      "Haas Ferrari",
+      "1:36.192"
+    ],
+    [
+      "8",
+      "16",
+      "Charles Leclerc",
+      "Sauber Ferrari",
+      "1:36.237"
+    ],
+    [
+      "9",
+      "31",
+      "Esteban Ocon",
+      "Force India Mercedes",
+      "1:36.540"
+    ],
+    [
+      "10",
+      "27",
+      "Nico Hulkenberg",
+      "Renault",
+      "1:36.542"
+    ],
+    [
+      "11",
+      "55",
+      "Carlos Sainz",
+      "Renault",
+      "1:36.982"
+    ],
+    [
+      "12",
+      "9",
+      "Marcus Ericsson",
+      "Sauber Ferrari",
+      "1:37.132"
+    ],
+    [
+      "13",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "1:37.309"
+    ],
+    [
+      "14",
+      "11",
+      "Sergio Perez",
+      "Force India Mercedes",
+      "1:37.541"
+    ],
+    [
+      "15",
+      "14",
+      "Fernando Alonso",
+      "McLaren Renault",
+      "1:37.743"
+    ],
+    [
+      "16",
+      "28",
+      "Brendon Hartley",
+      "Scuderia Toro Rosso Honda",
+      "1:37.994"
+    ],
+    [
+      "17",
+      "10",
+      "Pierre Gasly",
+      "Scuderia Toro Rosso Honda",
+      "1:38.166"
+    ],
+    [
+      "18",
+      "2",
+      "Stoffel Vandoorne",
+      "McLaren Renault",
+      "1:38.577"
+    ],
+    [
+      "19",
+      "35",
+      "Sergey Sirotkin",
+      "Williams Mercedes",
+      "1:38.635"
+    ],
+    [
+      "20",
+      "18",
+      "Lance Stroll",
+      "Williams Mercedes",
+      "1:38.682"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

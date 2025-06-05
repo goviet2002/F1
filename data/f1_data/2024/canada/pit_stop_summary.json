@@ -1,0 +1,435 @@
+{
+  "header": [
+    "Stops",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time of day",
+    "Time",
+    "Total"
+  ],
+  "data": [
+    [
+      "1",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "7",
+      "14:14:25",
+      "30.472",
+      "30.472"
+    ],
+    [
+      "1",
+      "27",
+      "Nico Hulkenberg",
+      "Haas Ferrari",
+      "12",
+      "14:22:33",
+      "24.233",
+      "24.233"
+    ],
+    [
+      "1",
+      "24",
+      "Zhou Guanyu",
+      "Kick Sauber Ferrari",
+      "24",
+      "14:40:42",
+      "25.598",
+      "25.598"
+    ],
+    [
+      "1",
+      "63",
+      "George Russell",
+      "Mercedes",
+      "25",
+      "14:40:52",
+      "24.044",
+      "24.044"
+    ],
+    [
+      "1",
+      "1",
+      "Max Verstappen",
+      "Red Bull Racing Honda RBPT",
+      "25",
+      "14:40:52",
+      "24.306",
+      "24.306"
+    ],
+    [
+      "1",
+      "81",
+      "Oscar Piastri",
+      "McLaren Mercedes",
+      "25",
+      "14:40:53",
+      "23.977",
+      "23.977"
+    ],
+    [
+      "1",
+      "14",
+      "Fernando Alonso",
+      "Aston Martin Aramco Mercedes",
+      "25",
+      "14:41:12",
+      "25.788",
+      "25.788"
+    ],
+    [
+      "1",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "25",
+      "14:41:13",
+      "23.762",
+      "23.762"
+    ],
+    [
+      "1",
+      "18",
+      "Lance Stroll",
+      "Aston Martin Aramco Mercedes",
+      "25",
+      "14:41:47",
+      "24.284",
+      "24.284"
+    ],
+    [
+      "1",
+      "23",
+      "Alexander Albon",
+      "Williams Mercedes",
+      "25",
+      "14:41:54",
+      "24.753",
+      "24.753"
+    ],
+    [
+      "1",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "25",
+      "14:41:58",
+      "24.031",
+      "24.031"
+    ],
+    [
+      "1",
+      "55",
+      "Carlos Sainz",
+      "Ferrari",
+      "25",
+      "14:42:01",
+      "27.626",
+      "27.626"
+    ],
+    [
+      "2",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "25",
+      "14:42:03",
+      "26.794",
+      "57.266"
+    ],
+    [
+      "1",
+      "10",
+      "Pierre Gasly",
+      "Alpine Renault",
+      "25",
+      "14:42:06",
+      "24.911",
+      "24.911"
+    ],
+    [
+      "1",
+      "11",
+      "Sergio Perez",
+      "Red Bull Racing Honda RBPT",
+      "25",
+      "14:42:09",
+      "33.762",
+      "33.762"
+    ],
+    [
+      "2",
+      "27",
+      "Nico Hulkenberg",
+      "Haas Ferrari",
+      "25",
+      "14:42:21",
+      "24.668",
+      "48.901"
+    ],
+    [
+      "1",
+      "4",
+      "Lando Norris",
+      "McLaren Mercedes",
+      "26",
+      "14:42:44",
+      "23.423",
+      "23.423"
+    ],
+    [
+      "1",
+      "3",
+      "Daniel Ricciardo",
+      "RB Honda RBPT",
+      "26",
+      "14:43:37",
+      "30.298",
+      "30.298"
+    ],
+    [
+      "2",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "28",
+      "14:47:31",
+      "47.186",
+      "1:11.217"
+    ],
+    [
+      "3",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "31",
+      "14:53:31",
+      "24.629",
+      "1:35.846"
+    ],
+    [
+      "2",
+      "10",
+      "Pierre Gasly",
+      "Alpine Renault",
+      "40",
+      "15:05:55",
+      "24.408",
+      "49.319"
+    ],
+    [
+      "3",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "41",
+      "15:07:24",
+      "24.833",
+      "1:22.099"
+    ],
+    [
+      "1",
+      "77",
+      "Valtteri Bottas",
+      "Kick Sauber Ferrari",
+      "42",
+      "15:08:45",
+      "24.929",
+      "24.929"
+    ],
+    [
+      "2",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "43",
+      "15:09:46",
+      "24.226",
+      "47.988"
+    ],
+    [
+      "2",
+      "3",
+      "Daniel Ricciardo",
+      "RB Honda RBPT",
+      "43",
+      "15:10:10",
+      "23.860",
+      "54.158"
+    ],
+    [
+      "2",
+      "55",
+      "Carlos Sainz",
+      "Ferrari",
+      "43",
+      "15:10:12",
+      "24.125",
+      "51.751"
+    ],
+    [
+      "2",
+      "11",
+      "Sergio Perez",
+      "Red Bull Racing Honda RBPT",
+      "43",
+      "15:10:12",
+      "24.423",
+      "58.185"
+    ],
+    [
+      "2",
+      "81",
+      "Oscar Piastri",
+      "McLaren Mercedes",
+      "44",
+      "15:11:10",
+      "23.476",
+      "47.453"
+    ],
+    [
+      "2",
+      "14",
+      "Fernando Alonso",
+      "Aston Martin Aramco Mercedes",
+      "44",
+      "15:11:23",
+      "24.346",
+      "50.134"
+    ],
+    [
+      "1",
+      "22",
+      "Yuki Tsunoda",
+      "RB Honda RBPT",
+      "44",
+      "15:11:26",
+      "25.569",
+      "25.569"
+    ],
+    [
+      "2",
+      "18",
+      "Lance Stroll",
+      "Aston Martin Aramco Mercedes",
+      "44",
+      "15:11:30",
+      "25.025",
+      "49.309"
+    ],
+    [
+      "1",
+      "31",
+      "Esteban Ocon",
+      "Alpine Renault",
+      "44",
+      "15:11:32",
+      "24.495",
+      "24.495"
+    ],
+    [
+      "2",
+      "23",
+      "Alexander Albon",
+      "Williams Mercedes",
+      "44",
+      "15:11:34",
+      "24.804",
+      "49.557"
+    ],
+    [
+      "3",
+      "27",
+      "Nico Hulkenberg",
+      "Haas Ferrari",
+      "44",
+      "15:11:43",
+      "24.751",
+      "1:13.652"
+    ],
+    [
+      "2",
+      "24",
+      "Zhou Guanyu",
+      "Kick Sauber Ferrari",
+      "44",
+      "15:11:53",
+      "1:05.564",
+      "1:31.162"
+    ],
+    [
+      "2",
+      "1",
+      "Max Verstappen",
+      "Red Bull Racing Honda RBPT",
+      "45",
+      "15:12:29",
+      "24.246",
+      "48.552"
+    ],
+    [
+      "2",
+      "63",
+      "George Russell",
+      "Mercedes",
+      "45",
+      "15:12:31",
+      "25.431",
+      "49.475"
+    ],
+    [
+      "2",
+      "4",
+      "Lando Norris",
+      "McLaren Mercedes",
+      "47",
+      "15:15:19",
+      "23.983",
+      "47.406"
+    ],
+    [
+      "3",
+      "24",
+      "Zhou Guanyu",
+      "Kick Sauber Ferrari",
+      "52",
+      "15:25:02",
+      "28.375",
+      "1:59.537"
+    ],
+    [
+      "3",
+      "63",
+      "George Russell",
+      "Mercedes",
+      "54",
+      "15:25:19",
+      "28.157",
+      "1:17.632"
+    ],
+    [
+      "3",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "54",
+      "15:25:24",
+      "28.817",
+      "1:16.805"
+    ],
+    [
+      "4",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "54",
+      "15:26:25",
+      "26.845",
+      "1:48.944"
+    ]
+  ],
+  "session_name": "Pit Stop Summary"
+}

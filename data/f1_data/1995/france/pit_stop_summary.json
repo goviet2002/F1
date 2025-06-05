@@ -1,0 +1,65 @@
+{
+  "header": [
+    "Stops",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time of day",
+    "Time",
+    "Total"
+  ],
+  "data": [
+    [
+      "1",
+      "28",
+      "Gerhard Berger",
+      "Ferrari",
+      "47",
+      "15:06:13",
+      "27.575",
+      "1:41.901"
+    ],
+    [
+      "1",
+      "29",
+      "Jean-Christophe Boullion",
+      "Sauber Ford",
+      "47",
+      "15:06:53",
+      "28.058",
+      "56.177"
+    ],
+    [
+      "1",
+      "4",
+      "Mika Salo",
+      "Tyrrell Yamaha",
+      "47",
+      "15:07:48",
+      "26.165",
+      "52.185"
+    ],
+    [
+      "1",
+      "25",
+      "Martin Brundle",
+      "Ligier Mugen Honda",
+      "55",
+      "15:16:01",
+      "24.028",
+      "1:16.868"
+    ],
+    [
+      "1",
+      "17",
+      "Andrea Montermini",
+      "Pacific Ilmor",
+      "48",
+      "15:17:58",
+      "28.751",
+      "8:26.453"
+    ]
+  ],
+  "session_name": "Pit Stop Summary"
+}

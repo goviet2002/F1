@@ -1,0 +1,203 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "4",
+      "David Coulthard",
+      "McLaren Mercedes",
+      "71",
+      "1:27:45.927",
+      "10"
+    ],
+    [
+      "2",
+      "1",
+      "Michael Schumacher",
+      "Ferrari",
+      "71",
+      "+2.191s",
+      "6"
+    ],
+    [
+      "3",
+      "2",
+      "Rubens Barrichello",
+      "Ferrari",
+      "71",
+      "+2.528s",
+      "4"
+    ],
+    [
+      "4",
+      "17",
+      "Kimi Räikkönen",
+      "Sauber Petronas",
+      "71",
+      "+41.594s",
+      "3"
+    ],
+    [
+      "5",
+      "9",
+      "Olivier Panis",
+      "BAR Honda",
+      "71",
+      "+53.776s",
+      "2"
+    ],
+    [
+      "6",
+      "14",
+      "Jos Verstappen",
+      "Arrows Asiatech",
+      "70",
+      "+1 lap",
+      "1"
+    ],
+    [
+      "7",
+      "18",
+      "Eddie Irvine",
+      "Jaguar Cosworth",
+      "70",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "8",
+      "10",
+      "Jacques Villeneuve",
+      "BAR Honda",
+      "70",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "9",
+      "16",
+      "Nick Heidfeld",
+      "Sauber Petronas",
+      "69",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "10",
+      "22",
+      "Jean Alesi",
+      "Prost Acer",
+      "69",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "11",
+      "23",
+      "Luciano Burti",
+      "Prost Acer",
+      "69",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "8",
+      "Jenson Button",
+      "Benetton Renault",
+      "60",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "19",
+      "Pedro de la Rosa",
+      "Jaguar Cosworth",
+      "48",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "6",
+      "Juan Pablo Montoya",
+      "Williams BMW",
+      "41",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "21",
+      "Fernando Alonso",
+      "Minardi European",
+      "38",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Tarso Marques",
+      "Minardi European",
+      "25",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "15",
+      "Enrique Bernoldi",
+      "Arrows Asiatech",
+      "17",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "5",
+      "Ralf Schumacher",
+      "Williams BMW",
+      "10",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "7",
+      "Giancarlo Fisichella",
+      "Benetton Renault",
+      "3",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "3",
+      "Mika Hakkinen",
+      "McLaren Mercedes",
+      "1",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "11",
+      "Heinz-Harald Frentzen",
+      "Jordan Honda",
+      "0",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}
