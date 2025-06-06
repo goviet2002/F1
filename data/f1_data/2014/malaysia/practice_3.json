@@ -1,0 +1,212 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time",
+    "Gap",
+    "Laps"
+  ],
+  "data": [
+    [
+      "1",
+      "6",
+      "Nico Rosberg",
+      "Mercedes",
+      "1:39.008",
+      "",
+      "13"
+    ],
+    [
+      "2",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:39.240",
+      "+0.232s",
+      "13"
+    ],
+    [
+      "3",
+      "7",
+      "Kimi Räikkönen",
+      "Ferrari",
+      "1:40.156",
+      "+1.148s",
+      "13"
+    ],
+    [
+      "4",
+      "1",
+      "Sebastian Vettel",
+      "Red Bull Racing Renault",
+      "1:40.387",
+      "+1.379s",
+      "14"
+    ],
+    [
+      "5",
+      "27",
+      "Nico Hulkenberg",
+      "Force India Mercedes",
+      "1:40.523",
+      "+1.515s",
+      "15"
+    ],
+    [
+      "6",
+      "3",
+      "Daniel Ricciardo",
+      "Red Bull Racing Renault",
+      "1:40.686",
+      "+1.678s",
+      "14"
+    ],
+    [
+      "7",
+      "14",
+      "Fernando Alonso",
+      "Ferrari",
+      "1:40.736",
+      "+1.728s",
+      "14"
+    ],
+    [
+      "8",
+      "19",
+      "Felipe Massa",
+      "Williams Mercedes",
+      "1:40.781",
+      "+1.773s",
+      "20"
+    ],
+    [
+      "9",
+      "77",
+      "Valtteri Bottas",
+      "Williams Mercedes",
+      "1:40.891",
+      "+1.883s",
+      "20"
+    ],
+    [
+      "10",
+      "11",
+      "Sergio Perez",
+      "Force India Mercedes",
+      "1:41.029",
+      "+2.021s",
+      "15"
+    ],
+    [
+      "11",
+      "26",
+      "Daniil Kvyat",
+      "STR Renault",
+      "1:41.182",
+      "+2.174s",
+      "18"
+    ],
+    [
+      "12",
+      "25",
+      "Jean-Eric Vergne",
+      "STR Renault",
+      "1:41.441",
+      "+2.433s",
+      "18"
+    ],
+    [
+      "13",
+      "99",
+      "Adrian Sutil",
+      "Sauber Ferrari",
+      "1:41.552",
+      "+2.544s",
+      "15"
+    ],
+    [
+      "14",
+      "21",
+      "Esteban Gutierrez ",
+      "Sauber Ferrari",
+      "1:42.041",
+      "+3.033s",
+      "17"
+    ],
+    [
+      "15",
+      "8",
+      "Romain Grosjean",
+      "Lotus Renault",
+      "1:42.749",
+      "+3.741s",
+      "16"
+    ],
+    [
+      "16",
+      "13",
+      "Pastor Maldonado",
+      "Lotus Renault",
+      "1:43.539",
+      "+4.531s",
+      "20"
+    ],
+    [
+      "17",
+      "4",
+      "Max Chilton",
+      "Marussia Ferrari",
+      "1:43.977",
+      "+4.969s",
+      "16"
+    ],
+    [
+      "18",
+      "17",
+      "Jules Bianchi",
+      "Marussia Ferrari",
+      "1:44.170",
+      "+5.162s",
+      "18"
+    ],
+    [
+      "19",
+      "9",
+      "Marcus Ericsson",
+      "Caterham Renault",
+      "1:44.457",
+      "+5.449s",
+      "12"
+    ],
+    [
+      "20",
+      "10",
+      "Kamui Kobayashi",
+      "Caterham Renault",
+      "1:46.015",
+      "+7.007s",
+      "7"
+    ],
+    [
+      "21",
+      "22",
+      "Jenson Button",
+      "McLaren Mercedes",
+      "2:05.555",
+      "+26.547s",
+      "4"
+    ],
+    [
+      "22",
+      "20",
+      "Kevin Magnussen",
+      "McLaren Mercedes",
+      "",
+      "",
+      "5"
+    ]
+  ],
+  "session_name": "Practice 3"
+}

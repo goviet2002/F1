@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "3",
+      "Daniel Ricciardo",
+      "Red Bull Racing TAG Heuer",
+      "1:13.622"
+    ],
+    [
+      "2",
+      "6",
+      "Nico Rosberg",
+      "Mercedes",
+      "1:13.791"
+    ],
+    [
+      "3",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:13.942"
+    ],
+    [
+      "4",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      "1:14.552"
+    ],
+    [
+      "5",
+      "27",
+      "Nico Hulkenberg",
+      "Force India Mercedes",
+      "1:14.726"
+    ],
+    [
+      "6",
+      "55",
+      "Carlos Sainz",
+      "Toro Rosso Ferrari",
+      "1:14.749"
+    ],
+    [
+      "7",
+      "11",
+      "Sergio Perez",
+      "Force India Mercedes",
+      "1:14.902"
+    ],
+    [
+      "8",
+      "26",
+      "Daniil Kvyat",
+      "Toro Rosso Ferrari",
+      "1:15.273"
+    ],
+    [
+      "9",
+      "14",
+      "Fernando Alonso",
+      "McLaren Honda",
+      "1:15.363"
+    ],
+    [
+      "10",
+      "77",
+      "Valtteri Bottas",
+      "Williams Mercedes",
+      "1:15.273"
+    ],
+    [
+      "11",
+      "7",
+      "Kimi Räikkönen",
+      "Ferrari",
+      "1:14.732"
+    ],
+    [
+      "12",
+      "21",
+      "Esteban Gutierrez ",
+      "Haas Ferrari",
+      "1:15.293"
+    ],
+    [
+      "13",
+      "22",
+      "Jenson Button",
+      "McLaren Honda",
+      "1:15.352"
+    ],
+    [
+      "14",
+      "19",
+      "Felipe Massa",
+      "Williams Mercedes",
+      "1:15.385"
+    ],
+    [
+      "15",
+      "8",
+      "Romain Grosjean",
+      "Haas Ferrari",
+      "1:15.571"
+    ],
+    [
+      "16",
+      "20",
+      "Kevin Magnussen",
+      "Renault",
+      "1:16.058"
+    ],
+    [
+      "17",
+      "9",
+      "Marcus Ericsson",
+      "Sauber Ferrari",
+      "1:16.299"
+    ],
+    [
+      "18",
+      "30",
+      "Jolyon Palmer",
+      "Renault",
+      "1:16.586"
+    ],
+    [
+      "19",
+      "88",
+      "Rio Haryanto",
+      "MRT Mercedes",
+      "1:17.295"
+    ],
+    [
+      "20",
+      "94",
+      "Pascal Wehrlein",
+      "MRT Mercedes",
+      "1:17.452"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

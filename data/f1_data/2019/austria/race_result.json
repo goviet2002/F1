@@ -1,0 +1,194 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing Honda",
+      "71",
+      "1:22:01.822",
+      "26"
+    ],
+    [
+      "2",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "71",
+      "+2.724s",
+      "18"
+    ],
+    [
+      "3",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes",
+      "71",
+      "+18.960s",
+      "15"
+    ],
+    [
+      "4",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      "71",
+      "+19.610s",
+      "12"
+    ],
+    [
+      "5",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "71",
+      "+22.805s",
+      "10"
+    ],
+    [
+      "6",
+      "4",
+      "Lando Norris",
+      "McLaren Renault",
+      "70",
+      "+1 lap",
+      "8"
+    ],
+    [
+      "7",
+      "10",
+      "Pierre Gasly",
+      "Red Bull Racing Honda",
+      "70",
+      "+1 lap",
+      "6"
+    ],
+    [
+      "8",
+      "55",
+      "Carlos Sainz",
+      "McLaren Renault",
+      "70",
+      "+1 lap",
+      "4"
+    ],
+    [
+      "9",
+      "7",
+      "Kimi Räikkönen",
+      "Alfa Romeo Racing Ferrari",
+      "70",
+      "+1 lap",
+      "2"
+    ],
+    [
+      "10",
+      "99",
+      "Antonio Giovinazzi",
+      "Alfa Romeo Racing Ferrari",
+      "70",
+      "+1 lap",
+      "1"
+    ],
+    [
+      "11",
+      "11",
+      "Sergio Perez",
+      "Racing Point BWT Mercedes",
+      "70",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "12",
+      "3",
+      "Daniel Ricciardo",
+      "Renault",
+      "70",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "13",
+      "27",
+      "Nico Hulkenberg",
+      "Renault",
+      "70",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "14",
+      "18",
+      "Lance Stroll",
+      "Racing Point BWT Mercedes",
+      "70",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "15",
+      "23",
+      "Alexander Albon",
+      "Scuderia Toro Rosso Honda",
+      "70",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "16",
+      "8",
+      "Romain Grosjean",
+      "Haas Ferrari",
+      "70",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "17",
+      "26",
+      "Daniil Kvyat",
+      "Scuderia Toro Rosso Honda",
+      "70",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "18",
+      "63",
+      "George Russell",
+      "Williams Mercedes",
+      "69",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "19",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "69",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "20",
+      "88",
+      "Robert Kubica",
+      "Williams Mercedes",
+      "68",
+      "+3 laps",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

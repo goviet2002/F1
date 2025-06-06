@@ -1,0 +1,265 @@
+{
+  "header": [
+    "Stops",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time of day",
+    "Time",
+    "Total"
+  ],
+  "data": [
+    [
+      "1",
+      "3",
+      "Daniel Ricciardo",
+      "McLaren Mercedes",
+      "2",
+      "15:07:48",
+      "32.362",
+      "32.362"
+    ],
+    [
+      "2",
+      "3",
+      "Daniel Ricciardo",
+      "McLaren Mercedes",
+      "16",
+      "15:31:14",
+      "30.422",
+      "1:02.784"
+    ],
+    [
+      "1",
+      "5",
+      "Sebastian Vettel",
+      "Aston Martin Aramco Mercedes",
+      "17",
+      "15:32:26",
+      "30.484",
+      "30.484"
+    ],
+    [
+      "1",
+      "10",
+      "Pierre Gasly",
+      "AlphaTauri RBPT",
+      "17",
+      "15:32:38",
+      "30.405",
+      "30.405"
+    ],
+    [
+      "1",
+      "23",
+      "Alexander Albon",
+      "Williams Mercedes",
+      "17",
+      "15:32:41",
+      "30.793",
+      "30.793"
+    ],
+    [
+      "1",
+      "11",
+      "Sergio Perez",
+      "Red Bull Racing RBPT",
+      "18",
+      "15:33:26",
+      "30.366",
+      "30.366"
+    ],
+    [
+      "1",
+      "63",
+      "George Russell",
+      "Mercedes",
+      "18",
+      "15:33:46",
+      "31.079",
+      "31.079"
+    ],
+    [
+      "1",
+      "77",
+      "Valtteri Bottas",
+      "Alfa Romeo Ferrari",
+      "18",
+      "15:33:47",
+      "40.957",
+      "40.957"
+    ],
+    [
+      "1",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "18",
+      "15:33:56",
+      "33.765",
+      "33.765"
+    ],
+    [
+      "1",
+      "18",
+      "Lance Stroll",
+      "Aston Martin Aramco Mercedes",
+      "18",
+      "15:34:06",
+      "32.667",
+      "32.667"
+    ],
+    [
+      "1",
+      "22",
+      "Yuki Tsunoda",
+      "AlphaTauri RBPT",
+      "18",
+      "15:34:06",
+      "30.372",
+      "30.372"
+    ],
+    [
+      "1",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "18",
+      "15:34:07",
+      "32.740",
+      "32.740"
+    ],
+    [
+      "1",
+      "31",
+      "Esteban Ocon",
+      "Alpine Renault",
+      "18",
+      "15:34:08",
+      "31.409",
+      "31.409"
+    ],
+    [
+      "1",
+      "6",
+      "Nicholas Latifi",
+      "Williams Mercedes",
+      "18",
+      "15:34:17",
+      "31.125",
+      "31.125"
+    ],
+    [
+      "1",
+      "24",
+      "Zhou Guanyu",
+      "Alfa Romeo Ferrari",
+      "18",
+      "15:34:18",
+      "32.203",
+      "32.203"
+    ],
+    [
+      "1",
+      "47",
+      "Mick Schumacher",
+      "Haas Ferrari",
+      "18",
+      "15:34:18",
+      "31.320",
+      "31.320"
+    ],
+    [
+      "1",
+      "1",
+      "Max Verstappen",
+      "Red Bull Racing RBPT",
+      "19",
+      "15:34:49",
+      "30.001",
+      "30.001"
+    ],
+    [
+      "1",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "19",
+      "15:34:56",
+      "31.794",
+      "31.794"
+    ],
+    [
+      "1",
+      "4",
+      "Lando Norris",
+      "McLaren Mercedes",
+      "19",
+      "15:35:07",
+      "30.070",
+      "30.070"
+    ],
+    [
+      "3",
+      "3",
+      "Daniel Ricciardo",
+      "McLaren Mercedes",
+      "30",
+      "15:51:37",
+      "30.155",
+      "1:32.939"
+    ],
+    [
+      "2",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "49",
+      "16:16:19",
+      "30.042",
+      "1:01.836"
+    ],
+    [
+      "2",
+      "11",
+      "Sergio Perez",
+      "Red Bull Racing RBPT",
+      "50",
+      "16:17:38",
+      "29.627",
+      "59.993"
+    ],
+    [
+      "2",
+      "1",
+      "Max Verstappen",
+      "Red Bull Racing RBPT",
+      "51",
+      "16:18:44",
+      "29.942",
+      "59.943"
+    ],
+    [
+      "2",
+      "47",
+      "Mick Schumacher",
+      "Haas Ferrari",
+      "52",
+      "16:22:04",
+      "30.984",
+      "1:02.304"
+    ],
+    [
+      "3",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "53",
+      "16:22:17",
+      "36.560",
+      "1:38.396"
+    ]
+  ],
+  "session_name": "Pit Stop Summary"
+}
