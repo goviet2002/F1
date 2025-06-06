@@ -1,0 +1,42 @@
+{
+  "name": "Hermano da Silva Ramos",
+  "driver_code": "HERDAS01",
+  "url": "https://www.formula1.com/en/results/1956/drivers/HERDAS01/hermano-da-silva-ramos",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "13 May 1956",
+      "Gordini",
+      "5",
+      "2"
+    ],
+    [
+      "France",
+      "01 Jul 1956",
+      "Gordini",
+      "8",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "14 Jul 1956",
+      "Gordini",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "02 Sep 1956",
+      "Gordini",
+      "DNF",
+      "0"
+    ]
+  ]
+}

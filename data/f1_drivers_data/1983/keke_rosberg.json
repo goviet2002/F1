@@ -1,0 +1,112 @@
+{
+  "name": "Keke Rosberg",
+  "driver_code": "KEKROS01",
+  "url": "https://www.formula1.com/en/results/1983/drivers/KEKROS01/keke-rosberg",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "USA West",
+      "27 Mar 1983",
+      "Williams Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "17 Apr 1983",
+      "Williams Ford",
+      "5",
+      "2"
+    ],
+    [
+      "San Marino",
+      "01 May 1983",
+      "Williams Ford",
+      "4",
+      "3"
+    ],
+    [
+      "Monaco",
+      "15 May 1983",
+      "Williams Ford",
+      "1",
+      "9"
+    ],
+    [
+      "Belgium",
+      "22 May 1983",
+      "Williams Ford",
+      "5",
+      "2"
+    ],
+    [
+      "Detroit",
+      "05 Jun 1983",
+      "Williams Ford",
+      "2",
+      "6"
+    ],
+    [
+      "Canada",
+      "12 Jun 1983",
+      "Williams Ford",
+      "4",
+      "3"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1983",
+      "Williams Ford",
+      "11",
+      "0"
+    ],
+    [
+      "Germany",
+      "07 Aug 1983",
+      "Williams Ford",
+      "10",
+      "0"
+    ],
+    [
+      "Austria",
+      "14 Aug 1983",
+      "Williams Ford",
+      "8",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "28 Aug 1983",
+      "Williams Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "11 Sep 1983",
+      "Williams Ford",
+      "11",
+      "0"
+    ],
+    [
+      "Europe",
+      "25 Sep 1983",
+      "Williams Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "South Africa",
+      "15 Oct 1983",
+      "Williams Honda",
+      "5",
+      "2"
+    ]
+  ]
+}

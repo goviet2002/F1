@@ -1,0 +1,21 @@
+{
+  "name": "Cliff Allison",
+  "driver_code": "CLIALL01",
+  "url": "https://www.formula1.com/en/results/1960/drivers/CLIALL01/cliff-allison",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "07 Feb 1960",
+      "Ferrari",
+      "2",
+      "6"
+    ]
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "name": "Michele Alboreto",
+  "driver_code": "MICALB01",
+  "url": "https://www.formula1.com/en/results/1982/drivers/MICALB01/michele-alboreto",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "23 Jan 1982",
+      "Tyrrell Ford",
+      "7",
+      "0"
+    ],
+    [
+      "Brazil",
+      "21 Mar 1982",
+      "Tyrrell Ford",
+      "4",
+      "3"
+    ],
+    [
+      "USA West",
+      "04 Apr 1982",
+      "Tyrrell Ford",
+      "4",
+      "3"
+    ],
+    [
+      "San Marino",
+      "25 Apr 1982",
+      "Tyrrell Ford",
+      "3",
+      "4"
+    ],
+    [
+      "Belgium",
+      "09 May 1982",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "23 May 1982",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Detroit",
+      "06 Jun 1982",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "13 Jun 1982",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "03 Jul 1982",
+      "Tyrrell Ford",
+      "7",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "18 Jul 1982",
+      "Tyrrell Ford",
+      "DNC",
+      "0"
+    ],
+    [
+      "France",
+      "25 Jul 1982",
+      "Tyrrell Ford",
+      "6",
+      "1"
+    ],
+    [
+      "Germany",
+      "08 Aug 1982",
+      "Tyrrell Ford",
+      "4",
+      "3"
+    ],
+    [
+      "Austria",
+      "15 Aug 1982",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Switzerland",
+      "29 Aug 1982",
+      "Tyrrell Ford",
+      "7",
+      "0"
+    ],
+    [
+      "Italy",
+      "12 Sep 1982",
+      "Tyrrell Ford",
+      "5",
+      "2"
+    ],
+    [
+      "Caesar's Palace",
+      "25 Sep 1982",
+      "Tyrrell Ford",
+      "1",
+      "9"
+    ]
+  ]
+}

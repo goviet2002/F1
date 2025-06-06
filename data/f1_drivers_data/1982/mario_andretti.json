@@ -1,0 +1,35 @@
+{
+  "name": "Mario Andretti",
+  "driver_code": "MARAND01",
+  "url": "https://www.formula1.com/en/results/1982/drivers/MARAND01/mario-andretti",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "USA West",
+      "04 Apr 1982",
+      "Williams Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "12 Sep 1982",
+      "Ferrari",
+      "3",
+      "4"
+    ],
+    [
+      "Caesar's Palace",
+      "25 Sep 1982",
+      "Ferrari",
+      "DNF",
+      "0"
+    ]
+  ]
+}

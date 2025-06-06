@@ -1,0 +1,21 @@
+{
+  "name": "Lee Wallard",
+  "driver_code": "LEEWAL01",
+  "url": "https://www.formula1.com/en/results/1951/drivers/LEEWAL01/lee-wallard",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Indianapolis",
+      "30 May 1951",
+      "Kurtis Kraft Offenhauser",
+      "1",
+      "9"
+    ]
+  ]
+}

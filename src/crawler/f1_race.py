@@ -8,7 +8,7 @@ import sys
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from utils.path import get_project_root
-from f1_shared import ssl_context, head, base_url, years, test_function
+from utils.f1_shared import ssl_context, head, base_url, years, test_function
 
 PROJECT_ROOT = get_project_root()
 DATA_DIR = os.path.join(PROJECT_ROOT, "data", "f1_data")
@@ -320,16 +320,16 @@ async def scrape_f1_data_with_checkpoints(all_race_links):
         print(f"Processed {results_processed} race results")
         print(f"Total execution time: {total_time:.2f} seconds")
 
-        # Create a summary file
-        summary = {
-            "total_races": len(location_results),
-            "total_sessions": len(all_sessions),
-            "total_results": results_processed,
-            "execution_time": total_time
-        }
+        # # Create a summary file
+        # summary = {
+        #     "total_races": len(location_results),
+        #     "total_sessions": len(all_sessions),
+        #     "total_results": results_processed,
+        #     "execution_time": total_time
+        # }
         
-        with open(os.path.join(DATA_DIR, "summary.json"), 'w') as f:
-            json.dump(summary, f, indent=2)
+        # with open(os.path.join(DATA_DIR, "summary.json"), 'w') as f:
+        #     json.dump(summary, f, indent=2)
 
         # Return the results
         return {

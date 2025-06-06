@@ -1,0 +1,42 @@
+{
+  "name": "Consalvo Sanesi",
+  "driver_code": "CONSAN01",
+  "url": "https://www.formula1.com/en/results/1951/drivers/CONSAN01/consalvo-sanesi",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Switzerland",
+      "27 May 1951",
+      "Alfa Romeo",
+      "4",
+      "3"
+    ],
+    [
+      "Belgium",
+      "17 Jun 1951",
+      "Alfa Romeo",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "01 Jul 1951",
+      "Alfa Romeo",
+      "10",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "14 Jul 1951",
+      "Alfa Romeo",
+      "6",
+      "0"
+    ]
+  ]
+}

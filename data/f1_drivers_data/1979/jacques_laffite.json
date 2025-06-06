@@ -1,0 +1,119 @@
+{
+  "name": "Jacques Laffite",
+  "driver_code": "JACLAF01",
+  "url": "https://www.formula1.com/en/results/1979/drivers/JACLAF01/jacques-laffite",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "21 Jan 1979",
+      "Ligier Ford",
+      "1",
+      "9"
+    ],
+    [
+      "Brazil",
+      "04 Feb 1979",
+      "Ligier Ford",
+      "1",
+      "9"
+    ],
+    [
+      "South Africa",
+      "03 Mar 1979",
+      "Ligier Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "USA West",
+      "08 Apr 1979",
+      "Ligier Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Spain",
+      "29 Apr 1979",
+      "Ligier Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "13 May 1979",
+      "Ligier Ford",
+      "2",
+      "6"
+    ],
+    [
+      "Monaco",
+      "27 May 1979",
+      "Ligier Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "01 Jul 1979",
+      "Ligier Ford",
+      "8",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "14 Jul 1979",
+      "Ligier Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "29 Jul 1979",
+      "Ligier Ford",
+      "3",
+      "4"
+    ],
+    [
+      "Austria",
+      "12 Aug 1979",
+      "Ligier Ford",
+      "3",
+      "4"
+    ],
+    [
+      "Netherlands",
+      "26 Aug 1979",
+      "Ligier Ford",
+      "3",
+      "4"
+    ],
+    [
+      "Italy",
+      "09 Sep 1979",
+      "Ligier Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "30 Sep 1979",
+      "Ligier Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "USA East",
+      "07 Oct 1979",
+      "Ligier Ford",
+      "DNF",
+      "0"
+    ]
+  ]
+}

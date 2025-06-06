@@ -1,0 +1,21 @@
+{
+  "name": "Carlos Menditeguy",
+  "driver_code": "CARMEN01",
+  "url": "https://www.formula1.com/en/results/1960/drivers/CARMEN01/carlos-menditeguy",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "07 Feb 1960",
+      "Cooper Maserati",
+      "4",
+      "3"
+    ]
+  ]
+}

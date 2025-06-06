@@ -1,0 +1,42 @@
+{
+  "name": "Nigel Mansell",
+  "driver_code": "NIGMAN01",
+  "url": "https://www.formula1.com/en/results/1994/drivers/NIGMAN01/nigel-mansell",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "France",
+      "03 Jul 1994",
+      "Williams Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Europe",
+      "16 Oct 1994",
+      "Williams Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Japan",
+      "06 Nov 1994",
+      "Williams Renault",
+      "4",
+      "3"
+    ],
+    [
+      "Australia",
+      "13 Nov 1994",
+      "Williams Renault",
+      "1",
+      "10"
+    ]
+  ]
+}

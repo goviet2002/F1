@@ -1,0 +1,21 @@
+{
+  "name": "Cecil Green",
+  "driver_code": "CECGRE01",
+  "url": "https://www.formula1.com/en/results/1950/drivers/CECGRE01/cecil-green",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Indianapolis",
+      "30 May 1950",
+      "Kurtis Kraft Offenhauser",
+      "4",
+      "3"
+    ]
+  ]
+}

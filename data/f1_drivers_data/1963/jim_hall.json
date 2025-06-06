@@ -1,0 +1,77 @@
+{
+  "name": "Jim Hall",
+  "driver_code": "JIMHAL01",
+  "url": "https://www.formula1.com/en/results/1963/drivers/JIMHAL01/jim-hall",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "26 May 1963",
+      "Lotus BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "09 Jun 1963",
+      "Lotus BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "23 Jun 1963",
+      "Lotus BRM",
+      "8",
+      "0"
+    ],
+    [
+      "France",
+      "30 Jun 1963",
+      "Lotus BRM",
+      "11",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "20 Jul 1963",
+      "Lotus BRM",
+      "6",
+      "1"
+    ],
+    [
+      "Germany",
+      "04 Aug 1963",
+      "Lotus BRM",
+      "5",
+      "2"
+    ],
+    [
+      "Italy",
+      "08 Sep 1963",
+      "Lotus BRM",
+      "8",
+      "0"
+    ],
+    [
+      "United States",
+      "06 Oct 1963",
+      "Lotus BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Mexico",
+      "27 Oct 1963",
+      "Lotus BRM",
+      "8",
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Jean-Pierre Beltoise",
+  "driver_code": "JEABEL01",
+  "url": "https://www.formula1.com/en/results/1974/drivers/JEABEL01/jean-pierre-beltoise",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "13 Jan 1974",
+      "BRM",
+      "5",
+      "2"
+    ],
+    [
+      "Brazil",
+      "27 Jan 1974",
+      "BRM",
+      "10",
+      "0"
+    ],
+    [
+      "South Africa",
+      "30 Mar 1974",
+      "BRM",
+      "2",
+      "6"
+    ],
+    [
+      "Spain",
+      "28 Apr 1974",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "12 May 1974",
+      "BRM",
+      "5",
+      "2"
+    ],
+    [
+      "Monaco",
+      "26 May 1974",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Sweden",
+      "09 Jun 1974",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "23 Jun 1974",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "07 Jul 1974",
+      "BRM",
+      "10",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "20 Jul 1974",
+      "BRM",
+      "12",
+      "0"
+    ],
+    [
+      "Germany",
+      "04 Aug 1974",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Austria",
+      "18 Aug 1974",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "08 Sep 1974",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "22 Sep 1974",
+      "BRM",
+      "DNC",
+      "0"
+    ]
+  ]
+}

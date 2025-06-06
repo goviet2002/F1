@@ -1,0 +1,28 @@
+{
+  "name": "Eugene Chaboud",
+  "driver_code": "EUGCHA01",
+  "url": "https://www.formula1.com/en/results/1950/drivers/EUGCHA01/eugene-chaboud",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Belgium",
+      "18 Jun 1950",
+      "Talbot-Lago",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "02 Jul 1950",
+      "Talbot-Lago",
+      "5",
+      "1"
+    ]
+  ]
+}

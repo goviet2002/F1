@@ -1,0 +1,56 @@
+{
+  "name": "Masten Gregory",
+  "driver_code": "MASGRE01",
+  "url": "https://www.formula1.com/en/results/1959/drivers/MASGRE01/masten-gregory",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "10 May 1959",
+      "Cooper Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "31 May 1959",
+      "Cooper Climax",
+      "3",
+      "4"
+    ],
+    [
+      "France",
+      "05 Jul 1959",
+      "Cooper Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "18 Jul 1959",
+      "Cooper Climax",
+      "7",
+      "0"
+    ],
+    [
+      "Germany",
+      "02 Aug 1959",
+      "Cooper Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Portugal",
+      "23 Aug 1959",
+      "Cooper Climax",
+      "2",
+      "6"
+    ]
+  ]
+}

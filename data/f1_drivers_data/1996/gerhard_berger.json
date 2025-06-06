@@ -1,0 +1,126 @@
+{
+  "name": "Gerhard Berger",
+  "driver_code": "GERBER01",
+  "url": "https://www.formula1.com/en/results/1996/drivers/GERBER01/gerhard-berger",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "10 Mar 1996",
+      "Benetton Renault",
+      "4",
+      "3"
+    ],
+    [
+      "Brazil",
+      "31 Mar 1996",
+      "Benetton Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Argentina",
+      "07 Apr 1996",
+      "Benetton Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Europe",
+      "28 Apr 1996",
+      "Benetton Renault",
+      "9",
+      "0"
+    ],
+    [
+      "San Marino",
+      "05 May 1996",
+      "Benetton Renault",
+      "3",
+      "4"
+    ],
+    [
+      "Monaco",
+      "19 May 1996",
+      "Benetton Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Spain",
+      "02 Jun 1996",
+      "Benetton Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "16 Jun 1996",
+      "Benetton Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "30 Jun 1996",
+      "Benetton Renault",
+      "4",
+      "3"
+    ],
+    [
+      "Great Britain",
+      "14 Jul 1996",
+      "Benetton Renault",
+      "2",
+      "6"
+    ],
+    [
+      "Germany",
+      "28 Jul 1996",
+      "Benetton Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Hungary",
+      "11 Aug 1996",
+      "Benetton Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "25 Aug 1996",
+      "Benetton Renault",
+      "6",
+      "1"
+    ],
+    [
+      "Italy",
+      "08 Sep 1996",
+      "Benetton Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Portugal",
+      "22 Sep 1996",
+      "Benetton Renault",
+      "6",
+      "1"
+    ],
+    [
+      "Japan",
+      "13 Oct 1996",
+      "Benetton Renault",
+      "4",
+      "3"
+    ]
+  ]
+}

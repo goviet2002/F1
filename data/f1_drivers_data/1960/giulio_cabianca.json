@@ -1,0 +1,21 @@
+{
+  "name": "Giulio Cabianca",
+  "driver_code": "GIUCAB01",
+  "url": "https://www.formula1.com/en/results/1960/drivers/GIUCAB01/giulio-cabianca",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Italy",
+      "04 Sep 1960",
+      "Cooper Castellotti",
+      "4",
+      "3"
+    ]
+  ]
+}

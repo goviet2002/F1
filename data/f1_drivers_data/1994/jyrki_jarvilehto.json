@@ -1,0 +1,63 @@
+{
+  "name": "Jyrki Jarvilehto",
+  "driver_code": "JYRJAR01",
+  "url": "https://www.formula1.com/en/results/1994/drivers/JYRJAR01/jyrki-jarvilehto",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "15 May 1994",
+      "Benetton Ford",
+      "7",
+      "0"
+    ],
+    [
+      "Spain",
+      "29 May 1994",
+      "Benetton Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "12 Jun 1994",
+      "Benetton Ford",
+      "6",
+      "1"
+    ],
+    [
+      "Italy",
+      "11 Sep 1994",
+      "Benetton Ford",
+      "9",
+      "0"
+    ],
+    [
+      "Portugal",
+      "25 Sep 1994",
+      "Benetton Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Japan",
+      "06 Nov 1994",
+      "Sauber Mercedes",
+      "DNF",
+      "0"
+    ],
+    [
+      "Australia",
+      "13 Nov 1994",
+      "Sauber Mercedes",
+      "10",
+      "0"
+    ]
+  ]
+}

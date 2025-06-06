@@ -1,0 +1,77 @@
+{
+  "name": "Richie Ginther",
+  "driver_code": "RICGIN01",
+  "url": "https://www.formula1.com/en/results/1962/drivers/RICGIN01/richie-ginther",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Netherlands",
+      "20 May 1962",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "03 Jun 1962",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "17 Jun 1962",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "08 Jul 1962",
+      "BRM",
+      "3",
+      "4"
+    ],
+    [
+      "Great Britain",
+      "21 Jul 1962",
+      "BRM",
+      "13",
+      "0"
+    ],
+    [
+      "Germany",
+      "05 Aug 1962",
+      "BRM",
+      "8",
+      "0"
+    ],
+    [
+      "Italy",
+      "16 Sep 1962",
+      "BRM",
+      "2",
+      "6"
+    ],
+    [
+      "United States",
+      "07 Oct 1962",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "South Africa",
+      "29 Dec 1962",
+      "BRM",
+      "7",
+      "0"
+    ]
+  ]
+}

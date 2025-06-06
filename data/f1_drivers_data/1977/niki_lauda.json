@@ -1,0 +1,112 @@
+{
+  "name": "Niki Lauda",
+  "driver_code": "NIKLAU01",
+  "url": "https://www.formula1.com/en/results/1977/drivers/NIKLAU01/niki-lauda",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "09 Jan 1977",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Brazil",
+      "23 Jan 1977",
+      "Ferrari",
+      "3",
+      "4"
+    ],
+    [
+      "South Africa",
+      "05 Mar 1977",
+      "Ferrari",
+      "1",
+      "9"
+    ],
+    [
+      "USA West",
+      "03 Apr 1977",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "Monaco",
+      "22 May 1977",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "Belgium",
+      "05 Jun 1977",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "Sweden",
+      "19 Jun 1977",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "03 Jul 1977",
+      "Ferrari",
+      "5",
+      "2"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1977",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "Germany",
+      "31 Jul 1977",
+      "Ferrari",
+      "1",
+      "9"
+    ],
+    [
+      "Austria",
+      "14 Aug 1977",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "Netherlands",
+      "28 Aug 1977",
+      "Ferrari",
+      "1",
+      "9"
+    ],
+    [
+      "Italy",
+      "11 Sep 1977",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "USA East",
+      "02 Oct 1977",
+      "Ferrari",
+      "4",
+      "3"
+    ]
+  ]
+}

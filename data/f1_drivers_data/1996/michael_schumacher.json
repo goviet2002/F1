@@ -1,0 +1,126 @@
+{
+  "name": "Michael Schumacher",
+  "driver_code": "MICSCH01",
+  "url": "https://www.formula1.com/en/results/1996/drivers/MICSCH01/michael-schumacher",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "10 Mar 1996",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Brazil",
+      "31 Mar 1996",
+      "Ferrari",
+      "3",
+      "4"
+    ],
+    [
+      "Argentina",
+      "07 Apr 1996",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Europe",
+      "28 Apr 1996",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "San Marino",
+      "05 May 1996",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "Monaco",
+      "19 May 1996",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Spain",
+      "02 Jun 1996",
+      "Ferrari",
+      "1",
+      "10"
+    ],
+    [
+      "Canada",
+      "16 Jun 1996",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "30 Jun 1996",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "14 Jul 1996",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "28 Jul 1996",
+      "Ferrari",
+      "4",
+      "3"
+    ],
+    [
+      "Hungary",
+      "11 Aug 1996",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "25 Aug 1996",
+      "Ferrari",
+      "1",
+      "10"
+    ],
+    [
+      "Italy",
+      "08 Sep 1996",
+      "Ferrari",
+      "1",
+      "10"
+    ],
+    [
+      "Portugal",
+      "22 Sep 1996",
+      "Ferrari",
+      "3",
+      "4"
+    ],
+    [
+      "Japan",
+      "13 Oct 1996",
+      "Ferrari",
+      "2",
+      "6"
+    ]
+  ]
+}

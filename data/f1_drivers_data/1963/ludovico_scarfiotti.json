@@ -1,0 +1,21 @@
+{
+  "name": "Ludovico Scarfiotti",
+  "driver_code": "LUDSCA01",
+  "url": "https://www.formula1.com/en/results/1963/drivers/LUDSCA01/ludovico-scarfiotti",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Netherlands",
+      "23 Jun 1963",
+      "Ferrari",
+      "6",
+      "1"
+    ]
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Tom Pryce",
+  "driver_code": "TOMPRY01",
+  "url": "https://www.formula1.com/en/results/1974/drivers/TOMPRY01/tom-pryce",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Belgium",
+      "12 May 1974",
+      "Token Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "23 Jun 1974",
+      "Shadow Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "07 Jul 1974",
+      "Shadow Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "20 Jul 1974",
+      "Shadow Ford",
+      "8",
+      "0"
+    ],
+    [
+      "Germany",
+      "04 Aug 1974",
+      "Shadow Ford",
+      "6",
+      "1"
+    ],
+    [
+      "Austria",
+      "18 Aug 1974",
+      "Shadow Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "08 Sep 1974",
+      "Shadow Ford",
+      "10",
+      "0"
+    ],
+    [
+      "Canada",
+      "22 Sep 1974",
+      "Shadow Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "United States",
+      "06 Oct 1974",
+      "Shadow Ford",
+      "DNC",
+      "0"
+    ]
+  ]
+}

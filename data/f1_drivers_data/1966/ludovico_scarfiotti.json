@@ -1,0 +1,28 @@
+{
+  "name": "Ludovico Scarfiotti",
+  "driver_code": "LUDSCA01",
+  "url": "https://www.formula1.com/en/results/1966/drivers/LUDSCA01/ludovico-scarfiotti",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Germany",
+      "07 Aug 1966",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "04 Sep 1966",
+      "Ferrari",
+      "1",
+      "9"
+    ]
+  ]
+}

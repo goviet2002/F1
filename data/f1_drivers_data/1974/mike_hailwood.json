@@ -1,0 +1,91 @@
+{
+  "name": "Mike Hailwood",
+  "driver_code": "MIKHAI01",
+  "url": "https://www.formula1.com/en/results/1974/drivers/MIKHAI01/mike-hailwood",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "13 Jan 1974",
+      "McLaren Ford",
+      "4",
+      "3"
+    ],
+    [
+      "Brazil",
+      "27 Jan 1974",
+      "McLaren Ford",
+      "5",
+      "2"
+    ],
+    [
+      "South Africa",
+      "30 Mar 1974",
+      "McLaren Ford",
+      "3",
+      "4"
+    ],
+    [
+      "Spain",
+      "28 Apr 1974",
+      "McLaren Ford",
+      "9",
+      "0"
+    ],
+    [
+      "Belgium",
+      "12 May 1974",
+      "McLaren Ford",
+      "7",
+      "0"
+    ],
+    [
+      "Monaco",
+      "26 May 1974",
+      "McLaren Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Sweden",
+      "09 Jun 1974",
+      "McLaren Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "23 Jun 1974",
+      "McLaren Ford",
+      "4",
+      "3"
+    ],
+    [
+      "France",
+      "07 Jul 1974",
+      "McLaren Ford",
+      "7",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "20 Jul 1974",
+      "McLaren Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "04 Aug 1974",
+      "McLaren Ford",
+      "DNF",
+      "0"
+    ]
+  ]
+}

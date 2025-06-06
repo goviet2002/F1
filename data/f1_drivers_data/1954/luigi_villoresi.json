@@ -1,0 +1,42 @@
+{
+  "name": "Luigi Villoresi",
+  "driver_code": "LUIVIL01",
+  "url": "https://www.formula1.com/en/results/1954/drivers/LUIVIL01/luigi-villoresi",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "France",
+      "04 Jul 1954",
+      "Maserati",
+      "5",
+      "2"
+    ],
+    [
+      "Great Britain",
+      "17 Jul 1954",
+      "Maserati",
+      "SHC",
+      "0"
+    ],
+    [
+      "Italy",
+      "05 Sep 1954",
+      "Maserati",
+      "DNF",
+      "0"
+    ],
+    [
+      "Spain",
+      "24 Oct 1954",
+      "Lancia",
+      "DNF",
+      "0"
+    ]
+  ]
+}

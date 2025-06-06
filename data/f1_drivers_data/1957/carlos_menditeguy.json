@@ -1,0 +1,42 @@
+{
+  "name": "Carlos Menditeguy",
+  "driver_code": "CARMEN01",
+  "url": "https://www.formula1.com/en/results/1957/drivers/CARMEN01/carlos-menditeguy",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "13 Jan 1957",
+      "Maserati",
+      "3",
+      "4"
+    ],
+    [
+      "Monaco",
+      "19 May 1957",
+      "Maserati",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "07 Jul 1957",
+      "Maserati",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "20 Jul 1957",
+      "Maserati",
+      "DNF",
+      "0"
+    ]
+  ]
+}

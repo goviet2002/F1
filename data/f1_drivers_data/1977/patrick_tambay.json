@@ -1,0 +1,63 @@
+{
+  "name": "Patrick Tambay",
+  "driver_code": "PATTAM01",
+  "url": "https://www.formula1.com/en/results/1977/drivers/PATTAM01/patrick-tambay",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Great Britain",
+      "16 Jul 1977",
+      "Ensign Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "31 Jul 1977",
+      "Ensign Ford",
+      "6",
+      "1"
+    ],
+    [
+      "Austria",
+      "14 Aug 1977",
+      "Ensign Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "28 Aug 1977",
+      "Ensign Ford",
+      "DNF",
+      "2"
+    ],
+    [
+      "Italy",
+      "11 Sep 1977",
+      "Ensign Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "09 Oct 1977",
+      "Ensign Ford",
+      "5",
+      "2"
+    ],
+    [
+      "Japan",
+      "23 Oct 1977",
+      "Ensign Ford",
+      "DNF",
+      "0"
+    ]
+  ]
+}

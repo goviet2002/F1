@@ -1,0 +1,21 @@
+{
+  "name": "Troy Ruttman",
+  "driver_code": "TRORUT01",
+  "url": "https://www.formula1.com/en/results/1954/drivers/TRORUT01/troy-ruttman",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Indianapolis",
+      "31 May 1954",
+      "Kurtis Kraft Offenhauser",
+      "4",
+      "1.5"
+    ]
+  ]
+}

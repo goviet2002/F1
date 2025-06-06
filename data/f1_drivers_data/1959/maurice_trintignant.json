@@ -1,0 +1,70 @@
+{
+  "name": "Maurice Trintignant",
+  "driver_code": "MAUTRI01",
+  "url": "https://www.formula1.com/en/results/1959/drivers/MAUTRI01/maurice-trintignant",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "10 May 1959",
+      "Cooper Climax",
+      "3",
+      "4"
+    ],
+    [
+      "Netherlands",
+      "31 May 1959",
+      "Cooper Climax",
+      "8",
+      "0"
+    ],
+    [
+      "France",
+      "05 Jul 1959",
+      "Cooper Climax",
+      "11",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "18 Jul 1959",
+      "Cooper Climax",
+      "5",
+      "2"
+    ],
+    [
+      "Germany",
+      "02 Aug 1959",
+      "Cooper Climax",
+      "4",
+      "3"
+    ],
+    [
+      "Portugal",
+      "23 Aug 1959",
+      "Cooper Climax",
+      "4",
+      "3"
+    ],
+    [
+      "Italy",
+      "13 Sep 1959",
+      "Cooper Climax",
+      "9",
+      "0"
+    ],
+    [
+      "United States",
+      "12 Dec 1959",
+      "Cooper Climax",
+      "2",
+      "7"
+    ]
+  ]
+}

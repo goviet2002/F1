@@ -1,0 +1,112 @@
+{
+  "name": "Riccardo Patrese",
+  "driver_code": "RICPAT01",
+  "url": "https://www.formula1.com/en/results/1978/drivers/RICPAT01/riccardo-patrese",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Brazil",
+      "29 Jan 1978",
+      "Arrows Ford",
+      "10",
+      "0"
+    ],
+    [
+      "South Africa",
+      "04 Mar 1978",
+      "Arrows Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "USA West",
+      "02 Apr 1978",
+      "Arrows Ford",
+      "6",
+      "1"
+    ],
+    [
+      "Monaco",
+      "07 May 1978",
+      "Arrows Ford",
+      "6",
+      "1"
+    ],
+    [
+      "Belgium",
+      "21 May 1978",
+      "Arrows Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Spain",
+      "04 Jun 1978",
+      "Arrows Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Sweden",
+      "17 Jun 1978",
+      "Arrows Ford",
+      "2",
+      "6"
+    ],
+    [
+      "France",
+      "02 Jul 1978",
+      "Arrows Ford",
+      "8",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1978",
+      "Arrows Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "30 Jul 1978",
+      "Arrows Ford",
+      "9",
+      "0"
+    ],
+    [
+      "Austria",
+      "13 Aug 1978",
+      "Arrows Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "27 Aug 1978",
+      "Arrows Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "10 Sep 1978",
+      "Arrows Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "08 Oct 1978",
+      "Arrows Ford",
+      "4",
+      "3"
+    ]
+  ]
+}

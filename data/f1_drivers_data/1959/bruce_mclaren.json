@@ -1,0 +1,63 @@
+{
+  "name": "Bruce McLaren",
+  "driver_code": "BRUMCL01",
+  "url": "https://www.formula1.com/en/results/1959/drivers/BRUMCL01/bruce-mc-laren",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "10 May 1959",
+      "Cooper Climax",
+      "5",
+      "2"
+    ],
+    [
+      "France",
+      "05 Jul 1959",
+      "Cooper Climax",
+      "5",
+      "2"
+    ],
+    [
+      "Great Britain",
+      "18 Jul 1959",
+      "Cooper Climax",
+      "3",
+      "4.5"
+    ],
+    [
+      "Germany",
+      "02 Aug 1959",
+      "Cooper Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Portugal",
+      "23 Aug 1959",
+      "Cooper Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "13 Sep 1959",
+      "Cooper Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "United States",
+      "12 Dec 1959",
+      "Cooper Climax",
+      "1",
+      "8"
+    ]
+  ]
+}

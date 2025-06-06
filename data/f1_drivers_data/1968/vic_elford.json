@@ -1,0 +1,63 @@
+{
+  "name": "Vic Elford",
+  "driver_code": "VICELF01",
+  "url": "https://www.formula1.com/en/results/1968/drivers/VICELF01/vic-elford",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "France",
+      "07 Jul 1968",
+      "Cooper BRM",
+      "4",
+      "3"
+    ],
+    [
+      "Great Britain",
+      "20 Jul 1968",
+      "Cooper BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "04 Aug 1968",
+      "Cooper BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "08 Sep 1968",
+      "Cooper BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "22 Sep 1968",
+      "Cooper BRM",
+      "5",
+      "2"
+    ],
+    [
+      "United States",
+      "06 Oct 1968",
+      "Cooper BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Mexico",
+      "03 Nov 1968",
+      "Cooper BRM",
+      "8",
+      "0"
+    ]
+  ]
+}

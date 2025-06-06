@@ -1,0 +1,63 @@
+{
+  "name": "Juan Manuel Fangio",
+  "driver_code": "JUAFAN01",
+  "url": "https://www.formula1.com/en/results/1951/drivers/JUAFAN01/juan-manuel-fangio",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Switzerland",
+      "27 May 1951",
+      "Alfa Romeo",
+      "1",
+      "9"
+    ],
+    [
+      "Belgium",
+      "17 Jun 1951",
+      "Alfa Romeo",
+      "9",
+      "1"
+    ],
+    [
+      "France",
+      "01 Jul 1951",
+      "Alfa Romeo",
+      "1",
+      "5"
+    ],
+    [
+      "Great Britain",
+      "14 Jul 1951",
+      "Alfa Romeo",
+      "2",
+      "6"
+    ],
+    [
+      "Germany",
+      "29 Jul 1951",
+      "Alfa Romeo",
+      "2",
+      "7"
+    ],
+    [
+      "Italy",
+      "16 Sep 1951",
+      "Alfa Romeo",
+      "DNF",
+      "0"
+    ],
+    [
+      "Spain",
+      "28 Oct 1951",
+      "Alfa Romeo",
+      "1",
+      "9"
+    ]
+  ]
+}

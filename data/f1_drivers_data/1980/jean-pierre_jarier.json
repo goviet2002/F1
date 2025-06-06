@@ -1,0 +1,112 @@
+{
+  "name": "Jean-Pierre Jarier",
+  "driver_code": "JEAJAR01",
+  "url": "https://www.formula1.com/en/results/1980/drivers/JEAJAR01/jean-pierre-jarier",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "13 Jan 1980",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Brazil",
+      "27 Jan 1980",
+      "Tyrrell Ford",
+      "12",
+      "0"
+    ],
+    [
+      "South Africa",
+      "01 Mar 1980",
+      "Tyrrell Ford",
+      "7",
+      "0"
+    ],
+    [
+      "USA West",
+      "30 Mar 1980",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "04 May 1980",
+      "Tyrrell Ford",
+      "5",
+      "2"
+    ],
+    [
+      "Monaco",
+      "18 May 1980",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "29 Jun 1980",
+      "Tyrrell Ford",
+      "14",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "13 Jul 1980",
+      "Tyrrell Ford",
+      "5",
+      "2"
+    ],
+    [
+      "Germany",
+      "10 Aug 1980",
+      "Tyrrell Ford",
+      "15",
+      "0"
+    ],
+    [
+      "Austria",
+      "17 Aug 1980",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "31 Aug 1980",
+      "Tyrrell Ford",
+      "5",
+      "2"
+    ],
+    [
+      "Italy",
+      "14 Sep 1980",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "28 Sep 1980",
+      "Tyrrell Ford",
+      "7",
+      "0"
+    ],
+    [
+      "USA East",
+      "05 Oct 1980",
+      "Tyrrell Ford",
+      "DNC",
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Jochen Mass",
+  "driver_code": "JOCMAS01",
+  "url": "https://www.formula1.com/en/results/1980/drivers/JOCMAS01/jochen-mass",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "13 Jan 1980",
+      "Arrows Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Brazil",
+      "27 Jan 1980",
+      "Arrows Ford",
+      "10",
+      "0"
+    ],
+    [
+      "South Africa",
+      "01 Mar 1980",
+      "Arrows Ford",
+      "6",
+      "1"
+    ],
+    [
+      "USA West",
+      "30 Mar 1980",
+      "Arrows Ford",
+      "7",
+      "0"
+    ],
+    [
+      "Belgium",
+      "04 May 1980",
+      "Arrows Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "18 May 1980",
+      "Arrows Ford",
+      "4",
+      "3"
+    ],
+    [
+      "France",
+      "29 Jun 1980",
+      "Arrows Ford",
+      "10",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "13 Jul 1980",
+      "Arrows Ford",
+      "13",
+      "0"
+    ],
+    [
+      "Germany",
+      "10 Aug 1980",
+      "Arrows Ford",
+      "8",
+      "0"
+    ],
+    [
+      "Canada",
+      "28 Sep 1980",
+      "Arrows Ford",
+      "11",
+      "0"
+    ],
+    [
+      "USA East",
+      "05 Oct 1980",
+      "Arrows Ford",
+      "DNF",
+      "0"
+    ]
+  ]
+}

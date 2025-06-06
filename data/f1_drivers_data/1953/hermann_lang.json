@@ -1,0 +1,21 @@
+{
+  "name": "Hermann Lang",
+  "driver_code": "HERLAN01",
+  "url": "https://www.formula1.com/en/results/1953/drivers/HERLAN01/hermann-lang",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Switzerland",
+      "23 Aug 1953",
+      "Maserati",
+      "5",
+      "2"
+    ]
+  ]
+}

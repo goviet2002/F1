@@ -1,0 +1,35 @@
+{
+  "name": "Jacky Ickx",
+  "driver_code": "JACICK01",
+  "url": "https://www.formula1.com/en/results/1967/drivers/JACICK01/jacky-ickx",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Germany",
+      "06 Aug 1967",
+      "Matra Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "10 Sep 1967",
+      "Cooper Maserati",
+      "6",
+      "1"
+    ],
+    [
+      "United States",
+      "01 Oct 1967",
+      "Cooper Maserati",
+      "DNF",
+      "0"
+    ]
+  ]
+}

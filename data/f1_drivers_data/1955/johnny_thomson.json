@@ -1,0 +1,21 @@
+{
+  "name": "Johnny Thomson",
+  "driver_code": "JOHTHO01",
+  "url": "https://www.formula1.com/en/results/1955/drivers/JOHTHO01/johnny-thomson",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Indianapolis",
+      "30 May 1955",
+      "Kuzma Offenhauser",
+      "4",
+      "3"
+    ]
+  ]
+}

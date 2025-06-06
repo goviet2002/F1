@@ -1,0 +1,28 @@
+{
+  "name": "Paul Frere",
+  "driver_code": "PAUFRE01",
+  "url": "https://www.formula1.com/en/results/1955/drivers/PAUFRE01/paul-frere",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "22 May 1955",
+      "Ferrari",
+      "8",
+      "0"
+    ],
+    [
+      "Belgium",
+      "05 Jun 1955",
+      "Ferrari",
+      "4",
+      "3"
+    ]
+  ]
+}

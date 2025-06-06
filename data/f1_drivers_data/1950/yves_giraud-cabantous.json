@@ -1,0 +1,42 @@
+{
+  "name": "Yves Giraud-Cabantous",
+  "driver_code": "YVECAB01",
+  "url": "https://www.formula1.com/en/results/1950/drivers/YVECAB01/yves-giraud-cabantous",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Great Britain",
+      "13 May 1950",
+      "Talbot-Lago",
+      "4",
+      "3"
+    ],
+    [
+      "Switzerland",
+      "04 Jun 1950",
+      "Talbot-Lago",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "18 Jun 1950",
+      "Talbot-Lago",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "02 Jul 1950",
+      "Talbot-Lago",
+      "8",
+      "0"
+    ]
+  ]
+}

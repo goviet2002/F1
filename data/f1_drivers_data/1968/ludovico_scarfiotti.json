@@ -1,0 +1,35 @@
+{
+  "name": "Ludovico Scarfiotti",
+  "driver_code": "LUDSCA01",
+  "url": "https://www.formula1.com/en/results/1968/drivers/LUDSCA01/ludovico-scarfiotti",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "01 Jan 1968",
+      "Cooper Maserati",
+      "DNF",
+      "0"
+    ],
+    [
+      "Spain",
+      "12 May 1968",
+      "Cooper BRM",
+      "4",
+      "3"
+    ],
+    [
+      "Monaco",
+      "26 May 1968",
+      "Cooper BRM",
+      "4",
+      "3"
+    ]
+  ]
+}

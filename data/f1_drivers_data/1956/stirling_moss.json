@@ -1,0 +1,63 @@
+{
+  "name": "Stirling Moss",
+  "driver_code": "STIMOS01",
+  "url": "https://www.formula1.com/en/results/1956/drivers/STIMOS01/stirling-moss",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "22 Jan 1956",
+      "Maserati",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "13 May 1956",
+      "Maserati",
+      "1",
+      "8"
+    ],
+    [
+      "Belgium",
+      "03 Jun 1956",
+      "Maserati",
+      "3",
+      "3"
+    ],
+    [
+      "France",
+      "01 Jul 1956",
+      "Maserati",
+      "5",
+      "1"
+    ],
+    [
+      "Great Britain",
+      "14 Jul 1956",
+      "Maserati",
+      "DNF",
+      "1"
+    ],
+    [
+      "Germany",
+      "05 Aug 1956",
+      "Maserati",
+      "2",
+      "6"
+    ],
+    [
+      "Italy",
+      "02 Sep 1956",
+      "Maserati",
+      "1",
+      "9"
+    ]
+  ]
+}

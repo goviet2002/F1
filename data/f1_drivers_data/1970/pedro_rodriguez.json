@@ -1,0 +1,105 @@
+{
+  "name": "Pedro Rodriguez",
+  "driver_code": "PEDROD01",
+  "url": "https://www.formula1.com/en/results/1970/drivers/PEDROD01/pedro-rodriguez",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "07 Mar 1970",
+      "BRM",
+      "9",
+      "0"
+    ],
+    [
+      "Spain",
+      "19 Apr 1970",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "10 May 1970",
+      "BRM",
+      "6",
+      "1"
+    ],
+    [
+      "Belgium",
+      "07 Jun 1970",
+      "BRM",
+      "1",
+      "9"
+    ],
+    [
+      "Netherlands",
+      "21 Jun 1970",
+      "BRM",
+      "10",
+      "0"
+    ],
+    [
+      "France",
+      "05 Jul 1970",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "18 Jul 1970",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "02 Aug 1970",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Austria",
+      "16 Aug 1970",
+      "BRM",
+      "4",
+      "3"
+    ],
+    [
+      "Italy",
+      "06 Sep 1970",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "20 Sep 1970",
+      "BRM",
+      "4",
+      "3"
+    ],
+    [
+      "United States",
+      "04 Oct 1970",
+      "BRM",
+      "2",
+      "6"
+    ],
+    [
+      "Mexico",
+      "25 Oct 1970",
+      "BRM",
+      "6",
+      "1"
+    ]
+  ]
+}

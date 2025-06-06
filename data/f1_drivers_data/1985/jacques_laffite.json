@@ -1,0 +1,119 @@
+{
+  "name": "Jacques Laffite",
+  "driver_code": "JACLAF01",
+  "url": "https://www.formula1.com/en/results/1985/drivers/JACLAF01/jacques-laffite",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Brazil",
+      "07 Apr 1985",
+      "Ligier Renault",
+      "6",
+      "1"
+    ],
+    [
+      "Portugal",
+      "21 Apr 1985",
+      "Ligier Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "San Marino",
+      "05 May 1985",
+      "Ligier Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "19 May 1985",
+      "Ligier Renault",
+      "6",
+      "1"
+    ],
+    [
+      "Canada",
+      "16 Jun 1985",
+      "Ligier Renault",
+      "8",
+      "0"
+    ],
+    [
+      "Detroit",
+      "23 Jun 1985",
+      "Ligier Renault",
+      "12",
+      "0"
+    ],
+    [
+      "France",
+      "07 Jul 1985",
+      "Ligier Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "21 Jul 1985",
+      "Ligier Renault",
+      "3",
+      "4"
+    ],
+    [
+      "Germany",
+      "04 Aug 1985",
+      "Ligier Renault",
+      "3",
+      "4"
+    ],
+    [
+      "Austria",
+      "18 Aug 1985",
+      "Ligier Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "25 Aug 1985",
+      "Ligier Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "08 Sep 1985",
+      "Ligier Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "15 Sep 1985",
+      "Ligier Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Europe",
+      "06 Oct 1985",
+      "Ligier Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Australia",
+      "03 Nov 1985",
+      "Ligier Renault",
+      "2",
+      "6"
+    ]
+  ]
+}

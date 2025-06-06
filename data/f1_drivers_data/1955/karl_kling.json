@@ -1,0 +1,49 @@
+{
+  "name": "Karl Kling",
+  "driver_code": "KARKLI01",
+  "url": "https://www.formula1.com/en/results/1955/drivers/KARKLI01/karl-kling",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "16 Jan 1955",
+      "Mercedes-Benz",
+      "SHC",
+      "1"
+    ],
+    [
+      "Belgium",
+      "05 Jun 1955",
+      "Mercedes-Benz",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "19 Jun 1955",
+      "Mercedes-Benz",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1955",
+      "Mercedes-Benz",
+      "3",
+      "4"
+    ],
+    [
+      "Italy",
+      "11 Sep 1955",
+      "Mercedes-Benz",
+      "DNF",
+      "0"
+    ]
+  ]
+}

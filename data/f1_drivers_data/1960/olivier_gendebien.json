@@ -1,0 +1,49 @@
+{
+  "name": "Olivier Gendebien",
+  "driver_code": "OLIGEN01",
+  "url": "https://www.formula1.com/en/results/1960/drivers/OLIGEN01/olivier-gendebien",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Belgium",
+      "19 Jun 1960",
+      "Cooper Climax",
+      "3",
+      "4"
+    ],
+    [
+      "France",
+      "03 Jul 1960",
+      "Cooper Climax",
+      "2",
+      "6"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1960",
+      "Cooper Climax",
+      "9",
+      "0"
+    ],
+    [
+      "Portugal",
+      "14 Aug 1960",
+      "Cooper Climax",
+      "7",
+      "0"
+    ],
+    [
+      "United States",
+      "20 Nov 1960",
+      "Cooper Climax",
+      "12",
+      "0"
+    ]
+  ]
+}

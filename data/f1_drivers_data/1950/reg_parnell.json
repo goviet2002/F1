@@ -1,0 +1,28 @@
+{
+  "name": "Reg Parnell",
+  "driver_code": "REGPAR01",
+  "url": "https://www.formula1.com/en/results/1950/drivers/REGPAR01/reg-parnell",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Great Britain",
+      "13 May 1950",
+      "Alfa Romeo",
+      "3",
+      "4"
+    ],
+    [
+      "France",
+      "02 Jul 1950",
+      "Maserati",
+      "DNF",
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "name": "John Surtees",
+  "driver_code": "JOHSUR01",
+  "url": "https://www.formula1.com/en/results/1964/drivers/JOHSUR01/john-surtees",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "10 May 1964",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "24 May 1964",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "Belgium",
+      "14 Jun 1964",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "28 Jun 1964",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "11 Jul 1964",
+      "Ferrari",
+      "3",
+      "4"
+    ],
+    [
+      "Germany",
+      "02 Aug 1964",
+      "Ferrari",
+      "1",
+      "9"
+    ],
+    [
+      "Austria",
+      "23 Aug 1964",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "06 Sep 1964",
+      "Ferrari",
+      "1",
+      "9"
+    ],
+    [
+      "United States",
+      "04 Oct 1964",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "Mexico",
+      "25 Oct 1964",
+      "Ferrari",
+      "2",
+      "6"
+    ]
+  ]
+}

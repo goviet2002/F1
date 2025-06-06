@@ -1,0 +1,70 @@
+{
+  "name": "Juan Manuel Fangio",
+  "driver_code": "JUAFAN01",
+  "url": "https://www.formula1.com/en/results/1953/drivers/JUAFAN01/juan-manuel-fangio",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "18 Jan 1953",
+      "Maserati",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "07 Jun 1953",
+      "Maserati",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "21 Jun 1953",
+      "Maserati",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "05 Jul 1953",
+      "Maserati",
+      "2",
+      "6.5"
+    ],
+    [
+      "Great Britain",
+      "18 Jul 1953",
+      "Maserati",
+      "2",
+      "6"
+    ],
+    [
+      "Germany",
+      "02 Aug 1953",
+      "Maserati",
+      "2",
+      "6"
+    ],
+    [
+      "Switzerland",
+      "23 Aug 1953",
+      "Maserati",
+      "SHC",
+      "1.5"
+    ],
+    [
+      "Italy",
+      "13 Sep 1953",
+      "Maserati",
+      "1",
+      "9"
+    ]
+  ]
+}

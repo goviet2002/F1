@@ -1,0 +1,70 @@
+{
+  "name": "Pedro Lamy",
+  "driver_code": "PEDLAM01",
+  "url": "https://www.formula1.com/en/results/1995/drivers/PEDLAM01/pedro-lamy",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Hungary",
+      "13 Aug 1995",
+      "Minardi Ford",
+      "9",
+      "0"
+    ],
+    [
+      "Belgium",
+      "27 Aug 1995",
+      "Minardi Ford",
+      "10",
+      "0"
+    ],
+    [
+      "Italy",
+      "10 Sep 1995",
+      "Minardi Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Portugal",
+      "24 Sep 1995",
+      "Minardi Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Europe",
+      "01 Oct 1995",
+      "Minardi Ford",
+      "9",
+      "0"
+    ],
+    [
+      "Pacific",
+      "22 Oct 1995",
+      "Minardi Ford",
+      "13",
+      "0"
+    ],
+    [
+      "Japan",
+      "29 Oct 1995",
+      "Minardi Ford",
+      "11",
+      "0"
+    ],
+    [
+      "Australia",
+      "12 Nov 1995",
+      "Minardi Ford",
+      "6",
+      "1"
+    ]
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Felice Bonetto",
+  "driver_code": "FELBON01",
+  "url": "https://www.formula1.com/en/results/1952/drivers/FELBON01/felice-bonetto",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Germany",
+      "03 Aug 1952",
+      "Maserati",
+      "DSQ",
+      "0"
+    ],
+    [
+      "Italy",
+      "07 Sep 1952",
+      "Maserati",
+      "5",
+      "2"
+    ]
+  ]
+}

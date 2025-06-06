@@ -1,0 +1,105 @@
+{
+  "name": "Jean-Pierre Jarier",
+  "driver_code": "JEAJAR01",
+  "url": "https://www.formula1.com/en/results/1979/drivers/JEAJAR01/jean-pierre-jarier",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "21 Jan 1979",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Brazil",
+      "04 Feb 1979",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "South Africa",
+      "03 Mar 1979",
+      "Tyrrell Ford",
+      "3",
+      "4"
+    ],
+    [
+      "USA West",
+      "08 Apr 1979",
+      "Tyrrell Ford",
+      "6",
+      "1"
+    ],
+    [
+      "Spain",
+      "29 Apr 1979",
+      "Tyrrell Ford",
+      "5",
+      "2"
+    ],
+    [
+      "Belgium",
+      "13 May 1979",
+      "Tyrrell Ford",
+      "11",
+      "0"
+    ],
+    [
+      "Monaco",
+      "27 May 1979",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "01 Jul 1979",
+      "Tyrrell Ford",
+      "5",
+      "2"
+    ],
+    [
+      "Great Britain",
+      "14 Jul 1979",
+      "Tyrrell Ford",
+      "3",
+      "4"
+    ],
+    [
+      "Netherlands",
+      "26 Aug 1979",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "09 Sep 1979",
+      "Tyrrell Ford",
+      "6",
+      "1"
+    ],
+    [
+      "Canada",
+      "30 Sep 1979",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "USA East",
+      "07 Oct 1979",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ]
+  ]
+}

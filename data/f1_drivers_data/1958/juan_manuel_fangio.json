@@ -1,0 +1,28 @@
+{
+  "name": "Juan Manuel Fangio",
+  "driver_code": "JUAFAN01",
+  "url": "https://www.formula1.com/en/results/1958/drivers/JUAFAN01/juan-manuel-fangio",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "19 Jan 1958",
+      "Maserati",
+      "4",
+      "4"
+    ],
+    [
+      "France",
+      "06 Jul 1958",
+      "Maserati",
+      "4",
+      "3"
+    ]
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Maurice Trintignant",
+  "driver_code": "MAUTRI01",
+  "url": "https://www.formula1.com/en/results/1954/drivers/MAUTRI01/maurice-trintignant",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "17 Jan 1954",
+      "Ferrari",
+      "4",
+      "3"
+    ],
+    [
+      "Belgium",
+      "20 Jun 1954",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "France",
+      "04 Jul 1954",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "17 Jul 1954",
+      "Ferrari",
+      "5",
+      "2"
+    ],
+    [
+      "Germany",
+      "01 Aug 1954",
+      "Ferrari",
+      "3",
+      "4"
+    ],
+    [
+      "Switzerland",
+      "22 Aug 1954",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "05 Sep 1954",
+      "Ferrari",
+      "5",
+      "2"
+    ],
+    [
+      "Spain",
+      "24 Oct 1954",
+      "Ferrari",
+      "DNF",
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "name": "Mika Salo",
+  "driver_code": "MIKSAL01",
+  "url": "https://www.formula1.com/en/results/1996/drivers/MIKSAL01/mika-salo",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "10 Mar 1996",
+      "Tyrrell Yamaha",
+      "6",
+      "1"
+    ],
+    [
+      "Brazil",
+      "31 Mar 1996",
+      "Tyrrell Yamaha",
+      "5",
+      "2"
+    ],
+    [
+      "Argentina",
+      "07 Apr 1996",
+      "Tyrrell Yamaha",
+      "DNF",
+      "0"
+    ],
+    [
+      "San Marino",
+      "05 May 1996",
+      "Tyrrell Yamaha",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "19 May 1996",
+      "Tyrrell Yamaha",
+      "DNF",
+      "2"
+    ],
+    [
+      "Spain",
+      "02 Jun 1996",
+      "Tyrrell Yamaha",
+      "DSQ",
+      "0"
+    ],
+    [
+      "Canada",
+      "16 Jun 1996",
+      "Tyrrell Yamaha",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "30 Jun 1996",
+      "Tyrrell Yamaha",
+      "10",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "14 Jul 1996",
+      "Tyrrell Yamaha",
+      "7",
+      "0"
+    ],
+    [
+      "Germany",
+      "28 Jul 1996",
+      "Tyrrell Yamaha",
+      "9",
+      "0"
+    ],
+    [
+      "Hungary",
+      "11 Aug 1996",
+      "Tyrrell Yamaha",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "25 Aug 1996",
+      "Tyrrell Yamaha",
+      "7",
+      "0"
+    ],
+    [
+      "Italy",
+      "08 Sep 1996",
+      "Tyrrell Yamaha",
+      "DNF",
+      "0"
+    ],
+    [
+      "Portugal",
+      "22 Sep 1996",
+      "Tyrrell Yamaha",
+      "11",
+      "0"
+    ],
+    [
+      "Japan",
+      "13 Oct 1996",
+      "Tyrrell Yamaha",
+      "DNF",
+      "0"
+    ]
+  ]
+}

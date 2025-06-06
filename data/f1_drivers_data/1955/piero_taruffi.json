@@ -1,0 +1,35 @@
+{
+  "name": "Piero Taruffi",
+  "driver_code": "PIETAR01",
+  "url": "https://www.formula1.com/en/results/1955/drivers/PIETAR01/piero-taruffi",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "22 May 1955",
+      "Ferrari",
+      "SHC",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1955",
+      "Mercedes-Benz",
+      "4",
+      "3"
+    ],
+    [
+      "Italy",
+      "11 Sep 1955",
+      "Mercedes-Benz",
+      "2",
+      "6"
+    ]
+  ]
+}

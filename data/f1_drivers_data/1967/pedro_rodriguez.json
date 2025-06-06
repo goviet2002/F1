@@ -1,0 +1,70 @@
+{
+  "name": "Pedro Rodriguez",
+  "driver_code": "PEDROD01",
+  "url": "https://www.formula1.com/en/results/1967/drivers/PEDROD01/pedro-rodriguez",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "02 Jan 1967",
+      "Cooper Maserati",
+      "1",
+      "9"
+    ],
+    [
+      "Monaco",
+      "07 May 1967",
+      "Cooper Maserati",
+      "5",
+      "2"
+    ],
+    [
+      "Netherlands",
+      "04 Jun 1967",
+      "Cooper Maserati",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "18 Jun 1967",
+      "Cooper Maserati",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "02 Jul 1967",
+      "Cooper Maserati",
+      "6",
+      "1"
+    ],
+    [
+      "Great Britain",
+      "15 Jul 1967",
+      "Cooper Maserati",
+      "5",
+      "2"
+    ],
+    [
+      "Germany",
+      "06 Aug 1967",
+      "Cooper Maserati",
+      "11",
+      "0"
+    ],
+    [
+      "Mexico",
+      "22 Oct 1967",
+      "Cooper Maserati",
+      "6",
+      "1"
+    ]
+  ]
+}

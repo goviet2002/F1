@@ -1,0 +1,112 @@
+{
+  "name": "Ronnie Peterson",
+  "driver_code": "RONPET01",
+  "url": "https://www.formula1.com/en/results/1975/drivers/RONPET01/ronnie-peterson",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "12 Jan 1975",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Brazil",
+      "26 Jan 1975",
+      "Lotus Ford",
+      "15",
+      "0"
+    ],
+    [
+      "South Africa",
+      "01 Mar 1975",
+      "Lotus Ford",
+      "10",
+      "0"
+    ],
+    [
+      "Spain",
+      "27 Apr 1975",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "11 May 1975",
+      "Lotus Ford",
+      "4",
+      "3"
+    ],
+    [
+      "Belgium",
+      "25 May 1975",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Sweden",
+      "08 Jun 1975",
+      "Lotus Ford",
+      "9",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "22 Jun 1975",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "06 Jul 1975",
+      "Lotus Ford",
+      "10",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "19 Jul 1975",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "03 Aug 1975",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Austria",
+      "17 Aug 1975",
+      "Lotus Ford",
+      "5",
+      "1"
+    ],
+    [
+      "Italy",
+      "07 Sep 1975",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "United States",
+      "05 Oct 1975",
+      "Lotus Ford",
+      "5",
+      "2"
+    ]
+  ]
+}

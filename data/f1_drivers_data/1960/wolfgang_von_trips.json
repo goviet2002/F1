@@ -1,0 +1,77 @@
+{
+  "name": "Wolfgang von Trips",
+  "driver_code": "WOLVON01",
+  "url": "https://www.formula1.com/en/results/1960/drivers/WOLVON01/wolfgang-von-trips",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "07 Feb 1960",
+      "Ferrari",
+      "5",
+      "2"
+    ],
+    [
+      "Monaco",
+      "29 May 1960",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "06 Jun 1960",
+      "Ferrari",
+      "5",
+      "2"
+    ],
+    [
+      "Belgium",
+      "19 Jun 1960",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "03 Jul 1960",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1960",
+      "Ferrari",
+      "6",
+      "1"
+    ],
+    [
+      "Portugal",
+      "14 Aug 1960",
+      "Ferrari",
+      "4",
+      "3"
+    ],
+    [
+      "Italy",
+      "04 Sep 1960",
+      "Ferrari",
+      "5",
+      "2"
+    ],
+    [
+      "United States",
+      "20 Nov 1960",
+      "Cooper Maserati",
+      "9",
+      "0"
+    ]
+  ]
+}

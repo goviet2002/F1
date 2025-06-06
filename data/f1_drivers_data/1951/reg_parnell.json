@@ -1,0 +1,28 @@
+{
+  "name": "Reg Parnell",
+  "driver_code": "REGPAR01",
+  "url": "https://www.formula1.com/en/results/1951/drivers/REGPAR01/reg-parnell",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "France",
+      "01 Jul 1951",
+      "Thin Wall Ferrari",
+      "4",
+      "3"
+    ],
+    [
+      "Great Britain",
+      "14 Jul 1951",
+      "BRM",
+      "5",
+      "2"
+    ]
+  ]
+}

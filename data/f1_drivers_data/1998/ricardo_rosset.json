@@ -1,0 +1,84 @@
+{
+  "name": "Ricardo Rosset",
+  "driver_code": "RICROS01",
+  "url": "https://www.formula1.com/en/results/1998/drivers/RICROS01/ricardo-rosset",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "08 Mar 1998",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Brazil",
+      "29 Mar 1998",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Argentina",
+      "12 Apr 1998",
+      "Tyrrell Ford",
+      "14",
+      "0"
+    ],
+    [
+      "San Marino",
+      "26 Apr 1998",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "07 Jun 1998",
+      "Tyrrell Ford",
+      "8",
+      "0"
+    ],
+    [
+      "France",
+      "28 Jun 1998",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "12 Jul 1998",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Austria",
+      "26 Jul 1998",
+      "Tyrrell Ford",
+      "12",
+      "0"
+    ],
+    [
+      "Italy",
+      "13 Sep 1998",
+      "Tyrrell Ford",
+      "12",
+      "0"
+    ],
+    [
+      "Luxembourg",
+      "27 Sep 1998",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ]
+  ]
+}

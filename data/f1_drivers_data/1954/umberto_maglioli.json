@@ -1,0 +1,35 @@
+{
+  "name": "Umberto Maglioli",
+  "driver_code": "UMBMAG01",
+  "url": "https://www.formula1.com/en/results/1954/drivers/UMBMAG01/umberto-maglioli",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "17 Jan 1954",
+      "Ferrari",
+      "9",
+      "0"
+    ],
+    [
+      "Switzerland",
+      "22 Aug 1954",
+      "Ferrari",
+      "7",
+      "0"
+    ],
+    [
+      "Italy",
+      "05 Sep 1954",
+      "Ferrari",
+      "SHC",
+      "2"
+    ]
+  ]
+}

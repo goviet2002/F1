@@ -1,0 +1,126 @@
+{
+  "name": "Alain Prost",
+  "driver_code": "ALAPRO01",
+  "url": "https://www.formula1.com/en/results/1993/drivers/ALAPRO01/alain-prost",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "14 Mar 1993",
+      "Williams Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Brazil",
+      "28 Mar 1993",
+      "Williams Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Europe",
+      "11 Apr 1993",
+      "Williams Renault",
+      "3",
+      "4"
+    ],
+    [
+      "San Marino",
+      "25 Apr 1993",
+      "Williams Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Spain",
+      "09 May 1993",
+      "Williams Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Monaco",
+      "23 May 1993",
+      "Williams Renault",
+      "4",
+      "3"
+    ],
+    [
+      "Canada",
+      "13 Jun 1993",
+      "Williams Renault",
+      "1",
+      "10"
+    ],
+    [
+      "France",
+      "04 Jul 1993",
+      "Williams Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Great Britain",
+      "11 Jul 1993",
+      "Williams Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Germany",
+      "25 Jul 1993",
+      "Williams Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Hungary",
+      "15 Aug 1993",
+      "Williams Renault",
+      "12",
+      "0"
+    ],
+    [
+      "Belgium",
+      "29 Aug 1993",
+      "Williams Renault",
+      "3",
+      "4"
+    ],
+    [
+      "Italy",
+      "12 Sep 1993",
+      "Williams Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Portugal",
+      "26 Sep 1993",
+      "Williams Renault",
+      "2",
+      "6"
+    ],
+    [
+      "Japan",
+      "24 Oct 1993",
+      "Williams Renault",
+      "2",
+      "6"
+    ],
+    [
+      "Australia",
+      "07 Nov 1993",
+      "Williams Renault",
+      "2",
+      "6"
+    ]
+  ]
+}

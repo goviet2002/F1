@@ -1,0 +1,133 @@
+{
+  "name": "Michael Schumacher",
+  "driver_code": "MICSCH01",
+  "url": "https://www.formula1.com/en/results/1995/drivers/MICSCH01/michael-schumacher",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Brazil",
+      "26 Mar 1995",
+      "Benetton Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Argentina",
+      "09 Apr 1995",
+      "Benetton Renault",
+      "3",
+      "4"
+    ],
+    [
+      "San Marino",
+      "30 Apr 1995",
+      "Benetton Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Spain",
+      "14 May 1995",
+      "Benetton Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Monaco",
+      "28 May 1995",
+      "Benetton Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Canada",
+      "11 Jun 1995",
+      "Benetton Renault",
+      "5",
+      "2"
+    ],
+    [
+      "France",
+      "02 Jul 1995",
+      "Benetton Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1995",
+      "Benetton Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "30 Jul 1995",
+      "Benetton Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Hungary",
+      "13 Aug 1995",
+      "Benetton Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "27 Aug 1995",
+      "Benetton Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Italy",
+      "10 Sep 1995",
+      "Benetton Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Portugal",
+      "24 Sep 1995",
+      "Benetton Renault",
+      "2",
+      "6"
+    ],
+    [
+      "Europe",
+      "01 Oct 1995",
+      "Benetton Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Pacific",
+      "22 Oct 1995",
+      "Benetton Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Japan",
+      "29 Oct 1995",
+      "Benetton Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Australia",
+      "12 Nov 1995",
+      "Benetton Renault",
+      "DNF",
+      "0"
+    ]
+  ]
+}

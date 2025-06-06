@@ -1,0 +1,21 @@
+{
+  "name": "Jim Clark",
+  "driver_code": "JIMCLA01",
+  "url": "https://www.formula1.com/en/results/1968/drivers/JIMCLA01/jim-clark",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "01 Jan 1968",
+      "Lotus Ford",
+      "1",
+      "9"
+    ]
+  ]
+}

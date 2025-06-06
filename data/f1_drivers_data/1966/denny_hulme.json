@@ -1,0 +1,77 @@
+{
+  "name": "Denny Hulme",
+  "driver_code": "DENHUL01",
+  "url": "https://www.formula1.com/en/results/1966/drivers/DENHUL01/denny-hulme",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "22 May 1966",
+      "Brabham Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "12 Jun 1966",
+      "Brabham Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "03 Jul 1966",
+      "Brabham Repco",
+      "3",
+      "4"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1966",
+      "Brabham Repco",
+      "2",
+      "6"
+    ],
+    [
+      "Netherlands",
+      "24 Jul 1966",
+      "Brabham Repco",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "07 Aug 1966",
+      "Brabham Repco",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "04 Sep 1966",
+      "Brabham Repco",
+      "3",
+      "4"
+    ],
+    [
+      "United States",
+      "02 Oct 1966",
+      "Brabham Repco",
+      "DNF",
+      "0"
+    ],
+    [
+      "Mexico",
+      "23 Oct 1966",
+      "Brabham Repco",
+      "3",
+      "4"
+    ]
+  ]
+}

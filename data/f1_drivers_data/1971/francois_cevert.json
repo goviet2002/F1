@@ -1,0 +1,91 @@
+{
+  "name": "Francois Cevert",
+  "driver_code": "FRACEV01",
+  "url": "https://www.formula1.com/en/results/1971/drivers/FRACEV01/francois-cevert",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "06 Mar 1971",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Spain",
+      "18 Apr 1971",
+      "Tyrrell Ford",
+      "7",
+      "0"
+    ],
+    [
+      "Monaco",
+      "23 May 1971",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "20 Jun 1971",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "04 Jul 1971",
+      "Tyrrell Ford",
+      "2",
+      "6"
+    ],
+    [
+      "Great Britain",
+      "17 Jul 1971",
+      "Tyrrell Ford",
+      "10",
+      "0"
+    ],
+    [
+      "Germany",
+      "01 Aug 1971",
+      "Tyrrell Ford",
+      "2",
+      "6"
+    ],
+    [
+      "Austria",
+      "15 Aug 1971",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "05 Sep 1971",
+      "Tyrrell Ford",
+      "3",
+      "4"
+    ],
+    [
+      "Canada",
+      "19 Sep 1971",
+      "Tyrrell Ford",
+      "6",
+      "1"
+    ],
+    [
+      "United States",
+      "03 Oct 1971",
+      "Tyrrell Ford",
+      "1",
+      "9"
+    ]
+  ]
+}

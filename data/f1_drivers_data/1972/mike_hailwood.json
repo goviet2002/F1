@@ -1,0 +1,84 @@
+{
+  "name": "Mike Hailwood",
+  "driver_code": "MIKHAI01",
+  "url": "https://www.formula1.com/en/results/1972/drivers/MIKHAI01/mike-hailwood",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "04 Mar 1972",
+      "Surtees Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Spain",
+      "01 May 1972",
+      "Surtees Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "14 May 1972",
+      "Surtees Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "04 Jun 1972",
+      "Surtees Ford",
+      "4",
+      "3"
+    ],
+    [
+      "France",
+      "02 Jul 1972",
+      "Surtees Ford",
+      "6",
+      "1"
+    ],
+    [
+      "Great Britain",
+      "15 Jul 1972",
+      "Surtees Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "30 Jul 1972",
+      "Surtees Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Austria",
+      "13 Aug 1972",
+      "Surtees Ford",
+      "4",
+      "3"
+    ],
+    [
+      "Italy",
+      "10 Sep 1972",
+      "Surtees Ford",
+      "2",
+      "6"
+    ],
+    [
+      "United States",
+      "08 Oct 1972",
+      "Surtees Ford",
+      "DNF",
+      "0"
+    ]
+  ]
+}

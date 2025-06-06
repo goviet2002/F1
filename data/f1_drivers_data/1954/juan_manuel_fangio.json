@@ -1,0 +1,70 @@
+{
+  "name": "Juan Manuel Fangio",
+  "driver_code": "JUAFAN01",
+  "url": "https://www.formula1.com/en/results/1954/drivers/JUAFAN01/juan-manuel-fangio",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "17 Jan 1954",
+      "Maserati",
+      "1",
+      "8"
+    ],
+    [
+      "Belgium",
+      "20 Jun 1954",
+      "Maserati",
+      "1",
+      "9"
+    ],
+    [
+      "France",
+      "04 Jul 1954",
+      "Mercedes-Benz",
+      "1",
+      "8"
+    ],
+    [
+      "Great Britain",
+      "17 Jul 1954",
+      "Mercedes-Benz",
+      "4",
+      "3.1"
+    ],
+    [
+      "Germany",
+      "01 Aug 1954",
+      "Mercedes-Benz",
+      "1",
+      "8"
+    ],
+    [
+      "Switzerland",
+      "22 Aug 1954",
+      "Mercedes-Benz",
+      "1",
+      "9"
+    ],
+    [
+      "Italy",
+      "05 Sep 1954",
+      "Mercedes-Benz",
+      "1",
+      "8"
+    ],
+    [
+      "Spain",
+      "24 Oct 1954",
+      "Mercedes-Benz",
+      "3",
+      "4"
+    ]
+  ]
+}

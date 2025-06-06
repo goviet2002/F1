@@ -1,0 +1,63 @@
+{
+  "name": "Jo Bonnier",
+  "driver_code": "JOOBON01",
+  "url": "https://www.formula1.com/en/results/1962/drivers/JOOBON01/jo-bonnier",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Netherlands",
+      "20 May 1962",
+      "Porsche",
+      "7",
+      "0"
+    ],
+    [
+      "Monaco",
+      "03 Jun 1962",
+      "Porsche",
+      "5",
+      "2"
+    ],
+    [
+      "France",
+      "08 Jul 1962",
+      "Porsche",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "21 Jul 1962",
+      "Porsche",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "05 Aug 1962",
+      "Porsche",
+      "7",
+      "0"
+    ],
+    [
+      "Italy",
+      "16 Sep 1962",
+      "Porsche",
+      "6",
+      "1"
+    ],
+    [
+      "United States",
+      "07 Oct 1962",
+      "Porsche",
+      "13",
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Mike Parkes",
+  "driver_code": "MIKPAR01",
+  "url": "https://www.formula1.com/en/results/1967/drivers/MIKPAR01/mike-parkes",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Netherlands",
+      "04 Jun 1967",
+      "Ferrari",
+      "5",
+      "2"
+    ],
+    [
+      "Belgium",
+      "18 Jun 1967",
+      "Ferrari",
+      "DNF",
+      "0"
+    ]
+  ]
+}

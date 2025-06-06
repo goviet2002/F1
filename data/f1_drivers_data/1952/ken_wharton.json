@@ -1,0 +1,42 @@
+{
+  "name": "Ken Wharton",
+  "driver_code": "KENWHA01",
+  "url": "https://www.formula1.com/en/results/1952/drivers/KENWHA01/ken-wharton",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Switzerland",
+      "18 May 1952",
+      "Frazer Nash",
+      "4",
+      "3"
+    ],
+    [
+      "Belgium",
+      "22 Jun 1952",
+      "Frazer Nash",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "17 Aug 1952",
+      "Frazer Nash",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "07 Sep 1952",
+      "Cooper Bristol",
+      "9",
+      "0"
+    ]
+  ]
+}
