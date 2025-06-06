@@ -1,0 +1,97 @@
+{
+  "name": "Williams Renault",
+  "team_code": "Williams-Renault",
+  "url": "https://www.formula1.com/en/results/1995/team/Williams-Renault",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Brazil",
+      "26 Mar 1995",
+      "0"
+    ],
+    [
+      "Argentina",
+      "09 Apr 1995",
+      "10"
+    ],
+    [
+      "San Marino",
+      "30 Apr 1995",
+      "13"
+    ],
+    [
+      "Spain",
+      "14 May 1995",
+      "3"
+    ],
+    [
+      "Monaco",
+      "28 May 1995",
+      "6"
+    ],
+    [
+      "Canada",
+      "11 Jun 1995",
+      "0"
+    ],
+    [
+      "France",
+      "02 Jul 1995",
+      "10"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1995",
+      "4"
+    ],
+    [
+      "Germany",
+      "30 Jul 1995",
+      "6"
+    ],
+    [
+      "Hungary",
+      "13 Aug 1995",
+      "16"
+    ],
+    [
+      "Belgium",
+      "27 Aug 1995",
+      "6"
+    ],
+    [
+      "Italy",
+      "10 Sep 1995",
+      "0"
+    ],
+    [
+      "Portugal",
+      "24 Sep 1995",
+      "14"
+    ],
+    [
+      "Europe",
+      "01 Oct 1995",
+      "4"
+    ],
+    [
+      "Pacific",
+      "22 Oct 1995",
+      "10"
+    ],
+    [
+      "Japan",
+      "29 Oct 1995",
+      "0"
+    ],
+    [
+      "Australia",
+      "12 Nov 1995",
+      "10"
+    ]
+  ]
+}

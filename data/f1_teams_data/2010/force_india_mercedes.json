@@ -1,0 +1,107 @@
+{
+  "name": "Force India Mercedes",
+  "team_code": "Force-India-Mercedes",
+  "url": "https://www.formula1.com/en/results/2010/team/Force-India-Mercedes",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Bahrain",
+      "14 Mar 2010",
+      "2"
+    ],
+    [
+      "Australia",
+      "28 Mar 2010",
+      "6"
+    ],
+    [
+      "Malaysia",
+      "04 Apr 2010",
+      "10"
+    ],
+    [
+      "China",
+      "18 Apr 2010",
+      "0"
+    ],
+    [
+      "Spain",
+      "09 May 2010",
+      "6"
+    ],
+    [
+      "Monaco",
+      "16 May 2010",
+      "6"
+    ],
+    [
+      "Turkey",
+      "30 May 2010",
+      "2"
+    ],
+    [
+      "Canada",
+      "13 Jun 2010",
+      "3"
+    ],
+    [
+      "Europe",
+      "27 Jun 2010",
+      "8"
+    ],
+    [
+      "Great Britain",
+      "11 Jul 2010",
+      "4"
+    ],
+    [
+      "Germany",
+      "25 Jul 2010",
+      "0"
+    ],
+    [
+      "Hungary",
+      "01 Aug 2010",
+      "0"
+    ],
+    [
+      "Belgium",
+      "29 Aug 2010",
+      "11"
+    ],
+    [
+      "Italy",
+      "12 Sep 2010",
+      "0"
+    ],
+    [
+      "Singapore",
+      "26 Sep 2010",
+      "2"
+    ],
+    [
+      "Japan",
+      "10 Oct 2010",
+      "0"
+    ],
+    [
+      "South Korea",
+      "24 Oct 2010",
+      "8"
+    ],
+    [
+      "Brazil",
+      "07 Nov 2010",
+      "0"
+    ],
+    [
+      "Abu Dhabi",
+      "14 Nov 2010",
+      "0"
+    ]
+  ]
+}

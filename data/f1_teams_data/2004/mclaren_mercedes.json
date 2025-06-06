@@ -1,0 +1,102 @@
+{
+  "name": "McLaren Mercedes",
+  "team_code": "McLaren-Mercedes",
+  "url": "https://www.formula1.com/en/results/2004/team/McLaren-Mercedes",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "07 Mar 2004",
+      "1"
+    ],
+    [
+      "Malaysia",
+      "21 Mar 2004",
+      "3"
+    ],
+    [
+      "Bahrain",
+      "04 Apr 2004",
+      "0"
+    ],
+    [
+      "San Marino",
+      "25 Apr 2004",
+      "1"
+    ],
+    [
+      "Spain",
+      "09 May 2004",
+      "0"
+    ],
+    [
+      "Monaco",
+      "23 May 2004",
+      "0"
+    ],
+    [
+      "Europe",
+      "30 May 2004",
+      "0"
+    ],
+    [
+      "Canada",
+      "13 Jun 2004",
+      "7"
+    ],
+    [
+      "United States",
+      "20 Jun 2004",
+      "5"
+    ],
+    [
+      "France",
+      "04 Jul 2004",
+      "5"
+    ],
+    [
+      "Great Britain",
+      "11 Jul 2004",
+      "10"
+    ],
+    [
+      "Germany",
+      "25 Jul 2004",
+      "5"
+    ],
+    [
+      "Hungary",
+      "15 Aug 2004",
+      "0"
+    ],
+    [
+      "Belgium",
+      "29 Aug 2004",
+      "12"
+    ],
+    [
+      "Italy",
+      "12 Sep 2004",
+      "3"
+    ],
+    [
+      "China",
+      "26 Sep 2004",
+      "6"
+    ],
+    [
+      "Japan",
+      "10 Oct 2004",
+      "3"
+    ],
+    [
+      "Brazil",
+      "24 Oct 2004",
+      "8"
+    ]
+  ]
+}

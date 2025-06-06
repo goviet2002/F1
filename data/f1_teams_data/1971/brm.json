@@ -1,0 +1,67 @@
+{
+  "name": "BRM",
+  "team_code": "BRM",
+  "url": "https://www.formula1.com/en/results/1971/team/BRM",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "06 Mar 1971",
+      "0"
+    ],
+    [
+      "Spain",
+      "18 Apr 1971",
+      "3"
+    ],
+    [
+      "Monaco",
+      "23 May 1971",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "20 Jun 1971",
+      "6"
+    ],
+    [
+      "France",
+      "04 Jul 1971",
+      "3"
+    ],
+    [
+      "Great Britain",
+      "17 Jul 1971",
+      "0"
+    ],
+    [
+      "Germany",
+      "01 Aug 1971",
+      "0"
+    ],
+    [
+      "Austria",
+      "15 Aug 1971",
+      "9"
+    ],
+    [
+      "Italy",
+      "05 Sep 1971",
+      "9"
+    ],
+    [
+      "Canada",
+      "19 Sep 1971",
+      "0"
+    ],
+    [
+      "United States",
+      "03 Oct 1971",
+      "6"
+    ]
+  ]
+}

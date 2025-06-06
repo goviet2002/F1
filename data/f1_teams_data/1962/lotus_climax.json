@@ -1,0 +1,57 @@
+{
+  "name": "Lotus Climax",
+  "team_code": "Lotus-Climax",
+  "url": "https://www.formula1.com/en/results/1962/team/Lotus-Climax",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Netherlands",
+      "20 May 1962",
+      "6"
+    ],
+    [
+      "Monaco",
+      "03 Jun 1962",
+      "0"
+    ],
+    [
+      "Belgium",
+      "17 Jun 1962",
+      "9"
+    ],
+    [
+      "France",
+      "08 Jul 1962",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "21 Jul 1962",
+      "9"
+    ],
+    [
+      "Germany",
+      "05 Aug 1962",
+      "3"
+    ],
+    [
+      "Italy",
+      "16 Sep 1962",
+      "0"
+    ],
+    [
+      "United States",
+      "07 Oct 1962",
+      "9"
+    ],
+    [
+      "South Africa",
+      "29 Dec 1962",
+      "2"
+    ]
+  ]
+}

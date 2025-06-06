@@ -1,0 +1,107 @@
+{
+  "name": "Ferrari",
+  "team_code": "Ferrari",
+  "url": "https://www.formula1.com/en/results/2005/team/Ferrari",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "06 Mar 2005",
+      "8"
+    ],
+    [
+      "Malaysia",
+      "20 Mar 2005",
+      "2"
+    ],
+    [
+      "Bahrain",
+      "03 Apr 2005",
+      "0"
+    ],
+    [
+      "San Marino",
+      "24 Apr 2005",
+      "8"
+    ],
+    [
+      "Spain",
+      "08 May 2005",
+      "0"
+    ],
+    [
+      "Monaco",
+      "22 May 2005",
+      "3"
+    ],
+    [
+      "Europe",
+      "29 May 2005",
+      "10"
+    ],
+    [
+      "Canada",
+      "12 Jun 2005",
+      "14"
+    ],
+    [
+      "United States",
+      "19 Jun 2005",
+      "18"
+    ],
+    [
+      "France",
+      "03 Jul 2005",
+      "6"
+    ],
+    [
+      "Great Britain",
+      "10 Jul 2005",
+      "5"
+    ],
+    [
+      "Germany",
+      "24 Jul 2005",
+      "4"
+    ],
+    [
+      "Hungary",
+      "31 Jul 2005",
+      "8"
+    ],
+    [
+      "Turkey",
+      "21 Aug 2005",
+      "0"
+    ],
+    [
+      "Italy",
+      "04 Sep 2005",
+      "0"
+    ],
+    [
+      "Belgium",
+      "11 Sep 2005",
+      "4"
+    ],
+    [
+      "Brazil",
+      "25 Sep 2005",
+      "8"
+    ],
+    [
+      "Japan",
+      "09 Oct 2005",
+      "2"
+    ],
+    [
+      "China",
+      "16 Oct 2005",
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "McLaren Ford",
+  "team_code": "McLaren-Ford",
+  "url": "https://www.formula1.com/en/results/1969/team/McLaren-Ford",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "01 Mar 1969",
+      "4"
+    ],
+    [
+      "Spain",
+      "04 May 1969",
+      "6"
+    ],
+    [
+      "Monaco",
+      "18 May 1969",
+      "2"
+    ],
+    [
+      "Netherlands",
+      "21 Jun 1969",
+      "3"
+    ],
+    [
+      "France",
+      "06 Jul 1969",
+      "3"
+    ],
+    [
+      "Great Britain",
+      "19 Jul 1969",
+      "4"
+    ],
+    [
+      "Germany",
+      "03 Aug 1969",
+      "4"
+    ],
+    [
+      "Italy",
+      "07 Sep 1969",
+      "3"
+    ],
+    [
+      "Canada",
+      "20 Sep 1969",
+      "2"
+    ],
+    [
+      "United States",
+      "05 Oct 1969",
+      "0"
+    ],
+    [
+      "Mexico",
+      "19 Oct 1969",
+      "9"
+    ]
+  ]
+}

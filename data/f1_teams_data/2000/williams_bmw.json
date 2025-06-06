@@ -1,0 +1,97 @@
+{
+  "name": "Williams BMW",
+  "team_code": "Williams-BMW",
+  "url": "https://www.formula1.com/en/results/2000/team/Williams-BMW",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "12 Mar 2000",
+      "4"
+    ],
+    [
+      "Brazil",
+      "26 Mar 2000",
+      "3"
+    ],
+    [
+      "San Marino",
+      "09 Apr 2000",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "23 Apr 2000",
+      "5"
+    ],
+    [
+      "Spain",
+      "07 May 2000",
+      "3"
+    ],
+    [
+      "Europe",
+      "21 May 2000",
+      "0"
+    ],
+    [
+      "Monaco",
+      "04 Jun 2000",
+      "0"
+    ],
+    [
+      "Canada",
+      "18 Jun 2000",
+      "0"
+    ],
+    [
+      "France",
+      "02 Jul 2000",
+      "2"
+    ],
+    [
+      "Austria",
+      "16 Jul 2000",
+      "2"
+    ],
+    [
+      "Germany",
+      "30 Jul 2000",
+      "3"
+    ],
+    [
+      "Hungary",
+      "13 Aug 2000",
+      "2"
+    ],
+    [
+      "Belgium",
+      "27 Aug 2000",
+      "6"
+    ],
+    [
+      "Italy",
+      "10 Sep 2000",
+      "4"
+    ],
+    [
+      "United States",
+      "24 Sep 2000",
+      "0"
+    ],
+    [
+      "Japan",
+      "08 Oct 2000",
+      "2"
+    ],
+    [
+      "Malaysia",
+      "22 Oct 2000",
+      "0"
+    ]
+  ]
+}

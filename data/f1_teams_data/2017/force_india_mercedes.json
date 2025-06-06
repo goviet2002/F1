@@ -1,0 +1,112 @@
+{
+  "name": "Force India Mercedes",
+  "team_code": "Force-India-Mercedes",
+  "url": "https://www.formula1.com/en/results/2017/team/Force-India-Mercedes",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "26 Mar 2017",
+      "7"
+    ],
+    [
+      "China",
+      "09 Apr 2017",
+      "3"
+    ],
+    [
+      "Bahrain",
+      "16 Apr 2017",
+      "7"
+    ],
+    [
+      "Russia",
+      "30 Apr 2017",
+      "14"
+    ],
+    [
+      "Spain",
+      "14 May 2017",
+      "22"
+    ],
+    [
+      "Monaco",
+      "28 May 2017",
+      "0"
+    ],
+    [
+      "Canada",
+      "11 Jun 2017",
+      "18"
+    ],
+    [
+      "Azerbaijan",
+      "25 Jun 2017",
+      "8"
+    ],
+    [
+      "Austria",
+      "09 Jul 2017",
+      "10"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 2017",
+      "6"
+    ],
+    [
+      "Hungary",
+      "30 Jul 2017",
+      "6"
+    ],
+    [
+      "Belgium",
+      "27 Aug 2017",
+      "2"
+    ],
+    [
+      "Italy",
+      "03 Sep 2017",
+      "10"
+    ],
+    [
+      "Singapore",
+      "17 Sep 2017",
+      "11"
+    ],
+    [
+      "Malaysia",
+      "01 Oct 2017",
+      "9"
+    ],
+    [
+      "Japan",
+      "08 Oct 2017",
+      "14"
+    ],
+    [
+      "United States",
+      "22 Oct 2017",
+      "12"
+    ],
+    [
+      "Mexico",
+      "29 Oct 2017",
+      "16"
+    ],
+    [
+      "Brazil",
+      "12 Nov 2017",
+      "2"
+    ],
+    [
+      "Abu Dhabi",
+      "26 Nov 2017",
+      "10"
+    ]
+  ]
+}

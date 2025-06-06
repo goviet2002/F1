@@ -1,0 +1,117 @@
+{
+  "name": "Sauber Ferrari",
+  "team_code": "Sauber-Ferrari",
+  "url": "https://www.formula1.com/en/results/2018/team/Sauber-Ferrari",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "25 Mar 2018",
+      "0"
+    ],
+    [
+      "Bahrain",
+      "08 Apr 2018",
+      "2"
+    ],
+    [
+      "China",
+      "15 Apr 2018",
+      "0"
+    ],
+    [
+      "Azerbaijan",
+      "29 Apr 2018",
+      "8"
+    ],
+    [
+      "Spain",
+      "13 May 2018",
+      "1"
+    ],
+    [
+      "Monaco",
+      "27 May 2018",
+      "0"
+    ],
+    [
+      "Canada",
+      "10 Jun 2018",
+      "1"
+    ],
+    [
+      "France",
+      "24 Jun 2018",
+      "1"
+    ],
+    [
+      "Austria",
+      "01 Jul 2018",
+      "3"
+    ],
+    [
+      "Great Britain",
+      "08 Jul 2018",
+      "0"
+    ],
+    [
+      "Germany",
+      "22 Jul 2018",
+      "2"
+    ],
+    [
+      "Hungary",
+      "29 Jul 2018",
+      "0"
+    ],
+    [
+      "Belgium",
+      "26 Aug 2018",
+      "1"
+    ],
+    [
+      "Italy",
+      "02 Sep 2018",
+      "0"
+    ],
+    [
+      "Singapore",
+      "16 Sep 2018",
+      "2"
+    ],
+    [
+      "Russia",
+      "30 Sep 2018",
+      "6"
+    ],
+    [
+      "Japan",
+      "07 Oct 2018",
+      "0"
+    ],
+    [
+      "United States",
+      "21 Oct 2018",
+      "1"
+    ],
+    [
+      "Mexico",
+      "28 Oct 2018",
+      "8"
+    ],
+    [
+      "Brazil",
+      "11 Nov 2018",
+      "6"
+    ],
+    [
+      "Abu Dhabi",
+      "25 Nov 2018",
+      "6"
+    ]
+  ]
+}

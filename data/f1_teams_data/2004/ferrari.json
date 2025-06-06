@@ -1,0 +1,102 @@
+{
+  "name": "Ferrari",
+  "team_code": "Ferrari",
+  "url": "https://www.formula1.com/en/results/2004/team/Ferrari",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "07 Mar 2004",
+      "18"
+    ],
+    [
+      "Malaysia",
+      "21 Mar 2004",
+      "15"
+    ],
+    [
+      "Bahrain",
+      "04 Apr 2004",
+      "18"
+    ],
+    [
+      "San Marino",
+      "25 Apr 2004",
+      "13"
+    ],
+    [
+      "Spain",
+      "09 May 2004",
+      "18"
+    ],
+    [
+      "Monaco",
+      "23 May 2004",
+      "6"
+    ],
+    [
+      "Europe",
+      "30 May 2004",
+      "18"
+    ],
+    [
+      "Canada",
+      "13 Jun 2004",
+      "18"
+    ],
+    [
+      "United States",
+      "20 Jun 2004",
+      "18"
+    ],
+    [
+      "France",
+      "04 Jul 2004",
+      "16"
+    ],
+    [
+      "Great Britain",
+      "11 Jul 2004",
+      "16"
+    ],
+    [
+      "Germany",
+      "25 Jul 2004",
+      "10"
+    ],
+    [
+      "Hungary",
+      "15 Aug 2004",
+      "18"
+    ],
+    [
+      "Belgium",
+      "29 Aug 2004",
+      "14"
+    ],
+    [
+      "Italy",
+      "12 Sep 2004",
+      "18"
+    ],
+    [
+      "China",
+      "26 Sep 2004",
+      "10"
+    ],
+    [
+      "Japan",
+      "10 Oct 2004",
+      "10"
+    ],
+    [
+      "Brazil",
+      "24 Oct 2004",
+      "8"
+    ]
+  ]
+}

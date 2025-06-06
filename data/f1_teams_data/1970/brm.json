@@ -1,0 +1,77 @@
+{
+  "name": "BRM",
+  "team_code": "BRM",
+  "url": "https://www.formula1.com/en/results/1970/team/BRM",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "07 Mar 1970",
+      "0"
+    ],
+    [
+      "Spain",
+      "19 Apr 1970",
+      "0"
+    ],
+    [
+      "Monaco",
+      "10 May 1970",
+      "1"
+    ],
+    [
+      "Belgium",
+      "07 Jun 1970",
+      "9"
+    ],
+    [
+      "Netherlands",
+      "21 Jun 1970",
+      "0"
+    ],
+    [
+      "France",
+      "05 Jul 1970",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "18 Jul 1970",
+      "0"
+    ],
+    [
+      "Germany",
+      "02 Aug 1970",
+      "0"
+    ],
+    [
+      "Austria",
+      "16 Aug 1970",
+      "3"
+    ],
+    [
+      "Italy",
+      "06 Sep 1970",
+      "0"
+    ],
+    [
+      "Canada",
+      "20 Sep 1970",
+      "3"
+    ],
+    [
+      "United States",
+      "04 Oct 1970",
+      "6"
+    ],
+    [
+      "Mexico",
+      "25 Oct 1970",
+      "1"
+    ]
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Benetton Renault",
+  "team_code": "Benetton-Renault",
+  "url": "https://www.formula1.com/en/results/1996/team/Benetton-Renault",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "10 Mar 1996",
+      "3"
+    ],
+    [
+      "Brazil",
+      "31 Mar 1996",
+      "6"
+    ],
+    [
+      "Argentina",
+      "07 Apr 1996",
+      "4"
+    ],
+    [
+      "Europe",
+      "28 Apr 1996",
+      "0"
+    ],
+    [
+      "San Marino",
+      "05 May 1996",
+      "5"
+    ],
+    [
+      "Monaco",
+      "19 May 1996",
+      "0"
+    ],
+    [
+      "Spain",
+      "02 Jun 1996",
+      "6"
+    ],
+    [
+      "Canada",
+      "16 Jun 1996",
+      "4"
+    ],
+    [
+      "France",
+      "30 Jun 1996",
+      "7"
+    ],
+    [
+      "Great Britain",
+      "14 Jul 1996",
+      "6"
+    ],
+    [
+      "Germany",
+      "28 Jul 1996",
+      "6"
+    ],
+    [
+      "Hungary",
+      "11 Aug 1996",
+      "4"
+    ],
+    [
+      "Belgium",
+      "25 Aug 1996",
+      "4"
+    ],
+    [
+      "Italy",
+      "08 Sep 1996",
+      "6"
+    ],
+    [
+      "Portugal",
+      "22 Sep 1996",
+      "4"
+    ],
+    [
+      "Japan",
+      "13 Oct 1996",
+      "3"
+    ]
+  ]
+}

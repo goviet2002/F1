@@ -1,0 +1,97 @@
+{
+  "name": "Red Bull Racing Honda",
+  "team_code": "Red-Bull-Racing-Honda",
+  "url": "https://www.formula1.com/en/results/2020/team/Red-Bull-Racing-Honda",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Austria",
+      "05 Jul 2020",
+      "0"
+    ],
+    [
+      "Styria",
+      "12 Jul 2020",
+      "27"
+    ],
+    [
+      "Hungary",
+      "19 Jul 2020",
+      "28"
+    ],
+    [
+      "Great Britain",
+      "02 Aug 2020",
+      "23"
+    ],
+    [
+      "70th Anniversary",
+      "09 Aug 2020",
+      "35"
+    ],
+    [
+      "Spain",
+      "16 Aug 2020",
+      "22"
+    ],
+    [
+      "Belgium",
+      "30 Aug 2020",
+      "23"
+    ],
+    [
+      "Italy",
+      "06 Sep 2020",
+      "0"
+    ],
+    [
+      "Tuscany",
+      "13 Sep 2020",
+      "15"
+    ],
+    [
+      "Russia",
+      "27 Sep 2020",
+      "19"
+    ],
+    [
+      "Eifel",
+      "11 Oct 2020",
+      "19"
+    ],
+    [
+      "Portugal",
+      "25 Oct 2020",
+      "15"
+    ],
+    [
+      "Emilia-Romagna",
+      "01 Nov 2020",
+      "0"
+    ],
+    [
+      "Turkey",
+      "15 Nov 2020",
+      "14"
+    ],
+    [
+      "Bahrain",
+      "29 Nov 2020",
+      "34"
+    ],
+    [
+      "Sakhir",
+      "06 Dec 2020",
+      "8"
+    ],
+    [
+      "Abu Dhabi",
+      "13 Dec 2020",
+      "37"
+    ]
+  ]
+}

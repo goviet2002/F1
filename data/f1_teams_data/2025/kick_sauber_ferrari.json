@@ -1,0 +1,57 @@
+{
+  "name": "Kick Sauber Ferrari",
+  "team_code": "Kick-Sauber-Ferrari",
+  "url": "https://www.formula1.com/en/results/2025/team/Kick-Sauber-Ferrari",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "16 Mar 2025",
+      "6"
+    ],
+    [
+      "China",
+      "23 Mar 2025",
+      "0"
+    ],
+    [
+      "Japan",
+      "06 Apr 2025",
+      "0"
+    ],
+    [
+      "Bahrain",
+      "13 Apr 2025",
+      "0"
+    ],
+    [
+      "Saudi Arabia",
+      "20 Apr 2025",
+      "0"
+    ],
+    [
+      "Miami",
+      "04 May 2025",
+      "0"
+    ],
+    [
+      "Emilia-Romagna",
+      "18 May 2025",
+      "0"
+    ],
+    [
+      "Monaco",
+      "25 May 2025",
+      "0"
+    ],
+    [
+      "Spain",
+      "01 Jun 2025",
+      "10"
+    ]
+  ]
+}
