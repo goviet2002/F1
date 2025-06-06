@@ -1,0 +1,149 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "4",
+      "Tony Brooks",
+      "Ferrari",
+      "60",
+      "2:09:31.600",
+      "9"
+    ],
+    [
+      "2",
+      "6",
+      "Dan Gurney",
+      "Ferrari",
+      "60",
+      "+1.900s",
+      "6"
+    ],
+    [
+      "3",
+      "5",
+      "Phil Hill",
+      "Ferrari",
+      "60",
+      "+64.800s",
+      "4"
+    ],
+    [
+      "4",
+      "8",
+      "Maurice  Trintignant",
+      "Cooper Climax",
+      "59",
+      "+1 lap",
+      "3"
+    ],
+    [
+      "5",
+      "9",
+      "Jo Bonnier",
+      "BRM",
+      "58",
+      "+2 laps",
+      "2"
+    ],
+    [
+      "6",
+      "18",
+      "Ian Burgess ",
+      "Cooper Maserati",
+      "56",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "7",
+      "10",
+      "Harry Schell",
+      "BRM",
+      "49",
+      "+11 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "2",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "37",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "11",
+      "Hans  Herrmann",
+      "BRM",
+      "35",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "3",
+      "Masten Gregory",
+      "Cooper Climax",
+      "23",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "1",
+      "Jack Brabham",
+      "Cooper Climax",
+      "15",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "16",
+      "Graham Hill",
+      "Lotus Climax",
+      "10",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "15",
+      "Innes Ireland",
+      "Lotus Climax",
+      "7",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "17",
+      "Cliff Allison",
+      "Ferrari",
+      "2",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "7",
+      "Stirling Moss",
+      "Cooper Climax",
+      "1",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

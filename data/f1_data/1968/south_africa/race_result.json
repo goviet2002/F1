@@ -1,0 +1,221 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "4",
+      "Jim Clark",
+      "Lotus Ford",
+      "80",
+      "1:53:56.600",
+      "9"
+    ],
+    [
+      "2",
+      "5",
+      "Graham Hill",
+      "Lotus Ford",
+      "80",
+      "+25.300s",
+      "6"
+    ],
+    [
+      "3",
+      "3",
+      "Jochen Rindt",
+      "Brabham Repco",
+      "80",
+      "+30.400s",
+      "4"
+    ],
+    [
+      "4",
+      "8",
+      "Chris Amon",
+      "Ferrari",
+      "78",
+      "+2 laps",
+      "3"
+    ],
+    [
+      "5",
+      "1",
+      "Denny Hulme",
+      "Mclaren BRM",
+      "78",
+      "+2 laps",
+      "2"
+    ],
+    [
+      "6",
+      "21",
+      "Jean-Pierre Beltoise",
+      "Matra Ford",
+      "77",
+      "+3 laps",
+      "1"
+    ],
+    [
+      "7",
+      "19",
+      "Jo Siffert",
+      "Cooper Maserati",
+      "77",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "8",
+      "7",
+      "John Surtees",
+      "Honda",
+      "75",
+      "+5 laps",
+      "0"
+    ],
+    [
+      "9",
+      "17",
+      "John Love",
+      "Brabham Repco",
+      "75",
+      "+5 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "23",
+      "Jackie Pretorius",
+      "Brabham Climax",
+      "70",
+      "+10 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "6",
+      "Dan Gurney",
+      "Eagle Weslake",
+      "58",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "9",
+      "Jacky Ickx",
+      "Ferrari",
+      "51",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Jo Bonnier",
+      "Cooper Maserati",
+      "47",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "16",
+      "Jackie Stewart",
+      "Matra Ford",
+      "43",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "18",
+      "Sam Tingle",
+      "LDS Repco",
+      "35",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "25",
+      "Basil van Rooyen ",
+      "Cooper Climax",
+      "22",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "11",
+      "Pedro Rodriguez",
+      "BRM",
+      "20",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "2",
+      "Jack Brabham",
+      "Brabham Repco",
+      "17",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "10",
+      "Andrea de Adamich ",
+      "Ferrari",
+      "13",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "12",
+      "Mike Spence",
+      "",
+      "8",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "14",
+      "Brian   Redman",
+      "Cooper Maserati",
+      "4",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "22",
+      "Dave Charlton",
+      "Brabham Repco",
+      "3",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "15",
+      "Ludovico Scarfiotti",
+      "Cooper Maserati",
+      "2",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

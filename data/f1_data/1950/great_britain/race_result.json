@@ -1,0 +1,221 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Nino Farina",
+      "Alfa Romeo",
+      "70",
+      "2:13:23.600",
+      "9"
+    ],
+    [
+      "2",
+      "3",
+      "Luigi Fagioli",
+      "Alfa Romeo",
+      "70",
+      "+2.600s",
+      "6"
+    ],
+    [
+      "3",
+      "4",
+      "Reg  Parnell",
+      "Alfa Romeo",
+      "70",
+      "+52.000s",
+      "4"
+    ],
+    [
+      "4",
+      "14",
+      "Yves Giraud-Cabantous",
+      "Talbot-Lago",
+      "68",
+      "+2 laps",
+      "3"
+    ],
+    [
+      "5",
+      "15",
+      "Louis  Rosier",
+      "Talbot-Lago",
+      "68",
+      "+2 laps",
+      "2"
+    ],
+    [
+      "6",
+      "12",
+      "Bob  Gerard",
+      "ERA",
+      "67",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "7",
+      "11",
+      "Cuth  Harrison",
+      "ERA",
+      "67",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "8",
+      "16",
+      "Philippe  Etancelin",
+      "Talbot-Lago",
+      "65",
+      "+5 laps",
+      "0"
+    ],
+    [
+      "9",
+      "6",
+      "David  Hampshire",
+      "Maserati",
+      "64",
+      "+6 laps",
+      "0"
+    ],
+    [
+      "10",
+      "10",
+      "Joe Fry",
+      "Maserati",
+      "",
+      "SHC",
+      "0"
+    ],
+    [
+      "10",
+      "10",
+      "Brian Shawe-Taylor",
+      "Maserati",
+      "64",
+      "+6 laps",
+      "0"
+    ],
+    [
+      "11",
+      "18",
+      "Johnny Claes",
+      "Talbot-Lago",
+      "64",
+      "+6 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "1",
+      "Juan Manuel Fangio",
+      "Alfa Romeo",
+      "62",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "23",
+      "Joe Kelly",
+      "Alta",
+      "57",
+      "+13 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "21",
+      "Prince Bira",
+      "Maserati",
+      "49",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "5",
+      "David  Murray",
+      "Maserati",
+      "44",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "24",
+      "Geoff Crossley",
+      "Alta",
+      "43",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Toulo de Graffenried",
+      "Maserati",
+      "36",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "19",
+      "Louis  Chiron",
+      "Maserati",
+      "24",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "17",
+      "Eugene  Martin",
+      "Talbot-Lago",
+      "8",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "9",
+      "Peter  Walker ",
+      "ERA",
+      "",
+      "SHC",
+      "0"
+    ],
+    [
+      "NC",
+      "9",
+      "Tony Rolt",
+      "ERA",
+      "5",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "8",
+      "Leslie  Johnson",
+      "ERA",
+      "2",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

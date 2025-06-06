@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "John Surtees",
+      "Ferrari",
+      "1:37.400"
+    ],
+    [
+      "2",
+      "16",
+      "Dan Gurney",
+      "Brabham Ford",
+      "1:38.200"
+    ],
+    [
+      "3",
+      "18",
+      "Graham Hill",
+      "BRM",
+      "1:38.700"
+    ],
+    [
+      "4",
+      "8",
+      "Jim Clark",
+      "Lotus Climax",
+      "1:39.100"
+    ],
+    [
+      "5",
+      "26",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "1:39.400"
+    ],
+    [
+      "6",
+      "12",
+      "Jo Siffert",
+      "Lotus BRM",
+      "1:39.700"
+    ],
+    [
+      "7",
+      "4",
+      "Lorenzo Bandini",
+      "Ferrari",
+      "1:39.800"
+    ],
+    [
+      "8",
+      "10",
+      "Mike Spence",
+      "Lotus Climax",
+      "1:40.300"
+    ],
+    [
+      "9",
+      "20",
+      "Richie Ginther",
+      "BRM",
+      "1:40.400"
+    ],
+    [
+      "10",
+      "28",
+      "Ronnie Bucknum",
+      "Honda",
+      "1:40.400"
+    ],
+    [
+      "11",
+      "14",
+      "Jack Brabham",
+      "Brabham Ford",
+      "1:40.800"
+    ],
+    [
+      "12",
+      "34",
+      "Jo Bonnier",
+      "Cooper Climax",
+      "1:41.000"
+    ],
+    [
+      "13",
+      "46",
+      "Innes Ireland",
+      "Lotus BRM",
+      "1:41.000"
+    ],
+    [
+      "14",
+      "22",
+      "Bob Anderson",
+      "Brabham Climax",
+      "1:41.300"
+    ],
+    [
+      "15",
+      "30",
+      "Giancarlo Baghetti",
+      "BRM",
+      "1:41.400"
+    ],
+    [
+      "16",
+      "6",
+      "Ludovico Scarfiotti",
+      "Ferrari",
+      "1:41.600"
+    ],
+    [
+      "17",
+      "40",
+      "Mike Hailwood",
+      "Lotus Climax",
+      "1:41.600"
+    ],
+    [
+      "18",
+      "38",
+      "Peter   Revson",
+      "Lotus BRM",
+      "1:42.000"
+    ],
+    [
+      "19",
+      "50",
+      "Mario  de Araujo Cabral ",
+      "Derrington-Francis ATS",
+      "1:42.600"
+    ],
+    [
+      "20",
+      "48",
+      "Maurice  Trintignant",
+      "BRM",
+      "1:43.300"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

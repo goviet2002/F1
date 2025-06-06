@@ -1,0 +1,248 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time",
+    "Gap",
+    "Laps"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Damon Hill",
+      "Williams Renault",
+      "1:23.468",
+      "",
+      "23"
+    ],
+    [
+      "2",
+      "27",
+      "Jean Alesi",
+      "Ferrari",
+      "1:24.252",
+      "+0.784s",
+      "21"
+    ],
+    [
+      "3",
+      "6",
+      "David Coulthard",
+      "Williams Renault",
+      "1:24.491",
+      "+1.023s",
+      "23"
+    ],
+    [
+      "4",
+      "8",
+      "Mika Hakkinen",
+      "McLaren Mercedes",
+      "1:24.540",
+      "+1.072s",
+      "23"
+    ],
+    [
+      "5",
+      "28",
+      "Gerhard Berger",
+      "Ferrari",
+      "1:24.887",
+      "+1.419s",
+      "23"
+    ],
+    [
+      "6",
+      "26",
+      "Olivier Panis",
+      "Ligier Mugen Honda",
+      "1:25.115",
+      "+1.647s",
+      "22"
+    ],
+    [
+      "7",
+      "1",
+      "Michael Schumacher",
+      "Benetton Renault",
+      "1:25.120",
+      "+1.652s",
+      "11"
+    ],
+    [
+      "8",
+      "25",
+      "Martin Brundle",
+      "Ligier Mugen Honda",
+      "1:25.307",
+      "+1.839s",
+      "23"
+    ],
+    [
+      "9",
+      "15",
+      "Eddie Irvine",
+      "Jordan Peugeot",
+      "1:25.660",
+      "+2.192s",
+      "20"
+    ],
+    [
+      "10",
+      "2",
+      "Johnny Herbert",
+      "Benetton Renault",
+      "1:26.188",
+      "+2.720s",
+      "23"
+    ],
+    [
+      "11",
+      "14",
+      "Rubens Barrichello",
+      "Jordan Peugeot",
+      "1:26.251",
+      "+2.783s",
+      "22"
+    ],
+    [
+      "12",
+      "9",
+      "Gianni Morbidelli",
+      "Footwork Hart",
+      "1:26.326",
+      "+2.858s",
+      "23"
+    ],
+    [
+      "13",
+      "7",
+      "Mark Blundell",
+      "McLaren Mercedes",
+      "1:27.094",
+      "+3.626s",
+      "12"
+    ],
+    [
+      "14",
+      "4",
+      "Mika Salo",
+      "Tyrrell Yamaha",
+      "1:27.180",
+      "+3.712s",
+      "23"
+    ],
+    [
+      "15",
+      "30",
+      "Heinz-Harald Frentzen",
+      "Sauber Ford",
+      "1:27.232",
+      "+3.764s",
+      "11"
+    ],
+    [
+      "16",
+      "23",
+      "Pierluigi Martini",
+      "Minardi Ford",
+      "1:27.372",
+      "+3.904s",
+      "22"
+    ],
+    [
+      "17",
+      "24",
+      "Luca Badoer",
+      "Minardi Ford",
+      "1:27.740",
+      "+4.272s",
+      "22"
+    ],
+    [
+      "18",
+      "3",
+      "Ukyo Katayama",
+      "Tyrrell Yamaha",
+      "1:28.768",
+      "+5.300s",
+      "22"
+    ],
+    [
+      "19",
+      "29",
+      "Jean-Christophe Boullion",
+      "Sauber Ford",
+      "1:29.145",
+      "+5.677s",
+      "22"
+    ],
+    [
+      "20",
+      "16",
+      "Bertrand Gachot",
+      "Pacific Ilmor",
+      "1:29.316",
+      "+5.848s",
+      "17"
+    ],
+    [
+      "21",
+      "22",
+      "Roberto Moreno",
+      "Forti Ford",
+      "1:29.612",
+      "+6.144s",
+      "22"
+    ],
+    [
+      "22",
+      "11",
+      "Domenico Schiattarella",
+      "Simtek Ford",
+      "1:30.495",
+      "+7.027s",
+      "23"
+    ],
+    [
+      "23",
+      "21",
+      "Pedro Diniz",
+      "Forti Ford",
+      "1:30.613",
+      "+7.145s",
+      "23"
+    ],
+    [
+      "24",
+      "17",
+      "Andrea Montermini",
+      "Pacific Ilmor",
+      "1:30.715",
+      "+7.247s",
+      "13"
+    ],
+    [
+      "25",
+      "12",
+      "Jos Verstappen",
+      "Simtek Ford",
+      "1:31.265",
+      "+7.797s",
+      "7"
+    ],
+    [
+      "26",
+      "10",
+      "Taki Inoue",
+      "Footwork Hart",
+      "1:35.625",
+      "+12.157s",
+      "6"
+    ]
+  ],
+  "session_name": "Practice 2"
+}

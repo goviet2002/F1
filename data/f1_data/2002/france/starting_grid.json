@@ -1,0 +1,145 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "6",
+      "Juan Pablo Montoya",
+      "Williams BMW",
+      "1:11.985"
+    ],
+    [
+      "2",
+      "1",
+      "Michael Schumacher",
+      "Ferrari",
+      "1:12.008"
+    ],
+    [
+      "3",
+      "2",
+      "Rubens Barrichello",
+      "Ferrari",
+      "1:12.197"
+    ],
+    [
+      "4",
+      "4",
+      "Kimi Räikkönen",
+      "McLaren Mercedes",
+      "1:12.244"
+    ],
+    [
+      "5",
+      "5",
+      "Ralf Schumacher",
+      "Williams BMW",
+      "1:12.424"
+    ],
+    [
+      "6",
+      "3",
+      "David Coulthard",
+      "McLaren Mercedes",
+      "1:12.498"
+    ],
+    [
+      "7",
+      "15",
+      "Jenson Button",
+      "Renault",
+      "1:12.761"
+    ],
+    [
+      "8",
+      "14",
+      "Jarno Trulli",
+      "Renault",
+      "1:13.030"
+    ],
+    [
+      "9",
+      "16",
+      "Eddie Irvine",
+      "Jaguar Cosworth",
+      "1:13.188"
+    ],
+    [
+      "10",
+      "7",
+      "Nick Heidfeld",
+      "Sauber Petronas",
+      "1:13.370"
+    ],
+    [
+      "11",
+      "12",
+      "Olivier Panis",
+      "BAR Honda",
+      "1:13.457"
+    ],
+    [
+      "12",
+      "8",
+      "Felipe Massa",
+      "Sauber Petronas",
+      "1:13.501"
+    ],
+    [
+      "13",
+      "11",
+      "Jacques Villeneuve",
+      "BAR Honda",
+      "1:13.506"
+    ],
+    [
+      "14",
+      "10",
+      "Takuma Sato",
+      "Jordan Honda",
+      "1:13.542"
+    ],
+    [
+      "15",
+      "17",
+      "Pedro de la Rosa",
+      "Jaguar Cosworth",
+      "1:13.656"
+    ],
+    [
+      "16",
+      "24",
+      "Mika Salo",
+      "Toyota",
+      "1:13.837"
+    ],
+    [
+      "17",
+      "25",
+      "Allan McNish",
+      "Toyota",
+      "1:13.949"
+    ],
+    [
+      "18",
+      "23",
+      "Mark Webber",
+      "Minardi Asiatech",
+      "1:14.800"
+    ],
+    [
+      "19",
+      "22",
+      "Alex Yoong",
+      "Minardi Asiatech",
+      "1:16.798"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

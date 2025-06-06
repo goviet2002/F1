@@ -1,0 +1,180 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "29",
+      "Riccardo Patrese",
+      "Arrows Ford",
+      "1:19.399"
+    ],
+    [
+      "2",
+      "1",
+      "Alan  Jones",
+      "Williams Ford",
+      "1:19.400"
+    ],
+    [
+      "3",
+      "2",
+      "Carlos Reutemann",
+      "Williams Ford",
+      "1:20.140"
+    ],
+    [
+      "4",
+      "5",
+      "Nelson Piquet",
+      "Brabham Ford",
+      "1:20.280"
+    ],
+    [
+      "5",
+      "27",
+      "Gilles Villeneuve",
+      "Ferrari",
+      "1:20.460"
+    ],
+    [
+      "6",
+      "22",
+      "Mario Andretti",
+      "Alfa Romeo",
+      "1:20.470"
+    ],
+    [
+      "7",
+      "12",
+      "Nigel Mansell",
+      "Lotus Ford",
+      "1:20.570"
+    ],
+    [
+      "8",
+      "3",
+      "Eddie  Cheever",
+      "Tyrrell Ford",
+      "1:20.640"
+    ],
+    [
+      "9",
+      "23",
+      "Bruno Giacomelli",
+      "Alfa Romeo",
+      "1:20.660"
+    ],
+    [
+      "10",
+      "25",
+      "Jean-Pierre Jarier",
+      "Ligier Matra",
+      "1:20.780"
+    ],
+    [
+      "11",
+      "28",
+      "Didier Pironi",
+      "Ferrari",
+      "1:20.900"
+    ],
+    [
+      "12",
+      "26",
+      "Jacques Laffite",
+      "Ligier Matra",
+      "1:20.920"
+    ],
+    [
+      "13",
+      "11",
+      "Elio de Angelis",
+      "Lotus Ford",
+      "1:20.920"
+    ],
+    [
+      "14",
+      "15",
+      "Alain Prost",
+      "Renault",
+      "1:20.980"
+    ],
+    [
+      "15",
+      "6",
+      "Hector Rebaque",
+      "Brabham Ford",
+      "1:21.000"
+    ],
+    [
+      "16",
+      "20",
+      "Keke Rosberg",
+      "Fittipaldi Ford",
+      "1:21.000"
+    ],
+    [
+      "17",
+      "33",
+      "Patrick Tambay",
+      "Theodore Ford",
+      "1:21.290"
+    ],
+    [
+      "18",
+      "21",
+      "Chico Serra",
+      "Fittipaldi Ford",
+      "1:21.400"
+    ],
+    [
+      "19",
+      "14",
+      "Marc Surer",
+      "Ensign Ford",
+      "1:21.520"
+    ],
+    [
+      "20",
+      "16",
+      "Rene Arnoux",
+      "Renault",
+      "1:21.540"
+    ],
+    [
+      "21",
+      "9",
+      "Jan Lammers",
+      "ATS Ford",
+      "1:21.750"
+    ],
+    [
+      "22",
+      "8",
+      "Andrea de Cesaris",
+      "McLaren Ford",
+      "1:22.020"
+    ],
+    [
+      "23",
+      "7",
+      "John Watson",
+      "McLaren Ford",
+      "1:22.180"
+    ],
+    [
+      "24",
+      "32",
+      "Beppe Gabbiani",
+      "Osella Hart",
+      "1:22.210"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

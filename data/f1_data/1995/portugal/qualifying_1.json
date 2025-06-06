@@ -1,0 +1,197 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time",
+    "Laps"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Damon Hill",
+      "Williams Renault",
+      "1:21.322",
+      "11"
+    ],
+    [
+      "2",
+      "6",
+      "David Coulthard",
+      "Williams Renault",
+      "1:21.423",
+      "10"
+    ],
+    [
+      "3",
+      "1",
+      "Michael Schumacher",
+      "Benetton Renault",
+      "1:21.885",
+      "9"
+    ],
+    [
+      "4",
+      "28",
+      "Gerhard Berger",
+      "Ferrari",
+      "1:22.281",
+      "9"
+    ],
+    [
+      "5",
+      "27",
+      "Jean Alesi",
+      "Ferrari",
+      "1:22.656",
+      "9"
+    ],
+    [
+      "6",
+      "15",
+      "Eddie Irvine",
+      "Jordan Peugeot",
+      "1:22.957",
+      "6"
+    ],
+    [
+      "7",
+      "8",
+      "Mika Hakkinen",
+      "McLaren Mercedes",
+      "1:23.064",
+      "10"
+    ],
+    [
+      "8",
+      "14",
+      "Rubens Barrichello",
+      "Jordan Peugeot",
+      "1:23.142",
+      "10"
+    ],
+    [
+      "9",
+      "25",
+      "Martin Brundle",
+      "Ligier Mugen Honda",
+      "1:23.244",
+      "11"
+    ],
+    [
+      "10",
+      "26",
+      "Olivier Panis",
+      "Ligier Mugen Honda",
+      "1:23.284",
+      "11"
+    ],
+    [
+      "11",
+      "30",
+      "Heinz-Harald Frentzen",
+      "Sauber Ford",
+      "1:23.485",
+      "10"
+    ],
+    [
+      "12",
+      "2",
+      "Johnny Herbert",
+      "Benetton Renault",
+      "1:23.786",
+      "11"
+    ],
+    [
+      "13",
+      "7",
+      "Mark Blundell",
+      "McLaren Mercedes",
+      "1:24.583",
+      "10"
+    ],
+    [
+      "14",
+      "3",
+      "Ukyo Katayama",
+      "Tyrrell Yamaha",
+      "1:24.631",
+      "9"
+    ],
+    [
+      "15",
+      "10",
+      "Taki Inoue",
+      "Footwork Hart",
+      "1:24.883",
+      "12"
+    ],
+    [
+      "16",
+      "4",
+      "Mika Salo",
+      "Tyrrell Yamaha",
+      "1:24.942",
+      "11"
+    ],
+    [
+      "17",
+      "9",
+      "Massimiliano Papis",
+      "Footwork Hart",
+      "1:25.696",
+      "12"
+    ],
+    [
+      "18",
+      "24",
+      "Luca Badoer",
+      "Minardi Ford",
+      "1:25.746",
+      "11"
+    ],
+    [
+      "19",
+      "23",
+      "Pedro Lamy",
+      "Minardi Ford",
+      "1:26.210",
+      "11"
+    ],
+    [
+      "20",
+      "17",
+      "Andrea Montermini",
+      "Pacific Ilmor",
+      "1:27.659",
+      "4"
+    ],
+    [
+      "21",
+      "22",
+      "Roberto Moreno",
+      "Forti Ford",
+      "1:28.672",
+      "12"
+    ],
+    [
+      "22",
+      "21",
+      "Pedro Diniz",
+      "Forti Ford",
+      "1:29.137",
+      "4"
+    ],
+    [
+      "23",
+      "29",
+      "Jean-Christophe Boullion",
+      "Sauber Ford",
+      "14:20.150",
+      "1"
+    ]
+  ],
+  "session_name": "Qualifying 1"
+}

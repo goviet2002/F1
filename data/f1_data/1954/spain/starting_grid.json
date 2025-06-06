@@ -1,0 +1,145 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "34",
+      "Alberto Ascari",
+      "Lancia",
+      "2:18.100"
+    ],
+    [
+      "2",
+      "2",
+      "Juan Manuel Fangio",
+      "Maserati",
+      "2:19.100"
+    ],
+    [
+      "3",
+      "38",
+      "Mike Hawthorn",
+      "Ferrari",
+      "2:20.600"
+    ],
+    [
+      "5",
+      "36",
+      "Luigi  Villoresi",
+      "Lancia",
+      "2:21.000"
+    ],
+    [
+      "6",
+      "8",
+      "Stirling Moss",
+      "Maserati",
+      "2:21.100"
+    ],
+    [
+      "7",
+      "14",
+      "Luigi Musso",
+      "Maserati",
+      "2:21.500"
+    ],
+    [
+      "8",
+      "40",
+      "Maurice  Trintignant",
+      "Ferrari",
+      "2:21.900"
+    ],
+    [
+      "9",
+      "6",
+      "Hans  Herrmann",
+      "Mercedes-Benz",
+      "2:21.900"
+    ],
+    [
+      "10",
+      "12",
+      "Sergio Mantovani",
+      "Maserati",
+      "2:22.000"
+    ],
+    [
+      "11",
+      "10",
+      "Roberto Mieres",
+      "Maserati",
+      "2:22.300"
+    ],
+    [
+      "12",
+      "4",
+      "Karl Kling",
+      "Mercedes-Benz",
+      "2:23.400"
+    ],
+    [
+      "13",
+      "16",
+      "Paco  Godia",
+      "Maserati",
+      "2:24.200"
+    ],
+    [
+      "14",
+      "28",
+      "Ken  Wharton",
+      "Maserati",
+      "2:25.700"
+    ],
+    [
+      "15",
+      "18",
+      "Prince Bira",
+      "Maserati",
+      "2:26.100"
+    ],
+    [
+      "16",
+      "48",
+      "Jacques  Pollet",
+      "Gordini",
+      "2:27.400"
+    ],
+    [
+      "17",
+      "20",
+      "Robert  Manzon",
+      "Maserati",
+      "2:27.500"
+    ],
+    [
+      "19",
+      "30",
+      "Jacques Swaters",
+      "Ferrari",
+      "2:28.000"
+    ],
+    [
+      "20",
+      "26",
+      "Louis  Rosier",
+      "Maserati",
+      "2:29.800"
+    ],
+    [
+      "21",
+      "22",
+      "Toulo de Graffenried",
+      "Maserati",
+      "2:29.800"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

@@ -1,0 +1,85 @@
+{
+  "header": [
+    "Stops",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time of day",
+    "Time",
+    "Total"
+  ],
+  "data": [
+    [
+      "1",
+      "16",
+      "Eddie  Cheever",
+      "Renault",
+      "26",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "15",
+      "Alain Prost",
+      "Renault",
+      "30",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "5",
+      "Nelson Piquet",
+      "Brabham BMW",
+      "33",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "1",
+      "Keke Rosberg",
+      "Williams Honda",
+      "28",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "2",
+      "Jacques Laffite",
+      "Williams Honda",
+      "34",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "27",
+      "Patrick Tambay",
+      "Ferrari",
+      "30",
+      "",
+      "",
+      ""
+    ],
+    [
+      "1",
+      "28",
+      "Rene Arnoux",
+      "Ferrari",
+      "25",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "session_name": "Pit Stop Summary"
+}

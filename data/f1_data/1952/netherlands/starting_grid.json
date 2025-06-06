@@ -1,0 +1,131 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Alberto Ascari",
+      "Ferrari",
+      "1:46.500"
+    ],
+    [
+      "2",
+      "4",
+      "Nino Farina",
+      "Ferrari",
+      "1:48.600"
+    ],
+    [
+      "3",
+      "32",
+      "Mike Hawthorn",
+      "Cooper Bristol",
+      "1:51.600"
+    ],
+    [
+      "4",
+      "6",
+      "Luigi  Villoresi",
+      "Ferrari",
+      "1:51.800"
+    ],
+    [
+      "5",
+      "12",
+      "Maurice  Trintignant",
+      "Gordini",
+      "1:53.000"
+    ],
+    [
+      "6",
+      "8",
+      "Jean Behra",
+      "Gordini",
+      "1:54.500"
+    ],
+    [
+      "7",
+      "34",
+      "Ken  Wharton",
+      "Cooper Bristol",
+      "1:54.700"
+    ],
+    [
+      "9",
+      "26",
+      "Lance Macklin",
+      "HWM Alta",
+      "1:55.200"
+    ],
+    [
+      "10",
+      "28",
+      "Duncan  Hamilton ",
+      "HWM Alta",
+      "1:55.800"
+    ],
+    [
+      "11",
+      "14",
+      "Paul Frere",
+      "Simca-Gordini",
+      "1:58.200"
+    ],
+    [
+      "12",
+      "18",
+      "Gino Bianco",
+      "Maserati",
+      "1:58.200"
+    ],
+    [
+      "13",
+      "22",
+      "Ken  Downing",
+      "Connaught Lea Francis",
+      "1:58.600"
+    ],
+    [
+      "14",
+      "30",
+      "Dries van der Lof ",
+      "HWM Alta",
+      "1:59.400"
+    ],
+    [
+      "15",
+      "20",
+      "Jan Flinterman",
+      "Maserati",
+      "2:01.800"
+    ],
+    [
+      "16",
+      "16",
+      "Chico Landi",
+      "Maserati",
+      "2:02.100"
+    ],
+    [
+      "17",
+      "24",
+      "Charles de Tornaco",
+      "Ferrari",
+      "2:03.700"
+    ],
+    [
+      "18",
+      "36",
+      "Stirling Moss",
+      "ERA Bristol",
+      ""
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

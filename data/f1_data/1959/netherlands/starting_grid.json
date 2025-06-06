@@ -1,0 +1,117 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "7",
+      "Jo Bonnier",
+      "BRM",
+      "1:36.000"
+    ],
+    [
+      "2",
+      "8",
+      "Jack Brabham",
+      "Cooper Climax",
+      "1:36.000"
+    ],
+    [
+      "3",
+      "11",
+      "Stirling Moss",
+      "Cooper Climax",
+      "1:36.200"
+    ],
+    [
+      "4",
+      "1",
+      "Jean Behra",
+      "Ferrari",
+      "1:36.600"
+    ],
+    [
+      "5",
+      "14",
+      "Graham Hill",
+      "Lotus Climax",
+      "1:36.700"
+    ],
+    [
+      "6",
+      "6",
+      "Harry Schell",
+      "BRM",
+      "1:37.300"
+    ],
+    [
+      "7",
+      "9",
+      "Masten Gregory",
+      "Cooper Climax",
+      "1:37.600"
+    ],
+    [
+      "8",
+      "2",
+      "Tony Brooks",
+      "Ferrari",
+      "1:37.900"
+    ],
+    [
+      "9",
+      "12",
+      "Innes Ireland",
+      "Lotus Climax",
+      "1:38.300"
+    ],
+    [
+      "10",
+      "5",
+      "Carroll  Shelby ",
+      "Aston Martin",
+      "1:38.500"
+    ],
+    [
+      "11",
+      "10",
+      "Maurice  Trintignant",
+      "Cooper Climax",
+      "1:38.700"
+    ],
+    [
+      "12",
+      "3",
+      "Phil Hill",
+      "Ferrari",
+      "1:39.200"
+    ],
+    [
+      "13",
+      "4",
+      "Roy Salvadori",
+      "Aston Martin",
+      "1:39.700"
+    ],
+    [
+      "14",
+      "15",
+      "Carel Godin de Beaufort ",
+      "Porsche",
+      "1:44.500"
+    ],
+    [
+      "15",
+      "16",
+      "Cliff Allison",
+      "Ferrari",
+      ""
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

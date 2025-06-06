@@ -1,0 +1,145 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "1",
+      "Jim Clark",
+      "Lotus Climax",
+      "1:12.650"
+    ],
+    [
+      "2",
+      "7",
+      "John Surtees",
+      "Ferrari",
+      "1:12.780"
+    ],
+    [
+      "3",
+      "6",
+      "Dan Gurney",
+      "Brabham Ford",
+      "1:12.900"
+    ],
+    [
+      "4",
+      "3",
+      "Graham Hill",
+      "BRM",
+      "1:12.920"
+    ],
+    [
+      "5",
+      "9",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "1:13.100"
+    ],
+    [
+      "6",
+      "2",
+      "Mike Spence",
+      "Lotus Climax",
+      "1:13.330"
+    ],
+    [
+      "7",
+      "5",
+      "Jack Brabham",
+      "Brabham Ford",
+      "1:13.630"
+    ],
+    [
+      "8",
+      "8",
+      "Lorenzo Bandini",
+      "Ferrari",
+      "1:13.830"
+    ],
+    [
+      "9",
+      "16",
+      "Jo Bonnier",
+      "Cooper Climax",
+      "1:14.070"
+    ],
+    [
+      "10",
+      "11",
+      "Innes Ireland",
+      "Lotus BRM",
+      "1:14.350"
+    ],
+    [
+      "11",
+      "15",
+      "Chris Amon",
+      "Lotus Climax",
+      "1:14.430"
+    ],
+    [
+      "12",
+      "22",
+      "Jo Siffert",
+      "Cooper Climax",
+      "1:14.650"
+    ],
+    [
+      "13",
+      "4",
+      "Richie Ginther",
+      "BRM",
+      "1:14.670"
+    ],
+    [
+      "14",
+      "28",
+      "Ronnie Bucknum",
+      "Honda",
+      "1:14.900"
+    ],
+    [
+      "15",
+      "12",
+      "Trevor  Taylor ",
+      "Lotus BRM",
+      "1:15.300"
+    ],
+    [
+      "16",
+      "14",
+      "Mike Hailwood",
+      "Lotus Climax",
+      "1:15.650"
+    ],
+    [
+      "17",
+      "17",
+      "Walt   Hansgen",
+      "Lotus Climax",
+      "1:15.900"
+    ],
+    [
+      "18",
+      "23",
+      "Hap  Sharp ",
+      "Cooper Climax",
+      "1:18.230"
+    ],
+    [
+      "19",
+      "10",
+      "Phil Hill",
+      "Cooper Climax",
+      "1:19.630"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

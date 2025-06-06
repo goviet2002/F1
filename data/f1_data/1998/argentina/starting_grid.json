@@ -1,0 +1,166 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "7",
+      "David Coulthard",
+      "McLaren Mercedes",
+      "1:25.852"
+    ],
+    [
+      "2",
+      "3",
+      "Michael Schumacher",
+      "Ferrari",
+      "1:26.251"
+    ],
+    [
+      "3",
+      "8",
+      "Mika Hakkinen",
+      "McLaren Mercedes",
+      "1:26.632"
+    ],
+    [
+      "4",
+      "4",
+      "Eddie Irvine",
+      "Ferrari",
+      "1:26.780"
+    ],
+    [
+      "5",
+      "10",
+      "Ralf Schumacher",
+      "Jordan Mugen Honda",
+      "1:26.827"
+    ],
+    [
+      "6",
+      "2",
+      "Heinz-Harald Frentzen",
+      "Williams Mecachrome",
+      "1:26.876"
+    ],
+    [
+      "7",
+      "1",
+      "Jacques Villeneuve",
+      "Williams Mecachrome",
+      "1:26.941"
+    ],
+    [
+      "8",
+      "6",
+      "Alexander Wurz",
+      "Benetton Playlife",
+      "1:27.198"
+    ],
+    [
+      "9",
+      "9",
+      "Damon Hill",
+      "Jordan Mugen Honda",
+      "1:27.483"
+    ],
+    [
+      "10",
+      "5",
+      "Giancarlo Fisichella",
+      "Benetton Playlife",
+      "1:27.836"
+    ],
+    [
+      "11",
+      "14",
+      "Jean Alesi",
+      "Sauber Petronas",
+      "1:27.839"
+    ],
+    [
+      "12",
+      "15",
+      "Johnny Herbert",
+      "Sauber Petronas",
+      "1:28.016"
+    ],
+    [
+      "13",
+      "21",
+      "Toranosuke Takagi",
+      "Tyrrell Ford",
+      "1:28.811"
+    ],
+    [
+      "14",
+      "18",
+      "Rubens Barrichello",
+      "Stewart Ford",
+      "1:29.249"
+    ],
+    [
+      "15",
+      "11",
+      "Olivier Panis",
+      "Prost Peugeot",
+      "1:29.320"
+    ],
+    [
+      "16",
+      "12",
+      "Jarno Trulli",
+      "Prost Peugeot",
+      "1:29.352"
+    ],
+    [
+      "17",
+      "17",
+      "Mika Salo",
+      "Arrows",
+      "1:29.617"
+    ],
+    [
+      "18",
+      "16",
+      "Pedro Diniz",
+      "Arrows",
+      "1:30.022"
+    ],
+    [
+      "19",
+      "22",
+      "Shinji Nakano",
+      "Minardi Ford",
+      "1:30.054"
+    ],
+    [
+      "20",
+      "23",
+      "Esteban Tuero",
+      "Minardi Ford",
+      "1:30.158"
+    ],
+    [
+      "21",
+      "20",
+      "Ricardo Rosset",
+      "Tyrrell Ford",
+      "1:30.437"
+    ],
+    [
+      "22",
+      "19",
+      "Jan Magnussen",
+      "Stewart Ford",
+      "1:31.178"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

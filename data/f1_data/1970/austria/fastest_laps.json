@@ -1,0 +1,29 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "12",
+      "Jacky Ickx",
+      "Ferrari",
+      "45",
+      "1:40.400"
+    ],
+    [
+      "1",
+      "27",
+      "Clay Regazzoni",
+      "Ferrari",
+      "45",
+      "1:40.400"
+    ]
+  ],
+  "session_name": "Fastest Laps"
+}

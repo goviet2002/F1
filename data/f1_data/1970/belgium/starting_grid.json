@@ -1,0 +1,131 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "11",
+      "Jackie Stewart",
+      "Tyrrell Ford",
+      "3:28.000"
+    ],
+    [
+      "2",
+      "20",
+      "Jochen Rindt",
+      "Lotus Ford",
+      "3:30.100"
+    ],
+    [
+      "3",
+      "10",
+      "Chris Amon",
+      "March Ford",
+      "3:30.300"
+    ],
+    [
+      "4",
+      "27",
+      "Jacky Ickx",
+      "Ferrari",
+      "3:30.700"
+    ],
+    [
+      "5",
+      "18",
+      "Jack Brabham",
+      "Brabham Ford",
+      "3:31.500"
+    ],
+    [
+      "6",
+      "1",
+      "Pedro Rodriguez",
+      "BRM",
+      "3:31.600"
+    ],
+    [
+      "7",
+      "19",
+      "Rolf Stommelen",
+      "Brabham Ford",
+      "3:32.000"
+    ],
+    [
+      "8",
+      "28",
+      "Ignazio  Giunti ",
+      "Ferrari",
+      "3:32.400"
+    ],
+    [
+      "9",
+      "14",
+      "Ronnie Peterson",
+      "March Ford",
+      "3:32.800"
+    ],
+    [
+      "10",
+      "9",
+      "Jo Siffert",
+      "March Ford",
+      "3:32.900"
+    ],
+    [
+      "11",
+      "25",
+      "Jean-Pierre Beltoise",
+      "Matra",
+      "3:32.900"
+    ],
+    [
+      "12",
+      "7",
+      "Piers   Courage",
+      "De Tomaso Ford",
+      "3:33.000"
+    ],
+    [
+      "13",
+      "21",
+      "John   Miles",
+      "Lotus Ford",
+      "3:33.800"
+    ],
+    [
+      "14",
+      "2",
+      "Jackie Oliver",
+      "BRM",
+      "3:34.200"
+    ],
+    [
+      "15",
+      "8",
+      "Derek Bell",
+      "Brabham Ford",
+      "3:36.200"
+    ],
+    [
+      "16",
+      "23",
+      "Graham Hill",
+      "Lotus Ford",
+      "3:37.000"
+    ],
+    [
+      "17",
+      "26",
+      "Henri Pescarolo",
+      "Matra",
+      "3:37.100"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

@@ -1,0 +1,138 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "22",
+      "Chris Amon",
+      "Ferrari",
+      "3:28.600"
+    ],
+    [
+      "2",
+      "7",
+      "Jackie Stewart",
+      "Matra Ford",
+      "3:32.300"
+    ],
+    [
+      "3",
+      "23",
+      "Jacky Ickx",
+      "Ferrari",
+      "3:34.300"
+    ],
+    [
+      "4",
+      "20",
+      "John Surtees",
+      "Honda",
+      "3:35.000"
+    ],
+    [
+      "5",
+      "6",
+      "Denny Hulme",
+      "McLaren Ford",
+      "3:35.400"
+    ],
+    [
+      "6",
+      "5",
+      "Bruce McLaren",
+      "McLaren Ford",
+      "3:37.100"
+    ],
+    [
+      "7",
+      "14",
+      "Piers   Courage",
+      "BRM",
+      "3:37.200"
+    ],
+    [
+      "8",
+      "11",
+      "Pedro Rodriguez",
+      "BRM",
+      "3:37.800"
+    ],
+    [
+      "9",
+      "3",
+      "Jo Siffert",
+      "Cooper Maserati",
+      "3:39.000"
+    ],
+    [
+      "10",
+      "16",
+      "Brian   Redman",
+      "Cooper BRM",
+      "3:41.400"
+    ],
+    [
+      "11",
+      "12",
+      "Richard Attwood",
+      "BRM",
+      "3:45.200"
+    ],
+    [
+      "12",
+      "15",
+      "Lucien Bianchi",
+      "Cooper BRM",
+      "3:45.900"
+    ],
+    [
+      "13",
+      "10",
+      "Jean-Pierre Beltoise",
+      "Matra Ford",
+      "3:52.900"
+    ],
+    [
+      "14",
+      "1",
+      "Graham Hill",
+      "Lotus Ford",
+      "4:06.100"
+    ],
+    [
+      "15",
+      "2",
+      "Jackie Oliver",
+      "Lotus Ford",
+      "4:30.800"
+    ],
+    [
+      "16",
+      "17",
+      "Jo Bonnier",
+      "Honda",
+      "4:34.300"
+    ],
+    [
+      "17",
+      "19",
+      "Jochen Rindt",
+      "Brabham Climax",
+      "4:46.700"
+    ],
+    [
+      "18",
+      "18",
+      "Jack Brabham",
+      "Brabham Climax",
+      ""
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

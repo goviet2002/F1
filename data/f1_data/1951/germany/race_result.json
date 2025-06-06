@@ -1,0 +1,212 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "71",
+      "Alberto Ascari",
+      "Ferrari",
+      "20",
+      "3:23:03.300",
+      "8"
+    ],
+    [
+      "2",
+      "75",
+      "Juan Manuel Fangio",
+      "Alfa Romeo",
+      "20",
+      "+30.500s",
+      "7"
+    ],
+    [
+      "3",
+      "74",
+      "Jose Froilan Gonzalez",
+      "Ferrari",
+      "20",
+      "+279.000s",
+      "4"
+    ],
+    [
+      "4",
+      "72",
+      "Luigi  Villoresi",
+      "Ferrari",
+      "20",
+      "+350.200s",
+      "3"
+    ],
+    [
+      "5",
+      "73",
+      "Piero  Taruffi",
+      "Ferrari",
+      "20",
+      "+469.100s",
+      "2"
+    ],
+    [
+      "6",
+      "91",
+      "Rudi  Fischer ",
+      "Ferrari",
+      "19",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "7",
+      "82",
+      "Robert  Manzon",
+      "Simca-Gordini",
+      "19",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "8",
+      "84",
+      "Louis  Rosier",
+      "Talbot-Lago",
+      "19",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "9",
+      "90",
+      "Pierre  Levegh",
+      "Talbot-Lago",
+      "18",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "10",
+      "93",
+      "Jacques Swaters",
+      "Talbot-Lago",
+      "18",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "87",
+      "Yves Giraud-Cabantous",
+      "Talbot-Lago",
+      "17",
+      "DNF",
+      "0"
+    ],
+    [
+      "11",
+      "94",
+      "Johnny Claes",
+      "Talbot-Lago",
+      "17",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "81",
+      "Maurice  Trintignant",
+      "Simca-Gordini",
+      "13",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "77",
+      "Felice  Bonetto",
+      "Alfa Romeo",
+      "12",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "88",
+      "Duncan  Hamilton ",
+      "Talbot-Lago",
+      "12",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "78",
+      "Paul  Pietsch",
+      "Alfa Romeo",
+      "11",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "83",
+      "Andre  Simon",
+      "Simca-Gordini",
+      "11",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "76",
+      "Nino Farina",
+      "Alfa Romeo",
+      "8",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "86",
+      "Philippe  Etancelin",
+      "Talbot-Lago",
+      "4",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "92",
+      "Toni  Branca",
+      "Maserati",
+      "3",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "85",
+      "Louis  Chiron",
+      "Talbot-Lago",
+      "3",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "79",
+      "Toulo de Graffenried",
+      "Maserati",
+      "2",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

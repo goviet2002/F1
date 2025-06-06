@@ -1,0 +1,173 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Mario Andretti",
+      "Lotus Ford",
+      "1:12.230"
+    ],
+    [
+      "2",
+      "1",
+      "James Hunt",
+      "McLaren Ford",
+      "1:12.390"
+    ],
+    [
+      "3",
+      "7",
+      "John Watson",
+      "Brabham Alfa Romeo",
+      "1:12.490"
+    ],
+    [
+      "4",
+      "8",
+      "Hans-Joachim Stuck",
+      "Brabham Alfa Romeo",
+      "1:13.010"
+    ],
+    [
+      "5",
+      "26",
+      "Jacques Laffite",
+      "Ligier Matra",
+      "1:13.080"
+    ],
+    [
+      "6",
+      "20",
+      "Jody Scheckter",
+      "Wolf Ford",
+      "1:13.150"
+    ],
+    [
+      "7",
+      "12",
+      "Carlos Reutemann",
+      "Ferrari",
+      "1:13.320"
+    ],
+    [
+      "8",
+      "2",
+      "Jochen Mass",
+      "McLaren Ford",
+      "1:13.370"
+    ],
+    [
+      "9",
+      "19",
+      "Vittorio Brambilla",
+      "Surtees Ford",
+      "1:13.370"
+    ],
+    [
+      "10",
+      "22",
+      "Clay Regazzoni",
+      "Ensign Ford",
+      "1:13.520"
+    ],
+    [
+      "11",
+      "52",
+      "Kazuyoshi Hoshino",
+      "Kojima Ford",
+      "1:13.550"
+    ],
+    [
+      "12",
+      "17",
+      "Alan  Jones",
+      "Shadow Ford",
+      "1:13.560"
+    ],
+    [
+      "13",
+      "16",
+      "Riccardo Patrese",
+      "Shadow Ford",
+      "1:13.580"
+    ],
+    [
+      "14",
+      "6",
+      "Gunnar Nilsson",
+      "Lotus Ford",
+      "1:13.660"
+    ],
+    [
+      "15",
+      "4",
+      "Patrick Depailler",
+      "Tyrrell Ford",
+      "1:14.160"
+    ],
+    [
+      "16",
+      "23",
+      "Patrick Tambay",
+      "Ensign Ford",
+      "1:14.220"
+    ],
+    [
+      "17",
+      "27",
+      "Jean-Pierre Jarier",
+      "Ligier Matra",
+      "1:14.250"
+    ],
+    [
+      "18",
+      "3",
+      "Ronnie Peterson",
+      "Tyrrell Ford",
+      "1:14.260"
+    ],
+    [
+      "19",
+      "51",
+      "Noritake Takahara",
+      "Kojima Ford",
+      "1:14.360"
+    ],
+    [
+      "20",
+      "11",
+      "Gilles Villeneuve",
+      "Ferrari",
+      "1:14.510"
+    ],
+    [
+      "21",
+      "18",
+      "Hans Binder",
+      "Surtees Ford",
+      "1:14.730"
+    ],
+    [
+      "22",
+      "50",
+      "Kunimitsu Takahashi",
+      "Tyrrell Ford",
+      "1:14.880"
+    ],
+    [
+      "23",
+      "9",
+      "Alex Ribeiro",
+      "March Ford",
+      "1:15.010"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

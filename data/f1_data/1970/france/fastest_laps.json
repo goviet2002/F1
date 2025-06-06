@@ -1,0 +1,21 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "23",
+      "Jack Brabham",
+      "Brabham Ford",
+      "29",
+      "3:00.750"
+    ]
+  ],
+  "session_name": "Fastest Laps"
+}
