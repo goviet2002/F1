@@ -15,6 +15,7 @@ PROJECT_ROOT = get_project_root()
 DATA_DIR = os.path.join(PROJECT_ROOT, "data", "f1_drivers_data")
 os.makedirs(DATA_DIR, exist_ok=True)
 CHECKPOINTS_DIR = os.path.join(PROJECT_ROOT, "data", "f1_checkpoints")
+os.makedirs(CHECKPOINTS_DIR, exist_ok=True)
 
 async def scrape_drivers_standing(session, year):
     """Scrape driver standings for a specific year"""
@@ -144,8 +145,6 @@ async def collect_driver_links():
     all_driver_links = []
     headers_drivers = []
     drivers = []
-
-    os.makedirs(DATA_DIR, exist_ok=True)
     
     connector = aiohttp.TCPConnector(ssl=ssl_context)
     
@@ -343,10 +342,6 @@ async def scrape_f1_driver_data(all_driver_links):
     # Create a longer timeout
     timeout = aiohttp.ClientTimeout(total=60)
     
-    # Create checkpoint directory and main data directory
-    os.makedirs(CHECKPOINTS_DIR, exist_ok=True)
-    os.makedirs(DATA_DIR, exist_ok=True)
-    
     start_time = time.time()
     
     # Group driver links by year
@@ -405,6 +400,12 @@ async def scrape_f1_driver_data(all_driver_links):
     total_time = end_time - start_time
     
     print(f"Total execution time: {total_time:.2f} seconds")
+    
+    # Delete checkpoint file after successful completion
+    checkpoint_file = os.path.join(CHECKPOINTS_DIR, "driver_results_latest.json")
+    if os.path.exists(checkpoint_file):
+        os.remove(checkpoint_file)
+        print(f"Deleted checkpoint file: {checkpoint_file}")
 
     # # Create a summary file
     # summary = {

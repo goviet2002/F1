@@ -15,6 +15,7 @@ PROJECT_ROOT = get_project_root()
 DATA_DIR = os.path.join(PROJECT_ROOT, "data", "f1_teams_data")
 os.makedirs(DATA_DIR, exist_ok=True)
 CHECKPOINTS_DIR = os.path.join(PROJECT_ROOT, "data", "f1_checkpoints")
+os.makedirs(CHECKPOINTS_DIR, exist_ok=True)
 
 async def scrape_teams_standing(session, year):
     """Scrape team standings for a specific year"""
@@ -143,8 +144,6 @@ async def collect_team_links():
     all_team_links = []
     headers_teams = []
     teams = []
-
-    os.makedirs(DATA_DIR, exist_ok=True)
     
     connector = aiohttp.TCPConnector(ssl=ssl_context)
     
@@ -365,10 +364,6 @@ async def scrape_f1_team_data(all_team_links):
     # Create a longer timeout
     timeout = aiohttp.ClientTimeout(total=60)
     
-    # Create checkpoint directory and main data directory
-    os.makedirs(CHECKPOINTS_DIR, exist_ok=True)
-    os.makedirs(DATA_DIR, exist_ok=True)
-    
     start_time = time.time()
     
     # Group team links by year
@@ -430,6 +425,12 @@ async def scrape_f1_team_data(all_team_links):
     total_time = end_time - start_time
     
     print(f"Total execution time: {total_time:.2f} seconds")
+    
+    # Delete checkpoint file after successful completion
+    checkpoint_file = os.path.join(CHECKPOINTS_DIR, "team_results_latest.json")
+    if os.path.exists(checkpoint_file):
+        os.remove(checkpoint_file)
+        print(f"Deleted checkpoint file: {checkpoint_file}")
 
     # # Create a summary file
     # summary = {
