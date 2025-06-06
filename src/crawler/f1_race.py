@@ -12,7 +12,9 @@ from utils.f1_shared import ssl_context, head, base_url, years, test_function
 
 PROJECT_ROOT = get_project_root()
 DATA_DIR = os.path.join(PROJECT_ROOT, "data", "f1_data")
+os.makedirs(DATA_DIR, exist_ok=True)
 CHECKPOINTS_DIR = os.path.join(PROJECT_ROOT, "data", "f1_checkpoints")
+os.makedirs(CHECKPOINTS_DIR, exist_ok=True)
 
 async def scrape_races_year(session, year):
     # URL of the page
@@ -160,8 +162,6 @@ async def collect_race_links():
     all_race_links = []
     headers_race = []
     races = []
-
-    os.makedirs(DATA_DIR, exist_ok=True)
     
     connector = aiohttp.TCPConnector(ssl=ssl_context)
 
@@ -194,10 +194,6 @@ async def scrape_f1_data_with_checkpoints(all_race_links):
     
     # Create a longer timeout
     timeout = aiohttp.ClientTimeout(total=60)
-    
-    # Create checkpoint directory and main data directory
-    os.makedirs(DATA_DIR, exist_ok=True)
-    os.makedirs(CHECKPOINTS_DIR, exist_ok=True)
     
     start_time = time.time()
     
@@ -319,6 +315,18 @@ async def scrape_f1_data_with_checkpoints(all_race_links):
         
         print(f"Processed {results_processed} race results")
         print(f"Total execution time: {total_time:.2f} seconds")
+        
+        # Delete checkpoint file after successful completion
+        checkpoint_files = [
+            os.path.join(CHECKPOINTS_DIR, "race_locations_latest.json"),
+            os.path.join(CHECKPOINTS_DIR, "race_sessions_latest.json"),
+            os.path.join(CHECKPOINTS_DIR, "race_results_latest.json")
+        ]
+        
+        for checkpoint_file in checkpoint_files:
+            if os.path.exists(checkpoint_file):
+                os.remove(checkpoint_file)
+                print(f"Deleted checkpoint file: {checkpoint_file}")
 
         # # Create a summary file
         # summary = {
