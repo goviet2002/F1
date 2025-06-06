@@ -247,6 +247,34 @@ async def scrape_driver_profile(session, driver_name, driver_code):
                     headers.append("image_url")
                     data.append(img_url)
             
+            #Find helmet image
+            helmet_img = None
+            helmet_figure = soup.find('figure', class_='f1-driver-helmet')
+            if helmet_figure:
+                helmet_img = helmet_figure.find('img')
+                if helmet_img:
+                    helmet_url = None
+                    for attr in ['src', 'data-src', 'srcset']:
+                        if attr in helmet_img.attrs:
+                            helmet_url = helmet_img[attr]
+                            break
+                    
+                    if helmet_url:
+                        headers.append("helmet_url")
+                        data.append(helmet_url)
+                        
+            # If no helmet image found in HTML, construct URL based on F1 pattern
+            if "helmet_url" not in headers:
+                # Get last name from driver name
+                last_name = driver_name.split()[-1].lower()
+                current_year = 2025  # Update as needed
+                
+                # Construct helmet URL following F1's pattern
+                constructed_helmet_url = f"https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1024/fom-website/manual/Helmets{current_year}/{last_name}"
+                
+                headers.append("helmet_url")
+                data.append(constructed_helmet_url)
+            
             return headers, data
     except Exception as e:
         print(f"Error scraping profile for {driver_name}: {e}")
@@ -402,6 +430,6 @@ if __name__ == "__main__":
     # Collect detailed profiles for current season drivers
     asyncio.run(collect_current_driver_profiles())
 
-    # Then process all drivers with the collected links
-    all_data = asyncio.run(scrape_f1_driver_data(collect_links[0]))
+    # # Then process all drivers with the collected links
+    # all_data = asyncio.run(scrape_f1_driver_data(collect_links[0]))
 
