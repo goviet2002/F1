@@ -431,16 +431,16 @@ async def scrape_f1_team_data(all_team_links):
     
     print(f"Total execution time: {total_time:.2f} seconds")
 
-    # Create a summary file
-    summary = {
-        "total_standing_entries": sum(len(links) for links in team_links_by_year.values()),
-        "total_team_files": sum(item["processed_count"] for item in standings_results),
-        "years_processed": len(team_links_by_year),
-        "execution_time": total_time
-    }
+    # # Create a summary file
+    # summary = {
+    #     "total_standing_entries": sum(len(links) for links in team_links_by_year.values()),
+    #     "total_team_files": sum(item["processed_count"] for item in standings_results),
+    #     "years_processed": len(team_links_by_year),
+    #     "execution_time": total_time
+    # }
     
-    with open(os.path.join(DATA_DIR, "summary.json"), 'w') as f:
-        json.dump(summary, f, indent=2)
+    # with open(os.path.join(DATA_DIR, "summary.json"), 'w') as f:
+    #     json.dump(summary, f, indent=2)
 
     # Return the results
     return {
