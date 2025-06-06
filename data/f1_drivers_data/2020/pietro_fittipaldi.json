@@ -1,0 +1,28 @@
+{
+  "name": "Pietro Fittipaldi",
+  "driver_code": "PIEFIT01",
+  "url": "https://www.formula1.com/en/results/2020/drivers/PIEFIT01/pietro-fittipaldi",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Sakhir",
+      "06 Dec 2020",
+      "Haas Ferrari",
+      "17",
+      "0"
+    ],
+    [
+      "Abu Dhabi",
+      "13 Dec 2020",
+      "Haas Ferrari",
+      "19",
+      "0"
+    ]
+  ]
+}

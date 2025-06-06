@@ -1,0 +1,77 @@
+{
+  "name": "Kimi Antonelli",
+  "driver_code": "ANDANT01",
+  "url": "https://www.formula1.com/en/results/2025/drivers/ANDANT01/kimi-antonelli",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "16 Mar 2025",
+      "Mercedes",
+      "4",
+      "12"
+    ],
+    [
+      "China",
+      "23 Mar 2025",
+      "Mercedes",
+      "6",
+      "10"
+    ],
+    [
+      "Japan",
+      "06 Apr 2025",
+      "Mercedes",
+      "6",
+      "8"
+    ],
+    [
+      "Bahrain",
+      "13 Apr 2025",
+      "Mercedes",
+      "11",
+      "0"
+    ],
+    [
+      "Saudi Arabia",
+      "20 Apr 2025",
+      "Mercedes",
+      "6",
+      "8"
+    ],
+    [
+      "Miami",
+      "04 May 2025",
+      "Mercedes",
+      "6",
+      "10"
+    ],
+    [
+      "Emilia-Romagna",
+      "18 May 2025",
+      "Mercedes",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "25 May 2025",
+      "Mercedes",
+      "18",
+      "0"
+    ],
+    [
+      "Spain",
+      "01 Jun 2025",
+      "Mercedes",
+      "DNF",
+      "0"
+    ]
+  ]
+}

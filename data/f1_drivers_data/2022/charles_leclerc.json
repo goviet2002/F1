@@ -1,0 +1,168 @@
+{
+  "name": "Charles Leclerc",
+  "driver_code": "CHALEC01",
+  "url": "https://www.formula1.com/en/results/2022/drivers/CHALEC01/charles-leclerc",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Bahrain",
+      "20 Mar 2022",
+      "Ferrari",
+      "1",
+      "26"
+    ],
+    [
+      "Saudi Arabia",
+      "27 Mar 2022",
+      "Ferrari",
+      "2",
+      "19"
+    ],
+    [
+      "Australia",
+      "10 Apr 2022",
+      "Ferrari",
+      "1",
+      "26"
+    ],
+    [
+      "Emilia-Romagna",
+      "24 Apr 2022",
+      "Ferrari",
+      "6",
+      "15"
+    ],
+    [
+      "Miami",
+      "08 May 2022",
+      "Ferrari",
+      "2",
+      "18"
+    ],
+    [
+      "Spain",
+      "22 May 2022",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "29 May 2022",
+      "Ferrari",
+      "4",
+      "12"
+    ],
+    [
+      "Azerbaijan",
+      "12 Jun 2022",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "19 Jun 2022",
+      "Ferrari",
+      "5",
+      "10"
+    ],
+    [
+      "Great Britain",
+      "03 Jul 2022",
+      "Ferrari",
+      "4",
+      "12"
+    ],
+    [
+      "Austria",
+      "10 Jul 2022",
+      "Ferrari",
+      "1",
+      "32"
+    ],
+    [
+      "France",
+      "24 Jul 2022",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Hungary",
+      "31 Jul 2022",
+      "Ferrari",
+      "6",
+      "8"
+    ],
+    [
+      "Belgium",
+      "28 Aug 2022",
+      "Ferrari",
+      "6",
+      "8"
+    ],
+    [
+      "Netherlands",
+      "04 Sep 2022",
+      "Ferrari",
+      "3",
+      "15"
+    ],
+    [
+      "Italy",
+      "11 Sep 2022",
+      "Ferrari",
+      "2",
+      "18"
+    ],
+    [
+      "Singapore",
+      "02 Oct 2022",
+      "Ferrari",
+      "2",
+      "18"
+    ],
+    [
+      "Japan",
+      "09 Oct 2022",
+      "Ferrari",
+      "3",
+      "15"
+    ],
+    [
+      "United States",
+      "23 Oct 2022",
+      "Ferrari",
+      "3",
+      "15"
+    ],
+    [
+      "Mexico",
+      "30 Oct 2022",
+      "Ferrari",
+      "6",
+      "8"
+    ],
+    [
+      "Brazil",
+      "13 Nov 2022",
+      "Ferrari",
+      "4",
+      "15"
+    ],
+    [
+      "Abu Dhabi",
+      "20 Nov 2022",
+      "Ferrari",
+      "2",
+      "18"
+    ]
+  ]
+}

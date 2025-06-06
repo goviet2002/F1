@@ -1,0 +1,168 @@
+{
+  "name": "Charles Leclerc",
+  "driver_code": "CHALEC01",
+  "url": "https://www.formula1.com/en/results/2021/drivers/CHALEC01/charles-leclerc",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Bahrain",
+      "28 Mar 2021",
+      "Ferrari",
+      "6",
+      "8"
+    ],
+    [
+      "Emilia-Romagna",
+      "18 Apr 2021",
+      "Ferrari",
+      "4",
+      "12"
+    ],
+    [
+      "Portugal",
+      "02 May 2021",
+      "Ferrari",
+      "6",
+      "8"
+    ],
+    [
+      "Spain",
+      "09 May 2021",
+      "Ferrari",
+      "4",
+      "12"
+    ],
+    [
+      "Monaco",
+      "23 May 2021",
+      "Ferrari",
+      "DNS",
+      "0"
+    ],
+    [
+      "Azerbaijan",
+      "06 Jun 2021",
+      "Ferrari",
+      "4",
+      "12"
+    ],
+    [
+      "France",
+      "20 Jun 2021",
+      "Ferrari",
+      "16",
+      "0"
+    ],
+    [
+      "Styria",
+      "27 Jun 2021",
+      "Ferrari",
+      "7",
+      "6"
+    ],
+    [
+      "Austria",
+      "04 Jul 2021",
+      "Ferrari",
+      "8",
+      "4"
+    ],
+    [
+      "Great Britain",
+      "18 Jul 2021",
+      "Ferrari",
+      "2",
+      "18"
+    ],
+    [
+      "Hungary",
+      "01 Aug 2021",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "29 Aug 2021",
+      "Ferrari",
+      "8",
+      "2"
+    ],
+    [
+      "Netherlands",
+      "05 Sep 2021",
+      "Ferrari",
+      "5",
+      "10"
+    ],
+    [
+      "Italy",
+      "12 Sep 2021",
+      "Ferrari",
+      "4",
+      "12"
+    ],
+    [
+      "Russia",
+      "26 Sep 2021",
+      "Ferrari",
+      "15",
+      "0"
+    ],
+    [
+      "Turkey",
+      "10 Oct 2021",
+      "Ferrari",
+      "4",
+      "12"
+    ],
+    [
+      "United States",
+      "24 Oct 2021",
+      "Ferrari",
+      "4",
+      "12"
+    ],
+    [
+      "Mexico",
+      "07 Nov 2021",
+      "Ferrari",
+      "5",
+      "10"
+    ],
+    [
+      "Brazil",
+      "14 Nov 2021",
+      "Ferrari",
+      "5",
+      "10"
+    ],
+    [
+      "Qatar",
+      "21 Nov 2021",
+      "Ferrari",
+      "8",
+      "4"
+    ],
+    [
+      "Saudi Arabia",
+      "05 Dec 2021",
+      "Ferrari",
+      "7",
+      "6"
+    ],
+    [
+      "Abu Dhabi",
+      "12 Dec 2021",
+      "Ferrari",
+      "10",
+      "1"
+    ]
+  ]
+}

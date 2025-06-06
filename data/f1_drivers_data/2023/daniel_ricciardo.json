@@ -1,0 +1,63 @@
+{
+  "name": "Daniel Ricciardo",
+  "driver_code": "DANRIC01",
+  "url": "https://www.formula1.com/en/results/2023/drivers/DANRIC01/daniel-ricciardo",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Hungary",
+      "23 Jul 2023",
+      "AlphaTauri Honda RBPT",
+      "13",
+      "0"
+    ],
+    [
+      "Belgium",
+      "30 Jul 2023",
+      "AlphaTauri Honda RBPT",
+      "16",
+      "0"
+    ],
+    [
+      "United States",
+      "22 Oct 2023",
+      "AlphaTauri Honda RBPT",
+      "15",
+      "0"
+    ],
+    [
+      "Mexico",
+      "29 Oct 2023",
+      "AlphaTauri Honda RBPT",
+      "7",
+      "6"
+    ],
+    [
+      "Brazil",
+      "05 Nov 2023",
+      "AlphaTauri Honda RBPT",
+      "13",
+      "0"
+    ],
+    [
+      "Las Vegas",
+      "18 Nov 2023",
+      "AlphaTauri Honda RBPT",
+      "14",
+      "0"
+    ],
+    [
+      "Abu Dhabi",
+      "26 Nov 2023",
+      "AlphaTauri Honda RBPT",
+      "11",
+      "0"
+    ]
+  ]
+}

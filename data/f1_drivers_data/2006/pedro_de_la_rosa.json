@@ -1,0 +1,70 @@
+{
+  "name": "Pedro de la Rosa",
+  "driver_code": "PEDDEL01",
+  "url": "https://www.formula1.com/en/results/2006/drivers/PEDDEL01/pedro-de-la-rosa",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "France",
+      "16 Jul 2006",
+      "McLaren Mercedes",
+      "7",
+      "2"
+    ],
+    [
+      "Germany",
+      "30 Jul 2006",
+      "McLaren Mercedes",
+      "DNF",
+      "0"
+    ],
+    [
+      "Hungary",
+      "06 Aug 2006",
+      "McLaren Mercedes",
+      "2",
+      "8"
+    ],
+    [
+      "Turkey",
+      "27 Aug 2006",
+      "McLaren Mercedes",
+      "5",
+      "4"
+    ],
+    [
+      "Italy",
+      "10 Sep 2006",
+      "McLaren Mercedes",
+      "DNF",
+      "0"
+    ],
+    [
+      "China",
+      "01 Oct 2006",
+      "McLaren Mercedes",
+      "5",
+      "4"
+    ],
+    [
+      "Japan",
+      "08 Oct 2006",
+      "McLaren Mercedes",
+      "11",
+      "0"
+    ],
+    [
+      "Brazil",
+      "22 Oct 2006",
+      "McLaren Mercedes",
+      "8",
+      "1"
+    ]
+  ]
+}

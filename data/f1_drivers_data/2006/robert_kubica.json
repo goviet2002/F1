@@ -1,0 +1,49 @@
+{
+  "name": "Robert Kubica",
+  "driver_code": "ROBKUB01",
+  "url": "https://www.formula1.com/en/results/2006/drivers/ROBKUB01/robert-kubica",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Turkey",
+      "27 Aug 2006",
+      "Sauber BMW",
+      "12",
+      "0"
+    ],
+    [
+      "Italy",
+      "10 Sep 2006",
+      "Sauber BMW",
+      "3",
+      "6"
+    ],
+    [
+      "China",
+      "01 Oct 2006",
+      "Sauber BMW",
+      "13",
+      "0"
+    ],
+    [
+      "Japan",
+      "08 Oct 2006",
+      "Sauber BMW",
+      "9",
+      "0"
+    ],
+    [
+      "Brazil",
+      "22 Oct 2006",
+      "Sauber BMW",
+      "9",
+      "0"
+    ]
+  ]
+}

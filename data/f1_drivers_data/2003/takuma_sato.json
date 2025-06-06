@@ -1,0 +1,21 @@
+{
+  "name": "Takuma Sato",
+  "driver_code": "TAKSAT01",
+  "url": "https://www.formula1.com/en/results/2003/drivers/TAKSAT01/takuma-sato",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Japan",
+      "12 Oct 2003",
+      "BAR Honda",
+      "6",
+      "3"
+    ]
+  ]
+}

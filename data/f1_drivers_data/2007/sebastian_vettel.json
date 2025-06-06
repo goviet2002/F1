@@ -1,0 +1,70 @@
+{
+  "name": "Sebastian Vettel",
+  "driver_code": "SEBVET01",
+  "url": "https://www.formula1.com/en/results/2007/drivers/SEBVET01/sebastian-vettel",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "United States",
+      "17 Jun 2007",
+      "Sauber BMW",
+      "8",
+      "1"
+    ],
+    [
+      "Hungary",
+      "05 Aug 2007",
+      "STR Ferrari",
+      "16",
+      "0"
+    ],
+    [
+      "Turkey",
+      "26 Aug 2007",
+      "STR Ferrari",
+      "19",
+      "0"
+    ],
+    [
+      "Italy",
+      "09 Sep 2007",
+      "STR Ferrari",
+      "18",
+      "0"
+    ],
+    [
+      "Belgium",
+      "16 Sep 2007",
+      "STR Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Japan",
+      "30 Sep 2007",
+      "STR Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "China",
+      "07 Oct 2007",
+      "STR Ferrari",
+      "4",
+      "5"
+    ],
+    [
+      "Brazil",
+      "21 Oct 2007",
+      "STR Ferrari",
+      "DNF",
+      "0"
+    ]
+  ]
+}

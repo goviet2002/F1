@@ -1,0 +1,77 @@
+{
+  "name": "Alexander Albon",
+  "driver_code": "ALEALB01",
+  "url": "https://www.formula1.com/en/results/2025/drivers/ALEALB01/alexander-albon",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "16 Mar 2025",
+      "Williams Mercedes",
+      "5",
+      "10"
+    ],
+    [
+      "China",
+      "23 Mar 2025",
+      "Williams Mercedes",
+      "7",
+      "6"
+    ],
+    [
+      "Japan",
+      "06 Apr 2025",
+      "Williams Mercedes",
+      "9",
+      "2"
+    ],
+    [
+      "Bahrain",
+      "13 Apr 2025",
+      "Williams Mercedes",
+      "12",
+      "0"
+    ],
+    [
+      "Saudi Arabia",
+      "20 Apr 2025",
+      "Williams Mercedes",
+      "9",
+      "2"
+    ],
+    [
+      "Miami",
+      "04 May 2025",
+      "Williams Mercedes",
+      "5",
+      "10"
+    ],
+    [
+      "Emilia-Romagna",
+      "18 May 2025",
+      "Williams Mercedes",
+      "5",
+      "10"
+    ],
+    [
+      "Monaco",
+      "25 May 2025",
+      "Williams Mercedes",
+      "9",
+      "2"
+    ],
+    [
+      "Spain",
+      "01 Jun 2025",
+      "Williams Mercedes",
+      "DNF",
+      "0"
+    ]
+  ]
+}

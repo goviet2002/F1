@@ -1,0 +1,42 @@
+{
+  "name": "Yuji Ide",
+  "driver_code": "YUJIDE01",
+  "url": "https://www.formula1.com/en/results/2006/drivers/YUJIDE01/yuji-ide",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Bahrain",
+      "12 Mar 2006",
+      "Super Aguri Honda",
+      "DNF",
+      "0"
+    ],
+    [
+      "Malaysia",
+      "19 Mar 2006",
+      "Super Aguri Honda",
+      "DNF",
+      "0"
+    ],
+    [
+      "Australia",
+      "02 Apr 2006",
+      "Super Aguri Honda",
+      "13",
+      "0"
+    ],
+    [
+      "San Marino",
+      "23 Apr 2006",
+      "Super Aguri Honda",
+      "DNF",
+      "0"
+    ]
+  ]
+}

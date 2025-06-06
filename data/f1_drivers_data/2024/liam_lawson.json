@@ -1,0 +1,56 @@
+{
+  "name": "Liam Lawson",
+  "driver_code": "LIALAW01",
+  "url": "https://www.formula1.com/en/results/2024/drivers/LIALAW01/liam-lawson",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "United States",
+      "20 Oct 2024",
+      "RB Honda RBPT",
+      "9",
+      "2"
+    ],
+    [
+      "Mexico",
+      "27 Oct 2024",
+      "RB Honda RBPT",
+      "16",
+      "0"
+    ],
+    [
+      "Brazil",
+      "03 Nov 2024",
+      "RB Honda RBPT",
+      "9",
+      "2"
+    ],
+    [
+      "Las Vegas",
+      "23 Nov 2024",
+      "RB Honda RBPT",
+      "16",
+      "0"
+    ],
+    [
+      "Qatar",
+      "01 Dec 2024",
+      "RB Honda RBPT",
+      "14",
+      "0"
+    ],
+    [
+      "Abu Dhabi",
+      "08 Dec 2024",
+      "RB Honda RBPT",
+      "DNF",
+      "0"
+    ]
+  ]
+}
