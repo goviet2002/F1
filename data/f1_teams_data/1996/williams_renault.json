@@ -1,0 +1,92 @@
+{
+  "name": "Williams Renault",
+  "team_code": "Williams-Renault",
+  "url": "https://www.formula1.com/en/results/1996/team/Williams-Renault",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "10 Mar 1996",
+      "16"
+    ],
+    [
+      "Brazil",
+      "31 Mar 1996",
+      "10"
+    ],
+    [
+      "Argentina",
+      "07 Apr 1996",
+      "16"
+    ],
+    [
+      "Europe",
+      "28 Apr 1996",
+      "13"
+    ],
+    [
+      "San Marino",
+      "05 May 1996",
+      "10"
+    ],
+    [
+      "Monaco",
+      "19 May 1996",
+      "0"
+    ],
+    [
+      "Spain",
+      "02 Jun 1996",
+      "4"
+    ],
+    [
+      "Canada",
+      "16 Jun 1996",
+      "16"
+    ],
+    [
+      "France",
+      "30 Jun 1996",
+      "16"
+    ],
+    [
+      "Great Britain",
+      "14 Jul 1996",
+      "10"
+    ],
+    [
+      "Germany",
+      "28 Jul 1996",
+      "14"
+    ],
+    [
+      "Hungary",
+      "11 Aug 1996",
+      "16"
+    ],
+    [
+      "Belgium",
+      "25 Aug 1996",
+      "8"
+    ],
+    [
+      "Italy",
+      "08 Sep 1996",
+      "0"
+    ],
+    [
+      "Portugal",
+      "22 Sep 1996",
+      "16"
+    ],
+    [
+      "Japan",
+      "13 Oct 1996",
+      "10"
+    ]
+  ]
+}

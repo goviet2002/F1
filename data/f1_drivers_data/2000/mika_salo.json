@@ -1,0 +1,119 @@
+{
+  "name": "Mika Salo",
+  "driver_code": "MIKSAL01",
+  "url": "https://www.formula1.com/en/results/2000/drivers/MIKSAL01/mika-salo",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "San Marino",
+      "09 Apr 2000",
+      "Sauber Petronas",
+      "6",
+      "1"
+    ],
+    [
+      "Great Britain",
+      "23 Apr 2000",
+      "Sauber Petronas",
+      "8",
+      "0"
+    ],
+    [
+      "Spain",
+      "07 May 2000",
+      "Sauber Petronas",
+      "7",
+      "0"
+    ],
+    [
+      "Europe",
+      "21 May 2000",
+      "Sauber Petronas",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "04 Jun 2000",
+      "Sauber Petronas",
+      "5",
+      "2"
+    ],
+    [
+      "Canada",
+      "18 Jun 2000",
+      "Sauber Petronas",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "02 Jul 2000",
+      "Sauber Petronas",
+      "10",
+      "0"
+    ],
+    [
+      "Austria",
+      "16 Jul 2000",
+      "Sauber Petronas",
+      "6",
+      "1"
+    ],
+    [
+      "Germany",
+      "30 Jul 2000",
+      "Sauber Petronas",
+      "5",
+      "2"
+    ],
+    [
+      "Hungary",
+      "13 Aug 2000",
+      "Sauber Petronas",
+      "10",
+      "0"
+    ],
+    [
+      "Belgium",
+      "27 Aug 2000",
+      "Sauber Petronas",
+      "9",
+      "0"
+    ],
+    [
+      "Italy",
+      "10 Sep 2000",
+      "Sauber Petronas",
+      "7",
+      "0"
+    ],
+    [
+      "United States",
+      "24 Sep 2000",
+      "Sauber Petronas",
+      "DNF",
+      "0"
+    ],
+    [
+      "Japan",
+      "08 Oct 2000",
+      "Sauber Petronas",
+      "10",
+      "0"
+    ],
+    [
+      "Malaysia",
+      "22 Oct 2000",
+      "Sauber Petronas",
+      "8",
+      "0"
+    ]
+  ]
+}

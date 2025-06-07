@@ -1,0 +1,84 @@
+{
+  "name": "Howden Ganley",
+  "driver_code": "HOWGAN01",
+  "url": "https://www.formula1.com/en/results/1972/drivers/HOWGAN01/howden-ganley",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "23 Jan 1972",
+      "BRM",
+      "9",
+      "0"
+    ],
+    [
+      "South Africa",
+      "04 Mar 1972",
+      "BRM",
+      "DNC",
+      "0"
+    ],
+    [
+      "Spain",
+      "01 May 1972",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "14 May 1972",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "04 Jun 1972",
+      "BRM",
+      "8",
+      "0"
+    ],
+    [
+      "Germany",
+      "30 Jul 1972",
+      "BRM",
+      "4",
+      "3"
+    ],
+    [
+      "Austria",
+      "13 Aug 1972",
+      "BRM",
+      "6",
+      "1"
+    ],
+    [
+      "Italy",
+      "10 Sep 1972",
+      "BRM",
+      "11",
+      "0"
+    ],
+    [
+      "Canada",
+      "24 Sep 1972",
+      "BRM",
+      "10",
+      "0"
+    ],
+    [
+      "United States",
+      "08 Oct 1972",
+      "BRM",
+      "DNF",
+      "0"
+    ]
+  ]
+}

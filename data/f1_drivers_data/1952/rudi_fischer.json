@@ -1,0 +1,49 @@
+{
+  "name": "Rudi Fischer",
+  "driver_code": "RUDFIS01",
+  "url": "https://www.formula1.com/en/results/1952/drivers/RUDFIS01/rudi-fischer",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Switzerland",
+      "18 May 1952",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "France",
+      "06 Jul 1952",
+      "Ferrari",
+      "SHC",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "19 Jul 1952",
+      "Ferrari",
+      "13",
+      "0"
+    ],
+    [
+      "Germany",
+      "03 Aug 1952",
+      "Ferrari",
+      "3",
+      "4"
+    ],
+    [
+      "Italy",
+      "07 Sep 1952",
+      "Ferrari",
+      "DNF",
+      "0"
+    ]
+  ]
+}

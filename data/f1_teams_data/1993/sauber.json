@@ -1,0 +1,92 @@
+{
+  "name": "Sauber",
+  "team_code": "Sauber",
+  "url": "https://www.formula1.com/en/results/1993/team/Sauber",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "14 Mar 1993",
+      "2"
+    ],
+    [
+      "Brazil",
+      "28 Mar 1993",
+      "0"
+    ],
+    [
+      "Europe",
+      "11 Apr 1993",
+      "0"
+    ],
+    [
+      "San Marino",
+      "25 Apr 1993",
+      "3"
+    ],
+    [
+      "Spain",
+      "09 May 1993",
+      "0"
+    ],
+    [
+      "Monaco",
+      "23 May 1993",
+      "0"
+    ],
+    [
+      "Canada",
+      "13 Jun 1993",
+      "1"
+    ],
+    [
+      "France",
+      "04 Jul 1993",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "11 Jul 1993",
+      "0"
+    ],
+    [
+      "Germany",
+      "25 Jul 1993",
+      "0"
+    ],
+    [
+      "Hungary",
+      "15 Aug 1993",
+      "1"
+    ],
+    [
+      "Belgium",
+      "29 Aug 1993",
+      "0"
+    ],
+    [
+      "Italy",
+      "12 Sep 1993",
+      "3"
+    ],
+    [
+      "Portugal",
+      "26 Sep 1993",
+      "2"
+    ],
+    [
+      "Japan",
+      "24 Oct 1993",
+      "0"
+    ],
+    [
+      "Australia",
+      "07 Nov 1993",
+      "0"
+    ]
+  ]
+}

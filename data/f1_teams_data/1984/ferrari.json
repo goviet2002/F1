@@ -1,0 +1,92 @@
+{
+  "name": "Ferrari",
+  "team_code": "Ferrari",
+  "url": "https://www.formula1.com/en/results/1984/team/Ferrari",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Brazil",
+      "25 Mar 1984",
+      "0"
+    ],
+    [
+      "South Africa",
+      "07 Apr 1984",
+      "0"
+    ],
+    [
+      "Belgium",
+      "29 Apr 1984",
+      "13"
+    ],
+    [
+      "San Marino",
+      "06 May 1984",
+      "6"
+    ],
+    [
+      "France",
+      "20 May 1984",
+      "3"
+    ],
+    [
+      "Monaco",
+      "03 Jun 1984",
+      "2.5"
+    ],
+    [
+      "Canada",
+      "17 Jun 1984",
+      "2"
+    ],
+    [
+      "Detroit",
+      "24 Jun 1984",
+      "0"
+    ],
+    [
+      "Dallas",
+      "08 Jul 1984",
+      "6"
+    ],
+    [
+      "Great Britain",
+      "22 Jul 1984",
+      "3"
+    ],
+    [
+      "Germany",
+      "05 Aug 1984",
+      "1"
+    ],
+    [
+      "Austria",
+      "19 Aug 1984",
+      "4"
+    ],
+    [
+      "Netherlands",
+      "26 Aug 1984",
+      "0"
+    ],
+    [
+      "Italy",
+      "09 Sep 1984",
+      "6"
+    ],
+    [
+      "Europe",
+      "07 Oct 1984",
+      "8"
+    ],
+    [
+      "Portugal",
+      "21 Oct 1984",
+      "3"
+    ]
+  ]
+}

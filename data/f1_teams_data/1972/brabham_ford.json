@@ -1,0 +1,72 @@
+{
+  "name": "Brabham Ford",
+  "team_code": "Brabham-Ford",
+  "url": "https://www.formula1.com/en/results/1972/team/Brabham-Ford",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "23 Jan 1972",
+      "0"
+    ],
+    [
+      "South Africa",
+      "04 Mar 1972",
+      "1"
+    ],
+    [
+      "Spain",
+      "01 May 1972",
+      "0"
+    ],
+    [
+      "Monaco",
+      "14 May 1972",
+      "0"
+    ],
+    [
+      "Belgium",
+      "04 Jun 1972",
+      "0"
+    ],
+    [
+      "France",
+      "02 Jul 1972",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "15 Jul 1972",
+      "0"
+    ],
+    [
+      "Germany",
+      "30 Jul 1972",
+      "1"
+    ],
+    [
+      "Austria",
+      "13 Aug 1972",
+      "0"
+    ],
+    [
+      "Italy",
+      "10 Sep 1972",
+      "2"
+    ],
+    [
+      "Canada",
+      "24 Sep 1972",
+      "3"
+    ],
+    [
+      "United States",
+      "08 Oct 1972",
+      "0"
+    ]
+  ]
+}

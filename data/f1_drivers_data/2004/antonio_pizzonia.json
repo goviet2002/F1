@@ -1,0 +1,42 @@
+{
+  "name": "Antonio Pizzonia",
+  "driver_code": "ANTPIZ01",
+  "url": "https://www.formula1.com/en/results/2004/drivers/ANTPIZ01/antonio-pizzonia",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Germany",
+      "25 Jul 2004",
+      "Williams BMW",
+      "7",
+      "2"
+    ],
+    [
+      "Hungary",
+      "15 Aug 2004",
+      "Williams BMW",
+      "7",
+      "2"
+    ],
+    [
+      "Belgium",
+      "29 Aug 2004",
+      "Williams BMW",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "12 Sep 2004",
+      "Williams BMW",
+      "7",
+      "2"
+    ]
+  ]
+}

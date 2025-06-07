@@ -432,5 +432,5 @@ if __name__ == "__main__":
     asyncio.run(collect_current_driver_profiles())
 
     # # Then process all drivers with the collected links
-    # all_data = asyncio.run(scrape_f1_driver_data(collect_links[0]))
+    all_data = asyncio.run(scrape_f1_driver_data(collect_links[0]))
 

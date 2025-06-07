@@ -1,0 +1,35 @@
+{
+  "name": "Oliver Bearman",
+  "driver_code": "OLIBEA01",
+  "url": "https://www.formula1.com/en/results/2024/drivers/OLIBEA01/oliver-bearman",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Saudi Arabia",
+      "09 Mar 2024",
+      "Ferrari",
+      "7",
+      "6"
+    ],
+    [
+      "Azerbaijan",
+      "15 Sep 2024",
+      "Haas Ferrari",
+      "10",
+      "1"
+    ],
+    [
+      "Brazil",
+      "03 Nov 2024",
+      "Haas Ferrari",
+      "12",
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Patrick Depailler",
+  "driver_code": "PATDEP01",
+  "url": "https://www.formula1.com/en/results/1975/drivers/PATDEP01/patrick-depailler",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "12 Jan 1975",
+      "Tyrrell Ford",
+      "5",
+      "2"
+    ],
+    [
+      "Brazil",
+      "26 Jan 1975",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "South Africa",
+      "01 Mar 1975",
+      "Tyrrell Ford",
+      "3",
+      "4"
+    ],
+    [
+      "Spain",
+      "27 Apr 1975",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "11 May 1975",
+      "Tyrrell Ford",
+      "5",
+      "2"
+    ],
+    [
+      "Belgium",
+      "25 May 1975",
+      "Tyrrell Ford",
+      "4",
+      "3"
+    ],
+    [
+      "Sweden",
+      "08 Jun 1975",
+      "Tyrrell Ford",
+      "12",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "22 Jun 1975",
+      "Tyrrell Ford",
+      "9",
+      "0"
+    ],
+    [
+      "France",
+      "06 Jul 1975",
+      "Tyrrell Ford",
+      "6",
+      "1"
+    ],
+    [
+      "Great Britain",
+      "19 Jul 1975",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "03 Aug 1975",
+      "Tyrrell Ford",
+      "9",
+      "0"
+    ],
+    [
+      "Austria",
+      "17 Aug 1975",
+      "Tyrrell Ford",
+      "11",
+      "0"
+    ],
+    [
+      "Italy",
+      "07 Sep 1975",
+      "Tyrrell Ford",
+      "7",
+      "0"
+    ],
+    [
+      "United States",
+      "05 Oct 1975",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ]
+  ]
+}

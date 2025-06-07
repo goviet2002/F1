@@ -1,0 +1,98 @@
+{
+  "name": "Michael Schumacher",
+  "driver_code": "MICSCH01",
+  "url": "https://www.formula1.com/en/results/1994/drivers/MICSCH01/michael-schumacher",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Brazil",
+      "27 Mar 1994",
+      "Benetton Ford",
+      "1",
+      "10"
+    ],
+    [
+      "Pacific",
+      "17 Apr 1994",
+      "Benetton Ford",
+      "1",
+      "10"
+    ],
+    [
+      "San Marino",
+      "01 May 1994",
+      "Benetton Ford",
+      "1",
+      "10"
+    ],
+    [
+      "Monaco",
+      "15 May 1994",
+      "Benetton Ford",
+      "1",
+      "10"
+    ],
+    [
+      "Spain",
+      "29 May 1994",
+      "Benetton Ford",
+      "2",
+      "6"
+    ],
+    [
+      "Canada",
+      "12 Jun 1994",
+      "Benetton Ford",
+      "1",
+      "10"
+    ],
+    [
+      "France",
+      "03 Jul 1994",
+      "Benetton Ford",
+      "1",
+      "10"
+    ],
+    [
+      "Germany",
+      "31 Jul 1994",
+      "Benetton Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Hungary",
+      "14 Aug 1994",
+      "Benetton Ford",
+      "1",
+      "10"
+    ],
+    [
+      "Europe",
+      "16 Oct 1994",
+      "Benetton Ford",
+      "1",
+      "10"
+    ],
+    [
+      "Japan",
+      "06 Nov 1994",
+      "Benetton Ford",
+      "2",
+      "6"
+    ],
+    [
+      "Australia",
+      "13 Nov 1994",
+      "Benetton Ford",
+      "DNF",
+      "0"
+    ]
+  ]
+}

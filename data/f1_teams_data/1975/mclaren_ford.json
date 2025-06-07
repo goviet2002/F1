@@ -1,0 +1,82 @@
+{
+  "name": "McLaren Ford",
+  "team_code": "McLaren-Ford",
+  "url": "https://www.formula1.com/en/results/1975/team/McLaren-Ford",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "12 Jan 1975",
+      "9"
+    ],
+    [
+      "Brazil",
+      "26 Jan 1975",
+      "6"
+    ],
+    [
+      "South Africa",
+      "01 Mar 1975",
+      "1"
+    ],
+    [
+      "Spain",
+      "27 Apr 1975",
+      "4.5"
+    ],
+    [
+      "Monaco",
+      "11 May 1975",
+      "6"
+    ],
+    [
+      "Belgium",
+      "25 May 1975",
+      "0"
+    ],
+    [
+      "Sweden",
+      "08 Jun 1975",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "22 Jun 1975",
+      "0"
+    ],
+    [
+      "France",
+      "06 Jul 1975",
+      "4"
+    ],
+    [
+      "Great Britain",
+      "19 Jul 1975",
+      "9"
+    ],
+    [
+      "Germany",
+      "03 Aug 1975",
+      "0"
+    ],
+    [
+      "Austria",
+      "17 Aug 1975",
+      "1.5"
+    ],
+    [
+      "Italy",
+      "07 Sep 1975",
+      "6"
+    ],
+    [
+      "United States",
+      "05 Oct 1975",
+      "6"
+    ]
+  ]
+}

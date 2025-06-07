@@ -1,0 +1,21 @@
+{
+  "name": "Jack Aitken",
+  "driver_code": "JACAIT01",
+  "url": "https://www.formula1.com/en/results/2020/drivers/JACAIT01/jack-aitken",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Sakhir",
+      "06 Dec 2020",
+      "Williams Mercedes",
+      "16",
+      "0"
+    ]
+  ]
+}

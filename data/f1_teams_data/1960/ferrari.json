@@ -1,0 +1,62 @@
+{
+  "name": "Ferrari",
+  "team_code": "Ferrari",
+  "url": "https://www.formula1.com/en/results/1960/team/Ferrari",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "07 Feb 1960",
+      "6"
+    ],
+    [
+      "Monaco",
+      "29 May 1960",
+      "4"
+    ],
+    [
+      "Indianapolis",
+      "30 May 1960",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "06 Jun 1960",
+      "2"
+    ],
+    [
+      "Belgium",
+      "19 Jun 1960",
+      "3"
+    ],
+    [
+      "France",
+      "03 Jul 1960",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1960",
+      "1"
+    ],
+    [
+      "Portugal",
+      "14 Aug 1960",
+      "3"
+    ],
+    [
+      "Italy",
+      "04 Sep 1960",
+      "8"
+    ],
+    [
+      "United States",
+      "20 Nov 1960",
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "name": "Nelson Piquet",
+  "driver_code": "NELPIQ01",
+  "url": "https://www.formula1.com/en/results/1983/drivers/NELPIQ01/nelson-piquet",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Brazil",
+      "13 Mar 1983",
+      "Brabham BMW",
+      "1",
+      "9"
+    ],
+    [
+      "USA West",
+      "27 Mar 1983",
+      "Brabham BMW",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "17 Apr 1983",
+      "Brabham BMW",
+      "2",
+      "6"
+    ],
+    [
+      "San Marino",
+      "01 May 1983",
+      "Brabham BMW",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "15 May 1983",
+      "Brabham BMW",
+      "2",
+      "6"
+    ],
+    [
+      "Belgium",
+      "22 May 1983",
+      "Brabham BMW",
+      "4",
+      "3"
+    ],
+    [
+      "Detroit",
+      "05 Jun 1983",
+      "Brabham BMW",
+      "4",
+      "3"
+    ],
+    [
+      "Canada",
+      "12 Jun 1983",
+      "Brabham BMW",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1983",
+      "Brabham BMW",
+      "2",
+      "6"
+    ],
+    [
+      "Germany",
+      "07 Aug 1983",
+      "Brabham BMW",
+      "13",
+      "0"
+    ],
+    [
+      "Austria",
+      "14 Aug 1983",
+      "Brabham BMW",
+      "3",
+      "4"
+    ],
+    [
+      "Netherlands",
+      "28 Aug 1983",
+      "Brabham BMW",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "11 Sep 1983",
+      "Brabham BMW",
+      "1",
+      "9"
+    ],
+    [
+      "Europe",
+      "25 Sep 1983",
+      "Brabham BMW",
+      "1",
+      "9"
+    ],
+    [
+      "South Africa",
+      "15 Oct 1983",
+      "Brabham BMW",
+      "3",
+      "4"
+    ]
+  ]
+}

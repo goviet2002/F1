@@ -1,0 +1,49 @@
+{
+  "name": "Aguri Suzuki",
+  "driver_code": "AGUSUZ01",
+  "url": "https://www.formula1.com/en/results/1995/drivers/AGUSUZ01/aguri-suzuki",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Brazil",
+      "26 Mar 1995",
+      "Ligier Mugen Honda",
+      "8",
+      "0"
+    ],
+    [
+      "Argentina",
+      "09 Apr 1995",
+      "Ligier Mugen Honda",
+      "NC",
+      "0"
+    ],
+    [
+      "San Marino",
+      "30 Apr 1995",
+      "Ligier Mugen Honda",
+      "11",
+      "0"
+    ],
+    [
+      "Germany",
+      "30 Jul 1995",
+      "Ligier Mugen Honda",
+      "6",
+      "1"
+    ],
+    [
+      "Pacific",
+      "22 Oct 1995",
+      "Ligier Mugen Honda",
+      "DNF",
+      "0"
+    ]
+  ]
+}

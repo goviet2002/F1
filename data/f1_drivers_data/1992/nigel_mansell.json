@@ -1,0 +1,126 @@
+{
+  "name": "Nigel Mansell",
+  "driver_code": "NIGMAN01",
+  "url": "https://www.formula1.com/en/results/1992/drivers/NIGMAN01/nigel-mansell",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "01 Mar 1992",
+      "Williams Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Mexico",
+      "22 Mar 1992",
+      "Williams Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Brazil",
+      "05 Apr 1992",
+      "Williams Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Spain",
+      "03 May 1992",
+      "Williams Renault",
+      "1",
+      "10"
+    ],
+    [
+      "San Marino",
+      "17 May 1992",
+      "Williams Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Monaco",
+      "31 May 1992",
+      "Williams Renault",
+      "2",
+      "6"
+    ],
+    [
+      "Canada",
+      "14 Jun 1992",
+      "Williams Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "05 Jul 1992",
+      "Williams Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Great Britain",
+      "12 Jul 1992",
+      "Williams Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Germany",
+      "26 Jul 1992",
+      "Williams Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Hungary",
+      "16 Aug 1992",
+      "Williams Renault",
+      "2",
+      "6"
+    ],
+    [
+      "Belgium",
+      "30 Aug 1992",
+      "Williams Renault",
+      "2",
+      "6"
+    ],
+    [
+      "Italy",
+      "13 Sep 1992",
+      "Williams Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Portugal",
+      "27 Sep 1992",
+      "Williams Renault",
+      "1",
+      "10"
+    ],
+    [
+      "Japan",
+      "25 Oct 1992",
+      "Williams Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Australia",
+      "08 Nov 1992",
+      "Williams Renault",
+      "DNF",
+      "0"
+    ]
+  ]
+}

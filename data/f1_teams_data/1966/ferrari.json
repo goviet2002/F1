@@ -1,0 +1,57 @@
+{
+  "name": "Ferrari",
+  "team_code": "Ferrari",
+  "url": "https://www.formula1.com/en/results/1966/team/Ferrari",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "22 May 1966",
+      "6"
+    ],
+    [
+      "Belgium",
+      "12 Jun 1966",
+      "9"
+    ],
+    [
+      "France",
+      "03 Jul 1966",
+      "6"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1966",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "24 Jul 1966",
+      "1"
+    ],
+    [
+      "Germany",
+      "07 Aug 1966",
+      "1"
+    ],
+    [
+      "Italy",
+      "04 Sep 1966",
+      "9"
+    ],
+    [
+      "United States",
+      "02 Oct 1966",
+      "0"
+    ],
+    [
+      "Mexico",
+      "23 Oct 1966",
+      "0"
+    ]
+  ]
+}

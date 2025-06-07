@@ -1,0 +1,105 @@
+{
+  "name": "Jacques Laffite",
+  "driver_code": "JACLAF01",
+  "url": "https://www.formula1.com/en/results/1983/drivers/JACLAF01/jacques-laffite",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Brazil",
+      "13 Mar 1983",
+      "Williams Ford",
+      "4",
+      "3"
+    ],
+    [
+      "USA West",
+      "27 Mar 1983",
+      "Williams Ford",
+      "4",
+      "3"
+    ],
+    [
+      "France",
+      "17 Apr 1983",
+      "Williams Ford",
+      "6",
+      "1"
+    ],
+    [
+      "San Marino",
+      "01 May 1983",
+      "Williams Ford",
+      "7",
+      "0"
+    ],
+    [
+      "Monaco",
+      "15 May 1983",
+      "Williams Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "22 May 1983",
+      "Williams Ford",
+      "6",
+      "1"
+    ],
+    [
+      "Detroit",
+      "05 Jun 1983",
+      "Williams Ford",
+      "5",
+      "2"
+    ],
+    [
+      "Canada",
+      "12 Jun 1983",
+      "Williams Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1983",
+      "Williams Ford",
+      "12",
+      "0"
+    ],
+    [
+      "Germany",
+      "07 Aug 1983",
+      "Williams Ford",
+      "6",
+      "1"
+    ],
+    [
+      "Austria",
+      "14 Aug 1983",
+      "Williams Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "28 Aug 1983",
+      "Williams Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "South Africa",
+      "15 Oct 1983",
+      "Williams Honda",
+      "DNF",
+      "0"
+    ]
+  ]
+}

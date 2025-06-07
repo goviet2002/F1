@@ -1,0 +1,126 @@
+{
+  "name": "Patrick Depailler",
+  "driver_code": "PATDEP01",
+  "url": "https://www.formula1.com/en/results/1978/drivers/PATDEP01/patrick-depailler",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "15 Jan 1978",
+      "Tyrrell Ford",
+      "3",
+      "4"
+    ],
+    [
+      "Brazil",
+      "29 Jan 1978",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "South Africa",
+      "04 Mar 1978",
+      "Tyrrell Ford",
+      "2",
+      "6"
+    ],
+    [
+      "USA West",
+      "02 Apr 1978",
+      "Tyrrell Ford",
+      "3",
+      "4"
+    ],
+    [
+      "Monaco",
+      "07 May 1978",
+      "Tyrrell Ford",
+      "1",
+      "9"
+    ],
+    [
+      "Belgium",
+      "21 May 1978",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Spain",
+      "04 Jun 1978",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Sweden",
+      "17 Jun 1978",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "02 Jul 1978",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1978",
+      "Tyrrell Ford",
+      "4",
+      "3"
+    ],
+    [
+      "Germany",
+      "30 Jul 1978",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Austria",
+      "13 Aug 1978",
+      "Tyrrell Ford",
+      "2",
+      "6"
+    ],
+    [
+      "Netherlands",
+      "27 Aug 1978",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "10 Sep 1978",
+      "Tyrrell Ford",
+      "11",
+      "0"
+    ],
+    [
+      "USA East",
+      "01 Oct 1978",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "08 Oct 1978",
+      "Tyrrell Ford",
+      "5",
+      "2"
+    ]
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Cliff Allison",
+  "driver_code": "CLIALL01",
+  "url": "https://www.formula1.com/en/results/1958/drivers/CLIALL01/cliff-allison",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "18 May 1958",
+      "Lotus Climax",
+      "6",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "26 May 1958",
+      "Lotus Climax",
+      "6",
+      "0"
+    ],
+    [
+      "Belgium",
+      "15 Jun 1958",
+      "Lotus Climax",
+      "4",
+      "3"
+    ],
+    [
+      "France",
+      "06 Jul 1958",
+      "Lotus Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "19 Jul 1958",
+      "Lotus Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "03 Aug 1958",
+      "Lotus Climax",
+      "10",
+      "0"
+    ],
+    [
+      "Portugal",
+      "24 Aug 1958",
+      "Maserati",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "07 Sep 1958",
+      "Lotus Climax",
+      "7",
+      "0"
+    ],
+    [
+      "Morocco",
+      "19 Oct 1958",
+      "Lotus Climax",
+      "10",
+      "0"
+    ]
+  ]
+}

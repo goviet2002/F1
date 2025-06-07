@@ -1,0 +1,28 @@
+{
+  "name": "Luca Badoer",
+  "driver_code": "LUCBAD01",
+  "url": "https://www.formula1.com/en/results/2009/drivers/LUCBAD01/luca-badoer",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Europe",
+      "23 Aug 2009",
+      "Ferrari",
+      "17",
+      "0"
+    ],
+    [
+      "Belgium",
+      "30 Aug 2009",
+      "Ferrari",
+      "14",
+      "0"
+    ]
+  ]
+}

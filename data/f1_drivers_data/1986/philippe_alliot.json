@@ -1,0 +1,63 @@
+{
+  "name": "Philippe Alliot",
+  "driver_code": "PHIALL01",
+  "url": "https://www.formula1.com/en/results/1986/drivers/PHIALL01/philippe-alliot",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Germany",
+      "27 Jul 1986",
+      "Ligier Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Hungary",
+      "10 Aug 1986",
+      "Ligier Renault",
+      "9",
+      "0"
+    ],
+    [
+      "Austria",
+      "17 Aug 1986",
+      "Ligier Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "07 Sep 1986",
+      "Ligier Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Portugal",
+      "21 Sep 1986",
+      "Ligier Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Mexico",
+      "12 Oct 1986",
+      "Ligier Renault",
+      "6",
+      "1"
+    ],
+    [
+      "Australia",
+      "26 Oct 1986",
+      "Ligier Renault",
+      "8",
+      "0"
+    ]
+  ]
+}

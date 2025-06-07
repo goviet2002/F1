@@ -1,0 +1,117 @@
+{
+  "name": "Force India Mercedes",
+  "team_code": "Force-India-Mercedes",
+  "url": "https://www.formula1.com/en/results/2016/team/Force-India-Mercedes",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "20 Mar 2016",
+      "6"
+    ],
+    [
+      "Bahrain",
+      "03 Apr 2016",
+      "0"
+    ],
+    [
+      "China",
+      "17 Apr 2016",
+      "0"
+    ],
+    [
+      "Russia",
+      "01 May 2016",
+      "2"
+    ],
+    [
+      "Spain",
+      "15 May 2016",
+      "6"
+    ],
+    [
+      "Monaco",
+      "29 May 2016",
+      "23"
+    ],
+    [
+      "Canada",
+      "12 Jun 2016",
+      "5"
+    ],
+    [
+      "Europe",
+      "19 Jun 2016",
+      "17"
+    ],
+    [
+      "Austria",
+      "03 Jul 2016",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "10 Jul 2016",
+      "14"
+    ],
+    [
+      "Hungary",
+      "24 Jul 2016",
+      "1"
+    ],
+    [
+      "Germany",
+      "31 Jul 2016",
+      "7"
+    ],
+    [
+      "Belgium",
+      "28 Aug 2016",
+      "22"
+    ],
+    [
+      "Italy",
+      "04 Sep 2016",
+      "5"
+    ],
+    [
+      "Singapore",
+      "18 Sep 2016",
+      "4"
+    ],
+    [
+      "Malaysia",
+      "02 Oct 2016",
+      "12"
+    ],
+    [
+      "Japan",
+      "09 Oct 2016",
+      "10"
+    ],
+    [
+      "United States",
+      "23 Oct 2016",
+      "4"
+    ],
+    [
+      "Mexico",
+      "30 Oct 2016",
+      "7"
+    ],
+    [
+      "Brazil",
+      "13 Nov 2016",
+      "18"
+    ],
+    [
+      "Abu Dhabi",
+      "27 Nov 2016",
+      "10"
+    ]
+  ]
+}

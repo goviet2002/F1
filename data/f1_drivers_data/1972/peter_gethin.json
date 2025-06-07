@@ -1,0 +1,84 @@
+{
+  "name": "Peter Gethin",
+  "driver_code": "PETGET01",
+  "url": "https://www.formula1.com/en/results/1972/drivers/PETGET01/peter-gethin",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "23 Jan 1972",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "South Africa",
+      "04 Mar 1972",
+      "BRM",
+      "DNC",
+      "0"
+    ],
+    [
+      "Spain",
+      "01 May 1972",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "14 May 1972",
+      "BRM",
+      "DSQ",
+      "0"
+    ],
+    [
+      "Belgium",
+      "04 Jun 1972",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "15 Jul 1972",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Austria",
+      "13 Aug 1972",
+      "BRM",
+      "13",
+      "0"
+    ],
+    [
+      "Italy",
+      "10 Sep 1972",
+      "BRM",
+      "6",
+      "1"
+    ],
+    [
+      "Canada",
+      "24 Sep 1972",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "United States",
+      "08 Oct 1972",
+      "BRM",
+      "DNF",
+      "0"
+    ]
+  ]
+}

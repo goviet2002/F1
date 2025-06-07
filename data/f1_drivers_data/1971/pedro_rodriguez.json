@@ -1,0 +1,49 @@
+{
+  "name": "Pedro Rodriguez",
+  "driver_code": "PEDROD01",
+  "url": "https://www.formula1.com/en/results/1971/drivers/PEDROD01/pedro-rodriguez",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "06 Mar 1971",
+      "BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Spain",
+      "18 Apr 1971",
+      "BRM",
+      "4",
+      "3"
+    ],
+    [
+      "Monaco",
+      "23 May 1971",
+      "BRM",
+      "9",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "20 Jun 1971",
+      "BRM",
+      "2",
+      "6"
+    ],
+    [
+      "France",
+      "04 Jul 1971",
+      "BRM",
+      "DNF",
+      "0"
+    ]
+  ]
+}

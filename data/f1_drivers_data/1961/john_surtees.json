@@ -1,0 +1,70 @@
+{
+  "name": "John Surtees",
+  "driver_code": "JOHSUR01",
+  "url": "https://www.formula1.com/en/results/1961/drivers/JOHSUR01/john-surtees",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "14 May 1961",
+      "Cooper Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "22 May 1961",
+      "Cooper Climax",
+      "7",
+      "0"
+    ],
+    [
+      "Belgium",
+      "18 Jun 1961",
+      "Cooper Climax",
+      "5",
+      "2"
+    ],
+    [
+      "France",
+      "02 Jul 1961",
+      "Cooper Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "15 Jul 1961",
+      "Cooper Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "06 Aug 1961",
+      "Cooper Climax",
+      "5",
+      "2"
+    ],
+    [
+      "Italy",
+      "10 Sep 1961",
+      "Cooper Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "United States",
+      "08 Oct 1961",
+      "Cooper Climax",
+      "DNF",
+      "0"
+    ]
+  ]
+}

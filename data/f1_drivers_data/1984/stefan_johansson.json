@@ -1,0 +1,35 @@
+{
+  "name": "Stefan Johansson",
+  "driver_code": "STEJOH01",
+  "url": "https://www.formula1.com/en/results/1984/drivers/STEJOH01/stefan-johansson",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Italy",
+      "09 Sep 1984",
+      "Toleman Hart",
+      "4",
+      "3"
+    ],
+    [
+      "Europe",
+      "07 Oct 1984",
+      "Toleman Hart",
+      "DNF",
+      "0"
+    ],
+    [
+      "Portugal",
+      "21 Oct 1984",
+      "Toleman Hart",
+      "11",
+      "0"
+    ]
+  ]
+}

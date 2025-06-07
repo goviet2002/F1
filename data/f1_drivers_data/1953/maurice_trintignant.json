@@ -1,0 +1,70 @@
+{
+  "name": "Maurice Trintignant",
+  "driver_code": "MAUTRI01",
+  "url": "https://www.formula1.com/en/results/1953/drivers/MAUTRI01/maurice-trintignant",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "18 Jan 1953",
+      "Gordini",
+      "SHC",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "07 Jun 1953",
+      "Gordini",
+      "6",
+      "0"
+    ],
+    [
+      "Belgium",
+      "21 Jun 1953",
+      "Gordini",
+      "5",
+      "2"
+    ],
+    [
+      "France",
+      "05 Jul 1953",
+      "Gordini",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "18 Jul 1953",
+      "Gordini",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "02 Aug 1953",
+      "Gordini",
+      "DNF",
+      "0"
+    ],
+    [
+      "Switzerland",
+      "23 Aug 1953",
+      "Gordini",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "13 Sep 1953",
+      "Gordini",
+      "5",
+      "2"
+    ]
+  ]
+}

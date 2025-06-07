@@ -1,0 +1,35 @@
+{
+  "name": "Maurice Trintignant",
+  "driver_code": "MAUTRI01",
+  "url": "https://www.formula1.com/en/results/1957/drivers/MAUTRI01/maurice-trintignant",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "19 May 1957",
+      "Ferrari",
+      "5",
+      "2"
+    ],
+    [
+      "France",
+      "07 Jul 1957",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "20 Jul 1957",
+      "Ferrari",
+      "SHC",
+      "3"
+    ]
+  ]
+}

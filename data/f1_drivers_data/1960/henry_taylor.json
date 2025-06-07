@@ -1,0 +1,42 @@
+{
+  "name": "Henry Taylor",
+  "driver_code": "HENTAY01",
+  "url": "https://www.formula1.com/en/results/1960/drivers/HENTAY01/henry-taylor",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Netherlands",
+      "06 Jun 1960",
+      "Cooper Climax",
+      "7",
+      "0"
+    ],
+    [
+      "France",
+      "03 Jul 1960",
+      "Cooper Climax",
+      "4",
+      "3"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1960",
+      "Cooper Climax",
+      "8",
+      "0"
+    ],
+    [
+      "United States",
+      "20 Nov 1960",
+      "Cooper Climax",
+      "14",
+      "0"
+    ]
+  ]
+}

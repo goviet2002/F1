@@ -1,0 +1,21 @@
+{
+  "name": "Jose Froilan Gonzalez",
+  "driver_code": "JOSGON01",
+  "url": "https://www.formula1.com/en/results/1957/drivers/JOSGON01/jose-froilan-gonzalez",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "13 Jan 1957",
+      "Ferrari",
+      "SHC",
+      "1"
+    ]
+  ]
+}

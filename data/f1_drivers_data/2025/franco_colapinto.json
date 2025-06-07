@@ -1,0 +1,35 @@
+{
+  "name": "Franco Colapinto",
+  "driver_code": "FRACOL01",
+  "url": "https://www.formula1.com/en/results/2025/drivers/FRACOL01/franco-colapinto",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Emilia-Romagna",
+      "18 May 2025",
+      "Alpine Renault",
+      "16",
+      "0"
+    ],
+    [
+      "Monaco",
+      "25 May 2025",
+      "Alpine Renault",
+      "13",
+      "0"
+    ],
+    [
+      "Spain",
+      "01 Jun 2025",
+      "Alpine Renault",
+      "15",
+      "0"
+    ]
+  ]
+}

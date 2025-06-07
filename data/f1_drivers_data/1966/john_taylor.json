@@ -1,0 +1,42 @@
+{
+  "name": "John Taylor",
+  "driver_code": "JOHTAY01",
+  "url": "https://www.formula1.com/en/results/1966/drivers/JOHTAY01/john-taylor",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "France",
+      "03 Jul 1966",
+      "Brabham BRM",
+      "6",
+      "1"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1966",
+      "Brabham BRM",
+      "8",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "24 Jul 1966",
+      "Brabham BRM",
+      "8",
+      "0"
+    ],
+    [
+      "Germany",
+      "07 Aug 1966",
+      "Brabham BRM",
+      "DNF",
+      "0"
+    ]
+  ]
+}

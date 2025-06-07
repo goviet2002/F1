@@ -1,0 +1,21 @@
+{
+  "name": "Mike Nazaruk",
+  "driver_code": "MIKNAZ01",
+  "url": "https://www.formula1.com/en/results/1954/drivers/MIKNAZ01/mike-nazaruk",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Indianapolis",
+      "31 May 1954",
+      "Kurtis Kraft Offenhauser",
+      "5",
+      "2"
+    ]
+  ]
+}

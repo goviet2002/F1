@@ -1,0 +1,77 @@
+{
+  "name": "Roy Salvadori",
+  "driver_code": "ROYSAL01",
+  "url": "https://www.formula1.com/en/results/1958/drivers/ROYSAL01/roy-salvadori",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "18 May 1958",
+      "Cooper Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "26 May 1958",
+      "Cooper Climax",
+      "4",
+      "3"
+    ],
+    [
+      "Belgium",
+      "15 Jun 1958",
+      "Cooper Climax",
+      "8",
+      "0"
+    ],
+    [
+      "France",
+      "06 Jul 1958",
+      "Cooper Climax",
+      "11",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "19 Jul 1958",
+      "Cooper Climax",
+      "3",
+      "4"
+    ],
+    [
+      "Germany",
+      "03 Aug 1958",
+      "Cooper Climax",
+      "2",
+      "6"
+    ],
+    [
+      "Portugal",
+      "24 Aug 1958",
+      "Cooper Climax",
+      "9",
+      "0"
+    ],
+    [
+      "Italy",
+      "07 Sep 1958",
+      "Cooper Climax",
+      "5",
+      "2"
+    ],
+    [
+      "Morocco",
+      "19 Oct 1958",
+      "Cooper Climax",
+      "7",
+      "0"
+    ]
+  ]
+}

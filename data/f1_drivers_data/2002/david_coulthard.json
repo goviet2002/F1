@@ -1,0 +1,133 @@
+{
+  "name": "David Coulthard",
+  "driver_code": "DAVCOU01",
+  "url": "https://www.formula1.com/en/results/2002/drivers/DAVCOU01/david-coulthard",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "03 Mar 2002",
+      "McLaren Mercedes",
+      "DNF",
+      "0"
+    ],
+    [
+      "Malaysia",
+      "17 Mar 2002",
+      "McLaren Mercedes",
+      "DNF",
+      "0"
+    ],
+    [
+      "Brazil",
+      "31 Mar 2002",
+      "McLaren Mercedes",
+      "3",
+      "4"
+    ],
+    [
+      "San Marino",
+      "14 Apr 2002",
+      "McLaren Mercedes",
+      "6",
+      "1"
+    ],
+    [
+      "Spain",
+      "28 Apr 2002",
+      "McLaren Mercedes",
+      "3",
+      "4"
+    ],
+    [
+      "Austria",
+      "12 May 2002",
+      "McLaren Mercedes",
+      "6",
+      "1"
+    ],
+    [
+      "Monaco",
+      "26 May 2002",
+      "McLaren Mercedes",
+      "1",
+      "10"
+    ],
+    [
+      "Canada",
+      "09 Jun 2002",
+      "McLaren Mercedes",
+      "2",
+      "6"
+    ],
+    [
+      "Europe",
+      "23 Jun 2002",
+      "McLaren Mercedes",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "07 Jul 2002",
+      "McLaren Mercedes",
+      "10",
+      "0"
+    ],
+    [
+      "France",
+      "21 Jul 2002",
+      "McLaren Mercedes",
+      "3",
+      "4"
+    ],
+    [
+      "Germany",
+      "28 Jul 2002",
+      "McLaren Mercedes",
+      "5",
+      "2"
+    ],
+    [
+      "Hungary",
+      "18 Aug 2002",
+      "McLaren Mercedes",
+      "5",
+      "2"
+    ],
+    [
+      "Belgium",
+      "01 Sep 2002",
+      "McLaren Mercedes",
+      "4",
+      "3"
+    ],
+    [
+      "Italy",
+      "15 Sep 2002",
+      "McLaren Mercedes",
+      "7",
+      "0"
+    ],
+    [
+      "United States",
+      "29 Sep 2002",
+      "McLaren Mercedes",
+      "3",
+      "4"
+    ],
+    [
+      "Japan",
+      "13 Oct 2002",
+      "McLaren Mercedes",
+      "DNF",
+      "0"
+    ]
+  ]
+}

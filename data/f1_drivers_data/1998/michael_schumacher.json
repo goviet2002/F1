@@ -1,0 +1,126 @@
+{
+  "name": "Michael Schumacher",
+  "driver_code": "MICSCH01",
+  "url": "https://www.formula1.com/en/results/1998/drivers/MICSCH01/michael-schumacher",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "08 Mar 1998",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Brazil",
+      "29 Mar 1998",
+      "Ferrari",
+      "3",
+      "4"
+    ],
+    [
+      "Argentina",
+      "12 Apr 1998",
+      "Ferrari",
+      "1",
+      "10"
+    ],
+    [
+      "San Marino",
+      "26 Apr 1998",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "Spain",
+      "10 May 1998",
+      "Ferrari",
+      "3",
+      "4"
+    ],
+    [
+      "Monaco",
+      "24 May 1998",
+      "Ferrari",
+      "10",
+      "0"
+    ],
+    [
+      "Canada",
+      "07 Jun 1998",
+      "Ferrari",
+      "1",
+      "10"
+    ],
+    [
+      "France",
+      "28 Jun 1998",
+      "Ferrari",
+      "1",
+      "10"
+    ],
+    [
+      "Great Britain",
+      "12 Jul 1998",
+      "Ferrari",
+      "1",
+      "10"
+    ],
+    [
+      "Austria",
+      "26 Jul 1998",
+      "Ferrari",
+      "3",
+      "4"
+    ],
+    [
+      "Germany",
+      "02 Aug 1998",
+      "Ferrari",
+      "5",
+      "2"
+    ],
+    [
+      "Hungary",
+      "16 Aug 1998",
+      "Ferrari",
+      "1",
+      "10"
+    ],
+    [
+      "Belgium",
+      "30 Aug 1998",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "13 Sep 1998",
+      "Ferrari",
+      "1",
+      "10"
+    ],
+    [
+      "Luxembourg",
+      "27 Sep 1998",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "Japan",
+      "01 Nov 1998",
+      "Ferrari",
+      "DNF",
+      "0"
+    ]
+  ]
+}

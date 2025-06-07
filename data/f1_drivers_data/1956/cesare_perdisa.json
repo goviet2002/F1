@@ -1,0 +1,42 @@
+{
+  "name": "Cesare Perdisa",
+  "driver_code": "CESPER01",
+  "url": "https://www.formula1.com/en/results/1956/drivers/CESPER01/cesare-perdisa",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "13 May 1956",
+      "Maserati",
+      "7",
+      "0"
+    ],
+    [
+      "Belgium",
+      "03 Jun 1956",
+      "Maserati",
+      "SHC",
+      "2"
+    ],
+    [
+      "France",
+      "01 Jul 1956",
+      "Maserati",
+      "SHC",
+      "1"
+    ],
+    [
+      "Great Britain",
+      "14 Jul 1956",
+      "Maserati",
+      "7",
+      "0"
+    ]
+  ]
+}

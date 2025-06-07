@@ -1,0 +1,70 @@
+{
+  "name": "Mike Spence",
+  "driver_code": "MIKSPE01",
+  "url": "https://www.formula1.com/en/results/1966/drivers/MIKSPE01/mike-spence",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "22 May 1966",
+      "Lotus BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "12 Jun 1966",
+      "Lotus BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "03 Jul 1966",
+      "Lotus BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1966",
+      "Lotus BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "24 Jul 1966",
+      "Lotus BRM",
+      "5",
+      "2"
+    ],
+    [
+      "Germany",
+      "07 Aug 1966",
+      "Lotus BRM",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "04 Sep 1966",
+      "Lotus BRM",
+      "5",
+      "2"
+    ],
+    [
+      "United States",
+      "02 Oct 1966",
+      "Lotus BRM",
+      "DNF",
+      "0"
+    ]
+  ]
+}

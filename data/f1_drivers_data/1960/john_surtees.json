@@ -1,0 +1,42 @@
+{
+  "name": "John Surtees",
+  "driver_code": "JOHSUR01",
+  "url": "https://www.formula1.com/en/results/1960/drivers/JOHSUR01/john-surtees",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "29 May 1960",
+      "Lotus Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1960",
+      "Lotus Climax",
+      "2",
+      "6"
+    ],
+    [
+      "Portugal",
+      "14 Aug 1960",
+      "Lotus Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "United States",
+      "20 Nov 1960",
+      "Lotus Climax",
+      "DNF",
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Philippe Etancelin",
+  "driver_code": "PHIETA01",
+  "url": "https://www.formula1.com/en/results/1950/drivers/PHIETA01/philippe-etancelin",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Great Britain",
+      "13 May 1950",
+      "Talbot-Lago",
+      "8",
+      "0"
+    ],
+    [
+      "Monaco",
+      "21 May 1950",
+      "Talbot-Lago",
+      "DNF",
+      "0"
+    ],
+    [
+      "Switzerland",
+      "04 Jun 1950",
+      "Talbot-Lago",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "18 Jun 1950",
+      "Talbot-Lago",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "02 Jul 1950",
+      "Talbot-Lago",
+      "SHC",
+      "1"
+    ],
+    [
+      "Italy",
+      "03 Sep 1950",
+      "Talbot-Lago",
+      "5",
+      "2"
+    ]
+  ]
+}

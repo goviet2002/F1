@@ -1,0 +1,122 @@
+{
+  "name": "Red Bull Racing Honda",
+  "team_code": "Red-Bull-Racing-Honda",
+  "url": "https://www.formula1.com/en/results/2021/team/Red-Bull-Racing-Honda",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Bahrain",
+      "28 Mar 2021",
+      "28"
+    ],
+    [
+      "Emilia-Romagna",
+      "18 Apr 2021",
+      "25"
+    ],
+    [
+      "Portugal",
+      "02 May 2021",
+      "30"
+    ],
+    [
+      "Spain",
+      "09 May 2021",
+      "29"
+    ],
+    [
+      "Monaco",
+      "23 May 2021",
+      "37"
+    ],
+    [
+      "Azerbaijan",
+      "06 Jun 2021",
+      "25"
+    ],
+    [
+      "France",
+      "20 Jun 2021",
+      "41"
+    ],
+    [
+      "Styria",
+      "27 Jun 2021",
+      "37"
+    ],
+    [
+      "Austria",
+      "04 Jul 2021",
+      "34"
+    ],
+    [
+      "Great Britain",
+      "18 Jul 2021",
+      "3"
+    ],
+    [
+      "Hungary",
+      "01 Aug 2021",
+      "2"
+    ],
+    [
+      "Belgium",
+      "29 Aug 2021",
+      "12.5"
+    ],
+    [
+      "Netherlands",
+      "05 Sep 2021",
+      "29"
+    ],
+    [
+      "Italy",
+      "12 Sep 2021",
+      "12"
+    ],
+    [
+      "Russia",
+      "26 Sep 2021",
+      "20"
+    ],
+    [
+      "Turkey",
+      "10 Oct 2021",
+      "33"
+    ],
+    [
+      "United States",
+      "24 Oct 2021",
+      "40"
+    ],
+    [
+      "Mexico",
+      "07 Nov 2021",
+      "40"
+    ],
+    [
+      "Brazil",
+      "14 Nov 2021",
+      "33"
+    ],
+    [
+      "Qatar",
+      "21 Nov 2021",
+      "31"
+    ],
+    [
+      "Saudi Arabia",
+      "05 Dec 2021",
+      "18"
+    ],
+    [
+      "Abu Dhabi",
+      "12 Dec 2021",
+      "26"
+    ]
+  ]
+}

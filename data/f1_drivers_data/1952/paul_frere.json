@@ -1,0 +1,35 @@
+{
+  "name": "Paul Frere",
+  "driver_code": "PAUFRE01",
+  "url": "https://www.formula1.com/en/results/1952/drivers/PAUFRE01/paul-frere",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Belgium",
+      "22 Jun 1952",
+      "HWM Alta",
+      "5",
+      "2"
+    ],
+    [
+      "Germany",
+      "03 Aug 1952",
+      "HWM Alta",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "17 Aug 1952",
+      "Simca-Gordini",
+      "DNF",
+      "0"
+    ]
+  ]
+}

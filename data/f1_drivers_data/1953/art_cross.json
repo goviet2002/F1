@@ -1,0 +1,21 @@
+{
+  "name": "Art Cross",
+  "driver_code": "ARTCRO01",
+  "url": "https://www.formula1.com/en/results/1953/drivers/ARTCRO01/art-cross",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Indianapolis",
+      "30 May 1953",
+      "Kurtis Kraft Offenhauser",
+      "2",
+      "6"
+    ]
+  ]
+}

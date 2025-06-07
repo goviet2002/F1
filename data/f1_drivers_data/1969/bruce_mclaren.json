@@ -1,0 +1,77 @@
+{
+  "name": "Bruce McLaren",
+  "driver_code": "BRUMCL01",
+  "url": "https://www.formula1.com/en/results/1969/drivers/BRUMCL01/bruce-mc-laren",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "01 Mar 1969",
+      "McLaren Ford",
+      "5",
+      "2"
+    ],
+    [
+      "Spain",
+      "04 May 1969",
+      "McLaren Ford",
+      "2",
+      "6"
+    ],
+    [
+      "Monaco",
+      "18 May 1969",
+      "McLaren Ford",
+      "5",
+      "2"
+    ],
+    [
+      "Netherlands",
+      "21 Jun 1969",
+      "McLaren Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "06 Jul 1969",
+      "McLaren Ford",
+      "4",
+      "3"
+    ],
+    [
+      "Great Britain",
+      "19 Jul 1969",
+      "McLaren Ford",
+      "3",
+      "4"
+    ],
+    [
+      "Germany",
+      "03 Aug 1969",
+      "McLaren Ford",
+      "3",
+      "4"
+    ],
+    [
+      "Italy",
+      "07 Sep 1969",
+      "McLaren Ford",
+      "4",
+      "3"
+    ],
+    [
+      "Canada",
+      "20 Sep 1969",
+      "McLaren Ford",
+      "5",
+      "2"
+    ]
+  ]
+}

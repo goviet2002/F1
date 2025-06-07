@@ -1,0 +1,21 @@
+{
+  "name": "Walt Hansgen",
+  "driver_code": "WALHAN01",
+  "url": "https://www.formula1.com/en/results/1964/drivers/WALHAN01/walt-hansgen",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "United States",
+      "04 Oct 1964",
+      "Lotus Climax",
+      "5",
+      "2"
+    ]
+  ]
+}

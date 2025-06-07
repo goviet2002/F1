@@ -1,0 +1,133 @@
+{
+  "name": "Mario Andretti",
+  "driver_code": "MARAND01",
+  "url": "https://www.formula1.com/en/results/1977/drivers/MARAND01/mario-andretti",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "09 Jan 1977",
+      "Lotus Ford",
+      "DNF",
+      "2"
+    ],
+    [
+      "Brazil",
+      "23 Jan 1977",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "South Africa",
+      "05 Mar 1977",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "USA West",
+      "03 Apr 1977",
+      "Lotus Ford",
+      "1",
+      "9"
+    ],
+    [
+      "Spain",
+      "08 May 1977",
+      "Lotus Ford",
+      "1",
+      "9"
+    ],
+    [
+      "Monaco",
+      "22 May 1977",
+      "Lotus Ford",
+      "5",
+      "2"
+    ],
+    [
+      "Belgium",
+      "05 Jun 1977",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Sweden",
+      "19 Jun 1977",
+      "Lotus Ford",
+      "6",
+      "1"
+    ],
+    [
+      "France",
+      "03 Jul 1977",
+      "Lotus Ford",
+      "1",
+      "9"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1977",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "31 Jul 1977",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Austria",
+      "14 Aug 1977",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "28 Aug 1977",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "11 Sep 1977",
+      "Lotus Ford",
+      "1",
+      "9"
+    ],
+    [
+      "USA East",
+      "02 Oct 1977",
+      "Lotus Ford",
+      "2",
+      "6"
+    ],
+    [
+      "Canada",
+      "09 Oct 1977",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Japan",
+      "23 Oct 1977",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Karl Wendlinger",
+  "driver_code": "KARWEN01",
+  "url": "https://www.formula1.com/en/results/1992/drivers/KARWEN01/karl-wendlinger",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "01 Mar 1992",
+      "March Ilmor",
+      "DNF",
+      "0"
+    ],
+    [
+      "Brazil",
+      "05 Apr 1992",
+      "March Ilmor",
+      "DNF",
+      "0"
+    ],
+    [
+      "Spain",
+      "03 May 1992",
+      "March Ilmor",
+      "8",
+      "0"
+    ],
+    [
+      "San Marino",
+      "17 May 1992",
+      "March Ilmor",
+      "12",
+      "0"
+    ],
+    [
+      "Monaco",
+      "31 May 1992",
+      "March Ilmor",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "14 Jun 1992",
+      "March Ilmor",
+      "4",
+      "3"
+    ],
+    [
+      "France",
+      "05 Jul 1992",
+      "March Ilmor",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "12 Jul 1992",
+      "March Ilmor",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "26 Jul 1992",
+      "March Ilmor",
+      "16",
+      "0"
+    ],
+    [
+      "Hungary",
+      "16 Aug 1992",
+      "March Ilmor",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "30 Aug 1992",
+      "March Ilmor",
+      "11",
+      "0"
+    ],
+    [
+      "Italy",
+      "13 Sep 1992",
+      "March Ilmor",
+      "10",
+      "0"
+    ],
+    [
+      "Portugal",
+      "27 Sep 1992",
+      "March Ilmor",
+      "DNF",
+      "0"
+    ]
+  ]
+}

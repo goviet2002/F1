@@ -1,0 +1,119 @@
+{
+  "name": "Emerson Fittipaldi",
+  "driver_code": "EMEFIT01",
+  "url": "https://www.formula1.com/en/results/1976/drivers/EMEFIT01/emerson-fittipaldi",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Brazil",
+      "25 Jan 1976",
+      "Fittipaldi Ford",
+      "13",
+      "0"
+    ],
+    [
+      "South Africa",
+      "06 Mar 1976",
+      "Fittipaldi Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "USA West",
+      "28 Mar 1976",
+      "Fittipaldi Ford",
+      "6",
+      "1"
+    ],
+    [
+      "Spain",
+      "02 May 1976",
+      "Fittipaldi Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "30 May 1976",
+      "Fittipaldi Ford",
+      "6",
+      "1"
+    ],
+    [
+      "Sweden",
+      "13 Jun 1976",
+      "Fittipaldi Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "04 Jul 1976",
+      "Fittipaldi Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "18 Jul 1976",
+      "Fittipaldi Ford",
+      "6",
+      "1"
+    ],
+    [
+      "Germany",
+      "01 Aug 1976",
+      "Fittipaldi Ford",
+      "13",
+      "0"
+    ],
+    [
+      "Austria",
+      "15 Aug 1976",
+      "Fittipaldi Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "29 Aug 1976",
+      "Fittipaldi Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "12 Sep 1976",
+      "Fittipaldi Ford",
+      "15",
+      "0"
+    ],
+    [
+      "Canada",
+      "03 Oct 1976",
+      "Fittipaldi Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "USA East",
+      "10 Oct 1976",
+      "Fittipaldi Ford",
+      "9",
+      "0"
+    ],
+    [
+      "Japan",
+      "24 Oct 1976",
+      "Fittipaldi Ford",
+      "DNF",
+      "0"
+    ]
+  ]
+}

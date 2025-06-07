@@ -1,0 +1,87 @@
+{
+  "name": "Renault",
+  "team_code": "Renault",
+  "url": "https://www.formula1.com/en/results/1983/team/Renault",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Brazil",
+      "13 Mar 1983",
+      "0"
+    ],
+    [
+      "USA West",
+      "27 Mar 1983",
+      "0"
+    ],
+    [
+      "France",
+      "17 Apr 1983",
+      "13"
+    ],
+    [
+      "San Marino",
+      "01 May 1983",
+      "6"
+    ],
+    [
+      "Monaco",
+      "15 May 1983",
+      "4"
+    ],
+    [
+      "Belgium",
+      "22 May 1983",
+      "13"
+    ],
+    [
+      "Detroit",
+      "05 Jun 1983",
+      "0"
+    ],
+    [
+      "Canada",
+      "12 Jun 1983",
+      "8"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1983",
+      "9"
+    ],
+    [
+      "Germany",
+      "07 Aug 1983",
+      "3"
+    ],
+    [
+      "Austria",
+      "14 Aug 1983",
+      "12"
+    ],
+    [
+      "Netherlands",
+      "28 Aug 1983",
+      "0"
+    ],
+    [
+      "Italy",
+      "11 Sep 1983",
+      "4"
+    ],
+    [
+      "Europe",
+      "25 Sep 1983",
+      "6"
+    ],
+    [
+      "South Africa",
+      "15 Oct 1983",
+      "1"
+    ]
+  ]
+}

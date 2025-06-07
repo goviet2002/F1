@@ -1,0 +1,28 @@
+{
+  "name": "Carlos Reutemann",
+  "driver_code": "CARREU01",
+  "url": "https://www.formula1.com/en/results/1982/drivers/CARREU01/carlos-reutemann",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "23 Jan 1982",
+      "Williams Ford",
+      "2",
+      "6"
+    ],
+    [
+      "Brazil",
+      "21 Mar 1982",
+      "Williams Ford",
+      "DNF",
+      "0"
+    ]
+  ]
+}

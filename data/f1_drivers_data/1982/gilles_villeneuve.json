@@ -1,0 +1,42 @@
+{
+  "name": "Gilles Villeneuve",
+  "driver_code": "GILVIL01",
+  "url": "https://www.formula1.com/en/results/1982/drivers/GILVIL01/gilles-villeneuve",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "23 Jan 1982",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Brazil",
+      "21 Mar 1982",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "USA West",
+      "04 Apr 1982",
+      "Ferrari",
+      "DSQ",
+      "0"
+    ],
+    [
+      "San Marino",
+      "25 Apr 1982",
+      "Ferrari",
+      "2",
+      "6"
+    ]
+  ]
+}

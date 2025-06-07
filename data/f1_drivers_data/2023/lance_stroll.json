@@ -1,0 +1,161 @@
+{
+  "name": "Lance Stroll",
+  "driver_code": "LANSTR01",
+  "url": "https://www.formula1.com/en/results/2023/drivers/LANSTR01/lance-stroll",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Bahrain",
+      "05 Mar 2023",
+      "Aston Martin Aramco Mercedes",
+      "6",
+      "8"
+    ],
+    [
+      "Saudi Arabia",
+      "19 Mar 2023",
+      "Aston Martin Aramco Mercedes",
+      "DNF",
+      "0"
+    ],
+    [
+      "Australia",
+      "02 Apr 2023",
+      "Aston Martin Aramco Mercedes",
+      "4",
+      "12"
+    ],
+    [
+      "Azerbaijan",
+      "30 Apr 2023",
+      "Aston Martin Aramco Mercedes",
+      "7",
+      "7"
+    ],
+    [
+      "Miami",
+      "07 May 2023",
+      "Aston Martin Aramco Mercedes",
+      "12",
+      "0"
+    ],
+    [
+      "Monaco",
+      "28 May 2023",
+      "Aston Martin Aramco Mercedes",
+      "DNF",
+      "0"
+    ],
+    [
+      "Spain",
+      "04 Jun 2023",
+      "Aston Martin Aramco Mercedes",
+      "6",
+      "8"
+    ],
+    [
+      "Canada",
+      "18 Jun 2023",
+      "Aston Martin Aramco Mercedes",
+      "9",
+      "2"
+    ],
+    [
+      "Austria",
+      "02 Jul 2023",
+      "Aston Martin Aramco Mercedes",
+      "9",
+      "7"
+    ],
+    [
+      "Great Britain",
+      "09 Jul 2023",
+      "Aston Martin Aramco Mercedes",
+      "14",
+      "0"
+    ],
+    [
+      "Hungary",
+      "23 Jul 2023",
+      "Aston Martin Aramco Mercedes",
+      "10",
+      "1"
+    ],
+    [
+      "Belgium",
+      "30 Jul 2023",
+      "Aston Martin Aramco Mercedes",
+      "9",
+      "2"
+    ],
+    [
+      "Netherlands",
+      "27 Aug 2023",
+      "Aston Martin Aramco Mercedes",
+      "11",
+      "0"
+    ],
+    [
+      "Italy",
+      "03 Sep 2023",
+      "Aston Martin Aramco Mercedes",
+      "16",
+      "0"
+    ],
+    [
+      "Japan",
+      "24 Sep 2023",
+      "Aston Martin Aramco Mercedes",
+      "DNF",
+      "0"
+    ],
+    [
+      "Qatar",
+      "08 Oct 2023",
+      "Aston Martin Aramco Mercedes",
+      "11",
+      "0"
+    ],
+    [
+      "United States",
+      "22 Oct 2023",
+      "Aston Martin Aramco Mercedes",
+      "7",
+      "6"
+    ],
+    [
+      "Mexico",
+      "29 Oct 2023",
+      "Aston Martin Aramco Mercedes",
+      "DNF",
+      "0"
+    ],
+    [
+      "Brazil",
+      "05 Nov 2023",
+      "Aston Martin Aramco Mercedes",
+      "5",
+      "10"
+    ],
+    [
+      "Las Vegas",
+      "18 Nov 2023",
+      "Aston Martin Aramco Mercedes",
+      "5",
+      "10"
+    ],
+    [
+      "Abu Dhabi",
+      "26 Nov 2023",
+      "Aston Martin Aramco Mercedes",
+      "10",
+      "1"
+    ]
+  ]
+}

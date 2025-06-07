@@ -1,0 +1,82 @@
+{
+  "name": "Arrows Ford",
+  "team_code": "Arrows-Ford",
+  "url": "https://www.formula1.com/en/results/1980/team/Arrows-Ford",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "13 Jan 1980",
+      "0"
+    ],
+    [
+      "Brazil",
+      "27 Jan 1980",
+      "1"
+    ],
+    [
+      "South Africa",
+      "01 Mar 1980",
+      "1"
+    ],
+    [
+      "USA West",
+      "30 Mar 1980",
+      "6"
+    ],
+    [
+      "Belgium",
+      "04 May 1980",
+      "0"
+    ],
+    [
+      "Monaco",
+      "18 May 1980",
+      "3"
+    ],
+    [
+      "France",
+      "29 Jun 1980",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "13 Jul 1980",
+      "0"
+    ],
+    [
+      "Germany",
+      "10 Aug 1980",
+      "0"
+    ],
+    [
+      "Austria",
+      "17 Aug 1980",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "31 Aug 1980",
+      "0"
+    ],
+    [
+      "Italy",
+      "14 Sep 1980",
+      "0"
+    ],
+    [
+      "Canada",
+      "28 Sep 1980",
+      "0"
+    ],
+    [
+      "USA East",
+      "05 Oct 1980",
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Lance Stroll",
+  "driver_code": "LANSTR01",
+  "url": "https://www.formula1.com/en/results/2025/drivers/LANSTR01/lance-stroll",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "16 Mar 2025",
+      "Aston Martin Aramco Mercedes",
+      "6",
+      "8"
+    ],
+    [
+      "China",
+      "23 Mar 2025",
+      "Aston Martin Aramco Mercedes",
+      "9",
+      "2"
+    ],
+    [
+      "Japan",
+      "06 Apr 2025",
+      "Aston Martin Aramco Mercedes",
+      "20",
+      "0"
+    ],
+    [
+      "Bahrain",
+      "13 Apr 2025",
+      "Aston Martin Aramco Mercedes",
+      "17",
+      "0"
+    ],
+    [
+      "Saudi Arabia",
+      "20 Apr 2025",
+      "Aston Martin Aramco Mercedes",
+      "16",
+      "0"
+    ],
+    [
+      "Miami",
+      "04 May 2025",
+      "Aston Martin Aramco Mercedes",
+      "16",
+      "4"
+    ],
+    [
+      "Emilia-Romagna",
+      "18 May 2025",
+      "Aston Martin Aramco Mercedes",
+      "15",
+      "0"
+    ],
+    [
+      "Monaco",
+      "25 May 2025",
+      "Aston Martin Aramco Mercedes",
+      "15",
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "name": "McLaren Ford",
+  "team_code": "McLaren-Ford",
+  "url": "https://www.formula1.com/en/results/1973/team/McLaren-Ford",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "28 Jan 1973",
+      "2"
+    ],
+    [
+      "Brazil",
+      "11 Feb 1973",
+      "4"
+    ],
+    [
+      "South Africa",
+      "03 Mar 1973",
+      "6"
+    ],
+    [
+      "Spain",
+      "29 Apr 1973",
+      "3"
+    ],
+    [
+      "Belgium",
+      "20 May 1973",
+      "0"
+    ],
+    [
+      "Monaco",
+      "03 Jun 1973",
+      "2"
+    ],
+    [
+      "Sweden",
+      "17 Jun 1973",
+      "9"
+    ],
+    [
+      "France",
+      "01 Jul 1973",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "14 Jul 1973",
+      "9"
+    ],
+    [
+      "Netherlands",
+      "29 Jul 1973",
+      "3"
+    ],
+    [
+      "Germany",
+      "05 Aug 1973",
+      "4"
+    ],
+    [
+      "Austria",
+      "19 Aug 1973",
+      "0"
+    ],
+    [
+      "Italy",
+      "09 Sep 1973",
+      "4"
+    ],
+    [
+      "Canada",
+      "23 Sep 1973",
+      "9"
+    ],
+    [
+      "United States",
+      "07 Oct 1973",
+      "3"
+    ]
+  ]
+}

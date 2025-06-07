@@ -1,0 +1,77 @@
+{
+  "name": "Phil Hill",
+  "driver_code": "PHIHIL01",
+  "url": "https://www.formula1.com/en/results/1960/drivers/PHIHIL01/phil-hill",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "07 Feb 1960",
+      "Ferrari",
+      "8",
+      "0"
+    ],
+    [
+      "Monaco",
+      "29 May 1960",
+      "Ferrari",
+      "3",
+      "4"
+    ],
+    [
+      "Netherlands",
+      "06 Jun 1960",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "19 Jun 1960",
+      "Ferrari",
+      "4",
+      "3"
+    ],
+    [
+      "France",
+      "03 Jul 1960",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1960",
+      "Ferrari",
+      "7",
+      "0"
+    ],
+    [
+      "Portugal",
+      "14 Aug 1960",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "04 Sep 1960",
+      "Ferrari",
+      "1",
+      "8"
+    ],
+    [
+      "United States",
+      "20 Nov 1960",
+      "Cooper Climax",
+      "6",
+      "1"
+    ]
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Jerome d'Ambrosio",
+  "driver_code": "JERDAM01",
+  "url": "https://www.formula1.com/en/results/2012/drivers/JERDAM01/jerome-d-ambrosio",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Italy",
+      "09 Sep 2012",
+      "Lotus Renault",
+      "13",
+      "0"
+    ]
+  ]
+}

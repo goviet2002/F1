@@ -1,0 +1,67 @@
+{
+  "name": "Vanwall",
+  "team_code": "Vanwall",
+  "url": "https://www.formula1.com/en/results/1958/team/Vanwall",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "19 Jan 1958",
+      "0"
+    ],
+    [
+      "Monaco",
+      "18 May 1958",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "26 May 1958",
+      "8"
+    ],
+    [
+      "Indianapolis",
+      "30 May 1958",
+      "0"
+    ],
+    [
+      "Belgium",
+      "15 Jun 1958",
+      "8"
+    ],
+    [
+      "France",
+      "06 Jul 1958",
+      "6"
+    ],
+    [
+      "Great Britain",
+      "19 Jul 1958",
+      "3"
+    ],
+    [
+      "Germany",
+      "03 Aug 1958",
+      "8"
+    ],
+    [
+      "Portugal",
+      "24 Aug 1958",
+      "8"
+    ],
+    [
+      "Italy",
+      "07 Sep 1958",
+      "8"
+    ],
+    [
+      "Morocco",
+      "19 Oct 1958",
+      "8"
+    ]
+  ]
+}

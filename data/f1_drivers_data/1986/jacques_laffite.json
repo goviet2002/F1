@@ -1,0 +1,70 @@
+{
+  "name": "Jacques Laffite",
+  "driver_code": "JACLAF01",
+  "url": "https://www.formula1.com/en/results/1986/drivers/JACLAF01/jacques-laffite",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Brazil",
+      "23 Mar 1986",
+      "Ligier Renault",
+      "3",
+      "4"
+    ],
+    [
+      "Spain",
+      "13 Apr 1986",
+      "Ligier Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "San Marino",
+      "27 Apr 1986",
+      "Ligier Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "11 May 1986",
+      "Ligier Renault",
+      "6",
+      "1"
+    ],
+    [
+      "Belgium",
+      "25 May 1986",
+      "Ligier Renault",
+      "5",
+      "2"
+    ],
+    [
+      "Canada",
+      "15 Jun 1986",
+      "Ligier Renault",
+      "7",
+      "0"
+    ],
+    [
+      "Detroit",
+      "22 Jun 1986",
+      "Ligier Renault",
+      "2",
+      "6"
+    ],
+    [
+      "France",
+      "06 Jul 1986",
+      "Ligier Renault",
+      "6",
+      "1"
+    ]
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "March Ford",
+  "team_code": "March-Ford",
+  "url": "https://www.formula1.com/en/results/1971/team/March-Ford",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "06 Mar 1971",
+      "0"
+    ],
+    [
+      "Spain",
+      "18 Apr 1971",
+      "0"
+    ],
+    [
+      "Monaco",
+      "23 May 1971",
+      "6"
+    ],
+    [
+      "Netherlands",
+      "20 Jun 1971",
+      "3"
+    ],
+    [
+      "France",
+      "04 Jul 1971",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "17 Jul 1971",
+      "6"
+    ],
+    [
+      "Germany",
+      "01 Aug 1971",
+      "2"
+    ],
+    [
+      "Austria",
+      "15 Aug 1971",
+      "1"
+    ],
+    [
+      "Italy",
+      "05 Sep 1971",
+      "6"
+    ],
+    [
+      "Canada",
+      "19 Sep 1971",
+      "6"
+    ],
+    [
+      "United States",
+      "03 Oct 1971",
+      "4"
+    ]
+  ]
+}

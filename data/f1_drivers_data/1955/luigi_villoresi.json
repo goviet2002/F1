@@ -1,0 +1,28 @@
+{
+  "name": "Luigi Villoresi",
+  "driver_code": "LUIVIL01",
+  "url": "https://www.formula1.com/en/results/1955/drivers/LUIVIL01/luigi-villoresi",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "16 Jan 1955",
+      "Lancia",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "22 May 1955",
+      "Lancia",
+      "5",
+      "2"
+    ]
+  ]
+}

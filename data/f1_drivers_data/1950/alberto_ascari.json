@@ -1,0 +1,42 @@
+{
+  "name": "Alberto Ascari",
+  "driver_code": "ALBASC01",
+  "url": "https://www.formula1.com/en/results/1950/drivers/ALBASC01/alberto-ascari",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "21 May 1950",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "Switzerland",
+      "04 Jun 1950",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "18 Jun 1950",
+      "Ferrari",
+      "5",
+      "2"
+    ],
+    [
+      "Italy",
+      "03 Sep 1950",
+      "Ferrari",
+      "2",
+      "3"
+    ]
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Roberto Moreno",
+  "driver_code": "ROBMOR01",
+  "url": "https://www.formula1.com/en/results/1987/drivers/ROBMOR01/roberto-moreno",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Japan",
+      "01 Nov 1987",
+      "AGS Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Australia",
+      "15 Nov 1987",
+      "AGS Ford",
+      "6",
+      "1"
+    ]
+  ]
+}

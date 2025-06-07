@@ -1,0 +1,126 @@
+{
+  "name": "Keke Rosberg",
+  "driver_code": "KEKROS01",
+  "url": "https://www.formula1.com/en/results/1986/drivers/KEKROS01/keke-rosberg",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Brazil",
+      "23 Mar 1986",
+      "McLaren TAG",
+      "DNF",
+      "0"
+    ],
+    [
+      "Spain",
+      "13 Apr 1986",
+      "McLaren TAG",
+      "4",
+      "3"
+    ],
+    [
+      "San Marino",
+      "27 Apr 1986",
+      "McLaren TAG",
+      "DNF",
+      "2"
+    ],
+    [
+      "Monaco",
+      "11 May 1986",
+      "McLaren TAG",
+      "2",
+      "6"
+    ],
+    [
+      "Belgium",
+      "25 May 1986",
+      "McLaren TAG",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "15 Jun 1986",
+      "McLaren TAG",
+      "4",
+      "3"
+    ],
+    [
+      "Detroit",
+      "22 Jun 1986",
+      "McLaren TAG",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "06 Jul 1986",
+      "McLaren TAG",
+      "4",
+      "3"
+    ],
+    [
+      "Great Britain",
+      "13 Jul 1986",
+      "McLaren TAG",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "27 Jul 1986",
+      "McLaren TAG",
+      "DNF",
+      "2"
+    ],
+    [
+      "Hungary",
+      "10 Aug 1986",
+      "McLaren TAG",
+      "DNF",
+      "0"
+    ],
+    [
+      "Austria",
+      "17 Aug 1986",
+      "McLaren TAG",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "07 Sep 1986",
+      "McLaren TAG",
+      "4",
+      "3"
+    ],
+    [
+      "Portugal",
+      "21 Sep 1986",
+      "McLaren TAG",
+      "DNF",
+      "0"
+    ],
+    [
+      "Mexico",
+      "12 Oct 1986",
+      "McLaren TAG",
+      "DNF",
+      "0"
+    ],
+    [
+      "Australia",
+      "26 Oct 1986",
+      "McLaren TAG",
+      "DNF",
+      "0"
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Alexander Wurz",
+  "driver_code": "ALEWUR01",
+  "url": "https://www.formula1.com/en/results/1997/drivers/ALEWUR01/alexander-wurz",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Canada",
+      "15 Jun 1997",
+      "Benetton Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "29 Jun 1997",
+      "Benetton Renault",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "13 Jul 1997",
+      "Benetton Renault",
+      "3",
+      "4"
+    ]
+  ]
+}

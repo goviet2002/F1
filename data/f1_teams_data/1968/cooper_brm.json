@@ -1,0 +1,72 @@
+{
+  "name": "Cooper BRM",
+  "team_code": "Cooper-BRM",
+  "url": "https://www.formula1.com/en/results/1968/team/Cooper-BRM",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "01 Jan 1968",
+      "0"
+    ],
+    [
+      "Spain",
+      "12 May 1968",
+      "4"
+    ],
+    [
+      "Monaco",
+      "26 May 1968",
+      "4"
+    ],
+    [
+      "Belgium",
+      "09 Jun 1968",
+      "1"
+    ],
+    [
+      "Netherlands",
+      "23 Jun 1968",
+      "0"
+    ],
+    [
+      "France",
+      "07 Jul 1968",
+      "3"
+    ],
+    [
+      "Great Britain",
+      "20 Jul 1968",
+      "0"
+    ],
+    [
+      "Germany",
+      "04 Aug 1968",
+      "0"
+    ],
+    [
+      "Italy",
+      "08 Sep 1968",
+      "0"
+    ],
+    [
+      "Canada",
+      "22 Sep 1968",
+      "2"
+    ],
+    [
+      "United States",
+      "06 Oct 1968",
+      "0"
+    ],
+    [
+      "Mexico",
+      "03 Nov 1968",
+      "0"
+    ]
+  ]
+}

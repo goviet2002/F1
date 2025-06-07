@@ -1,0 +1,21 @@
+{
+  "name": "Jimmy Davies",
+  "driver_code": "JIMDAV01",
+  "url": "https://www.formula1.com/en/results/1955/drivers/JIMDAV01/jimmy-davies",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Indianapolis",
+      "30 May 1955",
+      "Kurtis Kraft Offenhauser",
+      "3",
+      "4"
+    ]
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Nyck De Vries",
+  "driver_code": "NYCDEV01",
+  "url": "https://www.formula1.com/en/results/2023/drivers/NYCDEV01/nyck-de-vries",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Bahrain",
+      "05 Mar 2023",
+      "AlphaTauri Honda RBPT",
+      "14",
+      "0"
+    ],
+    [
+      "Saudi Arabia",
+      "19 Mar 2023",
+      "AlphaTauri Honda RBPT",
+      "14",
+      "0"
+    ],
+    [
+      "Australia",
+      "02 Apr 2023",
+      "AlphaTauri Honda RBPT",
+      "DNF",
+      "0"
+    ],
+    [
+      "Azerbaijan",
+      "30 Apr 2023",
+      "AlphaTauri Honda RBPT",
+      "DNF",
+      "0"
+    ],
+    [
+      "Miami",
+      "07 May 2023",
+      "AlphaTauri Honda RBPT",
+      "18",
+      "0"
+    ],
+    [
+      "Monaco",
+      "28 May 2023",
+      "AlphaTauri Honda RBPT",
+      "12",
+      "0"
+    ],
+    [
+      "Spain",
+      "04 Jun 2023",
+      "AlphaTauri Honda RBPT",
+      "14",
+      "0"
+    ],
+    [
+      "Canada",
+      "18 Jun 2023",
+      "AlphaTauri Honda RBPT",
+      "18",
+      "0"
+    ],
+    [
+      "Austria",
+      "02 Jul 2023",
+      "AlphaTauri Honda RBPT",
+      "17",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "09 Jul 2023",
+      "AlphaTauri Honda RBPT",
+      "17",
+      "0"
+    ]
+  ]
+}

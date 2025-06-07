@@ -1,0 +1,63 @@
+{
+  "name": "Felice Bonetto",
+  "driver_code": "FELBON01",
+  "url": "https://www.formula1.com/en/results/1953/drivers/FELBON01/felice-bonetto",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "18 Jan 1953",
+      "Maserati",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "07 Jun 1953",
+      "Maserati",
+      "SHC",
+      "2"
+    ],
+    [
+      "France",
+      "05 Jul 1953",
+      "Maserati",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "18 Jul 1953",
+      "Maserati",
+      "6",
+      "0"
+    ],
+    [
+      "Germany",
+      "02 Aug 1953",
+      "Maserati",
+      "4",
+      "3"
+    ],
+    [
+      "Switzerland",
+      "23 Aug 1953",
+      "Maserati",
+      "4",
+      "1.5"
+    ],
+    [
+      "Italy",
+      "13 Sep 1953",
+      "Maserati",
+      "DNF",
+      "0"
+    ]
+  ]
+}

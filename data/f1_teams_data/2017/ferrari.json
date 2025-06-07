@@ -1,0 +1,112 @@
+{
+  "name": "Ferrari",
+  "team_code": "Ferrari",
+  "url": "https://www.formula1.com/en/results/2017/team/Ferrari",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "26 Mar 2017",
+      "37"
+    ],
+    [
+      "China",
+      "09 Apr 2017",
+      "28"
+    ],
+    [
+      "Bahrain",
+      "16 Apr 2017",
+      "37"
+    ],
+    [
+      "Russia",
+      "30 Apr 2017",
+      "33"
+    ],
+    [
+      "Spain",
+      "14 May 2017",
+      "18"
+    ],
+    [
+      "Monaco",
+      "28 May 2017",
+      "43"
+    ],
+    [
+      "Canada",
+      "11 Jun 2017",
+      "18"
+    ],
+    [
+      "Azerbaijan",
+      "25 Jun 2017",
+      "12"
+    ],
+    [
+      "Austria",
+      "09 Jul 2017",
+      "28"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 2017",
+      "21"
+    ],
+    [
+      "Hungary",
+      "30 Jul 2017",
+      "43"
+    ],
+    [
+      "Belgium",
+      "27 Aug 2017",
+      "30"
+    ],
+    [
+      "Italy",
+      "03 Sep 2017",
+      "25"
+    ],
+    [
+      "Singapore",
+      "17 Sep 2017",
+      "0"
+    ],
+    [
+      "Malaysia",
+      "01 Oct 2017",
+      "12"
+    ],
+    [
+      "Japan",
+      "08 Oct 2017",
+      "10"
+    ],
+    [
+      "United States",
+      "22 Oct 2017",
+      "33"
+    ],
+    [
+      "Mexico",
+      "29 Oct 2017",
+      "27"
+    ],
+    [
+      "Brazil",
+      "12 Nov 2017",
+      "40"
+    ],
+    [
+      "Abu Dhabi",
+      "26 Nov 2017",
+      "27"
+    ]
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Chico Landi",
+  "driver_code": "CHILAN01",
+  "url": "https://www.formula1.com/en/results/1956/drivers/CHILAN01/chico-landi",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "22 Jan 1956",
+      "Maserati",
+      "SHC",
+      "1.5"
+    ]
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Don Freeland",
+  "driver_code": "DONFRE01",
+  "url": "https://www.formula1.com/en/results/1956/drivers/DONFRE01/don-freeland",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Indianapolis",
+      "30 May 1956",
+      "Phillips Offenhauser",
+      "3",
+      "4"
+    ]
+  ]
+}

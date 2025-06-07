@@ -1,0 +1,82 @@
+{
+  "name": "Williams Ford",
+  "team_code": "Williams-Ford",
+  "url": "https://www.formula1.com/en/results/1980/team/Williams-Ford",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "13 Jan 1980",
+      "9"
+    ],
+    [
+      "Brazil",
+      "27 Jan 1980",
+      "4"
+    ],
+    [
+      "South Africa",
+      "01 Mar 1980",
+      "2"
+    ],
+    [
+      "USA West",
+      "30 Mar 1980",
+      "0"
+    ],
+    [
+      "Belgium",
+      "04 May 1980",
+      "10"
+    ],
+    [
+      "Monaco",
+      "18 May 1980",
+      "9"
+    ],
+    [
+      "France",
+      "29 Jun 1980",
+      "10"
+    ],
+    [
+      "Great Britain",
+      "13 Jul 1980",
+      "13"
+    ],
+    [
+      "Germany",
+      "10 Aug 1980",
+      "10"
+    ],
+    [
+      "Austria",
+      "17 Aug 1980",
+      "10"
+    ],
+    [
+      "Netherlands",
+      "31 Aug 1980",
+      "3"
+    ],
+    [
+      "Italy",
+      "14 Sep 1980",
+      "10"
+    ],
+    [
+      "Canada",
+      "28 Sep 1980",
+      "15"
+    ],
+    [
+      "USA East",
+      "05 Oct 1980",
+      "15"
+    ]
+  ]
+}

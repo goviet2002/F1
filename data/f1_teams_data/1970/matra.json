@@ -1,0 +1,77 @@
+{
+  "name": "Matra",
+  "team_code": "Matra",
+  "url": "https://www.formula1.com/en/results/1970/team/Matra",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "07 Mar 1970",
+      "3"
+    ],
+    [
+      "Spain",
+      "19 Apr 1970",
+      "0"
+    ],
+    [
+      "Monaco",
+      "10 May 1970",
+      "4"
+    ],
+    [
+      "Belgium",
+      "07 Jun 1970",
+      "4"
+    ],
+    [
+      "Netherlands",
+      "21 Jun 1970",
+      "2"
+    ],
+    [
+      "France",
+      "05 Jul 1970",
+      "2"
+    ],
+    [
+      "Great Britain",
+      "18 Jul 1970",
+      "0"
+    ],
+    [
+      "Germany",
+      "02 Aug 1970",
+      "1"
+    ],
+    [
+      "Austria",
+      "16 Aug 1970",
+      "1"
+    ],
+    [
+      "Italy",
+      "06 Sep 1970",
+      "4"
+    ],
+    [
+      "Canada",
+      "20 Sep 1970",
+      "0"
+    ],
+    [
+      "United States",
+      "04 Oct 1970",
+      "0"
+    ],
+    [
+      "Mexico",
+      "25 Oct 1970",
+      "2"
+    ]
+  ]
+}

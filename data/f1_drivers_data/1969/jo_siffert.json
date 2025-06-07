@@ -1,0 +1,91 @@
+{
+  "name": "Jo Siffert",
+  "driver_code": "JOOSIF01",
+  "url": "https://www.formula1.com/en/results/1969/drivers/JOOSIF01/jo-siffert",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "01 Mar 1969",
+      "Lotus Ford",
+      "4",
+      "3"
+    ],
+    [
+      "Spain",
+      "04 May 1969",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "18 May 1969",
+      "Lotus Ford",
+      "3",
+      "4"
+    ],
+    [
+      "Netherlands",
+      "21 Jun 1969",
+      "Lotus Ford",
+      "2",
+      "6"
+    ],
+    [
+      "France",
+      "06 Jul 1969",
+      "Lotus Ford",
+      "9",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "19 Jul 1969",
+      "Lotus Ford",
+      "8",
+      "0"
+    ],
+    [
+      "Germany",
+      "03 Aug 1969",
+      "Lotus Ford",
+      "DNF",
+      "2"
+    ],
+    [
+      "Italy",
+      "07 Sep 1969",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "20 Sep 1969",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "United States",
+      "05 Oct 1969",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Mexico",
+      "19 Oct 1969",
+      "Lotus Ford",
+      "DNF",
+      "0"
+    ]
+  ]
+}

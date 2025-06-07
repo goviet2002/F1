@@ -1,0 +1,63 @@
+{
+  "name": "Jean-Pierre Beltoise",
+  "driver_code": "JEABEL01",
+  "url": "https://www.formula1.com/en/results/1971/drivers/JEABEL01/jean-pierre-beltoise",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Spain",
+      "18 Apr 1971",
+      "Matra",
+      "6",
+      "1"
+    ],
+    [
+      "Monaco",
+      "23 May 1971",
+      "Matra",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "20 Jun 1971",
+      "Matra",
+      "9",
+      "0"
+    ],
+    [
+      "France",
+      "04 Jul 1971",
+      "Matra",
+      "7",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "17 Jul 1971",
+      "Matra",
+      "7",
+      "0"
+    ],
+    [
+      "Canada",
+      "19 Sep 1971",
+      "Matra",
+      "DNF",
+      "0"
+    ],
+    [
+      "United States",
+      "03 Oct 1971",
+      "Matra",
+      "8",
+      "0"
+    ]
+  ]
+}

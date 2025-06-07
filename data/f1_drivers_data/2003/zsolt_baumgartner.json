@@ -1,0 +1,28 @@
+{
+  "name": "Zsolt Baumgartner",
+  "driver_code": "ZSOBAU01",
+  "url": "https://www.formula1.com/en/results/2003/drivers/ZSOBAU01/zsolt-baumgartner",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Hungary",
+      "24 Aug 2003",
+      "Jordan Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "14 Sep 2003",
+      "Jordan Ford",
+      "11",
+      "0"
+    ]
+  ]
+}

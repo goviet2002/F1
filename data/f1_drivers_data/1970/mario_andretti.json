@@ -1,0 +1,49 @@
+{
+  "name": "Mario Andretti",
+  "driver_code": "MARAND01",
+  "url": "https://www.formula1.com/en/results/1970/drivers/MARAND01/mario-andretti",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "07 Mar 1970",
+      "March Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Spain",
+      "19 Apr 1970",
+      "March Ford",
+      "3",
+      "4"
+    ],
+    [
+      "Great Britain",
+      "18 Jul 1970",
+      "March Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "02 Aug 1970",
+      "March Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Austria",
+      "16 Aug 1970",
+      "March Ford",
+      "DNF",
+      "0"
+    ]
+  ]
+}

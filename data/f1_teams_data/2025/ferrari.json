@@ -1,0 +1,57 @@
+{
+  "name": "Ferrari",
+  "team_code": "Ferrari",
+  "url": "https://www.formula1.com/en/results/2025/team/Ferrari",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "16 Mar 2025",
+      "5"
+    ],
+    [
+      "China",
+      "23 Mar 2025",
+      "12"
+    ],
+    [
+      "Japan",
+      "06 Apr 2025",
+      "18"
+    ],
+    [
+      "Bahrain",
+      "13 Apr 2025",
+      "22"
+    ],
+    [
+      "Saudi Arabia",
+      "20 Apr 2025",
+      "21"
+    ],
+    [
+      "Miami",
+      "04 May 2025",
+      "16"
+    ],
+    [
+      "Emilia-Romagna",
+      "18 May 2025",
+      "20"
+    ],
+    [
+      "Monaco",
+      "25 May 2025",
+      "28"
+    ],
+    [
+      "Spain",
+      "01 Jun 2025",
+      "23"
+    ]
+  ]
+}

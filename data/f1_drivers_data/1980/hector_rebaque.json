@@ -1,0 +1,63 @@
+{
+  "name": "Hector Rebaque",
+  "driver_code": "HECREB01",
+  "url": "https://www.formula1.com/en/results/1980/drivers/HECREB01/hector-rebaque",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Great Britain",
+      "13 Jul 1980",
+      "Brabham Ford",
+      "7",
+      "0"
+    ],
+    [
+      "Germany",
+      "10 Aug 1980",
+      "Brabham Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Austria",
+      "17 Aug 1980",
+      "Brabham Ford",
+      "10",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "31 Aug 1980",
+      "Brabham Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "14 Sep 1980",
+      "Brabham Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "28 Sep 1980",
+      "Brabham Ford",
+      "6",
+      "1"
+    ],
+    [
+      "USA East",
+      "05 Oct 1980",
+      "Brabham Ford",
+      "DNF",
+      "0"
+    ]
+  ]
+}

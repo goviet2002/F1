@@ -1,0 +1,126 @@
+{
+  "name": "Didier Pironi",
+  "driver_code": "DIDPIR01",
+  "url": "https://www.formula1.com/en/results/1978/drivers/DIDPIR01/didier-pironi",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "15 Jan 1978",
+      "Tyrrell Ford",
+      "14",
+      "0"
+    ],
+    [
+      "Brazil",
+      "29 Jan 1978",
+      "Tyrrell Ford",
+      "6",
+      "1"
+    ],
+    [
+      "South Africa",
+      "04 Mar 1978",
+      "Tyrrell Ford",
+      "6",
+      "1"
+    ],
+    [
+      "USA West",
+      "02 Apr 1978",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "07 May 1978",
+      "Tyrrell Ford",
+      "5",
+      "2"
+    ],
+    [
+      "Belgium",
+      "21 May 1978",
+      "Tyrrell Ford",
+      "6",
+      "1"
+    ],
+    [
+      "Spain",
+      "04 Jun 1978",
+      "Tyrrell Ford",
+      "12",
+      "0"
+    ],
+    [
+      "Sweden",
+      "17 Jun 1978",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "02 Jul 1978",
+      "Tyrrell Ford",
+      "10",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1978",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "30 Jul 1978",
+      "Tyrrell Ford",
+      "5",
+      "2"
+    ],
+    [
+      "Austria",
+      "13 Aug 1978",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "27 Aug 1978",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "10 Sep 1978",
+      "Tyrrell Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "USA East",
+      "01 Oct 1978",
+      "Tyrrell Ford",
+      "10",
+      "0"
+    ],
+    [
+      "Canada",
+      "08 Oct 1978",
+      "Tyrrell Ford",
+      "7",
+      "0"
+    ]
+  ]
+}

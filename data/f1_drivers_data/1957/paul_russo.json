@@ -1,0 +1,21 @@
+{
+  "name": "Paul Russo",
+  "driver_code": "PAURUS01",
+  "url": "https://www.formula1.com/en/results/1957/drivers/PAURUS01/paul-russo",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Indianapolis",
+      "30 May 1957",
+      "Kurtis Kraft Novi",
+      "4",
+      "3"
+    ]
+  ]
+}

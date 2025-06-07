@@ -1,0 +1,91 @@
+{
+  "name": "George Follmer",
+  "driver_code": "GEOFOL01",
+  "url": "https://www.formula1.com/en/results/1973/drivers/GEOFOL01/george-follmer",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "03 Mar 1973",
+      "Shadow Ford",
+      "6",
+      "1"
+    ],
+    [
+      "Spain",
+      "29 Apr 1973",
+      "Shadow Ford",
+      "3",
+      "4"
+    ],
+    [
+      "Belgium",
+      "20 May 1973",
+      "Shadow Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "01 Jul 1973",
+      "Shadow Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "14 Jul 1973",
+      "Shadow Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "29 Jul 1973",
+      "Shadow Ford",
+      "10",
+      "0"
+    ],
+    [
+      "Germany",
+      "05 Aug 1973",
+      "Shadow Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Austria",
+      "19 Aug 1973",
+      "Shadow Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "09 Sep 1973",
+      "Shadow Ford",
+      "10",
+      "0"
+    ],
+    [
+      "Canada",
+      "23 Sep 1973",
+      "Shadow Ford",
+      "17",
+      "0"
+    ],
+    [
+      "United States",
+      "07 Oct 1973",
+      "Shadow Ford",
+      "14",
+      "0"
+    ]
+  ]
+}

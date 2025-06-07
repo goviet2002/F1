@@ -1,0 +1,63 @@
+{
+  "name": "Jan Magnussen",
+  "driver_code": "JANMAG01",
+  "url": "https://www.formula1.com/en/results/1998/drivers/JANMAG01/jan-magnussen",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "08 Mar 1998",
+      "Stewart Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Brazil",
+      "29 Mar 1998",
+      "Stewart Ford",
+      "10",
+      "0"
+    ],
+    [
+      "Argentina",
+      "12 Apr 1998",
+      "Stewart Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "San Marino",
+      "26 Apr 1998",
+      "Stewart Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Spain",
+      "10 May 1998",
+      "Stewart Ford",
+      "12",
+      "0"
+    ],
+    [
+      "Monaco",
+      "24 May 1998",
+      "Stewart Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "07 Jun 1998",
+      "Stewart Ford",
+      "6",
+      "1"
+    ]
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "name": "Valtteri Bottas",
+  "driver_code": "VALBOT01",
+  "url": "https://www.formula1.com/en/results/2020/drivers/VALBOT01/valtteri-bottas",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Austria",
+      "05 Jul 2020",
+      "Mercedes",
+      "1",
+      "25"
+    ],
+    [
+      "Styria",
+      "12 Jul 2020",
+      "Mercedes",
+      "2",
+      "18"
+    ],
+    [
+      "Hungary",
+      "19 Jul 2020",
+      "Mercedes",
+      "3",
+      "15"
+    ],
+    [
+      "Great Britain",
+      "02 Aug 2020",
+      "Mercedes",
+      "11",
+      "0"
+    ],
+    [
+      "70th Anniversary",
+      "09 Aug 2020",
+      "Mercedes",
+      "3",
+      "15"
+    ],
+    [
+      "Spain",
+      "16 Aug 2020",
+      "Mercedes",
+      "3",
+      "16"
+    ],
+    [
+      "Belgium",
+      "30 Aug 2020",
+      "Mercedes",
+      "2",
+      "18"
+    ],
+    [
+      "Italy",
+      "06 Sep 2020",
+      "Mercedes",
+      "5",
+      "10"
+    ],
+    [
+      "Tuscany",
+      "13 Sep 2020",
+      "Mercedes",
+      "2",
+      "18"
+    ],
+    [
+      "Russia",
+      "27 Sep 2020",
+      "Mercedes",
+      "1",
+      "26"
+    ],
+    [
+      "Eifel",
+      "11 Oct 2020",
+      "Mercedes",
+      "DNF",
+      "0"
+    ],
+    [
+      "Portugal",
+      "25 Oct 2020",
+      "Mercedes",
+      "2",
+      "18"
+    ],
+    [
+      "Emilia-Romagna",
+      "01 Nov 2020",
+      "Mercedes",
+      "2",
+      "18"
+    ],
+    [
+      "Turkey",
+      "15 Nov 2020",
+      "Mercedes",
+      "14",
+      "0"
+    ],
+    [
+      "Bahrain",
+      "29 Nov 2020",
+      "Mercedes",
+      "8",
+      "4"
+    ],
+    [
+      "Sakhir",
+      "06 Dec 2020",
+      "Mercedes",
+      "8",
+      "4"
+    ],
+    [
+      "Abu Dhabi",
+      "13 Dec 2020",
+      "Mercedes",
+      "2",
+      "18"
+    ]
+  ]
+}

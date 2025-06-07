@@ -1,0 +1,97 @@
+{
+  "name": "Ferrari",
+  "team_code": "Ferrari",
+  "url": "https://www.formula1.com/en/results/1997/team/Ferrari",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "09 Mar 1997",
+      "6"
+    ],
+    [
+      "Brazil",
+      "30 Mar 1997",
+      "2"
+    ],
+    [
+      "Argentina",
+      "13 Apr 1997",
+      "6"
+    ],
+    [
+      "San Marino",
+      "27 Apr 1997",
+      "10"
+    ],
+    [
+      "Monaco",
+      "11 May 1997",
+      "14"
+    ],
+    [
+      "Spain",
+      "25 May 1997",
+      "3"
+    ],
+    [
+      "Canada",
+      "15 Jun 1997",
+      "10"
+    ],
+    [
+      "France",
+      "29 Jun 1997",
+      "14"
+    ],
+    [
+      "Great Britain",
+      "13 Jul 1997",
+      "0"
+    ],
+    [
+      "Germany",
+      "27 Jul 1997",
+      "6"
+    ],
+    [
+      "Hungary",
+      "10 Aug 1997",
+      "3"
+    ],
+    [
+      "Belgium",
+      "24 Aug 1997",
+      "10"
+    ],
+    [
+      "Italy",
+      "07 Sep 1997",
+      "1"
+    ],
+    [
+      "Austria",
+      "21 Sep 1997",
+      "1"
+    ],
+    [
+      "Luxembourg",
+      "28 Sep 1997",
+      "0"
+    ],
+    [
+      "Japan",
+      "12 Oct 1997",
+      "14"
+    ],
+    [
+      "Europe",
+      "26 Oct 1997",
+      "2"
+    ]
+  ]
+}

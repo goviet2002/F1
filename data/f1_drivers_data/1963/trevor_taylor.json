@@ -1,0 +1,77 @@
+{
+  "name": "Trevor Taylor",
+  "driver_code": "TRETAY01",
+  "url": "https://www.formula1.com/en/results/1963/drivers/TRETAY01/trevor-taylor",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "26 May 1963",
+      "Lotus Climax",
+      "6",
+      "1"
+    ],
+    [
+      "Belgium",
+      "09 Jun 1963",
+      "Lotus Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "23 Jun 1963",
+      "Lotus Climax",
+      "10",
+      "0"
+    ],
+    [
+      "France",
+      "30 Jun 1963",
+      "Lotus Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "20 Jul 1963",
+      "Lotus Climax",
+      "DSQ",
+      "0"
+    ],
+    [
+      "Germany",
+      "04 Aug 1963",
+      "Lotus Climax",
+      "8",
+      "0"
+    ],
+    [
+      "United States",
+      "06 Oct 1963",
+      "Lotus Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Mexico",
+      "27 Oct 1963",
+      "Lotus Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "South Africa",
+      "28 Dec 1963",
+      "Lotus Climax",
+      "8",
+      "0"
+    ]
+  ]
+}

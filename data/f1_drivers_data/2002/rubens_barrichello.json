@@ -1,0 +1,133 @@
+{
+  "name": "Rubens Barrichello",
+  "driver_code": "RUBBAR01",
+  "url": "https://www.formula1.com/en/results/2002/drivers/RUBBAR01/rubens-barrichello",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "03 Mar 2002",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Malaysia",
+      "17 Mar 2002",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Brazil",
+      "31 Mar 2002",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "San Marino",
+      "14 Apr 2002",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "Spain",
+      "28 Apr 2002",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Austria",
+      "12 May 2002",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "Monaco",
+      "26 May 2002",
+      "Ferrari",
+      "7",
+      "0"
+    ],
+    [
+      "Canada",
+      "09 Jun 2002",
+      "Ferrari",
+      "3",
+      "4"
+    ],
+    [
+      "Europe",
+      "23 Jun 2002",
+      "Ferrari",
+      "1",
+      "10"
+    ],
+    [
+      "Great Britain",
+      "07 Jul 2002",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "France",
+      "21 Jul 2002",
+      "Ferrari",
+      "DNS",
+      "0"
+    ],
+    [
+      "Germany",
+      "28 Jul 2002",
+      "Ferrari",
+      "4",
+      "3"
+    ],
+    [
+      "Hungary",
+      "18 Aug 2002",
+      "Ferrari",
+      "1",
+      "10"
+    ],
+    [
+      "Belgium",
+      "01 Sep 2002",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "Italy",
+      "15 Sep 2002",
+      "Ferrari",
+      "1",
+      "10"
+    ],
+    [
+      "United States",
+      "29 Sep 2002",
+      "Ferrari",
+      "1",
+      "10"
+    ],
+    [
+      "Japan",
+      "13 Oct 2002",
+      "Ferrari",
+      "2",
+      "6"
+    ]
+  ]
+}

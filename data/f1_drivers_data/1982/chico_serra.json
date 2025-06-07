@@ -1,0 +1,77 @@
+{
+  "name": "Chico Serra",
+  "driver_code": "CHISER01",
+  "url": "https://www.formula1.com/en/results/1982/drivers/CHISER01/chico-serra",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "South Africa",
+      "23 Jan 1982",
+      "Fittipaldi Ford",
+      "17",
+      "0"
+    ],
+    [
+      "Brazil",
+      "21 Mar 1982",
+      "Fittipaldi Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Belgium",
+      "09 May 1982",
+      "Fittipaldi Ford",
+      "6",
+      "1"
+    ],
+    [
+      "Detroit",
+      "06 Jun 1982",
+      "Fittipaldi Ford",
+      "11",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "03 Jul 1982",
+      "Fittipaldi Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "18 Jul 1982",
+      "Fittipaldi Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "08 Aug 1982",
+      "Fittipaldi Ford",
+      "11",
+      "0"
+    ],
+    [
+      "Austria",
+      "15 Aug 1982",
+      "Fittipaldi Ford",
+      "7",
+      "0"
+    ],
+    [
+      "Italy",
+      "12 Sep 1982",
+      "Fittipaldi Ford",
+      "11",
+      "0"
+    ]
+  ]
+}

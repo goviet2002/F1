@@ -1,0 +1,28 @@
+{
+  "name": "Derek Bell",
+  "driver_code": "DERBEL01",
+  "url": "https://www.formula1.com/en/results/1970/drivers/DERBEL01/derek-bell",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Belgium",
+      "07 Jun 1970",
+      "Brabham Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "United States",
+      "04 Oct 1970",
+      "Surtees Ford",
+      "6",
+      "1"
+    ]
+  ]
+}

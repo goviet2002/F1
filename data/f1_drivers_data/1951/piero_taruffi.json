@@ -1,0 +1,49 @@
+{
+  "name": "Piero Taruffi",
+  "driver_code": "PIETAR01",
+  "url": "https://www.formula1.com/en/results/1951/drivers/PIETAR01/piero-taruffi",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Switzerland",
+      "27 May 1951",
+      "Ferrari",
+      "2",
+      "6"
+    ],
+    [
+      "Belgium",
+      "17 Jun 1951",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "29 Jul 1951",
+      "Ferrari",
+      "5",
+      "2"
+    ],
+    [
+      "Italy",
+      "16 Sep 1951",
+      "Ferrari",
+      "5",
+      "2"
+    ],
+    [
+      "Spain",
+      "28 Oct 1951",
+      "Ferrari",
+      "DNF",
+      "0"
+    ]
+  ]
+}

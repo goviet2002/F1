@@ -1,0 +1,126 @@
+{
+  "name": "David Coulthard",
+  "driver_code": "DAVCOU01",
+  "url": "https://www.formula1.com/en/results/2000/drivers/DAVCOU01/david-coulthard",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "12 Mar 2000",
+      "McLaren Mercedes",
+      "DNF",
+      "0"
+    ],
+    [
+      "San Marino",
+      "09 Apr 2000",
+      "McLaren Mercedes",
+      "3",
+      "4"
+    ],
+    [
+      "Great Britain",
+      "23 Apr 2000",
+      "McLaren Mercedes",
+      "1",
+      "10"
+    ],
+    [
+      "Spain",
+      "07 May 2000",
+      "McLaren Mercedes",
+      "2",
+      "6"
+    ],
+    [
+      "Europe",
+      "21 May 2000",
+      "McLaren Mercedes",
+      "3",
+      "4"
+    ],
+    [
+      "Monaco",
+      "04 Jun 2000",
+      "McLaren Mercedes",
+      "1",
+      "10"
+    ],
+    [
+      "Canada",
+      "18 Jun 2000",
+      "McLaren Mercedes",
+      "7",
+      "0"
+    ],
+    [
+      "France",
+      "02 Jul 2000",
+      "McLaren Mercedes",
+      "1",
+      "10"
+    ],
+    [
+      "Austria",
+      "16 Jul 2000",
+      "McLaren Mercedes",
+      "2",
+      "6"
+    ],
+    [
+      "Germany",
+      "30 Jul 2000",
+      "McLaren Mercedes",
+      "3",
+      "4"
+    ],
+    [
+      "Hungary",
+      "13 Aug 2000",
+      "McLaren Mercedes",
+      "3",
+      "4"
+    ],
+    [
+      "Belgium",
+      "27 Aug 2000",
+      "McLaren Mercedes",
+      "4",
+      "3"
+    ],
+    [
+      "Italy",
+      "10 Sep 2000",
+      "McLaren Mercedes",
+      "DNF",
+      "0"
+    ],
+    [
+      "United States",
+      "24 Sep 2000",
+      "McLaren Mercedes",
+      "5",
+      "2"
+    ],
+    [
+      "Japan",
+      "08 Oct 2000",
+      "McLaren Mercedes",
+      "3",
+      "4"
+    ],
+    [
+      "Malaysia",
+      "22 Oct 2000",
+      "McLaren Mercedes",
+      "2",
+      "6"
+    ]
+  ]
+}

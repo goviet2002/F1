@@ -1,0 +1,168 @@
+{
+  "name": "Charles Leclerc",
+  "driver_code": "CHALEC01",
+  "url": "https://www.formula1.com/en/results/2023/drivers/CHALEC01/charles-leclerc",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Bahrain",
+      "05 Mar 2023",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Saudi Arabia",
+      "19 Mar 2023",
+      "Ferrari",
+      "7",
+      "6"
+    ],
+    [
+      "Australia",
+      "02 Apr 2023",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Azerbaijan",
+      "30 Apr 2023",
+      "Ferrari",
+      "3",
+      "22"
+    ],
+    [
+      "Miami",
+      "07 May 2023",
+      "Ferrari",
+      "7",
+      "6"
+    ],
+    [
+      "Monaco",
+      "28 May 2023",
+      "Ferrari",
+      "6",
+      "8"
+    ],
+    [
+      "Spain",
+      "04 Jun 2023",
+      "Ferrari",
+      "11",
+      "0"
+    ],
+    [
+      "Canada",
+      "18 Jun 2023",
+      "Ferrari",
+      "4",
+      "12"
+    ],
+    [
+      "Austria",
+      "02 Jul 2023",
+      "Ferrari",
+      "2",
+      "18"
+    ],
+    [
+      "Great Britain",
+      "09 Jul 2023",
+      "Ferrari",
+      "9",
+      "2"
+    ],
+    [
+      "Hungary",
+      "23 Jul 2023",
+      "Ferrari",
+      "7",
+      "6"
+    ],
+    [
+      "Belgium",
+      "30 Jul 2023",
+      "Ferrari",
+      "3",
+      "19"
+    ],
+    [
+      "Netherlands",
+      "27 Aug 2023",
+      "Ferrari",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "03 Sep 2023",
+      "Ferrari",
+      "4",
+      "12"
+    ],
+    [
+      "Singapore",
+      "17 Sep 2023",
+      "Ferrari",
+      "4",
+      "12"
+    ],
+    [
+      "Japan",
+      "24 Sep 2023",
+      "Ferrari",
+      "4",
+      "12"
+    ],
+    [
+      "Qatar",
+      "08 Oct 2023",
+      "Ferrari",
+      "5",
+      "10"
+    ],
+    [
+      "United States",
+      "22 Oct 2023",
+      "Ferrari",
+      "DSQ",
+      "6"
+    ],
+    [
+      "Mexico",
+      "29 Oct 2023",
+      "Ferrari",
+      "3",
+      "15"
+    ],
+    [
+      "Brazil",
+      "05 Nov 2023",
+      "Ferrari",
+      "DNS",
+      "4"
+    ],
+    [
+      "Las Vegas",
+      "18 Nov 2023",
+      "Ferrari",
+      "2",
+      "18"
+    ],
+    [
+      "Abu Dhabi",
+      "26 Nov 2023",
+      "Ferrari",
+      "2",
+      "18"
+    ]
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "name": "Lewis Hamilton",
+  "driver_code": "LEWHAM01",
+  "url": "https://www.formula1.com/en/results/2020/drivers/LEWHAM01/lewis-hamilton",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Austria",
+      "05 Jul 2020",
+      "Mercedes",
+      "4",
+      "12"
+    ],
+    [
+      "Styria",
+      "12 Jul 2020",
+      "Mercedes",
+      "1",
+      "25"
+    ],
+    [
+      "Hungary",
+      "19 Jul 2020",
+      "Mercedes",
+      "1",
+      "26"
+    ],
+    [
+      "Great Britain",
+      "02 Aug 2020",
+      "Mercedes",
+      "1",
+      "25"
+    ],
+    [
+      "70th Anniversary",
+      "09 Aug 2020",
+      "Mercedes",
+      "2",
+      "19"
+    ],
+    [
+      "Spain",
+      "16 Aug 2020",
+      "Mercedes",
+      "1",
+      "25"
+    ],
+    [
+      "Belgium",
+      "30 Aug 2020",
+      "Mercedes",
+      "1",
+      "25"
+    ],
+    [
+      "Italy",
+      "06 Sep 2020",
+      "Mercedes",
+      "7",
+      "7"
+    ],
+    [
+      "Tuscany",
+      "13 Sep 2020",
+      "Mercedes",
+      "1",
+      "26"
+    ],
+    [
+      "Russia",
+      "27 Sep 2020",
+      "Mercedes",
+      "3",
+      "15"
+    ],
+    [
+      "Eifel",
+      "11 Oct 2020",
+      "Mercedes",
+      "1",
+      "25"
+    ],
+    [
+      "Portugal",
+      "25 Oct 2020",
+      "Mercedes",
+      "1",
+      "26"
+    ],
+    [
+      "Emilia-Romagna",
+      "01 Nov 2020",
+      "Mercedes",
+      "1",
+      "26"
+    ],
+    [
+      "Turkey",
+      "15 Nov 2020",
+      "Mercedes",
+      "1",
+      "25"
+    ],
+    [
+      "Bahrain",
+      "29 Nov 2020",
+      "Mercedes",
+      "1",
+      "25"
+    ],
+    [
+      "Abu Dhabi",
+      "13 Dec 2020",
+      "Mercedes",
+      "3",
+      "15"
+    ]
+  ]
+}

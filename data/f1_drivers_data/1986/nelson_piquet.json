@@ -1,0 +1,126 @@
+{
+  "name": "Nelson Piquet",
+  "driver_code": "NELPIQ01",
+  "url": "https://www.formula1.com/en/results/1986/drivers/NELPIQ01/nelson-piquet",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Brazil",
+      "23 Mar 1986",
+      "Williams Honda",
+      "1",
+      "9"
+    ],
+    [
+      "Spain",
+      "13 Apr 1986",
+      "Williams Honda",
+      "DNF",
+      "0"
+    ],
+    [
+      "San Marino",
+      "27 Apr 1986",
+      "Williams Honda",
+      "2",
+      "6"
+    ],
+    [
+      "Monaco",
+      "11 May 1986",
+      "Williams Honda",
+      "7",
+      "0"
+    ],
+    [
+      "Belgium",
+      "25 May 1986",
+      "Williams Honda",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "15 Jun 1986",
+      "Williams Honda",
+      "3",
+      "4"
+    ],
+    [
+      "Detroit",
+      "22 Jun 1986",
+      "Williams Honda",
+      "DNF",
+      "0"
+    ],
+    [
+      "France",
+      "06 Jul 1986",
+      "Williams Honda",
+      "3",
+      "4"
+    ],
+    [
+      "Great Britain",
+      "13 Jul 1986",
+      "Williams Honda",
+      "2",
+      "6"
+    ],
+    [
+      "Germany",
+      "27 Jul 1986",
+      "Williams Honda",
+      "1",
+      "9"
+    ],
+    [
+      "Hungary",
+      "10 Aug 1986",
+      "Williams Honda",
+      "1",
+      "9"
+    ],
+    [
+      "Austria",
+      "17 Aug 1986",
+      "Williams Honda",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "07 Sep 1986",
+      "Williams Honda",
+      "1",
+      "9"
+    ],
+    [
+      "Portugal",
+      "21 Sep 1986",
+      "Williams Honda",
+      "3",
+      "4"
+    ],
+    [
+      "Mexico",
+      "12 Oct 1986",
+      "Williams Honda",
+      "4",
+      "3"
+    ],
+    [
+      "Australia",
+      "26 Oct 1986",
+      "Williams Honda",
+      "2",
+      "6"
+    ]
+  ]
+}

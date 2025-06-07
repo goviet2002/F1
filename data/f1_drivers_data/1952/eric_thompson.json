@@ -1,0 +1,21 @@
+{
+  "name": "Eric Thompson",
+  "driver_code": "ERITHO01",
+  "url": "https://www.formula1.com/en/results/1952/drivers/ERITHO01/eric-thompson",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Great Britain",
+      "19 Jul 1952",
+      "Connaught Lea Francis",
+      "5",
+      "2"
+    ]
+  ]
+}

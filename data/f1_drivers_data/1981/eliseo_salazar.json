@@ -1,0 +1,77 @@
+{
+  "name": "Eliseo Salazar",
+  "driver_code": "ELISAL01",
+  "url": "https://www.formula1.com/en/results/1981/drivers/ELISAL01/eliseo-salazar",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "San Marino",
+      "03 May 1981",
+      "March Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Spain",
+      "21 Jun 1981",
+      "Ensign Ford",
+      "14",
+      "0"
+    ],
+    [
+      "France",
+      "05 Jul 1981",
+      "Ensign Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Germany",
+      "02 Aug 1981",
+      "Ensign Ford",
+      "DNC",
+      "0"
+    ],
+    [
+      "Austria",
+      "16 Aug 1981",
+      "Ensign Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "30 Aug 1981",
+      "Ensign Ford",
+      "6",
+      "1"
+    ],
+    [
+      "Italy",
+      "13 Sep 1981",
+      "Ensign Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Canada",
+      "27 Sep 1981",
+      "Ensign Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Caesar's Palace",
+      "17 Oct 1981",
+      "Ensign Ford",
+      "DNC",
+      "0"
+    ]
+  ]
+}

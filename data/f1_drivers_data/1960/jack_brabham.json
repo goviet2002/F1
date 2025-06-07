@@ -1,0 +1,70 @@
+{
+  "name": "Jack Brabham",
+  "driver_code": "JACBRA01",
+  "url": "https://www.formula1.com/en/results/1960/drivers/JACBRA01/jack-brabham",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Argentina",
+      "07 Feb 1960",
+      "Cooper Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "29 May 1960",
+      "Cooper Climax",
+      "DSQ",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "06 Jun 1960",
+      "Cooper Climax",
+      "1",
+      "8"
+    ],
+    [
+      "Belgium",
+      "19 Jun 1960",
+      "Cooper Climax",
+      "1",
+      "8"
+    ],
+    [
+      "France",
+      "03 Jul 1960",
+      "Cooper Climax",
+      "1",
+      "8"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 1960",
+      "Cooper Climax",
+      "1",
+      "8"
+    ],
+    [
+      "Portugal",
+      "14 Aug 1960",
+      "Cooper Climax",
+      "1",
+      "8"
+    ],
+    [
+      "United States",
+      "20 Nov 1960",
+      "Cooper Climax",
+      "4",
+      "3"
+    ]
+  ]
+}

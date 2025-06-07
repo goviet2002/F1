@@ -1,0 +1,56 @@
+{
+  "name": "Derek Daly",
+  "driver_code": "DERDAL01",
+  "url": "https://www.formula1.com/en/results/1978/drivers/DERDAL01/derek-daly",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Great Britain",
+      "16 Jul 1978",
+      "Ensign Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Austria",
+      "13 Aug 1978",
+      "Ensign Ford",
+      "DSQ",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "27 Aug 1978",
+      "Ensign Ford",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "10 Sep 1978",
+      "Ensign Ford",
+      "10",
+      "0"
+    ],
+    [
+      "USA East",
+      "01 Oct 1978",
+      "Ensign Ford",
+      "8",
+      "0"
+    ],
+    [
+      "Canada",
+      "08 Oct 1978",
+      "Ensign Ford",
+      "6",
+      "1"
+    ]
+  ]
+}

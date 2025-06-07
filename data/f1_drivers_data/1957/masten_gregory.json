@@ -1,0 +1,42 @@
+{
+  "name": "Masten Gregory",
+  "driver_code": "MASGRE01",
+  "url": "https://www.formula1.com/en/results/1957/drivers/MASGRE01/masten-gregory",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "19 May 1957",
+      "Maserati",
+      "3",
+      "4"
+    ],
+    [
+      "Germany",
+      "04 Aug 1957",
+      "Maserati",
+      "8",
+      "0"
+    ],
+    [
+      "Pescara",
+      "18 Aug 1957",
+      "Maserati",
+      "4",
+      "3"
+    ],
+    [
+      "Italy",
+      "08 Sep 1957",
+      "Maserati",
+      "4",
+      "3"
+    ]
+  ]
+}

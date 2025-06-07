@@ -1,0 +1,112 @@
+{
+  "name": "Red Bull Racing TAG Heuer",
+  "team_code": "Red-Bull-Racing-TAG-Heuer",
+  "url": "https://www.formula1.com/en/results/2017/team/Red-Bull-Racing-TAG-Heuer",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "26 Mar 2017",
+      "10"
+    ],
+    [
+      "China",
+      "09 Apr 2017",
+      "27"
+    ],
+    [
+      "Bahrain",
+      "16 Apr 2017",
+      "10"
+    ],
+    [
+      "Russia",
+      "30 Apr 2017",
+      "10"
+    ],
+    [
+      "Spain",
+      "14 May 2017",
+      "15"
+    ],
+    [
+      "Monaco",
+      "28 May 2017",
+      "25"
+    ],
+    [
+      "Canada",
+      "11 Jun 2017",
+      "15"
+    ],
+    [
+      "Azerbaijan",
+      "25 Jun 2017",
+      "25"
+    ],
+    [
+      "Austria",
+      "09 Jul 2017",
+      "15"
+    ],
+    [
+      "Great Britain",
+      "16 Jul 2017",
+      "22"
+    ],
+    [
+      "Hungary",
+      "30 Jul 2017",
+      "10"
+    ],
+    [
+      "Belgium",
+      "27 Aug 2017",
+      "15"
+    ],
+    [
+      "Italy",
+      "03 Sep 2017",
+      "13"
+    ],
+    [
+      "Singapore",
+      "17 Sep 2017",
+      "18"
+    ],
+    [
+      "Malaysia",
+      "01 Oct 2017",
+      "40"
+    ],
+    [
+      "Japan",
+      "08 Oct 2017",
+      "33"
+    ],
+    [
+      "United States",
+      "22 Oct 2017",
+      "12"
+    ],
+    [
+      "Mexico",
+      "29 Oct 2017",
+      "25"
+    ],
+    [
+      "Brazil",
+      "12 Nov 2017",
+      "18"
+    ],
+    [
+      "Abu Dhabi",
+      "26 Nov 2017",
+      "10"
+    ]
+  ]
+}

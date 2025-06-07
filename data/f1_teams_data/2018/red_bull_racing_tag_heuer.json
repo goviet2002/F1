@@ -1,0 +1,117 @@
+{
+  "name": "Red Bull Racing TAG Heuer",
+  "team_code": "Red-Bull-Racing-TAG-Heuer",
+  "url": "https://www.formula1.com/en/results/2018/team/Red-Bull-Racing-TAG-Heuer",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Australia",
+      "25 Mar 2018",
+      "20"
+    ],
+    [
+      "Bahrain",
+      "08 Apr 2018",
+      "0"
+    ],
+    [
+      "China",
+      "15 Apr 2018",
+      "35"
+    ],
+    [
+      "Azerbaijan",
+      "29 Apr 2018",
+      "0"
+    ],
+    [
+      "Spain",
+      "13 May 2018",
+      "25"
+    ],
+    [
+      "Monaco",
+      "27 May 2018",
+      "27"
+    ],
+    [
+      "Canada",
+      "10 Jun 2018",
+      "27"
+    ],
+    [
+      "France",
+      "24 Jun 2018",
+      "30"
+    ],
+    [
+      "Austria",
+      "01 Jul 2018",
+      "25"
+    ],
+    [
+      "Great Britain",
+      "08 Jul 2018",
+      "10"
+    ],
+    [
+      "Germany",
+      "22 Jul 2018",
+      "12"
+    ],
+    [
+      "Hungary",
+      "29 Jul 2018",
+      "12"
+    ],
+    [
+      "Belgium",
+      "26 Aug 2018",
+      "15"
+    ],
+    [
+      "Italy",
+      "02 Sep 2018",
+      "10"
+    ],
+    [
+      "Singapore",
+      "16 Sep 2018",
+      "26"
+    ],
+    [
+      "Russia",
+      "30 Sep 2018",
+      "18"
+    ],
+    [
+      "Japan",
+      "07 Oct 2018",
+      "27"
+    ],
+    [
+      "United States",
+      "21 Oct 2018",
+      "18"
+    ],
+    [
+      "Mexico",
+      "28 Oct 2018",
+      "25"
+    ],
+    [
+      "Brazil",
+      "11 Nov 2018",
+      "30"
+    ],
+    [
+      "Abu Dhabi",
+      "25 Nov 2018",
+      "27"
+    ]
+  ]
+}

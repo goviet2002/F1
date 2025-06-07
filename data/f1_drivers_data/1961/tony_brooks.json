@@ -1,0 +1,70 @@
+{
+  "name": "Tony Brooks",
+  "driver_code": "TONBRO01",
+  "url": "https://www.formula1.com/en/results/1961/drivers/TONBRO01/tony-brooks",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Monaco",
+      "14 May 1961",
+      "BRM Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Netherlands",
+      "22 May 1961",
+      "BRM Climax",
+      "9",
+      "0"
+    ],
+    [
+      "Belgium",
+      "18 Jun 1961",
+      "BRM Climax",
+      "13",
+      "0"
+    ],
+    [
+      "France",
+      "02 Jul 1961",
+      "BRM Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Great Britain",
+      "15 Jul 1961",
+      "BRM Climax",
+      "9",
+      "0"
+    ],
+    [
+      "Germany",
+      "06 Aug 1961",
+      "BRM Climax",
+      "DNF",
+      "0"
+    ],
+    [
+      "Italy",
+      "10 Sep 1961",
+      "BRM Climax",
+      "5",
+      "2"
+    ],
+    [
+      "United States",
+      "08 Oct 1961",
+      "BRM Climax",
+      "3",
+      "4"
+    ]
+  ]
+}

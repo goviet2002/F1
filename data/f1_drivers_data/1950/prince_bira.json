@@ -1,0 +1,42 @@
+{
+  "name": "Prince Bira",
+  "driver_code": "PRIBIR01",
+  "url": "https://www.formula1.com/en/results/1950/drivers/PRIBIR01/prince-bira",
+  "headers": [
+    "Grand prix",
+    "Date",
+    "Car",
+    "Race position",
+    "Pts"
+  ],
+  "race_results": [
+    [
+      "Great Britain",
+      "13 May 1950",
+      "Maserati",
+      "DNF",
+      "0"
+    ],
+    [
+      "Monaco",
+      "21 May 1950",
+      "Maserati",
+      "5",
+      "2"
+    ],
+    [
+      "Switzerland",
+      "04 Jun 1950",
+      "Maserati",
+      "4",
+      "3"
+    ],
+    [
+      "Italy",
+      "03 Sep 1950",
+      "Maserati",
+      "DNF",
+      "0"
+    ]
+  ]
+}
