@@ -1,0 +1,145 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "18",
+      "Jim Clark",
+      "Lotus Climax",
+      "2:20.200"
+    ],
+    [
+      "2",
+      "2",
+      "Graham Hill",
+      "BRM",
+      "2:20.900"
+    ],
+    [
+      "3",
+      "8",
+      "Dan Gurney",
+      "Lotus Climax",
+      "2:21.700"
+    ],
+    [
+      "4",
+      "16",
+      "John Surtees",
+      "Ferrari",
+      "2:21.900"
+    ],
+    [
+      "5",
+      "6",
+      "Jack Brabham",
+      "Lotus Climax",
+      "2:21.900"
+    ],
+    [
+      "6",
+      "10",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "2:22.500"
+    ],
+    [
+      "7",
+      "20",
+      "Trevor  Taylor ",
+      "Lotus Climax",
+      "2:23.700"
+    ],
+    [
+      "8",
+      "12",
+      "Tony Maggs",
+      "Cooper Climax",
+      "2:24.400"
+    ],
+    [
+      "9",
+      "32",
+      "Innes Ireland",
+      "Lotus BRM",
+      "2:25.100"
+    ],
+    [
+      "10",
+      "36",
+      "Jo Siffert",
+      "Lotus BRM",
+      "2:25.200"
+    ],
+    [
+      "11",
+      "44",
+      "Jo Bonnier",
+      "Cooper Climax",
+      "2:25.700"
+    ],
+    [
+      "12",
+      "4",
+      "Richie Ginther",
+      "BRM",
+      "2:25.900"
+    ],
+    [
+      "13",
+      "42",
+      "Phil Hill",
+      "Lotus BRM",
+      "2:27.700"
+    ],
+    [
+      "14",
+      "28",
+      "Maurice  Trintignant",
+      "Lola Climax",
+      "2:28.300"
+    ],
+    [
+      "15",
+      "30",
+      "Chris Amon",
+      "Lola Climax",
+      "2:30.500"
+    ],
+    [
+      "16",
+      "34",
+      "Jim  Hall ",
+      "Lotus BRM",
+      "2:30.900"
+    ],
+    [
+      "17",
+      "48",
+      "Masten Gregory",
+      "Lotus BRM",
+      "2:33.200"
+    ],
+    [
+      "18",
+      "38",
+      "Tony  Settember ",
+      "Scirocco BRM",
+      "2:36.700"
+    ],
+    [
+      "19",
+      "46",
+      "Lorenzo Bandini",
+      "Cooper Climax",
+      "2:37.800"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

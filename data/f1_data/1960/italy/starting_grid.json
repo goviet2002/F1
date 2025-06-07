@@ -1,0 +1,124 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "20",
+      "Phil Hill",
+      "Ferrari",
+      "2:41.400"
+    ],
+    [
+      "2",
+      "18",
+      "Richie Ginther",
+      "Ferrari",
+      "2:43.300"
+    ],
+    [
+      "3",
+      "16",
+      "Willy Mairesse",
+      "Ferrari",
+      "2:43.900"
+    ],
+    [
+      "4",
+      "2",
+      "Giulio Cabianca",
+      "Cooper Maserati",
+      "2:49.300"
+    ],
+    [
+      "5",
+      "36",
+      "Giorgio  Scarlatti ",
+      "Cooper Maserati",
+      "2:49.700"
+    ],
+    [
+      "6",
+      "22",
+      "Wolfgang von Trips",
+      "Ferrari",
+      "2:51.900"
+    ],
+    [
+      "7",
+      "6",
+      "Brian  Naylor ",
+      "JBW Maserati",
+      "2:52.400"
+    ],
+    [
+      "8",
+      "4",
+      "Gino  Munaron ",
+      "Cooper Maserati",
+      "2:53.100"
+    ],
+    [
+      "9",
+      "34",
+      "Alfonso  Thiele",
+      "Cooper Maserati",
+      "2:55.600"
+    ],
+    [
+      "10",
+      "26",
+      "Hans  Herrmann",
+      "Porsche",
+      "2:58.300"
+    ],
+    [
+      "11",
+      "8",
+      "Arthur  Owen",
+      "Cooper Climax",
+      "3:01.500"
+    ],
+    [
+      "12",
+      "24",
+      "Edgar Barth",
+      "Porsche",
+      "3:02.100"
+    ],
+    [
+      "13",
+      "10",
+      "Wolfgang Seidel",
+      "Cooper Climax",
+      "3:07.000"
+    ],
+    [
+      "14",
+      "28",
+      "Fred  Gamble",
+      "Behra-Porsche",
+      "3:10.600"
+    ],
+    [
+      "15",
+      "12",
+      "Piero  Drogo",
+      "Cooper Climax",
+      "3:11.900"
+    ],
+    [
+      "16",
+      "30",
+      "Vic  Wilson",
+      "Cooper Climax",
+      "3:16.500"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

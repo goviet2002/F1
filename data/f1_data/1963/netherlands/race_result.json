@@ -1,0 +1,185 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "6",
+      "Jim Clark",
+      "Lotus Climax",
+      "80",
+      "2:08:13.700",
+      "9"
+    ],
+    [
+      "2",
+      "18",
+      "Dan Gurney",
+      "Brabham Climax",
+      "79",
+      "+1 lap",
+      "6"
+    ],
+    [
+      "3",
+      "2",
+      "John Surtees",
+      "Ferrari",
+      "79",
+      "+1 lap",
+      "4"
+    ],
+    [
+      "4",
+      "30",
+      "Innes Ireland",
+      "BRP BRM",
+      "79",
+      "+1 lap",
+      "3"
+    ],
+    [
+      "5",
+      "14",
+      "Richie Ginther",
+      "BRM",
+      "79",
+      "+1 lap",
+      "2"
+    ],
+    [
+      "6",
+      "4",
+      "Ludovico Scarfiotti",
+      "Ferrari",
+      "78",
+      "+2 laps",
+      "1"
+    ],
+    [
+      "7",
+      "36",
+      "Jo Siffert",
+      "Lotus BRM",
+      "77",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "8",
+      "42",
+      "Jim  Hall ",
+      "Lotus BRM",
+      "77",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "9",
+      "32",
+      "Carel Godin de Beaufort ",
+      "Porsche",
+      "75",
+      "+5 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "12",
+      "Graham Hill",
+      "BRM",
+      "69",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "16",
+      "Jack Brabham",
+      "Brabham Climax",
+      "68",
+      "DNF",
+      "0"
+    ],
+    [
+      "10",
+      "8",
+      "Trevor  Taylor ",
+      "Lotus Climax",
+      "66",
+      "+14 laps",
+      "0"
+    ],
+    [
+      "11",
+      "28",
+      "Jo Bonnier",
+      "Cooper Climax",
+      "56",
+      "+24 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "10",
+      "Chris Amon",
+      "Lola Climax",
+      "29",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "26",
+      "Giancarlo Baghetti",
+      "ATS",
+      "17",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "24",
+      "Phil Hill",
+      "ATS",
+      "15",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "22",
+      "Tony Maggs",
+      "Cooper Climax",
+      "14",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "7",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "34",
+      "Gerhard Mitter",
+      "Porsche",
+      "2",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

@@ -1,0 +1,311 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Rodger Ward",
+      "Watson Offenhauser",
+      "200",
+      "3:40:49.200",
+      "8"
+    ],
+    [
+      "2",
+      "16",
+      "Jim Rathmann",
+      "Watson Offenhauser",
+      "200",
+      "+23.277s",
+      "6"
+    ],
+    [
+      "3",
+      "3",
+      "Johnny Thomson",
+      "Lesovsky Offenhauser",
+      "200",
+      "",
+      "5"
+    ],
+    [
+      "4",
+      "1",
+      "Tony  Bettenhausen",
+      "Epperly Offenhauser",
+      "200",
+      "",
+      "3"
+    ],
+    [
+      "5",
+      "99",
+      "Paul Goldsmith",
+      "Epperly Offenhauser",
+      "200",
+      "",
+      "2"
+    ],
+    [
+      "6",
+      "33",
+      "Johnny  Boyd",
+      "Epperly Offenhauser",
+      "200",
+      "",
+      "0"
+    ],
+    [
+      "7",
+      "37",
+      "Duane Carter",
+      "Kurtis Kraft Offenhauser",
+      "200",
+      "",
+      "0"
+    ],
+    [
+      "8",
+      "19",
+      "Eddie Johnson",
+      "Kurtis Kraft Offenhauser",
+      "200",
+      "",
+      "0"
+    ],
+    [
+      "9",
+      "45",
+      "Paul Russo",
+      "Kurtis Kraft Offenhauser",
+      "200",
+      "",
+      "0"
+    ],
+    [
+      "10",
+      "10",
+      "Anthony Joseph Foyt",
+      "Kuzma Offenhauser",
+      "200",
+      "",
+      "0"
+    ],
+    [
+      "11",
+      "88",
+      "Gene Hartley",
+      "Kuzma Offenhauser",
+      "200",
+      "",
+      "0"
+    ],
+    [
+      "12",
+      "74",
+      "Bob  Veith",
+      "Moore Offenhauser",
+      "200",
+      "",
+      "0"
+    ],
+    [
+      "13",
+      "89",
+      "Al  Herman",
+      "Dunn Offenhauser",
+      "200",
+      "",
+      "0"
+    ],
+    [
+      "14",
+      "66",
+      "Jimmy  Daywalt",
+      "Kurtis Kraft Offenhauser",
+      "200",
+      "",
+      "0"
+    ],
+    [
+      "15",
+      "71",
+      "Chuck  Arnold",
+      "Kurtis Kraft Offenhauser",
+      "200",
+      "",
+      "0"
+    ],
+    [
+      "16",
+      "58",
+      "Jim  McWithey",
+      "Kurtis Kraft Offenhauser",
+      "200",
+      "",
+      "0"
+    ],
+    [
+      "17",
+      "44",
+      "Eddie  Sachs",
+      "Kuzma Offenhauser",
+      "182",
+      "DNF",
+      "0"
+    ],
+    [
+      "18",
+      "57",
+      "Al  Keller",
+      "Kuzma Offenhauser",
+      "163",
+      "DNF",
+      "0"
+    ],
+    [
+      "19",
+      "64",
+      "Pat Flaherty",
+      "Watson Offenhauser",
+      "162",
+      "DNF",
+      "0"
+    ],
+    [
+      "20",
+      "73",
+      "Dick Rathmann",
+      "Watson Offenhauser",
+      "150",
+      "DNF",
+      "0"
+    ],
+    [
+      "21",
+      "53",
+      "Bill  Cheesbourg",
+      "Kuzma Offenhauser",
+      "147",
+      "DNF",
+      "0"
+    ],
+    [
+      "22",
+      "15",
+      "Don  Freeland",
+      "Kurtis Kraft Offenhauser",
+      "136",
+      "DNF",
+      "0"
+    ],
+    [
+      "23",
+      "49",
+      "Ray  Crawford",
+      "Elder Offenhauser",
+      "115",
+      "DNF",
+      "0"
+    ],
+    [
+      "24",
+      "9",
+      "Don  Branson",
+      "Phillips Offenhauser",
+      "112",
+      "DNF",
+      "0"
+    ],
+    [
+      "25",
+      "65",
+      "Bob  Christie",
+      "Kurtis Kraft Offenhauser",
+      "109",
+      "DNF",
+      "0"
+    ],
+    [
+      "26",
+      "48",
+      "Bobby  Grim",
+      "Kurtis Kraft Offenhauser",
+      "85",
+      "DNF",
+      "0"
+    ],
+    [
+      "27",
+      "24",
+      "Jack  Turner",
+      "Christensen Offenhauser",
+      "47",
+      "DNF",
+      "0"
+    ],
+    [
+      "28",
+      "47",
+      "Chuck  Weyant",
+      "Kurtis Kraft Offenhauser",
+      "45",
+      "DNF",
+      "0"
+    ],
+    [
+      "29",
+      "7",
+      "Jud  Larson",
+      "Kurtis Kraft Offenhauser",
+      "45",
+      "DNF",
+      "0"
+    ],
+    [
+      "30",
+      "77",
+      "Mike  Magill",
+      "Sutton Offenhauser",
+      "45",
+      "DNF",
+      "0"
+    ],
+    [
+      "31",
+      "87",
+      "Red  Amick",
+      "Kurtis Kraft Offenhauser",
+      "45",
+      "DNF",
+      "0"
+    ],
+    [
+      "32",
+      "8",
+      "Len  Sutton",
+      "Lesovsky Offenhauser",
+      "34",
+      "DNF",
+      "0"
+    ],
+    [
+      "33",
+      "6",
+      "Jimmy Bryan",
+      "Epperly Offenhauser",
+      "1",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

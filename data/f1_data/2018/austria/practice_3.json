@@ -1,0 +1,194 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time",
+    "Gap",
+    "Laps"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      "1:04.070",
+      "",
+      "22"
+    ],
+    [
+      "2",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:04.099",
+      "+0.029s",
+      "24"
+    ],
+    [
+      "3",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes",
+      "1:04.204",
+      "+0.134s",
+      "24"
+    ],
+    [
+      "4",
+      "7",
+      "Kimi Räikkönen",
+      "Ferrari",
+      "1:04.470",
+      "+0.400s",
+      "22"
+    ],
+    [
+      "5",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing TAG Heuer",
+      "1:04.791",
+      "+0.721s",
+      "14"
+    ],
+    [
+      "6",
+      "3",
+      "Daniel Ricciardo",
+      "Red Bull Racing TAG Heuer",
+      "1:04.891",
+      "+0.821s",
+      "18"
+    ],
+    [
+      "7",
+      "8",
+      "Romain Grosjean",
+      "Haas Ferrari",
+      "1:04.916",
+      "+0.846s",
+      "17"
+    ],
+    [
+      "8",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "1:05.013",
+      "+0.943s",
+      "16"
+    ],
+    [
+      "9",
+      "55",
+      "Carlos Sainz",
+      "Renault",
+      "1:05.086",
+      "+1.016s",
+      "22"
+    ],
+    [
+      "10",
+      "16",
+      "Charles Leclerc",
+      "Sauber Ferrari",
+      "1:05.219",
+      "+1.149s",
+      "25"
+    ],
+    [
+      "11",
+      "27",
+      "Nico Hulkenberg",
+      "Renault",
+      "1:05.228",
+      "+1.158s",
+      "19"
+    ],
+    [
+      "12",
+      "10",
+      "Pierre Gasly",
+      "Scuderia Toro Rosso Honda",
+      "1:05.264",
+      "+1.194s",
+      "25"
+    ],
+    [
+      "13",
+      "31",
+      "Esteban Ocon",
+      "Force India Mercedes",
+      "1:05.444",
+      "+1.374s",
+      "21"
+    ],
+    [
+      "14",
+      "14",
+      "Fernando Alonso",
+      "McLaren Renault",
+      "1:05.448",
+      "+1.378s",
+      "19"
+    ],
+    [
+      "15",
+      "11",
+      "Sergio Perez",
+      "Force India Mercedes",
+      "1:05.502",
+      "+1.432s",
+      "24"
+    ],
+    [
+      "16",
+      "9",
+      "Marcus Ericsson",
+      "Sauber Ferrari",
+      "1:05.699",
+      "+1.629s",
+      "27"
+    ],
+    [
+      "17",
+      "28",
+      "Brendon Hartley",
+      "Scuderia Toro Rosso Honda",
+      "1:05.705",
+      "+1.635s",
+      "23"
+    ],
+    [
+      "18",
+      "2",
+      "Stoffel Vandoorne",
+      "McLaren Renault",
+      "1:05.837",
+      "+1.767s",
+      "16"
+    ],
+    [
+      "19",
+      "18",
+      "Lance Stroll",
+      "Williams Mercedes",
+      "1:06.029",
+      "+1.959s",
+      "23"
+    ],
+    [
+      "20",
+      "35",
+      "Sergey Sirotkin",
+      "Williams Mercedes",
+      "1:06.318",
+      "+2.248s",
+      "22"
+    ]
+  ],
+  "session_name": "Practice 3"
+}

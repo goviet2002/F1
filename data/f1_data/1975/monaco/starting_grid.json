@@ -1,0 +1,138 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "12",
+      "Niki Lauda",
+      "Ferrari",
+      "1:26.400"
+    ],
+    [
+      "2",
+      "16",
+      "Tom Pryce",
+      "Shadow Matra",
+      "1:27.090"
+    ],
+    [
+      "3",
+      "17",
+      "Jean-Pierre Jarier",
+      "Shadow Matra",
+      "1:27.250"
+    ],
+    [
+      "4",
+      "5",
+      "Ronnie Peterson",
+      "Lotus Ford",
+      "1:27.400"
+    ],
+    [
+      "5",
+      "9",
+      "Vittorio Brambilla",
+      "March Ford",
+      "1:27.500"
+    ],
+    [
+      "6",
+      "11",
+      "Clay Regazzoni",
+      "Ferrari",
+      "1:27.550"
+    ],
+    [
+      "7",
+      "3",
+      "Jody Scheckter",
+      "Tyrrell Ford",
+      "1:27.580"
+    ],
+    [
+      "8",
+      "8",
+      "Carlos Pace",
+      "Brabham Ford",
+      "1:27.670"
+    ],
+    [
+      "9",
+      "1",
+      "Emerson Fittipaldi",
+      "McLaren Ford",
+      "1:27.770"
+    ],
+    [
+      "10",
+      "7",
+      "Carlos Reutemann",
+      "Brabham Ford",
+      "1:27.930"
+    ],
+    [
+      "11",
+      "24",
+      "James Hunt",
+      "Hesketh Ford",
+      "1:27.940"
+    ],
+    [
+      "12",
+      "4",
+      "Patrick Depailler",
+      "Tyrrell Ford",
+      "1:27.950"
+    ],
+    [
+      "13",
+      "27",
+      "Mario Andretti",
+      "Parnelli Ford",
+      "1:28.110"
+    ],
+    [
+      "14",
+      "6",
+      "Jacky Ickx",
+      "Lotus Ford",
+      "1:28.280"
+    ],
+    [
+      "15",
+      "2",
+      "Jochen Mass",
+      "McLaren Ford",
+      "1:28.490"
+    ],
+    [
+      "16",
+      "28",
+      "Mark Donohue",
+      "March Ford",
+      "1:28.810"
+    ],
+    [
+      "17",
+      "18",
+      "John Watson",
+      "Surtees Ford",
+      "1:28.900"
+    ],
+    [
+      "18",
+      "25",
+      "Alan  Jones",
+      "Hesketh Ford",
+      "1:29.120"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

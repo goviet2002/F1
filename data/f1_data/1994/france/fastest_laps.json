@@ -1,0 +1,221 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "0",
+      "Damon Hill",
+      "Williams Renault",
+      "4",
+      "1:19.678"
+    ],
+    [
+      "2",
+      "5",
+      "Michael Schumacher",
+      "Benetton Ford",
+      "3",
+      "1:19.753"
+    ],
+    [
+      "3",
+      "27",
+      "Jean Alesi",
+      "Ferrari",
+      "3",
+      "1:20.220"
+    ],
+    [
+      "4",
+      "2",
+      "Nigel Mansell",
+      "Williams Renault",
+      "4",
+      "1:20.242"
+    ],
+    [
+      "5",
+      "28",
+      "Gerhard Berger",
+      "Ferrari",
+      "3",
+      "1:20.659"
+    ],
+    [
+      "6",
+      "14",
+      "Rubens Barrichello",
+      "Jordan Hart",
+      "11",
+      "1:20.762"
+    ],
+    [
+      "7",
+      "6",
+      "Jos Verstappen",
+      "Benetton Ford",
+      "25",
+      "1:21.536"
+    ],
+    [
+      "8",
+      "7",
+      "Mika Hakkinen",
+      "McLaren Peugeot",
+      "37",
+      "1:21.829"
+    ],
+    [
+      "9",
+      "8",
+      "Martin Brundle",
+      "McLaren Peugeot",
+      "23",
+      "1:21.992"
+    ],
+    [
+      "10",
+      "15",
+      "Eddie Irvine",
+      "Jordan Hart",
+      "8",
+      "1:22.007"
+    ],
+    [
+      "11",
+      "30",
+      "Heinz-Harald Frentzen",
+      "Sauber Mercedes",
+      "4",
+      "1:22.080"
+    ],
+    [
+      "12",
+      "29",
+      "Andrea de Cesaris",
+      "Sauber Mercedes",
+      "13",
+      "1:22.121"
+    ],
+    [
+      "13",
+      "3",
+      "Ukyo Katayama",
+      "Tyrrell Yamaha",
+      "10",
+      "1:22.493"
+    ],
+    [
+      "14",
+      "26",
+      "Olivier Panis",
+      "Ligier Renault",
+      "14",
+      "1:22.625"
+    ],
+    [
+      "15",
+      "23",
+      "Pierluigi Martini",
+      "Minardi Ford",
+      "57",
+      "1:22.740"
+    ],
+    [
+      "16",
+      "12",
+      "Johnny Herbert",
+      "Lotus Mugen Honda",
+      "9",
+      "1:22.763"
+    ],
+    [
+      "17",
+      "9",
+      "Christian Fittipaldi",
+      "Footwork Ford",
+      "9",
+      "1:22.852"
+    ],
+    [
+      "18",
+      "20",
+      "Erik Comas",
+      "Larrousse Ford",
+      "14",
+      "1:23.037"
+    ],
+    [
+      "19",
+      "25",
+      "Eric Bernard",
+      "Ligier Renault",
+      "9",
+      "1:23.195"
+    ],
+    [
+      "20",
+      "10",
+      "Gianni Morbidelli",
+      "Footwork Ford",
+      "4",
+      "1:23.299"
+    ],
+    [
+      "21",
+      "4",
+      "Mark Blundell",
+      "Tyrrell Yamaha",
+      "34",
+      "1:23.368"
+    ],
+    [
+      "22",
+      "11",
+      "Alessandro Zanardi",
+      "Lotus Mugen Honda",
+      "13",
+      "1:23.558"
+    ],
+    [
+      "23",
+      "24",
+      "Michele Alboreto",
+      "Minardi Ford",
+      "5",
+      "1:23.676"
+    ],
+    [
+      "24",
+      "19",
+      "Olivier Beretta",
+      "Larrousse Ford",
+      "4",
+      "1:23.739"
+    ],
+    [
+      "25",
+      "31",
+      "David Brabham",
+      "Simtek Ford",
+      "5",
+      "1:23.920"
+    ],
+    [
+      "26",
+      "32",
+      "Jean-Marc Gounon",
+      "Simtek Ford",
+      "6",
+      "1:24.351"
+    ]
+  ],
+  "session_name": "Fastest Laps"
+}

@@ -1,0 +1,125 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car"
+  ],
+  "data": [
+    [
+      "1",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing Honda"
+    ],
+    [
+      "2",
+      "3",
+      "Daniel Ricciardo",
+      "McLaren Mercedes"
+    ],
+    [
+      "3",
+      "4",
+      "Lando Norris",
+      "McLaren Mercedes"
+    ],
+    [
+      "4",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes"
+    ],
+    [
+      "5",
+      "16",
+      "Charles Leclerc",
+      "Ferrari"
+    ],
+    [
+      "6",
+      "55",
+      "Carlos Sainz",
+      "Ferrari"
+    ],
+    [
+      "7",
+      "99",
+      "Antonio Giovinazzi",
+      "Alfa Romeo Racing Ferrari"
+    ],
+    [
+      "8",
+      "11",
+      "Sergio Perez",
+      "Red Bull Racing Honda"
+    ],
+    [
+      "9",
+      "18",
+      "Lance Stroll",
+      "Aston Martin Mercedes"
+    ],
+    [
+      "10",
+      "14",
+      "Fernando Alonso",
+      "Alpine Renault"
+    ],
+    [
+      "11",
+      "5",
+      "Sebastian Vettel",
+      "Aston Martin Mercedes"
+    ],
+    [
+      "12",
+      "31",
+      "Esteban Ocon",
+      "Alpine Renault"
+    ],
+    [
+      "13",
+      "6",
+      "Nicholas Latifi",
+      "Williams Mercedes"
+    ],
+    [
+      "14",
+      "63",
+      "George Russell",
+      "Williams Mercedes"
+    ],
+    [
+      "15",
+      "22",
+      "Yuki Tsunoda",
+      "AlphaTauri Honda"
+    ],
+    [
+      "16",
+      "9",
+      "Nikita Mazepin",
+      "Haas Ferrari"
+    ],
+    [
+      "17",
+      "88",
+      "Robert Kubica",
+      "Alfa Romeo Racing Ferrari"
+    ],
+    [
+      "18",
+      "47",
+      "Mick Schumacher",
+      "Haas Ferrari"
+    ],
+    [
+      "19",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

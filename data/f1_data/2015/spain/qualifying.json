@@ -1,0 +1,215 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Q1",
+    "Q2",
+    "Q3",
+    "Laps"
+  ],
+  "data": [
+    [
+      "1",
+      "6",
+      "Nico Rosberg",
+      "Mercedes",
+      "1:26.490",
+      "1:25.166",
+      "1:24.681",
+      "18"
+    ],
+    [
+      "2",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:26.382",
+      "1:25.740",
+      "1:24.948",
+      "17"
+    ],
+    [
+      "3",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      "1:27.534",
+      "1:26.167",
+      "1:25.458",
+      "15"
+    ],
+    [
+      "4",
+      "77",
+      "Valtteri Bottas",
+      "Williams Mercedes",
+      "1:27.262",
+      "1:26.197",
+      "1:25.694",
+      "16"
+    ],
+    [
+      "5",
+      "55",
+      "Carlos Sainz",
+      "STR Renault",
+      "1:26.773",
+      "1:26.475",
+      "1:26.136",
+      "17"
+    ],
+    [
+      "6",
+      "33",
+      "Max Verstappen",
+      "STR Renault",
+      "1:27.393",
+      "1:26.441",
+      "1:26.249",
+      "20"
+    ],
+    [
+      "7",
+      "7",
+      "Kimi Räikkönen",
+      "Ferrari",
+      "1:26.637",
+      "1:26.016",
+      "1:26.414",
+      "16"
+    ],
+    [
+      "8",
+      "26",
+      "Daniil Kvyat",
+      "Red Bull Racing Renault",
+      "1:27.833",
+      "1:26.889",
+      "1:26.629",
+      "16"
+    ],
+    [
+      "9",
+      "19",
+      "Felipe Massa",
+      "Williams Mercedes",
+      "1:27.165",
+      "1:26.147",
+      "1:26.757",
+      "16"
+    ],
+    [
+      "10",
+      "3",
+      "Daniel Ricciardo",
+      "Red Bull Racing Renault",
+      "1:27.611",
+      "1:26.692",
+      "1:26.770",
+      "16"
+    ],
+    [
+      "11",
+      "8",
+      "Romain Grosjean",
+      "Lotus Mercedes",
+      "1:27.383",
+      "1:27.375",
+      "",
+      "13"
+    ],
+    [
+      "12",
+      "13",
+      "Pastor Maldonado",
+      "Lotus Mercedes",
+      "1:27.281",
+      "1:27.450",
+      "",
+      "13"
+    ],
+    [
+      "13",
+      "14",
+      "Fernando Alonso",
+      "McLaren Honda",
+      "1:27.941",
+      "1:27.760",
+      "",
+      "11"
+    ],
+    [
+      "14",
+      "22",
+      "Jenson Button",
+      "McLaren Honda",
+      "1:27.813",
+      "1:27.854",
+      "",
+      "12"
+    ],
+    [
+      "15",
+      "12",
+      "Felipe Nasr",
+      "Sauber Ferrari",
+      "1:27.625",
+      "1:28.005",
+      "",
+      "14"
+    ],
+    [
+      "16",
+      "9",
+      "Marcus Ericsson",
+      "Sauber Ferrari",
+      "1:28.112",
+      "",
+      "",
+      "6"
+    ],
+    [
+      "17",
+      "27",
+      "Nico Hulkenberg",
+      "Force India Mercedes",
+      "1:28.365",
+      "",
+      "",
+      "6"
+    ],
+    [
+      "18",
+      "11",
+      "Sergio Perez",
+      "Force India Mercedes",
+      "1:28.442",
+      "",
+      "",
+      "7"
+    ],
+    [
+      "19",
+      "28",
+      "Will Stevens",
+      "Marussia Ferrari",
+      "1:31.200",
+      "",
+      "",
+      "6"
+    ],
+    [
+      "20",
+      "98",
+      "Roberto Merhi",
+      "Marussia Ferrari",
+      "1:32.038",
+      "",
+      "",
+      "4"
+    ]
+  ],
+  "session_name": "Qualifying"
+}

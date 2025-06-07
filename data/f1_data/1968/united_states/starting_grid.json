@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "12",
+      "Mario Andretti",
+      "Lotus Ford",
+      "1:04.200"
+    ],
+    [
+      "2",
+      "15",
+      "Jackie Stewart",
+      "Matra Ford",
+      "1:04.270"
+    ],
+    [
+      "3",
+      "10",
+      "Graham Hill",
+      "Lotus Ford",
+      "1:04.280"
+    ],
+    [
+      "4",
+      "6",
+      "Chris Amon",
+      "Ferrari",
+      "1:04.370"
+    ],
+    [
+      "5",
+      "1",
+      "Denny Hulme",
+      "McLaren Ford",
+      "1:04.570"
+    ],
+    [
+      "6",
+      "4",
+      "Jochen Rindt",
+      "Brabham Climax",
+      "1:04.810"
+    ],
+    [
+      "7",
+      "14",
+      "Dan Gurney",
+      "McLaren Ford",
+      "1:05.220"
+    ],
+    [
+      "8",
+      "3",
+      "Jack Brabham",
+      "Brabham Climax",
+      "1:05.250"
+    ],
+    [
+      "9",
+      "5",
+      "John Surtees",
+      "Honda",
+      "1:05.320"
+    ],
+    [
+      "10",
+      "2",
+      "Bruce McLaren",
+      "McLaren Ford",
+      "1:05.690"
+    ],
+    [
+      "11",
+      "8",
+      "Pedro Rodriguez",
+      "BRM",
+      "1:06.100"
+    ],
+    [
+      "12",
+      "16",
+      "Jo Siffert",
+      "Cooper Maserati",
+      "1:06.170"
+    ],
+    [
+      "13",
+      "21",
+      "Jean-Pierre Beltoise",
+      "Matra Ford",
+      "1:06.960"
+    ],
+    [
+      "14",
+      "22",
+      "Piers   Courage",
+      "BRM",
+      "1:07.020"
+    ],
+    [
+      "15",
+      "7",
+      "Derek Bell",
+      "Ferrari",
+      "1:07.060"
+    ],
+    [
+      "16",
+      "11",
+      "Jackie Oliver",
+      "Lotus Ford",
+      "1:07.460"
+    ],
+    [
+      "17",
+      "18",
+      "Vic  Elford ",
+      "Cooper BRM",
+      "1:08.530"
+    ],
+    [
+      "18",
+      "17",
+      "Jo Bonnier",
+      "Honda",
+      "1:08.930"
+    ],
+    [
+      "19",
+      "9",
+      "Bobby   Unser",
+      "BRM",
+      "1:09.600"
+    ],
+    [
+      "20",
+      "19",
+      "Lucien Bianchi",
+      "Cooper BRM",
+      "1:09.770"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

@@ -1,0 +1,194 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "50",
+      "2:06:15.118",
+      "26"
+    ],
+    [
+      "2",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing Honda",
+      "50",
+      "+21.825s",
+      "18"
+    ],
+    [
+      "3",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes",
+      "50",
+      "+27.531s",
+      "15"
+    ],
+    [
+      "4",
+      "31",
+      "Esteban Ocon",
+      "Alpine Renault",
+      "50",
+      "+27.633s",
+      "12"
+    ],
+    [
+      "5",
+      "3",
+      "Daniel Ricciardo",
+      "McLaren Mercedes",
+      "50",
+      "+40.121s",
+      "10"
+    ],
+    [
+      "6",
+      "10",
+      "Pierre Gasly",
+      "AlphaTauri Honda",
+      "50",
+      "+41.613s",
+      "8"
+    ],
+    [
+      "7",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "50",
+      "+44.475s",
+      "6"
+    ],
+    [
+      "8",
+      "55",
+      "Carlos Sainz",
+      "Ferrari",
+      "50",
+      "+46.606s",
+      "4"
+    ],
+    [
+      "9",
+      "99",
+      "Antonio Giovinazzi",
+      "Alfa Romeo Racing Ferrari",
+      "50",
+      "+58.505s",
+      "2"
+    ],
+    [
+      "10",
+      "4",
+      "Lando Norris",
+      "McLaren Mercedes",
+      "50",
+      "+61.358s",
+      "1"
+    ],
+    [
+      "11",
+      "18",
+      "Lance Stroll",
+      "Aston Martin Mercedes",
+      "50",
+      "+77.212s",
+      "0"
+    ],
+    [
+      "12",
+      "6",
+      "Nicholas Latifi",
+      "Williams Mercedes",
+      "50",
+      "+83.249s",
+      "0"
+    ],
+    [
+      "13",
+      "14",
+      "Fernando Alonso",
+      "Alpine Renault",
+      "49",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "14",
+      "22",
+      "Yuki Tsunoda",
+      "AlphaTauri Honda",
+      "49",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "15",
+      "7",
+      "Kimi Räikkönen",
+      "Alfa Romeo Racing Ferrari",
+      "49",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "NC",
+      "5",
+      "Sebastian Vettel",
+      "Aston Martin Mercedes",
+      "44",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "11",
+      "Sergio Perez",
+      "Red Bull Racing Honda",
+      "14",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "9",
+      "Nikita Mazepin",
+      "Haas Ferrari",
+      "14",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "63",
+      "George Russell",
+      "Williams Mercedes",
+      "14",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "47",
+      "Mick Schumacher",
+      "Haas Ferrari",
+      "8",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

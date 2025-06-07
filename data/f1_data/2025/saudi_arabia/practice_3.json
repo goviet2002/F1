@@ -1,0 +1,194 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time",
+    "Gap",
+    "Laps"
+  ],
+  "data": [
+    [
+      "1",
+      "4",
+      "Lando Norris",
+      "McLaren Mercedes",
+      "1:27.489",
+      "",
+      "18"
+    ],
+    [
+      "2",
+      "81",
+      "Oscar Piastri",
+      "McLaren Mercedes",
+      "1:27.513",
+      "+0.024s",
+      "19"
+    ],
+    [
+      "3",
+      "63",
+      "George Russell",
+      "Mercedes",
+      "1:28.116",
+      "+0.627s",
+      "17"
+    ],
+    [
+      "4",
+      "1",
+      "Max Verstappen",
+      "Red Bull Racing Honda RBPT",
+      "1:28.334",
+      "+0.845s",
+      "14"
+    ],
+    [
+      "5",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "1:28.372",
+      "+0.883s",
+      "21"
+    ],
+    [
+      "6",
+      "23",
+      "Alexander Albon",
+      "Williams Mercedes",
+      "1:28.389",
+      "+0.900s",
+      "16"
+    ],
+    [
+      "7",
+      "55",
+      "Carlos Sainz",
+      "Williams Mercedes",
+      "1:28.570",
+      "+1.081s",
+      "15"
+    ],
+    [
+      "8",
+      "10",
+      "Pierre Gasly",
+      "Alpine Renault",
+      "1:28.625",
+      "+1.136s",
+      "16"
+    ],
+    [
+      "9",
+      "22",
+      "Yuki Tsunoda",
+      "Red Bull Racing Honda RBPT",
+      "1:28.670",
+      "+1.181s",
+      "14"
+    ],
+    [
+      "10",
+      "12",
+      "Kimi Antonelli",
+      "Mercedes",
+      "1:28.679",
+      "+1.190s",
+      "18"
+    ],
+    [
+      "11",
+      "6",
+      "Isack Hadjar",
+      "Racing Bulls Honda RBPT",
+      "1:28.769",
+      "+1.280s",
+      "17"
+    ],
+    [
+      "12",
+      "44",
+      "Lewis Hamilton",
+      "Ferrari",
+      "1:28.780",
+      "+1.291s",
+      "20"
+    ],
+    [
+      "13",
+      "30",
+      "Liam Lawson",
+      "Racing Bulls Honda RBPT",
+      "1:28.861",
+      "+1.372s",
+      "18"
+    ],
+    [
+      "14",
+      "14",
+      "Fernando Alonso",
+      "Aston Martin Aramco Mercedes",
+      "1:28.888",
+      "+1.399s",
+      "19"
+    ],
+    [
+      "15",
+      "7",
+      "Jack Doohan",
+      "Alpine Renault",
+      "1:28.898",
+      "+1.409s",
+      "21"
+    ],
+    [
+      "16",
+      "87",
+      "Oliver Bearman",
+      "Haas Ferrari",
+      "1:28.989",
+      "+1.500s",
+      "15"
+    ],
+    [
+      "17",
+      "27",
+      "Nico Hulkenberg",
+      "Kick Sauber Ferrari",
+      "1:29.220",
+      "+1.731s",
+      "16"
+    ],
+    [
+      "18",
+      "31",
+      "Esteban Ocon",
+      "Haas Ferrari",
+      "1:29.336",
+      "+1.847s",
+      "20"
+    ],
+    [
+      "19",
+      "5",
+      "Gabriel Bortoleto",
+      "Kick Sauber Ferrari",
+      "1:29.410",
+      "+1.921s",
+      "24"
+    ],
+    [
+      "20",
+      "18",
+      "Lance Stroll",
+      "Aston Martin Aramco Mercedes",
+      "1:29.478",
+      "+1.989s",
+      "19"
+    ]
+  ],
+  "session_name": "Practice 3"
+}

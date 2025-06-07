@@ -1,0 +1,180 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "6",
+      "Jochen Rindt",
+      "Lotus Ford",
+      "1:39.230"
+    ],
+    [
+      "2",
+      "27",
+      "Clay Regazzoni",
+      "Ferrari",
+      "1:39.700"
+    ],
+    [
+      "3",
+      "12",
+      "Jacky Ickx",
+      "Ferrari",
+      "1:39.860"
+    ],
+    [
+      "4",
+      "1",
+      "Jackie Stewart",
+      "Tyrrell Ford",
+      "1:40.150"
+    ],
+    [
+      "5",
+      "14",
+      "Ignazio  Giunti ",
+      "Ferrari",
+      "1:40.210"
+    ],
+    [
+      "6",
+      "4",
+      "Chris Amon",
+      "March Ford",
+      "1:40.600"
+    ],
+    [
+      "7",
+      "19",
+      "Jean-Pierre Beltoise",
+      "Matra",
+      "1:40.810"
+    ],
+    [
+      "8",
+      "10",
+      "Jack Brabham",
+      "Brabham Ford",
+      "1:40.810"
+    ],
+    [
+      "9",
+      "2",
+      "Francois  Cevert ",
+      "Tyrrell Ford",
+      "1:40.890"
+    ],
+    [
+      "10",
+      "7",
+      "John   Miles",
+      "Lotus Ford",
+      "1:41.460"
+    ],
+    [
+      "11",
+      "21",
+      "Denny Hulme",
+      "McLaren Alfa Romeo",
+      "1:41.490"
+    ],
+    [
+      "12",
+      "15",
+      "John Surtees",
+      "McLaren Ford",
+      "1:41.490"
+    ],
+    [
+      "13",
+      "20",
+      "Henri Pescarolo",
+      "Matra",
+      "1:41.700"
+    ],
+    [
+      "14",
+      "16",
+      "Jackie Oliver",
+      "BRM",
+      "1:41.730"
+    ],
+    [
+      "15",
+      "22",
+      "Andrea de Adamich ",
+      "McLaren Alfa Romeo",
+      "1:41.820"
+    ],
+    [
+      "16",
+      "8",
+      "Emerson Fittipaldi",
+      "Lotus Ford",
+      "1:41.860"
+    ],
+    [
+      "17",
+      "11",
+      "Rolf Stommelen",
+      "Brabham Ford",
+      "1:42.090"
+    ],
+    [
+      "18",
+      "5",
+      "Mario Andretti",
+      "March Ford",
+      "1:42.280"
+    ],
+    [
+      "19",
+      "26",
+      "Tim   Schenken",
+      "De Tomaso Ford",
+      "1:42.410"
+    ],
+    [
+      "20",
+      "3",
+      "Jo Siffert",
+      "March Ford",
+      "1:42.560"
+    ],
+    [
+      "21",
+      "23",
+      "Peter  Gethin ",
+      "McLaren Alfa Romeo",
+      "1:42.790"
+    ],
+    [
+      "22",
+      "17",
+      "Pedro Rodriguez",
+      "BRM",
+      "1:43.190"
+    ],
+    [
+      "23",
+      "18",
+      "George Eaton",
+      "BRM",
+      "1:45.000"
+    ],
+    [
+      "24",
+      "24",
+      "Silvio  Moser ",
+      "Bellasi Ford",
+      "1:45.640"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

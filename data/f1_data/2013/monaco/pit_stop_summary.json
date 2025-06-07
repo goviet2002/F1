@@ -1,0 +1,315 @@
+{
+  "header": [
+    "Stops",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time of day",
+    "Time",
+    "Total"
+  ],
+  "data": [
+    [
+      "1",
+      "16",
+      "Pastor Maldonado",
+      "Williams Renault",
+      "1",
+      "14:04:48",
+      "40.507",
+      "40.507"
+    ],
+    [
+      "1",
+      "21",
+      "Giedo van der Garde",
+      "Caterham Renault",
+      "1",
+      "14:04:55",
+      "35.100",
+      "35.100"
+    ],
+    [
+      "1",
+      "14",
+      "Paul di Resta",
+      "Force India Mercedes",
+      "9",
+      "14:15:54",
+      "25.643",
+      "25.643"
+    ],
+    [
+      "1",
+      "19",
+      "Daniel Ricciardo",
+      "STR Ferrari",
+      "22",
+      "14:33:49",
+      "25.225",
+      "25.225"
+    ],
+    [
+      "1",
+      "22",
+      "Jules Bianchi",
+      "Marussia Cosworth",
+      "22",
+      "14:34:05",
+      "25.098",
+      "25.098"
+    ],
+    [
+      "1",
+      "23",
+      "Max Chilton",
+      "Marussia Cosworth",
+      "23",
+      "14:35:17",
+      "25.337",
+      "25.337"
+    ],
+    [
+      "2",
+      "21",
+      "Giedo van der Garde",
+      "Caterham Renault",
+      "24",
+      "14:37:13",
+      "25.676",
+      "1:00.776"
+    ],
+    [
+      "1",
+      "2",
+      "Mark Webber",
+      "Red Bull Racing Renault",
+      "25",
+      "14:37:28",
+      "24.316",
+      "24.316"
+    ],
+    [
+      "1",
+      "7",
+      "Kimi Räikkönen",
+      "Lotus Renault",
+      "26",
+      "14:38:49",
+      "24.420",
+      "24.420"
+    ],
+    [
+      "1",
+      "5",
+      "Jenson Button",
+      "McLaren Mercedes",
+      "26",
+      "14:38:54",
+      "24.585",
+      "24.585"
+    ],
+    [
+      "1",
+      "4",
+      "Felipe Massa",
+      "Ferrari",
+      "26",
+      "14:39:26",
+      "25.331",
+      "25.331"
+    ],
+    [
+      "1",
+      "11",
+      "Nico Hulkenberg",
+      "Sauber Ferrari",
+      "27",
+      "14:40:28",
+      "24.974",
+      "24.974"
+    ],
+    [
+      "1",
+      "3",
+      "Fernando Alonso",
+      "Ferrari",
+      "28",
+      "14:41:32",
+      "24.489",
+      "24.489"
+    ],
+    [
+      "1",
+      "12",
+      "Esteban Gutierrez ",
+      "Sauber Ferrari",
+      "28",
+      "14:42:09",
+      "25.364",
+      "25.364"
+    ],
+    [
+      "1",
+      "6",
+      "Sergio Perez",
+      "McLaren Mercedes",
+      "29",
+      "14:42:57",
+      "24.672",
+      "24.672"
+    ],
+    [
+      "1",
+      "18",
+      "Jean-Eric Vergne",
+      "STR Ferrari",
+      "29",
+      "14:43:05",
+      "24.827",
+      "24.827"
+    ],
+    [
+      "1",
+      "1",
+      "Sebastian Vettel",
+      "Red Bull Racing Renault",
+      "30",
+      "14:44:08",
+      "24.375",
+      "24.375"
+    ],
+    [
+      "1",
+      "15",
+      "Adrian Sutil",
+      "Force India Mercedes",
+      "30",
+      "14:44:28",
+      "25.274",
+      "25.274"
+    ],
+    [
+      "1",
+      "17",
+      "Valtteri Bottas",
+      "Williams Renault",
+      "30",
+      "14:44:53",
+      "29.063",
+      "29.063"
+    ],
+    [
+      "1",
+      "8",
+      "Romain Grosjean",
+      "Lotus Renault",
+      "30",
+      "14:44:55",
+      "24.565",
+      "24.565"
+    ],
+    [
+      "2",
+      "16",
+      "Pastor Maldonado",
+      "Williams Renault",
+      "30",
+      "14:45:08",
+      "26.146",
+      "1:06.653"
+    ],
+    [
+      "1",
+      "9",
+      "Nico Rosberg",
+      "Mercedes",
+      "31",
+      "14:45:40",
+      "25.200",
+      "25.200"
+    ],
+    [
+      "1",
+      "10",
+      "Lewis Hamilton",
+      "Mercedes",
+      "31",
+      "14:45:51",
+      "24.801",
+      "24.801"
+    ],
+    [
+      "2",
+      "22",
+      "Jules Bianchi",
+      "Marussia Cosworth",
+      "35",
+      "14:54:16",
+      "25.215",
+      "50.313"
+    ],
+    [
+      "3",
+      "21",
+      "Giedo van der Garde",
+      "Caterham Renault",
+      "35",
+      "14:55:21",
+      "25.862",
+      "1:26.638"
+    ],
+    [
+      "2",
+      "23",
+      "Max Chilton",
+      "Marussia Cosworth",
+      "48",
+      "15:38:30",
+      "19.553",
+      "44.890"
+    ],
+    [
+      "2",
+      "8",
+      "Romain Grosjean",
+      "Lotus Renault",
+      "62",
+      "15:58:00",
+      "39.980",
+      "1:04.545"
+    ],
+    [
+      "2",
+      "12",
+      "Esteban Gutierrez ",
+      "Sauber Ferrari",
+      "63",
+      "15:59:23",
+      "25.926",
+      "51.290"
+    ],
+    [
+      "3",
+      "23",
+      "Max Chilton",
+      "Marussia Cosworth",
+      "63",
+      "15:59:31",
+      "26.198",
+      "1:11.088"
+    ],
+    [
+      "2",
+      "7",
+      "Kimi Räikkönen",
+      "Lotus Renault",
+      "70",
+      "16:10:41",
+      "25.125",
+      "49.545"
+    ]
+  ],
+  "session_name": "Pit Stop Summary"
+}

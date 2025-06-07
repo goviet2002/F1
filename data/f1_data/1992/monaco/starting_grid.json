@@ -1,0 +1,194 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Nigel Mansell",
+      "Williams Renault",
+      "1:19.495"
+    ],
+    [
+      "2",
+      "6",
+      "Riccardo Patrese",
+      "Williams Renault",
+      "1:20.368"
+    ],
+    [
+      "3",
+      "1",
+      "Ayrton Senna",
+      "McLaren Honda",
+      "1:20.608"
+    ],
+    [
+      "4",
+      "27",
+      "Jean Alesi",
+      "Ferrari",
+      "1:20.895"
+    ],
+    [
+      "5",
+      "2",
+      "Gerhard Berger",
+      "McLaren Honda",
+      "1:21.224"
+    ],
+    [
+      "6",
+      "19",
+      "Michael Schumacher",
+      "Benetton Ford",
+      "1:21.831"
+    ],
+    [
+      "7",
+      "20",
+      "Martin Brundle",
+      "Benetton Ford",
+      "1:22.068"
+    ],
+    [
+      "8",
+      "28",
+      "Ivan Capelli",
+      "Ferrari",
+      "1:22.119"
+    ],
+    [
+      "9",
+      "12",
+      "Johnny Herbert",
+      "Lotus Ford",
+      "1:22.579"
+    ],
+    [
+      "10",
+      "4",
+      "Andrea de Cesaris",
+      "Tyrrell Ilmor",
+      "1:22.647"
+    ],
+    [
+      "11",
+      "9",
+      "Michele Alboreto",
+      "Footwork Mugen Honda",
+      "1:22.671"
+    ],
+    [
+      "12",
+      "24",
+      "Gianni Morbidelli",
+      "Minardi Lamborghini",
+      "1:22.733"
+    ],
+    [
+      "13",
+      "33",
+      "Mauricio Gugelmin",
+      "Jordan Yamaha",
+      "1:22.863"
+    ],
+    [
+      "14",
+      "11",
+      "Mika Hakkinen",
+      "Lotus Ford",
+      "1:22.886"
+    ],
+    [
+      "15",
+      "29",
+      "Bertrand Gachot",
+      "Venturi Lamborghini",
+      "1:23.122"
+    ],
+    [
+      "16",
+      "16",
+      "Karl Wendlinger",
+      "March Ilmor",
+      "1:23.264"
+    ],
+    [
+      "17",
+      "23",
+      "Christian Fittipaldi",
+      "Minardi Lamborghini",
+      "1:23.487"
+    ],
+    [
+      "18",
+      "22",
+      "Pierluigi Martini",
+      "Dallara Ferrari",
+      "1:23.508"
+    ],
+    [
+      "19",
+      "10",
+      "Aguri Suzuki",
+      "Footwork Mugen Honda",
+      "1:23.641"
+    ],
+    [
+      "20",
+      "21",
+      "Jyrki Jarvilehto",
+      "Dallara Ferrari",
+      "1:23.862"
+    ],
+    [
+      "21",
+      "32",
+      "Stefano Modena",
+      "Jordan Yamaha",
+      "1:23.890"
+    ],
+    [
+      "22",
+      "25",
+      "Thierry Boutsen",
+      "Ligier Renault",
+      "1:23.909"
+    ],
+    [
+      "23",
+      "26",
+      "Erik Comas",
+      "Ligier Renault",
+      "1:23.974"
+    ],
+    [
+      "24",
+      "3",
+      "Olivier Grouillard",
+      "Tyrrell Ilmor",
+      "1:23.990"
+    ],
+    [
+      "25",
+      "15",
+      "Gabriele Tarquini",
+      "Fondmetal Ford",
+      "1:24.479"
+    ],
+    [
+      "26",
+      "34",
+      "Roberto Moreno",
+      "Moda Judd",
+      "1:24.945"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

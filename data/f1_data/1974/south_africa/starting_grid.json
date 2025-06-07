@@ -1,0 +1,201 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "12",
+      "Niki Lauda",
+      "Ferrari",
+      "1:16.580"
+    ],
+    [
+      "2",
+      "18",
+      "Carlos Pace",
+      "Surtees Ford",
+      "1:16.630"
+    ],
+    [
+      "3",
+      "20",
+      "Arturo Merzario",
+      "Iso Marlboro Ford",
+      "1:16.790"
+    ],
+    [
+      "4",
+      "7",
+      "Carlos Reutemann",
+      "Brabham Ford",
+      "1:16.800"
+    ],
+    [
+      "5",
+      "5",
+      "Emerson Fittipaldi",
+      "McLaren Ford",
+      "1:16.820"
+    ],
+    [
+      "6",
+      "11",
+      "Clay Regazzoni",
+      "Ferrari",
+      "1:16.850"
+    ],
+    [
+      "7",
+      "9",
+      "Hans-Joachim Stuck",
+      "March Ford",
+      "1:16.980"
+    ],
+    [
+      "8",
+      "3",
+      "Jody Scheckter",
+      "Tyrrell Ford",
+      "1:16.990"
+    ],
+    [
+      "9",
+      "6",
+      "Denny Hulme",
+      "McLaren Ford",
+      "1:17.110"
+    ],
+    [
+      "10",
+      "2",
+      "Jacky Ickx",
+      "Lotus Ford",
+      "1:17.180"
+    ],
+    [
+      "11",
+      "14",
+      "Jean-Pierre Beltoise",
+      "BRM",
+      "1:17.340"
+    ],
+    [
+      "12",
+      "33",
+      "Mike Hailwood",
+      "McLaren Ford",
+      "1:17.340"
+    ],
+    [
+      "13",
+      "28",
+      "John Watson",
+      "Brabham Ford",
+      "1:17.390"
+    ],
+    [
+      "14",
+      "24",
+      "James Hunt",
+      "March Ford",
+      "1:17.410"
+    ],
+    [
+      "15",
+      "4",
+      "Patrick Depailler",
+      "Tyrrell Ford",
+      "1:17.750"
+    ],
+    [
+      "16",
+      "1",
+      "Ronnie Peterson",
+      "Lotus Ford",
+      "1:18.000"
+    ],
+    [
+      "17",
+      "19",
+      "Jochen Mass",
+      "Surtees Ford",
+      "1:18.230"
+    ],
+    [
+      "18",
+      "26",
+      "Graham Hill",
+      "Lola Ford",
+      "1:18.250"
+    ],
+    [
+      "19",
+      "10",
+      "Vittorio Brambilla",
+      "March Ford",
+      "1:18.290"
+    ],
+    [
+      "20",
+      "23",
+      "Dave Charlton",
+      "McLaren Ford",
+      "1:18.370"
+    ],
+    [
+      "21",
+      "15",
+      "Henri Pescarolo",
+      "BRM",
+      "1:18.390"
+    ],
+    [
+      "22",
+      "29",
+      "Ian Scheckter",
+      "Lotus Ford",
+      "1:18.560"
+    ],
+    [
+      "23",
+      "8",
+      "Richard   Robarts",
+      "Brabham Ford",
+      "1:18.600"
+    ],
+    [
+      "24",
+      "32",
+      "Eddie  Keizan",
+      "Tyrrell Ford",
+      "1:19.000"
+    ],
+    [
+      "25",
+      "37",
+      "Francois  Migault",
+      "BRM",
+      "1:19.140"
+    ],
+    [
+      "26",
+      "30",
+      "Paddy Driver",
+      "Lotus Ford",
+      "1:19.490"
+    ],
+    [
+      "27",
+      "21",
+      "Tom  Belso",
+      "Iso Marlboro Ford",
+      "1:19.800"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

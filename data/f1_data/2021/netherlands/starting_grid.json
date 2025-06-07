@@ -1,0 +1,138 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing Honda",
+      "1:08.885"
+    ],
+    [
+      "2",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:08.923"
+    ],
+    [
+      "3",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes",
+      "1:09.222"
+    ],
+    [
+      "4",
+      "10",
+      "Pierre Gasly",
+      "AlphaTauri Honda",
+      "1:09.478"
+    ],
+    [
+      "5",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "1:09.527"
+    ],
+    [
+      "6",
+      "55",
+      "Carlos Sainz",
+      "Ferrari",
+      "1:09.537"
+    ],
+    [
+      "7",
+      "99",
+      "Antonio Giovinazzi",
+      "Alfa Romeo Racing Ferrari",
+      "1:09.590"
+    ],
+    [
+      "8",
+      "31",
+      "Esteban Ocon",
+      "Alpine Renault",
+      "1:09.933"
+    ],
+    [
+      "9",
+      "14",
+      "Fernando Alonso",
+      "Alpine Renault",
+      "1:09.956"
+    ],
+    [
+      "10",
+      "3",
+      "Daniel Ricciardo",
+      "McLaren Mercedes",
+      "1:10.166"
+    ],
+    [
+      "11",
+      "63",
+      "George Russell",
+      "Williams Mercedes",
+      "1:10.332"
+    ],
+    [
+      "12",
+      "18",
+      "Lance Stroll",
+      "Aston Martin Mercedes",
+      "1:10.367"
+    ],
+    [
+      "13",
+      "4",
+      "Lando Norris",
+      "McLaren Mercedes",
+      "1:10.406"
+    ],
+    [
+      "14",
+      "22",
+      "Yuki Tsunoda",
+      "AlphaTauri Honda",
+      "1:11.314"
+    ],
+    [
+      "15",
+      "5",
+      "Sebastian Vettel",
+      "Aston Martin Mercedes",
+      "1:10.731"
+    ],
+    [
+      "16",
+      "88",
+      "Robert Kubica",
+      "Alfa Romeo Racing Ferrari",
+      "1:11.301"
+    ],
+    [
+      "17",
+      "47",
+      "Mick Schumacher",
+      "Haas Ferrari",
+      "1:11.387"
+    ],
+    [
+      "18",
+      "9",
+      "Nikita Mazepin",
+      "Haas Ferrari",
+      "1:11.875"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

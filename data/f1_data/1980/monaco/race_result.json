@@ -1,0 +1,194 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "28",
+      "Carlos Reutemann",
+      "Williams Ford",
+      "76",
+      "1:55:34.365",
+      "9"
+    ],
+    [
+      "2",
+      "26",
+      "Jacques Laffite",
+      "Ligier Ford",
+      "76",
+      "+73.629s",
+      "6"
+    ],
+    [
+      "3",
+      "5",
+      "Nelson Piquet",
+      "Brabham Ford",
+      "76",
+      "+77.726s",
+      "4"
+    ],
+    [
+      "4",
+      "30",
+      "Jochen Mass",
+      "Arrows Ford",
+      "75",
+      "+1 lap",
+      "3"
+    ],
+    [
+      "5",
+      "2",
+      "Gilles Villeneuve",
+      "Ferrari",
+      "75",
+      "+1 lap",
+      "2"
+    ],
+    [
+      "6",
+      "20",
+      "Emerson Fittipaldi",
+      "Fittipaldi Ford",
+      "74",
+      "+2 laps",
+      "1"
+    ],
+    [
+      "7",
+      "11",
+      "Mario Andretti",
+      "Lotus Ford",
+      "73",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "8",
+      "29",
+      "Riccardo Patrese",
+      "Arrows Ford",
+      "73",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "9",
+      "12",
+      "Elio de Angelis",
+      "Lotus Ford",
+      "68",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "9",
+      "Jan Lammers",
+      "ATS Ford",
+      "64",
+      "+12 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "25",
+      "Didier Pironi",
+      "Ligier Ford",
+      "54",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "16",
+      "Rene Arnoux",
+      "Renault",
+      "53",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "22",
+      "Patrick Depailler",
+      "Alfa Romeo",
+      "50",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "1",
+      "Jody Scheckter",
+      "Ferrari",
+      "27",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "15",
+      "Jean-Pierre Jabouille",
+      "Renault",
+      "25",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "27",
+      "Alan  Jones",
+      "Williams Ford",
+      "24",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "3",
+      "Jean-Pierre Jarier",
+      "Tyrrell Ford",
+      "0",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "23",
+      "Bruno Giacomelli",
+      "Alfa Romeo",
+      "0",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "8",
+      "Alain Prost",
+      "McLaren Ford",
+      "0",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "4",
+      "Derek Daly",
+      "Tyrrell Ford",
+      "0",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

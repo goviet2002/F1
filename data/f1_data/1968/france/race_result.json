@@ -1,0 +1,167 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "26",
+      "Jacky Ickx",
+      "Ferrari",
+      "60",
+      "2:25:40.900",
+      "9"
+    ],
+    [
+      "2",
+      "16",
+      "John Surtees",
+      "Honda",
+      "60",
+      "+118.600s",
+      "6"
+    ],
+    [
+      "3",
+      "28",
+      "Jackie Stewart",
+      "Matra Ford",
+      "59",
+      "+1 lap",
+      "4"
+    ],
+    [
+      "4",
+      "30",
+      "Vic  Elford ",
+      "Cooper BRM",
+      "58",
+      "+2 laps",
+      "3"
+    ],
+    [
+      "5",
+      "8",
+      "Denny Hulme",
+      "McLaren Ford",
+      "58",
+      "+2 laps",
+      "2"
+    ],
+    [
+      "6",
+      "36",
+      "Piers   Courage",
+      "BRM",
+      "57",
+      "+3 laps",
+      "1"
+    ],
+    [
+      "7",
+      "22",
+      "Richard Attwood",
+      "BRM",
+      "57",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "8",
+      "10",
+      "Bruce McLaren",
+      "McLaren Ford",
+      "56",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "9",
+      "6",
+      "Jean-Pierre Beltoise",
+      "Matra",
+      "56",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "10",
+      "24",
+      "Chris Amon",
+      "Ferrari",
+      "55",
+      "+5 laps",
+      "0"
+    ],
+    [
+      "11",
+      "34",
+      "Jo Siffert",
+      "Lotus Ford",
+      "54",
+      "+6 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Pedro Rodriguez",
+      "BRM",
+      "53",
+      "+7 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "2",
+      "Jochen Rindt",
+      "Brabham Repco",
+      "45",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "4",
+      "Jack Brabham",
+      "Brabham Repco",
+      "15",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "32",
+      "Johnny  Servoz-Gavin ",
+      "Cooper BRM",
+      "14",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "12",
+      "Graham Hill",
+      "Lotus Ford",
+      "14",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "18",
+      "Jo  Schlesser ",
+      "Honda",
+      "2",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

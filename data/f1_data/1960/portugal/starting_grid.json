@@ -1,0 +1,117 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "18",
+      "John Surtees",
+      "Lotus Climax",
+      "2:25.560"
+    ],
+    [
+      "2",
+      "24",
+      "Dan Gurney",
+      "BRM",
+      "2:25.630"
+    ],
+    [
+      "3",
+      "2",
+      "Jack Brabham",
+      "Cooper Climax",
+      "2:26.050"
+    ],
+    [
+      "4",
+      "12",
+      "Stirling Moss",
+      "Lotus Climax",
+      "2:26.190"
+    ],
+    [
+      "5",
+      "22",
+      "Graham Hill",
+      "BRM",
+      "2:27.110"
+    ],
+    [
+      "6",
+      "4",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "2:27.440"
+    ],
+    [
+      "7",
+      "16",
+      "Innes Ireland",
+      "Lotus Climax",
+      "2:27.520"
+    ],
+    [
+      "8",
+      "14",
+      "Jim Clark",
+      "Lotus Climax",
+      "2:28.360"
+    ],
+    [
+      "9",
+      "28",
+      "Wolfgang von Trips",
+      "Ferrari",
+      "2:28.400"
+    ],
+    [
+      "10",
+      "26",
+      "Phil Hill",
+      "Ferrari",
+      "2:28.420"
+    ],
+    [
+      "11",
+      "30",
+      "Masten Gregory",
+      "Cooper Maserati",
+      "2:29.160"
+    ],
+    [
+      "12",
+      "6",
+      "Tony Brooks",
+      "Cooper Climax",
+      "2:32.120"
+    ],
+    [
+      "13",
+      "20",
+      "Jo Bonnier",
+      "BRM",
+      "2:33.340"
+    ],
+    [
+      "14",
+      "8",
+      "Olivier  Gendebien",
+      "Cooper Climax",
+      "2:33.730"
+    ],
+    [
+      "15",
+      "32",
+      "Mario  de Araujo Cabral ",
+      "Cooper Maserati",
+      "2:35.850"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

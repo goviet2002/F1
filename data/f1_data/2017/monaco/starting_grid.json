@@ -1,0 +1,145 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "7",
+      "Kimi Räikkönen",
+      "Ferrari",
+      "1:12.178"
+    ],
+    [
+      "2",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      "1:12.221"
+    ],
+    [
+      "3",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes",
+      "1:12.223"
+    ],
+    [
+      "4",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing TAG Heuer",
+      "1:12.496"
+    ],
+    [
+      "5",
+      "3",
+      "Daniel Ricciardo",
+      "Red Bull Racing TAG Heuer",
+      "1:12.998"
+    ],
+    [
+      "6",
+      "55",
+      "Carlos Sainz",
+      "Toro Rosso",
+      "1:13.162"
+    ],
+    [
+      "7",
+      "11",
+      "Sergio Perez",
+      "Force India Mercedes",
+      "1:13.329"
+    ],
+    [
+      "8",
+      "8",
+      "Romain Grosjean",
+      "Haas Ferrari",
+      "1:13.349"
+    ],
+    [
+      "9",
+      "26",
+      "Daniil Kvyat",
+      "Toro Rosso",
+      "1:13.516"
+    ],
+    [
+      "10",
+      "27",
+      "Nico Hulkenberg",
+      "Renault",
+      "1:13.628"
+    ],
+    [
+      "11",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "1:13.959"
+    ],
+    [
+      "12",
+      "2",
+      "Stoffel Vandoorne",
+      "McLaren Honda",
+      ""
+    ],
+    [
+      "13",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:14.106"
+    ],
+    [
+      "14",
+      "19",
+      "Felipe Massa",
+      "Williams Mercedes",
+      "1:20.529"
+    ],
+    [
+      "15",
+      "31",
+      "Esteban Ocon",
+      "Force India Mercedes",
+      "1:14.101"
+    ],
+    [
+      "16",
+      "30",
+      "Jolyon Palmer",
+      "Renault",
+      "1:14.696"
+    ],
+    [
+      "17",
+      "18",
+      "Lance Stroll",
+      "Williams Mercedes",
+      "1:14.893"
+    ],
+    [
+      "18",
+      "94",
+      "Pascal Wehrlein",
+      "Sauber Ferrari",
+      "1:15.159"
+    ],
+    [
+      "19",
+      "9",
+      "Marcus Ericsson",
+      "Sauber Ferrari",
+      "1:15.276"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

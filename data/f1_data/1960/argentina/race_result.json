@@ -1,0 +1,221 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "16",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "80",
+      "2:17:49.500",
+      "8"
+    ],
+    [
+      "2",
+      "24",
+      "Cliff Allison",
+      "Ferrari",
+      "80",
+      "+26.300s",
+      "6"
+    ],
+    [
+      "3",
+      "38",
+      "Maurice  Trintignant",
+      "Cooper Climax",
+      "",
+      "SHC",
+      "0"
+    ],
+    [
+      "3",
+      "38",
+      "Stirling Moss",
+      "Cooper Climax",
+      "80",
+      "+36.900s",
+      "0"
+    ],
+    [
+      "4",
+      "6",
+      "Carlos Menditeguy",
+      "Cooper Maserati",
+      "80",
+      "+53.300s",
+      "3"
+    ],
+    [
+      "5",
+      "30",
+      "Wolfgang von Trips",
+      "Ferrari",
+      "79",
+      "+1 lap",
+      "2"
+    ],
+    [
+      "6",
+      "20",
+      "Innes Ireland",
+      "Lotus Climax",
+      "79",
+      "+1 lap",
+      "1"
+    ],
+    [
+      "7",
+      "40",
+      "Jo Bonnier",
+      "BRM",
+      "79",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "8",
+      "26",
+      "Phil Hill",
+      "Ferrari",
+      "77",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "9",
+      "46",
+      "Alberto Rodriguez Larreta",
+      "Lotus Climax",
+      "77",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "10",
+      "32",
+      "Jose Froilan Gonzalez",
+      "Ferrari",
+      "77",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "11",
+      "4",
+      "Roberto Bonomi",
+      "Cooper Maserati",
+      "76",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "12",
+      "2",
+      "Masten Gregory",
+      "Behra-Porsche",
+      "76",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "13",
+      "14",
+      "Gino  Munaron ",
+      "Maserati",
+      "72",
+      "+8 laps",
+      "0"
+    ],
+    [
+      "14",
+      "10",
+      "Nasif Estefano",
+      "Maserati",
+      "70",
+      "+10 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "34",
+      "Harry Schell",
+      "Cooper Climax",
+      "63",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "18",
+      "Jack Brabham",
+      "Cooper Climax",
+      "42",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "36",
+      "Stirling Moss",
+      "Cooper Climax",
+      "40",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "42",
+      "Graham Hill",
+      "BRM",
+      "37",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "22",
+      "Alan  Stacey ",
+      "Lotus Climax",
+      "24",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "44",
+      "Ettore  Chimeri ",
+      "Maserati",
+      "23",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "12",
+      "Antonio  Creus ",
+      "Maserati",
+      "16",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "8",
+      "Giorgio  Scarlatti ",
+      "Maserati",
+      "10",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

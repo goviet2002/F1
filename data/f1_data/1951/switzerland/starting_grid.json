@@ -1,0 +1,159 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "24",
+      "Juan Manuel Fangio",
+      "Alfa Romeo",
+      "2:35.900"
+    ],
+    [
+      "2",
+      "22",
+      "Nino Farina",
+      "Alfa Romeo",
+      "2:37.800"
+    ],
+    [
+      "3",
+      "18",
+      "Luigi  Villoresi",
+      "Ferrari",
+      "2:39.300"
+    ],
+    [
+      "4",
+      "28",
+      "Consalvo  Sanesi",
+      "Alfa Romeo",
+      "2:40.300"
+    ],
+    [
+      "5",
+      "26",
+      "Toulo de Graffenried",
+      "Alfa Romeo",
+      "2:41.800"
+    ],
+    [
+      "6",
+      "44",
+      "Piero  Taruffi",
+      "Ferrari",
+      "2:45.200"
+    ],
+    [
+      "7",
+      "20",
+      "Alberto Ascari",
+      "Ferrari",
+      "2:46.000"
+    ],
+    [
+      "8",
+      "8",
+      "Louis  Rosier",
+      "Talbot-Lago",
+      "2:52.700"
+    ],
+    [
+      "9",
+      "16",
+      "Peter  Whitehead",
+      "Ferrari",
+      "2:52.900"
+    ],
+    [
+      "10",
+      "38",
+      "Rudi  Fischer ",
+      "Ferrari",
+      "2:54.100"
+    ],
+    [
+      "11",
+      "10",
+      "Henri Louveau",
+      "Talbot-Lago",
+      "2:56.200"
+    ],
+    [
+      "12",
+      "4",
+      "Philippe  Etancelin",
+      "Talbot-Lago",
+      "2:57.300"
+    ],
+    [
+      "13",
+      "42",
+      "Jose Froilan Gonzalez",
+      "Talbot-Lago",
+      "2:57.300"
+    ],
+    [
+      "14",
+      "14",
+      "Stirling Moss",
+      "HWM Alta",
+      "2:58.400"
+    ],
+    [
+      "15",
+      "6",
+      "Yves Giraud-Cabantous",
+      "Talbot-Lago",
+      "3:00.300"
+    ],
+    [
+      "16",
+      "52",
+      "Peter Hirt",
+      "Veritas",
+      "3:01.600"
+    ],
+    [
+      "17",
+      "32",
+      "Harry Schell",
+      "Maserati",
+      "3:02.400"
+    ],
+    [
+      "18",
+      "2",
+      "Johnny Claes",
+      "Talbot-Lago",
+      "3:02.500"
+    ],
+    [
+      "19",
+      "30",
+      "Louis  Chiron",
+      "Maserati",
+      "3:03.100"
+    ],
+    [
+      "20",
+      "12",
+      "George  Abecassis ",
+      "HWM Alta",
+      "3:03.800"
+    ],
+    [
+      "21",
+      "40",
+      "Guy  Mairesse",
+      "Talbot-Lago",
+      "3:12.000"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

@@ -1,0 +1,248 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "50",
+      "Giancarlo Baghetti",
+      "Ferrari",
+      "52",
+      "2:14:17.500",
+      "9"
+    ],
+    [
+      "2",
+      "12",
+      "Dan Gurney",
+      "Porsche",
+      "52",
+      "+0.100s",
+      "6"
+    ],
+    [
+      "3",
+      "8",
+      "Jim Clark",
+      "Lotus Climax",
+      "52",
+      "+61.100s",
+      "4"
+    ],
+    [
+      "4",
+      "6",
+      "Innes Ireland",
+      "Lotus Climax",
+      "52",
+      "+70.300s",
+      "3"
+    ],
+    [
+      "5",
+      "4",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "52",
+      "+101.800s",
+      "2"
+    ],
+    [
+      "6",
+      "22",
+      "Graham Hill",
+      "BRM Climax",
+      "52",
+      "+101.900s",
+      "1"
+    ],
+    [
+      "7",
+      "10",
+      "Jo Bonnier",
+      "Porsche",
+      "52",
+      "+195.400s",
+      "0"
+    ],
+    [
+      "8",
+      "42",
+      "Roy Salvadori",
+      "Cooper Climax",
+      "51",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "9",
+      "16",
+      "Phil Hill",
+      "Ferrari",
+      "50",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "10",
+      "30",
+      "Henry Taylor",
+      "Lotus Climax",
+      "49",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "11",
+      "46",
+      "Michael  May ",
+      "Lotus Climax",
+      "48",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "12",
+      "36",
+      "Masten Gregory",
+      "Cooper Climax",
+      "43",
+      "+9 laps",
+      "0"
+    ],
+    [
+      "13",
+      "32",
+      "Maurice  Trintignant",
+      "Cooper Maserati",
+      "42",
+      "+10 laps",
+      "0"
+    ],
+    [
+      "14",
+      "38",
+      "Ian Burgess ",
+      "Lotus Climax",
+      "42",
+      "+10 laps",
+      "0"
+    ],
+    [
+      "15",
+      "18",
+      "Richie Ginther",
+      "Ferrari",
+      "40",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "26",
+      "Stirling Moss",
+      "Lotus Climax",
+      "31",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "48",
+      "Willy Mairesse",
+      "Lotus Climax",
+      "27",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "14",
+      "Carel Godin de Beaufort ",
+      "Porsche",
+      "23",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "28",
+      "Lucien Bianchi",
+      "Lotus Climax",
+      "21",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Wolfgang von Trips",
+      "Ferrari",
+      "18",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "34",
+      "Giorgio  Scarlatti ",
+      "De Tomaso OSCA",
+      "15",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "2",
+      "Jack Brabham",
+      "Cooper Climax",
+      "14",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "52",
+      "Bernard  Collomb ",
+      "Cooper Climax",
+      "6",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "40",
+      "John Surtees",
+      "Cooper Climax",
+      "4",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "24",
+      "Tony Brooks",
+      "BRM Climax",
+      "4",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "44",
+      "Jackie  Lewis ",
+      "Cooper Climax",
+      "4",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

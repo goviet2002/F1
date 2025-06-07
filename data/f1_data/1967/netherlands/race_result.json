@@ -1,0 +1,167 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Jim Clark",
+      "Lotus Ford",
+      "90",
+      "2:14:45.100",
+      "9"
+    ],
+    [
+      "2",
+      "1",
+      "Jack Brabham",
+      "Brabham Repco",
+      "90",
+      "+23.600s",
+      "6"
+    ],
+    [
+      "3",
+      "2",
+      "Denny Hulme",
+      "Brabham Repco",
+      "90",
+      "+25.700s",
+      "4"
+    ],
+    [
+      "4",
+      "3",
+      "Chris Amon",
+      "Ferrari",
+      "90",
+      "+27.300s",
+      "3"
+    ],
+    [
+      "5",
+      "4",
+      "Mike  Parkes ",
+      "Ferrari",
+      "89",
+      "+1 lap",
+      "2"
+    ],
+    [
+      "6",
+      "22",
+      "Ludovico Scarfiotti",
+      "Ferrari",
+      "89",
+      "+1 lap",
+      "1"
+    ],
+    [
+      "7",
+      "18",
+      "Chris   Irwin",
+      "Lotus BRM",
+      "88",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "8",
+      "10",
+      "Mike Spence",
+      "BRM",
+      "87",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "9",
+      "21",
+      "Bob Anderson",
+      "Brabham Climax",
+      "86",
+      "+4 laps",
+      "0"
+    ],
+    [
+      "10",
+      "20",
+      "Jo Siffert",
+      "Cooper Maserati",
+      "83",
+      "+7 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "7",
+      "John Surtees",
+      "Honda",
+      "73",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "9",
+      "Jackie Stewart",
+      "BRM",
+      "51",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "12",
+      "Jochen Rindt",
+      "Cooper Maserati",
+      "41",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "14",
+      "Pedro Rodriguez",
+      "Cooper Maserati",
+      "39",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "6",
+      "Graham Hill",
+      "Lotus Ford",
+      "11",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "15",
+      "Dan Gurney",
+      "Eagle Weslake",
+      "8",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "17",
+      "Bruce McLaren",
+      "McLaren BRM",
+      "1",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}
