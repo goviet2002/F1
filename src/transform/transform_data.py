@@ -563,9 +563,6 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
             'quali_time': None
         }
         
-        # Extract data from each qualifying session - JUST GET q1, q2, q3 TIMES
-        last_session = None
-        
         for session_name, data in sorted(qualifying_data.items(), key=sort_key):
             headers = data.get('header', [])
             header_indexes = {col: idx for idx, col in enumerate(headers)}
@@ -590,7 +587,6 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
                     if time_idx >= 0 and time_idx < len(row) and row[time_idx]:
                         if q_column:  # Only set q1/q2/q3 if q_column is not None
                             record[q_column] = row[time_idx]
-                            last_session = q_column
                     
                     if car_idx >= 0 and car_idx < len(row) and not record.get('team_id'):
                         team_name = row[car_idx]
@@ -602,9 +598,9 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
         # DO NOT set pos or quali_time for old format - those come from overall_qualifying
         if record['q3'] is not None:
             record['quali_time'] = record['q3']
-        elif last_session == 'q2':
+        elif record['q2'] is not None:
             record['quali_time'] = record['q2']
-        elif last_session == 'q1':
+        elif record['q1'] is not None:
             record['quali_time'] = record['q1']
         
         combined_records.append(record)
@@ -625,6 +621,15 @@ def enforce_qualifying_schema(fact_tables):
                     new_rec[col] = rec.get(col, rec_id)
                 else:
                     new_rec[col] = rec.get(col, None)
+            
+            # Ensure quali_time is set to the best time
+            if new_rec['q3'] is not None:
+                new_rec['quali_time'] = new_rec['q3']
+            elif new_rec['q2'] is not None:
+                new_rec['quali_time'] = new_rec['q2']
+            elif new_rec['q1'] is not None:
+                new_rec['quali_time'] = new_rec['q1']
+                
             new_records.append(new_rec)
         fact_tables["qualifying_results"] = new_records
         
