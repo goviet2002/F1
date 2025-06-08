@@ -615,16 +615,22 @@ def process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fa
         # Determine if this is a sprint qualifying session
         is_sprint_qualifying = any('sprint' in session_name.lower() for session_name in qualifying_data.keys())
         
-        # Choose appropriate session ID based on the type of qualifying
         if is_sprint_qualifying:
-            qualifying_session_id = session_id_map.get('Sprint Qualifying')
+            # Look for the actual sprint session name in the data
+            sprint_session_names = [name for name in qualifying_data.keys() if 'sprint' in name.lower()]
+            if sprint_session_names:
+                # Use the first sprint session name found
+                actual_sprint_session_name = sprint_session_names[0]
+                qualifying_session_id = session_id_map.get(actual_sprint_session_name)
+                print(f"  Found sprint session: {actual_sprint_session_name}, using session_id: {qualifying_session_id}")
+            else:
+                # Fallback to generic Sprint Qualifying
+                qualifying_session_id = session_id_map.get('Sprint Qualifying')
+                print(f"  No specific sprint session found, using Sprint Qualifying session_id: {qualifying_session_id}")
         else:
             qualifying_session_id = session_id_map.get('Qualifying')
+            print(f"  Using regular Qualifying session_id: {qualifying_session_id}")
         
-        if not qualifying_session_id:
-            print(f"Warning: No session_id found for {'Sprint Qualifying' if is_sprint_qualifying else 'Qualifying'}")
-            continue
-
         # Combine the qualifying data
         combined_records = combine_qualifying_data(
             qualifying_data, race_id, dimensions, qualifying_session_id, 
