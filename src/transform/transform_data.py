@@ -317,8 +317,8 @@ def transform_to_facts(session_files, dimensions):
     for race_id, race_info in dimensions['races'].items():
         race_id_map[(race_info['year'], race_info['grand_prix'].lower().replace(' ', '_').replace('-', '_').replace("'", ""))] = race_id
     
-    # Extract starting grid positions
-    starting_grid_map = extract_starting_grid_positions(race_id_map)
+    # Extract starting grid positions and times
+    starting_grid_map, starting_grid_times = extract_starting_grid_positions(race_id_map)
     
     # Build lookup maps
     driver_id_map = {}
@@ -413,7 +413,7 @@ def transform_to_facts(session_files, dimensions):
             print(f"Error transforming {file_path}: {e}")
     
     # Process combined qualifying sessions
-    process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fact_counters, starting_grid_map)
+    process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fact_counters, starting_grid_map, starting_grid_times)
     
     # Enforce schema for qualifying_results
     enforce_qualifying_schema(fact_tables)
@@ -438,7 +438,7 @@ def is_multi_part_qualifying(session_name):
     
     return is_multi_part or is_single_qualifying
 
-def process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fact_counters, starting_grid_map):
+def process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fact_counters, starting_grid_map, starting_grid_times):
     """Combine multiple qualifying files into single records, using overall_qualifying if present."""
     race_id_map = {}
     for race_id, race_info in dimensions['races'].items():
@@ -718,10 +718,11 @@ def get_q_column_from_session(session_name):
         return None  # Don't map overall_qualifying to any q-column
 
 def extract_starting_grid_positions(race_id_map):
-    """Extract starting grid positions for each race"""
+    """Extract starting grid positions and qualifying times for each race"""
     starting_grid_map = {}  # (race_id, driver_name) -> grid_position
+    starting_grid_times = {}  # (race_id, driver_name) -> qualifying_time
     
-    print("Extracting starting grid positions...")
+    print("Extracting starting grid positions and times...")
     
     for year_dir in os.listdir(DATA_DIR):
         year_path = os.path.join(DATA_DIR, year_dir)
@@ -752,12 +753,14 @@ def extract_starting_grid_positions(race_id_map):
                         headers = grid_data.get('header', [])
                         driver_idx = headers.index('Driver') if 'Driver' in headers else -1
                         pos_idx = headers.index('Pos') if 'Pos' in headers else -1
+                        time_idx = headers.index('Time') if 'Time' in headers else -1
                         
                         if driver_idx >= 0 and pos_idx >= 0:
                             for row in grid_data.get('data', []):
                                 if len(row) > max(driver_idx, pos_idx):
                                     driver_name = row[driver_idx]
                                     grid_pos = row[pos_idx]
+                                    quali_time = row[time_idx] if time_idx >= 0 and len(row) > time_idx else None
                                     
                                     # Convert position to integer
                                     try:
@@ -766,13 +769,15 @@ def extract_starting_grid_positions(race_id_map):
                                         grid_pos = None
                                     
                                     starting_grid_map[(race_id, driver_name)] = grid_pos
+                                    if quali_time:
+                                        starting_grid_times[(race_id, driver_name)] = quali_time
                                                             
                     except Exception as e:
                         print(f"Error processing starting grid {grid_file}: {e}")
                 else:
                     print(f"  No race_id found for {race_key}")
     
-    return starting_grid_map
+    return starting_grid_map, starting_grid_times
 
 def main():
     print("Starting F1 Data Transformation...")
