@@ -1,0 +1,145 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Jim Clark",
+      "Lotus Climax",
+      "1:47.560"
+    ],
+    [
+      "2",
+      "9",
+      "Chris Amon",
+      "Ferrari",
+      "1:48.040"
+    ],
+    [
+      "3",
+      "11",
+      "Dan Gurney",
+      "Eagle Climax",
+      "1:48.100"
+    ],
+    [
+      "4",
+      "6",
+      "Graham Hill",
+      "Lotus Climax",
+      "1:48.740"
+    ],
+    [
+      "5",
+      "1",
+      "Jack Brabham",
+      "Brabham Repco",
+      "1:49.080"
+    ],
+    [
+      "6",
+      "2",
+      "Denny Hulme",
+      "Brabham Repco",
+      "1:49.460"
+    ],
+    [
+      "7",
+      "3",
+      "John Surtees",
+      "Honda",
+      "1:49.800"
+    ],
+    [
+      "8",
+      "14",
+      "Bruce McLaren",
+      "McLaren BRM",
+      "1:50.060"
+    ],
+    [
+      "9",
+      "18",
+      "Moises Solana",
+      "Lotus Climax",
+      "1:50.520"
+    ],
+    [
+      "10",
+      "15",
+      "Jo Siffert",
+      "Cooper Maserati",
+      "1:51.890"
+    ],
+    [
+      "11",
+      "8",
+      "Mike Spence",
+      "BRM",
+      "1:52.250"
+    ],
+    [
+      "12",
+      "7",
+      "Jackie Stewart",
+      "BRM",
+      "1:52.340"
+    ],
+    [
+      "13",
+      "21",
+      "Pedro Rodriguez",
+      "Cooper Maserati",
+      "1:52.850"
+    ],
+    [
+      "14",
+      "22",
+      "Jean-Pierre Beltoise",
+      "Matra Ford",
+      "1:53.080"
+    ],
+    [
+      "15",
+      "17",
+      "Chris   Irwin",
+      "Lotus BRM",
+      "1:54.380"
+    ],
+    [
+      "16",
+      "12",
+      "Jonathan  Williams ",
+      "Ferrari",
+      "1:54.800"
+    ],
+    [
+      "17",
+      "16",
+      "Jo Bonnier",
+      "Cooper Maserati",
+      "1:55.570"
+    ],
+    [
+      "18",
+      "10",
+      "Mike  Fisher ",
+      "Lotus BRM",
+      "1:57.410"
+    ],
+    [
+      "19",
+      "19",
+      "Guy  Ligier ",
+      "Cooper Maserati",
+      "1:58.450"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

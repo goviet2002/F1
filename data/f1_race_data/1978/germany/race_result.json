@@ -1,0 +1,230 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Mario Andretti",
+      "Lotus Ford",
+      "45",
+      "1:28:00.900",
+      "9"
+    ],
+    [
+      "2",
+      "20",
+      "Jody Scheckter",
+      "Wolf Ford",
+      "45",
+      "+15.350s",
+      "6"
+    ],
+    [
+      "3",
+      "26",
+      "Jacques Laffite",
+      "Ligier Matra",
+      "45",
+      "+28.010s",
+      "4"
+    ],
+    [
+      "4",
+      "14",
+      "Emerson Fittipaldi",
+      "Fittipaldi Ford",
+      "45",
+      "+36.880s",
+      "3"
+    ],
+    [
+      "5",
+      "3",
+      "Didier Pironi",
+      "Tyrrell Ford",
+      "45",
+      "+57.260s",
+      "2"
+    ],
+    [
+      "6",
+      "25",
+      "Hector Rebaque",
+      "Lotus Ford",
+      "45",
+      "+97.860s",
+      "1"
+    ],
+    [
+      "7",
+      "2",
+      "John Watson",
+      "Brabham Alfa Romeo",
+      "45",
+      "+99.530s",
+      "0"
+    ],
+    [
+      "8",
+      "12",
+      "Gilles Villeneuve",
+      "Ferrari",
+      "45",
+      "+116.870s",
+      "0"
+    ],
+    [
+      "9",
+      "35",
+      "Riccardo Patrese",
+      "Arrows Ford",
+      "44",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "10",
+      "32",
+      "Keke Rosberg",
+      "Wolf Ford",
+      "42",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "DQ",
+      "36",
+      "Rolf Stommelen",
+      "Arrows Ford",
+      "42",
+      "DSQ",
+      "0"
+    ],
+    [
+      "11",
+      "23",
+      "Harald Ertl",
+      "Ensign Ford",
+      "41",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "6",
+      "Ronnie Peterson",
+      "Lotus Ford",
+      "36",
+      "DNF",
+      "0"
+    ],
+    [
+      "DQ",
+      "7",
+      "James Hunt",
+      "McLaren Ford",
+      "34",
+      "DSQ",
+      "0"
+    ],
+    [
+      "NC",
+      "27",
+      "Alan  Jones",
+      "Williams Ford",
+      "31",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "22",
+      "Nelson Piquet",
+      "Ensign Ford",
+      "31",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "19",
+      "Vittorio Brambilla",
+      "Surtees Ford",
+      "24",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "8",
+      "Patrick Tambay",
+      "McLaren Ford",
+      "16",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "11",
+      "Carlos Reutemann",
+      "Ferrari",
+      "14",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "1",
+      "Niki Lauda",
+      "Brabham Alfa Romeo",
+      "11",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "15",
+      "Jean-Pierre Jabouille",
+      "Renault",
+      "5",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "16",
+      "Hans-Joachim Stuck",
+      "Shadow Ford",
+      "1",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "9",
+      "Jochen Mass",
+      "ATS Ford",
+      "1",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "4",
+      "Patrick Depailler",
+      "Tyrrell Ford",
+      "0",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

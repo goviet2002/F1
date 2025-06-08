@@ -1,0 +1,159 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "6",
+      "Keke Rosberg",
+      "Williams Honda",
+      "1:03.073"
+    ],
+    [
+      "2",
+      "5",
+      "Nigel Mansell",
+      "Williams Honda",
+      "1:03.188"
+    ],
+    [
+      "3",
+      "7",
+      "Nelson Piquet",
+      "Brabham BMW",
+      "1:03.844"
+    ],
+    [
+      "4",
+      "12",
+      "Ayrton Senna",
+      "Lotus Renault",
+      "1:04.517"
+    ],
+    [
+      "5",
+      "11",
+      "Elio de Angelis",
+      "Lotus Renault",
+      "1:04.611"
+    ],
+    [
+      "6",
+      "18",
+      "Thierry Boutsen",
+      "Arrows BMW",
+      "1:05.079"
+    ],
+    [
+      "7",
+      "27",
+      "Michele Alboreto",
+      "Ferrari",
+      "1:05.268"
+    ],
+    [
+      "8",
+      "1",
+      "Niki Lauda",
+      "McLaren TAG",
+      "1:05.357"
+    ],
+    [
+      "9",
+      "28",
+      "Stefan Johansson",
+      "Ferrari",
+      "1:05.406"
+    ],
+    [
+      "10",
+      "8",
+      "Marc Surer",
+      "Brabham BMW",
+      "1:05.411"
+    ],
+    [
+      "11",
+      "2",
+      "Alain Prost",
+      "McLaren TAG",
+      "1:05.757"
+    ],
+    [
+      "12",
+      "19",
+      "Teo Fabi",
+      "Toleman Hart",
+      "1:06.083"
+    ],
+    [
+      "13",
+      "22",
+      "Riccardo Patrese",
+      "Alfa Romeo",
+      "1:06.386"
+    ],
+    [
+      "14",
+      "17",
+      "Gerhard Berger",
+      "Arrows BMW",
+      "1:06.546"
+    ],
+    [
+      "15",
+      "3",
+      "Martin Brundle",
+      "Tyrrell Renault",
+      "1:06.709"
+    ],
+    [
+      "16",
+      "33",
+      "Alan  Jones",
+      "Lola Hart",
+      "1:07.144"
+    ],
+    [
+      "17",
+      "23",
+      "Eddie  Cheever",
+      "Alfa Romeo",
+      "1:07.159"
+    ],
+    [
+      "18",
+      "20",
+      "Piercarlo Ghinzani",
+      "Toleman Hart",
+      "1:07.800"
+    ],
+    [
+      "19",
+      "4",
+      "Philippe Streiff",
+      "Tyrrell Renault",
+      "1:07.935"
+    ],
+    [
+      "20",
+      "24",
+      "Huub Rothengatter",
+      "Osella Alfa Romeo",
+      "1:09.904"
+    ],
+    [
+      "21",
+      "29",
+      "Pierluigi Martini",
+      "Minardi Motori Moderni",
+      "1:10.025"
+    ]
+  ],
+  "session_name": "Qualifying 1"
+}

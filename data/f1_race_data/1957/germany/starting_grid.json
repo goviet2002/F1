@@ -1,0 +1,180 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "1",
+      "Juan Manuel Fangio",
+      "Maserati",
+      "9:25.600"
+    ],
+    [
+      "2",
+      "8",
+      "Mike Hawthorn",
+      "Lanica Ferrari",
+      "9:28.400"
+    ],
+    [
+      "3",
+      "2",
+      "Jean Behra",
+      "Maserati",
+      "9:30.500"
+    ],
+    [
+      "4",
+      "7",
+      "Peter Collins",
+      "Lanica Ferrari",
+      "9:34.700"
+    ],
+    [
+      "5",
+      "11",
+      "Tony Brooks",
+      "Vanwall",
+      "9:36.100"
+    ],
+    [
+      "6",
+      "3",
+      "Harry Schell",
+      "Maserati",
+      "9:39.200"
+    ],
+    [
+      "7",
+      "10",
+      "Stirling Moss",
+      "Vanwall",
+      "9:41.200"
+    ],
+    [
+      "8",
+      "6",
+      "Luigi Musso",
+      "Lanica Ferrari",
+      "9:43.100"
+    ],
+    [
+      "9",
+      "12",
+      "Stuart  Lewis-Evans ",
+      "Vanwall",
+      "9:45.000"
+    ],
+    [
+      "10",
+      "16",
+      "Masten Gregory",
+      "Maserati",
+      "9:51.500"
+    ],
+    [
+      "11",
+      "17",
+      "Hans  Herrmann",
+      "Maserati",
+      "10:00.000"
+    ],
+    [
+      "12",
+      "21",
+      "Edgar Barth",
+      "Porsche (F2)",
+      "10:02.200"
+    ],
+    [
+      "13",
+      "4",
+      "Giorgio  Scarlatti ",
+      "Maserati",
+      "10:04.900"
+    ],
+    [
+      "14",
+      "23",
+      "Roy Salvadori",
+      "Cooper Climax",
+      "10:06.000"
+    ],
+    [
+      "15",
+      "20",
+      "Umberto  Maglioli",
+      "Porsche (F2)",
+      "10:08.900"
+    ],
+    [
+      "16",
+      "15",
+      "Bruce  Halford ",
+      "Maserati",
+      "10:14.500"
+    ],
+    [
+      "17",
+      "28",
+      "Brian  Naylor ",
+      "Cooper Climax",
+      "10:15.000"
+    ],
+    [
+      "18",
+      "24",
+      "Jack Brabham",
+      "Cooper Climax",
+      "10:18.800"
+    ],
+    [
+      "19",
+      "19",
+      "Horace  Gould ",
+      "Maserati",
+      "10:20.800"
+    ],
+    [
+      "20",
+      "27",
+      "Carel Godin de Beaufort ",
+      "Porsche (F2)",
+      "10:25.900"
+    ],
+    [
+      "21",
+      "18",
+      "Paco  Godia",
+      "Maserati",
+      "10:32.300"
+    ],
+    [
+      "22",
+      "25",
+      "Tony  Marsh ",
+      "Cooper Climax",
+      "10:48.200"
+    ],
+    [
+      "23",
+      "26",
+      "Paul England",
+      "Cooper Climax",
+      "11:08.400"
+    ],
+    [
+      "24",
+      "29",
+      "Dick   Gibson",
+      "Cooper Climax",
+      "11:46.400"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

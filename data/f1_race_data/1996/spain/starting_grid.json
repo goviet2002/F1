@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Damon Hill",
+      "Williams Renault",
+      "1:20.650"
+    ],
+    [
+      "2",
+      "6",
+      "Jacques Villeneuve",
+      "Williams Renault",
+      "1:21.084"
+    ],
+    [
+      "3",
+      "1",
+      "Michael Schumacher",
+      "Ferrari",
+      "1:21.587"
+    ],
+    [
+      "4",
+      "3",
+      "Jean Alesi",
+      "Benetton Renault",
+      "1:22.061"
+    ],
+    [
+      "5",
+      "4",
+      "Gerhard Berger",
+      "Benetton Renault",
+      "1:22.125"
+    ],
+    [
+      "6",
+      "2",
+      "Eddie Irvine",
+      "Ferrari",
+      "1:22.333"
+    ],
+    [
+      "7",
+      "11",
+      "Rubens Barrichello",
+      "Jordan Peugeot",
+      "1:22.379"
+    ],
+    [
+      "8",
+      "9",
+      "Olivier Panis",
+      "Ligier Mugen Honda",
+      "1:22.685"
+    ],
+    [
+      "9",
+      "14",
+      "Johnny Herbert",
+      "Sauber Ford",
+      "1:23.027"
+    ],
+    [
+      "10",
+      "7",
+      "Mika Hakkinen",
+      "McLaren Mercedes",
+      "1:23.070"
+    ],
+    [
+      "11",
+      "15",
+      "Heinz-Harald Frentzen",
+      "Sauber Ford",
+      "1:23.195"
+    ],
+    [
+      "12",
+      "19",
+      "Mika Salo",
+      "Tyrrell Yamaha",
+      "1:23.224"
+    ],
+    [
+      "13",
+      "17",
+      "Jos Verstappen",
+      "Footwork Hart",
+      "1:23.371"
+    ],
+    [
+      "14",
+      "8",
+      "David Coulthard",
+      "McLaren Mercedes",
+      "1:23.416"
+    ],
+    [
+      "15",
+      "12",
+      "Martin Brundle",
+      "Jordan Peugeot",
+      "1:23.438"
+    ],
+    [
+      "16",
+      "18",
+      "Ukyo Katayama",
+      "Tyrrell Yamaha",
+      "1:24.401"
+    ],
+    [
+      "17",
+      "10",
+      "Pedro Diniz",
+      "Ligier Mugen Honda",
+      "1:24.468"
+    ],
+    [
+      "18",
+      "20",
+      "Pedro Lamy",
+      "Minardi Ford",
+      "1:25.274"
+    ],
+    [
+      "19",
+      "21",
+      "Giancarlo Fisichella",
+      "Minardi Ford",
+      "1:25.531"
+    ],
+    [
+      "20",
+      "16",
+      "Ricardo Rosset",
+      "Footwork Hart",
+      "1:25.621"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

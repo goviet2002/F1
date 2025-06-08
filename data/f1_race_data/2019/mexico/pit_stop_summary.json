@@ -1,0 +1,285 @@
+{
+  "header": [
+    "Stops",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time of day",
+    "Time",
+    "Total"
+  ],
+  "data": [
+    [
+      "1",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing Honda",
+      "5",
+      "13:21:07",
+      "24.493",
+      "24.493"
+    ],
+    [
+      "1",
+      "10",
+      "Pierre Gasly",
+      "Scuderia Toro Rosso Honda",
+      "9",
+      "13:26:22",
+      "22.689",
+      "22.689"
+    ],
+    [
+      "1",
+      "26",
+      "Daniil Kvyat",
+      "Scuderia Toro Rosso Honda",
+      "10",
+      "13:27:43",
+      "22.490",
+      "22.490"
+    ],
+    [
+      "1",
+      "4",
+      "Lando Norris",
+      "McLaren Renault",
+      "12",
+      "13:30:27",
+      "2:03.388",
+      "2:03.388"
+    ],
+    [
+      "1",
+      "23",
+      "Alexander Albon",
+      "Red Bull Racing Honda",
+      "14",
+      "13:32:50",
+      "22.192",
+      "22.192"
+    ],
+    [
+      "1",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "15",
+      "13:34:07",
+      "22.002",
+      "22.002"
+    ],
+    [
+      "1",
+      "55",
+      "Carlos Sainz",
+      "McLaren Renault",
+      "15",
+      "13:34:37",
+      "22.241",
+      "22.241"
+    ],
+    [
+      "1",
+      "7",
+      "Kimi Räikkönen",
+      "Alfa Romeo Racing Ferrari",
+      "15",
+      "13:34:45",
+      "22.754",
+      "22.754"
+    ],
+    [
+      "1",
+      "27",
+      "Nico Hulkenberg",
+      "Renault",
+      "18",
+      "13:38:48",
+      "22.484",
+      "22.484"
+    ],
+    [
+      "1",
+      "11",
+      "Sergio Perez",
+      "Racing Point BWT Mercedes",
+      "20",
+      "13:41:30",
+      "22.357",
+      "22.357"
+    ],
+    [
+      "1",
+      "99",
+      "Antonio Giovinazzi",
+      "Alfa Romeo Racing Ferrari",
+      "21",
+      "13:43:03",
+      "43.411",
+      "43.411"
+    ],
+    [
+      "1",
+      "88",
+      "Robert Kubica",
+      "Williams Mercedes",
+      "21",
+      "13:43:30",
+      "24.606",
+      "24.606"
+    ],
+    [
+      "1",
+      "63",
+      "George Russell",
+      "Williams Mercedes",
+      "22",
+      "13:44:55",
+      "22.887",
+      "22.887"
+    ],
+    [
+      "1",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "23",
+      "13:45:01",
+      "22.269",
+      "22.269"
+    ],
+    [
+      "1",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "28",
+      "13:53:14",
+      "23.084",
+      "23.084"
+    ],
+    [
+      "2",
+      "55",
+      "Carlos Sainz",
+      "McLaren Renault",
+      "35",
+      "14:02:44",
+      "22.179",
+      "44.420"
+    ],
+    [
+      "1",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes",
+      "36",
+      "14:02:45",
+      "22.179",
+      "22.179"
+    ],
+    [
+      "1",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      "37",
+      "14:04:03",
+      "21.862",
+      "21.862"
+    ],
+    [
+      "1",
+      "18",
+      "Lance Stroll",
+      "Racing Point BWT Mercedes",
+      "37",
+      "14:04:58",
+      "22.745",
+      "22.745"
+    ],
+    [
+      "1",
+      "8",
+      "Romain Grosjean",
+      "Haas Ferrari",
+      "37",
+      "14:06:08",
+      "24.128",
+      "24.128"
+    ],
+    [
+      "2",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "43",
+      "14:12:15",
+      "25.786",
+      "47.788"
+    ],
+    [
+      "2",
+      "23",
+      "Alexander Albon",
+      "Red Bull Racing Honda",
+      "44",
+      "14:13:47",
+      "22.003",
+      "44.195"
+    ],
+    [
+      "2",
+      "26",
+      "Daniil Kvyat",
+      "Scuderia Toro Rosso Honda",
+      "44",
+      "14:14:40",
+      "22.033",
+      "44.523"
+    ],
+    [
+      "2",
+      "10",
+      "Pierre Gasly",
+      "Scuderia Toro Rosso Honda",
+      "49",
+      "14:21:41",
+      "22.618",
+      "45.307"
+    ],
+    [
+      "1",
+      "3",
+      "Daniel Ricciardo",
+      "Renault",
+      "50",
+      "14:22:29",
+      "22.345",
+      "22.345"
+    ],
+    [
+      "2",
+      "7",
+      "Kimi Räikkönen",
+      "Alfa Romeo Racing Ferrari",
+      "52",
+      "14:26:04",
+      "22.963",
+      "45.717"
+    ],
+    [
+      "2",
+      "88",
+      "Robert Kubica",
+      "Williams Mercedes",
+      "60",
+      "14:38:15",
+      "22.570",
+      "47.176"
+    ]
+  ],
+  "session_name": "Pit Stop Summary"
+}

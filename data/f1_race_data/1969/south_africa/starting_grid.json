@@ -1,0 +1,138 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "14",
+      "Jack Brabham",
+      "Brabham Climax",
+      "1:20.000"
+    ],
+    [
+      "2",
+      "2",
+      "Jochen Rindt",
+      "Lotus Ford",
+      "1:20.200"
+    ],
+    [
+      "3",
+      "5",
+      "Denny Hulme",
+      "McLaren Ford",
+      "1:20.300"
+    ],
+    [
+      "4",
+      "7",
+      "Jackie Stewart",
+      "Matra Ford",
+      "1:20.400"
+    ],
+    [
+      "5",
+      "9",
+      "Chris Amon",
+      "Ferrari",
+      "1:20.500"
+    ],
+    [
+      "6",
+      "3",
+      "Mario Andretti",
+      "Lotus Ford",
+      "1:20.800"
+    ],
+    [
+      "7",
+      "1",
+      "Graham Hill",
+      "Lotus Ford",
+      "1:21.100"
+    ],
+    [
+      "8",
+      "6",
+      "Bruce McLaren",
+      "McLaren Ford",
+      "1:21.100"
+    ],
+    [
+      "9",
+      "18",
+      "Basil van Rooyen ",
+      "McLaren Ford",
+      "1:21.800"
+    ],
+    [
+      "10",
+      "16",
+      "John Love",
+      "Lotus Ford",
+      "1:22.100"
+    ],
+    [
+      "11",
+      "8",
+      "Jean-Pierre Beltoise",
+      "Matra Ford",
+      "1:22.200"
+    ],
+    [
+      "12",
+      "4",
+      "Jo Siffert",
+      "Lotus Ford",
+      "1:22.200"
+    ],
+    [
+      "13",
+      "15",
+      "Jacky Ickx",
+      "Brabham Climax",
+      "1:23.100"
+    ],
+    [
+      "14",
+      "11",
+      "Jackie Oliver",
+      "BRM",
+      "1:24.100"
+    ],
+    [
+      "15",
+      "12",
+      "Pedro Rodriguez",
+      "BRM",
+      "1:25.200"
+    ],
+    [
+      "16",
+      "19",
+      "Peter de Klerk",
+      "Brabham Repco",
+      "1:27.200"
+    ],
+    [
+      "17",
+      "17",
+      "Sam Tingle",
+      "Lotus Ford",
+      "1:50.400"
+    ],
+    [
+      "18",
+      "10",
+      "John Surtees",
+      "BRM",
+      ""
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

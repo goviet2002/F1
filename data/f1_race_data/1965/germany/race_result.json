@@ -1,0 +1,185 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "1",
+      "Jim Clark",
+      "Lotus Climax",
+      "15",
+      "2:07:52.400",
+      "9"
+    ],
+    [
+      "2",
+      "9",
+      "Graham Hill",
+      "BRM",
+      "15",
+      "+15.900s",
+      "6"
+    ],
+    [
+      "3",
+      "5",
+      "Dan Gurney",
+      "Brabham Climax",
+      "15",
+      "+21.400s",
+      "4"
+    ],
+    [
+      "4",
+      "12",
+      "Jochen Rindt",
+      "Cooper Climax",
+      "15",
+      "+209.600s",
+      "3"
+    ],
+    [
+      "5",
+      "4",
+      "Jack Brabham",
+      "Brabham Climax",
+      "15",
+      "+281.200s",
+      "2"
+    ],
+    [
+      "6",
+      "8",
+      "Lorenzo Bandini",
+      "Ferrari",
+      "15",
+      "+308.600s",
+      "1"
+    ],
+    [
+      "7",
+      "16",
+      "Jo Bonnier",
+      "Brabham Climax",
+      "15",
+      "+358.500s",
+      "0"
+    ],
+    [
+      "8",
+      "24",
+      "Masten Gregory",
+      "BRM",
+      "14",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "NC",
+      "7",
+      "John Surtees",
+      "Ferrari",
+      "11",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "17",
+      "Jo Siffert",
+      "Brabham BRM",
+      "9",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "3",
+      "Gerhard Mitter",
+      "Lotus Climax",
+      "8",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "2",
+      "Mike Spence",
+      "Lotus Climax",
+      "8",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Richard Attwood",
+      "Lotus BRM",
+      "7",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "11",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "7",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "6",
+      "Denny Hulme",
+      "Brabham Climax",
+      "5",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "22",
+      "Paul Hawkins",
+      "Lotus Climax",
+      "4",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "19",
+      "Chris Amon",
+      "Lotus BRM",
+      "3",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "10",
+      "Jackie Stewart",
+      "BRM",
+      "2",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "21",
+      "Frank Gardner",
+      "Brabham BRM",
+      "0",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

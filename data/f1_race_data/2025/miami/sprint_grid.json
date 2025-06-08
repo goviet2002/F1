@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "12",
+      "Kimi Antonelli",
+      "Mercedes",
+      "1:26.482"
+    ],
+    [
+      "2",
+      "81",
+      "Oscar Piastri",
+      "McLaren Mercedes",
+      "1:26.527"
+    ],
+    [
+      "3",
+      "4",
+      "Lando Norris",
+      "McLaren Mercedes",
+      "1:26.582"
+    ],
+    [
+      "4",
+      "1",
+      "Max Verstappen",
+      "Red Bull Racing Honda RBPT",
+      "1:26.737"
+    ],
+    [
+      "5",
+      "63",
+      "George Russell",
+      "Mercedes",
+      "1:26.791"
+    ],
+    [
+      "6",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "1:26.808"
+    ],
+    [
+      "7",
+      "44",
+      "Lewis Hamilton",
+      "Ferrari",
+      "1:27.030"
+    ],
+    [
+      "8",
+      "23",
+      "Alexander Albon",
+      "Williams Mercedes",
+      "1:27.193"
+    ],
+    [
+      "9",
+      "6",
+      "Isack Hadjar",
+      "Racing Bulls Honda RBPT",
+      "1:27.543"
+    ],
+    [
+      "10",
+      "14",
+      "Fernando Alonso",
+      "Aston Martin Aramco Mercedes",
+      "1:27.790"
+    ],
+    [
+      "11",
+      "27",
+      "Nico Hulkenberg",
+      "Kick Sauber Ferrari",
+      "1:27.850"
+    ],
+    [
+      "12",
+      "31",
+      "Esteban Ocon",
+      "Haas Ferrari",
+      "1:28.070"
+    ],
+    [
+      "13",
+      "10",
+      "Pierre Gasly",
+      "Alpine Renault",
+      "1:28.167"
+    ],
+    [
+      "14",
+      "30",
+      "Liam Lawson",
+      "Racing Bulls Honda RBPT",
+      "1:28.375"
+    ],
+    [
+      "15",
+      "55",
+      "Carlos Sainz",
+      "Williams Mercedes",
+      ""
+    ],
+    [
+      "16",
+      "18",
+      "Lance Stroll",
+      "Aston Martin Aramco Mercedes",
+      "1:29.028"
+    ],
+    [
+      "17",
+      "7",
+      "Jack Doohan",
+      "Alpine Renault",
+      "1:29.171"
+    ],
+    [
+      "18",
+      "5",
+      "Gabriel Bortoleto",
+      "Kick Sauber Ferrari",
+      "1:29.312"
+    ],
+    [
+      "19",
+      "87",
+      "Oliver Bearman",
+      "Haas Ferrari",
+      "1:29.825"
+    ],
+    [
+      "20",
+      "22",
+      "Yuki Tsunoda",
+      "Red Bull Racing Honda RBPT",
+      "1:29.246"
+    ]
+  ],
+  "session_name": "Sprint Grid"
+}

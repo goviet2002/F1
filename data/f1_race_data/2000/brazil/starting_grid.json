@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "1",
+      "Mika Hakkinen",
+      "McLaren Mercedes",
+      "1:14.111"
+    ],
+    [
+      "2",
+      "2",
+      "David Coulthard",
+      "McLaren Mercedes",
+      "1:14.285"
+    ],
+    [
+      "3",
+      "3",
+      "Michael Schumacher",
+      "Ferrari",
+      "1:14.508"
+    ],
+    [
+      "4",
+      "4",
+      "Rubens Barrichello",
+      "Ferrari",
+      "1:14.636"
+    ],
+    [
+      "5",
+      "11",
+      "Giancarlo Fisichella",
+      "Benetton Playlife",
+      "1:15.375"
+    ],
+    [
+      "6",
+      "7",
+      "Eddie Irvine",
+      "Jaguar Cosworth",
+      "1:15.425"
+    ],
+    [
+      "7",
+      "5",
+      "Heinz-Harald Frentzen",
+      "Jordan Mugen Honda",
+      "1:15.455"
+    ],
+    [
+      "8",
+      "23",
+      "Ricardo Zonta",
+      "BAR Honda",
+      "1:15.484"
+    ],
+    [
+      "9",
+      "10",
+      "Jenson Button",
+      "Williams BMW",
+      "1:15.490"
+    ],
+    [
+      "10",
+      "22",
+      "Jacques Villeneuve",
+      "BAR Honda",
+      "1:15.515"
+    ],
+    [
+      "11",
+      "9",
+      "Ralf Schumacher",
+      "Williams BMW",
+      "1:15.561"
+    ],
+    [
+      "12",
+      "6",
+      "Jarno Trulli",
+      "Jordan Mugen Honda",
+      "1:15.627"
+    ],
+    [
+      "13",
+      "12",
+      "Alexander Wurz",
+      "Benetton Playlife",
+      "1:15.664"
+    ],
+    [
+      "14",
+      "19",
+      "Jos Verstappen",
+      "Arrows Supertec",
+      "1:15.704"
+    ],
+    [
+      "15",
+      "14",
+      "Jean Alesi",
+      "Prost Peugeot",
+      "1:15.715"
+    ],
+    [
+      "16",
+      "18",
+      "Pedro de la Rosa",
+      "Arrows Supertec",
+      "1:16.002"
+    ],
+    [
+      "17",
+      "8",
+      "Johnny Herbert",
+      "Jaguar Cosworth",
+      "1:16.250"
+    ],
+    [
+      "18",
+      "20",
+      "Marc Gene",
+      "Minardi Fondmetal",
+      "1:16.380"
+    ],
+    [
+      "19",
+      "15",
+      "Nick Heidfeld",
+      "Prost Peugeot",
+      "1:17.112"
+    ],
+    [
+      "20",
+      "21",
+      "Gaston Mazzacane",
+      "Minardi Fondmetal",
+      "1:17.512"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

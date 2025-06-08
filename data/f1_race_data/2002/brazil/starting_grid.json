@@ -1,0 +1,166 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "6",
+      "Juan Pablo Montoya",
+      "Williams BMW",
+      "1:13.114"
+    ],
+    [
+      "2",
+      "1",
+      "Michael Schumacher",
+      "Ferrari",
+      "1:13.241"
+    ],
+    [
+      "3",
+      "5",
+      "Ralf Schumacher",
+      "Williams BMW",
+      "1:13.328"
+    ],
+    [
+      "4",
+      "3",
+      "David Coulthard",
+      "McLaren Mercedes",
+      "1:13.565"
+    ],
+    [
+      "5",
+      "4",
+      "Kimi Räikkönen",
+      "McLaren Mercedes",
+      "1:13.595"
+    ],
+    [
+      "6",
+      "14",
+      "Jarno Trulli",
+      "Renault",
+      "1:13.611"
+    ],
+    [
+      "7",
+      "15",
+      "Jenson Button",
+      "Renault",
+      "1:13.665"
+    ],
+    [
+      "8",
+      "2",
+      "Rubens Barrichello",
+      "Ferrari",
+      "1:13.935"
+    ],
+    [
+      "9",
+      "7",
+      "Nick Heidfeld",
+      "Sauber Petronas",
+      "1:14.233"
+    ],
+    [
+      "10",
+      "24",
+      "Mika Salo",
+      "Toyota",
+      "1:14.443"
+    ],
+    [
+      "11",
+      "17",
+      "Pedro de la Rosa",
+      "Jaguar Cosworth",
+      "1:14.464"
+    ],
+    [
+      "12",
+      "8",
+      "Felipe Massa",
+      "Sauber Petronas",
+      "1:14.533"
+    ],
+    [
+      "13",
+      "16",
+      "Eddie Irvine",
+      "Jaguar Cosworth",
+      "1:14.537"
+    ],
+    [
+      "14",
+      "9",
+      "Giancarlo Fisichella",
+      "Jordan Honda",
+      "1:14.748"
+    ],
+    [
+      "15",
+      "11",
+      "Jacques Villeneuve",
+      "BAR Honda",
+      "1:14.760"
+    ],
+    [
+      "16",
+      "25",
+      "Allan McNish",
+      "Toyota",
+      "1:14.990"
+    ],
+    [
+      "17",
+      "12",
+      "Olivier Panis",
+      "BAR Honda",
+      "1:14.996"
+    ],
+    [
+      "18",
+      "20",
+      "Heinz-Harald Frentzen",
+      "Arrows Cosworth",
+      "1:15.112"
+    ],
+    [
+      "19",
+      "10",
+      "Takuma Sato",
+      "Jordan Honda",
+      "1:15.296"
+    ],
+    [
+      "20",
+      "23",
+      "Mark Webber",
+      "Minardi Asiatech",
+      "1:15.340"
+    ],
+    [
+      "21",
+      "21",
+      "Enrique Bernoldi",
+      "Arrows Cosworth",
+      "1:15.355"
+    ],
+    [
+      "22",
+      "22",
+      "Alex Yoong",
+      "Minardi Asiatech",
+      "1:16.728"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

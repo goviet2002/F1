@@ -1,0 +1,329 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Juan Manuel Fangio",
+      "Mercedes-Benz",
+      "96",
+      "3:00:38.600",
+      "9"
+    ],
+    [
+      "2",
+      "12",
+      "Jose Froilan Gonzalez",
+      "Ferrari",
+      "",
+      "SHC",
+      "2"
+    ],
+    [
+      "2",
+      "12",
+      "Nino Farina",
+      "Ferrari",
+      "96",
+      "+89.600s",
+      "3.3"
+    ],
+    [
+      "2",
+      "12",
+      "Maurice  Trintignant",
+      "Ferrari",
+      "",
+      "SHC",
+      "3.3"
+    ],
+    [
+      "3",
+      "10",
+      "Nino Farina",
+      "Ferrari",
+      "",
+      "SHC",
+      "0"
+    ],
+    [
+      "3",
+      "10",
+      "Umberto  Maglioli",
+      "Ferrari",
+      "94",
+      "+2 laps",
+      "1.3"
+    ],
+    [
+      "3",
+      "10",
+      "Maurice  Trintignant",
+      "Ferrari",
+      "",
+      "SHC",
+      "0"
+    ],
+    [
+      "4",
+      "8",
+      "Hans  Herrmann",
+      "Mercedes-Benz",
+      "",
+      "SHC",
+      "1"
+    ],
+    [
+      "4",
+      "8",
+      "Karl Kling",
+      "Mercedes-Benz",
+      "",
+      "SHC",
+      "1"
+    ],
+    [
+      "4",
+      "8",
+      "Stirling Moss",
+      "Mercedes-Benz",
+      "94",
+      "+2 laps",
+      "1"
+    ],
+    [
+      "5",
+      "18",
+      "Roberto Mieres",
+      "Maserati",
+      "91",
+      "+5 laps",
+      "2"
+    ],
+    [
+      "6",
+      "28",
+      "Harry Schell",
+      "Maserati",
+      "",
+      "SHC",
+      "0"
+    ],
+    [
+      "6",
+      "28",
+      "Jean Behra",
+      "Maserati",
+      "88",
+      "+8 laps",
+      "0"
+    ],
+    [
+      "7",
+      "22",
+      "Luigi Musso",
+      "Maserati",
+      "",
+      "SHC",
+      "0"
+    ],
+    [
+      "7",
+      "22",
+      "Sergio Mantovani",
+      "Maserati",
+      "",
+      "SHC",
+      "0"
+    ],
+    [
+      "7",
+      "22",
+      "Harry Schell",
+      "Maserati",
+      "83",
+      "+13 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "26",
+      "Clemar Bucci",
+      "Maserati",
+      "",
+      "SHC",
+      "0"
+    ],
+    [
+      "NC",
+      "26",
+      "Harry Schell",
+      "Maserati",
+      "",
+      "SHC",
+      "0"
+    ],
+    [
+      "NC",
+      "26",
+      "Carlos Menditeguy",
+      "Maserati",
+      "54",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Sergio Mantovani",
+      "Maserati",
+      "",
+      "SHC",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Luigi Musso",
+      "Maserati",
+      "",
+      "SHC",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Jean Behra",
+      "Maserati",
+      "54",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "42",
+      "Jesus Iglesias",
+      "Gordini",
+      "38",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "14",
+      "Maurice  Trintignant",
+      "Ferrari",
+      "36",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "36",
+      "Eugenio Castellotti",
+      "Lancia",
+      "",
+      "SHC",
+      "0"
+    ],
+    [
+      "NC",
+      "36",
+      "Luigi  Villoresi",
+      "Lancia",
+      "35",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "6",
+      "Stirling Moss",
+      "Mercedes-Benz",
+      "29",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "30",
+      "Alberto Uria",
+      "Maserati",
+      "22",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "32",
+      "Alberto Ascari",
+      "Lancia",
+      "21",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "38",
+      "Elie Bayol",
+      "Gordini",
+      "7",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "34",
+      "Luigi  Villoresi",
+      "Lancia",
+      "2",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "16",
+      "Jean Behra",
+      "Maserati",
+      "2",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "4",
+      "Karl Kling",
+      "Mercedes-Benz",
+      "2",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "40",
+      "Pablo Birger",
+      "Gordini",
+      "1",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "24",
+      "Carlos Menditeguy",
+      "Maserati",
+      "1",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

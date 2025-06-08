@@ -1,0 +1,173 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "1",
+      "Jackie Stewart",
+      "Tyrrell Ford",
+      "1:19.300"
+    ],
+    [
+      "2",
+      "15",
+      "Chris Amon",
+      "March Ford",
+      "1:19.300"
+    ],
+    [
+      "3",
+      "12",
+      "Jack Brabham",
+      "Brabham Ford",
+      "1:19.600"
+    ],
+    [
+      "4",
+      "9",
+      "Jochen Rindt",
+      "Lotus Ford",
+      "1:19.900"
+    ],
+    [
+      "5",
+      "17",
+      "Jacky Ickx",
+      "Ferrari",
+      "1:20.000"
+    ],
+    [
+      "6",
+      "6",
+      "Denny Hulme",
+      "McLaren Alfa Romeo",
+      "1:20.100"
+    ],
+    [
+      "7",
+      "7",
+      "John Surtees",
+      "McLaren Ford",
+      "1:20.200"
+    ],
+    [
+      "8",
+      "3",
+      "Jean-Pierre Beltoise",
+      "Matra",
+      "1:20.200"
+    ],
+    [
+      "9",
+      "16",
+      "Jo Siffert",
+      "March Ford",
+      "1:20.200"
+    ],
+    [
+      "10",
+      "5",
+      "Bruce McLaren",
+      "McLaren Alfa Romeo",
+      "1:20.300"
+    ],
+    [
+      "11",
+      "8",
+      "Mario Andretti",
+      "March Ford",
+      "1:20.500"
+    ],
+    [
+      "12",
+      "19",
+      "Jackie Oliver",
+      "BRM",
+      "1:20.900"
+    ],
+    [
+      "13",
+      "25",
+      "Dave Charlton",
+      "Lotus Ford",
+      "1:20.900"
+    ],
+    [
+      "14",
+      "10",
+      "John   Miles",
+      "Lotus Ford",
+      "1:21.000"
+    ],
+    [
+      "15",
+      "14",
+      "Rolf Stommelen",
+      "Brabham Ford",
+      "1:21.200"
+    ],
+    [
+      "16",
+      "20",
+      "Pedro Rodriguez",
+      "BRM",
+      "1:21.300"
+    ],
+    [
+      "17",
+      "2",
+      "Johnny  Servoz-Gavin ",
+      "Tyrrell Ford",
+      "1:21.400"
+    ],
+    [
+      "18",
+      "4",
+      "Henri Pescarolo",
+      "Matra",
+      "1:21.500"
+    ],
+    [
+      "19",
+      "11",
+      "Graham Hill",
+      "Lotus Ford",
+      "1:21.600"
+    ],
+    [
+      "20",
+      "22",
+      "Piers   Courage",
+      "De Tomaso Ford",
+      "1:22.000"
+    ],
+    [
+      "21",
+      "24",
+      "Peter de Klerk",
+      "Lotus Ford",
+      "1:22.700"
+    ],
+    [
+      "22",
+      "23",
+      "John Love",
+      "Lotus Ford",
+      "1:23.100"
+    ],
+    [
+      "23",
+      "21",
+      "George Eaton",
+      "BRM",
+      "1:24.400"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

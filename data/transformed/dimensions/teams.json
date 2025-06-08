@@ -1,0 +1,907 @@
+[
+  {
+    "team_id": "BRM",
+    "team_name": "BRM",
+    "url": "https://www.formula1.com/en/results/1974/team/BRM"
+  },
+  {
+    "team_id": "Cooper-Climax",
+    "team_name": "Cooper Climax",
+    "url": "https://www.formula1.com/en/results/1967/team/Cooper-Climax"
+  },
+  {
+    "team_id": "Ferrari",
+    "team_name": "Ferrari",
+    "url": "https://www.formula1.com/en/results/2025/team/Ferrari"
+  },
+  {
+    "team_id": "Lotus-Climax",
+    "team_name": "Lotus Climax",
+    "url": "https://www.formula1.com/en/results/1966/team/Lotus-Climax"
+  },
+  {
+    "team_id": "Maserati",
+    "team_name": "Maserati",
+    "url": "https://www.formula1.com/en/results/1958/team/Maserati"
+  },
+  {
+    "team_id": "Vanwall",
+    "team_name": "Vanwall",
+    "url": "https://www.formula1.com/en/results/1958/team/Vanwall"
+  },
+  {
+    "team_id": "Cooper-Castellotti",
+    "team_name": "Cooper Castellotti",
+    "url": "https://www.formula1.com/en/results/1960/team/Cooper-Castellotti"
+  },
+  {
+    "team_id": "Cooper-Maserati",
+    "team_name": "Cooper Maserati",
+    "url": "https://www.formula1.com/en/results/1967/team/Cooper-Maserati"
+  },
+  {
+    "team_id": "BRM-Climax",
+    "team_name": "BRM Climax",
+    "url": "https://www.formula1.com/en/results/1961/team/BRM-Climax"
+  },
+  {
+    "team_id": "Porsche",
+    "team_name": "Porsche",
+    "url": "https://www.formula1.com/en/results/1963/team/Porsche"
+  },
+  {
+    "team_id": "Brabham-Climax",
+    "team_name": "Brabham Climax",
+    "url": "https://www.formula1.com/en/results/1967/team/Brabham-Climax"
+  },
+  {
+    "team_id": "Lola-Climax",
+    "team_name": "Lola Climax",
+    "url": "https://www.formula1.com/en/results/1962/team/Lola-Climax"
+  },
+  {
+    "team_id": "Lotus-BRM",
+    "team_name": "Lotus BRM",
+    "url": "https://www.formula1.com/en/results/1967/team/Lotus-BRM"
+  },
+  {
+    "team_id": "BRP-BRM",
+    "team_name": "BRP BRM",
+    "url": "https://www.formula1.com/en/results/1964/team/BRP-BRM"
+  },
+  {
+    "team_id": "Brabham-BRM",
+    "team_name": "Brabham BRM",
+    "url": "https://www.formula1.com/en/results/1966/team/Brabham-BRM"
+  },
+  {
+    "team_id": "Honda",
+    "team_name": "Honda",
+    "url": "https://www.formula1.com/en/results/2008/team/Honda"
+  },
+  {
+    "team_id": "Brabham-Repco",
+    "team_name": "Brabham Repco",
+    "url": "https://www.formula1.com/en/results/1968/team/Brabham-Repco"
+  },
+  {
+    "team_id": "Eagle-Climax",
+    "team_name": "Eagle Climax",
+    "url": "https://www.formula1.com/en/results/1966/team/Eagle-Climax"
+  },
+  {
+    "team_id": "McLaren-Ford",
+    "team_name": "McLaren Ford",
+    "url": "https://www.formula1.com/en/results/1993/team/McLaren-Ford"
+  },
+  {
+    "team_id": "McLaren-Serenissima",
+    "team_name": "McLaren Serenissima",
+    "url": "https://www.formula1.com/en/results/1966/team/McLaren-Serenissima"
+  },
+  {
+    "team_id": "Eagle-Weslake",
+    "team_name": "Eagle Weslake",
+    "url": "https://www.formula1.com/en/results/1967/team/Eagle-Weslake"
+  },
+  {
+    "team_id": "Lotus-Ford",
+    "team_name": "Lotus Ford",
+    "url": "https://www.formula1.com/en/results/1993/team/Lotus-Ford"
+  },
+  {
+    "team_id": "McLaren-BRM",
+    "team_name": "McLaren BRM",
+    "url": "https://www.formula1.com/en/results/1967/team/McLaren-BRM"
+  },
+  {
+    "team_id": "Cooper-BRM",
+    "team_name": "Cooper BRM",
+    "url": "https://www.formula1.com/en/results/1968/team/Cooper-BRM"
+  },
+  {
+    "team_id": "Matra",
+    "team_name": "Matra",
+    "url": "https://www.formula1.com/en/results/1972/team/Matra"
+  },
+  {
+    "team_id": "Matra-Ford",
+    "team_name": "Matra Ford",
+    "url": "https://www.formula1.com/en/results/1969/team/Matra-Ford"
+  },
+  {
+    "team_id": "Mclaren-BRM",
+    "team_name": "Mclaren BRM",
+    "url": "https://www.formula1.com/en/results/1968/team/Mclaren-BRM"
+  },
+  {
+    "team_id": "Brabham-Ford",
+    "team_name": "Brabham Ford",
+    "url": "https://www.formula1.com/en/results/1982/team/Brabham-Ford"
+  },
+  {
+    "team_id": "March-Ford",
+    "team_name": "March Ford",
+    "url": "https://www.formula1.com/en/results/1987/team/March-Ford"
+  },
+  {
+    "team_id": "Surtees-Ford",
+    "team_name": "Surtees Ford",
+    "url": "https://www.formula1.com/en/results/1978/team/Surtees-Ford"
+  },
+  {
+    "team_id": "Tyrrell-Ford",
+    "team_name": "Tyrrell Ford",
+    "url": "https://www.formula1.com/en/results/1997/team/Tyrrell-Ford"
+  },
+  {
+    "team_id": "Iso-Marlboro-Ford",
+    "team_name": "Iso Marlboro Ford",
+    "url": "https://www.formula1.com/en/results/1974/team/Iso-Marlboro-Ford"
+  },
+  {
+    "team_id": "Shadow-Ford",
+    "team_name": "Shadow Ford",
+    "url": "https://www.formula1.com/en/results/1979/team/Shadow-Ford"
+  },
+  {
+    "team_id": "Tecno",
+    "team_name": "Tecno",
+    "url": "https://www.formula1.com/en/results/1973/team/Tecno"
+  },
+  {
+    "team_id": "Hesketh-Ford",
+    "team_name": "Hesketh Ford",
+    "url": "https://www.formula1.com/en/results/1975/team/Hesketh-Ford"
+  },
+  {
+    "team_id": "Lola-Ford",
+    "team_name": "Lola Ford",
+    "url": "https://www.formula1.com/en/results/1991/team/Lola-Ford"
+  },
+  {
+    "team_id": "Ensign-Ford",
+    "team_name": "Ensign Ford",
+    "url": "https://www.formula1.com/en/results/1981/team/Ensign-Ford"
+  },
+  {
+    "team_id": "Frank-Williams-Racing-Cars%2FWilliams",
+    "team_name": "Frank Williams Racing Cars/Williams",
+    "url": "https://www.formula1.com/en/results/1975/team/Frank-Williams-Racing-Cars%2FWilliams"
+  },
+  {
+    "team_id": "Hill-Ford",
+    "team_name": "Hill Ford",
+    "url": "https://www.formula1.com/en/results/1975/team/Hill-Ford"
+  },
+  {
+    "team_id": "Parnelli-Ford",
+    "team_name": "Parnelli Ford",
+    "url": "https://www.formula1.com/en/results/1976/team/Parnelli-Ford"
+  },
+  {
+    "team_id": "Penske-Ford",
+    "team_name": "Penske Ford",
+    "url": "https://www.formula1.com/en/results/1977/team/Penske-Ford"
+  },
+  {
+    "team_id": "Brabham-Alfa-Romeo",
+    "team_name": "Brabham Alfa Romeo",
+    "url": "https://www.formula1.com/en/results/1978/team/Brabham-Alfa-Romeo"
+  },
+  {
+    "team_id": "Fittipaldi-Ford",
+    "team_name": "Fittipaldi Ford",
+    "url": "https://www.formula1.com/en/results/1982/team/Fittipaldi-Ford"
+  },
+  {
+    "team_id": "Ligier-Matra",
+    "team_name": "Ligier Matra",
+    "url": "https://www.formula1.com/en/results/1982/team/Ligier-Matra"
+  },
+  {
+    "team_id": "Wolf-Ford",
+    "team_name": "Wolf Ford",
+    "url": "https://www.formula1.com/en/results/1978/team/Wolf-Ford"
+  },
+  {
+    "team_id": "Arrows-Ford",
+    "team_name": "Arrows Ford",
+    "url": "https://www.formula1.com/en/results/1990/team/Arrows-Ford"
+  },
+  {
+    "team_id": "Renault",
+    "team_name": "Renault",
+    "url": "https://www.formula1.com/en/results/2020/team/Renault"
+  },
+  {
+    "team_id": "Williams-Ford",
+    "team_name": "Williams Ford",
+    "url": "https://www.formula1.com/en/results/1983/team/Williams-Ford"
+  },
+  {
+    "team_id": "ATS-Ford",
+    "team_name": "ATS Ford",
+    "url": "https://www.formula1.com/en/results/1982/team/ATS-Ford"
+  },
+  {
+    "team_id": "Ligier-Ford",
+    "team_name": "Ligier Ford",
+    "url": "https://www.formula1.com/en/results/1989/team/Ligier-Ford"
+  },
+  {
+    "team_id": "Alfa-Romeo",
+    "team_name": "Alfa Romeo",
+    "url": "https://www.formula1.com/en/results/1984/team/Alfa-Romeo"
+  },
+  {
+    "team_id": "Theodore-Ford",
+    "team_name": "Theodore Ford",
+    "url": "https://www.formula1.com/en/results/1983/team/Theodore-Ford"
+  },
+  {
+    "team_id": "Brabham-BMW",
+    "team_name": "Brabham BMW",
+    "url": "https://www.formula1.com/en/results/1987/team/Brabham-BMW"
+  },
+  {
+    "team_id": "Osella-Ford",
+    "team_name": "Osella Ford",
+    "url": "https://www.formula1.com/en/results/1982/team/Osella-Ford"
+  },
+  {
+    "team_id": "Lotus-Renault",
+    "team_name": "Lotus Renault",
+    "url": "https://www.formula1.com/en/results/2014/team/Lotus-Renault"
+  },
+  {
+    "team_id": "Toleman-Hart",
+    "team_name": "Toleman Hart",
+    "url": "https://www.formula1.com/en/results/1984/team/Toleman-Hart"
+  },
+  {
+    "team_id": "Williams-Honda",
+    "team_name": "Williams Honda",
+    "url": "https://www.formula1.com/en/results/1987/team/Williams-Honda"
+  },
+  {
+    "team_id": "Arrows-BMW",
+    "team_name": "Arrows BMW",
+    "url": "https://www.formula1.com/en/results/1986/team/Arrows-BMW"
+  },
+  {
+    "team_id": "Ligier-Renault",
+    "team_name": "Ligier Renault",
+    "url": "https://www.formula1.com/en/results/1994/team/Ligier-Renault"
+  },
+  {
+    "team_id": "McLaren-TAG",
+    "team_name": "McLaren TAG",
+    "url": "https://www.formula1.com/en/results/1987/team/McLaren-TAG"
+  },
+  {
+    "team_id": "Osella-Alfa-Romeo",
+    "team_name": "Osella Alfa Romeo",
+    "url": "https://www.formula1.com/en/results/1984/team/Osella-Alfa-Romeo"
+  },
+  {
+    "team_id": "Tyrrell-Renault",
+    "team_name": "Tyrrell Renault",
+    "url": "https://www.formula1.com/en/results/1986/team/Tyrrell-Renault"
+  },
+  {
+    "team_id": "Benetton-BMW",
+    "team_name": "Benetton BMW",
+    "url": "https://www.formula1.com/en/results/1986/team/Benetton-BMW"
+  },
+  {
+    "team_id": "AGS-Ford",
+    "team_name": "AGS Ford",
+    "url": "https://www.formula1.com/en/results/1989/team/AGS-Ford"
+  },
+  {
+    "team_id": "Arrows-Megatron",
+    "team_name": "Arrows Megatron",
+    "url": "https://www.formula1.com/en/results/1988/team/Arrows-Megatron"
+  },
+  {
+    "team_id": "Benetton-Ford",
+    "team_name": "Benetton Ford",
+    "url": "https://www.formula1.com/en/results/1994/team/Benetton-Ford"
+  },
+  {
+    "team_id": "Ligier-Megatron",
+    "team_name": "Ligier Megatron",
+    "url": "https://www.formula1.com/en/results/1987/team/Ligier-Megatron"
+  },
+  {
+    "team_id": "Lotus-Honda",
+    "team_name": "Lotus Honda",
+    "url": "https://www.formula1.com/en/results/1988/team/Lotus-Honda"
+  },
+  {
+    "team_id": "Zakspeed",
+    "team_name": "Zakspeed",
+    "url": "https://www.formula1.com/en/results/1987/team/Zakspeed"
+  },
+  {
+    "team_id": "March-Judd",
+    "team_name": "March Judd",
+    "url": "https://www.formula1.com/en/results/1989/team/March-Judd"
+  },
+  {
+    "team_id": "McLaren-Honda",
+    "team_name": "McLaren Honda",
+    "url": "https://www.formula1.com/en/results/2017/team/McLaren-Honda"
+  },
+  {
+    "team_id": "Minardi-Ford",
+    "team_name": "Minardi Ford",
+    "url": "https://www.formula1.com/en/results/1999/team/Minardi-Ford"
+  },
+  {
+    "team_id": "Rial-Ford",
+    "team_name": "Rial Ford",
+    "url": "https://www.formula1.com/en/results/1989/team/Rial-Ford"
+  },
+  {
+    "team_id": "Williams-Judd",
+    "team_name": "Williams Judd",
+    "url": "https://www.formula1.com/en/results/1988/team/Williams-Judd"
+  },
+  {
+    "team_id": "Brabham-Judd",
+    "team_name": "Brabham Judd",
+    "url": "https://www.formula1.com/en/results/1990/team/Brabham-Judd"
+  },
+  {
+    "team_id": "Dallara-Ford",
+    "team_name": "Dallara Ford",
+    "url": "https://www.formula1.com/en/results/1989/team/Dallara-Ford"
+  },
+  {
+    "team_id": "Lola-Lamborghini",
+    "team_name": "Lola Lamborghini",
+    "url": "https://www.formula1.com/en/results/1990/team/Lola-Lamborghini"
+  },
+  {
+    "team_id": "Lotus-Judd",
+    "team_name": "Lotus Judd",
+    "url": "https://www.formula1.com/en/results/1991/team/Lotus-Judd"
+  },
+  {
+    "team_id": "Onyx-Ford",
+    "team_name": "Onyx Ford",
+    "url": "https://www.formula1.com/en/results/1989/team/Onyx-Ford"
+  },
+  {
+    "team_id": "Williams-Renault",
+    "team_name": "Williams Renault",
+    "url": "https://www.formula1.com/en/results/2013/team/Williams-Renault"
+  },
+  {
+    "team_id": "Leyton-House-Judd",
+    "team_name": "Leyton House Judd",
+    "url": "https://www.formula1.com/en/results/1990/team/Leyton-House-Judd"
+  },
+  {
+    "team_id": "Lotus-Lamborghini",
+    "team_name": "Lotus Lamborghini",
+    "url": "https://www.formula1.com/en/results/1990/team/Lotus-Lamborghini"
+  },
+  {
+    "team_id": "Brabham-Yamaha",
+    "team_name": "Brabham Yamaha",
+    "url": "https://www.formula1.com/en/results/1991/team/Brabham-Yamaha"
+  },
+  {
+    "team_id": "Dallara-Judd",
+    "team_name": "Dallara Judd",
+    "url": "https://www.formula1.com/en/results/1991/team/Dallara-Judd"
+  },
+  {
+    "team_id": "Jordan-Ford",
+    "team_name": "Jordan Ford",
+    "url": "https://www.formula1.com/en/results/2004/team/Jordan-Ford"
+  },
+  {
+    "team_id": "Leyton-House-Ilmor",
+    "team_name": "Leyton House Ilmor",
+    "url": "https://www.formula1.com/en/results/1991/team/Leyton-House-Ilmor"
+  },
+  {
+    "team_id": "Minardi-Ferrari",
+    "team_name": "Minardi Ferrari",
+    "url": "https://www.formula1.com/en/results/1991/team/Minardi-Ferrari"
+  },
+  {
+    "team_id": "Tyrrell-Honda",
+    "team_name": "Tyrrell Honda",
+    "url": "https://www.formula1.com/en/results/1991/team/Tyrrell-Honda"
+  },
+  {
+    "team_id": "Dallara-Ferrari",
+    "team_name": "Dallara Ferrari",
+    "url": "https://www.formula1.com/en/results/1992/team/Dallara-Ferrari"
+  },
+  {
+    "team_id": "Footwork-Mugen-Honda",
+    "team_name": "Footwork Mugen Honda",
+    "url": "https://www.formula1.com/en/results/1993/team/Footwork-Mugen-Honda"
+  },
+  {
+    "team_id": "Jordan-Yamaha",
+    "team_name": "Jordan Yamaha",
+    "url": "https://www.formula1.com/en/results/1992/team/Jordan-Yamaha"
+  },
+  {
+    "team_id": "March-Ilmor",
+    "team_name": "March Ilmor",
+    "url": "https://www.formula1.com/en/results/1992/team/March-Ilmor"
+  },
+  {
+    "team_id": "Minardi-Lamborghini",
+    "team_name": "Minardi Lamborghini",
+    "url": "https://www.formula1.com/en/results/1992/team/Minardi-Lamborghini"
+  },
+  {
+    "team_id": "Tyrrell-Ilmor",
+    "team_name": "Tyrrell Ilmor",
+    "url": "https://www.formula1.com/en/results/1992/team/Tyrrell-Ilmor"
+  },
+  {
+    "team_id": "Venturi-Lamborghini",
+    "team_name": "Venturi Lamborghini",
+    "url": "https://www.formula1.com/en/results/1992/team/Venturi-Lamborghini"
+  },
+  {
+    "team_id": "Jordan-Hart",
+    "team_name": "Jordan Hart",
+    "url": "https://www.formula1.com/en/results/1994/team/Jordan-Hart"
+  },
+  {
+    "team_id": "Larrousse-Lamborghini",
+    "team_name": "Larrousse Lamborghini",
+    "url": "https://www.formula1.com/en/results/1993/team/Larrousse-Lamborghini"
+  },
+  {
+    "team_id": "Sauber",
+    "team_name": "Sauber",
+    "url": "https://www.formula1.com/en/results/1993/team/Sauber"
+  },
+  {
+    "team_id": "Footwork-Ford",
+    "team_name": "Footwork Ford",
+    "url": "https://www.formula1.com/en/results/1994/team/Footwork-Ford"
+  },
+  {
+    "team_id": "Larrousse-Ford",
+    "team_name": "Larrousse Ford",
+    "url": "https://www.formula1.com/en/results/1994/team/Larrousse-Ford"
+  },
+  {
+    "team_id": "McLaren-Peugeot",
+    "team_name": "McLaren Peugeot",
+    "url": "https://www.formula1.com/en/results/1994/team/McLaren-Peugeot"
+  },
+  {
+    "team_id": "Sauber-Mercedes",
+    "team_name": "Sauber Mercedes",
+    "url": "https://www.formula1.com/en/results/1994/team/Sauber-Mercedes"
+  },
+  {
+    "team_id": "Tyrrell-Yamaha",
+    "team_name": "Tyrrell Yamaha",
+    "url": "https://www.formula1.com/en/results/1996/team/Tyrrell-Yamaha"
+  },
+  {
+    "team_id": "Benetton-Renault",
+    "team_name": "Benetton Renault",
+    "url": "https://www.formula1.com/en/results/2001/team/Benetton-Renault"
+  },
+  {
+    "team_id": "Footwork-Hart",
+    "team_name": "Footwork Hart",
+    "url": "https://www.formula1.com/en/results/1996/team/Footwork-Hart"
+  },
+  {
+    "team_id": "Jordan-Peugeot",
+    "team_name": "Jordan Peugeot",
+    "url": "https://www.formula1.com/en/results/1997/team/Jordan-Peugeot"
+  },
+  {
+    "team_id": "Ligier-Mugen-Honda",
+    "team_name": "Ligier Mugen Honda",
+    "url": "https://www.formula1.com/en/results/1996/team/Ligier-Mugen-Honda"
+  },
+  {
+    "team_id": "McLaren-Mercedes",
+    "team_name": "McLaren Mercedes",
+    "url": "https://www.formula1.com/en/results/2025/team/McLaren-Mercedes"
+  },
+  {
+    "team_id": "Sauber-Ford",
+    "team_name": "Sauber Ford",
+    "url": "https://www.formula1.com/en/results/1996/team/Sauber-Ford"
+  },
+  {
+    "team_id": "Arrows-Yamaha",
+    "team_name": "Arrows Yamaha",
+    "url": "https://www.formula1.com/en/results/1997/team/Arrows-Yamaha"
+  },
+  {
+    "team_id": "Prost-Mugen-Honda",
+    "team_name": "Prost Mugen Honda",
+    "url": "https://www.formula1.com/en/results/1997/team/Prost-Mugen-Honda"
+  },
+  {
+    "team_id": "Sauber-Petronas",
+    "team_name": "Sauber Petronas",
+    "url": "https://www.formula1.com/en/results/2005/team/Sauber-Petronas"
+  },
+  {
+    "team_id": "Stewart-Ford",
+    "team_name": "Stewart Ford",
+    "url": "https://www.formula1.com/en/results/1999/team/Stewart-Ford"
+  },
+  {
+    "team_id": "Arrows",
+    "team_name": "Arrows",
+    "url": "https://www.formula1.com/en/results/1999/team/Arrows"
+  },
+  {
+    "team_id": "Benetton-Playlife",
+    "team_name": "Benetton Playlife",
+    "url": "https://www.formula1.com/en/results/2000/team/Benetton-Playlife"
+  },
+  {
+    "team_id": "Jordan-Mugen-Honda",
+    "team_name": "Jordan Mugen Honda",
+    "url": "https://www.formula1.com/en/results/2000/team/Jordan-Mugen-Honda"
+  },
+  {
+    "team_id": "Prost-Peugeot",
+    "team_name": "Prost Peugeot",
+    "url": "https://www.formula1.com/en/results/1999/team/Prost-Peugeot"
+  },
+  {
+    "team_id": "Williams-Mecachrome",
+    "team_name": "Williams Mecachrome",
+    "url": "https://www.formula1.com/en/results/1998/team/Williams-Mecachrome"
+  },
+  {
+    "team_id": "Williams-Supertec",
+    "team_name": "Williams Supertec",
+    "url": "https://www.formula1.com/en/results/1999/team/Williams-Supertec"
+  },
+  {
+    "team_id": "Arrows-Supertec",
+    "team_name": "Arrows Supertec",
+    "url": "https://www.formula1.com/en/results/2000/team/Arrows-Supertec"
+  },
+  {
+    "team_id": "BAR-Honda",
+    "team_name": "BAR Honda",
+    "url": "https://www.formula1.com/en/results/2005/team/BAR-Honda"
+  },
+  {
+    "team_id": "Jaguar-Cosworth",
+    "team_name": "Jaguar Cosworth",
+    "url": "https://www.formula1.com/en/results/2004/team/Jaguar-Cosworth"
+  },
+  {
+    "team_id": "Williams-BMW",
+    "team_name": "Williams BMW",
+    "url": "https://www.formula1.com/en/results/2005/team/Williams-BMW"
+  },
+  {
+    "team_id": "Arrows-Asiatech",
+    "team_name": "Arrows Asiatech",
+    "url": "https://www.formula1.com/en/results/2001/team/Arrows-Asiatech"
+  },
+  {
+    "team_id": "Jordan-Honda",
+    "team_name": "Jordan Honda",
+    "url": "https://www.formula1.com/en/results/2002/team/Jordan-Honda"
+  },
+  {
+    "team_id": "Prost-Acer",
+    "team_name": "Prost Acer",
+    "url": "https://www.formula1.com/en/results/2001/team/Prost-Acer"
+  },
+  {
+    "team_id": "Arrows-Cosworth",
+    "team_name": "Arrows Cosworth",
+    "url": "https://www.formula1.com/en/results/2002/team/Arrows-Cosworth"
+  },
+  {
+    "team_id": "Minardi-Asiatech",
+    "team_name": "Minardi Asiatech",
+    "url": "https://www.formula1.com/en/results/2002/team/Minardi-Asiatech"
+  },
+  {
+    "team_id": "Toyota",
+    "team_name": "Toyota",
+    "url": "https://www.formula1.com/en/results/2009/team/Toyota"
+  },
+  {
+    "team_id": "Minardi-Cosworth",
+    "team_name": "Minardi Cosworth",
+    "url": "https://www.formula1.com/en/results/2005/team/Minardi-Cosworth"
+  },
+  {
+    "team_id": "Jordan-Toyota",
+    "team_name": "Jordan Toyota",
+    "url": "https://www.formula1.com/en/results/2005/team/Jordan-Toyota"
+  },
+  {
+    "team_id": "RBR-Cosworth",
+    "team_name": "RBR Cosworth",
+    "url": "https://www.formula1.com/en/results/2005/team/RBR-Cosworth"
+  },
+  {
+    "team_id": "MF1-Toyota",
+    "team_name": "MF1 Toyota",
+    "url": "https://www.formula1.com/en/results/2006/team/MF1-Toyota"
+  },
+  {
+    "team_id": "RBR-Ferrari",
+    "team_name": "RBR Ferrari",
+    "url": "https://www.formula1.com/en/results/2006/team/RBR-Ferrari"
+  },
+  {
+    "team_id": "Sauber-BMW",
+    "team_name": "Sauber BMW",
+    "url": "https://www.formula1.com/en/results/2009/team/Sauber-BMW"
+  },
+  {
+    "team_id": "STR-Cosworth",
+    "team_name": "STR Cosworth",
+    "url": "https://www.formula1.com/en/results/2006/team/STR-Cosworth"
+  },
+  {
+    "team_id": "Super-Aguri-Honda",
+    "team_name": "Super Aguri Honda",
+    "url": "https://www.formula1.com/en/results/2008/team/Super-Aguri-Honda"
+  },
+  {
+    "team_id": "Williams-Cosworth",
+    "team_name": "Williams Cosworth",
+    "url": "https://www.formula1.com/en/results/2011/team/Williams-Cosworth"
+  },
+  {
+    "team_id": "Red-Bull-Renault",
+    "team_name": "Red Bull Renault",
+    "url": "https://www.formula1.com/en/results/2008/team/Red-Bull-Renault"
+  },
+  {
+    "team_id": "Spyker-Ferrari",
+    "team_name": "Spyker Ferrari",
+    "url": "https://www.formula1.com/en/results/2007/team/Spyker-Ferrari"
+  },
+  {
+    "team_id": "STR-Ferrari",
+    "team_name": "STR Ferrari",
+    "url": "https://www.formula1.com/en/results/2013/team/STR-Ferrari"
+  },
+  {
+    "team_id": "Williams-Toyota",
+    "team_name": "Williams Toyota",
+    "url": "https://www.formula1.com/en/results/2009/team/Williams-Toyota"
+  },
+  {
+    "team_id": "Force-India-Ferrari",
+    "team_name": "Force India Ferrari",
+    "url": "https://www.formula1.com/en/results/2008/team/Force-India-Ferrari"
+  },
+  {
+    "team_id": "Brawn-Mercedes",
+    "team_name": "Brawn Mercedes",
+    "url": "https://www.formula1.com/en/results/2009/team/Brawn-Mercedes"
+  },
+  {
+    "team_id": "Force-India-Mercedes",
+    "team_name": "Force India Mercedes",
+    "url": "https://www.formula1.com/en/results/2018/team/Force-India-Mercedes"
+  },
+  {
+    "team_id": "RBR-Renault",
+    "team_name": "RBR Renault",
+    "url": "https://www.formula1.com/en/results/2010/team/RBR-Renault"
+  },
+  {
+    "team_id": "HRT-Cosworth",
+    "team_name": "HRT Cosworth",
+    "url": "https://www.formula1.com/en/results/2012/team/HRT-Cosworth"
+  },
+  {
+    "team_id": "Lotus-Cosworth",
+    "team_name": "Lotus Cosworth",
+    "url": "https://www.formula1.com/en/results/2010/team/Lotus-Cosworth"
+  },
+  {
+    "team_id": "Mercedes",
+    "team_name": "Mercedes",
+    "url": "https://www.formula1.com/en/results/2025/team/Mercedes"
+  },
+  {
+    "team_id": "Sauber-Ferrari",
+    "team_name": "Sauber Ferrari",
+    "url": "https://www.formula1.com/en/results/2018/team/Sauber-Ferrari"
+  },
+  {
+    "team_id": "Virgin-Cosworth",
+    "team_name": "Virgin Cosworth",
+    "url": "https://www.formula1.com/en/results/2011/team/Virgin-Cosworth"
+  },
+  {
+    "team_id": "Red-Bull-Racing-Renault",
+    "team_name": "Red Bull Racing Renault",
+    "url": "https://www.formula1.com/en/results/2015/team/Red-Bull-Racing-Renault"
+  },
+  {
+    "team_id": "Caterham-Renault",
+    "team_name": "Caterham Renault",
+    "url": "https://www.formula1.com/en/results/2014/team/Caterham-Renault"
+  },
+  {
+    "team_id": "Marussia-Cosworth",
+    "team_name": "Marussia Cosworth",
+    "url": "https://www.formula1.com/en/results/2013/team/Marussia-Cosworth"
+  },
+  {
+    "team_id": "Marussia-Ferrari",
+    "team_name": "Marussia Ferrari",
+    "url": "https://www.formula1.com/en/results/2015/team/Marussia-Ferrari"
+  },
+  {
+    "team_id": "STR-Renault",
+    "team_name": "STR Renault",
+    "url": "https://www.formula1.com/en/results/2015/team/STR-Renault"
+  },
+  {
+    "team_id": "Williams-Mercedes",
+    "team_name": "Williams Mercedes",
+    "url": "https://www.formula1.com/en/results/2025/team/Williams-Mercedes"
+  },
+  {
+    "team_id": "Lotus-Mercedes",
+    "team_name": "Lotus Mercedes",
+    "url": "https://www.formula1.com/en/results/2015/team/Lotus-Mercedes"
+  },
+  {
+    "team_id": "Haas-Ferrari",
+    "team_name": "Haas Ferrari",
+    "url": "https://www.formula1.com/en/results/2025/team/Haas-Ferrari"
+  },
+  {
+    "team_id": "MRT-Mercedes",
+    "team_name": "MRT Mercedes",
+    "url": "https://www.formula1.com/en/results/2016/team/MRT-Mercedes"
+  },
+  {
+    "team_id": "Red-Bull-Racing-TAG-Heuer",
+    "team_name": "Red Bull Racing TAG Heuer",
+    "url": "https://www.formula1.com/en/results/2018/team/Red-Bull-Racing-TAG-Heuer"
+  },
+  {
+    "team_id": "Toro-Rosso-Ferrari",
+    "team_name": "Toro Rosso Ferrari",
+    "url": "https://www.formula1.com/en/results/2016/team/Toro-Rosso-Ferrari"
+  },
+  {
+    "team_id": "Toro-Rosso",
+    "team_name": "Toro Rosso",
+    "url": "https://www.formula1.com/en/results/2017/team/Toro-Rosso"
+  },
+  {
+    "team_id": "Force-India-Sahara",
+    "team_name": "Force India Sahara",
+    "url": "https://www.formula1.com/en/results/2018/team/Force-India-Sahara"
+  },
+  {
+    "team_id": "McLaren-Renault",
+    "team_name": "McLaren Renault",
+    "url": "https://www.formula1.com/en/results/2020/team/McLaren-Renault"
+  },
+  {
+    "team_id": "Scuderia-Toro-Rosso-Honda",
+    "team_name": "Scuderia Toro Rosso Honda",
+    "url": "https://www.formula1.com/en/results/2019/team/Scuderia-Toro-Rosso-Honda"
+  },
+  {
+    "team_id": "Alfa-Romeo-Racing-Ferrari",
+    "team_name": "Alfa Romeo Racing Ferrari",
+    "url": "https://www.formula1.com/en/results/2021/team/Alfa-Romeo-Racing-Ferrari"
+  },
+  {
+    "team_id": "Racing-Point-BWT-Mercedes",
+    "team_name": "Racing Point BWT Mercedes",
+    "url": "https://www.formula1.com/en/results/2020/team/Racing-Point-BWT-Mercedes"
+  },
+  {
+    "team_id": "Red-Bull-Racing-Honda",
+    "team_name": "Red Bull Racing Honda",
+    "url": "https://www.formula1.com/en/results/2021/team/Red-Bull-Racing-Honda"
+  },
+  {
+    "team_id": "AlphaTauri-Honda",
+    "team_name": "AlphaTauri Honda",
+    "url": "https://www.formula1.com/en/results/2021/team/AlphaTauri-Honda"
+  },
+  {
+    "team_id": "Alpine-Renault",
+    "team_name": "Alpine Renault",
+    "url": "https://www.formula1.com/en/results/2025/team/Alpine-Renault"
+  },
+  {
+    "team_id": "Aston-Martin-Mercedes",
+    "team_name": "Aston Martin Mercedes",
+    "url": "https://www.formula1.com/en/results/2021/team/Aston-Martin-Mercedes"
+  },
+  {
+    "team_id": "Alfa-Romeo-Ferrari",
+    "team_name": "Alfa Romeo Ferrari",
+    "url": "https://www.formula1.com/en/results/2023/team/Alfa-Romeo-Ferrari"
+  },
+  {
+    "team_id": "AlphaTauri-RBPT",
+    "team_name": "AlphaTauri RBPT",
+    "url": "https://www.formula1.com/en/results/2022/team/AlphaTauri-RBPT"
+  },
+  {
+    "team_id": "Aston-Martin-Aramco-Mercedes",
+    "team_name": "Aston Martin Aramco Mercedes",
+    "url": "https://www.formula1.com/en/results/2025/team/Aston-Martin-Aramco-Mercedes"
+  },
+  {
+    "team_id": "Red-Bull-Racing-RBPT",
+    "team_name": "Red Bull Racing RBPT",
+    "url": "https://www.formula1.com/en/results/2022/team/Red-Bull-Racing-RBPT"
+  },
+  {
+    "team_id": "AlphaTauri-Honda-RBPT",
+    "team_name": "AlphaTauri Honda RBPT",
+    "url": "https://www.formula1.com/en/results/2023/team/AlphaTauri-Honda-RBPT"
+  },
+  {
+    "team_id": "Red-Bull-Racing-Honda-RBPT",
+    "team_name": "Red Bull Racing Honda RBPT",
+    "url": "https://www.formula1.com/en/results/2025/team/Red-Bull-Racing-Honda-RBPT"
+  },
+  {
+    "team_id": "Kick-Sauber-Ferrari",
+    "team_name": "Kick Sauber Ferrari",
+    "url": "https://www.formula1.com/en/results/2025/team/Kick-Sauber-Ferrari"
+  },
+  {
+    "team_id": "RB-Honda-RBPT",
+    "team_name": "RB Honda RBPT",
+    "url": "https://www.formula1.com/en/results/2024/team/RB-Honda-RBPT"
+  },
+  {
+    "team_id": "Racing-Bulls-Honda-RBPT",
+    "team_name": "Racing Bulls Honda RBPT",
+    "url": "https://www.formula1.com/en/results/2025/team/Racing-Bulls-Honda-RBPT"
+  }
+]

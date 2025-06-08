@@ -1,0 +1,166 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Ronnie Peterson",
+      "Lotus Ford",
+      "1:21.800"
+    ],
+    [
+      "2",
+      "5",
+      "Denny Hulme",
+      "McLaren Ford",
+      "1:22.500"
+    ],
+    [
+      "3",
+      "4",
+      "Francois  Cevert ",
+      "Tyrrell Ford",
+      "1:22.700"
+    ],
+    [
+      "4",
+      "3",
+      "Jackie Stewart",
+      "Tyrrell Ford",
+      "1:23.200"
+    ],
+    [
+      "5",
+      "6",
+      "Peter   Revson",
+      "McLaren Ford",
+      "1:23.400"
+    ],
+    [
+      "6",
+      "7",
+      "Jacky Ickx",
+      "Ferrari",
+      "1:23.500"
+    ],
+    [
+      "7",
+      "1",
+      "Emerson Fittipaldi",
+      "Lotus Ford",
+      "1:23.700"
+    ],
+    [
+      "8",
+      "14",
+      "Clay Regazzoni",
+      "BRM",
+      "1:23.700"
+    ],
+    [
+      "9",
+      "9",
+      "Mike Hailwood",
+      "Surtees Ford",
+      "1:24.200"
+    ],
+    [
+      "10",
+      "15",
+      "Jean-Pierre Beltoise",
+      "BRM",
+      "1:24.200"
+    ],
+    [
+      "11",
+      "16",
+      "Niki Lauda",
+      "BRM",
+      "1:24.400"
+    ],
+    [
+      "12",
+      "17",
+      "Wilson Fittipaldi",
+      "Brabham Ford",
+      "1:24.500"
+    ],
+    [
+      "13",
+      "19",
+      "Jackie Oliver",
+      "Shadow Ford",
+      "1:24.600"
+    ],
+    [
+      "14",
+      "20",
+      "George  Follmer ",
+      "Shadow Ford",
+      "1:24.700"
+    ],
+    [
+      "15",
+      "18",
+      "Carlos Reutemann",
+      "Brabham Ford",
+      "1:24.700"
+    ],
+    [
+      "16",
+      "10",
+      "Carlos Pace",
+      "Surtees Ford",
+      "1:25.000"
+    ],
+    [
+      "17",
+      "21",
+      "Andrea de Adamich ",
+      "Brabham Ford",
+      "1:25.200"
+    ],
+    [
+      "18",
+      "11",
+      "Henri Pescarolo",
+      "March Ford",
+      "1:26.100"
+    ],
+    [
+      "19",
+      "12",
+      "Mike  Beuttler ",
+      "March Ford",
+      "1:26.200"
+    ],
+    [
+      "20",
+      "24",
+      "Nanni  Galli ",
+      "Iso Marlboro Ford",
+      "1:26.300"
+    ],
+    [
+      "21",
+      "23",
+      "Howden  Ganley ",
+      "Iso Marlboro Ford",
+      "1:26.500"
+    ],
+    [
+      "22",
+      "25",
+      "Graham Hill",
+      "Shadow Ford",
+      "1:30.300"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

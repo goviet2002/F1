@@ -1,0 +1,194 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time",
+    "Gap",
+    "Laps"
+  ],
+  "data": [
+    [
+      "1",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "1:41.604",
+      "",
+      "14"
+    ],
+    [
+      "2",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      "1:41.802",
+      "+0.198s",
+      "14"
+    ],
+    [
+      "3",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing Honda",
+      "1:42.852",
+      "+1.248s",
+      "16"
+    ],
+    [
+      "4",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes",
+      "1:43.064",
+      "+1.460s",
+      "19"
+    ],
+    [
+      "5",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:43.176",
+      "+1.572s",
+      "17"
+    ],
+    [
+      "6",
+      "26",
+      "Daniil Kvyat",
+      "Scuderia Toro Rosso Honda",
+      "1:43.223",
+      "+1.619s",
+      "18"
+    ],
+    [
+      "7",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "1:43.294",
+      "+1.690s",
+      "19"
+    ],
+    [
+      "8",
+      "23",
+      "Alexander Albon",
+      "Scuderia Toro Rosso Honda",
+      "1:43.300",
+      "+1.696s",
+      "19"
+    ],
+    [
+      "9",
+      "11",
+      "Sergio Perez",
+      "Racing Point BWT Mercedes",
+      "1:43.430",
+      "+1.826s",
+      "15"
+    ],
+    [
+      "10",
+      "7",
+      "Kimi Räikkönen",
+      "Alfa Romeo Racing Ferrari",
+      "1:43.537",
+      "+1.933s",
+      "19"
+    ],
+    [
+      "11",
+      "3",
+      "Daniel Ricciardo",
+      "Renault",
+      "1:43.561",
+      "+1.957s",
+      "20"
+    ],
+    [
+      "12",
+      "99",
+      "Antonio Giovinazzi",
+      "Alfa Romeo Racing Ferrari",
+      "1:43.637",
+      "+2.033s",
+      "20"
+    ],
+    [
+      "13",
+      "4",
+      "Lando Norris",
+      "McLaren Renault",
+      "1:43.924",
+      "+2.320s",
+      "20"
+    ],
+    [
+      "14",
+      "55",
+      "Carlos Sainz",
+      "McLaren Renault",
+      "1:43.978",
+      "+2.374s",
+      "19"
+    ],
+    [
+      "15",
+      "18",
+      "Lance Stroll",
+      "Racing Point BWT Mercedes",
+      "1:44.039",
+      "+2.435s",
+      "16"
+    ],
+    [
+      "16",
+      "27",
+      "Nico Hulkenberg",
+      "Renault",
+      "1:44.043",
+      "+2.439s",
+      "19"
+    ],
+    [
+      "17",
+      "8",
+      "Romain Grosjean",
+      "Haas Ferrari",
+      "1:44.374",
+      "+2.770s",
+      "16"
+    ],
+    [
+      "18",
+      "88",
+      "Robert Kubica",
+      "Williams Mercedes",
+      "1:46.000",
+      "+4.396s",
+      "19"
+    ],
+    [
+      "19",
+      "63",
+      "George Russell",
+      "Williams Mercedes",
+      "1:46.290",
+      "+4.686s",
+      "20"
+    ],
+    [
+      "20",
+      "10",
+      "Pierre Gasly",
+      "Red Bull Racing Honda",
+      "1:47.836",
+      "+6.232s",
+      "22"
+    ]
+  ],
+  "session_name": "Practice 3"
+}

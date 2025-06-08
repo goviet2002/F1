@@ -1,0 +1,140 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "10",
+      "Juan Manuel Fangio",
+      "Mercedes-Benz",
+      "36",
+      "2:39:29.000",
+      "9"
+    ],
+    [
+      "2",
+      "14",
+      "Stirling Moss",
+      "Mercedes-Benz",
+      "36",
+      "+8.100s",
+      "6"
+    ],
+    [
+      "3",
+      "2",
+      "Nino Farina",
+      "Ferrari",
+      "36",
+      "+100.500s",
+      "4"
+    ],
+    [
+      "4",
+      "6",
+      "Paul Frere",
+      "Ferrari",
+      "36",
+      "+205.500s",
+      "3"
+    ],
+    [
+      "5",
+      "24",
+      "Roberto Mieres",
+      "Maserati",
+      "",
+      "SHC",
+      "1"
+    ],
+    [
+      "5",
+      "24",
+      "Jean Behra",
+      "Maserati",
+      "35",
+      "+1 lap",
+      "1"
+    ],
+    [
+      "6",
+      "4",
+      "Maurice  Trintignant",
+      "Ferrari",
+      "35",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "7",
+      "22",
+      "Luigi Musso",
+      "Maserati",
+      "34",
+      "+2 laps",
+      "0"
+    ],
+    [
+      "8",
+      "26",
+      "Cesare Perdisa",
+      "Maserati",
+      "33",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "9",
+      "28",
+      "Louis  Rosier",
+      "Maserati",
+      "33",
+      "+3 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "12",
+      "Karl Kling",
+      "Mercedes-Benz",
+      "21",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "30",
+      "Eugenio Castellotti",
+      "Lancia",
+      "16",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "40",
+      "Mike Hawthorn",
+      "Vanwall",
+      "8",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "20",
+      "Jean Behra",
+      "Maserati",
+      "3",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

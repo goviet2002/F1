@@ -1,0 +1,138 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "11",
+      "Jackie Stewart",
+      "Tyrrell Ford",
+      "1:23.200"
+    ],
+    [
+      "2",
+      "4",
+      "Jacky Ickx",
+      "Ferrari",
+      "1:24.400"
+    ],
+    [
+      "3",
+      "14",
+      "Jo Siffert",
+      "BRM",
+      "1:24.800"
+    ],
+    [
+      "4",
+      "20",
+      "Chris Amon",
+      "Matra",
+      "1:24.800"
+    ],
+    [
+      "5",
+      "15",
+      "Pedro Rodriguez",
+      "BRM",
+      "1:25.100"
+    ],
+    [
+      "6",
+      "9",
+      "Denny Hulme",
+      "McLaren Ford",
+      "1:25.300"
+    ],
+    [
+      "7",
+      "21",
+      "Jean-Pierre Beltoise",
+      "Matra",
+      "1:25.600"
+    ],
+    [
+      "8",
+      "17",
+      "Ronnie Peterson",
+      "March Alfa Romeo",
+      "1:25.800"
+    ],
+    [
+      "9",
+      "7",
+      "Graham Hill",
+      "Brabham Ford",
+      "1:26.000"
+    ],
+    [
+      "10",
+      "22",
+      "John Surtees",
+      "Surtees Ford",
+      "1:26.000"
+    ],
+    [
+      "11",
+      "3",
+      "Clay Regazzoni",
+      "Ferrari",
+      "1:26.100"
+    ],
+    [
+      "12",
+      "2",
+      "Reine   Wisell",
+      "Lotus Pratt & Whitney",
+      "1:26.700"
+    ],
+    [
+      "13",
+      "27",
+      "Henri Pescarolo",
+      "March Ford",
+      "1:26.700"
+    ],
+    [
+      "14",
+      "10",
+      "Peter  Gethin ",
+      "McLaren Ford",
+      "1:26.900"
+    ],
+    [
+      "15",
+      "12",
+      "Francois  Cevert ",
+      "Tyrrell Ford",
+      "1:27.200"
+    ],
+    [
+      "16",
+      "24",
+      "Rolf Stommelen",
+      "Surtees Ford",
+      "1:27.200"
+    ],
+    [
+      "17",
+      "1",
+      "Emerson Fittipaldi",
+      "Lotus Pratt & Whitney",
+      "1:27.700"
+    ],
+    [
+      "18",
+      "8",
+      "Tim   Schenken",
+      "Brabham Ford",
+      "1:28.300"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

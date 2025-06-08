@@ -1,0 +1,110 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "8",
+      "Nino Farina",
+      "Alfa Romeo",
+      "4:37.000"
+    ],
+    [
+      "2",
+      "10",
+      "Juan Manuel Fangio",
+      "Alfa Romeo",
+      "4:37.000"
+    ],
+    [
+      "3",
+      "12",
+      "Luigi Fagioli",
+      "Alfa Romeo",
+      "4:41.000"
+    ],
+    [
+      "4",
+      "2",
+      "Luigi  Villoresi",
+      "Ferrari",
+      "4:47.000"
+    ],
+    [
+      "5",
+      "6",
+      "Raymond  Sommer",
+      "Talbot-Lago",
+      "4:47.000"
+    ],
+    [
+      "6",
+      "4",
+      "Alberto Ascari",
+      "Ferrari",
+      "4:49.000"
+    ],
+    [
+      "7",
+      "16",
+      "Philippe  Etancelin",
+      "Talbot-Lago",
+      "4:52.000"
+    ],
+    [
+      "8",
+      "14",
+      "Louis  Rosier",
+      "Talbot-Lago",
+      "4:53.000"
+    ],
+    [
+      "9",
+      "18",
+      "Yves Giraud-Cabantous",
+      "Talbot-Lago",
+      "4:56.000"
+    ],
+    [
+      "10",
+      "22",
+      "Pierre  Levegh",
+      "Talbot-Lago",
+      "5:01.000"
+    ],
+    [
+      "11",
+      "20",
+      "Eugene  Chaboud",
+      "Talbot-Lago",
+      "5:13.000"
+    ],
+    [
+      "12",
+      "26",
+      "Geoff Crossley",
+      "Alta",
+      "5:44.000"
+    ],
+    [
+      "13",
+      "30",
+      "Toni  Branca",
+      "Maserati",
+      "5:45.000"
+    ],
+    [
+      "14",
+      "24",
+      "Johnny Claes",
+      "Talbot-Lago",
+      ""
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

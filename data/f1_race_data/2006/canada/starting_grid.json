@@ -1,0 +1,166 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "1",
+      "Fernando Alonso",
+      "Renault",
+      "1:14.942"
+    ],
+    [
+      "2",
+      "2",
+      "Giancarlo Fisichella",
+      "Renault",
+      "1:15.178"
+    ],
+    [
+      "3",
+      "3",
+      "Kimi Räikkönen",
+      "McLaren Mercedes",
+      "1:15.386"
+    ],
+    [
+      "4",
+      "8",
+      "Jarno Trulli",
+      "Toyota",
+      "1:15.968"
+    ],
+    [
+      "5",
+      "5",
+      "Michael Schumacher",
+      "Ferrari",
+      "1:15.986"
+    ],
+    [
+      "6",
+      "10",
+      "Nico Rosberg",
+      "Williams Cosworth",
+      "1:16.012"
+    ],
+    [
+      "7",
+      "4",
+      "Juan Pablo Montoya",
+      "McLaren Mercedes",
+      "1:16.228"
+    ],
+    [
+      "8",
+      "12",
+      "Jenson Button",
+      "Honda",
+      "1:16.608"
+    ],
+    [
+      "9",
+      "11",
+      "Rubens Barrichello",
+      "Honda",
+      "1:16.912"
+    ],
+    [
+      "10",
+      "6",
+      "Felipe Massa",
+      "Ferrari",
+      "1:17.209"
+    ],
+    [
+      "11",
+      "17",
+      "Jacques Villeneuve",
+      "Sauber BMW",
+      "1:15.832"
+    ],
+    [
+      "12",
+      "15",
+      "Christian Klien",
+      "RBR Ferrari",
+      "1:15.833"
+    ],
+    [
+      "13",
+      "16",
+      "Nick Heidfeld",
+      "Sauber BMW",
+      "1:15.885"
+    ],
+    [
+      "14",
+      "7",
+      "Ralf Schumacher",
+      "Toyota",
+      "1:15.888"
+    ],
+    [
+      "15",
+      "20",
+      "Vitantonio Liuzzi",
+      "STR Cosworth",
+      "1:16.116"
+    ],
+    [
+      "16",
+      "9",
+      "Mark Webber",
+      "Williams Cosworth",
+      "1:16.985"
+    ],
+    [
+      "17",
+      "21",
+      "Scott Speed",
+      "STR Cosworth",
+      "1:17.016"
+    ],
+    [
+      "18",
+      "18",
+      "Tiago Monteiro",
+      "MF1 Toyota",
+      "1:17.121"
+    ],
+    [
+      "19",
+      "19",
+      "Christijan Albers",
+      "MF1 Toyota",
+      "1:17.140"
+    ],
+    [
+      "20",
+      "22",
+      "Takuma Sato",
+      "Super Aguri Honda",
+      "1:19.088"
+    ],
+    [
+      "21",
+      "23",
+      "Franck Montagny",
+      "Super Aguri Honda",
+      "1:19.152"
+    ],
+    [
+      "22",
+      "14",
+      "David Coulthard",
+      "RBR Ferrari",
+      "1:16.301"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

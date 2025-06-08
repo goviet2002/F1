@@ -1,0 +1,110 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "26",
+      "Juan Manuel Fangio",
+      "Maserati",
+      "4:22.100"
+    ],
+    [
+      "2",
+      "6",
+      "Jose Froilan Gonzalez",
+      "Ferrari",
+      "4:23.600"
+    ],
+    [
+      "3",
+      "4",
+      "Nino Farina",
+      "Ferrari",
+      "4:26.000"
+    ],
+    [
+      "4",
+      "28",
+      "Onofre Marimon",
+      "Maserati",
+      "4:27.600"
+    ],
+    [
+      "5",
+      "10",
+      "Mike Hawthorn",
+      "Ferrari",
+      "4:29.400"
+    ],
+    [
+      "6",
+      "8",
+      "Maurice  Trintignant",
+      "Ferrari",
+      "4:30.000"
+    ],
+    [
+      "7",
+      "12",
+      "Jean Behra",
+      "Gordini",
+      "4:34.500"
+    ],
+    [
+      "8",
+      "18",
+      "Andre Pilette",
+      "Gordini",
+      "4:40.000"
+    ],
+    [
+      "9",
+      "22",
+      "Stirling Moss",
+      "Maserati",
+      "4:40.800"
+    ],
+    [
+      "10",
+      "16",
+      "Paul Frere",
+      "Gordini",
+      "4:42.000"
+    ],
+    [
+      "11",
+      "30",
+      "Sergio Mantovani",
+      "Maserati",
+      "4:43.200"
+    ],
+    [
+      "12",
+      "24",
+      "Roberto Mieres",
+      "Maserati",
+      "4:43.800"
+    ],
+    [
+      "13",
+      "20",
+      "Prince Bira",
+      "Maserati",
+      "4:46.500"
+    ],
+    [
+      "14",
+      "2",
+      "Jacques Swaters",
+      "Ferrari",
+      "4:54.200"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

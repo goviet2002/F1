@@ -1,0 +1,266 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "5",
+      "Alberto Ascari",
+      "Ferrari",
+      "90",
+      "2:50:00.000",
+      "8.5"
+    ],
+    [
+      "2",
+      "23",
+      "Juan Manuel Fangio",
+      "Maserati",
+      "90",
+      "+60.000s",
+      "6"
+    ],
+    [
+      "3",
+      "6",
+      "Nino Farina",
+      "Ferrari",
+      "88",
+      "+2 laps",
+      "4"
+    ],
+    [
+      "4",
+      "24",
+      "Jose Froilan Gonzalez",
+      "Maserati",
+      "88",
+      "+2 laps",
+      "3.5"
+    ],
+    [
+      "5",
+      "8",
+      "Mike Hawthorn",
+      "Ferrari",
+      "87",
+      "+3 laps",
+      "2"
+    ],
+    [
+      "6",
+      "25",
+      "Felice  Bonetto",
+      "Maserati",
+      "82",
+      "+8 laps",
+      "0"
+    ],
+    [
+      "7",
+      "10",
+      "Prince Bira",
+      "Connaught Lea Francis",
+      "82",
+      "+8 laps",
+      "0"
+    ],
+    [
+      "8",
+      "16",
+      "Ken  Wharton",
+      "Cooper Bristol",
+      "80",
+      "+10 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "18",
+      "Jimmy Stewart",
+      "Cooper Bristol",
+      "79",
+      "DNF",
+      "0"
+    ],
+    [
+      "9",
+      "20",
+      "Peter  Whitehead",
+      "Cooper Alta",
+      "79",
+      "+11 laps",
+      "0"
+    ],
+    [
+      "10",
+      "9",
+      "Louis  Rosier",
+      "Ferrari",
+      "78",
+      "+12 laps",
+      "0"
+    ],
+    [
+      "NC",
+      "14",
+      "Tony Rolt",
+      "Connaught Lea Francis",
+      "71",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "7",
+      "Luigi  Villoresi",
+      "Ferrari",
+      "67",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "26",
+      "Onofre Marimon",
+      "Maserati",
+      "67",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "2",
+      "Peter Collins",
+      "HWM Alta",
+      "56",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "19",
+      "Alan Brown",
+      "Cooper Bristol",
+      "56",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "4",
+      "Jack  Fairman",
+      "HWM Alta",
+      "54",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "12",
+      "Roy Salvadori",
+      "Connaught Lea Francis",
+      "50",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "31",
+      "Toulo de Graffenried",
+      "Maserati",
+      "34",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "1",
+      "Lance Macklin",
+      "HWM Alta",
+      "31",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "30",
+      "Jean Behra",
+      "Gordini",
+      "30",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "15",
+      "Ian Stewart",
+      "Connaught Lea Francis",
+      "26",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "29",
+      "Maurice  Trintignant",
+      "Gordini",
+      "15",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "3",
+      "Duncan  Hamilton ",
+      "HWM Alta",
+      "14",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "17",
+      "Bob  Gerard",
+      "Cooper Bristol",
+      "8",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "28",
+      "Harry Schell",
+      "Gordini",
+      "5",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "22",
+      "Tony Crook",
+      "Cooper Bristol",
+      "0",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "11",
+      "Kenneth McAlpine",
+      "Connaught Lea Francis",
+      "0",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

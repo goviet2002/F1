@@ -1,0 +1,194 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time",
+    "Gap",
+    "Laps"
+  ],
+  "data": [
+    [
+      "1",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "1:27.419",
+      "",
+      "24"
+    ],
+    [
+      "2",
+      "23",
+      "Alexander Albon",
+      "Williams Mercedes",
+      "1:27.592",
+      "+0.173s",
+      "14"
+    ],
+    [
+      "3",
+      "14",
+      "Fernando Alonso",
+      "Aston Martin Aramco Mercedes",
+      "1:27.784",
+      "+0.365s",
+      "17"
+    ],
+    [
+      "4",
+      "10",
+      "Pierre Gasly",
+      "Alpine Renault",
+      "1:27.893",
+      "+0.474s",
+      "19"
+    ],
+    [
+      "5",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:27.948",
+      "+0.529s",
+      "16"
+    ],
+    [
+      "6",
+      "55",
+      "Carlos Sainz",
+      "Ferrari",
+      "1:27.964",
+      "+0.545s",
+      "21"
+    ],
+    [
+      "7",
+      "2",
+      "Logan Sargeant",
+      "Williams Mercedes",
+      "1:28.151",
+      "+0.732s",
+      "16"
+    ],
+    [
+      "8",
+      "1",
+      "Max Verstappen",
+      "Red Bull Racing Honda RBPT",
+      "1:28.266",
+      "+0.847s",
+      "19"
+    ],
+    [
+      "9",
+      "63",
+      "George Russell",
+      "Mercedes",
+      "1:28.284",
+      "+0.865s",
+      "17"
+    ],
+    [
+      "10",
+      "22",
+      "Yuki Tsunoda",
+      "AlphaTauri Honda RBPT",
+      "1:28.337",
+      "+0.918s",
+      "21"
+    ],
+    [
+      "11",
+      "21",
+      "Nyck De Vries",
+      "AlphaTauri Honda RBPT",
+      "1:28.504",
+      "+1.085s",
+      "20"
+    ],
+    [
+      "12",
+      "4",
+      "Lando Norris",
+      "McLaren Mercedes",
+      "1:28.563",
+      "+1.144s",
+      "18"
+    ],
+    [
+      "13",
+      "18",
+      "Lance Stroll",
+      "Aston Martin Aramco Mercedes",
+      "1:28.620",
+      "+1.201s",
+      "15"
+    ],
+    [
+      "14",
+      "11",
+      "Sergio Perez",
+      "Red Bull Racing Honda RBPT",
+      "1:28.904",
+      "+1.485s",
+      "19"
+    ],
+    [
+      "15",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "1:29.207",
+      "+1.788s",
+      "13"
+    ],
+    [
+      "16",
+      "31",
+      "Esteban Ocon",
+      "Alpine Renault",
+      "1:29.233",
+      "+1.814s",
+      "22"
+    ],
+    [
+      "17",
+      "81",
+      "Oscar Piastri",
+      "McLaren Mercedes",
+      "1:29.437",
+      "+2.018s",
+      "20"
+    ],
+    [
+      "18",
+      "77",
+      "Valtteri Bottas",
+      "Alfa Romeo Ferrari",
+      "1:29.586",
+      "+2.167s",
+      "15"
+    ],
+    [
+      "19",
+      "27",
+      "Nico Hulkenberg",
+      "Haas Ferrari",
+      "1:33.590",
+      "+6.171s",
+      "13"
+    ],
+    [
+      "20",
+      "24",
+      "Zhou Guanyu",
+      "Alfa Romeo Ferrari",
+      "",
+      "",
+      "2"
+    ]
+  ],
+  "session_name": "Practice 3"
+}

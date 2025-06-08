@@ -1,0 +1,180 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "12",
+      "Jack Brabham",
+      "Cooper Climax",
+      "1:58.000"
+    ],
+    [
+      "2",
+      "12",
+      "Roy Salvadori",
+      "Cooper Climax",
+      "1:58.000"
+    ],
+    [
+      "3",
+      "8",
+      "Harry Schell",
+      "BRM",
+      "1:59.200"
+    ],
+    [
+      "4",
+      "18",
+      "Maurice  Trintignant",
+      "Cooper Climax",
+      "1:59.200"
+    ],
+    [
+      "5",
+      "14",
+      "Masten Gregory",
+      "Cooper Climax",
+      "1:59.400"
+    ],
+    [
+      "6",
+      "4",
+      "Carroll  Shelby ",
+      "Aston Martin",
+      "1:59.600"
+    ],
+    [
+      "7",
+      "6",
+      "Stirling Moss",
+      "Cooper Climax",
+      "1:59.600"
+    ],
+    [
+      "8",
+      "16",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "1:59.600"
+    ],
+    [
+      "9",
+      "28",
+      "Graham Hill",
+      "Lotus Climax",
+      "2:00.000"
+    ],
+    [
+      "10",
+      "10",
+      "Jo Bonnier",
+      "BRM",
+      "2:00.000"
+    ],
+    [
+      "11",
+      "42",
+      "Ron Flockhart",
+      "BRM",
+      "2:00.200"
+    ],
+    [
+      "12",
+      "30",
+      "Alan  Stacey ",
+      "Lotus Climax",
+      "2:02.800"
+    ],
+    [
+      "13",
+      "22",
+      "Ian Burgess ",
+      "Maserati",
+      "2:03.000"
+    ],
+    [
+      "14",
+      "36",
+      "Brian  Naylor ",
+      "JBW Maserati",
+      "2:03.000"
+    ],
+    [
+      "15",
+      "38",
+      "Jack  Fairman",
+      "Cooper Climax",
+      "2:04.200"
+    ],
+    [
+      "16",
+      "48",
+      "Chris  Bristow ",
+      "Cooper Climax",
+      "2:04.400"
+    ],
+    [
+      "17",
+      "20",
+      "Tony Brooks",
+      "Vanwall",
+      "2:04.600"
+    ],
+    [
+      "18",
+      "46",
+      "Ivor  Bueb ",
+      "Cooper Climax",
+      "2:04.800"
+    ],
+    [
+      "19",
+      "24",
+      "Hans  Herrmann",
+      "Maserati",
+      "2:05.600"
+    ],
+    [
+      "20",
+      "40",
+      "Fritz d'Orey",
+      "Maserati",
+      "2:05.600"
+    ],
+    [
+      "21",
+      "58",
+      "Henry Taylor",
+      "Cooper Climax",
+      "2:05.600"
+    ],
+    [
+      "22",
+      "64",
+      "David  Piper ",
+      "Lotus Climax",
+      "2:06.000"
+    ],
+    [
+      "23",
+      "52",
+      "Peter  Ashdown ",
+      "Cooper Climax",
+      "2:06.200"
+    ],
+    [
+      "24",
+      "50",
+      "Mike  Taylor ",
+      "Cooper Climax",
+      "2:07.000"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

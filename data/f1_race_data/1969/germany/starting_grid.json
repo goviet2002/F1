@@ -1,0 +1,166 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "6",
+      "Jacky Ickx",
+      "Brabham Climax",
+      "7:42.100"
+    ],
+    [
+      "2",
+      "7",
+      "Jackie Stewart",
+      "Matra Ford",
+      "7:42.400"
+    ],
+    [
+      "3",
+      "2",
+      "Jochen Rindt",
+      "Lotus Ford",
+      "7:48.000"
+    ],
+    [
+      "4",
+      "11",
+      "Jo Siffert",
+      "Lotus Ford",
+      "7:50.300"
+    ],
+    [
+      "5",
+      "9",
+      "Denny Hulme",
+      "McLaren Ford",
+      "7:52.800"
+    ],
+    [
+      "6",
+      "12",
+      "Vic  Elford ",
+      "McLaren Ford",
+      "7:54.800"
+    ],
+    [
+      "7",
+      "17",
+      "Piers   Courage",
+      "Brabham Ford",
+      "7:56.100"
+    ],
+    [
+      "8",
+      "10",
+      "Bruce McLaren",
+      "McLaren Ford",
+      "7:56.500"
+    ],
+    [
+      "9",
+      "1",
+      "Graham Hill",
+      "Lotus Ford",
+      "7:57.000"
+    ],
+    [
+      "10",
+      "8",
+      "Jean-Pierre Beltoise",
+      "Matra Ford",
+      "8:00.300"
+    ],
+    [
+      "11",
+      "14",
+      "John Surtees",
+      "BRM",
+      "8:12.100"
+    ],
+    [
+      "12",
+      "3",
+      "Mario Andretti",
+      "Lotus Ford",
+      "8:15.400"
+    ],
+    [
+      "13",
+      "15",
+      "Jackie Oliver",
+      "BRM",
+      "8:16.200"
+    ],
+    [
+      "14",
+      "16",
+      "Jo Bonnier",
+      "Lotus Ford",
+      "8:35.000"
+    ],
+    [
+      "15",
+      "27",
+      "Johnny  Servoz-Gavin ",
+      "Matra Ford",
+      ""
+    ],
+    [
+      "16",
+      "28",
+      "Francois  Cevert ",
+      "Tecno Cosworth",
+      ""
+    ],
+    [
+      "17",
+      "26",
+      "Henri Pescarolo",
+      "Matra Ford",
+      ""
+    ],
+    [
+      "18",
+      "31",
+      "Peter  Westbury ",
+      "Brabham Climax",
+      ""
+    ],
+    [
+      "19",
+      "20",
+      "Kurt  Ahrens ",
+      "Brabham Climax",
+      ""
+    ],
+    [
+      "20",
+      "29",
+      "Richard Attwood",
+      "Brabham Climax",
+      ""
+    ],
+    [
+      "21",
+      "22",
+      "Rolf Stommelen",
+      "Lotus Ford",
+      ""
+    ],
+    [
+      "22",
+      "30",
+      "Xavier Perrot",
+      "Brabham Climax",
+      ""
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

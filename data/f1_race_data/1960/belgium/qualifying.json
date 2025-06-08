@@ -1,0 +1,19 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Jack Brabham",
+      "Cooper Climax",
+      "3:50.000"
+    ]
+  ],
+  "session_name": "Qualifying"
+}

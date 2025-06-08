@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "1",
+      "Michael Schumacher",
+      "Ferrari",
+      "1:33.542"
+    ],
+    [
+      "2",
+      "4",
+      "Ralf Schumacher",
+      "Williams BMW",
+      "1:34.032"
+    ],
+    [
+      "3",
+      "14",
+      "Mark Webber",
+      "Jaguar Cosworth",
+      "1:34.571"
+    ],
+    [
+      "4",
+      "10",
+      "Takuma Sato",
+      "BAR Honda",
+      "1:34.897"
+    ],
+    [
+      "5",
+      "9",
+      "Jenson Button",
+      "BAR Honda",
+      "1:35.157"
+    ],
+    [
+      "6",
+      "16",
+      "Jarno Trulli",
+      "Toyota",
+      "1:35.213"
+    ],
+    [
+      "7",
+      "11",
+      "Giancarlo Fisichella",
+      "Sauber Petronas",
+      "1:36.136"
+    ],
+    [
+      "8",
+      "5",
+      "David Coulthard",
+      "McLaren Mercedes",
+      "1:36.156"
+    ],
+    [
+      "9",
+      "7",
+      "Jacques Villeneuve",
+      "Renault",
+      "1:36.274"
+    ],
+    [
+      "10",
+      "17",
+      "Olivier Panis",
+      "Toyota",
+      "1:36.420"
+    ],
+    [
+      "11",
+      "8",
+      "Fernando Alonso",
+      "Renault",
+      "1:36.663"
+    ],
+    [
+      "12",
+      "6",
+      "Kimi Räikkönen",
+      "McLaren Mercedes",
+      "1:36.820"
+    ],
+    [
+      "13",
+      "3",
+      "Juan Pablo Montoya",
+      "Williams BMW",
+      "1:37.653"
+    ],
+    [
+      "14",
+      "15",
+      "Christian Klien",
+      "Jaguar Cosworth",
+      "1:38.258"
+    ],
+    [
+      "15",
+      "2",
+      "Rubens Barrichello",
+      "Ferrari",
+      "1:38.637"
+    ],
+    [
+      "16",
+      "18",
+      "Nick Heidfeld",
+      "Jordan Ford",
+      "1:41.953"
+    ],
+    [
+      "17",
+      "19",
+      "Timo Glock",
+      "Jordan Ford",
+      "1:43.533"
+    ],
+    [
+      "18",
+      "20",
+      "Gianmaria Bruni",
+      "Minardi Cosworth",
+      "1:48.069"
+    ],
+    [
+      "19",
+      "12",
+      "Felipe Massa",
+      "Sauber Petronas",
+      ""
+    ],
+    [
+      "20",
+      "21",
+      "Zsolt Baumgartner",
+      "Minardi Cosworth",
+      ""
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

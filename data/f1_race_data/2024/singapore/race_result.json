@@ -1,0 +1,194 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Laps",
+    "Time/retired",
+    "Pts"
+  ],
+  "data": [
+    [
+      "1",
+      "4",
+      "Lando Norris",
+      "McLaren Mercedes",
+      "62",
+      "1:40:52.571",
+      "25"
+    ],
+    [
+      "2",
+      "1",
+      "Max Verstappen",
+      "Red Bull Racing Honda RBPT",
+      "62",
+      "+20.945s",
+      "18"
+    ],
+    [
+      "3",
+      "81",
+      "Oscar Piastri",
+      "McLaren Mercedes",
+      "62",
+      "+41.823s",
+      "15"
+    ],
+    [
+      "4",
+      "63",
+      "George Russell",
+      "Mercedes",
+      "62",
+      "+61.040s",
+      "12"
+    ],
+    [
+      "5",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "62",
+      "+62.430s",
+      "10"
+    ],
+    [
+      "6",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "62",
+      "+85.248s",
+      "8"
+    ],
+    [
+      "7",
+      "55",
+      "Carlos Sainz",
+      "Ferrari",
+      "62",
+      "+96.039s",
+      "6"
+    ],
+    [
+      "8",
+      "14",
+      "Fernando Alonso",
+      "Aston Martin Aramco Mercedes",
+      "61",
+      "+1 lap",
+      "4"
+    ],
+    [
+      "9",
+      "27",
+      "Nico Hulkenberg",
+      "Haas Ferrari",
+      "61",
+      "+1 lap",
+      "2"
+    ],
+    [
+      "10",
+      "11",
+      "Sergio Perez",
+      "Red Bull Racing Honda RBPT",
+      "61",
+      "+1 lap",
+      "1"
+    ],
+    [
+      "11",
+      "43",
+      "Franco Colapinto",
+      "Williams Mercedes",
+      "61",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "12",
+      "22",
+      "Yuki Tsunoda",
+      "RB Honda RBPT",
+      "61",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "13",
+      "31",
+      "Esteban Ocon",
+      "Alpine Renault",
+      "61",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "14",
+      "18",
+      "Lance Stroll",
+      "Aston Martin Aramco Mercedes",
+      "61",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "15",
+      "24",
+      "Zhou Guanyu",
+      "Kick Sauber Ferrari",
+      "61",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "16",
+      "77",
+      "Valtteri Bottas",
+      "Kick Sauber Ferrari",
+      "61",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "17",
+      "10",
+      "Pierre Gasly",
+      "Alpine Renault",
+      "61",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "18",
+      "3",
+      "Daniel Ricciardo",
+      "RB Honda RBPT",
+      "61",
+      "+1 lap",
+      "0"
+    ],
+    [
+      "19",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "57",
+      "DNF",
+      "0"
+    ],
+    [
+      "NC",
+      "23",
+      "Alexander Albon",
+      "Williams Mercedes",
+      "15",
+      "DNF",
+      "0"
+    ]
+  ],
+  "session_name": "Race Result"
+}

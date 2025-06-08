@@ -1,0 +1,135 @@
+{
+  "header": [
+    "Stops",
+    "No",
+    "Driver",
+    "Car",
+    "Lap",
+    "Time of day",
+    "Time",
+    "Total"
+  ],
+  "data": [
+    [
+      "1",
+      "14",
+      "Jos Verstappen",
+      "Arrows Asiatech",
+      "23",
+      "14:32:17",
+      "32.302",
+      "32.302"
+    ],
+    [
+      "1",
+      "19",
+      "Pedro de la Rosa",
+      "Jaguar Cosworth",
+      "36",
+      "14:49:29",
+      "35.049",
+      "35.049"
+    ],
+    [
+      "1",
+      "8",
+      "Jenson Button",
+      "Benetton Renault",
+      "39",
+      "14:53:11",
+      "34.762",
+      "34.762"
+    ],
+    [
+      "1",
+      "9",
+      "Olivier Panis",
+      "BAR Honda",
+      "44",
+      "14:57:50",
+      "33.714",
+      "33.714"
+    ],
+    [
+      "1",
+      "22",
+      "Jean Alesi",
+      "Prost Acer",
+      "43",
+      "14:57:57",
+      "33.548",
+      "33.548"
+    ],
+    [
+      "1",
+      "23",
+      "Luciano Burti",
+      "Prost Acer",
+      "44",
+      "14:59:23",
+      "33.429",
+      "33.429"
+    ],
+    [
+      "2",
+      "14",
+      "Jos Verstappen",
+      "Arrows Asiatech",
+      "45",
+      "14:59:24",
+      "32.874",
+      "1:05.176"
+    ],
+    [
+      "1",
+      "1",
+      "Michael Schumacher",
+      "Ferrari",
+      "46",
+      "14:59:52",
+      "31.684",
+      "31.684"
+    ],
+    [
+      "1",
+      "17",
+      "Kimi Räikkönen",
+      "Sauber Petronas",
+      "46",
+      "15:00:06",
+      "41.488",
+      "41.488"
+    ],
+    [
+      "1",
+      "2",
+      "Rubens Barrichello",
+      "Ferrari",
+      "47",
+      "15:01:02",
+      "32.136",
+      "32.136"
+    ],
+    [
+      "1",
+      "18",
+      "Eddie Irvine",
+      "Jaguar Cosworth",
+      "48",
+      "15:03:10",
+      "32.322",
+      "32.322"
+    ],
+    [
+      "1",
+      "4",
+      "David Coulthard",
+      "McLaren Mercedes",
+      "50",
+      "15:04:37",
+      "30.786",
+      "30.786"
+    ]
+  ],
+  "session_name": "Pit Stop Summary"
+}

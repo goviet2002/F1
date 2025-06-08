@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "18",
+      "Juan Manuel Fangio",
+      "Mercedes-Benz",
+      "9:50.100"
+    ],
+    [
+      "2",
+      "3",
+      "Mike Hawthorn",
+      "Ferrari",
+      "9:53.300"
+    ],
+    [
+      "3",
+      "16",
+      "Stirling Moss",
+      "Maserati",
+      "10:00.700"
+    ],
+    [
+      "4",
+      "20",
+      "Hans  Herrmann",
+      "Mercedes-Benz",
+      "10:01.500"
+    ],
+    [
+      "5",
+      "1",
+      "Jose Froilan Gonzalez",
+      "Ferrari",
+      "10:01.800"
+    ],
+    [
+      "6",
+      "10",
+      "Paul Frere",
+      "Gordini",
+      "10:05.900"
+    ],
+    [
+      "7",
+      "2",
+      "Maurice  Trintignant",
+      "Ferrari",
+      "10:07.500"
+    ],
+    [
+      "9",
+      "9",
+      "Jean Behra",
+      "Gordini",
+      "10:11.900"
+    ],
+    [
+      "11",
+      "21",
+      "Hermann Lang",
+      "Mercedes-Benz",
+      "10:13.100"
+    ],
+    [
+      "12",
+      "24",
+      "Robert  Manzon",
+      "Maserati",
+      "10:16.100"
+    ],
+    [
+      "13",
+      "4",
+      "Piero  Taruffi",
+      "Ferrari",
+      "10:23.000"
+    ],
+    [
+      "14",
+      "15",
+      "Harry Schell",
+      "Maserati",
+      "10:28.700"
+    ],
+    [
+      "15",
+      "7",
+      "Sergio Mantovani",
+      "Maserati",
+      "10:39.100"
+    ],
+    [
+      "16",
+      "11",
+      "Clemar Bucci",
+      "Gordini",
+      "10:43.700"
+    ],
+    [
+      "17",
+      "8",
+      "Roberto Mieres",
+      "Maserati",
+      "10:47.000"
+    ],
+    [
+      "18",
+      "25",
+      "Louis  Rosier",
+      "Maserati",
+      "11:04.300"
+    ],
+    [
+      "19",
+      "8",
+      "Prince Bira",
+      "Maserati",
+      "11:10.300"
+    ],
+    [
+      "20",
+      "12",
+      "Andre Pilette",
+      "Gordini",
+      "11:13.400"
+    ],
+    [
+      "21",
+      "22",
+      "Theo Helfrich",
+      "Klenk BMW",
+      "11:18.300"
+    ],
+    [
+      "23",
+      "19",
+      "Karl Kling",
+      "Mercedes-Benz",
+      ""
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

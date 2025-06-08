@@ -1,0 +1,131 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "10",
+      "Graham Hill",
+      "BRM",
+      "1:30.700"
+    ],
+    [
+      "2",
+      "6",
+      "Jim Clark",
+      "Lotus Climax",
+      "1:31.000"
+    ],
+    [
+      "3",
+      "22",
+      "Richie Ginther",
+      "Honda",
+      "1:31.000"
+    ],
+    [
+      "4",
+      "2",
+      "John Surtees",
+      "Ferrari",
+      "1:31.000"
+    ],
+    [
+      "5",
+      "16",
+      "Dan Gurney",
+      "Brabham Climax",
+      "1:31.200"
+    ],
+    [
+      "6",
+      "12",
+      "Jackie Stewart",
+      "BRM",
+      "1:31.400"
+    ],
+    [
+      "7",
+      "14",
+      "Denny Hulme",
+      "Brabham Climax",
+      "1:32.000"
+    ],
+    [
+      "8",
+      "8",
+      "Mike Spence",
+      "Lotus Climax",
+      "1:32.200"
+    ],
+    [
+      "9",
+      "18",
+      "Bruce McLaren",
+      "Cooper Climax",
+      "1:32.600"
+    ],
+    [
+      "10",
+      "28",
+      "Jo Siffert",
+      "Brabham Climax",
+      "1:32.900"
+    ],
+    [
+      "11",
+      "30",
+      "Frank Gardner",
+      "Brabham Ford",
+      "1:32.900"
+    ],
+    [
+      "12",
+      "4",
+      "Lorenzo Bandini",
+      "Ferrari",
+      "1:33.100"
+    ],
+    [
+      "13",
+      "38",
+      "Innes Ireland",
+      "Lotus BRM",
+      "1:33.400"
+    ],
+    [
+      "14",
+      "20",
+      "Jochen Rindt",
+      "Cooper Climax",
+      "1:33.700"
+    ],
+    [
+      "15",
+      "26",
+      "Jo Bonnier",
+      "Brabham Climax",
+      "1:33.800"
+    ],
+    [
+      "16",
+      "36",
+      "Bob Anderson",
+      "Lotus Climax",
+      "1:34.100"
+    ],
+    [
+      "17",
+      "34",
+      "Richard Attwood",
+      "Lotus BRM",
+      "1:34.600"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

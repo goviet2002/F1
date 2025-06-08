@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "33",
+      "Max Verstappen",
+      "Red Bull Racing Honda",
+      "1:14.572"
+    ],
+    [
+      "2",
+      "77",
+      "Valtteri Bottas",
+      "Mercedes",
+      "1:14.590"
+    ],
+    [
+      "3",
+      "44",
+      "Lewis Hamilton",
+      "Mercedes",
+      "1:14.769"
+    ],
+    [
+      "4",
+      "16",
+      "Charles Leclerc",
+      "Ferrari",
+      "1:15.043"
+    ],
+    [
+      "5",
+      "5",
+      "Sebastian Vettel",
+      "Ferrari",
+      "1:15.071"
+    ],
+    [
+      "6",
+      "10",
+      "Pierre Gasly",
+      "Red Bull Racing Honda",
+      "1:15.450"
+    ],
+    [
+      "7",
+      "4",
+      "Lando Norris",
+      "McLaren Renault",
+      "1:15.800"
+    ],
+    [
+      "8",
+      "55",
+      "Carlos Sainz",
+      "McLaren Renault",
+      "1:15.852"
+    ],
+    [
+      "9",
+      "8",
+      "Romain Grosjean",
+      "Haas Ferrari",
+      "1:16.013"
+    ],
+    [
+      "10",
+      "7",
+      "Kimi Räikkönen",
+      "Alfa Romeo Racing Ferrari",
+      "1:16.041"
+    ],
+    [
+      "11",
+      "27",
+      "Nico Hulkenberg",
+      "Renault",
+      "1:16.565"
+    ],
+    [
+      "12",
+      "23",
+      "Alexander Albon",
+      "Scuderia Toro Rosso Honda",
+      "1:16.687"
+    ],
+    [
+      "13",
+      "26",
+      "Daniil Kvyat",
+      "Scuderia Toro Rosso Honda",
+      "1:16.692"
+    ],
+    [
+      "14",
+      "20",
+      "Kevin Magnussen",
+      "Haas Ferrari",
+      "1:17.081"
+    ],
+    [
+      "15",
+      "63",
+      "George Russell",
+      "Williams Mercedes",
+      "1:17.031"
+    ],
+    [
+      "16",
+      "11",
+      "Sergio Perez",
+      "Racing Point BWT Mercedes",
+      "1:17.109"
+    ],
+    [
+      "17",
+      "99",
+      "Antonio Giovinazzi",
+      "Alfa Romeo Racing Ferrari",
+      "1:16.804"
+    ],
+    [
+      "18",
+      "18",
+      "Lance Stroll",
+      "Racing Point BWT Mercedes",
+      "1:17.542"
+    ],
+    [
+      "19",
+      "88",
+      "Robert Kubica",
+      "Williams Mercedes",
+      "1:18.324"
+    ],
+    [
+      "20",
+      "3",
+      "Daniel Ricciardo",
+      "Renault",
+      "1:17.257"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

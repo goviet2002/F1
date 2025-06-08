@@ -1,0 +1,152 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Alberto Ascari",
+      "Ferrari",
+      "2:10.590"
+    ],
+    [
+      "2",
+      "22",
+      "Juan Manuel Fangio",
+      "Alfa Romeo",
+      "2:12.270"
+    ],
+    [
+      "3",
+      "6",
+      "Jose Froilan Gonzalez",
+      "Talbot-Lago",
+      "2:14.010"
+    ],
+    [
+      "4",
+      "20",
+      "Nino Farina",
+      "Alfa Romeo",
+      "2:14.940"
+    ],
+    [
+      "5",
+      "4",
+      "Luigi  Villoresi",
+      "Ferrari",
+      "2:16.380"
+    ],
+    [
+      "6",
+      "26",
+      "Toulo de Graffenried",
+      "Alfa Romeo",
+      "2:16.400"
+    ],
+    [
+      "7",
+      "8",
+      "Piero  Taruffi",
+      "Ferrari",
+      "2:16.800"
+    ],
+    [
+      "8",
+      "24",
+      "Felice  Bonetto",
+      "Alfa Romeo",
+      "2:21.800"
+    ],
+    [
+      "9",
+      "14",
+      "Robert  Manzon",
+      "Simca-Gordini",
+      "2:23.810"
+    ],
+    [
+      "10",
+      "16",
+      "Andre  Simon",
+      "Simca-Gordini",
+      "2:24.600"
+    ],
+    [
+      "11",
+      "12",
+      "Maurice  Trintignant",
+      "Simca-Gordini",
+      "2:25.250"
+    ],
+    [
+      "12",
+      "30",
+      "Louis  Chiron",
+      "Maserati",
+      "2:30.320"
+    ],
+    [
+      "13",
+      "34",
+      "Philippe  Etancelin",
+      "Talbot-Lago",
+      "2:31.000"
+    ],
+    [
+      "14",
+      "32",
+      "Yves Giraud-Cabantous",
+      "Talbot-Lago",
+      "2:32.180"
+    ],
+    [
+      "15",
+      "36",
+      "Johnny Claes",
+      "Talbot-Lago",
+      "2:34.460"
+    ],
+    [
+      "16",
+      "38",
+      "Georges Grignard",
+      "Talbot-Lago",
+      "2:36.580"
+    ],
+    [
+      "17",
+      "44",
+      "Paco  Godia",
+      "Maserati",
+      "2:37.450"
+    ],
+    [
+      "18",
+      "46",
+      "Juan Jover",
+      "Maserati",
+      "2:41.990"
+    ],
+    [
+      "19",
+      "18",
+      "Prince Bira",
+      "Maserati OSCA",
+      "2:45.990"
+    ],
+    [
+      "20",
+      "28",
+      "Louis  Rosier",
+      "Talbot-Lago",
+      "2:46.780"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}

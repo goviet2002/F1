@@ -1,0 +1,131 @@
+{
+  "header": [
+    "Pos",
+    "No",
+    "Driver",
+    "Car",
+    "Time"
+  ],
+  "data": [
+    [
+      "1",
+      "2",
+      "Jochen Rindt",
+      "Brabham Climax",
+      "1:56.100"
+    ],
+    [
+      "2",
+      "28",
+      "Jackie Stewart",
+      "Matra Ford",
+      "1:57.300"
+    ],
+    [
+      "3",
+      "26",
+      "Jacky Ickx",
+      "Ferrari",
+      "1:57.700"
+    ],
+    [
+      "4",
+      "8",
+      "Denny Hulme",
+      "McLaren Ford",
+      "1:57.700"
+    ],
+    [
+      "5",
+      "24",
+      "Chris Amon",
+      "Ferrari",
+      "1:57.800"
+    ],
+    [
+      "6",
+      "10",
+      "Bruce McLaren",
+      "McLaren Ford",
+      "1:58.000"
+    ],
+    [
+      "7",
+      "16",
+      "John Surtees",
+      "Honda",
+      "1:58.200"
+    ],
+    [
+      "8",
+      "6",
+      "Jean-Pierre Beltoise",
+      "Matra Ford",
+      "1:58.900"
+    ],
+    [
+      "9",
+      "12",
+      "Graham Hill",
+      "Lotus Ford",
+      "1:59.100"
+    ],
+    [
+      "10",
+      "20",
+      "Pedro Rodriguez",
+      "BRM",
+      "1:59.300"
+    ],
+    [
+      "11",
+      "34",
+      "Jo Siffert",
+      "Cooper Maserati",
+      "2:00.300"
+    ],
+    [
+      "12",
+      "22",
+      "Richard Attwood",
+      "BRM",
+      "2:00.800"
+    ],
+    [
+      "13",
+      "4",
+      "Jack Brabham",
+      "Brabham Climax",
+      "2:00.800"
+    ],
+    [
+      "14",
+      "36",
+      "Piers   Courage",
+      "BRM",
+      "2:01.100"
+    ],
+    [
+      "15",
+      "32",
+      "Johnny  Servoz-Gavin ",
+      "Cooper BRM",
+      "2:01.200"
+    ],
+    [
+      "16",
+      "18",
+      "Jo  Schlesser ",
+      "Honda",
+      "2:04.500"
+    ],
+    [
+      "17",
+      "30",
+      "Vic  Elford ",
+      "Cooper BRM",
+      "2:05.500"
+    ]
+  ],
+  "session_name": "Starting Grid"
+}
