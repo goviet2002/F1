@@ -4,6 +4,7 @@ import asyncio
 import os
 import json
 import time
+import unicodedata
 import sys
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
@@ -82,8 +83,6 @@ async def scrape_race_location(session, race_url):
             
         return race_date, circuit, city
     
-import unicodedata
-
 def standardize_folder_name(name):
     """Convert any name to a consistent folder name format"""
     # Normalize Unicode characters

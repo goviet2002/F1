@@ -317,6 +317,9 @@ def transform_to_facts(session_files, dimensions):
     for race_id, race_info in dimensions['races'].items():
         race_id_map[(race_info['year'], race_info['grand_prix'].lower().replace(' ', '_').replace('-', '_').replace("'", ""))] = race_id
     
+    # Extract starting grid positions
+    starting_grid_map = extract_starting_grid_positions(race_id_map)
+    
     # Build lookup maps
     driver_id_map = {}
     for d in dimensions['drivers'].values():
@@ -391,7 +394,7 @@ def transform_to_facts(session_files, dimensions):
             print(f"Error transforming {file_path}: {e}")
     
     # Process combined qualifying sessions
-    process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fact_counters)
+    process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fact_counters, starting_grid_map)
     
     # Enforce schema for qualifying_results
     enforce_qualifying_schema(fact_tables)
@@ -405,7 +408,7 @@ def is_multi_part_qualifying(session_name):
             (any(num in session_lower for num in ['1', '2', '3']) or 'overall' in session_lower) and
             'sprint' not in session_lower)
 
-def process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fact_counters):
+def process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fact_counters, starting_grid_map):
     """Combine multiple qualifying files into single records, using overall_qualifying if present."""
     race_id_map = {}
     for race_id, race_info in dimensions['races'].items():
@@ -460,11 +463,19 @@ def process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fa
                 if position is None:
                     continue
                 
+                # Convert 'no' to int
+                no_value = row[no_idx] if no_idx >= 0 and no_idx < len(row) else None
+                if no_value is not None:
+                    try:
+                        no_value = int(no_value)
+                    except (ValueError, TypeError):
+                        no_value = None
+                
                 driver_map[driver_name] = {
                     'pos': position,
                     'quali_time': quali_time,
                     'team_id': None,
-                    'no': row[no_idx] if no_idx >= 0 and no_idx < len(row) else None,
+                    'no': no_value,
                     'laps': row[laps_idx] if laps_idx >= 0 and laps_idx < len(row) else None,
                 }
                 if car_idx >= 0 and car_idx < len(row):
@@ -492,6 +503,9 @@ def process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fa
             # Build final records
             driver_id_map = {d['driver_name']: d['driver_id'] for d in dimensions['drivers'].values()}
             for driver_name, info in driver_map.items():
+                # Get starting grid position
+                starting_grid = starting_grid_map.get((race_id, driver_name))
+                
                 record = {
                     'race_id': race_id,
                     'session_id': qualifying_session_id,
@@ -504,6 +518,7 @@ def process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fa
                     'q3': None,
                     'quali_time': info['quali_time'],  # Use time from overall_qualifying
                     'laps': info['laps'],
+                    'starting_grid': starting_grid
                 }
                 fact_counters['qualifying_results'] += 1
                 record['qualifying_result_id'] = fact_counters['qualifying_results']
@@ -512,14 +527,14 @@ def process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fa
             # Modern format - combine Q1, Q2, Q3 and set quali_time from the last session
             combined_records = combine_qualifying_data(
                 {k: json.load(open(v, 'r', encoding='utf-8')) for k, v in session_data.items()},
-                race_id, dimensions, qualifying_session_id
+                race_id, dimensions, qualifying_session_id, starting_grid_map
             )
             for record in combined_records:
                 fact_counters['qualifying_results'] += 1
                 record['qualifying_result_id'] = fact_counters['qualifying_results']
                 fact_tables['qualifying_results'].append(record)
 
-def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_session_id=None):
+def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_session_id=None, starting_grid_map=None):
     """Combine multiple qualifying sessions into unified records"""
     # Get all drivers across all sessions
     all_drivers = set()
@@ -551,6 +566,9 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
             return 0  # Sort "overall_qualifying" first
     
     for driver_name in all_drivers:
+        # Get starting grid position
+        starting_grid = starting_grid_map.get((race_id, driver_name)) if starting_grid_map else None
+        
         record = {
             'race_id': race_id,
             'session_id': qualifying_session_id,
@@ -559,7 +577,8 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
             'q2': None, 
             'q3': None,
             'pos': None,
-            'quali_time': None
+            'quali_time': None,
+            'starting_grid': starting_grid
         }
         
         for session_name, data in sorted(qualifying_data.items(), key=sort_key):
@@ -581,6 +600,7 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
                     # Extract time and other data
                     time_idx = header_indexes.get('Time', -1)
                     car_idx = header_indexes.get('Car', -1)
+                    no_idx = header_indexes.get('No', -1)
                     
                     # ONLY get the individual session times - not pos or quali_time
                     if time_idx >= 0 and time_idx < len(row) and row[time_idx]:
@@ -590,6 +610,15 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
                     if car_idx >= 0 and car_idx < len(row) and not record.get('team_id'):
                         team_name = row[car_idx]
                         record['team_id'] = team_id_map.get(team_name, team_name.replace(' ', '-'))
+                    
+                    # Convert 'no' to int
+                    if no_idx >= 0 and no_idx < len(row) and not record.get('no'):
+                        no_value = row[no_idx]
+                        if no_value is not None:
+                            try:
+                                record['no'] = int(no_value)
+                            except (ValueError, TypeError):
+                                record['no'] = None
                     
                     break
         
@@ -608,8 +637,8 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
 
 def enforce_qualifying_schema(fact_tables):
     QUALIFYING_HEADER = [
-        "qualifying_result_id", "race_id", "session_id",
-        "pos", "no", "driver_id", "team_id", "q1", "q2", "q3", "quali_time", "laps"
+        "qualifying_result_id", "race_id", "session_id", "pos", "no", "driver_id",
+        "team_id", "q1", "q2", "q3", "quali_time", "laps", "starting_grid"
     ]
     if "qualifying_results" in fact_tables:
         new_records = []
@@ -618,6 +647,16 @@ def enforce_qualifying_schema(fact_tables):
             for col in QUALIFYING_HEADER:
                 if col == "qualifying_result_id":
                     new_rec[col] = rec.get(col, rec_id)
+                elif col == "no":
+                    # Convert 'no' to int, handle non-numeric values
+                    no_value = rec.get(col)
+                    if no_value is not None:
+                        try:
+                            new_rec[col] = int(no_value)
+                        except (ValueError, TypeError):
+                            new_rec[col] = None
+                    else:
+                        new_rec[col] = None
                 else:
                     new_rec[col] = rec.get(col, None)
             
@@ -643,6 +682,62 @@ def get_q_column_from_session(session_name):
         return 'q3'
     else:
         return None  # Don't map overall_qualifying to any q-column
+
+def extract_starting_grid_positions(race_id_map):
+    """Extract starting grid positions for each race"""
+    starting_grid_map = {}  # (race_id, driver_name) -> grid_position
+    
+    print("Extracting starting grid positions...")
+    
+    for year_dir in os.listdir(DATA_DIR):
+        year_path = os.path.join(DATA_DIR, year_dir)
+        if not os.path.isdir(year_path):
+            continue
+            
+        try:
+            year = int(year_dir)
+        except ValueError:
+            continue
+            
+        for gp_dir in os.listdir(year_path):
+            gp_path = os.path.join(year_path, gp_dir)
+            if not os.path.isdir(gp_path):
+                continue
+                
+            # Look for starting_grid.json
+            grid_file = os.path.join(gp_path, 'starting_grid.json')
+            if os.path.exists(grid_file):
+                race_key = (year, gp_dir.lower().replace(' ', '_').replace('-', '_').replace("'", ""))
+                race_id = race_id_map.get(race_key)
+
+                if race_id:
+                    try:
+                        with open(grid_file, 'r', encoding='utf-8') as f:
+                            grid_data = json.load(f)
+                        
+                        headers = grid_data.get('header', [])
+                        driver_idx = headers.index('Driver') if 'Driver' in headers else -1
+                        pos_idx = headers.index('Pos') if 'Pos' in headers else -1
+                        
+                        if driver_idx >= 0 and pos_idx >= 0:
+                            for row in grid_data.get('data', []):
+                                if (driver_idx < len(row) and pos_idx < len(row) and 
+                                    row[driver_idx] and row[pos_idx]):
+                                    driver_name = row[driver_idx]
+                                    grid_pos = row[pos_idx]
+                                    
+                                    # Handle non-numeric positions (DQ, DNS, etc.)
+                                    try:
+                                        grid_pos = int(grid_pos)
+                                    except (ValueError, TypeError):
+                                        grid_pos = None
+                                    
+                                    starting_grid_map[(race_id, driver_name)] = grid_pos
+                    except Exception as e:
+                        print(f"Error processing starting grid {grid_file}: {e}")
+                else:
+                    print(f"  No race_id found for {race_key}")
+    return starting_grid_map
 
 def main():
     print("Starting F1 Data Transformation...")
@@ -709,14 +804,14 @@ def save_transformed_data(dimensions, facts):
         dim_list = list(dim_data.values())
         
         with open(dim_path, 'w', encoding='utf-8') as f:
-            json.dump(dim_list, f, indent=2)
+            json.dump(dim_list, f, indent=2, ensure_ascii=False)
             print(f"  Saved {len(dim_list)} {dim_name} to {dim_name}.json")
     
     # Save facts
     for fact_name, fact_data in facts.items():
         fact_path = os.path.join(TRANSFORM_DIR, "facts", f'{fact_name}.json')
         with open(fact_path, 'w', encoding='utf-8') as f:
-            json.dump(fact_data, f, indent=2)
+            json.dump(fact_data, f, indent=2, ensure_ascii=False)
             print(f"  Saved {len(fact_data)} records to {fact_name}.json")
             
 if __name__ == "__main__":
