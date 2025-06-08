@@ -11,7 +11,7 @@ from utils.path import get_project_root
 from utils.f1_shared import ssl_context, head, base_url, years, test_function
 
 PROJECT_ROOT = get_project_root()
-DATA_DIR = os.path.join(PROJECT_ROOT, "data", "f1_data")
+DATA_DIR = os.path.join(PROJECT_ROOT, "data", "f1_race_data")
 os.makedirs(DATA_DIR, exist_ok=True)
 CHECKPOINTS_DIR = os.path.join(PROJECT_ROOT, "data", "f1_checkpoints")
 os.makedirs(CHECKPOINTS_DIR, exist_ok=True)
@@ -82,6 +82,22 @@ async def scrape_race_location(session, race_url):
             
         return race_date, circuit, city
     
+import unicodedata
+
+def standardize_folder_name(name):
+    """Convert any name to a consistent folder name format"""
+    # Normalize Unicode characters
+    folder_name = unicodedata.normalize('NFKD', name)
+    # Remove non-ASCII characters
+    folder_name = ''.join([c for c in folder_name if not unicodedata.combining(c)])
+    # Convert to lowercase
+    folder_name = folder_name.lower()
+    # Replace special characters
+    folder_name = folder_name.replace("'", "")
+    folder_name = folder_name.replace("-", "_")
+    folder_name = folder_name.replace(" ", "_")
+    return folder_name
+
 async def process_race_location(session, race_link_tuple):
     grand_prix, url = race_link_tuple
     year = url.split('/results/')[1].split('/')[0]
@@ -212,8 +228,8 @@ async def scrape_f1_data_with_checkpoints(all_race_links):
                 # Save directly to hierarchical structure
                 grand_prix, circuit, city, year, date = result
                 
-                # Create safe directory path 
-                gp_name = grand_prix.lower().replace(' ', '_')
+                # Use standardized folder naming
+                gp_name = standardize_folder_name(grand_prix)
                 race_dir = os.path.join(DATA_DIR, str(year), gp_name)
                 os.makedirs(race_dir, exist_ok=True)
                 
@@ -283,12 +299,12 @@ async def scrape_f1_data_with_checkpoints(all_race_links):
                 parts = url.split('/')
                 year = parts[5]
                 
-                # Extract race location from URL (bahrain, etc)
+                # Extract race name from URL
                 race_location = parts[8] if len(parts) > 8 else "unknown"
-                race_location = race_location.replace('-', '_')
                 session_type = session_name.lower().replace(' ', '-').replace('-', '_')
-                
-                # Create directory path
+
+                # Use the standardized folder name function
+                race_location = standardize_folder_name(race_location)
                 race_dir = os.path.join(DATA_DIR, str(year), race_location)
                 os.makedirs(race_dir, exist_ok=True)
                 
