@@ -315,7 +315,7 @@ def transform_to_facts(session_files, dimensions):
     # Map year+grand_prix to race_id
     race_id_map = {}
     for race_id, race_info in dimensions['races'].items():
-        race_id_map[(race_info['year'], race_info['grand_prix'].lower().replace(' ', '_'))] = race_id
+        race_id_map[(race_info['year'], race_info['grand_prix'].lower().replace(' ', '_').replace('-', '_').replace("'", ""))] = race_id
     
     # Build lookup maps
     driver_id_map = {}
@@ -335,9 +335,7 @@ def transform_to_facts(session_files, dimensions):
     
     # First pass: separate qualifying sessions from others
     for year, grand_prix, file_path, session_name in session_files:
-        
-        race_key = (int(year), grand_prix.lower().replace(' ', '_'))
-        
+        race_key = (int(year), grand_prix.lower().replace(' ', '_').replace('-', '_').replace("'", ""))
         
         if is_multi_part_qualifying(session_name):
             qualifying_sessions[race_key].append((session_name, file_path))
@@ -346,8 +344,12 @@ def transform_to_facts(session_files, dimensions):
     
     # Process regular sessions normally
     for year, grand_prix, file_path, session_name in other_sessions:
-        race_key = (int(year), grand_prix.lower())
-        race_key = (int(year), grand_prix.lower().replace(' ', '_'))
+        race_key = (int(year), grand_prix.lower().replace(' ', '_').replace('-', '_').replace("'", ""))
+        race_id = race_id_map.get(race_key)
+        
+        if race_id is None:
+            print(f"Warning: No race_id found for {race_key}")
+            continue
     
         session_id = session_id_map.get(session_name)        
         
@@ -407,7 +409,7 @@ def process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fa
     """Combine multiple qualifying files into single records, using overall_qualifying if present."""
     race_id_map = {}
     for race_id, race_info in dimensions['races'].items():
-        race_id_map[(race_info['year'], race_info['grand_prix'].lower().replace(' ', '_'))] = race_id
+        race_id_map[(race_info['year'], race_info['grand_prix'].lower().replace(' ', '_').replace('-', '_').replace("'", ""))] = race_id
 
     # Get the generic "Qualifying" session ID
     qualifying_session_id = None
@@ -418,9 +420,6 @@ def process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fa
 
     for race_key, session_files in qualifying_sessions.items():
         race_id = race_id_map.get(race_key)
-        if not race_id and '_' in race_key[1]:
-            fallback_key = (race_key[0], race_key[1].replace('_', ' '))
-            race_id = race_id_map.get(fallback_key)
 
         overall_file = None
         session_data = {}
