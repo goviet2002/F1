@@ -190,21 +190,21 @@ def update_driver_dimensions_with_nationality(dimensions, driver_standings):
     id_to_nationality = {}
     for standing in driver_standings:
         driver_id = standing['driver_id']
-        nationality_code = standing['nationality_code']
+        nationality_code = standing['country_code']
         nationality_full = get_full_nationality(nationality_code)
         
         if driver_id and driver_id not in id_to_nationality:
             id_to_nationality[driver_id] = {
-                'nationality_code': nationality_code,
-                'nationality': nationality_full
+                'country_code': nationality_code,
+                'country': nationality_full
             }
     
     # Update driver dimensions with both code and full name
     for driver_id, driver_info in dimensions['drivers'].items():
         if driver_id in id_to_nationality:
             nat_info = id_to_nationality[driver_id]
-            driver_info['nationality_code'] = nat_info['nationality_code']
-            driver_info['nationality'] = nat_info['nationality']
+            driver_info['country_code'] = nat_info['country_code']
+            driver_info['country'] = nat_info['country']
 
 # Function to generate a unique team ID based on the team name
 def generate_team_id(team_name):
