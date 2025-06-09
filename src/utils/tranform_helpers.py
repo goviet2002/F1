@@ -223,3 +223,127 @@ def generate_team_id(team_name):
 
     return team_id
 
+def generate_unique_driver_id(driver_name, existing_ids_sources):
+    """
+    Generate a unique driver ID, incrementing the number if ID already exists
+    
+    Args:
+        driver_name (str): The driver's full name
+        existing_ids_sources (list): List of dictionaries/mappings to check for existing IDs
+                                   e.g. [dimensions['drivers'], missing_drivers, driver_id_map.values()]
+    
+    Returns:
+        str: Unique driver ID in format like "MARDON01", "MARDON02", etc.
+    """
+    # Generate base ID from name (first 3 chars of first name + first 3 chars of last name)
+    name_parts = driver_name.split()
+    if len(name_parts) >= 2:
+        first_name = name_parts[0][:3].upper()
+        last_name = name_parts[-1][:3].upper()
+        base_id = f"{first_name}{last_name}"
+    else:
+        # Single name fallback
+        base_id = f"{driver_name[:6].upper().replace(' ', '')}"
+    
+    # Collect all existing IDs from all sources
+    all_existing_ids = set()
+    for source in existing_ids_sources:
+        if isinstance(source, dict):
+            # For dictionaries, add all keys (for missing_drivers) or all values (for id maps)
+            if source:
+                first_key = next(iter(source.keys()))
+                if isinstance(source[first_key], dict) and 'driver_id' in source[first_key]:
+                    # This is a dimension-like dict, extract driver_ids
+                    all_existing_ids.update(item['driver_id'] for item in source.values())
+                else:
+                    # This is probably an id map, add values
+                    all_existing_ids.update(source.values())
+        elif hasattr(source, '__iter__'):
+            # For iterables (like driver_id_map.values())
+            all_existing_ids.update(source)
+    
+    # Find next available number
+    counter = 1
+    while True:
+        driver_id = f"{base_id}{counter:02d}"
+        if driver_id not in all_existing_ids:
+            return driver_id
+        counter += 1
+        if counter > 99:  # Safety check
+            return f"{base_id}{counter}"  # No leading zero for 3+ digits
+
+def build_driver_era_map(dimensions):
+    """
+    Automatically build era mapping for drivers with same names
+    Returns dict: {driver_name: [(driver_id, estimated_start_year, estimated_end_year), ...]}
+    """
+    # Group drivers by name
+    drivers_by_name = {}
+    for driver_id, driver_info in dimensions['drivers'].items():
+        name = driver_info['driver_name'].lower()
+        if name not in drivers_by_name:
+            drivers_by_name[name] = []
+        drivers_by_name[name].append((driver_id, driver_info))
+    
+    # Build era map for drivers with duplicate names
+    era_map = {}
+    for name, drivers in drivers_by_name.items():
+        if len(drivers) > 1:  # Only process names with multiple drivers
+            # Extract numeric suffix from driver_id to determine order
+            driver_eras = []
+            for driver_id, driver_info in drivers:
+                # Extract number from driver_id (e.g., "NELPIQ01" -> 1, "NELPIQ02" -> 2)
+                import re
+                match = re.search(r'(\d+)$', driver_id)
+                suffix_num = int(match.group(1)) if match else 1
+                driver_eras.append((driver_id, suffix_num))
+            
+            # Sort by suffix number (01 comes before 02)
+            driver_eras.sort(key=lambda x: x[1])
+            era_map[name] = [driver_id for driver_id, _ in driver_eras]
+    
+    return era_map
+
+def find_best_driver_match(driver_name, year, dimensions, era_map=None):
+    """
+    Find the best driver match considering era/generation
+    
+    Args:
+        driver_name: Name of the driver
+        year: Year of the race/standing
+        dimensions: Driver dimensions
+        era_map: Pre-built era mapping (optional)
+    
+    Returns:
+        driver_id: Best matching driver ID
+    """
+    driver_name_lower = driver_name.lower()
+    
+    # Build era map if not provided
+    if era_map is None:
+        era_map = build_driver_era_map(dimensions)
+    
+    # If no duplicate names, use simple matching
+    if driver_name_lower not in era_map:
+        for d_id, d_info in dimensions['drivers'].items():
+            if d_info['driver_name'].lower() == driver_name_lower:
+                return d_id
+        return None
+    
+    # Handle duplicate names using era-based logic
+    candidate_ids = era_map[driver_name_lower]
+    
+    if not year:
+        # No year info, return first candidate
+        return candidate_ids[0]
+    
+    # Era-based heuristics
+    if year <= 1990:
+        # Earlier years likely belong to the first generation (01)
+        return candidate_ids[0]
+    elif year >= 2000:
+        # Later years likely belong to newer generation (02, 03, etc.)
+        return candidate_ids[-1] if len(candidate_ids) > 1 else candidate_ids[0]
+    else:
+        # 1990s - could be either, lean towards first generation
+        return candidate_ids[0]
