@@ -286,9 +286,12 @@ def extract_teams_dimensions():
     
     return teams
 
-def get_fact_table_name(session_name, headers):
+def get_fact_table_name(session_name):
     """Automatically determine fact table name from session name"""
     session_lower = session_name.lower()
+    
+    if "Grid".lower() in session_lower:
+        return None
     
     # Handle qualifying with era detection first
     if 'qualifying' in session_lower:
@@ -299,7 +302,7 @@ def get_fact_table_name(session_name, headers):
         return 'practice_results'
     
     # Handle race-related sessions
-    if any(keyword in session_lower for keyword in ['race result', 'sprint', 'grid']):
+    if any(keyword in session_lower for keyword in ['race result', 'sprint']):
         # But exclude qualifying sessions that might contain these words
         if 'qualifying' not in session_lower:
             return 'race_results'
@@ -320,9 +323,6 @@ def transform_to_facts(session_files, dimensions):
     race_id_map = {}
     for race_id, race_info in dimensions['races'].items():
         race_id_map[(race_info['year'], race_info['grand_prix'].lower().replace(' ', '_').replace('-', '_').replace("'", ""))] = race_id
-    
-    # Extract starting grid positions and times (now returns 4 maps)
-    starting_grid_map, starting_grid_times, sprint_grid_map, sprint_grid_times = extract_starting_grid_positions(race_id_map)
     
     # Build lookup maps
     driver_id_map = {}
@@ -348,6 +348,9 @@ def transform_to_facts(session_files, dimensions):
     for year, grand_prix, file_path, session_name in session_files:
         race_key = (int(year), grand_prix.lower().replace(' ', '_').replace('-', '_').replace("'", ""))
         
+        if session_name == "Starting Grid":
+            continue
+        
         if is_multi_part_qualifying(session_name):
             qualifying_sessions[race_key].append((session_name, file_path))
         else:
@@ -371,7 +374,9 @@ def transform_to_facts(session_files, dimensions):
             headers = data.get('header', [])
             header_indexes = {col: idx for idx, col in enumerate(headers)}
             
-            fact_table = get_fact_table_name(session_name, headers)
+            fact_table = get_fact_table_name(session_name)
+            if fact_table is None:
+                continue
             
             for row in data.get('data', []):
                 fact_counters[fact_table] += 1
@@ -494,12 +499,15 @@ def transform_to_facts(session_files, dimensions):
     # Add missing drivers to dimensions
     dimensions['drivers'].update(missing_drivers)
     
-    # Process combined qualifying sessions (pass all 4 maps)
+    # Extract starting grid positions and times
+    starting_grid_map, starting_grid_times, sprint_grid_map, sprint_grid_times = extract_starting_grid_positions(race_id_map)
+    
+    # Process combined qualifying sessions
     process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fact_counters, 
                               starting_grid_map, starting_grid_times, sprint_grid_map, sprint_grid_times)
     
     # Enforce schema for qualifying_results
-    enforce_qualifying_schema(fact_tables['qualifying_results'])
+    enforce_qualifying_schema(fact_tables)
 
     return fact_tables
 
