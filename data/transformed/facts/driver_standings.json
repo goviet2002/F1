@@ -166,7 +166,7 @@
     "position": "19",
     "driver_id": "FELBON01",
     "nationality_code": "ITA",
-    "team_id": null,
+    "team_id": "MIL-SPE",
     "points": 2.0,
     "year": 1950
   },
@@ -3874,7 +3874,7 @@
     "position": "7",
     "driver_id": "CHRAMO01",
     "nationality_code": "NZL",
-    "team_id": null,
+    "team_id": "MAR-FOR",
     "points": 23.0,
     "year": 1970
   },
@@ -3937,7 +3937,7 @@
     "position": "15",
     "driver_id": "MARAND01",
     "nationality_code": "USA",
-    "team_id": null,
+    "team_id": "MAR-FOR",
     "points": 4.0,
     "year": 1970
   },
@@ -3982,7 +3982,7 @@
     "position": "19",
     "driver_id": "JOHSER01",
     "nationality_code": "FRA",
-    "team_id": null,
+    "team_id": "MAR-FOR",
     "points": 2.0,
     "year": 1970
   },
@@ -4009,7 +4009,7 @@
     "position": "22",
     "driver_id": "FRACEV01",
     "nationality_code": "FRA",
-    "team_id": null,
+    "team_id": "MAR-FOR",
     "points": 1.0,
     "year": 1970
   },
@@ -4045,7 +4045,7 @@
     "position": "2",
     "driver_id": "RONPET01",
     "nationality_code": "SWE",
-    "team_id": null,
+    "team_id": "MAR-FOR",
     "points": 33.0,
     "year": 1971
   },
@@ -4169,7 +4169,7 @@
   {
     "driver_standing_id": 464,
     "position": "16",
-    "driver_id": null,
+    "driver_id": "MARDON01",
     "nationality_code": "USA",
     "team_id": null,
     "points": 4.0,
@@ -4180,7 +4180,7 @@
     "position": "16",
     "driver_id": "HENPES01",
     "nationality_code": "FRA",
-    "team_id": null,
+    "team_id": "MAR-FOR",
     "points": 4.0,
     "year": 1971
   },
@@ -4306,7 +4306,7 @@
     "position": "9",
     "driver_id": "RONPET01",
     "nationality_code": "SWE",
-    "team_id": null,
+    "team_id": "MAR-FOR",
     "points": 12.0,
     "year": 1972
   },
@@ -4387,7 +4387,7 @@
     "position": "16",
     "driver_id": "CARPAC01",
     "nationality_code": "BRA",
-    "team_id": null,
+    "team_id": "MAR-FOR",
     "points": 3.0,
     "year": 1972
   },
@@ -4486,7 +4486,7 @@
     "position": "8",
     "driver_id": "JAMHUN01",
     "nationality_code": "GBR",
-    "team_id": null,
+    "team_id": "MAR-FOR",
     "points": 14.0,
     "year": 1973
   },
@@ -4747,7 +4747,7 @@
     "position": "16",
     "driver_id": "HANSTU02",
     "nationality_code": "GER",
-    "team_id": null,
+    "team_id": "MAR-FOR",
     "points": 5.0,
     "year": 1974
   },
@@ -4783,7 +4783,7 @@
     "position": "18",
     "driver_id": "VITBRA01",
     "nationality_code": "ITA",
-    "team_id": null,
+    "team_id": "MAR-FOR",
     "points": 1.0,
     "year": 1974
   },
@@ -4882,7 +4882,7 @@
     "position": "11",
     "driver_id": "VITBRA01",
     "nationality_code": "ITA",
-    "team_id": null,
+    "team_id": "MAR-FOR",
     "points": 6.5,
     "year": 1975
   },
@@ -4916,9 +4916,9 @@
   {
     "driver_standing_id": 547,
     "position": "15",
-    "driver_id": null,
+    "driver_id": "MARDON01",
     "nationality_code": "USA",
-    "team_id": null,
+    "team_id": "MAR-FOR",
     "points": 4.0,
     "year": 1975
   },
@@ -5071,7 +5071,7 @@
     "position": "11",
     "driver_id": "RONPET01",
     "nationality_code": "SWE",
-    "team_id": null,
+    "team_id": "MAR-FOR",
     "points": 10.0,
     "year": 1976
   },
@@ -5089,7 +5089,7 @@
     "position": "13",
     "driver_id": "HANSTU02",
     "nationality_code": "GER",
-    "team_id": null,
+    "team_id": "MAR-FOR",
     "points": 8.0,
     "year": 1976
   },
@@ -5152,7 +5152,7 @@
     "position": "19",
     "driver_id": "VITBRA01",
     "nationality_code": "ITA",
-    "team_id": null,
+    "team_id": "MAR-FOR",
     "points": 1.0,
     "year": 1976
   },
@@ -7222,7 +7222,7 @@
     "position": "20",
     "driver_id": "IVACAP01",
     "nationality_code": "ITA",
-    "team_id": null,
+    "team_id": "MAR-FOR",
     "points": 1.0,
     "year": 1987
   },
@@ -9049,7 +9049,7 @@
     "position": "13",
     "driver_id": "RUBBAR01",
     "nationality_code": "BRA",
-    "team_id": null,
+    "team_id": "STE-FOR",
     "points": 6.0,
     "year": 1997
   },
@@ -9211,7 +9211,7 @@
     "position": "12",
     "driver_id": "RUBBAR01",
     "nationality_code": "BRA",
-    "team_id": null,
+    "team_id": "STE-FOR",
     "points": 4.0,
     "year": 1998
   },
@@ -9247,7 +9247,7 @@
     "position": "16",
     "driver_id": "JANMAG01",
     "nationality_code": "DEN",
-    "team_id": null,
+    "team_id": "STE-FOR",
     "points": 1.0,
     "year": 1998
   },
@@ -9310,7 +9310,7 @@
     "position": "23",
     "driver_id": "JOSVER01",
     "nationality_code": "NED",
-    "team_id": null,
+    "team_id": "STE-FOR",
     "points": 0.0,
     "year": 1998
   },
@@ -9373,7 +9373,7 @@
     "position": "7",
     "driver_id": "RUBBAR01",
     "nationality_code": "BRA",
-    "team_id": null,
+    "team_id": "STE-FOR",
     "points": 21.0,
     "year": 1999
   },
@@ -9382,7 +9382,7 @@
     "position": "8",
     "driver_id": "JOHHER01",
     "nationality_code": "GBR",
-    "team_id": null,
+    "team_id": "STE-FOR",
     "points": 15.0,
     "year": 1999
   },
@@ -10667,7 +10667,7 @@
   {
     "driver_standing_id": 1186,
     "position": "21",
-    "driver_id": "PATFRI01",
+    "driver_id": "PATFRI79",
     "nationality_code": "AUT",
     "team_id": "MIN-COS",
     "points": 3.0,
@@ -11279,7 +11279,7 @@
   {
     "driver_standing_id": 1254,
     "position": "12",
-    "driver_id": "NELPIQ01",
+    "driver_id": "NELPIQ02",
     "nationality_code": "BRA",
     "team_id": "REN",
     "points": 19.0,
@@ -11558,7 +11558,7 @@
   {
     "driver_standing_id": 1285,
     "position": "21",
-    "driver_id": "NELPIQ01",
+    "driver_id": "NELPIQ02",
     "nationality_code": "BRA",
     "team_id": "REN",
     "points": 0.0,
@@ -12458,7 +12458,7 @@
   {
     "driver_standing_id": 1385,
     "position": "16",
-    "driver_id": "ESTGUT01",
+    "driver_id": "ESTGUT100",
     "nationality_code": "MEX",
     "team_id": "SAU-FER",
     "points": 6.0,
@@ -12701,7 +12701,7 @@
   {
     "driver_standing_id": 1412,
     "position": "20",
-    "driver_id": "ESTGUT01",
+    "driver_id": "ESTGUT100",
     "nationality_code": "MEX",
     "team_id": "SAU-FER",
     "points": 0.0,
@@ -13106,7 +13106,7 @@
   {
     "driver_standing_id": 1457,
     "position": "21",
-    "driver_id": "ESTGUT01",
+    "driver_id": "ESTGUT100",
     "nationality_code": "MEX",
     "team_id": "HAA-FER",
     "points": 0.0,

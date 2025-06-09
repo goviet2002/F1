@@ -109,7 +109,7 @@
   },
   {
     "team_id": "MAR-FOR",
-    "team_name": "Martini Ford"
+    "team_name": "March Ford"
   },
   {
     "team_id": "SUR-FOR",
@@ -445,7 +445,7 @@
   },
   {
     "team_id": "STE-FOR",
-    "team_name": "Stebro Ford"
+    "team_name": "Stewart Ford"
   },
   {
     "team_id": "ARR",
@@ -1318,5 +1318,9 @@
   {
     "team_id": "MIN-EUR",
     "team_name": "Minardi European"
+  },
+  {
+    "team_id": "MIL-SPE",
+    "team_name": "Milano Speluzzi"
   }
 ]
