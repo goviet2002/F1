@@ -294,7 +294,7 @@ def get_fact_table_name(session_name):
         return None
     
     # Handle qualifying with era detection first
-    if 'qualifying' in session_lower:
+    if 'qualifying' in session_lower or 'shootout' in session_lower:
         return 'qualifying_results'
     
     # Handle practice sessions (any word with "practice")
@@ -303,8 +303,7 @@ def get_fact_table_name(session_name):
     
     # Handle race-related sessions
     if any(keyword in session_lower for keyword in ['race result', 'sprint']):
-        # But exclude qualifying sessions that might contain these words
-        if 'qualifying' not in session_lower:
+        if 'qualifying' not in session_lower and 'shootout' not in session_lower:
             return 'race_results'
     
     # Handle other specific session types
