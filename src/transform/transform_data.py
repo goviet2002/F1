@@ -249,8 +249,8 @@ def extract_drivers_dimensions():
                         drivers[driver_code] = {
                             'driver_id': driver_code,  # Use driver_code as ID
                             'driver_name': driver_name,
-                            'nationality_code': None,
-                            'nationality': None, 
+                            'country_code': None,
+                            'country': None, 
                             # 'url': driver_data.get('url', '')
                         }
                 except Exception as e:
@@ -276,7 +276,7 @@ def extract_driver_standings_facts(dimensions):
             if len(row) >= 6:
                 driver_name = row[1]
                 car_name = row[3].strip() if row[3] else ""
-                nationality_code = row[2]
+                country_code = row[2]
                 year = safe_int(row[5])
                 
                 # Use the generic driver matching function
@@ -296,8 +296,8 @@ def extract_driver_standings_facts(dimensions):
                     dimensions['drivers'][driver_id] = {
                         'driver_id': driver_id,
                         'driver_name': ' '.join(driver_name.split()),
-                        'nationality_code': nationality_code,
-                        'nationality': get_full_nationality(nationality_code)
+                        'country_code': country_code,
+                        'country': get_full_nationality(country_code)
                     }
                     
                     # Update era map with new driver
@@ -323,7 +323,7 @@ def extract_driver_standings_facts(dimensions):
                     'driver_standing_id': idx,
                     'position': row[0], 
                     'driver_id': driver_id,
-                    'nationality_code': nationality_code,
+                    'country_code': country_code,
                     'team_id': team_id,
                     'points': safe_float(row[4]),  
                     'year': year
