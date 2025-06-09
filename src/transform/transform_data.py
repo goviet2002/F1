@@ -4,10 +4,10 @@ from collections import defaultdict
 import re
 import datetime
 import sys
-import urllib.parse
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from utils.helper import safe_float, safe_int
+from utils.tranform_helpers import safe_float, safe_int, get_fact_table_name, update_driver_dimensions_with_nationality, \
+                                generate_team_id
 
 from transform_qualifying import extract_starting_grid_positions, is_multi_part_qualifying, process_combined_qualifying, \
                                  enforce_qualifying_schema, normalize_name, DATA_DIR
@@ -249,6 +249,8 @@ def extract_drivers_dimensions():
                         drivers[driver_code] = {
                             'driver_id': driver_code,  # Use driver_code as ID
                             'driver_name': driver_name,
+                            'nationality_code': None,
+                            'nationality': None, 
                             # 'url': driver_data.get('url', '')
                         }
                 except Exception as e:
@@ -256,21 +258,81 @@ def extract_drivers_dimensions():
     
     return drivers
 
-def generate_team_id(team_name):
-    # Step 1: Convert to lowercase and replace spaces with hyphens
-    team_name = team_name.lower().replace(" ", "-").replace("/", "-")
+def extract_driver_standings_facts(dimensions):
+    """Extract driver standings from race_standing.json"""
+    drivers_data_dir = r"C:\Users\anhvi\OneDrive\Desktop\F1 Projekt\data\f1_drivers_data"
+    driver_standings_file = os.path.join(drivers_data_dir, "race_standing.json")
+    
+    driver_standings = []
+    
+    try:
+        with open(driver_standings_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        for idx, row in enumerate(data.get('drivers', []), start=1):
+            if len(row) >= 6:
+                driver_name = row[1]
+                car_name = row[3]
+                nationality_code = row[2]
+                
+                driver_id = None
+                for d_id, d_info in dimensions['drivers'].items():
+                    if d_info['driver_name'].lower() == driver_name.lower():
+                        driver_id = d_id
+                        break
+                    
+                team_id = None
+                for t_id, t_info in dimensions['teams'].items():
+                    if t_info['team_name'].lower() == car_name.lower():
+                        team_id = t_id
+                        break
+                    
+                driver_standings.append({
+                    'driver_standing_id': idx,
+                    'position': row[0], 
+                    'driver_id': driver_id,
+                    'nationality_code': nationality_code,
+                    'team_id': team_id,
+                    'points': safe_float(row[4]),  
+                    'year': safe_int(row[5])
+                })
+    except Exception as e:
+        print(f"Error processing driver standings: {e}")
+    
+    return driver_standings
 
-    # Step 2: Split the name into parts (manufacturer, team, sponsor, etc.)
-    team_name_parts = team_name.split("-")
-
-    # Step 3: Abbreviate each part (keep it simple by taking the first letter or first 3 characters)
-    # For example, "Ferrari" -> "FER", "McLaren" -> "McL"
-    abbreviated_parts = [part[:3].upper() for part in team_name_parts]
-
-    # Step 4: Combine the abbreviated parts to form the team ID
-    team_id = "-".join(abbreviated_parts)
-
-    return team_id
+def extract_team_standings_facts(dimensions):
+    """Extract team standings from team_standing.json"""
+    teams_data_dir = r"C:\Users\anhvi\OneDrive\Desktop\F1 Projekt\data\f1_teams_data"
+    team_standings_file = os.path.join(teams_data_dir, "team_standing.json")
+    
+    team_standings = []
+    
+    try:
+        with open(team_standings_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        for idx, row in enumerate(data.get('teams', []), start=1):
+            if len(row) >= 4:
+                team_name = row[1]
+                
+                team_id = None
+                for t_id, t_info in dimensions['teams'].items():
+                    if t_info['team_name'].lower() == team_name.lower():
+                        team_id = t_id
+                        break
+                
+                team_standings.append({
+                    'team_standing_id': idx,
+                    'position': row[0],    
+                    'team_id': team_id,
+                    'points': safe_float(row[2]),  
+                    'year': safe_int(row[3])
+                })
+    except Exception as e:
+        print(f"Error processing team standings: {e}")
+    
+    return team_standings
 
 def extract_teams_dimensions():
     """Extract teams from f1_teams_data folder"""
@@ -290,11 +352,11 @@ def extract_teams_dimensions():
                         team_data = json.load(f)
                     
                     team_name = team_data.get('name')
-                    team_code = generate_team_id(team_name)
                     
-                    if team_code and team_name:
-                        teams[team_code] = {
-                            'team_id': generate_team_id(team_code),
+                    if team_name:
+                        team_id = generate_team_id(team_name) 
+                        teams[team_id] = {
+                            'team_id': team_id,
                             'team_name': team_name,
                             # 'url': team_data.get('url', '')
                         }
@@ -302,36 +364,6 @@ def extract_teams_dimensions():
                     print(f"Error processing team file {file_path}: {e}")
     
     return teams
-
-def get_fact_table_name(session_name):
-    """Automatically determine fact table name from session name"""
-    session_lower = session_name.lower()
-    
-    if "Grid".lower() in session_lower:
-        return None
-    
-    # Handle qualifying with era detection first
-    if 'qualifying' in session_lower or 'shootout' in session_lower:
-        return 'qualifying_results'
-    
-    # Handle practice sessions (any word with "practice")
-    if 'practice' in session_lower or "Warm up".lower() in session_lower:
-        return 'practice_results'
-    
-    # Handle race-related sessions
-    if any(keyword in session_lower for keyword in ['race result', 'sprint']):
-        if 'qualifying' not in session_lower and 'shootout' not in session_lower:
-            return 'race_results'
-    
-    # Handle other specific session types
-    if 'fastest' in session_lower:
-        return 'fastest_laps'
-    
-    if 'pit stop' in session_lower:
-        return 'pit_stops'
-    
-    # Default for unknown session types
-    return f'{session_name}'
 
 def transform_race_results_to_facts(session_files, dimensions):
     """Transform session files into fact records"""
@@ -405,8 +437,8 @@ def transform_race_results_to_facts(session_files, dimensions):
                 # Handle practice sessions with specific column mapping
                 if fact_table == 'practice_results':
                     # Initialize all practice fields to null first
-                    record['pos'] = None
-                    record['no'] = None
+                    record['position'] = None
+                    record['number'] = None
                     record['driver_id'] = None
                     record['team_id'] = None
                     record['time'] = None
@@ -447,12 +479,23 @@ def transform_race_results_to_facts(session_files, dimensions):
                                 team_name = row[idx]
                                 team_id = team_id_map.get(team_name)
                                 if not team_id:
-                                    team_id = team_name.replace(' ', '-')
+                                    # Generate team_id and add to dimensions
+                                    team_id = generate_team_id(team_name)
+                                    
+                                    # Add to team dimensions
+                                    dimensions['teams'][team_id] = {
+                                        'team_id': team_id,
+                                        'team_name': team_name
+                                    }
+                                    
+                                    # Update the team_id_map for future lookups
+                                    team_id_map[team_name] = team_id
+                                    
                                 record['team_id'] = team_id
                             elif col == 'Pos':
-                                record['pos'] = row[idx]
+                                record['position'] = row[idx]
                             elif col == 'No':
-                                record['no'] = safe_int(row[idx])
+                                record['number'] = safe_int(row[idx])
                             elif col == 'Time':
                                 record['time'] = row[idx]
                             elif col == 'Gap':
@@ -491,20 +534,34 @@ def transform_race_results_to_facts(session_files, dimensions):
                                 team_name = row[idx]
                                 team_id = team_id_map.get(team_name)
                                 if not team_id:
-                                    team_id = team_name.replace(' ', '-')
+                                    # Generate team_id and add to dimensions
+                                    team_id = generate_team_id(team_name)
+                                    
+                                    # Add to team dimensions
+                                    dimensions['teams'][team_id] = {
+                                        'team_id': team_id,
+                                        'team_name': team_name
+                                    }
+                                    
+                                    # Update the team_id_map for future lookups
+                                    team_id_map[team_name] = team_id
+                                    
                                 record['team_id'] = team_id
+                                
                             elif col == 'Time':
                                 record['time'] = row[idx]
                             elif col == 'No':
-                                record['no'] = safe_int(row[idx])
+                                record['number'] = safe_int(row[idx])
                             elif col == 'Laps':
                                 record['laps'] = safe_int(row[idx])
                             elif col == 'Lap':
                                 record['lap'] = safe_int(row[idx])
                             elif col == 'Pts':
-                                record['pts'] = safe_float(row[idx])
+                                record['points'] = safe_float(row[idx])
                             elif col == "Stops":
                                 record['stops'] = safe_int(row[idx])
+                            elif col == "Pos":
+                                record['position'] = row[idx]
                             else:
                                 col_name = col.lower().replace(' ', '_')
                                 record[col_name] = row[idx]
@@ -576,6 +633,15 @@ def main():
     # Step 3: Transform to facts
     print("\n3. Transforming to fact tables...")
     fact_tables = transform_race_results_to_facts(session_files, dimensions)
+    
+    # Step 3a: Extract standings data
+    print("\n3a. Extracting driver and team standings...")
+    fact_tables['team_standings'] = extract_team_standings_facts(dimensions)
+    fact_tables['driver_standings'] = extract_driver_standings_facts(dimensions)
+    
+    # Step 3b: Update driver dimensions with nationality
+    print("\n3b. Updating driver dimensions with nationality...")
+    update_driver_dimensions_with_nationality(dimensions, fact_tables['driver_standings'])
     
     print("Fact tables created:")
     for table_name, records in fact_tables.items():

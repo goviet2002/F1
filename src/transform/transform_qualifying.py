@@ -4,7 +4,7 @@ import sys
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from utils.path import get_project_root
-from utils.helper import normalize_name
+from utils.tranform_helpers import normalize_name
 
 PROJECT_ROOT = get_project_root()
 DATA_DIR = os.path.join(PROJECT_ROOT, "data", "f1_race_data")
@@ -95,11 +95,11 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
             'q1': None,
             'q2': None, 
             'q3': None,
-            'pos': None,
-            'quali_time': starting_grid_quali_time,
+            'position': None,
+            'qualifying_time': starting_grid_quali_time,
             'starting_grid': starting_grid,
             'team_id': None,
-            'no': None,
+            'number': None,
             'laps': None
         }
         
@@ -122,17 +122,17 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
                         if col_idx < len(row) and row[col_idx]:
                             value = row[col_idx]
                             
-                            if col_name == 'Pos' and record['pos'] is None:
+                            if col_name == 'Pos' and record['position'] is None:
                                 try:
-                                    record['pos'] = value
+                                    record['position'] = value
                                 except (ValueError, TypeError):
-                                    record['pos'] = None
+                                    record['position'] = None
                             
-                            elif col_name == 'No' and record['no'] is None:
+                            elif col_name == 'No' and record['number'] is None:
                                 try:
-                                    record['no'] = int(value)
+                                    record['number'] = int(value)
                                 except (ValueError, TypeError):
-                                    record['no'] = None
+                                    record['number'] = None
                             
                             elif col_name == 'Car' and record['team_id'] is None:
                                 record['team_id'] = team_id_map.get(value, value.replace(' ', '-'))
@@ -155,23 +155,23 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
                                 if q_column and record[q_column] is None:
                                     record[q_column] = value
                                 elif is_sprint_qualifying and starting_grid_quali_time:
-                                    record['quali_time'] = starting_grid_quali_time
+                                    record['qualifying_time'] = starting_grid_quali_time
                                 elif (session_name.lower() == 'qualifying' or 
                                     session_name.lower() == 'overall qualifying'):
                                     # Use session Time if we don't have starting grid time
-                                    if record['quali_time'] is None:
-                                        record['quali_time'] = value
+                                    if record['qualifying_time'] is None:
+                                        record['qualifying_time'] = value
                     
                     break
         
         # Fallback: If no starting grid time, use the best available Q time
-        if record['quali_time'] is None:
+        if record['qualifying_time'] is None:
             if record['q3'] is not None:
-                record['quali_time'] = record['q3']
+                record['qualifying_time'] = record['q3']
             elif record['q2'] is not None:
-                record['quali_time'] = record['q2']
+                record['qualifying_time'] = record['q2']
             elif record['q1'] is not None:
-                record['quali_time'] = record['q1']
+                record['qualifying_time'] = record['q1']
         
         combined_records.append(record)
     
@@ -327,8 +327,8 @@ def convert_sprint_grid_to_qualifying(sprint_grid_data):
 
 def enforce_qualifying_schema(fact_tables):
     QUALIFYING_HEADER = [
-        "qualifying_result_id", "race_id", "session_id", "pos", "no", "driver_id",
-        "team_id", "q1", "q2", "q3", "quali_time", "laps", "starting_grid"
+        "qualifying_result_id", "race_id", "session_id", "position", "number", "driver_id",
+        "team_id", "q1", "q2", "q3", "qualifying_time", "laps", "starting_grid"
     ]
     if "qualifying_results" in fact_tables:
         new_records = []
