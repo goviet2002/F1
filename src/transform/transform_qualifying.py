@@ -1,21 +1,14 @@
 import os
 import json
-import itertools
 import sys
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from utils.path import get_project_root
+from utils.helper import normalize_name
 
 PROJECT_ROOT = get_project_root()
 DATA_DIR = os.path.join(PROJECT_ROOT, "data", "f1_race_data")
 os.makedirs(DATA_DIR, exist_ok=True)
-
-def normalize_name(name):
-    parts = name.split()
-    # Generate all permutations for names with 2 or 3 parts
-    if 2 <= len(parts) <= 3:
-        return [' '.join(p) for p in itertools.permutations(parts)]
-    return [name]
 
 def is_multi_part_qualifying(session_name):
     """Check if this is part of multi-part qualifying or a single qualifying session"""

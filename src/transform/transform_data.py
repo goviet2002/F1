@@ -3,6 +3,10 @@ import json
 from collections import defaultdict
 import re
 import datetime
+import sys
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from utils.helper import safe_float, safe_int
 
 from transform_qualifying import extract_starting_grid_positions, is_multi_part_qualifying, process_combined_qualifying, \
                                  enforce_qualifying_schema, normalize_name, DATA_DIR
@@ -244,7 +248,7 @@ def extract_drivers_dimensions():
                         drivers[driver_code] = {
                             'driver_id': driver_code,  # Use driver_code as ID
                             'driver_name': driver_name,
-                            'url': driver_data.get('url', '')
+                            # 'url': driver_data.get('url', '')
                         }
                 except Exception as e:
                     print(f"Error processing driver file {file_path}: {e}")
@@ -275,7 +279,7 @@ def extract_teams_dimensions():
                         teams[team_code] = {
                             'team_id': team_code,  # Use team_code as ID
                             'team_name': team_name,
-                            'url': team_data.get('url', '')
+                            # 'url': team_data.get('url', '')
                         }
                 except Exception as e:
                     print(f"Error processing team file {file_path}: {e}")
@@ -325,8 +329,12 @@ def transform_to_facts(session_files, dimensions):
     for d in dimensions['drivers'].values():
         for variant in normalize_name(d['driver_name']):
             driver_id_map[variant] = d['driver_id']
+    
     team_id_map = {t['team_name']: t['team_id'] for t in dimensions['teams'].values()}
     session_id_map = {s['session_name']: s['session_id'] for s in dimensions['sessions'].values()}
+    
+    # Track missing drivers to add to dimensions
+    missing_drivers = {}
     
     # Create fact tables
     fact_tables = defaultdict(list)
@@ -372,26 +380,119 @@ def transform_to_facts(session_files, dimensions):
                     'race_id': race_id,
                     'session_id': session_id
                 }
-                for col, idx in header_indexes.items():
-                    if idx < len(row) and row[idx]:
-                        if col == 'Driver':
-                            record['driver_id'] = driver_id_map.get(row[idx])
-                        elif col == 'Car':
-                            # Try to get team_id from map, else fallback to dash-joined name
-                            team_name = row[idx]
-                            team_id = team_id_map.get(team_name)
-                            if not team_id:
-                                team_id = team_name.replace(' ', '-')
-                            record['team_id'] = team_id
-                        elif col == 'Time':
-                            record['q3'] = row[idx]
-                        else:
-                            col_name = col.lower().replace(' ', '_')
-                            record[col_name] = row[idx]
+                
+                # Handle practice sessions with specific column mapping
+                if fact_table == 'practice_results':
+                    # Initialize all practice fields to null first
+                    record['pos'] = None
+                    record['no'] = None
+                    record['driver_id'] = None
+                    record['team_id'] = None
+                    record['time'] = None
+                    record['gap'] = None
+                    record['laps'] = None
+                    
+                    # Then populate available data
+                    for col, idx in header_indexes.items():
+                        if idx < len(row) and row[idx]:
+                            if col == 'Driver':
+                                driver_name = row[idx]
+                                driver_id = driver_id_map.get(driver_name)
+                                
+                                # If driver not found, create a new ID
+                                if not driver_id:
+                                    # Generate ID from name (first 3 chars of first name + first 3 chars of last name + 01)
+                                    name_parts = driver_name.split()
+                                    if len(name_parts) >= 2:
+                                        first_name = name_parts[0][:3].upper()
+                                        last_name = name_parts[-1][:3].upper()
+                                        driver_id = f"{first_name}{last_name}01"
+                                    else:
+                                        # Single name fallback
+                                        driver_id = f"{driver_name[:6].upper().replace(' ', '')}01"
+                                    
+                                    # Add to missing drivers dict and driver_id_map
+                                    missing_drivers[driver_id] = {
+                                        'driver_id': driver_id,
+                                        'driver_name': ' '.join(driver_name.split()),
+                                        # 'url': None
+                                    }
+                                    driver_id_map[driver_name] = driver_id
+                                    
+                                    # print(f"Created new driver ID: {driver_name} -> {driver_id}")
+                                
+                                record['driver_id'] = driver_id
+                            elif col == 'Car':
+                                team_name = row[idx]
+                                team_id = team_id_map.get(team_name)
+                                if not team_id:
+                                    team_id = team_name.replace(' ', '-')
+                                record['team_id'] = team_id
+                            elif col == 'Pos':
+                                record['pos'] = row[idx]
+                            elif col == 'No':
+                                record['no'] = safe_int(row[idx])
+                            elif col == 'Time':
+                                record['time'] = row[idx]
+                            elif col == 'Gap':
+                                record['gap'] = row[idx]
+                            elif col == 'Laps':
+                                record['laps'] = safe_int(row[idx])
+                else:
+                    # Handle other session types with original logic
+                    for col, idx in header_indexes.items():
+                        if idx < len(row) and row[idx]:
+                            if col == 'Driver':
+                                driver_name = row[idx]
+                                driver_id = driver_id_map.get(driver_name)
+                                
+                                # If driver not found, create a new ID
+                                if not driver_id:
+                                    name_parts = driver_name.split()
+                                    if len(name_parts) >= 2:
+                                        first_name = name_parts[0][:3].upper()
+                                        last_name = name_parts[-1][:3].upper()
+                                        driver_id = f"{first_name}{last_name}01"
+                                    else:
+                                        driver_id = f"{driver_name[:6].upper().replace(' ', '')}01"
+                                    
+                                    missing_drivers[driver_id] = {
+                                        'driver_id': driver_id,
+                                        'driver_name': ' '.join(driver_name.split()),
+                                        # 'url': None
+                                    }
+                                    driver_id_map[driver_name] = driver_id
+                                    
+                                    # print(f"Created new driver ID: {driver_name} -> {driver_id}")
+                                
+                                record['driver_id'] = driver_id
+                            elif col == 'Car':
+                                team_name = row[idx]
+                                team_id = team_id_map.get(team_name)
+                                if not team_id:
+                                    team_id = team_name.replace(' ', '-')
+                                record['team_id'] = team_id
+                            elif col == 'Time':
+                                record['time'] = row[idx]
+                            elif col == 'No':
+                                record['no'] = safe_int(row[idx])
+                            elif col == 'Laps':
+                                record['laps'] = safe_int(row[idx])
+                            elif col == 'Lap':
+                                record['lap'] = safe_int(row[idx])
+                            elif col == 'Pts':
+                                record['pts'] = safe_float(row[idx])
+                            else:
+                                col_name = col.lower().replace(' ', '_')
+                                record[col_name] = row[idx]
+                
                 fact_tables[fact_table].append(record)
                 
         except Exception as e:
             print(f"Error transforming {file_path}: {e}")
+    
+    # Add missing drivers to dimensions
+    dimensions['drivers'].update(missing_drivers)
     
     # Process combined qualifying sessions (pass all 4 maps)
     process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fact_counters, 
