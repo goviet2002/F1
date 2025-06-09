@@ -580,13 +580,12 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
 
 def process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fact_counters, 
                               starting_grid_map, starting_grid_times, sprint_grid_map, sprint_grid_times):
-    """Combine multiple qualifying files into single records, using overall_qualifying if present."""
+    """Process qualifying sessions - handle missing sprint qualifying files"""
     race_id_map = {}
     for race_id, race_info in dimensions['races'].items():
         race_key = (race_info['year'], race_info['grand_prix'].lower().replace(' ', '_').replace('-', '_').replace("'", ""))
         race_id_map[race_key] = race_id
 
-    # Create a mapping for all session IDs, not just the generic Qualifying one
     session_id_map = {s['session_name']: s['session_id'] for s in dimensions['sessions'].values()}
 
     for race_key, session_files in qualifying_sessions.items():
@@ -597,51 +596,135 @@ def process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fa
             print(f"Warning: No race_id found for {race_key}")
             continue
 
-        # Load all qualifying data for this race
-        qualifying_data = {}
+        # Group sessions by type (sprint vs regular)
+        sprint_sessions = {}
+        regular_sessions = {}
+        
         for session_name, file_path in session_files:
             try:
                 with open(file_path, 'r', encoding='utf-8') as f:
                     data = json.load(f)
-                    qualifying_data[session_name] = data
+                
+                # Separate sprint and regular qualifying
+                if 'sprint' in session_name.lower():
+                    sprint_sessions[session_name] = data
+                else:
+                    regular_sessions[session_name] = data
                         
             except Exception as e:
                 print(f"Error loading {file_path}: {e}")
                 continue
 
-        if not qualifying_data:
-            continue
-
-        # Determine if this is a sprint qualifying session
-        is_sprint_qualifying = any('sprint' in session_name.lower() for session_name in qualifying_data.keys())
+        # Check if this race has sprint grid but no sprint qualifying
+        race_folder = os.path.join(DATA_DIR, str(year), grand_prix)
+        sprint_grid_file = os.path.join(race_folder, 'sprint_grid.json')
+        has_sprint_grid = os.path.exists(sprint_grid_file)
         
-        if is_sprint_qualifying:
-            # Look for the actual sprint session name in the data
-            sprint_session_names = [name for name in qualifying_data.keys() if 'sprint' in name.lower()]
-            if sprint_session_names:
-                # Use the first sprint session name found
-                actual_sprint_session_name = sprint_session_names[0]
-                qualifying_session_id = session_id_map.get(actual_sprint_session_name)
-                print(f"  Found sprint session: {actual_sprint_session_name}, using session_id: {qualifying_session_id}")
-            else:
+        # If no sprint qualifying but has sprint grid, create qualifying from grid data
+        if not sprint_sessions and has_sprint_grid:
+            print(f"Race {race_id} ({year} {grand_prix}): No sprint qualifying file, using sprint_grid.json")
+            try:
+                with open(sprint_grid_file, 'r', encoding='utf-8') as f:
+                    sprint_grid_data = json.load(f)
+                
+                # Convert sprint grid to qualifying format
+                sprint_qualifying_data = convert_grid_to_qualifying(sprint_grid_data, sprint_grid_map, sprint_grid_times, race_id)
+                sprint_sessions['Sprint Qualifying'] = sprint_qualifying_data
+                
+            except Exception as e:
+                print(f"Error loading sprint grid {sprint_grid_file}: {e}")
+
+        # Process sprint qualifying sessions (including converted ones)
+        if sprint_sessions:            
+            # Find the correct session ID
+            sprint_session_names = list(sprint_sessions.keys())
+            actual_sprint_session_name = sprint_session_names[0]
+            qualifying_session_id = session_id_map.get(actual_sprint_session_name)
+            if not qualifying_session_id:
                 # Fallback to generic Sprint Qualifying
                 qualifying_session_id = session_id_map.get('Sprint Qualifying')
-                print(f"  No specific sprint session found, using Sprint Qualifying session_id: {qualifying_session_id}")
-        else:
-            qualifying_session_id = session_id_map.get('Qualifying')
-            print(f"  Using regular Qualifying session_id: {qualifying_session_id}")
-        
-        # Combine the qualifying data
-        combined_records = combine_qualifying_data(
-            qualifying_data, race_id, dimensions, qualifying_session_id, 
-            starting_grid_map, starting_grid_times, sprint_grid_map, sprint_grid_times
-        )
+            
+            # Process sprint qualifying
+            combined_records = combine_qualifying_data(
+                sprint_sessions, race_id, dimensions, qualifying_session_id, 
+                starting_grid_map, starting_grid_times, sprint_grid_map, sprint_grid_times
+            )
 
-        # Add records to fact table
-        for record in combined_records:
-            fact_counters['qualifying_results'] += 1
-            record['qualifying_result_id'] = fact_counters['qualifying_results']
-            fact_tables['qualifying_results'].append(record)
+            # Add sprint qualifying records to fact table
+            for record in combined_records:
+                fact_counters['qualifying_results'] += 1
+                record['qualifying_result_id'] = fact_counters['qualifying_results']
+                fact_tables['qualifying_results'].append(record)
+
+        # Process regular qualifying sessions
+        if regular_sessions:            
+            qualifying_session_id = session_id_map.get('Qualifying')
+                        
+            # Process regular qualifying
+            combined_records = combine_qualifying_data(
+                regular_sessions, race_id, dimensions, qualifying_session_id, 
+                starting_grid_map, starting_grid_times, sprint_grid_map, sprint_grid_times
+            )
+
+            # Add regular qualifying records to fact table
+            for record in combined_records:
+                fact_counters['qualifying_results'] += 1
+                record['qualifying_result_id'] = fact_counters['qualifying_results']
+                fact_tables['qualifying_results'].append(record)
+
+def convert_grid_to_qualifying(sprint_grid_data, sprint_grid_map, sprint_grid_times, race_id):
+    """Convert sprint_grid.json data to qualifying session format with same columns as regular qualifying"""
+    headers = sprint_grid_data.get('header', [])
+    data_rows = sprint_grid_data.get('data', [])
+    
+    # Create qualifying-style data structure with all standard qualifying columns
+    qualifying_data = {
+        'header': ['Pos', 'No', 'Driver', 'Car', 'Q1', 'Q2', 'Q3', 'Time', 'Laps'],
+        'data': [],
+        'session_name': 'Sprint Qualifying'
+    }
+    
+    # Map existing columns from sprint_grid
+    driver_idx = headers.index('Driver') if 'Driver' in headers else -1
+    pos_idx = headers.index('Pos') if 'Pos' in headers else -1
+    no_idx = headers.index('No') if 'No' in headers else -1
+    car_idx = headers.index('Car') if 'Car' in headers else -1
+    time_idx = headers.index('Time') if 'Time' in headers else -1
+    
+    for row in data_rows:
+        if len(row) == 0 or not row[0]:  # Skip empty rows
+            continue
+            
+        # Create row with all qualifying columns: [Pos, No, Driver, Car, Q1, Q2, Q3, Time, Laps]
+        new_row = ['', '', '', '', '', '', '', '', '']
+        
+        # Copy available data from sprint_grid
+        if pos_idx >= 0 and len(row) > pos_idx:
+            new_row[0] = row[pos_idx]  # Pos
+        if no_idx >= 0 and len(row) > no_idx:
+            new_row[1] = row[no_idx]   # No
+        if driver_idx >= 0 and len(row) > driver_idx:
+            new_row[2] = row[driver_idx]  # Driver
+        if car_idx >= 0 and len(row) > car_idx:
+            new_row[3] = row[car_idx]   # Car
+        
+        # Q1, Q2, Q3 - leave empty (indices 4, 5, 6)
+        new_row[4] = ''  # Q1 - null/empty
+        new_row[5] = ''  # Q2 - null/empty  
+        new_row[6] = ''  # Q3 - null/empty
+        
+        # Time from grid file
+        if time_idx >= 0 and len(row) > time_idx:
+            new_row[7] = row[time_idx]  # Time
+        else:
+            new_row[7] = ''  # Time - empty if not available
+            
+        # Laps - leave empty (index 8)
+        new_row[8] = ''  # Laps - null/empty
+        
+        qualifying_data['data'].append(new_row)
+    
+    return qualifying_data
 
 def enforce_qualifying_schema(fact_tables):
     QUALIFYING_HEADER = [
@@ -671,6 +754,16 @@ def enforce_qualifying_schema(fact_tables):
                     if pos_value is not None:
                         try:
                             new_rec[col] = int(pos_value)
+                        except (ValueError, TypeError):
+                            new_rec[col] = None
+                    else:
+                        new_rec[col] = None
+                elif col == "laps":
+                    # Convert 'laps' to int, handle non-numeric values
+                    laps_value = rec.get(col)
+                    if laps_value is not None:
+                        try:
+                            new_rec[col] = int(laps_value)
                         except (ValueError, TypeError):
                             new_rec[col] = None
                     else:
