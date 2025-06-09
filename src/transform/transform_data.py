@@ -333,7 +333,7 @@ def get_fact_table_name(session_name):
     # Default for unknown session types
     return f'{session_name}'
 
-def transform_to_facts(session_files, dimensions):
+def transform_race_results_to_facts(session_files, dimensions):
     """Transform session files into fact records"""
     # Map year+grand_prix to race_id
     race_id_map = {}
@@ -575,7 +575,7 @@ def main():
     
     # Step 3: Transform to facts
     print("\n3. Transforming to fact tables...")
-    fact_tables = transform_to_facts(session_files, dimensions)
+    fact_tables = transform_race_results_to_facts(session_files, dimensions)
     
     print("Fact tables created:")
     for table_name, records in fact_tables.items():
