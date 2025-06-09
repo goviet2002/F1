@@ -156,8 +156,9 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
                                     record[q_column] = value
                                 elif is_sprint_qualifying and starting_grid_quali_time:
                                     record['quali_time'] = starting_grid_quali_time
-                                elif session_name.lower() == 'qualifying':
-                                    # Only use session Time if we don't have starting grid time
+                                elif (session_name.lower() == 'qualifying' or 
+                                    session_name.lower() == 'overall qualifying'):
+                                    # Use session Time if we don't have starting grid time
                                     if record['quali_time'] is None:
                                         record['quali_time'] = value
                     
