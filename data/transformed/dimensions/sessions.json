@@ -31,78 +31,48 @@
   },
   {
     "session_id": 6,
-    "session_name": "Overall Qualifying",
-    "session_order": 200,
-    "category": 2
-  },
-  {
-    "session_id": 7,
     "session_name": "Qualifying",
     "session_order": 200,
     "category": 2
   },
   {
-    "session_id": 8,
-    "session_name": "Qualifying 1",
-    "session_order": 201,
-    "category": 2
-  },
-  {
-    "session_id": 9,
-    "session_name": "Qualifying 2",
-    "session_order": 202,
-    "category": 2
-  },
-  {
-    "session_id": 10,
+    "session_id": 7,
     "session_name": "Sprint Qualifying",
     "session_order": 301,
     "category": 3
   },
   {
-    "session_id": 11,
+    "session_id": 8,
     "session_name": "Sprint Shootout",
     "session_order": 301,
     "category": 3
   },
   {
-    "session_id": 12,
-    "session_name": "Sprint Grid",
-    "session_order": 302,
-    "category": 3
-  },
-  {
-    "session_id": 13,
+    "session_id": 9,
     "session_name": "Sprint",
     "session_order": 303,
     "category": 3
   },
   {
-    "session_id": 14,
+    "session_id": 10,
     "session_name": "Warm up",
     "session_order": 401,
     "category": 4
   },
   {
-    "session_id": 15,
-    "session_name": "Starting Grid",
-    "session_order": 402,
-    "category": 4
-  },
-  {
-    "session_id": 16,
+    "session_id": 11,
     "session_name": "Race Result",
     "session_order": 403,
     "category": 4
   },
   {
-    "session_id": 17,
+    "session_id": 12,
     "session_name": "Fastest Laps",
     "session_order": 404,
     "category": 4
   },
   {
-    "session_id": 18,
+    "session_id": 13,
     "session_name": "Pit Stop Summary",
     "session_order": 405,
     "category": 4

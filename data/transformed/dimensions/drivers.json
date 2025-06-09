@@ -1,1947 +1,3382 @@
 [
   {
     "driver_id": "ALBASC01",
-    "driver_name": "Alberto Ascari",
-    "url": "https://www.formula1.com/en/results/1954/drivers/ALBASC01/alberto-ascari"
+    "driver_name": "Alberto Ascari"
   },
   {
     "driver_id": "BILHOL01",
-    "driver_name": "Bill Holland",
-    "url": "https://www.formula1.com/en/results/1950/drivers/BILHOL01/bill-holland"
+    "driver_name": "Bill Holland"
   },
   {
     "driver_id": "CECGRE01",
-    "driver_name": "Cecil Green",
-    "url": "https://www.formula1.com/en/results/1950/drivers/CECGRE01/cecil-green"
+    "driver_name": "Cecil Green"
   },
   {
     "driver_id": "DORSER01",
-    "driver_name": "Dorino Serafini",
-    "url": "https://www.formula1.com/en/results/1950/drivers/DORSER01/dorino-serafini"
+    "driver_name": "Dorino Serafini"
   },
   {
     "driver_id": "EUGCHA01",
-    "driver_name": "Eugene Chaboud",
-    "url": "https://www.formula1.com/en/results/1950/drivers/EUGCHA01/eugene-chaboud"
+    "driver_name": "Eugene Chaboud"
   },
   {
     "driver_id": "FELBON01",
-    "driver_name": "Felice Bonetto",
-    "url": "https://www.formula1.com/en/results/1953/drivers/FELBON01/felice-bonetto"
+    "driver_name": "Felice Bonetto"
   },
   {
     "driver_id": "JOHPAR01",
-    "driver_name": "Johnnie Parsons",
-    "url": "https://www.formula1.com/en/results/1956/drivers/JOHPAR01/johnnie-parsons"
+    "driver_name": "Johnnie Parsons"
   },
   {
     "driver_id": "JOICHI01",
-    "driver_name": "Joie Chitwood",
-    "url": "https://www.formula1.com/en/results/1950/drivers/JOICHI01/joie-chitwood"
+    "driver_name": "Joie Chitwood"
   },
   {
     "driver_id": "JUAFAN01",
-    "driver_name": "Juan Manuel Fangio",
-    "url": "https://www.formula1.com/en/results/1958/drivers/JUAFAN01/juan-manuel-fangio"
+    "driver_name": "Juan Manuel Fangio"
   },
   {
     "driver_id": "LOUCHI01",
-    "driver_name": "Louis Chiron",
-    "url": "https://www.formula1.com/en/results/1950/drivers/LOUCHI01/louis-chiron"
+    "driver_name": "Louis Chiron"
   },
   {
     "driver_id": "LOUROS01",
-    "driver_name": "Louis Rosier",
-    "url": "https://www.formula1.com/en/results/1956/drivers/LOUROS01/louis-rosier"
+    "driver_name": "Louis Rosier"
   },
   {
     "driver_id": "LUIFAG01",
-    "driver_name": "Luigi Fagioli",
-    "url": "https://www.formula1.com/en/results/1951/drivers/LUIFAG01/luigi-fagioli"
+    "driver_name": "Luigi Fagioli"
   },
   {
     "driver_id": "MAUROS01",
-    "driver_name": "Mauri Rose",
-    "url": "https://www.formula1.com/en/results/1950/drivers/MAUROS01/mauri-rose"
+    "driver_name": "Mauri Rose"
   },
   {
     "driver_id": "NINFAR01",
-    "driver_name": "Nino Farina",
-    "url": "https://www.formula1.com/en/results/1955/drivers/NINFAR01/nino-farina"
+    "driver_name": "Nino Farina"
   },
   {
     "driver_id": "PETWHI01",
-    "driver_name": "Peter Whitehead",
-    "url": "https://www.formula1.com/en/results/1950/drivers/PETWHI01/peter-whitehead"
+    "driver_name": "Peter Whitehead"
   },
   {
     "driver_id": "PHIETA01",
-    "driver_name": "Philippe Etancelin",
-    "url": "https://www.formula1.com/en/results/1950/drivers/PHIETA01/philippe-etancelin"
+    "driver_name": "Philippe Etancelin"
   },
   {
     "driver_id": "PRIBIR01",
-    "driver_name": "Prince Bira",
-    "url": "https://www.formula1.com/en/results/1954/drivers/PRIBIR01/prince-bira"
+    "driver_name": "Prince Bira"
   },
   {
     "driver_id": "RAYSOM01",
-    "driver_name": "Raymond Sommer",
-    "url": "https://www.formula1.com/en/results/1950/drivers/RAYSOM01/raymond-sommer"
+    "driver_name": "Raymond Sommer"
   },
   {
     "driver_id": "REGPAR01",
-    "driver_name": "Reg Parnell",
-    "url": "https://www.formula1.com/en/results/1951/drivers/REGPAR01/reg-parnell"
+    "driver_name": "Reg Parnell"
   },
   {
     "driver_id": "ROBMAN01",
-    "driver_name": "Robert Manzon",
-    "url": "https://www.formula1.com/en/results/1954/drivers/ROBMAN01/robert-manzon"
+    "driver_name": "Robert Manzon"
   },
   {
     "driver_id": "TONBET01",
-    "driver_name": "Tony Bettenhausen",
-    "url": "https://www.formula1.com/en/results/1959/drivers/TONBET01/tony-bettenhausen"
+    "driver_name": "Tony Bettenhausen"
   },
   {
     "driver_id": "YVECAB01",
-    "driver_name": "Yves Giraud-Cabantous",
-    "url": "https://www.formula1.com/en/results/1951/drivers/YVECAB01/yves-giraud-cabantous"
+    "driver_name": "Yves Giraud-Cabantous"
   },
   {
     "driver_id": "ANDLIN01",
-    "driver_name": "Andy Linden",
-    "url": "https://www.formula1.com/en/results/1957/drivers/ANDLIN01/andy-linden"
+    "driver_name": "Andy Linden"
   },
   {
     "driver_id": "BOBBAL01",
-    "driver_name": "Bobby Ball",
-    "url": "https://www.formula1.com/en/results/1951/drivers/BOBBAL01/bobby-ball"
+    "driver_name": "Bobby Ball"
   },
   {
     "driver_id": "CONSAN01",
-    "driver_name": "Consalvo Sanesi",
-    "url": "https://www.formula1.com/en/results/1951/drivers/CONSAN01/consalvo-sanesi"
+    "driver_name": "Consalvo Sanesi"
   },
   {
     "driver_id": "JACMCG01",
-    "driver_name": "Jack McGrath",
-    "url": "https://www.formula1.com/en/results/1954/drivers/JACMCG01/jack-mc-grath"
+    "driver_name": "Jack McGrath"
   },
   {
     "driver_id": "JOSGON01",
-    "driver_name": "Jose Froilan Gonzalez",
-    "url": "https://www.formula1.com/en/results/1957/drivers/JOSGON01/jose-froilan-gonzalez"
+    "driver_name": "Jose Froilan Gonzalez"
   },
   {
     "driver_id": "LEEWAL01",
-    "driver_name": "Lee Wallard",
-    "url": "https://www.formula1.com/en/results/1951/drivers/LEEWAL01/lee-wallard"
+    "driver_name": "Lee Wallard"
   },
   {
     "driver_id": "LUIVIL01",
-    "driver_name": "Luigi Villoresi",
-    "url": "https://www.formula1.com/en/results/1956/drivers/LUIVIL01/luigi-villoresi"
+    "driver_name": "Luigi Villoresi"
   },
   {
     "driver_id": "MANAYU01",
-    "driver_name": "Manny Ayulo",
-    "url": "https://www.formula1.com/en/results/1951/drivers/MANAYU01/manny-ayulo"
+    "driver_name": "Manny Ayulo"
   },
   {
     "driver_id": "MIKNAZ01",
-    "driver_name": "Mike Nazaruk",
-    "url": "https://www.formula1.com/en/results/1954/drivers/MIKNAZ01/mike-nazaruk"
+    "driver_name": "Mike Nazaruk"
   },
   {
     "driver_id": "PIETAR01",
-    "driver_name": "Piero Taruffi",
-    "url": "https://www.formula1.com/en/results/1955/drivers/PIETAR01/piero-taruffi"
+    "driver_name": "Piero Taruffi"
   },
   {
     "driver_id": "TOUDEG01",
-    "driver_name": "Toulo de Graffenried",
-    "url": "https://www.formula1.com/en/results/1953/drivers/TOUDEG01/toulo-de-graffenried"
+    "driver_name": "Toulo de Graffenried"
   },
   {
     "driver_id": "ALABRO01",
-    "driver_name": "Alan Brown",
-    "url": "https://www.formula1.com/en/results/1952/drivers/ALABRO01/alan-brown"
+    "driver_name": "Alan Brown"
   },
   {
     "driver_id": "ARTCRO01",
-    "driver_name": "Art Cross",
-    "url": "https://www.formula1.com/en/results/1953/drivers/ARTCRO01/art-cross"
+    "driver_name": "Art Cross"
   },
   {
     "driver_id": "BILVUK01",
-    "driver_name": "Bill Vukovich",
-    "url": "https://www.formula1.com/en/results/1955/drivers/BILVUK01/bill-vukovich"
+    "driver_name": "Bill Vukovich"
   },
   {
     "driver_id": "DENPOO01",
-    "driver_name": "Dennis Poore",
-    "url": "https://www.formula1.com/en/results/1952/drivers/DENPOO01/dennis-poore"
+    "driver_name": "Dennis Poore"
   },
   {
     "driver_id": "DUACAR01",
-    "driver_name": "Duane Carter",
-    "url": "https://www.formula1.com/en/results/1954/drivers/DUACAR01/duane-carter"
+    "driver_name": "Duane Carter"
   },
   {
     "driver_id": "ERITHO01",
-    "driver_name": "Eric Thompson",
-    "url": "https://www.formula1.com/en/results/1952/drivers/ERITHO01/eric-thompson"
+    "driver_name": "Eric Thompson"
   },
   {
     "driver_id": "JEABEH01",
-    "driver_name": "Jean Behra",
-    "url": "https://www.formula1.com/en/results/1959/drivers/JEABEH01/jean-behra"
+    "driver_name": "Jean Behra"
   },
   {
     "driver_id": "JIMRAT01",
-    "driver_name": "Jim Rathmann",
-    "url": "https://www.formula1.com/en/results/1960/drivers/JIMRAT01/jim-rathmann"
+    "driver_name": "Jim Rathmann"
   },
   {
     "driver_id": "KENWHA01",
-    "driver_name": "Ken Wharton",
-    "url": "https://www.formula1.com/en/results/1952/drivers/KENWHA01/ken-wharton"
+    "driver_name": "Ken Wharton"
   },
   {
     "driver_id": "MAUTRI01",
-    "driver_name": "Maurice Trintignant",
-    "url": "https://www.formula1.com/en/results/1964/drivers/MAUTRI01/maurice-trintignant"
+    "driver_name": "Maurice Trintignant"
   },
   {
     "driver_id": "MIKHAW01",
-    "driver_name": "Mike Hawthorn",
-    "url": "https://www.formula1.com/en/results/1958/drivers/MIKHAW01/mike-hawthorn"
+    "driver_name": "Mike Hawthorn"
   },
   {
     "driver_id": "PAUFRE01",
-    "driver_name": "Paul Frere",
-    "url": "https://www.formula1.com/en/results/1956/drivers/PAUFRE01/paul-frere"
+    "driver_name": "Paul Frere"
   },
   {
     "driver_id": "RUDFIS01",
-    "driver_name": "Rudi Fischer",
-    "url": "https://www.formula1.com/en/results/1952/drivers/RUDFIS01/rudi-fischer"
+    "driver_name": "Rudi Fischer"
   },
   {
     "driver_id": "SAMHAN01",
-    "driver_name": "Sam Hanks",
-    "url": "https://www.formula1.com/en/results/1957/drivers/SAMHAN01/sam-hanks"
+    "driver_name": "Sam Hanks"
   },
   {
     "driver_id": "TRORUT01",
-    "driver_name": "Troy Ruttman",
-    "url": "https://www.formula1.com/en/results/1954/drivers/TRORUT01/troy-ruttman"
+    "driver_name": "Troy Ruttman"
   },
   {
     "driver_id": "FREAGA01",
-    "driver_name": "Fred Agabashian",
-    "url": "https://www.formula1.com/en/results/1953/drivers/FREAGA01/fred-agabashian"
+    "driver_name": "Fred Agabashian"
   },
   {
     "driver_id": "HERLAN01",
-    "driver_name": "Hermann Lang",
-    "url": "https://www.formula1.com/en/results/1953/drivers/HERLAN01/hermann-lang"
+    "driver_name": "Hermann Lang"
   },
   {
     "driver_id": "ONOMAR01",
-    "driver_name": "Onofre Marimon",
-    "url": "https://www.formula1.com/en/results/1954/drivers/ONOMAR01/onofre-marimon"
+    "driver_name": "Onofre Marimon"
   },
   {
     "driver_id": "OSCGAL01",
-    "driver_name": "Oscar Alfredo Galvez",
-    "url": "https://www.formula1.com/en/results/1953/drivers/OSCGAL01/oscar-alfredo-galvez"
+    "driver_name": "Oscar Alfredo Galvez"
   },
   {
     "driver_id": "PAURUS01",
-    "driver_name": "Paul Russo",
-    "url": "https://www.formula1.com/en/results/1957/drivers/PAURUS01/paul-russo"
+    "driver_name": "Paul Russo"
   },
   {
     "driver_id": "ANDPIL01",
-    "driver_name": "Andre Pilette",
-    "url": "https://www.formula1.com/en/results/1954/drivers/ANDPIL01/andre-pilette"
+    "driver_name": "Andre Pilette"
   },
   {
     "driver_id": "ELIBAY01",
-    "driver_name": "Elie Bayol",
-    "url": "https://www.formula1.com/en/results/1954/drivers/ELIBAY01/elie-bayol"
+    "driver_name": "Elie Bayol"
   },
   {
     "driver_id": "HANHER01",
-    "driver_name": "Hans Herrmann",
-    "url": "https://www.formula1.com/en/results/1960/drivers/HANHER01/hans-herrmann"
+    "driver_name": "Hans Herrmann"
   },
   {
     "driver_id": "JIMBRY01",
-    "driver_name": "Jimmy Bryan",
-    "url": "https://www.formula1.com/en/results/1958/drivers/JIMBRY01/jimmy-bryan"
+    "driver_name": "Jimmy Bryan"
   },
   {
     "driver_id": "KARKLI01",
-    "driver_name": "Karl Kling",
-    "url": "https://www.formula1.com/en/results/1955/drivers/KARKLI01/karl-kling"
+    "driver_name": "Karl Kling"
   },
   {
     "driver_id": "LUIMUS01",
-    "driver_name": "Luigi Musso",
-    "url": "https://www.formula1.com/en/results/1958/drivers/LUIMUS01/luigi-musso"
+    "driver_name": "Luigi Musso"
   },
   {
     "driver_id": "ROBMIE01",
-    "driver_name": "Roberto Mieres",
-    "url": "https://www.formula1.com/en/results/1955/drivers/ROBMIE01/roberto-mieres"
+    "driver_name": "Roberto Mieres"
   },
   {
     "driver_id": "SERMAN01",
-    "driver_name": "Sergio Mantovani",
-    "url": "https://www.formula1.com/en/results/1954/drivers/SERMAN01/sergio-mantovani"
+    "driver_name": "Sergio Mantovani"
   },
   {
     "driver_id": "STIMOS01",
-    "driver_name": "Stirling Moss",
-    "url": "https://www.formula1.com/en/results/1961/drivers/STIMOS01/stirling-moss"
+    "driver_name": "Stirling Moss"
   },
   {
     "driver_id": "UMBMAG01",
-    "driver_name": "Umberto Maglioli",
-    "url": "https://www.formula1.com/en/results/1955/drivers/UMBMAG01/umberto-maglioli"
+    "driver_name": "Umberto Maglioli"
   },
   {
     "driver_id": "BILHOM01",
-    "driver_name": "Bill Homeier",
-    "url": "https://www.formula1.com/en/results/1955/drivers/BILHOM01/bill-homeier"
+    "driver_name": "Bill Homeier"
   },
   {
     "driver_id": "BOBSWE01",
-    "driver_name": "Bob Sweikert",
-    "url": "https://www.formula1.com/en/results/1955/drivers/BOBSWE01/bob-sweikert"
+    "driver_name": "Bob Sweikert"
   },
   {
     "driver_id": "CARMEN01",
-    "driver_name": "Carlos Menditeguy",
-    "url": "https://www.formula1.com/en/results/1960/drivers/CARMEN01/carlos-menditeguy"
+    "driver_name": "Carlos Menditeguy"
   },
   {
     "driver_id": "CESPER01",
-    "driver_name": "Cesare Perdisa",
-    "url": "https://www.formula1.com/en/results/1956/drivers/CESPER01/cesare-perdisa"
+    "driver_name": "Cesare Perdisa"
   },
   {
     "driver_id": "EUGCAS01",
-    "driver_name": "Eugenio Castellotti",
-    "url": "https://www.formula1.com/en/results/1956/drivers/EUGCAS01/eugenio-castellotti"
+    "driver_name": "Eugenio Castellotti"
   },
   {
     "driver_id": "JIMDAV01",
-    "driver_name": "Jimmy Davies",
-    "url": "https://www.formula1.com/en/results/1955/drivers/JIMDAV01/jimmy-davies"
+    "driver_name": "Jimmy Davies"
   },
   {
     "driver_id": "JOHTHO01",
-    "driver_name": "Johnny Thomson",
-    "url": "https://www.formula1.com/en/results/1960/drivers/JOHTHO01/johnny-thomson"
+    "driver_name": "Johnny Thomson"
   },
   {
     "driver_id": "WALFAU01",
-    "driver_name": "Walt Faulkner",
-    "url": "https://www.formula1.com/en/results/1955/drivers/WALFAU01/walt-faulkner"
+    "driver_name": "Walt Faulkner"
   },
   {
     "driver_id": "ALFDEP01",
-    "driver_name": "Alfonso de Portago",
-    "url": "https://www.formula1.com/en/results/1957/drivers/ALFDEP01/alfonso-de-portago"
+    "driver_name": "Alfonso de Portago"
   },
   {
     "driver_id": "CHILAN01",
-    "driver_name": "Chico Landi",
-    "url": "https://www.formula1.com/en/results/1956/drivers/CHILAN01/chico-landi"
+    "driver_name": "Chico Landi"
   },
   {
     "driver_id": "DICRAT01",
-    "driver_name": "Dick Rathmann",
-    "url": "https://www.formula1.com/en/results/1956/drivers/DICRAT01/dick-rathmann"
+    "driver_name": "Dick Rathmann"
   },
   {
     "driver_id": "DONFRE01",
-    "driver_name": "Don Freeland",
-    "url": "https://www.formula1.com/en/results/1956/drivers/DONFRE01/don-freeland"
+    "driver_name": "Don Freeland"
   },
   {
     "driver_id": "GERGER01",
-    "driver_name": "Gerino Gerini",
-    "url": "https://www.formula1.com/en/results/1956/drivers/GERGER01/gerino-gerini"
+    "driver_name": "Gerino Gerini"
   },
   {
     "driver_id": "HARSCH01",
-    "driver_name": "Harry Schell",
-    "url": "https://www.formula1.com/en/results/1959/drivers/HARSCH01/harry-schell"
+    "driver_name": "Harry Schell"
   },
   {
     "driver_id": "HERDAS01",
-    "driver_name": "Hermano da Silva Ramos",
-    "url": "https://www.formula1.com/en/results/1956/drivers/HERDAS01/hermano-da-silva-ramos"
+    "driver_name": "Hermano da Silva Ramos"
   },
   {
     "driver_id": "HORGOU01",
-    "driver_name": "Horace Gould",
-    "url": "https://www.formula1.com/en/results/1956/drivers/HORGOU01/horace-gould"
+    "driver_name": "Horace Gould"
   },
   {
     "driver_id": "JACFAI01",
-    "driver_name": "Jack Fairman",
-    "url": "https://www.formula1.com/en/results/1956/drivers/JACFAI01/jack-fairman"
+    "driver_name": "Jack Fairman"
   },
   {
     "driver_id": "OLIGEN01",
-    "driver_name": "Olivier Gendebien",
-    "url": "https://www.formula1.com/en/results/1961/drivers/OLIGEN01/olivier-gendebien"
+    "driver_name": "Olivier Gendebien"
   },
   {
     "driver_id": "PACGOD01",
-    "driver_name": "Paco Godia",
-    "url": "https://www.formula1.com/en/results/1956/drivers/PACGOD01/paco-godia"
+    "driver_name": "Paco Godia"
   },
   {
     "driver_id": "PATFLA01",
-    "driver_name": "Pat Flaherty",
-    "url": "https://www.formula1.com/en/results/1956/drivers/PATFLA01/pat-flaherty"
+    "driver_name": "Pat Flaherty"
   },
   {
     "driver_id": "PETCOL01",
-    "driver_name": "Peter Collins",
-    "url": "https://www.formula1.com/en/results/1958/drivers/PETCOL01/peter-collins"
+    "driver_name": "Peter Collins"
   },
   {
     "driver_id": "RONFLO01",
-    "driver_name": "Ron Flockhart",
-    "url": "https://www.formula1.com/en/results/1960/drivers/RONFLO01/ron-flockhart"
+    "driver_name": "Ron Flockhart"
   },
   {
     "driver_id": "GIOSCA01",
-    "driver_name": "Giorgio Scarlatti",
-    "url": "https://www.formula1.com/en/results/1957/drivers/GIOSCA01/giorgio-scarlatti"
+    "driver_name": "Giorgio Scarlatti"
   },
   {
     "driver_id": "MASGRE01",
-    "driver_name": "Masten Gregory",
-    "url": "https://www.formula1.com/en/results/1962/drivers/MASGRE01/masten-gregory"
+    "driver_name": "Masten Gregory"
   },
   {
     "driver_id": "ROYSAL01",
-    "driver_name": "Roy Salvadori",
-    "url": "https://www.formula1.com/en/results/1961/drivers/ROYSAL01/roy-salvadori"
+    "driver_name": "Roy Salvadori"
   },
   {
     "driver_id": "STULEW01",
-    "driver_name": "Stuart Lewis-Evans",
-    "url": "https://www.formula1.com/en/results/1958/drivers/STULEW01/stuart-lewis-evans"
+    "driver_name": "Stuart Lewis-Evans"
   },
   {
     "driver_id": "TONBRO01",
-    "driver_name": "Tony Brooks",
-    "url": "https://www.formula1.com/en/results/1961/drivers/TONBRO01/tony-brooks"
+    "driver_name": "Tony Brooks"
   },
   {
     "driver_id": "WOLVON01",
-    "driver_name": "Wolfgang von Trips",
-    "url": "https://www.formula1.com/en/results/1961/drivers/WOLVON01/wolfgang-von-trips"
+    "driver_name": "Wolfgang von Trips"
   },
   {
     "driver_id": "CLIALL01",
-    "driver_name": "Cliff Allison",
-    "url": "https://www.formula1.com/en/results/1960/drivers/CLIALL01/cliff-allison"
+    "driver_name": "Cliff Allison"
   },
   {
     "driver_id": "GEOAMI01",
-    "driver_name": "George Amick",
-    "url": "https://www.formula1.com/en/results/1958/drivers/GEOAMI01/george-amick"
+    "driver_name": "George Amick"
   },
   {
     "driver_id": "JACBRA01",
-    "driver_name": "Jack Brabham",
-    "url": "https://www.formula1.com/en/results/1970/drivers/JACBRA01/jack-brabham"
+    "driver_name": "Jack Brabham"
   },
   {
     "driver_id": "JOHBOY01",
-    "driver_name": "Johnny Boyd",
-    "url": "https://www.formula1.com/en/results/1958/drivers/JOHBOY01/johnny-boyd"
+    "driver_name": "Johnny Boyd"
   },
   {
     "driver_id": "JOOBON01",
-    "driver_name": "Jo Bonnier",
-    "url": "https://www.formula1.com/en/results/1968/drivers/JOOBON01/jo-bonnier"
+    "driver_name": "Jo Bonnier"
   },
   {
     "driver_id": "PHIHIL01",
-    "driver_name": "Phil Hill",
-    "url": "https://www.formula1.com/en/results/1964/drivers/PHIHIL01/phil-hill"
+    "driver_name": "Phil Hill"
   },
   {
     "driver_id": "BRUMCL01",
-    "driver_name": "Bruce McLaren",
-    "url": "https://www.formula1.com/en/results/1970/drivers/BRUMCL01/bruce-mc-laren"
+    "driver_name": "Bruce McLaren"
   },
   {
     "driver_id": "DANGUR01",
-    "driver_name": "Dan Gurney",
-    "url": "https://www.formula1.com/en/results/1970/drivers/DANGUR01/dan-gurney"
+    "driver_name": "Dan Gurney"
   },
   {
     "driver_id": "INNIRE01",
-    "driver_name": "Innes Ireland",
-    "url": "https://www.formula1.com/en/results/1964/drivers/INNIRE01/innes-ireland"
+    "driver_name": "Innes Ireland"
   },
   {
     "driver_id": "PAUGOL01",
-    "driver_name": "Paul Goldsmith",
-    "url": "https://www.formula1.com/en/results/1960/drivers/PAUGOL01/paul-goldsmith"
+    "driver_name": "Paul Goldsmith"
   },
   {
     "driver_id": "RODWAR01",
-    "driver_name": "Rodger Ward",
-    "url": "https://www.formula1.com/en/results/1960/drivers/RODWAR01/rodger-ward"
+    "driver_name": "Rodger Ward"
   },
   {
     "driver_id": "DONBRA01",
-    "driver_name": "Don Branson",
-    "url": "https://www.formula1.com/en/results/1960/drivers/DONBRA01/don-branson"
+    "driver_name": "Don Branson"
   },
   {
     "driver_id": "EDDJOH01",
-    "driver_name": "Eddie Johnson",
-    "url": "https://www.formula1.com/en/results/1960/drivers/EDDJOH01/eddie-johnson"
+    "driver_name": "Eddie Johnson"
   },
   {
     "driver_id": "GIUCAB01",
-    "driver_name": "Giulio Cabianca",
-    "url": "https://www.formula1.com/en/results/1960/drivers/GIUCAB01/giulio-cabianca"
+    "driver_name": "Giulio Cabianca"
   },
   {
     "driver_id": "GRAHIL01",
-    "driver_name": "Graham Hill",
-    "url": "https://www.formula1.com/en/results/1974/drivers/GRAHIL01/graham-hill"
+    "driver_name": "Graham Hill"
   },
   {
     "driver_id": "HENTAY01",
-    "driver_name": "Henry Taylor",
-    "url": "https://www.formula1.com/en/results/1960/drivers/HENTAY01/henry-taylor"
+    "driver_name": "Henry Taylor"
   },
   {
     "driver_id": "JIMCLA01",
-    "driver_name": "Jim Clark",
-    "url": "https://www.formula1.com/en/results/1968/drivers/JIMCLA01/jim-clark"
+    "driver_name": "Jim Clark"
   },
   {
     "driver_id": "JOHSUR01",
-    "driver_name": "John Surtees",
-    "url": "https://www.formula1.com/en/results/1971/drivers/JOHSUR01/john-surtees"
+    "driver_name": "John Surtees"
   },
   {
     "driver_id": "LUCBIA01",
-    "driver_name": "Lucien Bianchi",
-    "url": "https://www.formula1.com/en/results/1968/drivers/LUCBIA01/lucien-bianchi"
+    "driver_name": "Lucien Bianchi"
   },
   {
     "driver_id": "RICGIN01",
-    "driver_name": "Richie Ginther",
-    "url": "https://www.formula1.com/en/results/1966/drivers/RICGIN01/richie-ginther"
+    "driver_name": "Richie Ginther"
   },
   {
     "driver_id": "WILMAI01",
-    "driver_name": "Willy Mairesse",
-    "url": "https://www.formula1.com/en/results/1962/drivers/WILMAI01/willy-mairesse"
+    "driver_name": "Willy Mairesse"
   },
   {
     "driver_id": "GIABAG01",
-    "driver_name": "Giancarlo Baghetti",
-    "url": "https://www.formula1.com/en/results/1962/drivers/GIABAG01/giancarlo-baghetti"
+    "driver_name": "Giancarlo Baghetti"
   },
   {
     "driver_id": "JACLEW01",
-    "driver_name": "Jackie Lewis",
-    "url": "https://www.formula1.com/en/results/1961/drivers/JACLEW01/jackie-lewis"
+    "driver_name": "Jackie Lewis"
   },
   {
     "driver_id": "CARDEB01",
-    "driver_name": "Carel Godin de Beaufort",
-    "url": "https://www.formula1.com/en/results/1963/drivers/CARDEB01/carel-godin-de-beaufort"
+    "driver_name": "Carel Godin de Beaufort"
   },
   {
     "driver_id": "LORBAN01",
-    "driver_name": "Lorenzo Bandini",
-    "url": "https://www.formula1.com/en/results/1966/drivers/LORBAN01/lorenzo-bandini"
+    "driver_name": "Lorenzo Bandini"
   },
   {
     "driver_id": "NEVLED01",
-    "driver_name": "Neville Lederle",
-    "url": "https://www.formula1.com/en/results/1962/drivers/NEVLED01/neville-lederle"
+    "driver_name": "Neville Lederle"
   },
   {
     "driver_id": "RICROD01",
-    "driver_name": "Ricardo Rodriguez",
-    "url": "https://www.formula1.com/en/results/1962/drivers/RICROD01/ricardo-rodriguez"
+    "driver_name": "Ricardo Rodriguez"
   },
   {
     "driver_id": "TONMAG01",
-    "driver_name": "Tony Maggs",
-    "url": "https://www.formula1.com/en/results/1964/drivers/TONMAG01/tony-maggs"
+    "driver_name": "Tony Maggs"
   },
   {
     "driver_id": "TRETAY01",
-    "driver_name": "Trevor Taylor",
-    "url": "https://www.formula1.com/en/results/1964/drivers/TRETAY01/trevor-taylor"
+    "driver_name": "Trevor Taylor"
   },
   {
     "driver_id": "GERMIT01",
-    "driver_name": "Gerhard Mitter",
-    "url": "https://www.formula1.com/en/results/1963/drivers/GERMIT01/gerhard-mitter"
+    "driver_name": "Gerhard Mitter"
   },
   {
     "driver_id": "JIMHAL01",
-    "driver_name": "Jim Hall",
-    "url": "https://www.formula1.com/en/results/1963/drivers/JIMHAL01/jim-hall"
+    "driver_name": "Jim Hall"
   },
   {
     "driver_id": "JOOSIF01",
-    "driver_name": "Jo Siffert",
-    "url": "https://www.formula1.com/en/results/1971/drivers/JOOSIF01/jo-siffert"
+    "driver_name": "Jo Siffert"
   },
   {
     "driver_id": "LUDSCA01",
-    "driver_name": "Ludovico Scarfiotti",
-    "url": "https://www.formula1.com/en/results/1968/drivers/LUDSCA01/ludovico-scarfiotti"
+    "driver_name": "Ludovico Scarfiotti"
   },
   {
     "driver_id": "BOBAND01",
-    "driver_name": "Bob Anderson",
-    "url": "https://www.formula1.com/en/results/1967/drivers/BOBAND01/bob-anderson"
+    "driver_name": "Bob Anderson"
   },
   {
     "driver_id": "CHRAMO01",
-    "driver_name": "Chris Amon",
-    "url": "https://www.formula1.com/en/results/1976/drivers/CHRAMO01/chris-amon"
+    "driver_name": "Chris Amon"
   },
   {
     "driver_id": "MIKHAI01",
-    "driver_name": "Mike Hailwood",
-    "url": "https://www.formula1.com/en/results/1974/drivers/MIKHAI01/mike-hailwood"
+    "driver_name": "Mike Hailwood"
   },
   {
     "driver_id": "MIKSPE01",
-    "driver_name": "Mike Spence",
-    "url": "https://www.formula1.com/en/results/1967/drivers/MIKSPE01/mike-spence"
+    "driver_name": "Mike Spence"
   },
   {
     "driver_id": "PEDROD01",
-    "driver_name": "Pedro Rodriguez",
-    "url": "https://www.formula1.com/en/results/1971/drivers/PEDROD01/pedro-rodriguez"
+    "driver_name": "Pedro Rodriguez"
   },
   {
     "driver_id": "PETARU01",
-    "driver_name": "Peter Arundell",
-    "url": "https://www.formula1.com/en/results/1966/drivers/PETARU01/peter-arundell"
+    "driver_name": "Peter Arundell"
   },
   {
     "driver_id": "WALHAN01",
-    "driver_name": "Walt Hansgen",
-    "url": "https://www.formula1.com/en/results/1964/drivers/WALHAN01/walt-hansgen"
+    "driver_name": "Walt Hansgen"
   },
   {
     "driver_id": "DENHUL01",
-    "driver_name": "Denny Hulme",
-    "url": "https://www.formula1.com/en/results/1974/drivers/DENHUL01/denny-hulme"
+    "driver_name": "Denny Hulme"
   },
   {
     "driver_id": "JACSTE01",
-    "driver_name": "Jackie Stewart",
-    "url": "https://www.formula1.com/en/results/1973/drivers/JACSTE01/jackie-stewart"
+    "driver_name": "Jackie Stewart"
   },
   {
     "driver_id": "JOCRIN01",
-    "driver_name": "Jochen Rindt",
-    "url": "https://www.formula1.com/en/results/1970/drivers/JOCRIN01/jochen-rindt"
+    "driver_name": "Jochen Rindt"
   },
   {
     "driver_id": "RICATT01",
-    "driver_name": "Richard Attwood",
-    "url": "https://www.formula1.com/en/results/1969/drivers/RICATT01/richard-attwood"
+    "driver_name": "Richard Attwood"
   },
   {
     "driver_id": "RONBUC01",
-    "driver_name": "Ronnie Bucknum",
-    "url": "https://www.formula1.com/en/results/1965/drivers/RONBUC01/ronnie-bucknum"
+    "driver_name": "Ronnie Bucknum"
   },
   {
     "driver_id": "BOBBON01",
-    "driver_name": "Bob Bondurant",
-    "url": "https://www.formula1.com/en/results/1966/drivers/BOBBON01/bob-bondurant"
+    "driver_name": "Bob Bondurant"
   },
   {
     "driver_id": "JOHTAY01",
-    "driver_name": "John Taylor",
-    "url": "https://www.formula1.com/en/results/1966/drivers/JOHTAY01/john-taylor"
+    "driver_name": "John Taylor"
   },
   {
     "driver_id": "MIKPAR01",
-    "driver_name": "Mike Parkes",
-    "url": "https://www.formula1.com/en/results/1967/drivers/MIKPAR01/mike-parkes"
+    "driver_name": "Mike Parkes"
   },
   {
     "driver_id": "CHRIRW01",
-    "driver_name": "Chris Irwin",
-    "url": "https://www.formula1.com/en/results/1967/drivers/CHRIRW01/chris-irwin"
+    "driver_name": "Chris Irwin"
   },
   {
     "driver_id": "GUYLIG01",
-    "driver_name": "Guy Ligier",
-    "url": "https://www.formula1.com/en/results/1967/drivers/GUYLIG01/guy-ligier"
+    "driver_name": "Guy Ligier"
   },
   {
     "driver_id": "JACICK01",
-    "driver_name": "Jacky Ickx",
-    "url": "https://www.formula1.com/en/results/1979/drivers/JACICK01/jacky-ickx"
+    "driver_name": "Jacky Ickx"
   },
   {
     "driver_id": "JOHLOV01",
-    "driver_name": "John Love",
-    "url": "https://www.formula1.com/en/results/1967/drivers/JOHLOV01/john-love"
+    "driver_name": "John Love"
   },
   {
     "driver_id": "BRIRED01",
-    "driver_name": "Brian Redman",
-    "url": "https://www.formula1.com/en/results/1972/drivers/BRIRED01/brian-redman"
+    "driver_name": "Brian Redman"
   },
   {
     "driver_id": "JACOLI01",
-    "driver_name": "Jackie Oliver",
-    "url": "https://www.formula1.com/en/results/1973/drivers/JACOLI01/jackie-oliver"
+    "driver_name": "Jackie Oliver"
   },
   {
     "driver_id": "JEABEL01",
-    "driver_name": "Jean-Pierre Beltoise",
-    "url": "https://www.formula1.com/en/results/1974/drivers/JEABEL01/jean-pierre-beltoise"
+    "driver_name": "Jean-Pierre Beltoise"
   },
   {
     "driver_id": "JOHSER01",
-    "driver_name": "Johnny Servoz-Gavin",
-    "url": "https://www.formula1.com/en/results/1970/drivers/JOHSER01/johnny-servoz-gavin"
+    "driver_name": "Johnny Servoz-Gavin"
   },
   {
     "driver_id": "PIECOU01",
-    "driver_name": "Piers Courage",
-    "url": "https://www.formula1.com/en/results/1969/drivers/PIECOU01/piers-courage"
+    "driver_name": "Piers Courage"
   },
   {
     "driver_id": "SILMOS01",
-    "driver_name": "Silvio Moser",
-    "url": "https://www.formula1.com/en/results/1969/drivers/SILMOS01/silvio-moser"
+    "driver_name": "Silvio Moser"
   },
   {
     "driver_id": "VICELF01",
-    "driver_name": "Vic Elford",
-    "url": "https://www.formula1.com/en/results/1969/drivers/VICELF01/vic-elford"
+    "driver_name": "Vic Elford"
   },
   {
     "driver_id": "CLAREG01",
-    "driver_name": "Clay Regazzoni",
-    "url": "https://www.formula1.com/en/results/1979/drivers/CLAREG01/clay-regazzoni"
+    "driver_name": "Clay Regazzoni"
   },
   {
     "driver_id": "DERBEL01",
-    "driver_name": "Derek Bell",
-    "url": "https://www.formula1.com/en/results/1970/drivers/DERBEL01/derek-bell"
+    "driver_name": "Derek Bell"
   },
   {
     "driver_id": "EMEFIT01",
-    "driver_name": "Emerson Fittipaldi",
-    "url": "https://www.formula1.com/en/results/1980/drivers/EMEFIT01/emerson-fittipaldi"
+    "driver_name": "Emerson Fittipaldi"
   },
   {
     "driver_id": "FRACEV01",
-    "driver_name": "Francois Cevert",
-    "url": "https://www.formula1.com/en/results/1973/drivers/FRACEV01/francois-cevert"
+    "driver_name": "Francois Cevert"
   },
   {
     "driver_id": "HENPES01",
-    "driver_name": "Henri Pescarolo",
-    "url": "https://www.formula1.com/en/results/1971/drivers/HENPES01/henri-pescarolo"
+    "driver_name": "Henri Pescarolo"
   },
   {
     "driver_id": "IGNGIU01",
-    "driver_name": "Ignazio Giunti",
-    "url": "https://www.formula1.com/en/results/1970/drivers/IGNGIU01/ignazio-giunti"
+    "driver_name": "Ignazio Giunti"
   },
   {
     "driver_id": "JOHMIL01",
-    "driver_name": "John Miles",
-    "url": "https://www.formula1.com/en/results/1970/drivers/JOHMIL01/john-miles"
+    "driver_name": "John Miles"
   },
   {
     "driver_id": "MARAND01",
-    "driver_name": "Mario Andretti",
-    "url": "https://www.formula1.com/en/results/1982/drivers/MARAND01/mario-andretti"
+    "driver_name": "Mario Andretti"
   },
   {
     "driver_id": "PETGET01",
-    "driver_name": "Peter Gethin",
-    "url": "https://www.formula1.com/en/results/1972/drivers/PETGET01/peter-gethin"
+    "driver_name": "Peter Gethin"
   },
   {
     "driver_id": "REIWIS01",
-    "driver_name": "Reine Wisell",
-    "url": "https://www.formula1.com/en/results/1971/drivers/REIWIS01/reine-wisell"
+    "driver_name": "Reine Wisell"
   },
   {
     "driver_id": "ROLSTO01",
-    "driver_name": "Rolf Stommelen",
-    "url": "https://www.formula1.com/en/results/1976/drivers/ROLSTO01/rolf-stommelen"
+    "driver_name": "Rolf Stommelen"
   },
   {
     "driver_id": "HOWGAN01",
-    "driver_name": "Howden Ganley",
-    "url": "https://www.formula1.com/en/results/1973/drivers/HOWGAN01/howden-ganley"
+    "driver_name": "Howden Ganley"
   },
   {
     "driver_id": "MARDON01",
-    "driver_name": "Mark Donohue",
-    "url": "https://www.formula1.com/en/results/1975/drivers/MARDON01/mark-donohue"
+    "driver_name": "Martin Donnelly"
   },
   {
     "driver_id": "RONPET01",
-    "driver_name": "Ronnie Peterson",
-    "url": "https://www.formula1.com/en/results/1978/drivers/RONPET01/ronnie-peterson"
+    "driver_name": "Ronnie Peterson"
   },
   {
     "driver_id": "TIMSCH01",
-    "driver_name": "Tim Schenken",
-    "url": "https://www.formula1.com/en/results/1972/drivers/TIMSCH01/tim-schenken"
+    "driver_name": "Tim Schenken"
   },
   {
     "driver_id": "ANDDEA01",
-    "driver_name": "Andrea de Adamich",
-    "url": "https://www.formula1.com/en/results/1973/drivers/ANDDEA01/andrea-de-adamich"
+    "driver_name": "Andrea de Adamich"
   },
   {
     "driver_id": "ARTMER01",
-    "driver_name": "Arturo Merzario",
-    "url": "https://www.formula1.com/en/results/1974/drivers/ARTMER01/arturo-merzario"
+    "driver_name": "Arturo Merzario"
   },
   {
     "driver_id": "CARPAC01",
-    "driver_name": "Carlos Pace",
-    "url": "https://www.formula1.com/en/results/1977/drivers/CARPAC01/carlos-pace"
+    "driver_name": "Carlos Pace"
   },
   {
     "driver_id": "CARREU01",
-    "driver_name": "Carlos Reutemann",
-    "url": "https://www.formula1.com/en/results/1982/drivers/CARREU01/carlos-reutemann"
+    "driver_name": "Carlos Reutemann"
   },
   {
     "driver_id": "PETREV01",
-    "driver_name": "Peter Revson",
-    "url": "https://www.formula1.com/en/results/1973/drivers/PETREV01/peter-revson"
+    "driver_name": "Peter Revson"
   },
   {
     "driver_id": "GEOFOL01",
-    "driver_name": "George Follmer",
-    "url": "https://www.formula1.com/en/results/1973/drivers/GEOFOL01/george-follmer"
+    "driver_name": "George Follmer"
   },
   {
     "driver_id": "GIJLEN01",
-    "driver_name": "Gijs van Lennep",
-    "url": "https://www.formula1.com/en/results/1975/drivers/GIJLEN01/gijs-van-lennep"
+    "driver_name": "Gijs van Lennep"
   },
   {
     "driver_id": "JAMHUN01",
-    "driver_name": "James Hunt",
-    "url": "https://www.formula1.com/en/results/1978/drivers/JAMHUN01/james-hunt"
+    "driver_name": "James Hunt"
   },
   {
     "driver_id": "NIKLAU01",
-    "driver_name": "Niki Lauda",
-    "url": "https://www.formula1.com/en/results/1985/drivers/NIKLAU01/niki-lauda"
+    "driver_name": "Niki Lauda"
   },
   {
     "driver_id": "WILFIT01",
-    "driver_name": "Wilson Fittipaldi",
-    "url": "https://www.formula1.com/en/results/1973/drivers/WILFIT01/wilson-fittipaldi"
+    "driver_name": "Wilson Fittipaldi"
   },
   {
     "driver_id": "HANSTU02",
-    "driver_name": "Hans-Joachim Stuck",
-    "url": "https://www.formula1.com/en/results/1979/drivers/HANSTU02/hans-joachim-stuck"
+    "driver_name": "Hans-Joachim Stuck"
   },
   {
     "driver_id": "JEAJAR01",
-    "driver_name": "Jean-Pierre Jarier",
-    "url": "https://www.formula1.com/en/results/1982/drivers/JEAJAR01/jean-pierre-jarier"
+    "driver_name": "Jean-Pierre Jarier"
   },
   {
     "driver_id": "JODSCH01",
-    "driver_name": "Jody Scheckter",
-    "url": "https://www.formula1.com/en/results/1980/drivers/JODSCH01/jody-scheckter"
+    "driver_name": "Jody Scheckter"
   },
   {
     "driver_id": "JOHWAT01",
-    "driver_name": "John Watson",
-    "url": "https://www.formula1.com/en/results/1983/drivers/JOHWAT01/john-watson"
+    "driver_name": "John Watson"
   },
   {
     "driver_id": "PATDEP01",
-    "driver_name": "Patrick Depailler",
-    "url": "https://www.formula1.com/en/results/1979/drivers/PATDEP01/patrick-depailler"
+    "driver_name": "Patrick Depailler"
   },
   {
     "driver_id": "TOMPRY01",
-    "driver_name": "Tom Pryce",
-    "url": "https://www.formula1.com/en/results/1976/drivers/TOMPRY01/tom-pryce"
+    "driver_name": "Tom Pryce"
   },
   {
     "driver_id": "VITBRA01",
-    "driver_name": "Vittorio Brambilla",
-    "url": "https://www.formula1.com/en/results/1978/drivers/VITBRA01/vittorio-brambilla"
+    "driver_name": "Vittorio Brambilla"
   },
   {
     "driver_id": "ALAJON01",
-    "driver_name": "Alan Jones",
-    "url": "https://www.formula1.com/en/results/1986/drivers/ALAJON01/alan-jones"
+    "driver_name": "Alan Jones"
   },
   {
     "driver_id": "JACLAF01",
-    "driver_name": "Jacques Laffite",
-    "url": "https://www.formula1.com/en/results/1986/drivers/JACLAF01/jacques-laffite"
+    "driver_name": "Jacques Laffite"
   },
   {
     "driver_id": "JOCMAS01",
-    "driver_name": "Jochen Mass",
-    "url": "https://www.formula1.com/en/results/1980/drivers/JOCMAS01/jochen-mass"
+    "driver_name": "Jochen Mass"
   },
   {
     "driver_id": "LELLOM01",
-    "driver_name": "Lella Lombardi",
-    "url": "https://www.formula1.com/en/results/1975/drivers/LELLOM01/lella-lombardi"
+    "driver_name": "Lella Lombardi"
   },
   {
     "driver_id": "TONBRI01",
-    "driver_name": "Tony Brise",
-    "url": "https://www.formula1.com/en/results/1975/drivers/TONBRI01/tony-brise"
+    "driver_name": "Tony Brise"
   },
   {
     "driver_id": "GUNNIL01",
-    "driver_name": "Gunnar Nilsson",
-    "url": "https://www.formula1.com/en/results/1977/drivers/GUNNIL01/gunnar-nilsson"
+    "driver_name": "Gunnar Nilsson"
   },
   {
     "driver_id": "PATTAM01",
-    "driver_name": "Patrick Tambay",
-    "url": "https://www.formula1.com/en/results/1986/drivers/PATTAM01/patrick-tambay"
+    "driver_name": "Patrick Tambay"
   },
   {
     "driver_id": "RENZOR01",
-    "driver_name": "Renzo Zorzi",
-    "url": "https://www.formula1.com/en/results/1977/drivers/RENZOR01/renzo-zorzi"
+    "driver_name": "Renzo Zorzi"
   },
   {
     "driver_id": "RICPAT01",
-    "driver_name": "Riccardo Patrese",
-    "url": "https://www.formula1.com/en/results/1993/drivers/RICPAT01/riccardo-patrese"
+    "driver_name": "Riccardo Patrese"
   },
   {
     "driver_id": "DERDAL01",
-    "driver_name": "Derek Daly",
-    "url": "https://www.formula1.com/en/results/1982/drivers/DERDAL01/derek-daly"
+    "driver_name": "Derek Daly"
   },
   {
     "driver_id": "DIDPIR01",
-    "driver_name": "Didier Pironi",
-    "url": "https://www.formula1.com/en/results/1982/drivers/DIDPIR01/didier-pironi"
+    "driver_name": "Didier Pironi"
   },
   {
     "driver_id": "GILVIL01",
-    "driver_name": "Gilles Villeneuve",
-    "url": "https://www.formula1.com/en/results/1982/drivers/GILVIL01/gilles-villeneuve"
+    "driver_name": "Gilles Villeneuve"
   },
   {
     "driver_id": "HECREB01",
-    "driver_name": "Hector Rebaque",
-    "url": "https://www.formula1.com/en/results/1981/drivers/HECREB01/hector-rebaque"
+    "driver_name": "Hector Rebaque"
   },
   {
     "driver_id": "JEAJAB01",
-    "driver_name": "Jean-Pierre Jabouille",
-    "url": "https://www.formula1.com/en/results/1980/drivers/JEAJAB01/jean-pierre-jabouille"
+    "driver_name": "Jean-Pierre Jabouille"
   },
   {
     "driver_id": "ELIDEA01",
-    "driver_name": "Elio de Angelis",
-    "url": "https://www.formula1.com/en/results/1985/drivers/ELIDEA01/elio-de-angelis"
+    "driver_name": "Elio de Angelis"
   },
   {
     "driver_id": "NELPIQ01",
-    "driver_name": "Nelson Piquet",
-    "url": "https://www.formula1.com/en/results/1991/drivers/NELPIQ01/nelson-piquet"
+    "driver_name": "Nelson Piquet"
   },
   {
     "driver_id": "RENARN01",
-    "driver_name": "Rene Arnoux",
-    "url": "https://www.formula1.com/en/results/1989/drivers/RENARN01/rene-arnoux"
+    "driver_name": "Rene Arnoux"
   },
   {
     "driver_id": "ALAPRO01",
-    "driver_name": "Alain Prost",
-    "url": "https://www.formula1.com/en/results/1993/drivers/ALAPRO01/alain-prost"
+    "driver_name": "Alain Prost"
   },
   {
     "driver_id": "BRUGIA01",
-    "driver_name": "Bruno Giacomelli",
-    "url": "https://www.formula1.com/en/results/1983/drivers/BRUGIA01/bruno-giacomelli"
+    "driver_name": "Bruno Giacomelli"
   },
   {
     "driver_id": "KEKROS01",
-    "driver_name": "Keke Rosberg",
-    "url": "https://www.formula1.com/en/results/1986/drivers/KEKROS01/keke-rosberg"
+    "driver_name": "Keke Rosberg"
   },
   {
     "driver_id": "ANDDEC01",
-    "driver_name": "Andrea de Cesaris",
-    "url": "https://www.formula1.com/en/results/1994/drivers/ANDDEC01/andrea-de-cesaris"
+    "driver_name": "Andrea de Cesaris"
   },
   {
     "driver_id": "EDDCHE01",
-    "driver_name": "Eddie Cheever",
-    "url": "https://www.formula1.com/en/results/1989/drivers/EDDCHE01/eddie-cheever"
+    "driver_name": "Eddie Cheever"
   },
   {
     "driver_id": "ELISAL01",
-    "driver_name": "Eliseo Salazar",
-    "url": "https://www.formula1.com/en/results/1982/drivers/ELISAL01/eliseo-salazar"
+    "driver_name": "Eliseo Salazar"
   },
   {
     "driver_id": "MARSUR01",
-    "driver_name": "Marc Surer",
-    "url": "https://www.formula1.com/en/results/1985/drivers/MARSUR01/marc-surer"
+    "driver_name": "Marc Surer"
   },
   {
     "driver_id": "NIGMAN01",
-    "driver_name": "Nigel Mansell",
-    "url": "https://www.formula1.com/en/results/1994/drivers/NIGMAN01/nigel-mansell"
+    "driver_name": "Nigel Mansell"
   },
   {
     "driver_id": "SLIBOR01",
-    "driver_name": "Slim Borgudd",
-    "url": "https://www.formula1.com/en/results/1981/drivers/SLIBOR01/slim-borgudd"
+    "driver_name": "Slim Borgudd"
   },
   {
     "driver_id": "CHISER01",
-    "driver_name": "Chico Serra",
-    "url": "https://www.formula1.com/en/results/1982/drivers/CHISER01/chico-serra"
+    "driver_name": "Chico Serra"
   },
   {
     "driver_id": "MANWIN01",
-    "driver_name": "Manfred Winkelhock",
-    "url": "https://www.formula1.com/en/results/1982/drivers/MANWIN01/manfred-winkelhock"
+    "driver_name": "Manfred Winkelhock"
   },
   {
     "driver_id": "MAUBAL01",
-    "driver_name": "Mauro Baldi",
-    "url": "https://www.formula1.com/en/results/1983/drivers/MAUBAL01/mauro-baldi"
+    "driver_name": "Mauro Baldi"
   },
   {
     "driver_id": "MICALB01",
-    "driver_name": "Michele Alboreto",
-    "url": "https://www.formula1.com/en/results/1994/drivers/MICALB01/michele-alboreto"
+    "driver_name": "Michele Alboreto"
   },
   {
     "driver_id": "DANSUL01",
-    "driver_name": "Danny Sullivan",
-    "url": "https://www.formula1.com/en/results/1983/drivers/DANSUL01/danny-sullivan"
+    "driver_name": "Danny Sullivan"
   },
   {
     "driver_id": "DERWAR01",
-    "driver_name": "Derek Warwick",
-    "url": "https://www.formula1.com/en/results/1993/drivers/DERWAR01/derek-warwick"
+    "driver_name": "Derek Warwick"
   },
   {
     "driver_id": "JOHCEC01",
-    "driver_name": "Johnny Cecotto",
-    "url": "https://www.formula1.com/en/results/1983/drivers/JOHCEC01/johnny-cecotto"
+    "driver_name": "Johnny Cecotto"
   },
   {
     "driver_id": "AYRSEN01",
-    "driver_name": "Ayrton Senna",
-    "url": "https://www.formula1.com/en/results/1993/drivers/AYRSEN01/ayrton-senna"
+    "driver_name": "Ayrton Senna"
   },
   {
     "driver_id": "PIEGHI01",
-    "driver_name": "Piercarlo Ghinzani",
-    "url": "https://www.formula1.com/en/results/1984/drivers/PIEGHI01/piercarlo-ghinzani"
+    "driver_name": "Piercarlo Ghinzani"
   },
   {
     "driver_id": "STEJOH01",
-    "driver_name": "Stefan Johansson",
-    "url": "https://www.formula1.com/en/results/1989/drivers/STEJOH01/stefan-johansson"
+    "driver_name": "Stefan Johansson"
   },
   {
     "driver_id": "TEOFAB01",
-    "driver_name": "Teo Fabi",
-    "url": "https://www.formula1.com/en/results/1987/drivers/TEOFAB01/teo-fabi"
+    "driver_name": "Teo Fabi"
   },
   {
     "driver_id": "THIBOU01",
-    "driver_name": "Thierry Boutsen",
-    "url": "https://www.formula1.com/en/results/1992/drivers/THIBOU01/thierry-boutsen"
+    "driver_name": "Thierry Boutsen"
   },
   {
     "driver_id": "GERBER01",
-    "driver_name": "Gerhard Berger",
-    "url": "https://www.formula1.com/en/results/1997/drivers/GERBER01/gerhard-berger"
+    "driver_name": "Gerhard Berger"
   },
   {
     "driver_id": "IVACAP01",
-    "driver_name": "Ivan Capelli",
-    "url": "https://www.formula1.com/en/results/1992/drivers/IVACAP01/ivan-capelli"
+    "driver_name": "Ivan Capelli"
   },
   {
     "driver_id": "PHISTR01",
-    "driver_name": "Philippe Streiff",
-    "url": "https://www.formula1.com/en/results/1987/drivers/PHISTR01/philippe-streiff"
+    "driver_name": "Philippe Streiff"
   },
   {
     "driver_id": "STEBEL01",
-    "driver_name": "Stefan Bellof",
-    "url": "https://www.formula1.com/en/results/1985/drivers/STEBEL01/stefan-bellof"
+    "driver_name": "Stefan Bellof"
   },
   {
     "driver_id": "CHRDAN01",
-    "driver_name": "Christian Danner",
-    "url": "https://www.formula1.com/en/results/1989/drivers/CHRDAN01/christian-danner"
+    "driver_name": "Christian Danner"
   },
   {
     "driver_id": "JOHDUM01",
-    "driver_name": "Johnny Dumfries",
-    "url": "https://www.formula1.com/en/results/1986/drivers/JOHDUM01/johnny-dumfries"
+    "driver_name": "Johnny Dumfries"
   },
   {
     "driver_id": "MARBRU01",
-    "driver_name": "Martin Brundle",
-    "url": "https://www.formula1.com/en/results/1996/drivers/MARBRU01/martin-brundle"
+    "driver_name": "Martin Brundle"
   },
   {
     "driver_id": "PHIALL01",
-    "driver_name": "Philippe Alliot",
-    "url": "https://www.formula1.com/en/results/1993/drivers/PHIALL01/philippe-alliot"
+    "driver_name": "Philippe Alliot"
   },
   {
     "driver_id": "JONPAL01",
-    "driver_name": "Jonathan Palmer",
-    "url": "https://www.formula1.com/en/results/1989/drivers/JONPAL01/jonathan-palmer"
+    "driver_name": "Jonathan Palmer"
   },
   {
     "driver_id": "ROBMOR01",
-    "driver_name": "Roberto Moreno",
-    "url": "https://www.formula1.com/en/results/1991/drivers/ROBMOR01/roberto-moreno"
+    "driver_name": "Roberto Moreno"
   },
   {
     "driver_id": "SATNAK01",
-    "driver_name": "Satoru Nakajima",
-    "url": "https://www.formula1.com/en/results/1991/drivers/SATNAK01/satoru-nakajima"
+    "driver_name": "Satoru Nakajima"
   },
   {
     "driver_id": "ALENAN01",
-    "driver_name": "Alessandro Nannini",
-    "url": "https://www.formula1.com/en/results/1990/drivers/ALENAN01/alessandro-nannini"
+    "driver_name": "Alessandro Nannini"
   },
   {
     "driver_id": "MAUGUG01",
-    "driver_name": "Mauricio Gugelmin",
-    "url": "https://www.formula1.com/en/results/1990/drivers/MAUGUG01/mauricio-gugelmin"
+    "driver_name": "Mauricio Gugelmin"
   },
   {
     "driver_id": "PIEMAR01",
-    "driver_name": "Pierluigi Martini",
-    "url": "https://www.formula1.com/en/results/1994/drivers/PIEMAR01/pierluigi-martini"
+    "driver_name": "Pierluigi Martini"
   },
   {
     "driver_id": "ALECAF01",
-    "driver_name": "Alex Caffi",
-    "url": "https://www.formula1.com/en/results/1990/drivers/ALECAF01/alex-caffi"
+    "driver_name": "Alex Caffi"
   },
   {
     "driver_id": "EMAPIR01",
-    "driver_name": "Emanuele Pirro",
-    "url": "https://www.formula1.com/en/results/1991/drivers/EMAPIR01/emanuele-pirro"
+    "driver_name": "Emanuele Pirro"
   },
   {
     "driver_id": "GABTAR01",
-    "driver_name": "Gabriele Tarquini",
-    "url": "https://www.formula1.com/en/results/1989/drivers/GABTAR01/gabriele-tarquini"
+    "driver_name": "Gabriele Tarquini"
   },
   {
     "driver_id": "JEAALE01",
-    "driver_name": "Jean Alesi",
-    "url": "https://www.formula1.com/en/results/2001/drivers/JEAALE01/jean-alesi"
+    "driver_name": "Jean Alesi"
   },
   {
     "driver_id": "JOHHER01",
-    "driver_name": "Johnny Herbert",
-    "url": "https://www.formula1.com/en/results/2000/drivers/JOHHER01/johnny-herbert"
+    "driver_name": "Johnny Herbert"
   },
   {
     "driver_id": "LUIPER01",
-    "driver_name": "Luis Perez-Sala",
-    "url": "https://www.formula1.com/en/results/1989/drivers/LUIPER01/luis-perez-sala"
+    "driver_name": "Luis Perez-Sala"
   },
   {
     "driver_id": "OLIGRO01",
-    "driver_name": "Olivier Grouillard",
-    "url": "https://www.formula1.com/en/results/1989/drivers/OLIGRO01/olivier-grouillard"
+    "driver_name": "Olivier Grouillard"
   },
   {
     "driver_id": "STEMOD01",
-    "driver_name": "Stefano Modena",
-    "url": "https://www.formula1.com/en/results/1992/drivers/STEMOD01/stefano-modena"
+    "driver_name": "Stefano Modena"
   },
   {
     "driver_id": "AGUSUZ01",
-    "driver_name": "Aguri Suzuki",
-    "url": "https://www.formula1.com/en/results/1995/drivers/AGUSUZ01/aguri-suzuki"
+    "driver_name": "Aguri Suzuki"
   },
   {
     "driver_id": "ERIBER01",
-    "driver_name": "Eric Bernard",
-    "url": "https://www.formula1.com/en/results/1994/drivers/ERIBER01/eric-bernard"
+    "driver_name": "Eric Bernard"
   },
   {
     "driver_id": "BERGAC01",
-    "driver_name": "Bertrand Gachot",
-    "url": "https://www.formula1.com/en/results/1992/drivers/BERGAC01/bertrand-gachot"
+    "driver_name": "Bertrand Gachot"
   },
   {
     "driver_id": "GIAMOR01",
-    "driver_name": "Gianni Morbidelli",
-    "url": "https://www.formula1.com/en/results/1995/drivers/GIAMOR01/gianni-morbidelli"
+    "driver_name": "Gianni Morbidelli"
   },
   {
     "driver_id": "JULBAI01",
-    "driver_name": "Julian Bailey",
-    "url": "https://www.formula1.com/en/results/1991/drivers/JULBAI01/julian-bailey"
+    "driver_name": "Julian Bailey"
   },
   {
     "driver_id": "JYRJAR01",
-    "driver_name": "Jyrki Jarvilehto",
-    "url": "https://www.formula1.com/en/results/1994/drivers/JYRJAR01/jyrki-jarvilehto"
+    "driver_name": "Jyrki Jarvilehto"
   },
   {
     "driver_id": "MARBLU01",
-    "driver_name": "Mark Blundell",
-    "url": "https://www.formula1.com/en/results/1995/drivers/MARBLU01/mark-blundell"
+    "driver_name": "Mark Blundell"
   },
   {
     "driver_id": "MICSCH01",
-    "driver_name": "Michael Schumacher",
-    "url": "https://www.formula1.com/en/results/2012/drivers/MICSCH01/michael-schumacher"
+    "driver_name": "Michael Schumacher"
   },
   {
     "driver_id": "MIKHAK01",
-    "driver_name": "Mika Hakkinen",
-    "url": "https://www.formula1.com/en/results/2001/drivers/MIKHAK01/mika-hakkinen"
+    "driver_name": "Mika Hakkinen"
   },
   {
     "driver_id": "CHRFIT01",
-    "driver_name": "Christian Fittipaldi",
-    "url": "https://www.formula1.com/en/results/1994/drivers/CHRFIT01/christian-fittipaldi"
+    "driver_name": "Christian Fittipaldi"
   },
   {
     "driver_id": "ERICOM01",
-    "driver_name": "Erik Comas",
-    "url": "https://www.formula1.com/en/results/1994/drivers/ERICOM01/erik-comas"
+    "driver_name": "Erik Comas"
   },
   {
     "driver_id": "KARWEN01",
-    "driver_name": "Karl Wendlinger",
-    "url": "https://www.formula1.com/en/results/1994/drivers/KARWEN01/karl-wendlinger"
+    "driver_name": "Karl Wendlinger"
   },
   {
     "driver_id": "ALEZAN01",
-    "driver_name": "Alessandro Zanardi",
-    "url": "https://www.formula1.com/en/results/1993/drivers/ALEZAN01/alessandro-zanardi"
+    "driver_name": "Alessandro Zanardi"
   },
   {
     "driver_id": "DAMHIL01",
-    "driver_name": "Damon Hill",
-    "url": "https://www.formula1.com/en/results/1999/drivers/DAMHIL01/damon-hill"
+    "driver_name": "Damon Hill"
   },
   {
     "driver_id": "EDDIRV01",
-    "driver_name": "Eddie Irvine",
-    "url": "https://www.formula1.com/en/results/2002/drivers/EDDIRV01/eddie-irvine"
+    "driver_name": "Eddie Irvine"
   },
   {
     "driver_id": "FABBAR01",
-    "driver_name": "Fabrizio Barbazza",
-    "url": "https://www.formula1.com/en/results/1993/drivers/FABBAR01/fabrizio-barbazza"
+    "driver_name": "Fabrizio Barbazza"
   },
   {
     "driver_id": "MICAND01",
-    "driver_name": "Michael Andretti",
-    "url": "https://www.formula1.com/en/results/1993/drivers/MICAND01/michael-andretti"
+    "driver_name": "Michael Andretti"
   },
   {
     "driver_id": "RUBBAR01",
-    "driver_name": "Rubens Barrichello",
-    "url": "https://www.formula1.com/en/results/2011/drivers/RUBBAR01/rubens-barrichello"
+    "driver_name": "Rubens Barrichello"
   },
   {
     "driver_id": "DAVCOU01",
-    "driver_name": "David Coulthard",
-    "url": "https://www.formula1.com/en/results/2008/drivers/DAVCOU01/david-coulthard"
+    "driver_name": "David Coulthard"
   },
   {
     "driver_id": "HEIFRE01",
-    "driver_name": "Heinz-Harald Frentzen",
-    "url": "https://www.formula1.com/en/results/2003/drivers/HEIFRE01/heinz-harald-frentzen"
+    "driver_name": "Heinz-Harald Frentzen"
   },
   {
     "driver_id": "JOSVER01",
-    "driver_name": "Jos Verstappen",
-    "url": "https://www.formula1.com/en/results/2003/drivers/JOSVER01/jos-verstappen"
+    "driver_name": "Jos Verstappen"
   },
   {
     "driver_id": "NICLAR01",
-    "driver_name": "Nicola Larini",
-    "url": "https://www.formula1.com/en/results/1997/drivers/NICLAR01/nicola-larini"
+    "driver_name": "Nicola Larini"
   },
   {
     "driver_id": "OLIPAN01",
-    "driver_name": "Olivier Panis",
-    "url": "https://www.formula1.com/en/results/2004/drivers/OLIPAN01/olivier-panis"
+    "driver_name": "Olivier Panis"
   },
   {
     "driver_id": "UKYKAT01",
-    "driver_name": "Ukyo Katayama",
-    "url": "https://www.formula1.com/en/results/1994/drivers/UKYKAT01/ukyo-katayama"
+    "driver_name": "Ukyo Katayama"
   },
   {
     "driver_id": "JEABOU01",
-    "driver_name": "Jean-Christophe Boullion",
-    "url": "https://www.formula1.com/en/results/1995/drivers/JEABOU01/jean-christophe-boullion"
+    "driver_name": "Jean-Christophe Boullion"
   },
   {
     "driver_id": "MIKSAL01",
-    "driver_name": "Mika Salo",
-    "url": "https://www.formula1.com/en/results/2002/drivers/MIKSAL01/mika-salo"
+    "driver_name": "Mika Salo"
   },
   {
     "driver_id": "PEDLAM01",
-    "driver_name": "Pedro Lamy",
-    "url": "https://www.formula1.com/en/results/1995/drivers/PEDLAM01/pedro-lamy"
+    "driver_name": "Pedro Lamy"
   },
   {
     "driver_id": "JACVIL02",
-    "driver_name": "Jacques Villeneuve",
-    "url": "https://www.formula1.com/en/results/2006/drivers/JACVIL02/jacques-villeneuve"
+    "driver_name": "Jacques Villeneuve"
   },
   {
     "driver_id": "PEDDIN01",
-    "driver_name": "Pedro Diniz",
-    "url": "https://www.formula1.com/en/results/2000/drivers/PEDDIN01/pedro-diniz"
+    "driver_name": "Pedro Diniz"
   },
   {
     "driver_id": "ALEWUR01",
-    "driver_name": "Alexander Wurz",
-    "url": "https://www.formula1.com/en/results/2007/drivers/ALEWUR01/alexander-wurz"
+    "driver_name": "Alexander Wurz"
   },
   {
     "driver_id": "GIAFIS01",
-    "driver_name": "Giancarlo Fisichella",
-    "url": "https://www.formula1.com/en/results/2009/drivers/GIAFIS01/giancarlo-fisichella"
+    "driver_name": "Giancarlo Fisichella"
   },
   {
     "driver_id": "JARTRU01",
-    "driver_name": "Jarno Trulli",
-    "url": "https://www.formula1.com/en/results/2011/drivers/JARTRU01/jarno-trulli"
+    "driver_name": "Jarno Trulli"
   },
   {
     "driver_id": "RALSCH01",
-    "driver_name": "Ralf Schumacher",
-    "url": "https://www.formula1.com/en/results/2007/drivers/RALSCH01/ralf-schumacher"
+    "driver_name": "Ralf Schumacher"
   },
   {
     "driver_id": "SHINAK01",
-    "driver_name": "Shinji Nakano",
-    "url": "https://www.formula1.com/en/results/1998/drivers/SHINAK01/shinji-nakano"
+    "driver_name": "Shinji Nakano"
   },
   {
     "driver_id": "ESTTUE01",
-    "driver_name": "Esteban Tuero",
-    "url": "https://www.formula1.com/en/results/1998/drivers/ESTTUE01/esteban-tuero"
+    "driver_name": "Esteban Tuero"
   },
   {
     "driver_id": "JANMAG01",
-    "driver_name": "Jan Magnussen",
-    "url": "https://www.formula1.com/en/results/1998/drivers/JANMAG01/jan-magnussen"
+    "driver_name": "Jan Magnussen"
   },
   {
     "driver_id": "RICROS01",
-    "driver_name": "Ricardo Rosset",
-    "url": "https://www.formula1.com/en/results/1998/drivers/RICROS01/ricardo-rosset"
+    "driver_name": "Ricardo Rosset"
   },
   {
     "driver_id": "TORTAK01",
-    "driver_name": "Toranosuke Takagi",
-    "url": "https://www.formula1.com/en/results/1998/drivers/TORTAK01/toranosuke-takagi"
+    "driver_name": "Toranosuke Takagi"
   },
   {
     "driver_id": "MARGEN01",
-    "driver_name": "Marc Gene",
-    "url": "https://www.formula1.com/en/results/2004/drivers/MARGEN01/marc-gene"
+    "driver_name": "Marc Gene"
   },
   {
     "driver_id": "PEDDEL01",
-    "driver_name": "Pedro de la Rosa",
-    "url": "https://www.formula1.com/en/results/2012/drivers/PEDDEL01/pedro-de-la-rosa"
+    "driver_name": "Pedro de la Rosa"
   },
   {
     "driver_id": "GASMAZ01",
-    "driver_name": "Gaston Mazzacane",
-    "url": "https://www.formula1.com/en/results/2000/drivers/GASMAZ01/gaston-mazzacane"
+    "driver_name": "Gaston Mazzacane"
   },
   {
     "driver_id": "JENBUT01",
-    "driver_name": "Jenson Button",
-    "url": "https://www.formula1.com/en/results/2016/drivers/JENBUT01/jenson-button"
+    "driver_name": "Jenson Button"
   },
   {
     "driver_id": "LUCBUR01",
-    "driver_name": "Luciano Burti",
-    "url": "https://www.formula1.com/en/results/2000/drivers/LUCBUR01/luciano-burti"
+    "driver_name": "Luciano Burti"
   },
   {
     "driver_id": "NICHEI01",
-    "driver_name": "Nick Heidfeld",
-    "url": "https://www.formula1.com/en/results/2011/drivers/NICHEI01/nick-heidfeld"
+    "driver_name": "Nick Heidfeld"
   },
   {
     "driver_id": "RICZON01",
-    "driver_name": "Ricardo Zonta",
-    "url": "https://www.formula1.com/en/results/2004/drivers/RICZON01/ricardo-zonta"
+    "driver_name": "Ricardo Zonta"
   },
   {
     "driver_id": "JUAMON01",
-    "driver_name": "Juan Pablo Montoya",
-    "url": "https://www.formula1.com/en/results/2006/drivers/JUAMON01/juan-pablo-montoya"
+    "driver_name": "Juan Pablo Montoya"
   },
   {
     "driver_id": "KIMRAI01",
-    "driver_name": "Kimi R\u00e4ikk\u00f6nen",
-    "url": "https://www.formula1.com/en/results/2021/drivers/KIMRAI01/kimi-raeikkoenen"
+    "driver_name": "Kimi Räikkönen"
   },
   {
     "driver_id": "ALEYOO01",
-    "driver_name": "Alex Yoong",
-    "url": "https://www.formula1.com/en/results/2002/drivers/ALEYOO01/alex-yoong"
+    "driver_name": "Alex Yoong"
   },
   {
     "driver_id": "ALLMCN01",
-    "driver_name": "Allan McNish",
-    "url": "https://www.formula1.com/en/results/2002/drivers/ALLMCN01/allan-mc-nish"
+    "driver_name": "Allan McNish"
   },
   {
     "driver_id": "ENQBER01",
-    "driver_name": "Enrique Bernoldi",
-    "url": "https://www.formula1.com/en/results/2002/drivers/ENQBER01/enrique-bernoldi"
+    "driver_name": "Enrique Bernoldi"
   },
   {
     "driver_id": "FELMAS01",
-    "driver_name": "Felipe Massa",
-    "url": "https://www.formula1.com/en/results/2017/drivers/FELMAS01/felipe-massa"
+    "driver_name": "Felipe Massa"
   },
   {
     "driver_id": "MARWEB01",
-    "driver_name": "Mark Webber",
-    "url": "https://www.formula1.com/en/results/2013/drivers/MARWEB01/mark-webber"
+    "driver_name": "Mark Webber"
   },
   {
     "driver_id": "TAKSAT01",
-    "driver_name": "Takuma Sato",
-    "url": "https://www.formula1.com/en/results/2008/drivers/TAKSAT01/takuma-sato"
+    "driver_name": "Takuma Sato"
   },
   {
     "driver_id": "ANTPIZ01",
-    "driver_name": "Antonio Pizzonia",
-    "url": "https://www.formula1.com/en/results/2005/drivers/ANTPIZ01/antonio-pizzonia"
+    "driver_name": "Antonio Pizzonia"
   },
   {
     "driver_id": "CRIDAM01",
-    "driver_name": "Cristiano da Matta",
-    "url": "https://www.formula1.com/en/results/2004/drivers/CRIDAM01/cristiano-da-matta"
+    "driver_name": "Cristiano da Matta"
   },
   {
     "driver_id": "FERALO01",
-    "driver_name": "Fernando Alonso",
-    "url": "https://www.formula1.com/en/results/2025/drivers/FERALO01/fernando-alonso"
+    "driver_name": "Fernando Alonso"
   },
   {
     "driver_id": "JUSWIL01",
-    "driver_name": "Justin Wilson",
-    "url": "https://www.formula1.com/en/results/2003/drivers/JUSWIL01/justin-wilson"
+    "driver_name": "Justin Wilson"
   },
   {
     "driver_id": "NICKIE01",
-    "driver_name": "Nicolas Kiesa",
-    "url": "https://www.formula1.com/en/results/2003/drivers/NICKIE01/nicolas-kiesa"
+    "driver_name": "Nicolas Kiesa"
   },
   {
     "driver_id": "RALFIR01",
-    "driver_name": "Ralph Firman",
-    "url": "https://www.formula1.com/en/results/2003/drivers/RALFIR01/ralph-firman"
+    "driver_name": "Ralph Firman"
   },
   {
     "driver_id": "ZSOBAU01",
-    "driver_name": "Zsolt Baumgartner",
-    "url": "https://www.formula1.com/en/results/2004/drivers/ZSOBAU01/zsolt-baumgartner"
+    "driver_name": "Zsolt Baumgartner"
   },
   {
     "driver_id": "CHRKLI01",
-    "driver_name": "Christian Klien",
-    "url": "https://www.formula1.com/en/results/2010/drivers/CHRKLI01/christian-klien"
+    "driver_name": "Christian Klien"
   },
   {
     "driver_id": "GIABRU01",
-    "driver_name": "Gianmaria Bruni",
-    "url": "https://www.formula1.com/en/results/2004/drivers/GIABRU01/gianmaria-bruni"
+    "driver_name": "Gianmaria Bruni"
   },
   {
     "driver_id": "GIOPAN01",
-    "driver_name": "Giorgio Pantano",
-    "url": "https://www.formula1.com/en/results/2004/drivers/GIOPAN01/giorgio-pantano"
+    "driver_name": "Giorgio Pantano"
   },
   {
     "driver_id": "TIMGLO01",
-    "driver_name": "Timo Glock",
-    "url": "https://www.formula1.com/en/results/2012/drivers/TIMGLO01/timo-glock"
+    "driver_name": "Timo Glock"
   },
   {
     "driver_id": "CHRALB01",
-    "driver_name": "Christijan Albers",
-    "url": "https://www.formula1.com/en/results/2007/drivers/CHRALB01/christijan-albers"
+    "driver_name": "Christijan Albers"
   },
   {
     "driver_id": "NARKAR01",
-    "driver_name": "Narain Karthikeyan",
-    "url": "https://www.formula1.com/en/results/2012/drivers/NARKAR01/narain-karthikeyan"
+    "driver_name": "Narain Karthikeyan"
   },
   {
     "driver_id": "PATFRI01",
-    "driver_name": "Patrick Friesacher",
-    "url": "https://www.formula1.com/en/results/2005/drivers/PATFRI01/patrick-friesacher"
+    "driver_name": "Patrick Friesacher"
   },
   {
     "driver_id": "ROBDOO02",
-    "driver_name": "Robert Doornbos",
-    "url": "https://www.formula1.com/en/results/2005/drivers/ROBDOO02/robert-doornbos"
+    "driver_name": "Robert Doornbos"
   },
   {
     "driver_id": "TIAMON01",
-    "driver_name": "Tiago Monteiro",
-    "url": "https://www.formula1.com/en/results/2006/drivers/TIAMON01/tiago-monteiro"
+    "driver_name": "Tiago Monteiro"
   },
   {
     "driver_id": "VITLIU01",
-    "driver_name": "Vitantonio Liuzzi",
-    "url": "https://www.formula1.com/en/results/2011/drivers/VITLIU01/vitantonio-liuzzi"
+    "driver_name": "Vitantonio Liuzzi"
   },
   {
     "driver_id": "FRAMON01",
-    "driver_name": "Franck Montagny",
-    "url": "https://www.formula1.com/en/results/2006/drivers/FRAMON01/franck-montagny"
+    "driver_name": "Franck Montagny"
   },
   {
     "driver_id": "NICROS01",
-    "driver_name": "Nico Rosberg",
-    "url": "https://www.formula1.com/en/results/2016/drivers/NICROS01/nico-rosberg"
+    "driver_name": "Nico Rosberg"
   },
   {
     "driver_id": "ROBDOO01",
-    "driver_name": "Robert Doornbos",
-    "url": "https://www.formula1.com/en/results/2006/drivers/ROBDOO01/robert-doornbos"
+    "driver_name": "Robert Doornbos"
   },
   {
     "driver_id": "ROBKUB01",
-    "driver_name": "Robert Kubica",
-    "url": "https://www.formula1.com/en/results/2021/drivers/ROBKUB01/robert-kubica"
+    "driver_name": "Robert Kubica"
   },
   {
     "driver_id": "SAKYAM01",
-    "driver_name": "Sakon Yamamoto",
-    "url": "https://www.formula1.com/en/results/2010/drivers/SAKYAM01/sakon-yamamoto"
+    "driver_name": "Sakon Yamamoto"
   },
   {
     "driver_id": "SCOSPE01",
-    "driver_name": "Scott Speed",
-    "url": "https://www.formula1.com/en/results/2007/drivers/SCOSPE01/scott-speed"
+    "driver_name": "Scott Speed"
   },
   {
     "driver_id": "YUJIDE01",
-    "driver_name": "Yuji Ide",
-    "url": "https://www.formula1.com/en/results/2006/drivers/YUJIDE01/yuji-ide"
+    "driver_name": "Yuji Ide"
   },
   {
     "driver_id": "ADRSUT01",
-    "driver_name": "Adrian Sutil",
-    "url": "https://www.formula1.com/en/results/2014/drivers/ADRSUT01/adrian-sutil"
+    "driver_name": "Adrian Sutil"
   },
   {
     "driver_id": "ANTDAV01",
-    "driver_name": "Anthony Davidson",
-    "url": "https://www.formula1.com/en/results/2008/drivers/ANTDAV01/anthony-davidson"
+    "driver_name": "Anthony Davidson"
   },
   {
     "driver_id": "HEIKOV01",
-    "driver_name": "Heikki Kovalainen",
-    "url": "https://www.formula1.com/en/results/2013/drivers/HEIKOV01/heikki-kovalainen"
+    "driver_name": "Heikki Kovalainen"
   },
   {
     "driver_id": "KAZNAK01",
-    "driver_name": "Kazuki Nakajima",
-    "url": "https://www.formula1.com/en/results/2009/drivers/KAZNAK01/kazuki-nakajima"
+    "driver_name": "Kazuki Nakajima"
   },
   {
     "driver_id": "LEWHAM01",
-    "driver_name": "Lewis Hamilton",
-    "url": "https://www.formula1.com/en/results/2025/drivers/LEWHAM01/lewis-hamilton"
+    "driver_name": "Lewis Hamilton"
   },
   {
     "driver_id": "SEBVET01",
-    "driver_name": "Sebastian Vettel",
-    "url": "https://www.formula1.com/en/results/2022/drivers/SEBVET01/sebastian-vettel"
+    "driver_name": "Sebastian Vettel"
   },
   {
     "driver_id": "NELPIQ02",
-    "driver_name": "Nelson Piquet",
-    "url": "https://www.formula1.com/en/results/2009/drivers/NELPIQ02/nelson-piquet"
+    "driver_name": "Nelson Piquet"
   },
   {
     "driver_id": "SEBBOU01",
-    "driver_name": "Sebastien Bourdais",
-    "url": "https://www.formula1.com/en/results/2009/drivers/SEBBOU01/sebastien-bourdais"
+    "driver_name": "Sebastien Bourdais"
   },
   {
     "driver_id": "JAIALG01",
-    "driver_name": "Jaime Alguersuari",
-    "url": "https://www.formula1.com/en/results/2011/drivers/JAIALG01/jaime-alguersuari"
+    "driver_name": "Jaime Alguersuari"
   },
   {
     "driver_id": "KAMKOB01",
-    "driver_name": "Kamui Kobayashi",
-    "url": "https://www.formula1.com/en/results/2014/drivers/KAMKOB01/kamui-kobayashi"
+    "driver_name": "Kamui Kobayashi"
   },
   {
     "driver_id": "LUCBAD01",
-    "driver_name": "Luca Badoer",
-    "url": "https://www.formula1.com/en/results/2009/drivers/LUCBAD01/luca-badoer"
+    "driver_name": "Luca Badoer"
   },
   {
     "driver_id": "ROMGRO01",
-    "driver_name": "Romain Grosjean",
-    "url": "https://www.formula1.com/en/results/2020/drivers/ROMGRO01/romain-grosjean"
+    "driver_name": "Romain Grosjean"
   },
   {
     "driver_id": "SEBBUE01",
-    "driver_name": "Sebastien Buemi",
-    "url": "https://www.formula1.com/en/results/2011/drivers/SEBBUE01/sebastien-buemi"
+    "driver_name": "Sebastien Buemi"
   },
   {
     "driver_id": "BRUSEN01",
-    "driver_name": "Bruno Senna",
-    "url": "https://www.formula1.com/en/results/2012/drivers/BRUSEN01/bruno-senna"
+    "driver_name": "Bruno Senna"
   },
   {
     "driver_id": "KARCHA01",
-    "driver_name": "Karun Chandhok",
-    "url": "https://www.formula1.com/en/results/2011/drivers/KARCHA01/karun-chandhok"
+    "driver_name": "Karun Chandhok"
   },
   {
     "driver_id": "LUCDIG01",
-    "driver_name": "Lucas di Grassi",
-    "url": "https://www.formula1.com/en/results/2010/drivers/LUCDIG01/lucas-di-grassi"
+    "driver_name": "Lucas di Grassi"
   },
   {
     "driver_id": "NICHUL01",
-    "driver_name": "Nico Hulkenberg",
-    "url": "https://www.formula1.com/en/results/2025/drivers/NICHUL01/nico-hulkenberg"
+    "driver_name": "Nico Hulkenberg"
   },
   {
     "driver_id": "VITPET01",
-    "driver_name": "Vitaly Petrov",
-    "url": "https://www.formula1.com/en/results/2012/drivers/VITPET01/vitaly-petrov"
+    "driver_name": "Vitaly Petrov"
   },
   {
     "driver_id": "DANRIC01",
-    "driver_name": "Daniel Ricciardo",
-    "url": "https://www.formula1.com/en/results/2024/drivers/DANRIC01/daniel-ricciardo"
+    "driver_name": "Daniel Ricciardo"
   },
   {
     "driver_id": "JERDAM01",
-    "driver_name": "Jerome d'Ambrosio",
-    "url": "https://www.formula1.com/en/results/2012/drivers/JERDAM01/jerome-d-ambrosio"
+    "driver_name": "Jerome d'Ambrosio"
   },
   {
     "driver_id": "PASMAL01",
-    "driver_name": "Pastor Maldonado",
-    "url": "https://www.formula1.com/en/results/2015/drivers/PASMAL01/pastor-maldonado"
+    "driver_name": "Pastor Maldonado"
   },
   {
     "driver_id": "PAUDIR01",
-    "driver_name": "Paul di Resta",
-    "url": "https://www.formula1.com/en/results/2013/drivers/PAUDIR01/paul-di-resta"
+    "driver_name": "Paul di Resta"
   },
   {
     "driver_id": "SERPER01",
-    "driver_name": "Sergio Perez",
-    "url": "https://www.formula1.com/en/results/2024/drivers/SERPER01/sergio-perez"
+    "driver_name": "Sergio Perez"
   },
   {
     "driver_id": "CHAPIC01",
-    "driver_name": "Charles Pic",
-    "url": "https://www.formula1.com/en/results/2013/drivers/CHAPIC01/charles-pic"
+    "driver_name": "Charles Pic"
   },
   {
     "driver_id": "JEAVER01",
-    "driver_name": "Jean-Eric Vergne",
-    "url": "https://www.formula1.com/en/results/2014/drivers/JEAVER01/jean-eric-vergne"
+    "driver_name": "Jean-Eric Vergne"
   },
   {
     "driver_id": "ESTGUT01",
-    "driver_name": "Esteban Gutierrez",
-    "url": "https://www.formula1.com/en/results/2016/drivers/ESTGUT01/esteban-gutierrez"
+    "driver_name": "Esteban Gutierrez"
   },
   {
     "driver_id": "GIEVAN01",
-    "driver_name": "Giedo van der Garde",
-    "url": "https://www.formula1.com/en/results/2013/drivers/GIEVAN01/giedo-van-der-garde"
+    "driver_name": "Giedo van der Garde"
   },
   {
     "driver_id": "JULBIA01",
-    "driver_name": "Jules Bianchi",
-    "url": "https://www.formula1.com/en/results/2014/drivers/JULBIA01/jules-bianchi"
+    "driver_name": "Jules Bianchi"
   },
   {
     "driver_id": "MAXCHI01",
-    "driver_name": "Max Chilton",
-    "url": "https://www.formula1.com/en/results/2014/drivers/MAXCHI01/max-chilton"
+    "driver_name": "Max Chilton"
   },
   {
     "driver_id": "VALBOT01",
-    "driver_name": "Valtteri Bottas",
-    "url": "https://www.formula1.com/en/results/2024/drivers/VALBOT01/valtteri-bottas"
+    "driver_name": "Valtteri Bottas"
   },
   {
     "driver_id": "DANKVY01",
-    "driver_name": "Daniil Kvyat",
-    "url": "https://www.formula1.com/en/results/2020/drivers/DANKVY01/daniil-kvyat"
+    "driver_name": "Daniil Kvyat"
   },
   {
     "driver_id": "KEVMAG01",
-    "driver_name": "Kevin Magnussen",
-    "url": "https://www.formula1.com/en/results/2024/drivers/KEVMAG01/kevin-magnussen"
+    "driver_name": "Kevin Magnussen"
   },
   {
     "driver_id": "MARERI01",
-    "driver_name": "Marcus Ericsson",
-    "url": "https://www.formula1.com/en/results/2018/drivers/MARERI01/marcus-ericsson"
+    "driver_name": "Marcus Ericsson"
   },
   {
     "driver_id": "WILSTE01",
-    "driver_name": "Will Stevens",
-    "url": "https://www.formula1.com/en/results/2015/drivers/WILSTE01/will-stevens"
+    "driver_name": "Will Stevens"
   },
   {
     "driver_id": "ALEROS01",
-    "driver_name": "Alexander Rossi",
-    "url": "https://www.formula1.com/en/results/2015/drivers/ALEROS01/alexander-rossi"
+    "driver_name": "Alexander Rossi"
   },
   {
     "driver_id": "CARSAI01",
-    "driver_name": "Carlos Sainz",
-    "url": "https://www.formula1.com/en/results/2025/drivers/CARSAI01/carlos-sainz"
+    "driver_name": "Carlos Sainz"
   },
   {
     "driver_id": "FELNAS01",
-    "driver_name": "Felipe Nasr",
-    "url": "https://www.formula1.com/en/results/2016/drivers/FELNAS01/felipe-nasr"
+    "driver_name": "Felipe Nasr"
   },
   {
     "driver_id": "MAXVER01",
-    "driver_name": "Max Verstappen",
-    "url": "https://www.formula1.com/en/results/2025/drivers/MAXVER01/max-verstappen"
+    "driver_name": "Max Verstappen"
   },
   {
     "driver_id": "ROBMER01",
-    "driver_name": "Roberto Merhi",
-    "url": "https://www.formula1.com/en/results/2015/drivers/ROBMER01/roberto-merhi"
+    "driver_name": "Roberto Merhi"
   },
   {
     "driver_id": "ESTOCO01",
-    "driver_name": "Esteban Ocon",
-    "url": "https://www.formula1.com/en/results/2025/drivers/ESTOCO01/esteban-ocon"
+    "driver_name": "Esteban Ocon"
   },
   {
     "driver_id": "JOLPAL02",
-    "driver_name": "Jolyon Palmer",
-    "url": "https://www.formula1.com/en/results/2017/drivers/JOLPAL02/jolyon-palmer"
+    "driver_name": "Jolyon Palmer"
   },
   {
     "driver_id": "PASWEH01",
-    "driver_name": "Pascal Wehrlein",
-    "url": "https://www.formula1.com/en/results/2017/drivers/PASWEH01/pascal-wehrlein"
+    "driver_name": "Pascal Wehrlein"
   },
   {
     "driver_id": "RIOHAR01",
-    "driver_name": "Rio Haryanto",
-    "url": "https://www.formula1.com/en/results/2016/drivers/RIOHAR01/rio-haryanto"
+    "driver_name": "Rio Haryanto"
   },
   {
     "driver_id": "STOVAN01",
-    "driver_name": "Stoffel Vandoorne",
-    "url": "https://www.formula1.com/en/results/2018/drivers/STOVAN01/stoffel-vandoorne"
+    "driver_name": "Stoffel Vandoorne"
   },
   {
     "driver_id": "ANTGIO01",
-    "driver_name": "Antonio Giovinazzi",
-    "url": "https://www.formula1.com/en/results/2021/drivers/ANTGIO01/antonio-giovinazzi"
+    "driver_name": "Antonio Giovinazzi"
   },
   {
     "driver_id": "BREHAR01",
-    "driver_name": "Brendon Hartley",
-    "url": "https://www.formula1.com/en/results/2018/drivers/BREHAR01/brendon-hartley"
+    "driver_name": "Brendon Hartley"
   },
   {
     "driver_id": "LANSTR01",
-    "driver_name": "Lance Stroll",
-    "url": "https://www.formula1.com/en/results/2025/drivers/LANSTR01/lance-stroll"
+    "driver_name": "Lance Stroll"
   },
   {
     "driver_id": "PIEGAS01",
-    "driver_name": "Pierre Gasly",
-    "url": "https://www.formula1.com/en/results/2025/drivers/PIEGAS01/pierre-gasly"
+    "driver_name": "Pierre Gasly"
   },
   {
     "driver_id": "CHALEC01",
-    "driver_name": "Charles Leclerc",
-    "url": "https://www.formula1.com/en/results/2025/drivers/CHALEC01/charles-leclerc"
+    "driver_name": "Charles Leclerc"
   },
   {
     "driver_id": "SERSIR01",
-    "driver_name": "Sergey Sirotkin",
-    "url": "https://www.formula1.com/en/results/2018/drivers/SERSIR01/sergey-sirotkin"
+    "driver_name": "Sergey Sirotkin"
   },
   {
     "driver_id": "ALEALB01",
-    "driver_name": "Alexander Albon",
-    "url": "https://www.formula1.com/en/results/2025/drivers/ALEALB01/alexander-albon"
+    "driver_name": "Alexander Albon"
   },
   {
     "driver_id": "GEORUS01",
-    "driver_name": "George Russell",
-    "url": "https://www.formula1.com/en/results/2025/drivers/GEORUS01/george-russell"
+    "driver_name": "George Russell"
   },
   {
     "driver_id": "LANNOR01",
-    "driver_name": "Lando Norris",
-    "url": "https://www.formula1.com/en/results/2025/drivers/LANNOR01/lando-norris"
+    "driver_name": "Lando Norris"
   },
   {
     "driver_id": "JACAIT01",
-    "driver_name": "Jack Aitken",
-    "url": "https://www.formula1.com/en/results/2020/drivers/JACAIT01/jack-aitken"
+    "driver_name": "Jack Aitken"
   },
   {
     "driver_id": "NICLAF01",
-    "driver_name": "Nicholas Latifi",
-    "url": "https://www.formula1.com/en/results/2022/drivers/NICLAF01/nicholas-latifi"
+    "driver_name": "Nicholas Latifi"
   },
   {
     "driver_id": "PIEFIT01",
-    "driver_name": "Pietro Fittipaldi",
-    "url": "https://www.formula1.com/en/results/2020/drivers/PIEFIT01/pietro-fittipaldi"
+    "driver_name": "Pietro Fittipaldi"
   },
   {
     "driver_id": "MICSCH02",
-    "driver_name": "Mick Schumacher",
-    "url": "https://www.formula1.com/en/results/2022/drivers/MICSCH02/mick-schumacher"
+    "driver_name": "Mick Schumacher"
   },
   {
     "driver_id": "NIKMAZ01",
-    "driver_name": "Nikita Mazepin",
-    "url": "https://www.formula1.com/en/results/2021/drivers/NIKMAZ01/nikita-mazepin"
+    "driver_name": "Nikita Mazepin"
   },
   {
     "driver_id": "YUKTSU01",
-    "driver_name": "Yuki Tsunoda",
-    "url": "https://www.formula1.com/en/results/2025/drivers/YUKTSU01/yuki-tsunoda"
+    "driver_name": "Yuki Tsunoda"
   },
   {
     "driver_id": "GUAZHO01",
-    "driver_name": "Guanyu Zhou",
-    "url": "https://www.formula1.com/en/results/2024/drivers/GUAZHO01/guanyu-zhou"
+    "driver_name": "Guanyu Zhou"
   },
   {
     "driver_id": "NYCDEV01",
-    "driver_name": "Nyck De Vries",
-    "url": "https://www.formula1.com/en/results/2023/drivers/NYCDEV01/nyck-de-vries"
+    "driver_name": "Nyck De Vries"
   },
   {
     "driver_id": "LIALAW01",
-    "driver_name": "Liam Lawson",
-    "url": "https://www.formula1.com/en/results/2025/drivers/LIALAW01/liam-lawson"
+    "driver_name": "Liam Lawson"
   },
   {
     "driver_id": "LOGSAR01",
-    "driver_name": "Logan Sargeant",
-    "url": "https://www.formula1.com/en/results/2024/drivers/LOGSAR01/logan-sargeant"
+    "driver_name": "Logan Sargeant"
   },
   {
     "driver_id": "OSCPIA01",
-    "driver_name": "Oscar Piastri",
-    "url": "https://www.formula1.com/en/results/2025/drivers/OSCPIA01/oscar-piastri"
+    "driver_name": "Oscar Piastri"
   },
   {
     "driver_id": "FRACOL01",
-    "driver_name": "Franco Colapinto",
-    "url": "https://www.formula1.com/en/results/2025/drivers/FRACOL01/franco-colapinto"
+    "driver_name": "Franco Colapinto"
   },
   {
     "driver_id": "JACDOO01",
-    "driver_name": "Jack Doohan",
-    "url": "https://www.formula1.com/en/results/2025/drivers/JACDOO01/jack-doohan"
+    "driver_name": "Jack Doohan"
   },
   {
     "driver_id": "OLIBEA01",
-    "driver_name": "Oliver Bearman",
-    "url": "https://www.formula1.com/en/results/2025/drivers/OLIBEA01/oliver-bearman"
+    "driver_name": "Oliver Bearman"
   },
   {
     "driver_id": "GABBOR01",
-    "driver_name": "Gabriel Bortoleto",
-    "url": "https://www.formula1.com/en/results/2025/drivers/GABBOR01/gabriel-bortoleto"
+    "driver_name": "Gabriel Bortoleto"
   },
   {
     "driver_id": "ISAHAD01",
-    "driver_name": "Isack Hadjar",
-    "url": "https://www.formula1.com/en/results/2025/drivers/ISAHAD01/isack-hadjar"
+    "driver_name": "Isack Hadjar"
   },
   {
     "driver_id": "ANDANT01",
-    "driver_name": "Kimi Antonelli",
-    "url": "https://www.formula1.com/en/results/2025/drivers/ANDANT01/kimi-antonelli"
+    "driver_name": "Kimi Antonelli"
+  },
+  {
+    "driver_id": "PIELEV01",
+    "driver_name": "Pierre Levegh"
+  },
+  {
+    "driver_id": "JOHCLA01",
+    "driver_name": "Johnny Claes"
+  },
+  {
+    "driver_id": "GEOCRO01",
+    "driver_name": "Geoff Crossley"
+  },
+  {
+    "driver_id": "TONBRA01",
+    "driver_name": "Toni Branca"
+  },
+  {
+    "driver_id": "CHAPOZ01",
+    "driver_name": "Charles Pozzi"
+  },
+  {
+    "driver_id": "FRAROL01",
+    "driver_name": "Franco Rol"
+  },
+  {
+    "driver_id": "DAVHAM01",
+    "driver_name": "David Hampshire"
+  },
+  {
+    "driver_id": "BOBGER01",
+    "driver_name": "Bob Gerard"
+  },
+  {
+    "driver_id": "CUTHAR01",
+    "driver_name": "Cuth Harrison"
+  },
+  {
+    "driver_id": "JOEFRY01",
+    "driver_name": "Joe Fry"
+  },
+  {
+    "driver_id": "BRISHA01",
+    "driver_name": "Brian Shawe-Taylor"
+  },
+  {
+    "driver_id": "JOEKEL01",
+    "driver_name": "Joe Kelly"
+  },
+  {
+    "driver_id": "DAVMUR01",
+    "driver_name": "David Murray"
+  },
+  {
+    "driver_id": "EUGMAR01",
+    "driver_name": "Eugene Martin"
+  },
+  {
+    "driver_id": "PETWAL01",
+    "driver_name": "Peter Walker"
+  },
+  {
+    "driver_id": "TONROL01",
+    "driver_name": "Tony Rolt"
+  },
+  {
+    "driver_id": "LESJOH01",
+    "driver_name": "Leslie Johnson"
+  },
+  {
+    "driver_id": "GEOCON01",
+    "driver_name": "George Constantine"
+  },
+  {
+    "driver_id": "MYRFOH01",
+    "driver_name": "Myron Fohr"
+  },
+  {
+    "driver_id": "MACHEL01",
+    "driver_name": "Mack Hellings"
+  },
+  {
+    "driver_id": "GENHAR01",
+    "driver_name": "Gene Hartley"
+  },
+  {
+    "driver_id": "JOHMCD01",
+    "driver_name": "Johnny McDowell"
+  },
+  {
+    "driver_id": "WALBRO01",
+    "driver_name": "Walt Brown"
+  },
+  {
+    "driver_id": "SPIWEB01",
+    "driver_name": "Spider Webb"
+  },
+  {
+    "driver_id": "JERHOY01",
+    "driver_name": "Jerry Hoyt"
+  },
+  {
+    "driver_id": "WALADE01",
+    "driver_name": "Walt Ader"
+  },
+  {
+    "driver_id": "JACHOL01",
+    "driver_name": "Jackie Holmes"
+  },
+  {
+    "driver_id": "HENBAN01",
+    "driver_name": "Henry Banks"
+  },
+  {
+    "driver_id": "BILSCH01",
+    "driver_name": "Bill Schindler"
+  },
+  {
+    "driver_id": "BAYLEV01",
+    "driver_name": "Bayliss Levrett"
+  },
+  {
+    "driver_id": "BILCAN01",
+    "driver_name": "Bill Cantrell"
+  },
+  {
+    "driver_id": "JIMJAC01",
+    "driver_name": "Jimmy Jackson"
+  },
+  {
+    "driver_id": "DUKDIN01",
+    "driver_name": "Duke Dinsmore"
+  },
+  {
+    "driver_id": "GUYMAI01",
+    "driver_name": "Guy Mairesse"
+  },
+  {
+    "driver_id": "CLEBIO01",
+    "driver_name": "Clemente Biondetti"
+  },
+  {
+    "driver_id": "HENLOU01",
+    "driver_name": "Henri Louveau"
+  },
+  {
+    "driver_id": "FRACOM01",
+    "driver_name": "Franco Comotti"
+  },
+  {
+    "driver_id": "PAUPIE01",
+    "driver_name": "Paul Pietsch"
+  },
+  {
+    "driver_id": "NELPAG01",
+    "driver_name": "Nello Pagani"
+  },
+  {
+    "driver_id": "ALDGOR01",
+    "driver_name": "Aldo Gordini"
+  },
+  {
+    "driver_id": "ANDSIM01",
+    "driver_name": "Andre Simon"
+  },
+  {
+    "driver_id": "JACSWA01",
+    "driver_name": "Jacques Swaters"
+  },
+  {
+    "driver_id": "DUNHAM01",
+    "driver_name": "Duncan Hamilton"
+  },
+  {
+    "driver_id": "PHIFOT01",
+    "driver_name": "Philip Fotheringham-Parker"
+  },
+  {
+    "driver_id": "JOHJAM01",
+    "driver_name": "John James"
+  },
+  {
+    "driver_id": "CARFOR01",
+    "driver_name": "Carl Forberg"
+  },
+  {
+    "driver_id": "DUKNAL01",
+    "driver_name": "Duke Nalon"
+  },
+  {
+    "driver_id": "GENFOR01",
+    "driver_name": "Gene Force"
+  },
+  {
+    "driver_id": "CARSCA01",
+    "driver_name": "Carl Scarborough"
+  },
+  {
+    "driver_id": "BILMAC01",
+    "driver_name": "Bill Mackey"
+  },
+  {
+    "driver_id": "CHUSTE01",
+    "driver_name": "Chuck Stevenson"
+  },
+  {
+    "driver_id": "CHEMIL01",
+    "driver_name": "Chet Miller"
+  },
+  {
+    "driver_id": "CLIGRI01",
+    "driver_name": "Cliff Griffith"
+  },
+  {
+    "driver_id": "JOEJAM01",
+    "driver_name": "Joe James"
+  },
+  {
+    "driver_id": "GEOGRI01",
+    "driver_name": "Georges Grignard"
+  },
+  {
+    "driver_id": "GEOABE01",
+    "driver_name": "George Abecassis"
+  },
+  {
+    "driver_id": "PETHIR01",
+    "driver_name": "Peter Hirt"
+  },
+  {
+    "driver_id": "CHATOR01",
+    "driver_name": "Charles de Tornaco"
+  },
+  {
+    "driver_id": "ERIBRA01",
+    "driver_name": "Eric Brandon"
+  },
+  {
+    "driver_id": "LANMAC01",
+    "driver_name": "Lance Macklin"
+  },
+  {
+    "driver_id": "ROGLAU01",
+    "driver_name": "Roger Laurent"
+  },
+  {
+    "driver_id": "ARTLEG01",
+    "driver_name": "Arthur Legat"
+  },
+  {
+    "driver_id": "ROBO'B01",
+    "driver_name": "Robert O'Brien"
+  },
+  {
+    "driver_id": "TONGAZ01",
+    "driver_name": "Tony Gaze"
+  },
+  {
+    "driver_id": "ROBMON01",
+    "driver_name": "Robin Montgomerie-Charrington"
+  },
+  {
+    "driver_id": "PIECAR01",
+    "driver_name": "Piero Carini"
+  },
+  {
+    "driver_id": "FRIRIE01",
+    "driver_name": "Fritz Riess"
+  },
+  {
+    "driver_id": "TONULM01",
+    "driver_name": "Toni Ulmen"
+  },
+  {
+    "driver_id": "HELNIE01",
+    "driver_name": "Helmut Niedermayr"
+  },
+  {
+    "driver_id": "HANKLE01",
+    "driver_name": "Hans Klenk"
+  },
+  {
+    "driver_id": "ERNKLO01",
+    "driver_name": "Ernst Klodwig"
+  },
+  {
+    "driver_id": "WILHEE01",
+    "driver_name": "Willi Heeks"
+  },
+  {
+    "driver_id": "MARBAL01",
+    "driver_name": "Marcel Balsa"
+  },
+  {
+    "driver_id": "ADOBRU01",
+    "driver_name": "Adolf Brudes"
+  },
+  {
+    "driver_id": "GÜNBEC01",
+    "driver_name": "Günther Bechem"
+  },
+  {
+    "driver_id": "EITCAN01",
+    "driver_name": "Eitel Cantoni"
+  },
+  {
+    "driver_id": "RUDKRA01",
+    "driver_name": "Rudolf Krause"
+  },
+  {
+    "driver_id": "RUDSCH01",
+    "driver_name": "Rudolf Schoeller"
+  },
+  {
+    "driver_id": "BILAST01",
+    "driver_name": "Bill Aston"
+  },
+  {
+    "driver_id": "THEHEL01",
+    "driver_name": "Theo Helfrich"
+  },
+  {
+    "driver_id": "JOSPET01",
+    "driver_name": "Josef Peters"
+  },
+  {
+    "driver_id": "GINBIA01",
+    "driver_name": "Gino Bianco"
+  },
+  {
+    "driver_id": "KENDOW01",
+    "driver_name": "Ken Downing"
+  },
+  {
+    "driver_id": "GRAWHI01",
+    "driver_name": "Graham Whitehead"
+  },
+  {
+    "driver_id": "KENMCA01",
+    "driver_name": "Kenneth McAlpine"
+  },
+  {
+    "driver_id": "TONCRO01",
+    "driver_name": "Tony Crook"
+  },
+  {
+    "driver_id": "JIMREE01",
+    "driver_name": "Jimmy Reece"
+  },
+  {
+    "driver_id": "JIMRIG01",
+    "driver_name": "Jim Rigsby"
+  },
+  {
+    "driver_id": "GEOFON01",
+    "driver_name": "George Fonder"
+  },
+  {
+    "driver_id": "BOBSCO01",
+    "driver_name": "Bob Scott"
+  },
+  {
+    "driver_id": "JANFLI01",
+    "driver_name": "Jan Flinterman"
+  },
+  {
+    "driver_id": "DRILOF01",
+    "driver_name": "Dries van der Lof"
+  },
+  {
+    "driver_id": "HANSTU01",
+    "driver_name": "Hans Von Stuck"
+  },
+  {
+    "driver_id": "MAXTER01",
+    "driver_name": "Max de Terra"
+  },
+  {
+    "driver_id": "JOHBAR01",
+    "driver_name": "John Barber"
+  },
+  {
+    "driver_id": "PABBIR01",
+    "driver_name": "Pablo Birger"
+  },
+  {
+    "driver_id": "ADOCRU01",
+    "driver_name": "Adolfo Schewelm Cruz"
+  },
+  {
+    "driver_id": "FREWAC01",
+    "driver_name": "Fred Wacker"
+  },
+  {
+    "driver_id": "GEOBER01",
+    "driver_name": "Georges Berger"
+  },
+  {
+    "driver_id": "RODNUC01",
+    "driver_name": "Rodney Nuckey"
+  },
+  {
+    "driver_id": "WOLSEI01",
+    "driver_name": "Wolfgang Seidel"
+  },
+  {
+    "driver_id": "EDGBAR01",
+    "driver_name": "Edgar Barth"
+  },
+  {
+    "driver_id": "OSWKAR01",
+    "driver_name": "Oswald Karch"
+  },
+  {
+    "driver_id": "THEFIT01",
+    "driver_name": "Theo Fitzau"
+  },
+  {
+    "driver_id": "KURADO01",
+    "driver_name": "Kurt Adolff"
+  },
+  {
+    "driver_id": "ERWBAU01",
+    "driver_name": "Erwin Bauer"
+  },
+  {
+    "driver_id": "ERNLOO01",
+    "driver_name": "Ernst Loof"
+  },
+  {
+    "driver_id": "JIMSTE01",
+    "driver_name": "Jimmy Stewart"
+  },
+  {
+    "driver_id": "IANSTE01",
+    "driver_name": "Ian Stewart"
+  },
+  {
+    "driver_id": "JIMDAY01",
+    "driver_name": "Jimmy Daywalt"
+  },
+  {
+    "driver_id": "ERNMCC01",
+    "driver_name": "Ernie McCoy"
+  },
+  {
+    "driver_id": "JOHMAN01",
+    "driver_name": "Johnny Mantz"
+  },
+  {
+    "driver_id": "MARTEA01",
+    "driver_name": "Marshall Teague"
+  },
+  {
+    "driver_id": "CALNID01",
+    "driver_name": "Cal Niday"
+  },
+  {
+    "driver_id": "JOHFIT01",
+    "driver_name": "John Fitch"
+  },
+  {
+    "driver_id": "ALBSCH01",
+    "driver_name": "Albert Scherrer"
+  },
+  {
+    "driver_id": "JORDAP01",
+    "driver_name": "Jorge Daponte"
+  },
+  {
+    "driver_id": "ROGLOY01",
+    "driver_name": "Roger Loyer"
+  },
+  {
+    "driver_id": "JACPOL01",
+    "driver_name": "Jacques Pollet"
+  },
+  {
+    "driver_id": "CLEBUC01",
+    "driver_name": "Clemar Bucci"
+  },
+  {
+    "driver_id": "DONBEA01",
+    "driver_name": "Don Beauman"
+  },
+  {
+    "driver_id": "LESMAR01",
+    "driver_name": "Leslie Marr"
+  },
+  {
+    "driver_id": "LESTHO01",
+    "driver_name": "Leslie Thorne"
+  },
+  {
+    "driver_id": "BILWHI01",
+    "driver_name": "Bill Whitehouse"
+  },
+  {
+    "driver_id": "JOHRIS01",
+    "driver_name": "John Riseley-Prichard"
+  },
+  {
+    "driver_id": "LARCRO01",
+    "driver_name": "Larry Crockett"
+  },
+  {
+    "driver_id": "EDELI01",
+    "driver_name": "Ed Elisian"
+  },
+  {
+    "driver_id": "FRAARM01",
+    "driver_name": "Frank Armi"
+  },
+  {
+    "driver_id": "PATO'C01",
+    "driver_name": "Pat O'Connor"
+  },
+  {
+    "driver_id": "DANKLA01",
+    "driver_name": "Danny Kladis"
+  },
+  {
+    "driver_id": "LENDUN01",
+    "driver_name": "Len Duncan"
+  },
+  {
+    "driver_id": "OTTVOL01",
+    "driver_name": "Ottorino Volonterio"
+  },
+  {
+    "driver_id": "JESIGL01",
+    "driver_name": "Jesus Iglesias"
+  },
+  {
+    "driver_id": "ALBURI01",
+    "driver_name": "Alberto Uria"
+  },
+  {
+    "driver_id": "MIKSPA01",
+    "driver_name": "Mike Sparken"
+  },
+  {
+    "driver_id": "ALHER01",
+    "driver_name": "Al Herman"
+  },
+  {
+    "driver_id": "CHUWEY01",
+    "driver_name": "Chuck Weyant"
+  },
+  {
+    "driver_id": "SHOTEM01",
+    "driver_name": "Shorty Templeman"
+  },
+  {
+    "driver_id": "KEIAND01",
+    "driver_name": "Keith Andrews"
+  },
+  {
+    "driver_id": "EDDRUS01",
+    "driver_name": "Eddie Russo"
+  },
+  {
+    "driver_id": "RAYCRA01",
+    "driver_name": "Ray Crawford"
+  },
+  {
+    "driver_id": "ALKEL01",
+    "driver_name": "Al Keller"
+  },
+  {
+    "driver_id": "JEALUC01",
+    "driver_name": "Jean Lucas"
+  },
+  {
+    "driver_id": "OSCGON01",
+    "driver_name": "Oscar Gonzalez"
+  },
+  {
+    "driver_id": "LUIPIO01",
+    "driver_name": "Luigi Piotti"
+  },
+  {
+    "driver_id": "PIESCO01",
+    "driver_name": "Piero Scotti"
+  },
+  {
+    "driver_id": "ALFPOR01",
+    "driver_name": "Alfonso de Portago"
+  },
+  {
+    "driver_id": "BRUHAL01",
+    "driver_name": "Bruce Halford"
+  },
+  {
+    "driver_id": "ANDMIL01",
+    "driver_name": "Andre Milhoux"
+  },
+  {
+    "driver_id": "DESTIT01",
+    "driver_name": "Desmond Titterington"
+  },
+  {
+    "driver_id": "ARCSCO01",
+    "driver_name": "Archie Scott-Brown"
+  },
+  {
+    "driver_id": "PAUEME01",
+    "driver_name": "Paul Emery"
+  },
+  {
+    "driver_id": "BOBVEI01",
+    "driver_name": "Bob Veith"
+  },
+  {
+    "driver_id": "BOBCHR01",
+    "driver_name": "Bob Christie"
+  },
+  {
+    "driver_id": "BILGAR01",
+    "driver_name": "Billy Garrett"
+  },
+  {
+    "driver_id": "JOHTOL01",
+    "driver_name": "Johnnie Tolan"
+  },
+  {
+    "driver_id": "JACTUR01",
+    "driver_name": "Jack Turner"
+  },
+  {
+    "driver_id": "LESLES01",
+    "driver_name": "Les Leston"
+  },
+  {
+    "driver_id": "ALETOM01",
+    "driver_name": "Alessandro de Tomaso"
+  },
+  {
+    "driver_id": "MIKMAC01",
+    "driver_name": "Mike MacDowel"
+  },
+  {
+    "driver_id": "HERMAC01",
+    "driver_name": "Herbert MacKay-Fraser"
+  },
+  {
+    "driver_id": "BRINAY01",
+    "driver_name": "Brian Naylor"
+  },
+  {
+    "driver_id": "CARBEA01",
+    "driver_name": "Carel Godin de Beaufort"
+  },
+  {
+    "driver_id": "TONMAR01",
+    "driver_name": "Tony Marsh"
+  },
+  {
+    "driver_id": "PAUENG01",
+    "driver_name": "Paul England"
+  },
+  {
+    "driver_id": "DICGIB01",
+    "driver_name": "Dick Gibson"
+  },
+  {
+    "driver_id": "IVOBUE01",
+    "driver_name": "Ivor Bueb"
+  },
+  {
+    "driver_id": "DONEDM01",
+    "driver_name": "Don Edmunds"
+  },
+  {
+    "driver_id": "EDDSAC01",
+    "driver_name": "Eddie Sachs"
+  },
+  {
+    "driver_id": "MIKMAG01",
+    "driver_name": "Mike Magill"
+  },
+  {
+    "driver_id": "BILCHE01",
+    "driver_name": "Bill Cheesbourg"
+  },
+  {
+    "driver_id": "ELMGEO01",
+    "driver_name": "Elmer George"
+  },
+  {
+    "driver_id": "MARFIL01",
+    "driver_name": "Maria Teresa de Filippis"
+  },
+  {
+    "driver_id": "CARSHE01",
+    "driver_name": "Carroll Shelby"
+  },
+  {
+    "driver_id": "IANBUR01",
+    "driver_name": "Ian Burgess"
+  },
+  {
+    "driver_id": "CHRGOE01",
+    "driver_name": "Christian Goethals"
+  },
+  {
+    "driver_id": "ALASTA01",
+    "driver_name": "Alan Stacey"
+  },
+  {
+    "driver_id": "JUDLAR01",
+    "driver_name": "Jud Larson"
+  },
+  {
+    "driver_id": "DEMWIL01",
+    "driver_name": "Dempsey Wilson"
+  },
+  {
+    "driver_id": "ANTFOY01",
+    "driver_name": "Anthony Joseph Foyt"
+  },
+  {
+    "driver_id": "JERUNS01",
+    "driver_name": "Jerry Unser"
+  },
+  {
+    "driver_id": "LENSUT01",
+    "driver_name": "Len Sutton"
+  },
+  {
+    "driver_id": "ARTBIS01",
+    "driver_name": "Art Bisch"
+  },
+  {
+    "driver_id": "ROBCAZ01",
+    "driver_name": "Robert La Caze"
+  },
+  {
+    "driver_id": "ANDGUE01",
+    "driver_name": "Andre Guelfi"
+  },
+  {
+    "driver_id": "FRAPIC01",
+    "driver_name": "Francois Picard"
+  },
+  {
+    "driver_id": "TOMBRI01",
+    "driver_name": "Tom Bridger"
+  },
+  {
+    "driver_id": "FRID'O01",
+    "driver_name": "Fritz d'Orey"
+  },
+  {
+    "driver_id": "COLDAV01",
+    "driver_name": "Colin Davis"
+  },
+  {
+    "driver_id": "CHRBRI01",
+    "driver_name": "Chris Bristow"
+  },
+  {
+    "driver_id": "PETASH01",
+    "driver_name": "Peter Ashdown"
+  },
+  {
+    "driver_id": "DAVPIP01",
+    "driver_name": "David Piper"
+  },
+  {
+    "driver_id": "MIKTAY01",
+    "driver_name": "Mike Taylor"
+  },
+  {
+    "driver_id": "CHUARN01",
+    "driver_name": "Chuck Arnold"
+  },
+  {
+    "driver_id": "JIMMCW01",
+    "driver_name": "Jim McWithey"
+  },
+  {
+    "driver_id": "BOBGRI01",
+    "driver_name": "Bobby Grim"
+  },
+  {
+    "driver_id": "REDAMI01",
+    "driver_name": "Red Amick"
+  },
+  {
+    "driver_id": "MARCAB01",
+    "driver_name": "Mario de Araujo Cabral"
+  },
+  {
+    "driver_id": "HARBLA01",
+    "driver_name": "Harry Blanchard"
+  },
+  {
+    "driver_id": "BOBSAI01",
+    "driver_name": "Bob Said"
+  },
+  {
+    "driver_id": "ALBLAR01",
+    "driver_name": "Alberto Rodriguez Larreta"
+  },
+  {
+    "driver_id": "ROBBON01",
+    "driver_name": "Roberto Bonomi"
+  },
+  {
+    "driver_id": "GINMUN01",
+    "driver_name": "Gino Munaron"
+  },
+  {
+    "driver_id": "NASEST01",
+    "driver_name": "Nasif Estefano"
+  },
+  {
+    "driver_id": "ETTCHI01",
+    "driver_name": "Ettore Chimeri"
+  },
+  {
+    "driver_id": "ANTCRE01",
+    "driver_name": "Antonio Creus"
+  },
+  {
+    "driver_id": "CHUDAI01",
+    "driver_name": "Chuck Daigh"
+  },
+  {
+    "driver_id": "LANREV01",
+    "driver_name": "Lance Reventlow"
+  },
+  {
+    "driver_id": "KEIGRE01",
+    "driver_name": "Keith Greene"
+  },
+  {
+    "driver_id": "LLORUB01",
+    "driver_name": "Lloyd Ruby"
+  },
+  {
+    "driver_id": "BUDTIN01",
+    "driver_name": "Bud Tingelstad"
+  },
+  {
+    "driver_id": "JIMHUR01",
+    "driver_name": "Jim Hurtubise"
+  },
+  {
+    "driver_id": "WAYWEI01",
+    "driver_name": "Wayne Weiler"
+  },
+  {
+    "driver_id": "PIEDRO01",
+    "driver_name": "Piero Drogo"
+  },
+  {
+    "driver_id": "FREGAM01",
+    "driver_name": "Fred Gamble"
+  },
+  {
+    "driver_id": "ALFTHI01",
+    "driver_name": "Alfonso Thiele"
+  },
+  {
+    "driver_id": "VICWIL01",
+    "driver_name": "Vic Wilson"
+  },
+  {
+    "driver_id": "ARTOWE01",
+    "driver_name": "Arthur Owen"
+  },
+  {
+    "driver_id": "PETLOV01",
+    "driver_name": "Pete Lovely"
+  },
+  {
+    "driver_id": "BOBDRA01",
+    "driver_name": "Bob Drake"
+  },
+  {
+    "driver_id": "MICMAY01",
+    "driver_name": "Michael May"
+  },
+  {
+    "driver_id": "BERCOL01",
+    "driver_name": "Bernard Collomb"
+  },
+  {
+    "driver_id": "GERASH01",
+    "driver_name": "Gerry Ashmore"
+  },
+  {
+    "driver_id": "TIMPAR01",
+    "driver_name": "Tim Parnell"
+  },
+  {
+    "driver_id": "MASNAT01",
+    "driver_name": "Massimo Natili"
+  },
+  {
+    "driver_id": "RENPIR01",
+    "driver_name": "Renato Pirocchi"
+  },
+  {
+    "driver_id": "GAESTA01",
+    "driver_name": "Gaetano Starrabba"
+  },
+  {
+    "driver_id": "NINVAC01",
+    "driver_name": "Nino Vaccarella"
+  },
+  {
+    "driver_id": "ROBBUS01",
+    "driver_name": "Roberto Bussinello"
+  },
+  {
+    "driver_id": "ROBLIP01",
+    "driver_name": "Roberto Lippi"
+  },
+  {
+    "driver_id": "ROGPEN01",
+    "driver_name": "Roger Penske"
+  },
+  {
+    "driver_id": "PETRYA01",
+    "driver_name": "Peter Ryan"
+  },
+  {
+    "driver_id": "HAPSHA01",
+    "driver_name": "Hap Sharp"
+  },
+  {
+    "driver_id": "JOHCAM01",
+    "driver_name": "John Campbell-Jones"
+  },
+  {
+    "driver_id": "HEIWAL01",
+    "driver_name": "Heini Walter"
+  },
+  {
+    "driver_id": "HEISCH01",
+    "driver_name": "Heinz Schiller"
+  },
+  {
+    "driver_id": "TONSET01",
+    "driver_name": "Tony Settember"
+  },
+  {
+    "driver_id": "JAYCHA01",
+    "driver_name": "Jay Chamberlain"
+  },
+  {
+    "driver_id": "TONSHE01",
+    "driver_name": "Tony Shelly"
+  },
+  {
+    "driver_id": "BENPON01",
+    "driver_name": "Ben Pon"
+  },
+  {
+    "driver_id": "BRUJOH01",
+    "driver_name": "Bruce Johnstone"
+  },
+  {
+    "driver_id": "ERNPIE01",
+    "driver_name": "Ernie Pieterse"
+  },
+  {
+    "driver_id": "DOUSER01",
+    "driver_name": "Doug Serrurier"
+  },
+  {
+    "driver_id": "MIKHAR01",
+    "driver_name": "Mike Harris"
+  },
+  {
+    "driver_id": "ROBSCH01",
+    "driver_name": "Rob Schroeder"
+  },
+  {
+    "driver_id": "TIMMAY01",
+    "driver_name": "Timmy Mayer"
+  },
+  {
+    "driver_id": "IANRAB01",
+    "driver_name": "Ian Raby"
+  },
+  {
+    "driver_id": "MOISOL01",
+    "driver_name": "Moises Solana"
+  },
+  {
+    "driver_id": "TREBLO01",
+    "driver_name": "Trevor Blokdyk"
+  },
+  {
+    "driver_id": "BRANIE01",
+    "driver_name": "Brausch Niemann"
+  },
+  {
+    "driver_id": "PETKLE01",
+    "driver_name": "Peter de Klerk"
+  },
+  {
+    "driver_id": "DAVPRO01",
+    "driver_name": "David Prophet"
+  },
+  {
+    "driver_id": "SAMTIN01",
+    "driver_name": "Sam Tingle"
+  },
+  {
+    "driver_id": "PETBRO01",
+    "driver_name": "Peter Broeker"
+  },
+  {
+    "driver_id": "FRAGAR01",
+    "driver_name": "Frank Gardner"
+  },
+  {
+    "driver_id": "PAUHAW01",
+    "driver_name": "Paul Hawkins"
+  },
+  {
+    "driver_id": "JOHRHO01",
+    "driver_name": "John Rhodes"
+  },
+  {
+    "driver_id": "GIARUS01",
+    "driver_name": "Giacomo Russo"
+  },
+  {
+    "driver_id": "GIOBAS01",
+    "driver_name": "Giorgio Bassi"
+  },
+  {
+    "driver_id": "HUBHAH01",
+    "driver_name": "Hubert Hahne"
+  },
+  {
+    "driver_id": "JOSCH01",
+    "driver_name": "Jo Schlesser"
+  },
+  {
+    "driver_id": "CHRLAW01",
+    "driver_name": "Chris Lawrence"
+  },
+  {
+    "driver_id": "ALAREE01",
+    "driver_name": "Alan Rees"
+  },
+  {
+    "driver_id": "KURAHR01",
+    "driver_name": "Kurt Ahrens"
+  },
+  {
+    "driver_id": "DAVHOB01",
+    "driver_name": "David Hobbs"
+  },
+  {
+    "driver_id": "MIKFIS01",
+    "driver_name": "Mike Fisher"
+  },
+  {
+    "driver_id": "EPPWIE01",
+    "driver_name": "Eppie Wietzes"
+  },
+  {
+    "driver_id": "ALPEA01",
+    "driver_name": "Al Pease"
+  },
+  {
+    "driver_id": "BRIHAR01",
+    "driver_name": "Brian Hart"
+  },
+  {
+    "driver_id": "JONWIL01",
+    "driver_name": "Jonathan Williams"
+  },
+  {
+    "driver_id": "DAVCHA01",
+    "driver_name": "Dave Charlton"
+  },
+  {
+    "driver_id": "LUKBOT01",
+    "driver_name": "Luki Botha"
+  },
+  {
+    "driver_id": "BILBRA01",
+    "driver_name": "Bill Brack"
+  },
+  {
+    "driver_id": "ROBWID01",
+    "driver_name": "Robin Widdows"
+  },
+  {
+    "driver_id": "JACPRE01",
+    "driver_name": "Jackie Pretorius"
+  },
+  {
+    "driver_id": "BASROO01",
+    "driver_name": "Basil van Rooyen"
+  },
+  {
+    "driver_id": "ANDADA01",
+    "driver_name": "Andrea de Adamich"
+  },
+  {
+    "driver_id": "BOBUNS01",
+    "driver_name": "Bobby Unser"
+  },
+  {
+    "driver_id": "JOHCOR01",
+    "driver_name": "John Cordts"
+  },
+  {
+    "driver_id": "PETWES01",
+    "driver_name": "Peter Westbury"
+  },
+  {
+    "driver_id": "XAVPER01",
+    "driver_name": "Xavier Perrot"
+  },
+  {
+    "driver_id": "GEOEAT01",
+    "driver_name": "George Eaton"
+  },
+  {
+    "driver_id": "GUSHUT01",
+    "driver_name": "Gus Hutchison"
+  },
+  {
+    "driver_id": "HELMAR01",
+    "driver_name": "Helmut Marko"
+  },
+  {
+    "driver_id": "NANGAL01",
+    "driver_name": "Nanni Galli"
+  },
+  {
+    "driver_id": "MIKBEU01",
+    "driver_name": "Mike Beuttler"
+  },
+  {
+    "driver_id": "SKIBAR01",
+    "driver_name": "Skip Barber"
+  },
+  {
+    "driver_id": "FRAMAZ01",
+    "driver_name": "Francois Mazet"
+  },
+  {
+    "driver_id": "MAXJEA01",
+    "driver_name": "Max Jean"
+  },
+  {
+    "driver_id": "ALESOL01",
+    "driver_name": "Alex Soler-Roig"
+  },
+  {
+    "driver_id": "DAVWAL01",
+    "driver_name": "Dave Walker"
+  },
+  {
+    "driver_id": "JOHCAN01",
+    "driver_name": "John Cannon"
+  },
+  {
+    "driver_id": "CHRCRA01",
+    "driver_name": "Chris Craft"
+  },
+  {
+    "driver_id": "SAMPOS01",
+    "driver_name": "Sam Posey"
+  },
+  {
+    "driver_id": "FRAMIG01",
+    "driver_name": "Francois Migault"
+  },
+  {
+    "driver_id": "RIKOPE01",
+    "driver_name": "Rikky von Opel"
+  },
+  {
+    "driver_id": "LUIBUE01",
+    "driver_name": "Luiz Bueno"
+  },
+  {
+    "driver_id": "DAVPUR01",
+    "driver_name": "David Purley"
+  },
+  {
+    "driver_id": "GRAMCR01",
+    "driver_name": "Graham McRae"
+  },
+  {
+    "driver_id": "ROGWIL01",
+    "driver_name": "Roger Williamson"
+  },
+  {
+    "driver_id": "EDDKEI01",
+    "driver_name": "Eddie Keizan"
+  },
+  {
+    "driver_id": "GUYEDW01",
+    "driver_name": "Guy Edwards"
+  },
+  {
+    "driver_id": "RICROB01",
+    "driver_name": "Richard Robarts"
+  },
+  {
+    "driver_id": "DIEQUE01",
+    "driver_name": "Dieter Quester"
+  },
+  {
+    "driver_id": "IANASH01",
+    "driver_name": "Ian Ashley"
+  },
+  {
+    "driver_id": "VERSCH01",
+    "driver_name": "Vern Schuppan"
+  },
+  {
+    "driver_id": "TEDPIL01",
+    "driver_name": "Teddy Pilette"
+  },
+  {
+    "driver_id": "GERLAR01",
+    "driver_name": "Gerard Larrousse"
+  },
+  {
+    "driver_id": "HELKOI01",
+    "driver_name": "Helmuth Koinigg"
+  },
+  {
+    "driver_id": "IANSCH01",
+    "driver_name": "Ian Scheckter"
+  },
+  {
+    "driver_id": "PADDRI01",
+    "driver_name": "Paddy Driver"
+  },
+  {
+    "driver_id": "TOMBEL01",
+    "driver_name": "Tom Belso"
+  },
+  {
+    "driver_id": "LEOKIN01",
+    "driver_name": "Leo Kinnunen"
+  },
+  {
+    "driver_id": "BERROO01",
+    "driver_name": "Bertil Roos"
+  },
+  {
+    "driver_id": "MIKWIL01",
+    "driver_name": "Mike Wilds"
+  },
+  {
+    "driver_id": "JOSDOL01",
+    "driver_name": "Jose Dolhem"
+  },
+  {
+    "driver_id": "BRELUN01",
+    "driver_name": "Brett Lunger"
+  },
+  {
+    "driver_id": "ROEWUN01",
+    "driver_name": "Roelof Wunderink"
+  },
+  {
+    "driver_id": "HARERT01",
+    "driver_name": "Harald Ertl"
+  },
+  {
+    "driver_id": "JOVON01",
+    "driver_name": "Jo Vonlanthen"
+  },
+  {
+    "driver_id": "BOBEVA01",
+    "driver_name": "Bob Evans"
+  },
+  {
+    "driver_id": "BRIHEN01",
+    "driver_name": "Brian Henton"
+  },
+  {
+    "driver_id": "JOHNIC01",
+    "driver_name": "John Nicholson"
+  },
+  {
+    "driver_id": "DAVMOR01",
+    "driver_name": "Dave Morgan"
+  },
+  {
+    "driver_id": "JIMCRA01",
+    "driver_name": "Jim Crawford"
+  },
+  {
+    "driver_id": "GUYTUN01",
+    "driver_name": "Guy Tunmer"
+  },
+  {
+    "driver_id": "TORPAL01",
+    "driver_name": "Torsten Palm"
+  },
+  {
+    "driver_id": "DAMMAG01",
+    "driver_name": "Damien Magee"
+  },
+  {
+    "driver_id": "MICLEC01",
+    "driver_name": "Michel Leclere"
+  },
+  {
+    "driver_id": "ALEPES01",
+    "driver_name": "Alessandro Pesenti-Rossi"
+  },
+  {
+    "driver_id": "HANBIN01",
+    "driver_name": "Hans Binder"
+  },
+  {
+    "driver_id": "LORKES01",
+    "driver_name": "Loris Kessel"
+  },
+  {
+    "driver_id": "LARPER01",
+    "driver_name": "Larry Perkins"
+  },
+  {
+    "driver_id": "PATNEV01",
+    "driver_name": "Patrick Neve"
+  },
+  {
+    "driver_id": "INGHOF01",
+    "driver_name": "Ingo Hoffman"
+  },
+  {
+    "driver_id": "NORTAK01",
+    "driver_name": "Noritake Takahara"
+  },
+  {
+    "driver_id": "MASHAS01",
+    "driver_name": "Masahiro Hasemi"
+  },
+  {
+    "driver_id": "KAZHOS01",
+    "driver_name": "Kazuyoshi Hoshino"
+  },
+  {
+    "driver_id": "BOYHAY01",
+    "driver_name": "Boy Hayje"
+  },
+  {
+    "driver_id": "CONAND01",
+    "driver_name": "Conny Andersson"
+  },
+  {
+    "driver_id": "ALERIB01",
+    "driver_name": "Alex Ribeiro"
+  },
+  {
+    "driver_id": "WARBRO01",
+    "driver_name": "Warwick Brown"
+  },
+  {
+    "driver_id": "RUPKEE01",
+    "driver_name": "Rupert Keegan"
+  },
+  {
+    "driver_id": "EMIVIL01",
+    "driver_name": "Emilio de Villota"
+  },
+  {
+    "driver_id": "DANONG01",
+    "driver_name": "Danny Ongais"
+  },
+  {
+    "driver_id": "HANHEY01",
+    "driver_name": "Hans Heyer"
+  },
+  {
+    "driver_id": "KUNTAK01",
+    "driver_name": "Kunimitsu Takahashi"
+  },
+  {
+    "driver_id": "LAMLEO01",
+    "driver_name": "Lamberto Leoni"
+  },
+  {
+    "driver_id": "BOBRAH01",
+    "driver_name": "Bobby Rahal"
+  },
+  {
+    "driver_id": "MICBLE01",
+    "driver_name": "Michael Bleekemolen"
+  },
+  {
+    "driver_id": "JANLAM01",
+    "driver_name": "Jan Lammers"
+  },
+  {
+    "driver_id": "PATGAI01",
+    "driver_name": "Patrick Gaillard"
+  },
+  {
+    "driver_id": "RICZUN01",
+    "driver_name": "Ricardo Zunino"
+  },
+  {
+    "driver_id": "GEOLEE01",
+    "driver_name": "Geoff Lees"
+  },
+  {
+    "driver_id": "TIFNEE01",
+    "driver_name": "Tiff Needell"
+  },
+  {
+    "driver_id": "MIKTHA01",
+    "driver_name": "Mike Thackwell"
+  },
+  {
+    "driver_id": "SIESTO01",
+    "driver_name": "Siegfried Stohr"
+  },
+  {
+    "driver_id": "BEPGAB01",
+    "driver_name": "Beppe Gabbiani"
+  },
+  {
+    "driver_id": "MIGGUE01",
+    "driver_name": "Miguel Angel Guerra"
+  },
+  {
+    "driver_id": "TOMBYR01",
+    "driver_name": "Tommy Byrne"
+  },
+  {
+    "driver_id": "ROBGUE01",
+    "driver_name": "Roberto Guerrero"
+  },
+  {
+    "driver_id": "RAUBOE01",
+    "driver_name": "Raul Boesel"
+  },
+  {
+    "driver_id": "RICPAL01",
+    "driver_name": "Riccardo Paletti"
+  },
+  {
+    "driver_id": "CORFAB01",
+    "driver_name": "Corrado Fabi"
+  },
+  {
+    "driver_id": "KENACH01",
+    "driver_name": "Kenny Acheson"
+  },
+  {
+    "driver_id": "FRAHES01",
+    "driver_name": "Francois Hesnault"
+  },
+  {
+    "driver_id": "JOGAR01",
+    "driver_name": "Jo Gartner"
+  },
+  {
+    "driver_id": "HUUROT01",
+    "driver_name": "Huub Rothengatter"
+  },
+  {
+    "driver_id": "ALLBER01",
+    "driver_name": "Allen Berg"
+  },
+  {
+    "driver_id": "YANDAL01",
+    "driver_name": "Yannick Dalmas"
+  },
+  {
+    "driver_id": "ADRCAM01",
+    "driver_name": "Adrian Campos"
+  },
+  {
+    "driver_id": "PASFAB01",
+    "driver_name": "Pascal Fabre"
+  },
+  {
+    "driver_id": "FRAFOR01",
+    "driver_name": "Franco Forini"
+  },
+  {
+    "driver_id": "OSCLAR01",
+    "driver_name": "Oscar Larrauri"
+  },
+  {
+    "driver_id": "PIERAP01",
+    "driver_name": "Pierre Henri Raphanel"
+  },
+  {
+    "driver_id": "BERSCH01",
+    "driver_name": "Bernd Schneider"
+  },
+  {
+    "driver_id": "JEASCH01",
+    "driver_name": "Jean Louis Schlesser"
+  },
+  {
+    "driver_id": "GREFOI01",
+    "driver_name": "Gregor Foitek"
+  },
+  {
+    "driver_id": "VOLWEI01",
+    "driver_name": "Volker Weidler"
+  },
+  {
+    "driver_id": "PAOBAR01",
+    "driver_name": "Paolo Barilla"
+  },
+  {
+    "driver_id": "DAVBRA01",
+    "driver_name": "David Brabham"
+  },
+  {
+    "driver_id": "ERIPOE01",
+    "driver_name": "Eric van de Poele"
+  },
+  {
+    "driver_id": "MICBAR01",
+    "driver_name": "Michael Bartels"
+  },
+  {
+    "driver_id": "EMANAS01",
+    "driver_name": "Emanuele Naspetti"
+  },
+  {
+    "driver_id": "PERMCC01",
+    "driver_name": "Perry McCarthy"
+  },
+  {
+    "driver_id": "ANDCHI01",
+    "driver_name": "Andrea Chiesa"
+  },
+  {
+    "driver_id": "PAUBEL01",
+    "driver_name": "Paul Belmondo"
+  },
+  {
+    "driver_id": "GIOAMA01",
+    "driver_name": "Giovanna Amati"
+  },
+  {
+    "driver_id": "JEAGOU01",
+    "driver_name": "Jean-Marc Gounon"
+  },
+  {
+    "driver_id": "TOSSUZ01",
+    "driver_name": "Toshio Suzuki"
+  },
+  {
+    "driver_id": "MARAPI01",
+    "driver_name": "Marco Apicella"
+  },
+  {
+    "driver_id": "FRALAG01",
+    "driver_name": "Franck Lagorce"
+  },
+  {
+    "driver_id": "HIDNOD01",
+    "driver_name": "Hideki Noda"
+  },
+  {
+    "driver_id": "DOMSCH01",
+    "driver_name": "Domenico Schiattarella"
+  },
+  {
+    "driver_id": "JEADEL01",
+    "driver_name": "Jean-Denis Deletraz"
+  },
+  {
+    "driver_id": "PHIADA01",
+    "driver_name": "Philippe Adams"
+  },
+  {
+    "driver_id": "OLIBER01",
+    "driver_name": "Olivier Beretta"
+  },
+  {
+    "driver_id": "ROLRAT01",
+    "driver_name": "Roland Ratzenberger"
+  },
+  {
+    "driver_id": "TAKINO01",
+    "driver_name": "Taki Inoue"
+  },
+  {
+    "driver_id": "ANDMON01",
+    "driver_name": "Andrea Montermini"
+  },
+  {
+    "driver_id": "MASPAP01",
+    "driver_name": "Massimiliano Papis"
+  },
+  {
+    "driver_id": "GIOLAV01",
+    "driver_name": "Giovanni Lavaggi"
+  },
+  {
+    "driver_id": "TARMAR01",
+    "driver_name": "Tarso Marques"
+  },
+  {
+    "driver_id": "VINSOS01",
+    "driver_name": "Vincenzo Sospiri"
+  },
+  {
+    "driver_id": "NORFON01",
+    "driver_name": "Norberto Fontana"
+  },
+  {
+    "driver_id": "STESAR01",
+    "driver_name": "Stephane Sarrazin"
+  },
+  {
+    "driver_id": "TOMENG01",
+    "driver_name": "Tomas Enge"
+  },
+  {
+    "driver_id": "BJOWIR01",
+    "driver_name": "Bjorn Wirdheim"
+  },
+  {
+    "driver_id": "BASLEI01",
+    "driver_name": "Bas Leinders"
+  },
+  {
+    "driver_id": "RYABRI01",
+    "driver_name": "Ryan Briscoe"
+  },
+  {
+    "driver_id": "ENRTOC01",
+    "driver_name": "Enrico Toccacelo"
+  },
+  {
+    "driver_id": "CHANIS01",
+    "driver_name": "Chanoch Nissany"
+  },
+  {
+    "driver_id": "MARWIN01",
+    "driver_name": "Markus Winkelhock"
+  },
+  {
+    "driver_id": "NEEJAN01",
+    "driver_name": "Neel Jani"
+  },
+  {
+    "driver_id": "MICAMM01",
+    "driver_name": "Michael Ammermuller"
+  },
+  {
+    "driver_id": "ERNVIS01",
+    "driver_name": "Ernesto Viso"
+  },
+  {
+    "driver_id": "GIOMON01",
+    "driver_name": "Giorgio Mondini"
+  },
+  {
+    "driver_id": "ALEPRE01",
+    "driver_name": "Alexandre Premat"
+  },
+  {
+    "driver_id": "FAIFAU01",
+    "driver_name": "Fairuz Fauzy"
+  },
+  {
+    "driver_id": "ROBWIC01",
+    "driver_name": "Robert Wickens"
+  },
+  {
+    "driver_id": "LUIRAZ01",
+    "driver_name": "Luiz Razia"
+  },
+  {
+    "driver_id": "JANCHA01",
+    "driver_name": "Jan Charouz"
+  },
+  {
+    "driver_id": "DAVVAL01",
+    "driver_name": "Davide Valsecchi"
+  },
+  {
+    "driver_id": "MAHUA01",
+    "driver_name": "Ma Qing Hua"
+  },
+  {
+    "driver_id": "DANCLO01",
+    "driver_name": "Dani Clos"
+  },
+  {
+    "driver_id": "JAMCAL01",
+    "driver_name": "James Calado"
+  },
+  {
+    "driver_id": "RODGON01",
+    "driver_name": "Rodolfo Gonzalez"
+  },
+  {
+    "driver_id": "ADDFON01",
+    "driver_name": "Adderly Fong"
+  },
+  {
+    "driver_id": "ROBFRI01",
+    "driver_name": "Robin Frijns"
+  },
+  {
+    "driver_id": "ANDLOT01",
+    "driver_name": "Andre Lotterer"
+  },
+  {
+    "driver_id": "DANJUN01",
+    "driver_name": "Daniel Juncadella"
+  },
+  {
+    "driver_id": "SUSWOL01",
+    "driver_name": "Susie Wolff"
+  },
+  {
+    "driver_id": "RAFMAR01",
+    "driver_name": "Raffaele Marciello"
+  },
+  {
+    "driver_id": "FABLEI01",
+    "driver_name": "Fabio Leimer"
+  },
+  {
+    "driver_id": "ALFCEL01",
+    "driver_name": "Alfonso Celis"
+  },
+  {
+    "driver_id": "JORKIN01",
+    "driver_name": "Jordan King"
+  },
+  {
+    "driver_id": "SEAGEL01",
+    "driver_name": "Sean Gelael"
+  },
+  {
+    "driver_id": "ARTMAR01",
+    "driver_name": "Artem Markelov"
+  },
+  {
+    "driver_id": "NAOYAM01",
+    "driver_name": "Naoki Yamamoto"
+  },
+  {
+    "driver_id": "ROYNIS01",
+    "driver_name": "Roy Nissany"
+  },
+  {
+    "driver_id": "CALILO01",
+    "driver_name": "Callum Ilott"
+  },
+  {
+    "driver_id": "ROBSHW01",
+    "driver_name": "Robert Shwartzman"
+  },
+  {
+    "driver_id": "PATO'W01",
+    "driver_name": "Patricio O'Ward"
+  },
+  {
+    "driver_id": "FELDRU01",
+    "driver_name": "Felipe Drugovich"
+  },
+  {
+    "driver_id": "JURVIP01",
+    "driver_name": "Juri Vips"
+  },
+  {
+    "driver_id": "ALEPAL01",
+    "driver_name": "Alex Palou"
+  },
+  {
+    "driver_id": "THEPOU01",
+    "driver_name": "Theo Pourchaire"
+  },
+  {
+    "driver_id": "FREVES01",
+    "driver_name": "Frederik Vesti"
+  },
+  {
+    "driver_id": "JAKDEN01",
+    "driver_name": "Jake Dennis"
+  },
+  {
+    "driver_id": "ZAKO'S01",
+    "driver_name": "Zak O'Sullivan"
+  },
+  {
+    "driver_id": "RYOHIR01",
+    "driver_name": "Ryo Hirakawa"
+  },
+  {
+    "driver_id": "AYUIWA01",
+    "driver_name": "Ayumu Iwasa"
+  },
+  {
+    "driver_id": "ARTLEC01",
+    "driver_name": "Arthur Leclerc"
+  },
+  {
+    "driver_id": "LUKBRO01",
+    "driver_name": "Luke Browning"
+  },
+  {
+    "driver_id": "DINBEG01",
+    "driver_name": "Dino Beganovic"
+  },
+  {
+    "driver_id": "VICMAR01",
+    "driver_name": "Victor Martins"
   }
 ]
