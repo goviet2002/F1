@@ -526,7 +526,7 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
                             
                             if col_name == 'Pos' and record['pos'] is None:
                                 try:
-                                    record['pos'] = int(value)  # Convert to int
+                                    record['pos'] = value
                                 except (ValueError, TypeError):
                                     record['pos'] = None
                             
@@ -744,16 +744,6 @@ def enforce_qualifying_schema(fact_tables):
                     if no_value is not None:
                         try:
                             new_rec[col] = int(no_value)
-                        except (ValueError, TypeError):
-                            new_rec[col] = None
-                    else:
-                        new_rec[col] = None
-                elif col == "pos":
-                    # Convert 'pos' to int, handle non-numeric values
-                    pos_value = rec.get(col)
-                    if pos_value is not None:
-                        try:
-                            new_rec[col] = int(pos_value)
                         except (ValueError, TypeError):
                             new_rec[col] = None
                     else:
