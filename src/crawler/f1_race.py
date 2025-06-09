@@ -9,7 +9,7 @@ import sys
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from utils.path import get_project_root
-from utils.f1_shared import ssl_context, head, base_url, years, test_function
+from utils.crawling_helpers import ssl_context, head, base_url, years, test_function
 
 PROJECT_ROOT = get_project_root()
 DATA_DIR = os.path.join(PROJECT_ROOT, "data", "f1_race_data")
