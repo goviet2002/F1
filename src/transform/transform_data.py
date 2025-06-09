@@ -4,6 +4,7 @@ from collections import defaultdict
 import re
 import datetime
 import sys
+import urllib.parse
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from utils.helper import safe_float, safe_int
@@ -255,6 +256,22 @@ def extract_drivers_dimensions():
     
     return drivers
 
+def generate_team_id(team_name):
+    # Step 1: Convert to lowercase and replace spaces with hyphens
+    team_name = team_name.lower().replace(" ", "-").replace("/", "-")
+
+    # Step 2: Split the name into parts (manufacturer, team, sponsor, etc.)
+    team_name_parts = team_name.split("-")
+
+    # Step 3: Abbreviate each part (keep it simple by taking the first letter or first 3 characters)
+    # For example, "Ferrari" -> "FER", "McLaren" -> "McL"
+    abbreviated_parts = [part[:3].upper() for part in team_name_parts]
+
+    # Step 4: Combine the abbreviated parts to form the team ID
+    team_id = "-".join(abbreviated_parts)
+
+    return team_id
+
 def extract_teams_dimensions():
     """Extract teams from f1_teams_data folder"""
     teams = {}
@@ -272,12 +289,12 @@ def extract_teams_dimensions():
                     with open(file_path, 'r', encoding='utf-8') as f:
                         team_data = json.load(f)
                     
-                    team_code = team_data.get('team_code')
                     team_name = team_data.get('name')
+                    team_code = generate_team_id(team_name)
                     
                     if team_code and team_name:
                         teams[team_code] = {
-                            'team_id': team_code,  # Use team_code as ID
+                            'team_id': generate_team_id(team_code),
                             'team_name': team_name,
                             # 'url': team_data.get('url', '')
                         }
@@ -486,6 +503,8 @@ def transform_to_facts(session_files, dimensions):
                                 record['lap'] = safe_int(row[idx])
                             elif col == 'Pts':
                                 record['pts'] = safe_float(row[idx])
+                            elif col == "Stops":
+                                record['stops'] = safe_int(row[idx])
                             else:
                                 col_name = col.lower().replace(' ', '_')
                                 record[col_name] = row[idx]
