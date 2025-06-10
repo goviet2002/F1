@@ -49,13 +49,31 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
             for row in data.get('data', []):
                 if driver_idx < len(row) and row[driver_idx]:
                     all_drivers.add(row[driver_idx])
-    
+                    
+    race_year = dimensions['races'][race_id]['year'] if race_id in dimensions['races'] else 0
+
     # Create combined records
     combined_records = []
     driver_id_map = {}
     for d in dimensions['drivers'].values():
-        for variant in normalize_name(d['driver_name']):
-            driver_id_map[variant] = d['driver_id']
+        driver_name = d['driver_name']
+        driver_id = d['driver_id']
+        
+        # Special handling for Nelson Piquet based on era
+        if driver_name.lower() == "nelson piquet":
+            # Only add appropriate version based on year
+            if "01" in driver_id and race_year <= 1991:
+                # This is Nelson Piquet Sr. and race is before or in 1991
+                for variant in normalize_name(driver_name):
+                    driver_id_map[variant] = driver_id
+            elif "02" in driver_id and race_year > 1991:
+                # This is Nelson Piquet Jr. and race is after 1991
+                for variant in normalize_name(driver_name):
+                    driver_id_map[variant] = driver_id
+        else:
+            # Regular handling for all other drivers
+            for variant in normalize_name(driver_name):
+                driver_id_map[variant] = driver_id
     team_id_map = {t['team_name']: t['team_id'] for t in dimensions['teams'].values()}
     
     # Helper function for sorting - give priority to actual Q sessions
