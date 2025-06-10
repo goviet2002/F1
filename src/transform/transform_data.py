@@ -8,6 +8,7 @@ import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from utils.tranform_helpers import safe_float, safe_int, get_fact_table_name, generate_team_id, \
                                 generate_unique_driver_id, normalize_driver_name, find_driver_id
+from utils.country_list import country_list
 
 from transform_qualifying import extract_starting_grid_positions, is_multi_part_qualifying, process_combined_qualifying, \
                                  enforce_qualifying_schema, DATA_DIR, RACE_DATA_DIR
@@ -492,6 +493,18 @@ def transform_race_results_to_facts(session_files, dimensions):
                     'session_id': session_id
                 }
                 
+                if fact_table == 'fastest_laps':
+                    record.update({
+                        'position': None,
+                        'number': None,
+                        'driver_id': None,
+                        'team_id': None,
+                        'lap': None,
+                        'time': None,
+                        'avg_speed': None,
+                        'time_of_day': None,
+                    })
+                
                 # Handle practice sessions with specific column mapping
                 if fact_table == 'practice_results':
                     # Initialize all practice fields to null first
@@ -577,6 +590,10 @@ def transform_race_results_to_facts(session_files, dimensions):
                                 record['stops'] = safe_int(row[idx])
                             elif col == "Pos":
                                 record['position'] = row[idx]
+                            elif col == 'Time/retired':
+                                record['time'] = row[idx]
+                            elif col == 'Avg speed':
+                                record['avg_speed'] = safe_float(row[idx])
                             else:
                                 col_name = col.lower().replace(' ', '_')
                                 record[col_name] = row[idx]
@@ -599,6 +616,19 @@ def transform_race_results_to_facts(session_files, dimensions):
     enforce_qualifying_schema(fact_tables)
 
     return fact_tables
+
+def extract_countries_dimensions(country_list):
+    """Create countries dimension table from predefined list"""
+    countries = {}
+    
+    for country_code, country_name in country_list:
+        countries[country_code] = {
+            'country_code': country_code,
+            'country_name': country_name
+        }
+    
+    print(f"Created {len(countries)} countries")
+    return countries
 
 def main():
     print("Starting F1 Data Transformation...")
@@ -630,13 +660,15 @@ def main():
     # Extract from dedicated folders
     drivers_dims = extract_drivers_dimensions()
     teams_dims = extract_teams_dimensions()
+    countries_dims = extract_countries_dimensions(country_list)
     
     # Combine all dimensions
     dimensions = {
         'races': race_sessions_dims['races'],
         'sessions': race_sessions_dims['sessions'],
         'drivers': drivers_dims,
-        'teams': teams_dims
+        'teams': teams_dims,
+        'countries': countries_dims
     }
     
     print(f"Found {len(dimensions['drivers'])} drivers")
