@@ -243,7 +243,7 @@ def process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fa
                 continue
 
         # Check if this race has sprint grid but no sprint qualifying
-        race_folder = os.path.join(DATA_DIR, str(year), grand_prix)
+        race_folder = os.path.join(RACE_DATA_DIR, str(year), grand_prix)
         sprint_grid_file = os.path.join(race_folder, 'sprint_grid.json')
         has_sprint_grid = os.path.exists(sprint_grid_file)
         
@@ -412,8 +412,8 @@ def extract_starting_grid_positions(race_id_map):
     
     print("Extracting starting grid positions and times...")
     
-    for year_dir in os.listdir(DATA_DIR):
-        year_path = os.path.join(DATA_DIR, year_dir)
+    for year_dir in os.listdir(RACE_DATA_DIR):
+        year_path = os.path.join(RACE_DATA_DIR, year_dir)
         if not os.path.isdir(year_path):
             continue
             
