@@ -7,8 +7,8 @@ from utils.path import get_project_root
 from utils.tranform_helpers import normalize_name
 
 PROJECT_ROOT = get_project_root()
-DATA_DIR = os.path.join(PROJECT_ROOT, "data", "f1_race_data")
-os.makedirs(DATA_DIR, exist_ok=True)
+DATA_DIR = os.path.join(PROJECT_ROOT, "data")
+RACE_DATA_DIR = os.path.join(PROJECT_ROOT, "data", "f1_race_data")
 
 def is_multi_part_qualifying(session_name):
     """Check if this is part of multi-part qualifying or a single qualifying session"""
