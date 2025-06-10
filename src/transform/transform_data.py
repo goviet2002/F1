@@ -6,17 +6,11 @@ import datetime
 import sys
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from utils.tranform_helpers import safe_float, safe_int, get_fact_table_name, update_driver_dimensions_with_nationality, \
-                                generate_team_id, generate_unique_driver_id, get_full_nationality
+from utils.tranform_helpers import safe_float, safe_int, get_fact_table_name, generate_team_id, \
+                                generate_unique_driver_id, normalize_driver_name, find_driver_id
 
 from transform_qualifying import extract_starting_grid_positions, is_multi_part_qualifying, process_combined_qualifying, \
-                                 enforce_qualifying_schema, normalize_name, DATA_DIR
-def normalize_driver_name(name):
-    """Standardize driver name format for consistent matching"""
-    if not name:
-        return ""
-    # Remove extra spaces, standardize case
-    return " ".join(name.strip().split())
+                                 enforce_qualifying_schema, DATA_DIR, RACE_DATA_DIR
 
 def discover_sessions():
     """Discover all session types and their schemas"""
@@ -25,8 +19,8 @@ def discover_sessions():
     race_metadata = []  # List of (year, grand_prix, file_path)
     
     # Walk through the directory structure
-    for year_dir in os.listdir(DATA_DIR):
-        year_path = os.path.join(DATA_DIR, year_dir)
+    for year_dir in os.listdir(RACE_DATA_DIR):
+        year_path = os.path.join(RACE_DATA_DIR, year_dir)
         if not os.path.isdir(year_path):
             continue
             
@@ -234,7 +228,7 @@ def extract_race_sessions_dimensions(session_files, race_metadata_files):
 def extract_drivers_dimensions():
     """Extract drivers from f1_drivers_data folder"""
     drivers = {}
-    drivers_data_dir = r"C:\Users\anhvi\OneDrive\Desktop\F1 Projekt\data\f1_drivers_data"
+    drivers_data_dir = os.path.join(DATA_DIR, "f1_drivers_data")
     
     for year_dir in os.listdir(drivers_data_dir):
         year_path = os.path.join(drivers_data_dir, year_dir)
@@ -264,7 +258,7 @@ def extract_drivers_dimensions():
 
 def extract_driver_standings_facts(dimensions):
     """Extract driver standings from race_standing.json"""
-    drivers_data_dir = r"C:\Users\anhvi\OneDrive\Desktop\F1 Projekt\data\f1_drivers_data"
+    drivers_data_dir = os.path.join(DATA_DIR, "f1_drivers_data")
     driver_standings_file = os.path.join(drivers_data_dir, "race_standing.json")
     
     driver_standings = []
@@ -362,7 +356,7 @@ def extract_driver_standings_facts(dimensions):
 
 def extract_team_standings_facts(dimensions):
     """Extract team standings from team_standing.json"""
-    teams_data_dir = r"C:\Users\anhvi\OneDrive\Desktop\F1 Projekt\data\f1_teams_data"
+    teams_data_dir = os.path.join(DATA_DIR, "f1_teams_data")
     team_standings_file = os.path.join(teams_data_dir, "team_standing.json")
     
     team_standings = []
@@ -403,7 +397,7 @@ def extract_team_standings_facts(dimensions):
 def extract_teams_dimensions():
     """Extract teams from f1_teams_data folder"""
     teams = {}
-    teams_data_dir = r"C:\Users\anhvi\OneDrive\Desktop\F1 Projekt\data\f1_teams_data"
+    teams_data_dir = os.path.join(DATA_DIR, "f1_teams_data")
     
     for year_dir in os.listdir(teams_data_dir):
         year_path = os.path.join(teams_data_dir, year_dir)
@@ -451,77 +445,7 @@ def transform_race_results_to_facts(session_files, dimensions):
     # Create fact tables
     fact_tables = defaultdict(list)
     fact_counters = defaultdict(int)
-    
-    # Helper function to find correct driver ID with era-based matching
-    def find_driver_id(driver_name, year):
-        # Create cache key - include year for drivers with multiple entries
-        cache_key = f"{driver_name.lower()}|{year}"
 
-        # Check cache first
-        if cache_key in driver_cache:
-            return driver_cache[cache_key]
-
-        driver_id = None
-        normalized_name = normalize_driver_name(driver_name)
-
-        # Special handling for drivers with multiple entries based on era/year
-        if driver_name.lower() == "nelson piquet":
-            if int(year) <= 1991:
-                # Look for NELPIQ01 first (Sr.)
-                for d_id, d_info in dimensions['drivers'].items():
-                    if d_info['driver_name'].lower() == driver_name.lower() and "01" in d_id:
-                        driver_id = d_id
-                        break
-            else:
-                # Look for NELPIQ02 (Jr.)
-                for d_id, d_info in dimensions['drivers'].items():
-                    if d_info['driver_name'].lower() == driver_name.lower() and "02" in d_id:
-                        driver_id = d_id
-                        break
-        
-        elif driver_name.lower() == "robert doornbos":
-            if int(year) == 2005:
-                # Look for ROBDOO02 first (2005 Monaco)
-                for d_id, d_info in dimensions['drivers'].items():
-                    if d_info['driver_name'].lower() == driver_name.lower() and "02" in d_id:
-                        driver_id = d_id
-                        break
-            else:
-                # Look for ROBDOO02 (2006+ Netherlands)
-                for d_id, d_info in dimensions['drivers'].items():
-                    if d_info['driver_name'].lower() == driver_name.lower() and "01" in d_id:
-                        driver_id = d_id
-                        break
-        
-        else:
-            # Regular matching - just pick the first match found
-            for d_id, d_info in dimensions['drivers'].items():
-                if normalize_driver_name(d_info['driver_name']) == normalized_name:
-                    driver_id = d_id
-                    break
-                    
-            # Also check in missing_drivers
-            if not driver_id:
-                for d_id, d_info in missing_drivers.items():
-                    if normalize_driver_name(d_info['driver_name']) == normalized_name:
-                        driver_id = d_id
-                        break
-
-        # Create new entry if still no match
-        if not driver_id:
-            driver_id = generate_unique_driver_id(
-                driver_name, 
-                [dimensions['drivers'], missing_drivers]
-            )
-            
-            missing_drivers[driver_id] = {
-                'driver_id': driver_id,
-                'driver_name': normalize_driver_name(driver_name)
-            }
-        
-        driver_cache[cache_key] = driver_id
-        return driver_id
-        
     # Group qualifying sessions by race for combining
     qualifying_sessions = defaultdict(list)  # race_key -> list of (session_name, file_path)
     other_sessions = []
@@ -584,7 +508,7 @@ def transform_race_results_to_facts(session_files, dimensions):
                         if idx < len(row) and row[idx]:
                             if col == 'Driver':
                                 driver_name = row[idx]
-                                driver_id = find_driver_id(driver_name, year)
+                                driver_id =  find_driver_id(driver_name, year, driver_cache, dimensions, missing_drivers)
                                 record['driver_id'] = driver_id
                             elif col == 'Car':
                                 team_name = row[idx]
@@ -619,7 +543,7 @@ def transform_race_results_to_facts(session_files, dimensions):
                         if idx < len(row) and row[idx]:
                             if col == 'Driver':
                                 driver_name = row[idx]
-                                driver_id = find_driver_id(driver_name, year)
+                                driver_id = find_driver_id(driver_name, year, driver_cache, dimensions, missing_drivers)
                                 record['driver_id'] = driver_id
                             elif col == 'Car':
                                 team_name = row[idx]
@@ -741,7 +665,7 @@ def main():
 
 def save_transformed_data(dimensions, facts):
     """Save transformed data as JSON files"""
-    TRANSFORM_DIR = r"C:\Users\anhvi\OneDrive\Desktop\F1 Projekt\data\transformed"
+    TRANSFORM_DIR = os.path.join(DATA_DIR, "transformed_data")
     
     # Create output directories
     os.makedirs(os.path.join(TRANSFORM_DIR, "dimensions"), exist_ok=True)

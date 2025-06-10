@@ -272,78 +272,79 @@ def generate_unique_driver_id(driver_name, existing_ids_sources):
         if counter > 99:  # Safety check
             return f"{base_id}{counter}"  # No leading zero for 3+ digits
 
-def build_driver_era_map(dimensions):
-    """
-    Automatically build era mapping for drivers with same names
-    Returns dict: {driver_name: [(driver_id, estimated_start_year, estimated_end_year), ...]}
-    """
-    # Group drivers by name
-    drivers_by_name = {}
-    for driver_id, driver_info in dimensions['drivers'].items():
-        name = driver_info['driver_name'].lower()
-        if name not in drivers_by_name:
-            drivers_by_name[name] = []
-        drivers_by_name[name].append((driver_id, driver_info))
-    
-    # Build era map for drivers with duplicate names
-    era_map = {}
-    for name, drivers in drivers_by_name.items():
-        if len(drivers) > 1:  # Only process names with multiple drivers
-            # Extract numeric suffix from driver_id to determine order
-            driver_eras = []
-            for driver_id, driver_info in drivers:
-                # Extract number from driver_id (e.g., "NELPIQ01" -> 1, "NELPIQ02" -> 2)
-                import re
-                match = re.search(r'(\d+)$', driver_id)
-                suffix_num = int(match.group(1)) if match else 1
-                driver_eras.append((driver_id, suffix_num))
-            
-            # Sort by suffix number (01 comes before 02)
-            driver_eras.sort(key=lambda x: x[1])
-            era_map[name] = [driver_id for driver_id, _ in driver_eras]
-    
-    return era_map
 
-def find_best_driver_match(driver_name, year, dimensions, era_map=None):
-    """
-    Find the best driver match considering era/generation
+def find_driver_id(driver_name, year, driver_cache, dimensions, missing_drivers):
+    # Create cache key - include year for drivers with multiple entries
+    cache_key = f"{driver_name.lower()}|{year}"
+
+    # Check cache first
+    if cache_key in driver_cache:
+        return driver_cache[cache_key]
+
+    driver_id = None
+    normalized_name = normalize_driver_name(driver_name)
+
+    # Special handling for drivers with multiple entries based on era/year
+    if driver_name.lower() == "nelson piquet":
+        if int(year) <= 1991:
+            # Look for NELPIQ01 first (Sr.)
+            for d_id, d_info in dimensions['drivers'].items():
+                if d_info['driver_name'].lower() == driver_name.lower() and "01" in d_id:
+                    driver_id = d_id
+                    break
+        else:
+            # Look for NELPIQ02 (Jr.)
+            for d_id, d_info in dimensions['drivers'].items():
+                if d_info['driver_name'].lower() == driver_name.lower() and "02" in d_id:
+                    driver_id = d_id
+                    break
     
-    Args:
-        driver_name: Name of the driver
-        year: Year of the race/standing
-        dimensions: Driver dimensions
-        era_map: Pre-built era mapping (optional)
+    elif driver_name.lower() == "robert doornbos":
+        if int(year) == 2005:
+            # Look for ROBDOO02 first (2005 Monaco)
+            for d_id, d_info in dimensions['drivers'].items():
+                if d_info['driver_name'].lower() == driver_name.lower() and "02" in d_id:
+                    driver_id = d_id
+                    break
+        else:
+            # Look for ROBDOO02 (2006+ Netherlands)
+            for d_id, d_info in dimensions['drivers'].items():
+                if d_info['driver_name'].lower() == driver_name.lower() and "01" in d_id:
+                    driver_id = d_id
+                    break
     
-    Returns:
-        driver_id: Best matching driver ID
-    """
-    driver_name_lower = driver_name.lower()
-    
-    # Build era map if not provided
-    if era_map is None:
-        era_map = build_driver_era_map(dimensions)
-    
-    # If no duplicate names, use simple matching
-    if driver_name_lower not in era_map:
-        for d_id, d_info in dimensions['drivers'].items():
-            if d_info['driver_name'].lower() == driver_name_lower:
-                return d_id
-        return None
-    
-    # Handle duplicate names using era-based logic
-    candidate_ids = era_map[driver_name_lower]
-    
-    if not year:
-        # No year info, return first candidate
-        return candidate_ids[0]
-    
-    # Era-based heuristics
-    if year <= 1990:
-        # Earlier years likely belong to the first generation (01)
-        return candidate_ids[0]
-    elif year >= 2000:
-        # Later years likely belong to newer generation (02, 03, etc.)
-        return candidate_ids[-1] if len(candidate_ids) > 1 else candidate_ids[0]
     else:
-        # 1990s - could be either, lean towards first generation
-        return candidate_ids[0]
+        # Regular matching - just pick the first match found
+        for d_id, d_info in dimensions['drivers'].items():
+            if normalize_driver_name(d_info['driver_name']) == normalized_name:
+                driver_id = d_id
+                break
+                
+        # Also check in missing_drivers
+        if not driver_id:
+            for d_id, d_info in missing_drivers.items():
+                if normalize_driver_name(d_info['driver_name']) == normalized_name:
+                    driver_id = d_id
+                    break
+
+    # Create new entry if still no match
+    if not driver_id:
+        driver_id = generate_unique_driver_id(
+            driver_name, 
+            [dimensions['drivers'], missing_drivers]
+        )
+        
+        missing_drivers[driver_id] = {
+            'driver_id': driver_id,
+            'driver_name': normalize_driver_name(driver_name)
+        }
+    
+    driver_cache[cache_key] = driver_id
+    return driver_id
+    
+def normalize_driver_name(name):
+    """Standardize driver name format for consistent matching"""
+    if not name:
+        return ""
+    # Remove extra spaces, standardize case
+    return " ".join(name.strip().split())

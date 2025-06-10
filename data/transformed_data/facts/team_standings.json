@@ -1,0 +1,4937 @@
+[
+  {
+    "team_standing_id": 1,
+    "position": "1",
+    "team_id": "VAN",
+    "points": 48.0,
+    "year": 1958
+  },
+  {
+    "team_standing_id": 2,
+    "position": "2",
+    "team_id": "FER",
+    "points": 40.0,
+    "year": 1958
+  },
+  {
+    "team_standing_id": 3,
+    "position": "3",
+    "team_id": "COO-CLI",
+    "points": 31.0,
+    "year": 1958
+  },
+  {
+    "team_standing_id": 4,
+    "position": "4",
+    "team_id": "BRM",
+    "points": 18.0,
+    "year": 1958
+  },
+  {
+    "team_standing_id": 5,
+    "position": "5",
+    "team_id": "MAS",
+    "points": 6.0,
+    "year": 1958
+  },
+  {
+    "team_standing_id": 6,
+    "position": "6",
+    "team_id": "LOT-CLI",
+    "points": 3.0,
+    "year": 1958
+  },
+  {
+    "team_standing_id": 7,
+    "position": "1",
+    "team_id": "COO-CLI",
+    "points": 40.0,
+    "year": 1959
+  },
+  {
+    "team_standing_id": 8,
+    "position": "2",
+    "team_id": "FER",
+    "points": 32.0,
+    "year": 1959
+  },
+  {
+    "team_standing_id": 9,
+    "position": "3",
+    "team_id": "BRM",
+    "points": 18.0,
+    "year": 1959
+  },
+  {
+    "team_standing_id": 10,
+    "position": "4",
+    "team_id": "LOT-CLI",
+    "points": 5.0,
+    "year": 1959
+  },
+  {
+    "team_standing_id": 11,
+    "position": "1",
+    "team_id": "COO-CLI",
+    "points": 48.0,
+    "year": 1960
+  },
+  {
+    "team_standing_id": 12,
+    "position": "2",
+    "team_id": "LOT-CLI",
+    "points": 34.0,
+    "year": 1960
+  },
+  {
+    "team_standing_id": 13,
+    "position": "3",
+    "team_id": "FER",
+    "points": 26.0,
+    "year": 1960
+  },
+  {
+    "team_standing_id": 14,
+    "position": "4",
+    "team_id": "BRM",
+    "points": 8.0,
+    "year": 1960
+  },
+  {
+    "team_standing_id": 15,
+    "position": "5",
+    "team_id": "COO-MAS",
+    "points": 3.0,
+    "year": 1960
+  },
+  {
+    "team_standing_id": 16,
+    "position": "5",
+    "team_id": "COO-CAS",
+    "points": 3.0,
+    "year": 1960
+  },
+  {
+    "team_standing_id": 17,
+    "position": "1",
+    "team_id": "FER",
+    "points": 40.0,
+    "year": 1961
+  },
+  {
+    "team_standing_id": 18,
+    "position": "2",
+    "team_id": "LOT-CLI",
+    "points": 32.0,
+    "year": 1961
+  },
+  {
+    "team_standing_id": 19,
+    "position": "3",
+    "team_id": "POR",
+    "points": 22.0,
+    "year": 1961
+  },
+  {
+    "team_standing_id": 20,
+    "position": "4",
+    "team_id": "COO-CLI",
+    "points": 14.0,
+    "year": 1961
+  },
+  {
+    "team_standing_id": 21,
+    "position": "5",
+    "team_id": "BRM-CLI",
+    "points": 7.0,
+    "year": 1961
+  },
+  {
+    "team_standing_id": 22,
+    "position": "1",
+    "team_id": "BRM",
+    "points": 42.0,
+    "year": 1962
+  },
+  {
+    "team_standing_id": 23,
+    "position": "2",
+    "team_id": "LOT-CLI",
+    "points": 36.0,
+    "year": 1962
+  },
+  {
+    "team_standing_id": 24,
+    "position": "3",
+    "team_id": "COO-CLI",
+    "points": 29.0,
+    "year": 1962
+  },
+  {
+    "team_standing_id": 25,
+    "position": "4",
+    "team_id": "LOL-CLI",
+    "points": 19.0,
+    "year": 1962
+  },
+  {
+    "team_standing_id": 26,
+    "position": "5",
+    "team_id": "POR",
+    "points": 18.0,
+    "year": 1962
+  },
+  {
+    "team_standing_id": 27,
+    "position": "5",
+    "team_id": "FER",
+    "points": 18.0,
+    "year": 1962
+  },
+  {
+    "team_standing_id": 28,
+    "position": "7",
+    "team_id": "BRA-CLI",
+    "points": 6.0,
+    "year": 1962
+  },
+  {
+    "team_standing_id": 29,
+    "position": "8",
+    "team_id": "LOT-BRM",
+    "points": 1.0,
+    "year": 1962
+  },
+  {
+    "team_standing_id": 30,
+    "position": "1",
+    "team_id": "LOT-CLI",
+    "points": 54.0,
+    "year": 1963
+  },
+  {
+    "team_standing_id": 31,
+    "position": "2",
+    "team_id": "BRM",
+    "points": 36.0,
+    "year": 1963
+  },
+  {
+    "team_standing_id": 32,
+    "position": "3",
+    "team_id": "BRA-CLI",
+    "points": 28.0,
+    "year": 1963
+  },
+  {
+    "team_standing_id": 33,
+    "position": "4",
+    "team_id": "FER",
+    "points": 26.0,
+    "year": 1963
+  },
+  {
+    "team_standing_id": 34,
+    "position": "5",
+    "team_id": "COO-CLI",
+    "points": 25.0,
+    "year": 1963
+  },
+  {
+    "team_standing_id": 35,
+    "position": "6",
+    "team_id": "BRP-BRM",
+    "points": 6.0,
+    "year": 1963
+  },
+  {
+    "team_standing_id": 36,
+    "position": "7",
+    "team_id": "POR",
+    "points": 5.0,
+    "year": 1963
+  },
+  {
+    "team_standing_id": 37,
+    "position": "8",
+    "team_id": "LOT-BRM",
+    "points": 4.0,
+    "year": 1963
+  },
+  {
+    "team_standing_id": 38,
+    "position": "1",
+    "team_id": "FER",
+    "points": 45.0,
+    "year": 1964
+  },
+  {
+    "team_standing_id": 39,
+    "position": "2",
+    "team_id": "BRM",
+    "points": 42.0,
+    "year": 1964
+  },
+  {
+    "team_standing_id": 40,
+    "position": "3",
+    "team_id": "LOT-CLI",
+    "points": 37.0,
+    "year": 1964
+  },
+  {
+    "team_standing_id": 41,
+    "position": "4",
+    "team_id": "BRA-CLI",
+    "points": 30.0,
+    "year": 1964
+  },
+  {
+    "team_standing_id": 42,
+    "position": "5",
+    "team_id": "COO-CLI",
+    "points": 16.0,
+    "year": 1964
+  },
+  {
+    "team_standing_id": 43,
+    "position": "6",
+    "team_id": "BRA-BRM",
+    "points": 7.0,
+    "year": 1964
+  },
+  {
+    "team_standing_id": 44,
+    "position": "7",
+    "team_id": "BRP-BRM",
+    "points": 5.0,
+    "year": 1964
+  },
+  {
+    "team_standing_id": 45,
+    "position": "8",
+    "team_id": "LOT-BRM",
+    "points": 3.0,
+    "year": 1964
+  },
+  {
+    "team_standing_id": 46,
+    "position": "1",
+    "team_id": "LOT-CLI",
+    "points": 54.0,
+    "year": 1965
+  },
+  {
+    "team_standing_id": 47,
+    "position": "2",
+    "team_id": "BRM",
+    "points": 45.0,
+    "year": 1965
+  },
+  {
+    "team_standing_id": 48,
+    "position": "3",
+    "team_id": "BRA-CLI",
+    "points": 27.0,
+    "year": 1965
+  },
+  {
+    "team_standing_id": 49,
+    "position": "4",
+    "team_id": "FER",
+    "points": 26.0,
+    "year": 1965
+  },
+  {
+    "team_standing_id": 50,
+    "position": "5",
+    "team_id": "COO-CLI",
+    "points": 14.0,
+    "year": 1965
+  },
+  {
+    "team_standing_id": 51,
+    "position": "6",
+    "team_id": "HON",
+    "points": 11.0,
+    "year": 1965
+  },
+  {
+    "team_standing_id": 52,
+    "position": "7",
+    "team_id": "BRA-BRM",
+    "points": 5.0,
+    "year": 1965
+  },
+  {
+    "team_standing_id": 53,
+    "position": "8",
+    "team_id": "LOT-BRM",
+    "points": 2.0,
+    "year": 1965
+  },
+  {
+    "team_standing_id": 54,
+    "position": "1",
+    "team_id": "BRA-REP",
+    "points": 42.0,
+    "year": 1966
+  },
+  {
+    "team_standing_id": 55,
+    "position": "2",
+    "team_id": "FER",
+    "points": 31.0,
+    "year": 1966
+  },
+  {
+    "team_standing_id": 56,
+    "position": "3",
+    "team_id": "COO-MAS",
+    "points": 30.0,
+    "year": 1966
+  },
+  {
+    "team_standing_id": 57,
+    "position": "4",
+    "team_id": "BRM",
+    "points": 22.0,
+    "year": 1966
+  },
+  {
+    "team_standing_id": 58,
+    "position": "5",
+    "team_id": "LOT-BRM",
+    "points": 13.0,
+    "year": 1966
+  },
+  {
+    "team_standing_id": 59,
+    "position": "6",
+    "team_id": "LOT-CLI",
+    "points": 8.0,
+    "year": 1966
+  },
+  {
+    "team_standing_id": 60,
+    "position": "7",
+    "team_id": "EAG-CLI",
+    "points": 4.0,
+    "year": 1966
+  },
+  {
+    "team_standing_id": 61,
+    "position": "8",
+    "team_id": "HON",
+    "points": 3.0,
+    "year": 1966
+  },
+  {
+    "team_standing_id": 62,
+    "position": "9",
+    "team_id": "MCL-FOR",
+    "points": 2.0,
+    "year": 1966
+  },
+  {
+    "team_standing_id": 63,
+    "position": "10",
+    "team_id": "BRA-BRM",
+    "points": 1.0,
+    "year": 1966
+  },
+  {
+    "team_standing_id": 64,
+    "position": "10",
+    "team_id": "MCL-SER",
+    "points": 1.0,
+    "year": 1966
+  },
+  {
+    "team_standing_id": 65,
+    "position": "10",
+    "team_id": "BRA-CLI",
+    "points": 1.0,
+    "year": 1966
+  },
+  {
+    "team_standing_id": 66,
+    "position": "1",
+    "team_id": "BRA-REP",
+    "points": 63.0,
+    "year": 1967
+  },
+  {
+    "team_standing_id": 67,
+    "position": "2",
+    "team_id": "LOT-FOR",
+    "points": 44.0,
+    "year": 1967
+  },
+  {
+    "team_standing_id": 68,
+    "position": "3",
+    "team_id": "COO-MAS",
+    "points": 28.0,
+    "year": 1967
+  },
+  {
+    "team_standing_id": 69,
+    "position": "4",
+    "team_id": "HON",
+    "points": 20.0,
+    "year": 1967
+  },
+  {
+    "team_standing_id": 70,
+    "position": "4",
+    "team_id": "FER",
+    "points": 20.0,
+    "year": 1967
+  },
+  {
+    "team_standing_id": 71,
+    "position": "6",
+    "team_id": "BRM",
+    "points": 17.0,
+    "year": 1967
+  },
+  {
+    "team_standing_id": 72,
+    "position": "7",
+    "team_id": "EAG-WES",
+    "points": 13.0,
+    "year": 1967
+  },
+  {
+    "team_standing_id": 73,
+    "position": "8",
+    "team_id": "COO-CLI",
+    "points": 6.0,
+    "year": 1967
+  },
+  {
+    "team_standing_id": 74,
+    "position": "8",
+    "team_id": "LOT-BRM",
+    "points": 6.0,
+    "year": 1967
+  },
+  {
+    "team_standing_id": 75,
+    "position": "10",
+    "team_id": "MCL-BRM",
+    "points": 3.0,
+    "year": 1967
+  },
+  {
+    "team_standing_id": 76,
+    "position": "11",
+    "team_id": "BRA-CLI",
+    "points": 2.0,
+    "year": 1967
+  },
+  {
+    "team_standing_id": 77,
+    "position": "1",
+    "team_id": "LOT-FOR",
+    "points": 62.0,
+    "year": 1968
+  },
+  {
+    "team_standing_id": 78,
+    "position": "2",
+    "team_id": "MCL-FOR",
+    "points": 49.0,
+    "year": 1968
+  },
+  {
+    "team_standing_id": 79,
+    "position": "3",
+    "team_id": "MAT-FOR",
+    "points": 45.0,
+    "year": 1968
+  },
+  {
+    "team_standing_id": 80,
+    "position": "4",
+    "team_id": "FER",
+    "points": 32.0,
+    "year": 1968
+  },
+  {
+    "team_standing_id": 81,
+    "position": "5",
+    "team_id": "BRM",
+    "points": 28.0,
+    "year": 1968
+  },
+  {
+    "team_standing_id": 82,
+    "position": "6",
+    "team_id": "HON",
+    "points": 14.0,
+    "year": 1968
+  },
+  {
+    "team_standing_id": 83,
+    "position": "6",
+    "team_id": "COO-BRM",
+    "points": 14.0,
+    "year": 1968
+  },
+  {
+    "team_standing_id": 84,
+    "position": "8",
+    "team_id": "BRA-REP",
+    "points": 10.0,
+    "year": 1968
+  },
+  {
+    "team_standing_id": 85,
+    "position": "9",
+    "team_id": "MAT",
+    "points": 8.0,
+    "year": 1968
+  },
+  {
+    "team_standing_id": 86,
+    "position": "10",
+    "team_id": "MCL-BRM",
+    "points": 3.0,
+    "year": 1968
+  },
+  {
+    "team_standing_id": 87,
+    "position": "1",
+    "team_id": "MAT-FOR",
+    "points": 66.0,
+    "year": 1969
+  },
+  {
+    "team_standing_id": 88,
+    "position": "2",
+    "team_id": "BRA-FOR",
+    "points": 49.0,
+    "year": 1969
+  },
+  {
+    "team_standing_id": 89,
+    "position": "3",
+    "team_id": "LOT-FOR",
+    "points": 47.0,
+    "year": 1969
+  },
+  {
+    "team_standing_id": 90,
+    "position": "4",
+    "team_id": "MCL-FOR",
+    "points": 38.0,
+    "year": 1969
+  },
+  {
+    "team_standing_id": 91,
+    "position": "5",
+    "team_id": "FER",
+    "points": 7.0,
+    "year": 1969
+  },
+  {
+    "team_standing_id": 92,
+    "position": "5",
+    "team_id": "BRM",
+    "points": 7.0,
+    "year": 1969
+  },
+  {
+    "team_standing_id": 93,
+    "position": "1",
+    "team_id": "LOT-FOR",
+    "points": 59.0,
+    "year": 1970
+  },
+  {
+    "team_standing_id": 94,
+    "position": "2",
+    "team_id": "FER",
+    "points": 52.0,
+    "year": 1970
+  },
+  {
+    "team_standing_id": 95,
+    "position": "3",
+    "team_id": "MAR-FOR",
+    "points": 48.0,
+    "year": 1970
+  },
+  {
+    "team_standing_id": 96,
+    "position": "4",
+    "team_id": "BRA-FOR",
+    "points": 35.0,
+    "year": 1970
+  },
+  {
+    "team_standing_id": 97,
+    "position": "4",
+    "team_id": "MCL-FOR",
+    "points": 35.0,
+    "year": 1970
+  },
+  {
+    "team_standing_id": 98,
+    "position": "6",
+    "team_id": "BRM",
+    "points": 23.0,
+    "year": 1970
+  },
+  {
+    "team_standing_id": 99,
+    "position": "6",
+    "team_id": "MAT",
+    "points": 23.0,
+    "year": 1970
+  },
+  {
+    "team_standing_id": 100,
+    "position": "8",
+    "team_id": "SUR-FOR",
+    "points": 3.0,
+    "year": 1970
+  },
+  {
+    "team_standing_id": 101,
+    "position": "1",
+    "team_id": "TYR-FOR",
+    "points": 73.0,
+    "year": 1971
+  },
+  {
+    "team_standing_id": 102,
+    "position": "2",
+    "team_id": "BRM",
+    "points": 36.0,
+    "year": 1971
+  },
+  {
+    "team_standing_id": 103,
+    "position": "3",
+    "team_id": "FER",
+    "points": 33.0,
+    "year": 1971
+  },
+  {
+    "team_standing_id": 104,
+    "position": "3",
+    "team_id": "MAR-FOR",
+    "points": 33.0,
+    "year": 1971
+  },
+  {
+    "team_standing_id": 105,
+    "position": "5",
+    "team_id": "LOT-FOR",
+    "points": 21.0,
+    "year": 1971
+  },
+  {
+    "team_standing_id": 106,
+    "position": "6",
+    "team_id": "MCL-FOR",
+    "points": 10.0,
+    "year": 1971
+  },
+  {
+    "team_standing_id": 107,
+    "position": "7",
+    "team_id": "MAT",
+    "points": 9.0,
+    "year": 1971
+  },
+  {
+    "team_standing_id": 108,
+    "position": "8",
+    "team_id": "SUR-FOR",
+    "points": 8.0,
+    "year": 1971
+  },
+  {
+    "team_standing_id": 109,
+    "position": "9",
+    "team_id": "BRA-FOR",
+    "points": 5.0,
+    "year": 1971
+  },
+  {
+    "team_standing_id": 110,
+    "position": "1",
+    "team_id": "LOT-FOR",
+    "points": 61.0,
+    "year": 1972
+  },
+  {
+    "team_standing_id": 111,
+    "position": "2",
+    "team_id": "TYR-FOR",
+    "points": 51.0,
+    "year": 1972
+  },
+  {
+    "team_standing_id": 112,
+    "position": "3",
+    "team_id": "MCL-FOR",
+    "points": 47.0,
+    "year": 1972
+  },
+  {
+    "team_standing_id": 113,
+    "position": "4",
+    "team_id": "FER",
+    "points": 33.0,
+    "year": 1972
+  },
+  {
+    "team_standing_id": 114,
+    "position": "5",
+    "team_id": "SUR-FOR",
+    "points": 18.0,
+    "year": 1972
+  },
+  {
+    "team_standing_id": 115,
+    "position": "6",
+    "team_id": "MAR-FOR",
+    "points": 15.0,
+    "year": 1972
+  },
+  {
+    "team_standing_id": 116,
+    "position": "7",
+    "team_id": "BRM",
+    "points": 14.0,
+    "year": 1972
+  },
+  {
+    "team_standing_id": 117,
+    "position": "8",
+    "team_id": "MAT",
+    "points": 12.0,
+    "year": 1972
+  },
+  {
+    "team_standing_id": 118,
+    "position": "9",
+    "team_id": "BRA-FOR",
+    "points": 7.0,
+    "year": 1972
+  },
+  {
+    "team_standing_id": 119,
+    "position": "1",
+    "team_id": "LOT-FOR",
+    "points": 92.0,
+    "year": 1973
+  },
+  {
+    "team_standing_id": 120,
+    "position": "2",
+    "team_id": "TYR-FOR",
+    "points": 82.0,
+    "year": 1973
+  },
+  {
+    "team_standing_id": 121,
+    "position": "3",
+    "team_id": "MCL-FOR",
+    "points": 58.0,
+    "year": 1973
+  },
+  {
+    "team_standing_id": 122,
+    "position": "4",
+    "team_id": "BRA-FOR",
+    "points": 22.0,
+    "year": 1973
+  },
+  {
+    "team_standing_id": 123,
+    "position": "5",
+    "team_id": "MAR-FOR",
+    "points": 14.0,
+    "year": 1973
+  },
+  {
+    "team_standing_id": 124,
+    "position": "6",
+    "team_id": "FER",
+    "points": 12.0,
+    "year": 1973
+  },
+  {
+    "team_standing_id": 125,
+    "position": "6",
+    "team_id": "BRM",
+    "points": 12.0,
+    "year": 1973
+  },
+  {
+    "team_standing_id": 126,
+    "position": "8",
+    "team_id": "SHA-FOR",
+    "points": 9.0,
+    "year": 1973
+  },
+  {
+    "team_standing_id": 127,
+    "position": "9",
+    "team_id": "SUR-FOR",
+    "points": 7.0,
+    "year": 1973
+  },
+  {
+    "team_standing_id": 128,
+    "position": "10",
+    "team_id": "ISO-MAR-FOR",
+    "points": 2.0,
+    "year": 1973
+  },
+  {
+    "team_standing_id": 129,
+    "position": "11",
+    "team_id": "TEC",
+    "points": 1.0,
+    "year": 1973
+  },
+  {
+    "team_standing_id": 130,
+    "position": "1",
+    "team_id": "MCL-FOR",
+    "points": 73.0,
+    "year": 1974
+  },
+  {
+    "team_standing_id": 131,
+    "position": "2",
+    "team_id": "FER",
+    "points": 65.0,
+    "year": 1974
+  },
+  {
+    "team_standing_id": 132,
+    "position": "3",
+    "team_id": "TYR-FOR",
+    "points": 52.0,
+    "year": 1974
+  },
+  {
+    "team_standing_id": 133,
+    "position": "4",
+    "team_id": "LOT-FOR",
+    "points": 42.0,
+    "year": 1974
+  },
+  {
+    "team_standing_id": 134,
+    "position": "5",
+    "team_id": "BRA-FOR",
+    "points": 35.0,
+    "year": 1974
+  },
+  {
+    "team_standing_id": 135,
+    "position": "6",
+    "team_id": "HES-FOR",
+    "points": 15.0,
+    "year": 1974
+  },
+  {
+    "team_standing_id": 136,
+    "position": "7",
+    "team_id": "BRM",
+    "points": 10.0,
+    "year": 1974
+  },
+  {
+    "team_standing_id": 137,
+    "position": "8",
+    "team_id": "SHA-FOR",
+    "points": 7.0,
+    "year": 1974
+  },
+  {
+    "team_standing_id": 138,
+    "position": "9",
+    "team_id": "MAR-FOR",
+    "points": 6.0,
+    "year": 1974
+  },
+  {
+    "team_standing_id": 139,
+    "position": "10",
+    "team_id": "ISO-MAR-FOR",
+    "points": 4.0,
+    "year": 1974
+  },
+  {
+    "team_standing_id": 140,
+    "position": "11",
+    "team_id": "SUR-FOR",
+    "points": 3.0,
+    "year": 1974
+  },
+  {
+    "team_standing_id": 141,
+    "position": "12",
+    "team_id": "LOL-FOR",
+    "points": 1.0,
+    "year": 1974
+  },
+  {
+    "team_standing_id": 142,
+    "position": "1",
+    "team_id": "FER",
+    "points": 72.5,
+    "year": 1975
+  },
+  {
+    "team_standing_id": 143,
+    "position": "2",
+    "team_id": "BRA-FOR",
+    "points": 54.0,
+    "year": 1975
+  },
+  {
+    "team_standing_id": 144,
+    "position": "3",
+    "team_id": "MCL-FOR",
+    "points": 53.0,
+    "year": 1975
+  },
+  {
+    "team_standing_id": 145,
+    "position": "4",
+    "team_id": "HES-FOR",
+    "points": 33.0,
+    "year": 1975
+  },
+  {
+    "team_standing_id": 146,
+    "position": "5",
+    "team_id": "TYR-FOR",
+    "points": 25.0,
+    "year": 1975
+  },
+  {
+    "team_standing_id": 147,
+    "position": "6",
+    "team_id": "SHA-FOR",
+    "points": 9.5,
+    "year": 1975
+  },
+  {
+    "team_standing_id": 148,
+    "position": "7",
+    "team_id": "LOT-FOR",
+    "points": 9.0,
+    "year": 1975
+  },
+  {
+    "team_standing_id": 149,
+    "position": "8",
+    "team_id": "MAR-FOR",
+    "points": 7.5,
+    "year": 1975
+  },
+  {
+    "team_standing_id": 150,
+    "position": "9",
+    "team_id": "FRA-WIL-RAC-CAR-WIL",
+    "points": 6.0,
+    "year": 1975
+  },
+  {
+    "team_standing_id": 151,
+    "position": "10",
+    "team_id": "PAR-FOR",
+    "points": 5.0,
+    "year": 1975
+  },
+  {
+    "team_standing_id": 152,
+    "position": "11",
+    "team_id": "HIL-FOR",
+    "points": 3.0,
+    "year": 1975
+  },
+  {
+    "team_standing_id": 153,
+    "position": "12",
+    "team_id": "PEN-FOR",
+    "points": 2.0,
+    "year": 1975
+  },
+  {
+    "team_standing_id": 154,
+    "position": "13",
+    "team_id": "ENS-FOR",
+    "points": 1.0,
+    "year": 1975
+  },
+  {
+    "team_standing_id": 155,
+    "position": "1",
+    "team_id": "FER",
+    "points": 83.0,
+    "year": 1976
+  },
+  {
+    "team_standing_id": 156,
+    "position": "2",
+    "team_id": "MCL-FOR",
+    "points": 74.0,
+    "year": 1976
+  },
+  {
+    "team_standing_id": 157,
+    "position": "3",
+    "team_id": "TYR-FOR",
+    "points": 71.0,
+    "year": 1976
+  },
+  {
+    "team_standing_id": 158,
+    "position": "4",
+    "team_id": "LOT-FOR",
+    "points": 29.0,
+    "year": 1976
+  },
+  {
+    "team_standing_id": 159,
+    "position": "5",
+    "team_id": "PEN-FOR",
+    "points": 20.0,
+    "year": 1976
+  },
+  {
+    "team_standing_id": 160,
+    "position": "5",
+    "team_id": "LIG-MAT",
+    "points": 20.0,
+    "year": 1976
+  },
+  {
+    "team_standing_id": 161,
+    "position": "7",
+    "team_id": "MAR-FOR",
+    "points": 19.0,
+    "year": 1976
+  },
+  {
+    "team_standing_id": 162,
+    "position": "8",
+    "team_id": "SHA-FOR",
+    "points": 10.0,
+    "year": 1976
+  },
+  {
+    "team_standing_id": 163,
+    "position": "9",
+    "team_id": "BRA-ALF-ROM",
+    "points": 9.0,
+    "year": 1976
+  },
+  {
+    "team_standing_id": 164,
+    "position": "10",
+    "team_id": "SUR-FOR",
+    "points": 7.0,
+    "year": 1976
+  },
+  {
+    "team_standing_id": 165,
+    "position": "11",
+    "team_id": "FIT-FOR",
+    "points": 3.0,
+    "year": 1976
+  },
+  {
+    "team_standing_id": 166,
+    "position": "12",
+    "team_id": "ENS-FOR",
+    "points": 2.0,
+    "year": 1976
+  },
+  {
+    "team_standing_id": 167,
+    "position": "13",
+    "team_id": "PAR-FOR",
+    "points": 1.0,
+    "year": 1976
+  },
+  {
+    "team_standing_id": 168,
+    "position": "1",
+    "team_id": "FER",
+    "points": 95.0,
+    "year": 1977
+  },
+  {
+    "team_standing_id": 169,
+    "position": "2",
+    "team_id": "LOT-FOR",
+    "points": 62.0,
+    "year": 1977
+  },
+  {
+    "team_standing_id": 170,
+    "position": "3",
+    "team_id": "MCL-FOR",
+    "points": 60.0,
+    "year": 1977
+  },
+  {
+    "team_standing_id": 171,
+    "position": "4",
+    "team_id": "WOL-FOR",
+    "points": 55.0,
+    "year": 1977
+  },
+  {
+    "team_standing_id": 172,
+    "position": "5",
+    "team_id": "BRA-ALF-ROM",
+    "points": 27.0,
+    "year": 1977
+  },
+  {
+    "team_standing_id": 173,
+    "position": "5",
+    "team_id": "TYR-FOR",
+    "points": 27.0,
+    "year": 1977
+  },
+  {
+    "team_standing_id": 174,
+    "position": "7",
+    "team_id": "SHA-FOR",
+    "points": 23.0,
+    "year": 1977
+  },
+  {
+    "team_standing_id": 175,
+    "position": "8",
+    "team_id": "LIG-MAT",
+    "points": 18.0,
+    "year": 1977
+  },
+  {
+    "team_standing_id": 176,
+    "position": "9",
+    "team_id": "FIT-FOR",
+    "points": 11.0,
+    "year": 1977
+  },
+  {
+    "team_standing_id": 177,
+    "position": "10",
+    "team_id": "ENS-FOR",
+    "points": 10.0,
+    "year": 1977
+  },
+  {
+    "team_standing_id": 178,
+    "position": "11",
+    "team_id": "SUR-FOR",
+    "points": 6.0,
+    "year": 1977
+  },
+  {
+    "team_standing_id": 179,
+    "position": "12",
+    "team_id": "PEN-FOR",
+    "points": 1.0,
+    "year": 1977
+  },
+  {
+    "team_standing_id": 180,
+    "position": "1",
+    "team_id": "LOT-FOR",
+    "points": 86.0,
+    "year": 1978
+  },
+  {
+    "team_standing_id": 181,
+    "position": "2",
+    "team_id": "FER",
+    "points": 58.0,
+    "year": 1978
+  },
+  {
+    "team_standing_id": 182,
+    "position": "3",
+    "team_id": "BRA-ALF-ROM",
+    "points": 53.0,
+    "year": 1978
+  },
+  {
+    "team_standing_id": 183,
+    "position": "4",
+    "team_id": "TYR-FOR",
+    "points": 38.0,
+    "year": 1978
+  },
+  {
+    "team_standing_id": 184,
+    "position": "5",
+    "team_id": "WOL-FOR",
+    "points": 24.0,
+    "year": 1978
+  },
+  {
+    "team_standing_id": 185,
+    "position": "6",
+    "team_id": "LIG-MAT",
+    "points": 19.0,
+    "year": 1978
+  },
+  {
+    "team_standing_id": 186,
+    "position": "7",
+    "team_id": "FIT-FOR",
+    "points": 17.0,
+    "year": 1978
+  },
+  {
+    "team_standing_id": 187,
+    "position": "8",
+    "team_id": "MCL-FOR",
+    "points": 15.0,
+    "year": 1978
+  },
+  {
+    "team_standing_id": 188,
+    "position": "9",
+    "team_id": "WIL-FOR",
+    "points": 11.0,
+    "year": 1978
+  },
+  {
+    "team_standing_id": 189,
+    "position": "9",
+    "team_id": "ARR-FOR",
+    "points": 11.0,
+    "year": 1978
+  },
+  {
+    "team_standing_id": 190,
+    "position": "11",
+    "team_id": "SHA-FOR",
+    "points": 6.0,
+    "year": 1978
+  },
+  {
+    "team_standing_id": 191,
+    "position": "12",
+    "team_id": "REN",
+    "points": 3.0,
+    "year": 1978
+  },
+  {
+    "team_standing_id": 192,
+    "position": "13",
+    "team_id": "SUR-FOR",
+    "points": 1.0,
+    "year": 1978
+  },
+  {
+    "team_standing_id": 193,
+    "position": "13",
+    "team_id": "ENS-FOR",
+    "points": 1.0,
+    "year": 1978
+  },
+  {
+    "team_standing_id": 194,
+    "position": "1",
+    "team_id": "FER",
+    "points": 113.0,
+    "year": 1979
+  },
+  {
+    "team_standing_id": 195,
+    "position": "2",
+    "team_id": "WIL-FOR",
+    "points": 75.0,
+    "year": 1979
+  },
+  {
+    "team_standing_id": 196,
+    "position": "3",
+    "team_id": "LIG-FOR",
+    "points": 61.0,
+    "year": 1979
+  },
+  {
+    "team_standing_id": 197,
+    "position": "4",
+    "team_id": "LOT-FOR",
+    "points": 39.0,
+    "year": 1979
+  },
+  {
+    "team_standing_id": 198,
+    "position": "5",
+    "team_id": "TYR-FOR",
+    "points": 28.0,
+    "year": 1979
+  },
+  {
+    "team_standing_id": 199,
+    "position": "6",
+    "team_id": "REN",
+    "points": 26.0,
+    "year": 1979
+  },
+  {
+    "team_standing_id": 200,
+    "position": "7",
+    "team_id": "MCL-FOR",
+    "points": 15.0,
+    "year": 1979
+  },
+  {
+    "team_standing_id": 201,
+    "position": "8",
+    "team_id": "BRA-FOR",
+    "points": 7.0,
+    "year": 1979
+  },
+  {
+    "team_standing_id": 202,
+    "position": "9",
+    "team_id": "ARR-FOR",
+    "points": 5.0,
+    "year": 1979
+  },
+  {
+    "team_standing_id": 203,
+    "position": "10",
+    "team_id": "SHA-FOR",
+    "points": 3.0,
+    "year": 1979
+  },
+  {
+    "team_standing_id": 204,
+    "position": "11",
+    "team_id": "ATS-FOR",
+    "points": 2.0,
+    "year": 1979
+  },
+  {
+    "team_standing_id": 205,
+    "position": "12",
+    "team_id": "FIT-FOR",
+    "points": 1.0,
+    "year": 1979
+  },
+  {
+    "team_standing_id": 206,
+    "position": "1",
+    "team_id": "WIL-FOR",
+    "points": 120.0,
+    "year": 1980
+  },
+  {
+    "team_standing_id": 207,
+    "position": "2",
+    "team_id": "LIG-FOR",
+    "points": 66.0,
+    "year": 1980
+  },
+  {
+    "team_standing_id": 208,
+    "position": "3",
+    "team_id": "BRA-FOR",
+    "points": 55.0,
+    "year": 1980
+  },
+  {
+    "team_standing_id": 209,
+    "position": "4",
+    "team_id": "REN",
+    "points": 38.0,
+    "year": 1980
+  },
+  {
+    "team_standing_id": 210,
+    "position": "5",
+    "team_id": "LOT-FOR",
+    "points": 14.0,
+    "year": 1980
+  },
+  {
+    "team_standing_id": 211,
+    "position": "6",
+    "team_id": "TYR-FOR",
+    "points": 12.0,
+    "year": 1980
+  },
+  {
+    "team_standing_id": 212,
+    "position": "7",
+    "team_id": "ARR-FOR",
+    "points": 11.0,
+    "year": 1980
+  },
+  {
+    "team_standing_id": 213,
+    "position": "7",
+    "team_id": "FIT-FOR",
+    "points": 11.0,
+    "year": 1980
+  },
+  {
+    "team_standing_id": 214,
+    "position": "7",
+    "team_id": "MCL-FOR",
+    "points": 11.0,
+    "year": 1980
+  },
+  {
+    "team_standing_id": 215,
+    "position": "10",
+    "team_id": "FER",
+    "points": 8.0,
+    "year": 1980
+  },
+  {
+    "team_standing_id": 216,
+    "position": "11",
+    "team_id": "ALF-ROM",
+    "points": 4.0,
+    "year": 1980
+  },
+  {
+    "team_standing_id": 217,
+    "position": "1",
+    "team_id": "WIL-FOR",
+    "points": 95.0,
+    "year": 1981
+  },
+  {
+    "team_standing_id": 218,
+    "position": "2",
+    "team_id": "BRA-FOR",
+    "points": 61.0,
+    "year": 1981
+  },
+  {
+    "team_standing_id": 219,
+    "position": "3",
+    "team_id": "REN",
+    "points": 54.0,
+    "year": 1981
+  },
+  {
+    "team_standing_id": 220,
+    "position": "4",
+    "team_id": "LIG-MAT",
+    "points": 44.0,
+    "year": 1981
+  },
+  {
+    "team_standing_id": 221,
+    "position": "5",
+    "team_id": "FER",
+    "points": 34.0,
+    "year": 1981
+  },
+  {
+    "team_standing_id": 222,
+    "position": "6",
+    "team_id": "MCL-FOR",
+    "points": 28.0,
+    "year": 1981
+  },
+  {
+    "team_standing_id": 223,
+    "position": "7",
+    "team_id": "LOT-FOR",
+    "points": 22.0,
+    "year": 1981
+  },
+  {
+    "team_standing_id": 224,
+    "position": "8",
+    "team_id": "ARR-FOR",
+    "points": 10.0,
+    "year": 1981
+  },
+  {
+    "team_standing_id": 225,
+    "position": "8",
+    "team_id": "ALF-ROM",
+    "points": 10.0,
+    "year": 1981
+  },
+  {
+    "team_standing_id": 226,
+    "position": "8",
+    "team_id": "TYR-FOR",
+    "points": 10.0,
+    "year": 1981
+  },
+  {
+    "team_standing_id": 227,
+    "position": "11",
+    "team_id": "ENS-FOR",
+    "points": 5.0,
+    "year": 1981
+  },
+  {
+    "team_standing_id": 228,
+    "position": "12",
+    "team_id": "THE-FOR",
+    "points": 1.0,
+    "year": 1981
+  },
+  {
+    "team_standing_id": 229,
+    "position": "12",
+    "team_id": "ATS-FOR",
+    "points": 1.0,
+    "year": 1981
+  },
+  {
+    "team_standing_id": 230,
+    "position": "1",
+    "team_id": "FER",
+    "points": 74.0,
+    "year": 1982
+  },
+  {
+    "team_standing_id": 231,
+    "position": "2",
+    "team_id": "MCL-FOR",
+    "points": 69.0,
+    "year": 1982
+  },
+  {
+    "team_standing_id": 232,
+    "position": "3",
+    "team_id": "REN",
+    "points": 62.0,
+    "year": 1982
+  },
+  {
+    "team_standing_id": 233,
+    "position": "4",
+    "team_id": "WIL-FOR",
+    "points": 58.0,
+    "year": 1982
+  },
+  {
+    "team_standing_id": 234,
+    "position": "5",
+    "team_id": "LOT-FOR",
+    "points": 30.0,
+    "year": 1982
+  },
+  {
+    "team_standing_id": 235,
+    "position": "6",
+    "team_id": "TYR-FOR",
+    "points": 25.0,
+    "year": 1982
+  },
+  {
+    "team_standing_id": 236,
+    "position": "7",
+    "team_id": "BRA-BMW",
+    "points": 22.0,
+    "year": 1982
+  },
+  {
+    "team_standing_id": 237,
+    "position": "8",
+    "team_id": "LIG-MAT",
+    "points": 20.0,
+    "year": 1982
+  },
+  {
+    "team_standing_id": 238,
+    "position": "9",
+    "team_id": "BRA-FOR",
+    "points": 19.0,
+    "year": 1982
+  },
+  {
+    "team_standing_id": 239,
+    "position": "10",
+    "team_id": "ALF-ROM",
+    "points": 7.0,
+    "year": 1982
+  },
+  {
+    "team_standing_id": 240,
+    "position": "11",
+    "team_id": "ARR-FOR",
+    "points": 5.0,
+    "year": 1982
+  },
+  {
+    "team_standing_id": 241,
+    "position": "12",
+    "team_id": "ATS-FOR",
+    "points": 4.0,
+    "year": 1982
+  },
+  {
+    "team_standing_id": 242,
+    "position": "13",
+    "team_id": "OSE-FOR",
+    "points": 3.0,
+    "year": 1982
+  },
+  {
+    "team_standing_id": 243,
+    "position": "14",
+    "team_id": "FIT-FOR",
+    "points": 1.0,
+    "year": 1982
+  },
+  {
+    "team_standing_id": 244,
+    "position": "1",
+    "team_id": "FER",
+    "points": 89.0,
+    "year": 1983
+  },
+  {
+    "team_standing_id": 245,
+    "position": "2",
+    "team_id": "REN",
+    "points": 79.0,
+    "year": 1983
+  },
+  {
+    "team_standing_id": 246,
+    "position": "3",
+    "team_id": "BRA-BMW",
+    "points": 72.0,
+    "year": 1983
+  },
+  {
+    "team_standing_id": 247,
+    "position": "4",
+    "team_id": "WIL-FOR",
+    "points": 36.0,
+    "year": 1983
+  },
+  {
+    "team_standing_id": 248,
+    "position": "5",
+    "team_id": "MCL-FOR",
+    "points": 34.0,
+    "year": 1983
+  },
+  {
+    "team_standing_id": 249,
+    "position": "6",
+    "team_id": "ALF-ROM",
+    "points": 18.0,
+    "year": 1983
+  },
+  {
+    "team_standing_id": 250,
+    "position": "7",
+    "team_id": "TYR-FOR",
+    "points": 12.0,
+    "year": 1983
+  },
+  {
+    "team_standing_id": 251,
+    "position": "8",
+    "team_id": "LOT-REN",
+    "points": 11.0,
+    "year": 1983
+  },
+  {
+    "team_standing_id": 252,
+    "position": "9",
+    "team_id": "TOL-HAR",
+    "points": 10.0,
+    "year": 1983
+  },
+  {
+    "team_standing_id": 253,
+    "position": "10",
+    "team_id": "ARR-FOR",
+    "points": 4.0,
+    "year": 1983
+  },
+  {
+    "team_standing_id": 254,
+    "position": "11",
+    "team_id": "WIL-HON",
+    "points": 2.0,
+    "year": 1983
+  },
+  {
+    "team_standing_id": 255,
+    "position": "12",
+    "team_id": "THE-FOR",
+    "points": 1.0,
+    "year": 1983
+  },
+  {
+    "team_standing_id": 256,
+    "position": "13",
+    "team_id": "LOT-FOR",
+    "points": 1.0,
+    "year": 1983
+  },
+  {
+    "team_standing_id": 257,
+    "position": "1",
+    "team_id": "MCL-TAG",
+    "points": 143.5,
+    "year": 1984
+  },
+  {
+    "team_standing_id": 258,
+    "position": "2",
+    "team_id": "FER",
+    "points": 57.5,
+    "year": 1984
+  },
+  {
+    "team_standing_id": 259,
+    "position": "3",
+    "team_id": "LOT-REN",
+    "points": 47.0,
+    "year": 1984
+  },
+  {
+    "team_standing_id": 260,
+    "position": "4",
+    "team_id": "BRA-BMW",
+    "points": 38.0,
+    "year": 1984
+  },
+  {
+    "team_standing_id": 261,
+    "position": "5",
+    "team_id": "REN",
+    "points": 34.0,
+    "year": 1984
+  },
+  {
+    "team_standing_id": 262,
+    "position": "6",
+    "team_id": "WIL-HON",
+    "points": 25.5,
+    "year": 1984
+  },
+  {
+    "team_standing_id": 263,
+    "position": "7",
+    "team_id": "TOL-HAR",
+    "points": 16.0,
+    "year": 1984
+  },
+  {
+    "team_standing_id": 264,
+    "position": "8",
+    "team_id": "ALF-ROM",
+    "points": 11.0,
+    "year": 1984
+  },
+  {
+    "team_standing_id": 265,
+    "position": "9",
+    "team_id": "ARR-BMW",
+    "points": 3.0,
+    "year": 1984
+  },
+  {
+    "team_standing_id": 266,
+    "position": "10",
+    "team_id": "LIG-REN",
+    "points": 3.0,
+    "year": 1984
+  },
+  {
+    "team_standing_id": 267,
+    "position": "11",
+    "team_id": "ARR-FOR",
+    "points": 3.0,
+    "year": 1984
+  },
+  {
+    "team_standing_id": 268,
+    "position": "12",
+    "team_id": "OSE-ALF-ROM",
+    "points": 2.0,
+    "year": 1984
+  },
+  {
+    "team_standing_id": 269,
+    "position": "1",
+    "team_id": "MCL-TAG",
+    "points": 90.0,
+    "year": 1985
+  },
+  {
+    "team_standing_id": 270,
+    "position": "2",
+    "team_id": "FER",
+    "points": 82.0,
+    "year": 1985
+  },
+  {
+    "team_standing_id": 271,
+    "position": "3",
+    "team_id": "LOT-REN",
+    "points": 71.0,
+    "year": 1985
+  },
+  {
+    "team_standing_id": 272,
+    "position": "4",
+    "team_id": "WIL-HON",
+    "points": 71.0,
+    "year": 1985
+  },
+  {
+    "team_standing_id": 273,
+    "position": "5",
+    "team_id": "BRA-BMW",
+    "points": 26.0,
+    "year": 1985
+  },
+  {
+    "team_standing_id": 274,
+    "position": "6",
+    "team_id": "LIG-REN",
+    "points": 23.0,
+    "year": 1985
+  },
+  {
+    "team_standing_id": 275,
+    "position": "7",
+    "team_id": "REN",
+    "points": 16.0,
+    "year": 1985
+  },
+  {
+    "team_standing_id": 276,
+    "position": "8",
+    "team_id": "ARR-BMW",
+    "points": 14.0,
+    "year": 1985
+  },
+  {
+    "team_standing_id": 277,
+    "position": "9",
+    "team_id": "TYR-FOR",
+    "points": 4.0,
+    "year": 1985
+  },
+  {
+    "team_standing_id": 278,
+    "position": "10",
+    "team_id": "TYR-REN",
+    "points": 3.0,
+    "year": 1985
+  },
+  {
+    "team_standing_id": 279,
+    "position": "1",
+    "team_id": "WIL-HON",
+    "points": 141.0,
+    "year": 1986
+  },
+  {
+    "team_standing_id": 280,
+    "position": "2",
+    "team_id": "MCL-TAG",
+    "points": 96.0,
+    "year": 1986
+  },
+  {
+    "team_standing_id": 281,
+    "position": "3",
+    "team_id": "LOT-REN",
+    "points": 58.0,
+    "year": 1986
+  },
+  {
+    "team_standing_id": 282,
+    "position": "4",
+    "team_id": "FER",
+    "points": 37.0,
+    "year": 1986
+  },
+  {
+    "team_standing_id": 283,
+    "position": "5",
+    "team_id": "LIG-REN",
+    "points": 29.0,
+    "year": 1986
+  },
+  {
+    "team_standing_id": 284,
+    "position": "6",
+    "team_id": "BEN-BMW",
+    "points": 19.0,
+    "year": 1986
+  },
+  {
+    "team_standing_id": 285,
+    "position": "7",
+    "team_id": "TYR-REN",
+    "points": 11.0,
+    "year": 1986
+  },
+  {
+    "team_standing_id": 286,
+    "position": "8",
+    "team_id": "LOL-FOR",
+    "points": 6.0,
+    "year": 1986
+  },
+  {
+    "team_standing_id": 287,
+    "position": "9",
+    "team_id": "BRA-BMW",
+    "points": 2.0,
+    "year": 1986
+  },
+  {
+    "team_standing_id": 288,
+    "position": "10",
+    "team_id": "ARR-BMW",
+    "points": 1.0,
+    "year": 1986
+  },
+  {
+    "team_standing_id": 289,
+    "position": "1",
+    "team_id": "WIL-HON",
+    "points": 137.0,
+    "year": 1987
+  },
+  {
+    "team_standing_id": 290,
+    "position": "2",
+    "team_id": "MCL-TAG",
+    "points": 76.0,
+    "year": 1987
+  },
+  {
+    "team_standing_id": 291,
+    "position": "3",
+    "team_id": "LOT-HON",
+    "points": 64.0,
+    "year": 1987
+  },
+  {
+    "team_standing_id": 292,
+    "position": "4",
+    "team_id": "FER",
+    "points": 53.0,
+    "year": 1987
+  },
+  {
+    "team_standing_id": 293,
+    "position": "5",
+    "team_id": "BEN-FOR",
+    "points": 28.0,
+    "year": 1987
+  },
+  {
+    "team_standing_id": 294,
+    "position": "6",
+    "team_id": "TYR-FOR",
+    "points": 11.0,
+    "year": 1987
+  },
+  {
+    "team_standing_id": 295,
+    "position": "7",
+    "team_id": "ARR-MEG",
+    "points": 11.0,
+    "year": 1987
+  },
+  {
+    "team_standing_id": 296,
+    "position": "8",
+    "team_id": "BRA-BMW",
+    "points": 10.0,
+    "year": 1987
+  },
+  {
+    "team_standing_id": 297,
+    "position": "9",
+    "team_id": "LOL-FOR",
+    "points": 3.0,
+    "year": 1987
+  },
+  {
+    "team_standing_id": 298,
+    "position": "10",
+    "team_id": "ZAK",
+    "points": 2.0,
+    "year": 1987
+  },
+  {
+    "team_standing_id": 299,
+    "position": "11",
+    "team_id": "MAR-FOR",
+    "points": 1.0,
+    "year": 1987
+  },
+  {
+    "team_standing_id": 300,
+    "position": "12",
+    "team_id": "LIG-MEG",
+    "points": 1.0,
+    "year": 1987
+  },
+  {
+    "team_standing_id": 301,
+    "position": "13",
+    "team_id": "AGS-FOR",
+    "points": 1.0,
+    "year": 1987
+  },
+  {
+    "team_standing_id": 302,
+    "position": "1",
+    "team_id": "MCL-HON",
+    "points": 199.0,
+    "year": 1988
+  },
+  {
+    "team_standing_id": 303,
+    "position": "2",
+    "team_id": "FER",
+    "points": 65.0,
+    "year": 1988
+  },
+  {
+    "team_standing_id": 304,
+    "position": "3",
+    "team_id": "BEN-FOR",
+    "points": 39.0,
+    "year": 1988
+  },
+  {
+    "team_standing_id": 305,
+    "position": "4",
+    "team_id": "ARR-MEG",
+    "points": 23.0,
+    "year": 1988
+  },
+  {
+    "team_standing_id": 306,
+    "position": "5",
+    "team_id": "LOT-HON",
+    "points": 23.0,
+    "year": 1988
+  },
+  {
+    "team_standing_id": 307,
+    "position": "6",
+    "team_id": "MAR-JUD",
+    "points": 22.0,
+    "year": 1988
+  },
+  {
+    "team_standing_id": 308,
+    "position": "7",
+    "team_id": "WIL-JUD",
+    "points": 20.0,
+    "year": 1988
+  },
+  {
+    "team_standing_id": 309,
+    "position": "8",
+    "team_id": "TYR-FOR",
+    "points": 5.0,
+    "year": 1988
+  },
+  {
+    "team_standing_id": 310,
+    "position": "9",
+    "team_id": "RIA-FOR",
+    "points": 3.0,
+    "year": 1988
+  },
+  {
+    "team_standing_id": 311,
+    "position": "10",
+    "team_id": "MIN-FOR",
+    "points": 1.0,
+    "year": 1988
+  },
+  {
+    "team_standing_id": 312,
+    "position": "1",
+    "team_id": "MCL-HON",
+    "points": 141.0,
+    "year": 1989
+  },
+  {
+    "team_standing_id": 313,
+    "position": "2",
+    "team_id": "WIL-REN",
+    "points": 77.0,
+    "year": 1989
+  },
+  {
+    "team_standing_id": 314,
+    "position": "3",
+    "team_id": "FER",
+    "points": 59.0,
+    "year": 1989
+  },
+  {
+    "team_standing_id": 315,
+    "position": "4",
+    "team_id": "BEN-FOR",
+    "points": 39.0,
+    "year": 1989
+  },
+  {
+    "team_standing_id": 316,
+    "position": "5",
+    "team_id": "TYR-FOR",
+    "points": 16.0,
+    "year": 1989
+  },
+  {
+    "team_standing_id": 317,
+    "position": "6",
+    "team_id": "LOT-JUD",
+    "points": 15.0,
+    "year": 1989
+  },
+  {
+    "team_standing_id": 318,
+    "position": "7",
+    "team_id": "ARR-FOR",
+    "points": 13.0,
+    "year": 1989
+  },
+  {
+    "team_standing_id": 319,
+    "position": "8",
+    "team_id": "DAL-FOR",
+    "points": 8.0,
+    "year": 1989
+  },
+  {
+    "team_standing_id": 320,
+    "position": "8",
+    "team_id": "BRA-JUD",
+    "points": 8.0,
+    "year": 1989
+  },
+  {
+    "team_standing_id": 321,
+    "position": "10",
+    "team_id": "ONY-FOR",
+    "points": 6.0,
+    "year": 1989
+  },
+  {
+    "team_standing_id": 322,
+    "position": "10",
+    "team_id": "MIN-FOR",
+    "points": 6.0,
+    "year": 1989
+  },
+  {
+    "team_standing_id": 323,
+    "position": "12",
+    "team_id": "MAR-JUD",
+    "points": 4.0,
+    "year": 1989
+  },
+  {
+    "team_standing_id": 324,
+    "position": "13",
+    "team_id": "RIA-FOR",
+    "points": 3.0,
+    "year": 1989
+  },
+  {
+    "team_standing_id": 325,
+    "position": "13",
+    "team_id": "LIG-FOR",
+    "points": 3.0,
+    "year": 1989
+  },
+  {
+    "team_standing_id": 326,
+    "position": "15",
+    "team_id": "AGS-FOR",
+    "points": 1.0,
+    "year": 1989
+  },
+  {
+    "team_standing_id": 327,
+    "position": "15",
+    "team_id": "LOL-LAM",
+    "points": 1.0,
+    "year": 1989
+  },
+  {
+    "team_standing_id": 328,
+    "position": "1",
+    "team_id": "MCL-HON",
+    "points": 121.0,
+    "year": 1990
+  },
+  {
+    "team_standing_id": 329,
+    "position": "2",
+    "team_id": "FER",
+    "points": 110.0,
+    "year": 1990
+  },
+  {
+    "team_standing_id": 330,
+    "position": "3",
+    "team_id": "BEN-FOR",
+    "points": 71.0,
+    "year": 1990
+  },
+  {
+    "team_standing_id": 331,
+    "position": "4",
+    "team_id": "WIL-REN",
+    "points": 57.0,
+    "year": 1990
+  },
+  {
+    "team_standing_id": 332,
+    "position": "5",
+    "team_id": "TYR-FOR",
+    "points": 16.0,
+    "year": 1990
+  },
+  {
+    "team_standing_id": 333,
+    "position": "6",
+    "team_id": "LOL-LAM",
+    "points": 11.0,
+    "year": 1990
+  },
+  {
+    "team_standing_id": 334,
+    "position": "7",
+    "team_id": "LEY-HOU-JUD",
+    "points": 7.0,
+    "year": 1990
+  },
+  {
+    "team_standing_id": 335,
+    "position": "8",
+    "team_id": "LOT-LAM",
+    "points": 3.0,
+    "year": 1990
+  },
+  {
+    "team_standing_id": 336,
+    "position": "9",
+    "team_id": "ARR-FOR",
+    "points": 2.0,
+    "year": 1990
+  },
+  {
+    "team_standing_id": 337,
+    "position": "10",
+    "team_id": "BRA-JUD",
+    "points": 2.0,
+    "year": 1990
+  },
+  {
+    "team_standing_id": 338,
+    "position": "1",
+    "team_id": "MCL-HON",
+    "points": 139.0,
+    "year": 1991
+  },
+  {
+    "team_standing_id": 339,
+    "position": "2",
+    "team_id": "WIL-REN",
+    "points": 125.0,
+    "year": 1991
+  },
+  {
+    "team_standing_id": 340,
+    "position": "3",
+    "team_id": "FER",
+    "points": 55.5,
+    "year": 1991
+  },
+  {
+    "team_standing_id": 341,
+    "position": "4",
+    "team_id": "BEN-FOR",
+    "points": 38.5,
+    "year": 1991
+  },
+  {
+    "team_standing_id": 342,
+    "position": "5",
+    "team_id": "JOR-FOR",
+    "points": 13.0,
+    "year": 1991
+  },
+  {
+    "team_standing_id": 343,
+    "position": "6",
+    "team_id": "TYR-HON",
+    "points": 12.0,
+    "year": 1991
+  },
+  {
+    "team_standing_id": 344,
+    "position": "7",
+    "team_id": "MIN-FER",
+    "points": 6.0,
+    "year": 1991
+  },
+  {
+    "team_standing_id": 345,
+    "position": "8",
+    "team_id": "DAL-JUD",
+    "points": 5.0,
+    "year": 1991
+  },
+  {
+    "team_standing_id": 346,
+    "position": "9",
+    "team_id": "LOT-JUD",
+    "points": 3.0,
+    "year": 1991
+  },
+  {
+    "team_standing_id": 347,
+    "position": "9",
+    "team_id": "BRA-YAM",
+    "points": 3.0,
+    "year": 1991
+  },
+  {
+    "team_standing_id": 348,
+    "position": "11",
+    "team_id": "LOL-FOR",
+    "points": 2.0,
+    "year": 1991
+  },
+  {
+    "team_standing_id": 349,
+    "position": "12",
+    "team_id": "LEY-HOU-ILM",
+    "points": 1.0,
+    "year": 1991
+  },
+  {
+    "team_standing_id": 350,
+    "position": "1",
+    "team_id": "WIL-REN",
+    "points": 164.0,
+    "year": 1992
+  },
+  {
+    "team_standing_id": 351,
+    "position": "2",
+    "team_id": "MCL-HON",
+    "points": 99.0,
+    "year": 1992
+  },
+  {
+    "team_standing_id": 352,
+    "position": "3",
+    "team_id": "BEN-FOR",
+    "points": 91.0,
+    "year": 1992
+  },
+  {
+    "team_standing_id": 353,
+    "position": "4",
+    "team_id": "FER",
+    "points": 21.0,
+    "year": 1992
+  },
+  {
+    "team_standing_id": 354,
+    "position": "5",
+    "team_id": "LOT-FOR",
+    "points": 13.0,
+    "year": 1992
+  },
+  {
+    "team_standing_id": 355,
+    "position": "6",
+    "team_id": "TYR-ILM",
+    "points": 8.0,
+    "year": 1992
+  },
+  {
+    "team_standing_id": 356,
+    "position": "7",
+    "team_id": "FOO-MUG-HON",
+    "points": 6.0,
+    "year": 1992
+  },
+  {
+    "team_standing_id": 357,
+    "position": "8",
+    "team_id": "LIG-REN",
+    "points": 6.0,
+    "year": 1992
+  },
+  {
+    "team_standing_id": 358,
+    "position": "9",
+    "team_id": "MAR-ILM",
+    "points": 3.0,
+    "year": 1992
+  },
+  {
+    "team_standing_id": 359,
+    "position": "10",
+    "team_id": "DAL-FER",
+    "points": 2.0,
+    "year": 1992
+  },
+  {
+    "team_standing_id": 360,
+    "position": "11",
+    "team_id": "JOR-YAM",
+    "points": 1.0,
+    "year": 1992
+  },
+  {
+    "team_standing_id": 361,
+    "position": "12",
+    "team_id": "MIN-LAM",
+    "points": 1.0,
+    "year": 1992
+  },
+  {
+    "team_standing_id": 362,
+    "position": "13",
+    "team_id": "VEN-LAM",
+    "points": 1.0,
+    "year": 1992
+  },
+  {
+    "team_standing_id": 363,
+    "position": "1",
+    "team_id": "WIL-REN",
+    "points": 168.0,
+    "year": 1993
+  },
+  {
+    "team_standing_id": 364,
+    "position": "2",
+    "team_id": "MCL-FOR",
+    "points": 84.0,
+    "year": 1993
+  },
+  {
+    "team_standing_id": 365,
+    "position": "3",
+    "team_id": "BEN-FOR",
+    "points": 72.0,
+    "year": 1993
+  },
+  {
+    "team_standing_id": 366,
+    "position": "4",
+    "team_id": "FER",
+    "points": 28.0,
+    "year": 1993
+  },
+  {
+    "team_standing_id": 367,
+    "position": "5",
+    "team_id": "LIG-REN",
+    "points": 23.0,
+    "year": 1993
+  },
+  {
+    "team_standing_id": 368,
+    "position": "6",
+    "team_id": "LOT-FOR",
+    "points": 12.0,
+    "year": 1993
+  },
+  {
+    "team_standing_id": 369,
+    "position": "6",
+    "team_id": "SAU",
+    "points": 12.0,
+    "year": 1993
+  },
+  {
+    "team_standing_id": 370,
+    "position": "8",
+    "team_id": "MIN-FOR",
+    "points": 7.0,
+    "year": 1993
+  },
+  {
+    "team_standing_id": 371,
+    "position": "9",
+    "team_id": "FOO-MUG-HON",
+    "points": 4.0,
+    "year": 1993
+  },
+  {
+    "team_standing_id": 372,
+    "position": "10",
+    "team_id": "LAR-LAM",
+    "points": 3.0,
+    "year": 1993
+  },
+  {
+    "team_standing_id": 373,
+    "position": "10",
+    "team_id": "JOR-HAR",
+    "points": 3.0,
+    "year": 1993
+  },
+  {
+    "team_standing_id": 374,
+    "position": "1",
+    "team_id": "WIL-REN",
+    "points": 118.0,
+    "year": 1994
+  },
+  {
+    "team_standing_id": 375,
+    "position": "2",
+    "team_id": "BEN-FOR",
+    "points": 103.0,
+    "year": 1994
+  },
+  {
+    "team_standing_id": 376,
+    "position": "3",
+    "team_id": "FER",
+    "points": 71.0,
+    "year": 1994
+  },
+  {
+    "team_standing_id": 377,
+    "position": "4",
+    "team_id": "MCL-PEU",
+    "points": 42.0,
+    "year": 1994
+  },
+  {
+    "team_standing_id": 378,
+    "position": "5",
+    "team_id": "JOR-HAR",
+    "points": 28.0,
+    "year": 1994
+  },
+  {
+    "team_standing_id": 379,
+    "position": "6",
+    "team_id": "LIG-REN",
+    "points": 13.0,
+    "year": 1994
+  },
+  {
+    "team_standing_id": 380,
+    "position": "6",
+    "team_id": "TYR-YAM",
+    "points": 13.0,
+    "year": 1994
+  },
+  {
+    "team_standing_id": 381,
+    "position": "8",
+    "team_id": "SAU-MER",
+    "points": 12.0,
+    "year": 1994
+  },
+  {
+    "team_standing_id": 382,
+    "position": "9",
+    "team_id": "FOO-FOR",
+    "points": 9.0,
+    "year": 1994
+  },
+  {
+    "team_standing_id": 383,
+    "position": "10",
+    "team_id": "MIN-FOR",
+    "points": 5.0,
+    "year": 1994
+  },
+  {
+    "team_standing_id": 384,
+    "position": "11",
+    "team_id": "LAR-FOR",
+    "points": 2.0,
+    "year": 1994
+  },
+  {
+    "team_standing_id": 385,
+    "position": "1",
+    "team_id": "BEN-REN",
+    "points": 137.0,
+    "year": 1995
+  },
+  {
+    "team_standing_id": 386,
+    "position": "2",
+    "team_id": "WIL-REN",
+    "points": 112.0,
+    "year": 1995
+  },
+  {
+    "team_standing_id": 387,
+    "position": "3",
+    "team_id": "FER",
+    "points": 73.0,
+    "year": 1995
+  },
+  {
+    "team_standing_id": 388,
+    "position": "4",
+    "team_id": "MCL-MER",
+    "points": 30.0,
+    "year": 1995
+  },
+  {
+    "team_standing_id": 389,
+    "position": "5",
+    "team_id": "LIG-MUG-HON",
+    "points": 24.0,
+    "year": 1995
+  },
+  {
+    "team_standing_id": 390,
+    "position": "6",
+    "team_id": "JOR-PEU",
+    "points": 21.0,
+    "year": 1995
+  },
+  {
+    "team_standing_id": 391,
+    "position": "7",
+    "team_id": "SAU-FOR",
+    "points": 18.0,
+    "year": 1995
+  },
+  {
+    "team_standing_id": 392,
+    "position": "8",
+    "team_id": "FOO-HAR",
+    "points": 5.0,
+    "year": 1995
+  },
+  {
+    "team_standing_id": 393,
+    "position": "9",
+    "team_id": "TYR-YAM",
+    "points": 5.0,
+    "year": 1995
+  },
+  {
+    "team_standing_id": 394,
+    "position": "10",
+    "team_id": "MIN-FOR",
+    "points": 1.0,
+    "year": 1995
+  },
+  {
+    "team_standing_id": 395,
+    "position": "1",
+    "team_id": "WIL-REN",
+    "points": 175.0,
+    "year": 1996
+  },
+  {
+    "team_standing_id": 396,
+    "position": "2",
+    "team_id": "FER",
+    "points": 70.0,
+    "year": 1996
+  },
+  {
+    "team_standing_id": 397,
+    "position": "3",
+    "team_id": "BEN-REN",
+    "points": 68.0,
+    "year": 1996
+  },
+  {
+    "team_standing_id": 398,
+    "position": "4",
+    "team_id": "MCL-MER",
+    "points": 49.0,
+    "year": 1996
+  },
+  {
+    "team_standing_id": 399,
+    "position": "5",
+    "team_id": "JOR-PEU",
+    "points": 22.0,
+    "year": 1996
+  },
+  {
+    "team_standing_id": 400,
+    "position": "6",
+    "team_id": "LIG-MUG-HON",
+    "points": 15.0,
+    "year": 1996
+  },
+  {
+    "team_standing_id": 401,
+    "position": "7",
+    "team_id": "SAU-FOR",
+    "points": 11.0,
+    "year": 1996
+  },
+  {
+    "team_standing_id": 402,
+    "position": "8",
+    "team_id": "TYR-YAM",
+    "points": 5.0,
+    "year": 1996
+  },
+  {
+    "team_standing_id": 403,
+    "position": "9",
+    "team_id": "FOO-HAR",
+    "points": 1.0,
+    "year": 1996
+  },
+  {
+    "team_standing_id": 404,
+    "position": "1",
+    "team_id": "WIL-REN",
+    "points": 123.0,
+    "year": 1997
+  },
+  {
+    "team_standing_id": 405,
+    "position": "2",
+    "team_id": "FER",
+    "points": 102.0,
+    "year": 1997
+  },
+  {
+    "team_standing_id": 406,
+    "position": "3",
+    "team_id": "BEN-REN",
+    "points": 67.0,
+    "year": 1997
+  },
+  {
+    "team_standing_id": 407,
+    "position": "4",
+    "team_id": "MCL-MER",
+    "points": 63.0,
+    "year": 1997
+  },
+  {
+    "team_standing_id": 408,
+    "position": "5",
+    "team_id": "JOR-PEU",
+    "points": 33.0,
+    "year": 1997
+  },
+  {
+    "team_standing_id": 409,
+    "position": "6",
+    "team_id": "PRO-MUG-HON",
+    "points": 21.0,
+    "year": 1997
+  },
+  {
+    "team_standing_id": 410,
+    "position": "7",
+    "team_id": "SAU-PET",
+    "points": 16.0,
+    "year": 1997
+  },
+  {
+    "team_standing_id": 411,
+    "position": "8",
+    "team_id": "ARR-YAM",
+    "points": 9.0,
+    "year": 1997
+  },
+  {
+    "team_standing_id": 412,
+    "position": "9",
+    "team_id": "STE-FOR",
+    "points": 6.0,
+    "year": 1997
+  },
+  {
+    "team_standing_id": 413,
+    "position": "10",
+    "team_id": "TYR-FOR",
+    "points": 2.0,
+    "year": 1997
+  },
+  {
+    "team_standing_id": 414,
+    "position": "1",
+    "team_id": "MCL-MER",
+    "points": 156.0,
+    "year": 1998
+  },
+  {
+    "team_standing_id": 415,
+    "position": "2",
+    "team_id": "FER",
+    "points": 133.0,
+    "year": 1998
+  },
+  {
+    "team_standing_id": 416,
+    "position": "3",
+    "team_id": "WIL-MEC",
+    "points": 38.0,
+    "year": 1998
+  },
+  {
+    "team_standing_id": 417,
+    "position": "4",
+    "team_id": "JOR-MUG-HON",
+    "points": 34.0,
+    "year": 1998
+  },
+  {
+    "team_standing_id": 418,
+    "position": "5",
+    "team_id": "BEN-PLA",
+    "points": 33.0,
+    "year": 1998
+  },
+  {
+    "team_standing_id": 419,
+    "position": "6",
+    "team_id": "SAU-PET",
+    "points": 10.0,
+    "year": 1998
+  },
+  {
+    "team_standing_id": 420,
+    "position": "7",
+    "team_id": "ARR",
+    "points": 6.0,
+    "year": 1998
+  },
+  {
+    "team_standing_id": 421,
+    "position": "8",
+    "team_id": "STE-FOR",
+    "points": 5.0,
+    "year": 1998
+  },
+  {
+    "team_standing_id": 422,
+    "position": "9",
+    "team_id": "PRO-PEU",
+    "points": 1.0,
+    "year": 1998
+  },
+  {
+    "team_standing_id": 423,
+    "position": "1",
+    "team_id": "FER",
+    "points": 128.0,
+    "year": 1999
+  },
+  {
+    "team_standing_id": 424,
+    "position": "2",
+    "team_id": "MCL-MER",
+    "points": 124.0,
+    "year": 1999
+  },
+  {
+    "team_standing_id": 425,
+    "position": "3",
+    "team_id": "JOR-MUG-HON",
+    "points": 61.0,
+    "year": 1999
+  },
+  {
+    "team_standing_id": 426,
+    "position": "4",
+    "team_id": "STE-FOR",
+    "points": 36.0,
+    "year": 1999
+  },
+  {
+    "team_standing_id": 427,
+    "position": "5",
+    "team_id": "WIL-SUP",
+    "points": 35.0,
+    "year": 1999
+  },
+  {
+    "team_standing_id": 428,
+    "position": "6",
+    "team_id": "BEN-PLA",
+    "points": 16.0,
+    "year": 1999
+  },
+  {
+    "team_standing_id": 429,
+    "position": "7",
+    "team_id": "PRO-PEU",
+    "points": 9.0,
+    "year": 1999
+  },
+  {
+    "team_standing_id": 430,
+    "position": "8",
+    "team_id": "SAU-PET",
+    "points": 5.0,
+    "year": 1999
+  },
+  {
+    "team_standing_id": 431,
+    "position": "9",
+    "team_id": "MIN-FOR",
+    "points": 1.0,
+    "year": 1999
+  },
+  {
+    "team_standing_id": 432,
+    "position": "10",
+    "team_id": "ARR",
+    "points": 1.0,
+    "year": 1999
+  },
+  {
+    "team_standing_id": 433,
+    "position": "1",
+    "team_id": "FER",
+    "points": 170.0,
+    "year": 2000
+  },
+  {
+    "team_standing_id": 434,
+    "position": "2",
+    "team_id": "MCL-MER",
+    "points": 152.0,
+    "year": 2000
+  },
+  {
+    "team_standing_id": 435,
+    "position": "3",
+    "team_id": "WIL-BMW",
+    "points": 36.0,
+    "year": 2000
+  },
+  {
+    "team_standing_id": 436,
+    "position": "4",
+    "team_id": "BEN-PLA",
+    "points": 20.0,
+    "year": 2000
+  },
+  {
+    "team_standing_id": 437,
+    "position": "5",
+    "team_id": "BAR-HON",
+    "points": 20.0,
+    "year": 2000
+  },
+  {
+    "team_standing_id": 438,
+    "position": "6",
+    "team_id": "JOR-MUG-HON",
+    "points": 17.0,
+    "year": 2000
+  },
+  {
+    "team_standing_id": 439,
+    "position": "7",
+    "team_id": "ARR-SUP",
+    "points": 7.0,
+    "year": 2000
+  },
+  {
+    "team_standing_id": 440,
+    "position": "8",
+    "team_id": "SAU-PET",
+    "points": 6.0,
+    "year": 2000
+  },
+  {
+    "team_standing_id": 441,
+    "position": "9",
+    "team_id": "JAG-COS",
+    "points": 4.0,
+    "year": 2000
+  },
+  {
+    "team_standing_id": 442,
+    "position": "1",
+    "team_id": "FER",
+    "points": 179.0,
+    "year": 2001
+  },
+  {
+    "team_standing_id": 443,
+    "position": "2",
+    "team_id": "MCL-MER",
+    "points": 102.0,
+    "year": 2001
+  },
+  {
+    "team_standing_id": 444,
+    "position": "3",
+    "team_id": "WIL-BMW",
+    "points": 80.0,
+    "year": 2001
+  },
+  {
+    "team_standing_id": 445,
+    "position": "4",
+    "team_id": "SAU-PET",
+    "points": 21.0,
+    "year": 2001
+  },
+  {
+    "team_standing_id": 446,
+    "position": "5",
+    "team_id": "JOR-HON",
+    "points": 19.0,
+    "year": 2001
+  },
+  {
+    "team_standing_id": 447,
+    "position": "6",
+    "team_id": "BAR-HON",
+    "points": 17.0,
+    "year": 2001
+  },
+  {
+    "team_standing_id": 448,
+    "position": "7",
+    "team_id": "BEN-REN",
+    "points": 10.0,
+    "year": 2001
+  },
+  {
+    "team_standing_id": 449,
+    "position": "8",
+    "team_id": "JAG-COS",
+    "points": 9.0,
+    "year": 2001
+  },
+  {
+    "team_standing_id": 450,
+    "position": "9",
+    "team_id": "PRO-ACE",
+    "points": 4.0,
+    "year": 2001
+  },
+  {
+    "team_standing_id": 451,
+    "position": "10",
+    "team_id": "ARR-ASI",
+    "points": 1.0,
+    "year": 2001
+  },
+  {
+    "team_standing_id": 452,
+    "position": "1",
+    "team_id": "FER",
+    "points": 221.0,
+    "year": 2002
+  },
+  {
+    "team_standing_id": 453,
+    "position": "2",
+    "team_id": "WIL-BMW",
+    "points": 92.0,
+    "year": 2002
+  },
+  {
+    "team_standing_id": 454,
+    "position": "3",
+    "team_id": "MCL-MER",
+    "points": 65.0,
+    "year": 2002
+  },
+  {
+    "team_standing_id": 455,
+    "position": "4",
+    "team_id": "REN",
+    "points": 23.0,
+    "year": 2002
+  },
+  {
+    "team_standing_id": 456,
+    "position": "5",
+    "team_id": "SAU-PET",
+    "points": 11.0,
+    "year": 2002
+  },
+  {
+    "team_standing_id": 457,
+    "position": "6",
+    "team_id": "JOR-HON",
+    "points": 9.0,
+    "year": 2002
+  },
+  {
+    "team_standing_id": 458,
+    "position": "7",
+    "team_id": "JAG-COS",
+    "points": 8.0,
+    "year": 2002
+  },
+  {
+    "team_standing_id": 459,
+    "position": "8",
+    "team_id": "BAR-HON",
+    "points": 7.0,
+    "year": 2002
+  },
+  {
+    "team_standing_id": 460,
+    "position": "9",
+    "team_id": "MIN-ASI",
+    "points": 2.0,
+    "year": 2002
+  },
+  {
+    "team_standing_id": 461,
+    "position": "10",
+    "team_id": "TOY",
+    "points": 2.0,
+    "year": 2002
+  },
+  {
+    "team_standing_id": 462,
+    "position": "11",
+    "team_id": "ARR-COS",
+    "points": 2.0,
+    "year": 2002
+  },
+  {
+    "team_standing_id": 463,
+    "position": "1",
+    "team_id": "FER",
+    "points": 158.0,
+    "year": 2003
+  },
+  {
+    "team_standing_id": 464,
+    "position": "2",
+    "team_id": "WIL-BMW",
+    "points": 144.0,
+    "year": 2003
+  },
+  {
+    "team_standing_id": 465,
+    "position": "3",
+    "team_id": "MCL-MER",
+    "points": 142.0,
+    "year": 2003
+  },
+  {
+    "team_standing_id": 466,
+    "position": "4",
+    "team_id": "REN",
+    "points": 88.0,
+    "year": 2003
+  },
+  {
+    "team_standing_id": 467,
+    "position": "5",
+    "team_id": "BAR-HON",
+    "points": 26.0,
+    "year": 2003
+  },
+  {
+    "team_standing_id": 468,
+    "position": "6",
+    "team_id": "SAU-PET",
+    "points": 19.0,
+    "year": 2003
+  },
+  {
+    "team_standing_id": 469,
+    "position": "7",
+    "team_id": "JAG-COS",
+    "points": 18.0,
+    "year": 2003
+  },
+  {
+    "team_standing_id": 470,
+    "position": "8",
+    "team_id": "TOY",
+    "points": 16.0,
+    "year": 2003
+  },
+  {
+    "team_standing_id": 471,
+    "position": "9",
+    "team_id": "JOR-FOR",
+    "points": 13.0,
+    "year": 2003
+  },
+  {
+    "team_standing_id": 472,
+    "position": "10",
+    "team_id": "MIN-COS",
+    "points": 0.0,
+    "year": 2003
+  },
+  {
+    "team_standing_id": 473,
+    "position": "1",
+    "team_id": "FER",
+    "points": 262.0,
+    "year": 2004
+  },
+  {
+    "team_standing_id": 474,
+    "position": "2",
+    "team_id": "BAR-HON",
+    "points": 119.0,
+    "year": 2004
+  },
+  {
+    "team_standing_id": 475,
+    "position": "3",
+    "team_id": "REN",
+    "points": 105.0,
+    "year": 2004
+  },
+  {
+    "team_standing_id": 476,
+    "position": "4",
+    "team_id": "WIL-BMW",
+    "points": 88.0,
+    "year": 2004
+  },
+  {
+    "team_standing_id": 477,
+    "position": "5",
+    "team_id": "MCL-MER",
+    "points": 69.0,
+    "year": 2004
+  },
+  {
+    "team_standing_id": 478,
+    "position": "6",
+    "team_id": "SAU-PET",
+    "points": 34.0,
+    "year": 2004
+  },
+  {
+    "team_standing_id": 479,
+    "position": "7",
+    "team_id": "JAG-COS",
+    "points": 10.0,
+    "year": 2004
+  },
+  {
+    "team_standing_id": 480,
+    "position": "8",
+    "team_id": "TOY",
+    "points": 9.0,
+    "year": 2004
+  },
+  {
+    "team_standing_id": 481,
+    "position": "9",
+    "team_id": "JOR-FOR",
+    "points": 5.0,
+    "year": 2004
+  },
+  {
+    "team_standing_id": 482,
+    "position": "10",
+    "team_id": "MIN-COS",
+    "points": 1.0,
+    "year": 2004
+  },
+  {
+    "team_standing_id": 483,
+    "position": "1",
+    "team_id": "REN",
+    "points": 191.0,
+    "year": 2005
+  },
+  {
+    "team_standing_id": 484,
+    "position": "2",
+    "team_id": "MCL-MER",
+    "points": 182.0,
+    "year": 2005
+  },
+  {
+    "team_standing_id": 485,
+    "position": "3",
+    "team_id": "FER",
+    "points": 100.0,
+    "year": 2005
+  },
+  {
+    "team_standing_id": 486,
+    "position": "4",
+    "team_id": "TOY",
+    "points": 88.0,
+    "year": 2005
+  },
+  {
+    "team_standing_id": 487,
+    "position": "5",
+    "team_id": "WIL-BMW",
+    "points": 66.0,
+    "year": 2005
+  },
+  {
+    "team_standing_id": 488,
+    "position": "6",
+    "team_id": "BAR-HON",
+    "points": 38.0,
+    "year": 2005
+  },
+  {
+    "team_standing_id": 489,
+    "position": "7",
+    "team_id": "RBR-COS",
+    "points": 34.0,
+    "year": 2005
+  },
+  {
+    "team_standing_id": 490,
+    "position": "8",
+    "team_id": "SAU-PET",
+    "points": 20.0,
+    "year": 2005
+  },
+  {
+    "team_standing_id": 491,
+    "position": "9",
+    "team_id": "JOR-TOY",
+    "points": 12.0,
+    "year": 2005
+  },
+  {
+    "team_standing_id": 492,
+    "position": "10",
+    "team_id": "MIN-COS",
+    "points": 7.0,
+    "year": 2005
+  },
+  {
+    "team_standing_id": 493,
+    "position": "1",
+    "team_id": "REN",
+    "points": 206.0,
+    "year": 2006
+  },
+  {
+    "team_standing_id": 494,
+    "position": "2",
+    "team_id": "FER",
+    "points": 201.0,
+    "year": 2006
+  },
+  {
+    "team_standing_id": 495,
+    "position": "3",
+    "team_id": "MCL-MER",
+    "points": 110.0,
+    "year": 2006
+  },
+  {
+    "team_standing_id": 496,
+    "position": "4",
+    "team_id": "HON",
+    "points": 86.0,
+    "year": 2006
+  },
+  {
+    "team_standing_id": 497,
+    "position": "5",
+    "team_id": "SAU-BMW",
+    "points": 36.0,
+    "year": 2006
+  },
+  {
+    "team_standing_id": 498,
+    "position": "6",
+    "team_id": "TOY",
+    "points": 35.0,
+    "year": 2006
+  },
+  {
+    "team_standing_id": 499,
+    "position": "7",
+    "team_id": "RBR-FER",
+    "points": 16.0,
+    "year": 2006
+  },
+  {
+    "team_standing_id": 500,
+    "position": "8",
+    "team_id": "WIL-COS",
+    "points": 11.0,
+    "year": 2006
+  },
+  {
+    "team_standing_id": 501,
+    "position": "9",
+    "team_id": "STR-COS",
+    "points": 1.0,
+    "year": 2006
+  },
+  {
+    "team_standing_id": 502,
+    "position": "10",
+    "team_id": "MF1-TOY",
+    "points": 0.0,
+    "year": 2006
+  },
+  {
+    "team_standing_id": 503,
+    "position": "11",
+    "team_id": "SUP-AGU-HON",
+    "points": 0.0,
+    "year": 2006
+  },
+  {
+    "team_standing_id": 504,
+    "position": "1",
+    "team_id": "FER",
+    "points": 204.0,
+    "year": 2007
+  },
+  {
+    "team_standing_id": 505,
+    "position": "2",
+    "team_id": "SAU-BMW",
+    "points": 101.0,
+    "year": 2007
+  },
+  {
+    "team_standing_id": 506,
+    "position": "3",
+    "team_id": "REN",
+    "points": 51.0,
+    "year": 2007
+  },
+  {
+    "team_standing_id": 507,
+    "position": "4",
+    "team_id": "WIL-TOY",
+    "points": 33.0,
+    "year": 2007
+  },
+  {
+    "team_standing_id": 508,
+    "position": "5",
+    "team_id": "RED-BUL-REN",
+    "points": 24.0,
+    "year": 2007
+  },
+  {
+    "team_standing_id": 509,
+    "position": "6",
+    "team_id": "TOY",
+    "points": 13.0,
+    "year": 2007
+  },
+  {
+    "team_standing_id": 510,
+    "position": "7",
+    "team_id": "STR-FER",
+    "points": 8.0,
+    "year": 2007
+  },
+  {
+    "team_standing_id": 511,
+    "position": "8",
+    "team_id": "HON",
+    "points": 6.0,
+    "year": 2007
+  },
+  {
+    "team_standing_id": 512,
+    "position": "9",
+    "team_id": "SUP-AGU-HON",
+    "points": 4.0,
+    "year": 2007
+  },
+  {
+    "team_standing_id": 513,
+    "position": "10",
+    "team_id": "SPY-FER",
+    "points": 1.0,
+    "year": 2007
+  },
+  {
+    "team_standing_id": 514,
+    "position": "EX",
+    "team_id": "MCL-MER",
+    "points": 0.0,
+    "year": 2007
+  },
+  {
+    "team_standing_id": 515,
+    "position": "1",
+    "team_id": "FER",
+    "points": 172.0,
+    "year": 2008
+  },
+  {
+    "team_standing_id": 516,
+    "position": "2",
+    "team_id": "MCL-MER",
+    "points": 151.0,
+    "year": 2008
+  },
+  {
+    "team_standing_id": 517,
+    "position": "3",
+    "team_id": "SAU-BMW",
+    "points": 135.0,
+    "year": 2008
+  },
+  {
+    "team_standing_id": 518,
+    "position": "4",
+    "team_id": "REN",
+    "points": 80.0,
+    "year": 2008
+  },
+  {
+    "team_standing_id": 519,
+    "position": "5",
+    "team_id": "TOY",
+    "points": 56.0,
+    "year": 2008
+  },
+  {
+    "team_standing_id": 520,
+    "position": "6",
+    "team_id": "STR-FER",
+    "points": 39.0,
+    "year": 2008
+  },
+  {
+    "team_standing_id": 521,
+    "position": "7",
+    "team_id": "RED-BUL-REN",
+    "points": 29.0,
+    "year": 2008
+  },
+  {
+    "team_standing_id": 522,
+    "position": "8",
+    "team_id": "WIL-TOY",
+    "points": 26.0,
+    "year": 2008
+  },
+  {
+    "team_standing_id": 523,
+    "position": "9",
+    "team_id": "HON",
+    "points": 14.0,
+    "year": 2008
+  },
+  {
+    "team_standing_id": 524,
+    "position": "10",
+    "team_id": "FOR-IND-FER",
+    "points": 0.0,
+    "year": 2008
+  },
+  {
+    "team_standing_id": 525,
+    "position": "11",
+    "team_id": "SUP-AGU-HON",
+    "points": 0.0,
+    "year": 2008
+  },
+  {
+    "team_standing_id": 526,
+    "position": "1",
+    "team_id": "BRA-MER",
+    "points": 172.0,
+    "year": 2009
+  },
+  {
+    "team_standing_id": 527,
+    "position": "2",
+    "team_id": "RBR-REN",
+    "points": 153.5,
+    "year": 2009
+  },
+  {
+    "team_standing_id": 528,
+    "position": "3",
+    "team_id": "MCL-MER",
+    "points": 71.0,
+    "year": 2009
+  },
+  {
+    "team_standing_id": 529,
+    "position": "4",
+    "team_id": "FER",
+    "points": 70.0,
+    "year": 2009
+  },
+  {
+    "team_standing_id": 530,
+    "position": "5",
+    "team_id": "TOY",
+    "points": 59.5,
+    "year": 2009
+  },
+  {
+    "team_standing_id": 531,
+    "position": "6",
+    "team_id": "SAU-BMW",
+    "points": 36.0,
+    "year": 2009
+  },
+  {
+    "team_standing_id": 532,
+    "position": "7",
+    "team_id": "WIL-TOY",
+    "points": 34.5,
+    "year": 2009
+  },
+  {
+    "team_standing_id": 533,
+    "position": "8",
+    "team_id": "REN",
+    "points": 26.0,
+    "year": 2009
+  },
+  {
+    "team_standing_id": 534,
+    "position": "9",
+    "team_id": "FOR-IND-MER",
+    "points": 13.0,
+    "year": 2009
+  },
+  {
+    "team_standing_id": 535,
+    "position": "10",
+    "team_id": "STR-FER",
+    "points": 8.0,
+    "year": 2009
+  },
+  {
+    "team_standing_id": 536,
+    "position": "1",
+    "team_id": "RBR-REN",
+    "points": 498.0,
+    "year": 2010
+  },
+  {
+    "team_standing_id": 537,
+    "position": "2",
+    "team_id": "MCL-MER",
+    "points": 454.0,
+    "year": 2010
+  },
+  {
+    "team_standing_id": 538,
+    "position": "3",
+    "team_id": "FER",
+    "points": 396.0,
+    "year": 2010
+  },
+  {
+    "team_standing_id": 539,
+    "position": "4",
+    "team_id": "MER",
+    "points": 214.0,
+    "year": 2010
+  },
+  {
+    "team_standing_id": 540,
+    "position": "5",
+    "team_id": "REN",
+    "points": 163.0,
+    "year": 2010
+  },
+  {
+    "team_standing_id": 541,
+    "position": "6",
+    "team_id": "WIL-COS",
+    "points": 69.0,
+    "year": 2010
+  },
+  {
+    "team_standing_id": 542,
+    "position": "7",
+    "team_id": "FOR-IND-MER",
+    "points": 68.0,
+    "year": 2010
+  },
+  {
+    "team_standing_id": 543,
+    "position": "8",
+    "team_id": "SAU-FER",
+    "points": 44.0,
+    "year": 2010
+  },
+  {
+    "team_standing_id": 544,
+    "position": "9",
+    "team_id": "STR-FER",
+    "points": 13.0,
+    "year": 2010
+  },
+  {
+    "team_standing_id": 545,
+    "position": "10",
+    "team_id": "LOT-COS",
+    "points": 0.0,
+    "year": 2010
+  },
+  {
+    "team_standing_id": 546,
+    "position": "11",
+    "team_id": "HRT-COS",
+    "points": 0.0,
+    "year": 2010
+  },
+  {
+    "team_standing_id": 547,
+    "position": "12",
+    "team_id": "VIR-COS",
+    "points": 0.0,
+    "year": 2010
+  },
+  {
+    "team_standing_id": 548,
+    "position": "1",
+    "team_id": "RED-BUL-RAC-REN",
+    "points": 650.0,
+    "year": 2011
+  },
+  {
+    "team_standing_id": 549,
+    "position": "2",
+    "team_id": "MCL-MER",
+    "points": 497.0,
+    "year": 2011
+  },
+  {
+    "team_standing_id": 550,
+    "position": "3",
+    "team_id": "FER",
+    "points": 375.0,
+    "year": 2011
+  },
+  {
+    "team_standing_id": 551,
+    "position": "4",
+    "team_id": "MER",
+    "points": 165.0,
+    "year": 2011
+  },
+  {
+    "team_standing_id": 552,
+    "position": "5",
+    "team_id": "REN",
+    "points": 73.0,
+    "year": 2011
+  },
+  {
+    "team_standing_id": 553,
+    "position": "6",
+    "team_id": "FOR-IND-MER",
+    "points": 69.0,
+    "year": 2011
+  },
+  {
+    "team_standing_id": 554,
+    "position": "7",
+    "team_id": "SAU-FER",
+    "points": 44.0,
+    "year": 2011
+  },
+  {
+    "team_standing_id": 555,
+    "position": "8",
+    "team_id": "STR-FER",
+    "points": 41.0,
+    "year": 2011
+  },
+  {
+    "team_standing_id": 556,
+    "position": "9",
+    "team_id": "WIL-COS",
+    "points": 5.0,
+    "year": 2011
+  },
+  {
+    "team_standing_id": 557,
+    "position": "10",
+    "team_id": "LOT-REN",
+    "points": 0.0,
+    "year": 2011
+  },
+  {
+    "team_standing_id": 558,
+    "position": "11",
+    "team_id": "HRT-COS",
+    "points": 0.0,
+    "year": 2011
+  },
+  {
+    "team_standing_id": 559,
+    "position": "12",
+    "team_id": "VIR-COS",
+    "points": 0.0,
+    "year": 2011
+  },
+  {
+    "team_standing_id": 560,
+    "position": "1",
+    "team_id": "RED-BUL-RAC-REN",
+    "points": 460.0,
+    "year": 2012
+  },
+  {
+    "team_standing_id": 561,
+    "position": "2",
+    "team_id": "FER",
+    "points": 400.0,
+    "year": 2012
+  },
+  {
+    "team_standing_id": 562,
+    "position": "3",
+    "team_id": "MCL-MER",
+    "points": 378.0,
+    "year": 2012
+  },
+  {
+    "team_standing_id": 563,
+    "position": "4",
+    "team_id": "LOT-REN",
+    "points": 303.0,
+    "year": 2012
+  },
+  {
+    "team_standing_id": 564,
+    "position": "5",
+    "team_id": "MER",
+    "points": 142.0,
+    "year": 2012
+  },
+  {
+    "team_standing_id": 565,
+    "position": "6",
+    "team_id": "SAU-FER",
+    "points": 126.0,
+    "year": 2012
+  },
+  {
+    "team_standing_id": 566,
+    "position": "7",
+    "team_id": "FOR-IND-MER",
+    "points": 109.0,
+    "year": 2012
+  },
+  {
+    "team_standing_id": 567,
+    "position": "8",
+    "team_id": "WIL-REN",
+    "points": 76.0,
+    "year": 2012
+  },
+  {
+    "team_standing_id": 568,
+    "position": "9",
+    "team_id": "STR-FER",
+    "points": 26.0,
+    "year": 2012
+  },
+  {
+    "team_standing_id": 569,
+    "position": "10",
+    "team_id": "CAT-REN",
+    "points": 0.0,
+    "year": 2012
+  },
+  {
+    "team_standing_id": 570,
+    "position": "11",
+    "team_id": "MAR-COS",
+    "points": 0.0,
+    "year": 2012
+  },
+  {
+    "team_standing_id": 571,
+    "position": "12",
+    "team_id": "HRT-COS",
+    "points": 0.0,
+    "year": 2012
+  },
+  {
+    "team_standing_id": 572,
+    "position": "1",
+    "team_id": "RED-BUL-RAC-REN",
+    "points": 596.0,
+    "year": 2013
+  },
+  {
+    "team_standing_id": 573,
+    "position": "2",
+    "team_id": "MER",
+    "points": 360.0,
+    "year": 2013
+  },
+  {
+    "team_standing_id": 574,
+    "position": "3",
+    "team_id": "FER",
+    "points": 354.0,
+    "year": 2013
+  },
+  {
+    "team_standing_id": 575,
+    "position": "4",
+    "team_id": "LOT-REN",
+    "points": 315.0,
+    "year": 2013
+  },
+  {
+    "team_standing_id": 576,
+    "position": "5",
+    "team_id": "MCL-MER",
+    "points": 122.0,
+    "year": 2013
+  },
+  {
+    "team_standing_id": 577,
+    "position": "6",
+    "team_id": "FOR-IND-MER",
+    "points": 77.0,
+    "year": 2013
+  },
+  {
+    "team_standing_id": 578,
+    "position": "7",
+    "team_id": "SAU-FER",
+    "points": 57.0,
+    "year": 2013
+  },
+  {
+    "team_standing_id": 579,
+    "position": "8",
+    "team_id": "STR-FER",
+    "points": 33.0,
+    "year": 2013
+  },
+  {
+    "team_standing_id": 580,
+    "position": "9",
+    "team_id": "WIL-REN",
+    "points": 5.0,
+    "year": 2013
+  },
+  {
+    "team_standing_id": 581,
+    "position": "10",
+    "team_id": "MAR-COS",
+    "points": 0.0,
+    "year": 2013
+  },
+  {
+    "team_standing_id": 582,
+    "position": "11",
+    "team_id": "CAT-REN",
+    "points": 0.0,
+    "year": 2013
+  },
+  {
+    "team_standing_id": 583,
+    "position": "1",
+    "team_id": "MER",
+    "points": 701.0,
+    "year": 2014
+  },
+  {
+    "team_standing_id": 584,
+    "position": "2",
+    "team_id": "RED-BUL-RAC-REN",
+    "points": 405.0,
+    "year": 2014
+  },
+  {
+    "team_standing_id": 585,
+    "position": "3",
+    "team_id": "WIL-MER",
+    "points": 320.0,
+    "year": 2014
+  },
+  {
+    "team_standing_id": 586,
+    "position": "4",
+    "team_id": "FER",
+    "points": 216.0,
+    "year": 2014
+  },
+  {
+    "team_standing_id": 587,
+    "position": "5",
+    "team_id": "MCL-MER",
+    "points": 181.0,
+    "year": 2014
+  },
+  {
+    "team_standing_id": 588,
+    "position": "6",
+    "team_id": "FOR-IND-MER",
+    "points": 155.0,
+    "year": 2014
+  },
+  {
+    "team_standing_id": 589,
+    "position": "7",
+    "team_id": "STR-REN",
+    "points": 30.0,
+    "year": 2014
+  },
+  {
+    "team_standing_id": 590,
+    "position": "8",
+    "team_id": "LOT-REN",
+    "points": 10.0,
+    "year": 2014
+  },
+  {
+    "team_standing_id": 591,
+    "position": "9",
+    "team_id": "MAR-FER",
+    "points": 2.0,
+    "year": 2014
+  },
+  {
+    "team_standing_id": 592,
+    "position": "10",
+    "team_id": "SAU-FER",
+    "points": 0.0,
+    "year": 2014
+  },
+  {
+    "team_standing_id": 593,
+    "position": "11",
+    "team_id": "CAT-REN",
+    "points": 0.0,
+    "year": 2014
+  },
+  {
+    "team_standing_id": 594,
+    "position": "1",
+    "team_id": "MER",
+    "points": 703.0,
+    "year": 2015
+  },
+  {
+    "team_standing_id": 595,
+    "position": "2",
+    "team_id": "FER",
+    "points": 428.0,
+    "year": 2015
+  },
+  {
+    "team_standing_id": 596,
+    "position": "3",
+    "team_id": "WIL-MER",
+    "points": 257.0,
+    "year": 2015
+  },
+  {
+    "team_standing_id": 597,
+    "position": "4",
+    "team_id": "RED-BUL-RAC-REN",
+    "points": 187.0,
+    "year": 2015
+  },
+  {
+    "team_standing_id": 598,
+    "position": "5",
+    "team_id": "FOR-IND-MER",
+    "points": 136.0,
+    "year": 2015
+  },
+  {
+    "team_standing_id": 599,
+    "position": "6",
+    "team_id": "LOT-MER",
+    "points": 78.0,
+    "year": 2015
+  },
+  {
+    "team_standing_id": 600,
+    "position": "7",
+    "team_id": "STR-REN",
+    "points": 67.0,
+    "year": 2015
+  },
+  {
+    "team_standing_id": 601,
+    "position": "8",
+    "team_id": "SAU-FER",
+    "points": 36.0,
+    "year": 2015
+  },
+  {
+    "team_standing_id": 602,
+    "position": "9",
+    "team_id": "MCL-HON",
+    "points": 27.0,
+    "year": 2015
+  },
+  {
+    "team_standing_id": 603,
+    "position": "10",
+    "team_id": "MAR-FER",
+    "points": 0.0,
+    "year": 2015
+  },
+  {
+    "team_standing_id": 604,
+    "position": "1",
+    "team_id": "MER",
+    "points": 765.0,
+    "year": 2016
+  },
+  {
+    "team_standing_id": 605,
+    "position": "2",
+    "team_id": "RED-BUL-RAC-TAG-HEU",
+    "points": 468.0,
+    "year": 2016
+  },
+  {
+    "team_standing_id": 606,
+    "position": "3",
+    "team_id": "FER",
+    "points": 398.0,
+    "year": 2016
+  },
+  {
+    "team_standing_id": 607,
+    "position": "4",
+    "team_id": "FOR-IND-MER",
+    "points": 173.0,
+    "year": 2016
+  },
+  {
+    "team_standing_id": 608,
+    "position": "5",
+    "team_id": "WIL-MER",
+    "points": 138.0,
+    "year": 2016
+  },
+  {
+    "team_standing_id": 609,
+    "position": "6",
+    "team_id": "MCL-HON",
+    "points": 76.0,
+    "year": 2016
+  },
+  {
+    "team_standing_id": 610,
+    "position": "7",
+    "team_id": "TOR-ROS-FER",
+    "points": 63.0,
+    "year": 2016
+  },
+  {
+    "team_standing_id": 611,
+    "position": "8",
+    "team_id": "HAA-FER",
+    "points": 29.0,
+    "year": 2016
+  },
+  {
+    "team_standing_id": 612,
+    "position": "9",
+    "team_id": "REN",
+    "points": 8.0,
+    "year": 2016
+  },
+  {
+    "team_standing_id": 613,
+    "position": "10",
+    "team_id": "SAU-FER",
+    "points": 2.0,
+    "year": 2016
+  },
+  {
+    "team_standing_id": 614,
+    "position": "11",
+    "team_id": "MRT-MER",
+    "points": 1.0,
+    "year": 2016
+  },
+  {
+    "team_standing_id": 615,
+    "position": "1",
+    "team_id": "MER",
+    "points": 668.0,
+    "year": 2017
+  },
+  {
+    "team_standing_id": 616,
+    "position": "2",
+    "team_id": "FER",
+    "points": 522.0,
+    "year": 2017
+  },
+  {
+    "team_standing_id": 617,
+    "position": "3",
+    "team_id": "RED-BUL-RAC-TAG-HEU",
+    "points": 368.0,
+    "year": 2017
+  },
+  {
+    "team_standing_id": 618,
+    "position": "4",
+    "team_id": "FOR-IND-MER",
+    "points": 187.0,
+    "year": 2017
+  },
+  {
+    "team_standing_id": 619,
+    "position": "5",
+    "team_id": "WIL-MER",
+    "points": 83.0,
+    "year": 2017
+  },
+  {
+    "team_standing_id": 620,
+    "position": "6",
+    "team_id": "REN",
+    "points": 57.0,
+    "year": 2017
+  },
+  {
+    "team_standing_id": 621,
+    "position": "7",
+    "team_id": "TOR-ROS",
+    "points": 53.0,
+    "year": 2017
+  },
+  {
+    "team_standing_id": 622,
+    "position": "8",
+    "team_id": "HAA-FER",
+    "points": 47.0,
+    "year": 2017
+  },
+  {
+    "team_standing_id": 623,
+    "position": "9",
+    "team_id": "MCL-HON",
+    "points": 30.0,
+    "year": 2017
+  },
+  {
+    "team_standing_id": 624,
+    "position": "10",
+    "team_id": "SAU-FER",
+    "points": 5.0,
+    "year": 2017
+  },
+  {
+    "team_standing_id": 625,
+    "position": "1",
+    "team_id": "MER",
+    "points": 655.0,
+    "year": 2018
+  },
+  {
+    "team_standing_id": 626,
+    "position": "2",
+    "team_id": "FER",
+    "points": 571.0,
+    "year": 2018
+  },
+  {
+    "team_standing_id": 627,
+    "position": "3",
+    "team_id": "RED-BUL-RAC-TAG-HEU",
+    "points": 419.0,
+    "year": 2018
+  },
+  {
+    "team_standing_id": 628,
+    "position": "4",
+    "team_id": "REN",
+    "points": 122.0,
+    "year": 2018
+  },
+  {
+    "team_standing_id": 629,
+    "position": "5",
+    "team_id": "HAA-FER",
+    "points": 93.0,
+    "year": 2018
+  },
+  {
+    "team_standing_id": 630,
+    "position": "6",
+    "team_id": "MCL-REN",
+    "points": 62.0,
+    "year": 2018
+  },
+  {
+    "team_standing_id": 631,
+    "position": "7",
+    "team_id": "FOR-IND-MER",
+    "points": 52.0,
+    "year": 2018
+  },
+  {
+    "team_standing_id": 632,
+    "position": "8",
+    "team_id": "SAU-FER",
+    "points": 48.0,
+    "year": 2018
+  },
+  {
+    "team_standing_id": 633,
+    "position": "9",
+    "team_id": "SCU-TOR-ROS-HON",
+    "points": 33.0,
+    "year": 2018
+  },
+  {
+    "team_standing_id": 634,
+    "position": "10",
+    "team_id": "WIL-MER",
+    "points": 7.0,
+    "year": 2018
+  },
+  {
+    "team_standing_id": 635,
+    "position": "EX",
+    "team_id": "FOR-IND-SAH",
+    "points": 0.0,
+    "year": 2018
+  },
+  {
+    "team_standing_id": 636,
+    "position": "1",
+    "team_id": "MER",
+    "points": 739.0,
+    "year": 2019
+  },
+  {
+    "team_standing_id": 637,
+    "position": "2",
+    "team_id": "FER",
+    "points": 504.0,
+    "year": 2019
+  },
+  {
+    "team_standing_id": 638,
+    "position": "3",
+    "team_id": "RED-BUL-RAC-HON",
+    "points": 417.0,
+    "year": 2019
+  },
+  {
+    "team_standing_id": 639,
+    "position": "4",
+    "team_id": "MCL-REN",
+    "points": 145.0,
+    "year": 2019
+  },
+  {
+    "team_standing_id": 640,
+    "position": "5",
+    "team_id": "REN",
+    "points": 91.0,
+    "year": 2019
+  },
+  {
+    "team_standing_id": 641,
+    "position": "6",
+    "team_id": "SCU-TOR-ROS-HON",
+    "points": 85.0,
+    "year": 2019
+  },
+  {
+    "team_standing_id": 642,
+    "position": "7",
+    "team_id": "RAC-POI-BWT-MER",
+    "points": 73.0,
+    "year": 2019
+  },
+  {
+    "team_standing_id": 643,
+    "position": "8",
+    "team_id": "ALF-ROM-RAC-FER",
+    "points": 57.0,
+    "year": 2019
+  },
+  {
+    "team_standing_id": 644,
+    "position": "9",
+    "team_id": "HAA-FER",
+    "points": 28.0,
+    "year": 2019
+  },
+  {
+    "team_standing_id": 645,
+    "position": "10",
+    "team_id": "WIL-MER",
+    "points": 1.0,
+    "year": 2019
+  },
+  {
+    "team_standing_id": 646,
+    "position": "1",
+    "team_id": "MER",
+    "points": 573.0,
+    "year": 2020
+  },
+  {
+    "team_standing_id": 647,
+    "position": "2",
+    "team_id": "RED-BUL-RAC-HON",
+    "points": 319.0,
+    "year": 2020
+  },
+  {
+    "team_standing_id": 648,
+    "position": "3",
+    "team_id": "MCL-REN",
+    "points": 202.0,
+    "year": 2020
+  },
+  {
+    "team_standing_id": 649,
+    "position": "4",
+    "team_id": "RAC-POI-BWT-MER",
+    "points": 195.0,
+    "year": 2020
+  },
+  {
+    "team_standing_id": 650,
+    "position": "5",
+    "team_id": "REN",
+    "points": 181.0,
+    "year": 2020
+  },
+  {
+    "team_standing_id": 651,
+    "position": "6",
+    "team_id": "FER",
+    "points": 131.0,
+    "year": 2020
+  },
+  {
+    "team_standing_id": 652,
+    "position": "7",
+    "team_id": "ALP-HON",
+    "points": 107.0,
+    "year": 2020
+  },
+  {
+    "team_standing_id": 653,
+    "position": "8",
+    "team_id": "ALF-ROM-RAC-FER",
+    "points": 8.0,
+    "year": 2020
+  },
+  {
+    "team_standing_id": 654,
+    "position": "9",
+    "team_id": "HAA-FER",
+    "points": 3.0,
+    "year": 2020
+  },
+  {
+    "team_standing_id": 655,
+    "position": "10",
+    "team_id": "WIL-MER",
+    "points": 0.0,
+    "year": 2020
+  },
+  {
+    "team_standing_id": 656,
+    "position": "1",
+    "team_id": "MER",
+    "points": 613.5,
+    "year": 2021
+  },
+  {
+    "team_standing_id": 657,
+    "position": "2",
+    "team_id": "RED-BUL-RAC-HON",
+    "points": 585.5,
+    "year": 2021
+  },
+  {
+    "team_standing_id": 658,
+    "position": "3",
+    "team_id": "FER",
+    "points": 323.5,
+    "year": 2021
+  },
+  {
+    "team_standing_id": 659,
+    "position": "4",
+    "team_id": "MCL-MER",
+    "points": 275.0,
+    "year": 2021
+  },
+  {
+    "team_standing_id": 660,
+    "position": "5",
+    "team_id": "ALP-REN",
+    "points": 155.0,
+    "year": 2021
+  },
+  {
+    "team_standing_id": 661,
+    "position": "6",
+    "team_id": "ALP-HON",
+    "points": 142.0,
+    "year": 2021
+  },
+  {
+    "team_standing_id": 662,
+    "position": "7",
+    "team_id": "AST-MAR-MER",
+    "points": 77.0,
+    "year": 2021
+  },
+  {
+    "team_standing_id": 663,
+    "position": "8",
+    "team_id": "WIL-MER",
+    "points": 23.0,
+    "year": 2021
+  },
+  {
+    "team_standing_id": 664,
+    "position": "9",
+    "team_id": "ALF-ROM-RAC-FER",
+    "points": 13.0,
+    "year": 2021
+  },
+  {
+    "team_standing_id": 665,
+    "position": "10",
+    "team_id": "HAA-FER",
+    "points": 0.0,
+    "year": 2021
+  },
+  {
+    "team_standing_id": 666,
+    "position": "1",
+    "team_id": "RED-BUL-RAC-RBP",
+    "points": 759.0,
+    "year": 2022
+  },
+  {
+    "team_standing_id": 667,
+    "position": "2",
+    "team_id": "FER",
+    "points": 554.0,
+    "year": 2022
+  },
+  {
+    "team_standing_id": 668,
+    "position": "3",
+    "team_id": "MER",
+    "points": 515.0,
+    "year": 2022
+  },
+  {
+    "team_standing_id": 669,
+    "position": "4",
+    "team_id": "ALP-REN",
+    "points": 173.0,
+    "year": 2022
+  },
+  {
+    "team_standing_id": 670,
+    "position": "5",
+    "team_id": "MCL-MER",
+    "points": 159.0,
+    "year": 2022
+  },
+  {
+    "team_standing_id": 671,
+    "position": "6",
+    "team_id": "ALF-ROM-FER",
+    "points": 55.0,
+    "year": 2022
+  },
+  {
+    "team_standing_id": 672,
+    "position": "7",
+    "team_id": "AST-MAR-ARA-MER",
+    "points": 55.0,
+    "year": 2022
+  },
+  {
+    "team_standing_id": 673,
+    "position": "8",
+    "team_id": "HAA-FER",
+    "points": 37.0,
+    "year": 2022
+  },
+  {
+    "team_standing_id": 674,
+    "position": "9",
+    "team_id": "ALP-RBP",
+    "points": 35.0,
+    "year": 2022
+  },
+  {
+    "team_standing_id": 675,
+    "position": "10",
+    "team_id": "WIL-MER",
+    "points": 8.0,
+    "year": 2022
+  },
+  {
+    "team_standing_id": 676,
+    "position": "1",
+    "team_id": "RED-BUL-RAC-HON-RBP",
+    "points": 860.0,
+    "year": 2023
+  },
+  {
+    "team_standing_id": 677,
+    "position": "2",
+    "team_id": "MER",
+    "points": 409.0,
+    "year": 2023
+  },
+  {
+    "team_standing_id": 678,
+    "position": "3",
+    "team_id": "FER",
+    "points": 406.0,
+    "year": 2023
+  },
+  {
+    "team_standing_id": 679,
+    "position": "4",
+    "team_id": "MCL-MER",
+    "points": 302.0,
+    "year": 2023
+  },
+  {
+    "team_standing_id": 680,
+    "position": "5",
+    "team_id": "AST-MAR-ARA-MER",
+    "points": 280.0,
+    "year": 2023
+  },
+  {
+    "team_standing_id": 681,
+    "position": "6",
+    "team_id": "ALP-REN",
+    "points": 120.0,
+    "year": 2023
+  },
+  {
+    "team_standing_id": 682,
+    "position": "7",
+    "team_id": "WIL-MER",
+    "points": 28.0,
+    "year": 2023
+  },
+  {
+    "team_standing_id": 683,
+    "position": "8",
+    "team_id": "ALP-HON-RBP",
+    "points": 25.0,
+    "year": 2023
+  },
+  {
+    "team_standing_id": 684,
+    "position": "9",
+    "team_id": "ALF-ROM-FER",
+    "points": 16.0,
+    "year": 2023
+  },
+  {
+    "team_standing_id": 685,
+    "position": "10",
+    "team_id": "HAA-FER",
+    "points": 12.0,
+    "year": 2023
+  },
+  {
+    "team_standing_id": 686,
+    "position": "1",
+    "team_id": "MCL-MER",
+    "points": 666.0,
+    "year": 2024
+  },
+  {
+    "team_standing_id": 687,
+    "position": "2",
+    "team_id": "FER",
+    "points": 652.0,
+    "year": 2024
+  },
+  {
+    "team_standing_id": 688,
+    "position": "3",
+    "team_id": "RED-BUL-RAC-HON-RBP",
+    "points": 589.0,
+    "year": 2024
+  },
+  {
+    "team_standing_id": 689,
+    "position": "4",
+    "team_id": "MER",
+    "points": 468.0,
+    "year": 2024
+  },
+  {
+    "team_standing_id": 690,
+    "position": "5",
+    "team_id": "AST-MAR-ARA-MER",
+    "points": 94.0,
+    "year": 2024
+  },
+  {
+    "team_standing_id": 691,
+    "position": "6",
+    "team_id": "ALP-REN",
+    "points": 65.0,
+    "year": 2024
+  },
+  {
+    "team_standing_id": 692,
+    "position": "7",
+    "team_id": "HAA-FER",
+    "points": 58.0,
+    "year": 2024
+  },
+  {
+    "team_standing_id": 693,
+    "position": "8",
+    "team_id": "RB-HON-RBP",
+    "points": 46.0,
+    "year": 2024
+  },
+  {
+    "team_standing_id": 694,
+    "position": "9",
+    "team_id": "WIL-MER",
+    "points": 17.0,
+    "year": 2024
+  },
+  {
+    "team_standing_id": 695,
+    "position": "10",
+    "team_id": "KIC-SAU-FER",
+    "points": 4.0,
+    "year": 2024
+  },
+  {
+    "team_standing_id": 696,
+    "position": "1",
+    "team_id": "MCL-MER",
+    "points": 362.0,
+    "year": 2025
+  },
+  {
+    "team_standing_id": 697,
+    "position": "2",
+    "team_id": "FER",
+    "points": 165.0,
+    "year": 2025
+  },
+  {
+    "team_standing_id": 698,
+    "position": "3",
+    "team_id": "MER",
+    "points": 159.0,
+    "year": 2025
+  },
+  {
+    "team_standing_id": 699,
+    "position": "4",
+    "team_id": "RED-BUL-RAC-HON-RBP",
+    "points": 144.0,
+    "year": 2025
+  },
+  {
+    "team_standing_id": 700,
+    "position": "5",
+    "team_id": "WIL-MER",
+    "points": 54.0,
+    "year": 2025
+  },
+  {
+    "team_standing_id": 701,
+    "position": "6",
+    "team_id": "RAC-BUL-HON-RBP",
+    "points": 28.0,
+    "year": 2025
+  },
+  {
+    "team_standing_id": 702,
+    "position": "7",
+    "team_id": "HAA-FER",
+    "points": 26.0,
+    "year": 2025
+  },
+  {
+    "team_standing_id": 703,
+    "position": "8",
+    "team_id": "KIC-SAU-FER",
+    "points": 16.0,
+    "year": 2025
+  },
+  {
+    "team_standing_id": 704,
+    "position": "9",
+    "team_id": "AST-MAR-ARA-MER",
+    "points": 16.0,
+    "year": 2025
+  },
+  {
+    "team_standing_id": 705,
+    "position": "10",
+    "team_id": "ALP-REN",
+    "points": 11.0,
+    "year": 2025
+  }
+]
