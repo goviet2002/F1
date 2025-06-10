@@ -7,7 +7,7 @@ import sys
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from utils.tranform_helpers import safe_float, safe_int, get_fact_table_name, update_driver_dimensions_with_nationality, \
-                                generate_team_id, generate_unique_driver_id, get_full_nationality, build_driver_era_map, find_best_driver_match
+                                generate_team_id, generate_unique_driver_id, get_full_nationality
 
 from transform_qualifying import extract_starting_grid_positions, is_multi_part_qualifying, process_combined_qualifying, \
                                  enforce_qualifying_schema, normalize_name, DATA_DIR
@@ -244,14 +244,14 @@ def extract_drivers_dimensions():
                     
                     driver_code = driver_data.get('driver_code')
                     driver_name = driver_data.get('name')
+                    nationality_code = driver_data.get('nationality')  # EXTRACT NATIONALITY
                     
                     if driver_code and driver_name:
                         drivers[driver_code] = {
-                            'driver_id': driver_code,  # Use driver_code as ID
+                            'driver_id': driver_code,
                             'driver_name': driver_name,
-                            'country_code': None,
-                            'country': None, 
-                            # 'url': driver_data.get('url', '')
+                            'country_code': nationality_code,  # ADD NATIONALITY
+                            'country': get_full_nationality(nationality_code) if nationality_code else None,
                         }
                 except Exception as e:
                     print(f"Error processing driver file {file_path}: {e}")
@@ -265,9 +265,6 @@ def extract_driver_standings_facts(dimensions):
     
     driver_standings = []
     
-    # Build era map once for all drivers with duplicate names
-    era_map = build_driver_era_map(dimensions)
-    
     try:
         with open(driver_standings_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -279,8 +276,28 @@ def extract_driver_standings_facts(dimensions):
                 country_code = row[2]
                 year = safe_int(row[5])
                 
-                # Use the generic driver matching function
-                driver_id = find_best_driver_match(driver_name, year, dimensions, era_map)
+                # Simple era-based matching for Nelson Piquet
+                driver_id = None
+                if driver_name.lower() == "nelson piquet":
+                    if year <= 1991:
+                        # Look for NELPIQ01 first (Sr.)
+                        for d_id, d_info in dimensions['drivers'].items():
+                            if d_info['driver_name'].lower() == driver_name.lower() and "01" in d_id:
+                                driver_id = d_id
+                                break
+                    else:
+                        # Look for NELPIQ02 (Jr.)
+                        for d_id, d_info in dimensions['drivers'].items():
+                            if d_info['driver_name'].lower() == driver_name.lower() and "02" in d_id:
+                                driver_id = d_id
+                                break
+                
+                # If still not found, use simple name matching
+                if not driver_id:
+                    for d_id, d_info in dimensions['drivers'].items():
+                        if d_info['driver_name'].lower() == driver_name.lower():
+                            driver_id = d_id
+                            break
                 
                 # Debug output for Nelson Piquet cases
                 if driver_name.lower() == "nelson piquet":
@@ -299,9 +316,6 @@ def extract_driver_standings_facts(dimensions):
                         'country_code': country_code,
                         'country': get_full_nationality(country_code)
                     }
-                    
-                    # Update era map with new driver
-                    era_map = build_driver_era_map(dimensions)
                 
                 # Handle team matching
                 team_id = None
@@ -328,6 +342,7 @@ def extract_driver_standings_facts(dimensions):
                     'points': safe_float(row[4]),  
                     'year': year
                 })
+                
     except Exception as e:
         print(f"Error processing driver standings: {e}")
     
@@ -411,20 +426,17 @@ def transform_race_results_to_facts(session_files, dimensions):
     for race_id, race_info in dimensions['races'].items():
         race_id_map[(race_info['year'], race_info['grand_prix'].lower().replace(' ', '_').replace('-', '_').replace("'", ""))] = race_id
     
-    # Build lookup maps
+    # Build lookup maps - FIXED
     driver_id_map = {}
     for d in dimensions['drivers'].values():
-        for variant in normalize_name(d['driver_name']):
-            driver_id_map[variant] = d['driver_id']
+        # Use exact driver name as key, not normalized variants
+        driver_id_map[d['driver_name']] = d['driver_id']
     
     team_id_map = {t['team_name']: t['team_id'] for t in dimensions['teams'].values()}
     session_id_map = {s['session_name']: s['session_id'] for s in dimensions['sessions'].values()}
     
     # Track missing drivers to add to dimensions
     missing_drivers = {}
-    
-    # BUILD ERA MAP HERE - This was missing!
-    era_map = build_driver_era_map(dimensions)
     
     # Create fact tables
     fact_tables = defaultdict(list)
@@ -493,11 +505,46 @@ def transform_race_results_to_facts(session_files, dimensions):
                             if col == 'Driver':
                                 driver_name = row[idx]
                                 
-                                # Use generic driver matching with year context
-                                driver_id = find_best_driver_match(driver_name, int(year), dimensions, era_map)
+                                # First check if we already created an ID for this exact driver name
+                                driver_id = driver_id_map.get(driver_name)
+                                
+                                # If not found, try to find existing driver in dimensions
+                                if not driver_id:
+                                    # Simple era-based matching for Nelson Piquet
+                                    if driver_name.lower() == "nelson piquet":
+                                        if int(year) <= 1991:
+                                            # Look for NELPIQ01 first (Sr.)
+                                            for d_id, d_info in dimensions['drivers'].items():
+                                                if d_info['driver_name'].lower() == driver_name.lower() and "01" in d_id:
+                                                    driver_id = d_id
+                                                    break
+                                        else:
+                                            # Look for NELPIQ02 (Jr.)
+                                            for d_id, d_info in dimensions['drivers'].items():
+                                                if d_info['driver_name'].lower() == driver_name.lower() and "02" in d_id:
+                                                    driver_id = d_id
+                                                    break
+                                    
+                                    # If still not found, use simple name matching
+                                    if not driver_id:
+                                        for d_id, d_info in dimensions['drivers'].items():
+                                            if d_info['driver_name'].lower() == driver_name.lower():
+                                                driver_id = d_id
+                                                break
                                 
                                 # If still no match, create new driver
                                 if not driver_id:
+                                    # Look for driver by name in original loaded dimensions
+                                    nationality_code = None
+                                    nationality = None
+                                    
+                                    for d_id, d_info in dimensions['drivers'].items():
+                                        if d_info['driver_name'].lower() == driver_name.lower():
+                                            # Found matching driver, copy their info
+                                            nationality_code = d_info.get('country_code')
+                                            nationality = d_info.get('country')
+                                            break
+                                    
                                     driver_id = generate_unique_driver_id(
                                         driver_name, 
                                         [dimensions['drivers'], missing_drivers, driver_id_map.values()]
@@ -507,11 +554,10 @@ def transform_race_results_to_facts(session_files, dimensions):
                                     missing_drivers[driver_id] = {
                                         'driver_id': driver_id,
                                         'driver_name': ' '.join(driver_name.split()),
+                                        'country_code': nationality_code,
+                                        'country': nationality
                                     }
                                     driver_id_map[driver_name] = driver_id
-                                    
-                                    # Update era map with new driver
-                                    era_map = build_driver_era_map(dimensions)
                                 
                                 record['driver_id'] = driver_id
                             elif col == 'Car':
@@ -548,11 +594,46 @@ def transform_race_results_to_facts(session_files, dimensions):
                             if col == 'Driver':
                                 driver_name = row[idx]
                                 
-                                # Use generic driver matching with year context
-                                driver_id = find_best_driver_match(driver_name, int(year), dimensions, era_map)
+                                # First check if we already created an ID for this exact driver name
+                                driver_id = driver_id_map.get(driver_name)
+                                
+                                # If not found, try to find existing driver in dimensions
+                                if not driver_id:
+                                    # Simple era-based matching for Nelson Piquet
+                                    if driver_name.lower() == "nelson piquet":
+                                        if int(year) <= 1991:
+                                            # Look for NELPIQ01 first (Sr.)
+                                            for d_id, d_info in dimensions['drivers'].items():
+                                                if d_info['driver_name'].lower() == driver_name.lower() and "01" in d_id:
+                                                    driver_id = d_id
+                                                    break
+                                        else:
+                                            # Look for NELPIQ02 (Jr.)
+                                            for d_id, d_info in dimensions['drivers'].items():
+                                                if d_info['driver_name'].lower() == driver_name.lower() and "02" in d_id:
+                                                    driver_id = d_id
+                                                    break
+                                    
+                                    # If still not found, use simple name matching
+                                    if not driver_id:
+                                        for d_id, d_info in dimensions['drivers'].items():
+                                            if d_info['driver_name'].lower() == driver_name.lower():
+                                                driver_id = d_id
+                                                break
                                 
                                 # If still no match, create new driver
                                 if not driver_id:
+                                    # Look for driver by name in original loaded dimensions
+                                    nationality_code = None
+                                    nationality = None
+                                    
+                                    for d_id, d_info in dimensions['drivers'].items():
+                                        if d_info['driver_name'].lower() == driver_name.lower():
+                                            # Found matching driver, copy their info
+                                            nationality_code = d_info.get('country_code')
+                                            nationality = d_info.get('country')
+                                            break
+                                    
                                     driver_id = generate_unique_driver_id(
                                         driver_name, 
                                         [dimensions['drivers'], missing_drivers, driver_id_map.values()]
@@ -561,12 +642,11 @@ def transform_race_results_to_facts(session_files, dimensions):
                                     # Add to missing drivers dict and driver_id_map
                                     missing_drivers[driver_id] = {
                                         'driver_id': driver_id,
-                                        'driver_name': ' '.join(driver_name.split()),  
+                                        'driver_name': ' '.join(driver_name.split()),
+                                        'country_code': nationality_code,
+                                        'country': nationality
                                     }
                                     driver_id_map[driver_name] = driver_id
-                                    
-                                    # Update era map with new driver
-                                    era_map = build_driver_era_map(dimensions)
                                 
                                 record['driver_id'] = driver_id
                             elif col == 'Car':
