@@ -441,20 +441,17 @@ def transform_race_results_to_facts(session_files, dimensions):
     
     # Helper function to find correct driver ID with era-based matching
     def find_driver_id(driver_name, year):
-        # Create cache key - include year for Nelson Piquet, otherwise just name
-        if driver_name.lower() == "nelson piquet":
-            cache_key = f"{driver_name}|{year}"
-        else:
-            cache_key = normalize_driver_name(driver_name)
-    
+        # Create cache key - include year for drivers with multiple entries
+        cache_key = f"{driver_name.lower()}|{year}"
+
         # Check cache first
         if cache_key in driver_cache:
             return driver_cache[cache_key]
-    
+
         driver_id = None
         normalized_name = normalize_driver_name(driver_name)
-    
-        # Special handling for Nelson Piquet with era-based matching
+
+        # Special handling for drivers with multiple entries based on era/year
         if driver_name.lower() == "nelson piquet":
             if int(year) <= 1991:
                 # Look for NELPIQ01 first (Sr.)
@@ -468,8 +465,23 @@ def transform_race_results_to_facts(session_files, dimensions):
                     if d_info['driver_name'].lower() == driver_name.lower() and "02" in d_id:
                         driver_id = d_id
                         break
+        
+        elif driver_name.lower() == "robert doornbos":
+            if int(year) == 2005:
+                # Look for ROBDOO02 first (2005 Monaco)
+                for d_id, d_info in dimensions['drivers'].items():
+                    if d_info['driver_name'].lower() == driver_name.lower() and "02" in d_id:
+                        driver_id = d_id
+                        break
+            else:
+                # Look for ROBDOO02 (2006+ Netherlands)
+                for d_id, d_info in dimensions['drivers'].items():
+                    if d_info['driver_name'].lower() == driver_name.lower() and "01" in d_id:
+                        driver_id = d_id
+                        break
+        
         else:
-            # Check ALL drivers against normalized name
+            # Regular matching - just pick the first match found
             for d_id, d_info in dimensions['drivers'].items():
                 if normalize_driver_name(d_info['driver_name']) == normalized_name:
                     driver_id = d_id
@@ -493,10 +505,10 @@ def transform_race_results_to_facts(session_files, dimensions):
                 'driver_id': driver_id,
                 'driver_name': normalize_driver_name(driver_name)
             }
+        
         driver_cache[cache_key] = driver_id
-
         return driver_id
-    
+        
     # Group qualifying sessions by race for combining
     qualifying_sessions = defaultdict(list)  # race_key -> list of (session_name, file_path)
     other_sessions = []

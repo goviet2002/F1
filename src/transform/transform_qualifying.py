@@ -70,6 +70,16 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
                 # This is Nelson Piquet Jr. and race is after 1991
                 for variant in normalize_name(driver_name):
                     driver_id_map[variant] = driver_id
+        elif driver_name.lower() == "robert doornbos":
+            # Handle Robert Doornbos based on year
+            if "02" in driver_id and race_year == 2005:
+                # ROBDOO01 for 2005 and earlier
+                for variant in normalize_name(driver_name):
+                    driver_id_map[variant] = driver_id
+            elif "01" in driver_id and race_year == 2006:
+                # ROBDOO02 for 2006 and later
+                for variant in normalize_name(driver_name):
+                    driver_id_map[variant] = driver_id
         else:
             # Regular handling for all other drivers
             for variant in normalize_name(driver_name):

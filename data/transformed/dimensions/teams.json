@@ -109,7 +109,7 @@
   },
   {
     "team_id": "MAR-FOR",
-    "team_name": "March Ford"
+    "team_name": "Martini Ford"
   },
   {
     "team_id": "SUR-FOR",
@@ -445,7 +445,7 @@
   },
   {
     "team_id": "STE-FOR",
-    "team_name": "Stewart Ford"
+    "team_name": "Stebro Ford"
   },
   {
     "team_id": "ARR",
@@ -724,12 +724,96 @@
     "team_name": "Talbot-Lago"
   },
   {
-    "team_id": "ALT",
-    "team_name": "Alta"
+    "team_id": "KUR-KRA-OFF",
+    "team_name": "Kurtis Kraft Offenhauser"
+  },
+  {
+    "team_id": "DEI-OFF",
+    "team_name": "Deidt Offenhauser"
   },
   {
     "team_id": "SIM-GOR",
     "team_name": "Simca-Gordini"
+  },
+  {
+    "team_id": "MIL-SPE",
+    "team_name": "Milano Speluzzi"
+  },
+  {
+    "team_id": "SHE-OFF",
+    "team_name": "Sherman Offenhauser"
+  },
+  {
+    "team_id": "SCH-OFF",
+    "team_name": "Schroeder Offenhauser"
+  },
+  {
+    "team_id": "COO-BRI",
+    "team_name": "Cooper Bristol"
+  },
+  {
+    "team_id": "GOR",
+    "team_name": "Gordini"
+  },
+  {
+    "team_id": "KUZ-OFF",
+    "team_name": "Kuzma Offenhauser"
+  },
+  {
+    "team_id": "LES-OFF",
+    "team_name": "Lesovsky Offenhauser"
+  },
+  {
+    "team_id": "CON-LEA-FRA",
+    "team_name": "Connaught Lea Francis"
+  },
+  {
+    "team_id": "MER-BEN",
+    "team_name": "Mercedes-Benz"
+  },
+  {
+    "team_id": "LAN",
+    "team_name": "Lancia"
+  },
+  {
+    "team_id": "WAT-OFF",
+    "team_name": "Watson Offenhauser"
+  },
+  {
+    "team_id": "CON-ALT",
+    "team_name": "Connaught Alta"
+  },
+  {
+    "team_id": "PHI-OFF",
+    "team_name": "Phillips Offenhauser"
+  },
+  {
+    "team_id": "KUR-KRA-NOV",
+    "team_name": "Kurtis Kraft Novi"
+  },
+  {
+    "team_id": "EPP-OFF",
+    "team_name": "Epperly Offenhauser"
+  },
+  {
+    "team_id": "TRE-OFF",
+    "team_name": "Trevis Offenhauser"
+  },
+  {
+    "team_id": "WOL-WIL",
+    "team_name": "Wolf-Williams"
+  },
+  {
+    "team_id": "LOT-MUG-HON",
+    "team_name": "Lotus Mugen Honda"
+  },
+  {
+    "team_id": "MIN-FON",
+    "team_name": "Minardi Fondmetal"
+  },
+  {
+    "team_id": "ALT",
+    "team_name": "Alta"
   },
   {
     "team_id": "MAS-MIL",
@@ -740,20 +824,8 @@
     "team_name": "ERA"
   },
   {
-    "team_id": "KUR-KRA-OFF",
-    "team_name": "Kurtis Kraft Offenhauser"
-  },
-  {
-    "team_id": "DEI-OFF",
-    "team_name": "Deidt Offenhauser"
-  },
-  {
     "team_id": "MOO-OFF",
     "team_name": "Moore Offenhauser"
-  },
-  {
-    "team_id": "LES-OFF",
-    "team_name": "Lesovsky Offenhauser"
   },
   {
     "team_id": "NIC-OFF",
@@ -804,10 +876,6 @@
     "team_name": "Kurtis Kraft Cummins"
   },
   {
-    "team_id": "WAT-OFF",
-    "team_name": "Watson Offenhauser"
-  },
-  {
     "team_id": "FER-JAG",
     "team_name": "Ferrari Jaguar"
   },
@@ -820,22 +888,6 @@
     "team_name": "Thin Wall Ferrari"
   },
   {
-    "team_id": "SHE-OFF",
-    "team_name": "Sherman Offenhauser"
-  },
-  {
-    "team_id": "SCH-OFF",
-    "team_name": "Schroeder Offenhauser"
-  },
-  {
-    "team_id": "KUR-KRA-NOV",
-    "team_name": "Kurtis Kraft Novi"
-  },
-  {
-    "team_id": "KUZ-OFF",
-    "team_name": "Kuzma Offenhauser"
-  },
-  {
     "team_id": "PAW-OFF",
     "team_name": "Pawl Offenhauser"
   },
@@ -846,10 +898,6 @@
   {
     "team_id": "BRO-OFF",
     "team_name": "Bromme Offenhauser"
-  },
-  {
-    "team_id": "TRE-OFF",
-    "team_name": "Trevis Offenhauser"
   },
   {
     "team_id": "OSC",
@@ -866,14 +914,6 @@
   {
     "team_id": "VER",
     "team_name": "Veritas"
-  },
-  {
-    "team_id": "GOR",
-    "team_name": "Gordini"
-  },
-  {
-    "team_id": "COO-BRI",
-    "team_name": "Cooper Bristol"
   },
   {
     "team_id": "AST-BUT",
@@ -898,10 +938,6 @@
   {
     "team_id": "BMW",
     "team_name": "BMW"
-  },
-  {
-    "team_id": "CON-LEA-FRA",
-    "team_name": "Connaught Lea Francis"
   },
   {
     "team_id": "FRA-NAS-BRI",
@@ -932,32 +968,12 @@
     "team_name": "Del Roy Offenhauser"
   },
   {
-    "team_id": "MER-BEN",
-    "team_name": "Mercedes-Benz"
-  },
-  {
     "team_id": "KLE-BMW",
     "team_name": "Klenk BMW"
   },
   {
-    "team_id": "PHI-OFF",
-    "team_name": "Phillips Offenhauser"
-  },
-  {
     "team_id": "PAN-OFF",
     "team_name": "Pankratz Offenhauser"
-  },
-  {
-    "team_id": "LAN",
-    "team_name": "Lancia"
-  },
-  {
-    "team_id": "CON-ALT",
-    "team_name": "Connaught Alta"
-  },
-  {
-    "team_id": "EPP-OFF",
-    "team_name": "Epperly Offenhauser"
   },
   {
     "team_id": "BUG",
@@ -1176,10 +1192,6 @@
     "team_name": "Lyncar Ford"
   },
   {
-    "team_id": "WOL-WIL",
-    "team_name": "Wolf-Williams"
-  },
-  {
     "team_id": "BOR-FOR",
     "team_name": "Boro Ford"
   },
@@ -1288,10 +1300,6 @@
     "team_name": "Lola Ferrari"
   },
   {
-    "team_id": "LOT-MUG-HON",
-    "team_name": "Lotus Mugen Honda"
-  },
-  {
     "team_id": "SIM-FOR",
     "team_name": "Simtek Ford"
   },
@@ -1312,15 +1320,7 @@
     "team_name": "BAR Supertec"
   },
   {
-    "team_id": "MIN-FON",
-    "team_name": "Minardi Fondmetal"
-  },
-  {
     "team_id": "MIN-EUR",
     "team_name": "Minardi European"
-  },
-  {
-    "team_id": "MIL-SPE",
-    "team_name": "Milano Speluzzi"
   }
 ]
