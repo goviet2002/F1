@@ -297,6 +297,19 @@ def extract_driver_standings_facts(dimensions):
                             if d_info['driver_name'].lower() == driver_name.lower() and "02" in d_id:
                                 driver_id = d_id
                                 break
+                elif driver_name.lower() == "robert doornbos":
+                    # Apply era-based matching using year
+                    if year == 2005:
+                        for d_id, d_info in dimensions['drivers'].items():
+                            if d_info['driver_name'].lower() == driver_name.lower() and "02" in d_id:
+                                driver_id = d_id
+                                break
+                    else:
+                        for d_id, d_info in dimensions['drivers'].items():
+                            if d_info['driver_name'].lower() == driver_name.lower() and "01" in d_id:
+                                driver_id = d_id
+                                break
+                            
                 else:
                     # Regular name matching for other drivers
                     if not driver_id:
