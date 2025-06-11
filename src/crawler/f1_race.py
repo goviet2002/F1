@@ -6,6 +6,9 @@ import json
 import time
 import unicodedata
 import sys
+import logging
+
+logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = os.getcwd()
 sys.path.append(PROJECT_ROOT)
@@ -199,7 +202,7 @@ async def collect_race_links():
         with open(os.path.join(DATA_DIR, "races.json"), 'w', encoding='utf-8') as f:
             json.dump(races_data, f, indent=2, ensure_ascii=False)
         
-        print(f"Saved {len(races)} races to all_races.json")
+        logger.info(f"Saved {len(races)} races to all_races.json")
                 
         return all_race_links, headers_race, races
 
@@ -213,7 +216,7 @@ async def scrape_f1_data_with_checkpoints(all_race_links):
     
     async with aiohttp.ClientSession(connector=connector, timeout=timeout) as session:
         # Process Race Location concurrently with incremental saves
-        print("Processing race locations...")
+        logger.info("Processing race locations...")
         location_results = []
         checkpoint_count = 0
         
@@ -250,12 +253,10 @@ async def scrape_f1_data_with_checkpoints(all_race_links):
                 with open(checkpoint_file, 'w', encoding='utf-8') as f:
                     json.dump(location_results, f, indent=2, ensure_ascii=False)
 
-        print(f"Processed {len(location_results)} race locations")
-        
-
+        logger.info(f"Processed {len(location_results)} race locations")
         
         # Process Race Sessions with incremental saves
-        print("Getting race sessions...")
+        logger.info("Getting race sessions...")
         session_results = []
         all_sessions = []
         checkpoint_count = 0
@@ -274,10 +275,10 @@ async def scrape_f1_data_with_checkpoints(all_race_links):
                 with open(checkpoint_file, 'w', encoding='utf-8') as f:
                     json.dump(session_results, f, indent=2, ensure_ascii=False)
 
-        print(f"Found {len(all_sessions)} total session results to process")
+        logger.info(f"Found {len(all_sessions)} total session results to process")
 
         # Scrape Race Results with incremental saves to hierarchical structure
-        print("Processing race results...")
+        logger.info("Processing race results...")
         race_result = {}
         checkpoint_count = 0
         results_processed = 0
@@ -327,8 +328,8 @@ async def scrape_f1_data_with_checkpoints(all_race_links):
         end_time = time.time()
         total_time = end_time - start_time
         
-        print(f"Processed {results_processed} race results")
-        print(f"Total execution time: {total_time:.2f} seconds")
+        logger.info(f"Processed {results_processed} race results")
+        logger.info(f"Total execution time: {total_time:.2f} seconds")
         
         # Delete checkpoint file after successful completion
         checkpoint_files = [
@@ -340,7 +341,7 @@ async def scrape_f1_data_with_checkpoints(all_race_links):
         for checkpoint_file in checkpoint_files:
             if os.path.exists(checkpoint_file):
                 os.remove(checkpoint_file)
-                print(f"Deleted checkpoint file: {checkpoint_file}")
+                logger.info(f"Deleted checkpoint file: {checkpoint_file}")
 
         # # Create a summary file
         # summary = {
