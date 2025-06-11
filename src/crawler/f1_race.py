@@ -329,7 +329,7 @@ async def scrape_f1_data_with_checkpoints(all_race_links):
         total_time = end_time - start_time
         
         logger.info(f"Processed {results_processed} race results")
-        logger.info(f"Total execution time: {total_time:.2f} seconds")
+        logger.info(f"\nCompleted races data collection in {total_time:.2f} seconds")
         
         # Delete checkpoint file after successful completion
         checkpoint_files = [
