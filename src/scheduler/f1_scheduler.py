@@ -16,18 +16,22 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Add src path
-
-
 def run_f1_pipeline():
     """Complete F1 data pipeline"""
     start_time = datetime.now()
     logger.info("🏁 Starting F1 Weekly Pipeline")
     
     try:
-        sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+        import sys
+        import os
         
-        # Import your modules
+        # Add the project root to sys.path to prioritize local modules
+        project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        src_path = os.path.join(project_root, 'src')
+        if src_path not in sys.path:
+            sys.path.insert(0, src_path)
+        
+        # Now import your local modules
         from crawler.f1_drivers import main as crawl_drivers
         from crawler.f1_teams import main as crawl_teams
         from crawler.f1_race import main as crawl_races
@@ -54,7 +58,7 @@ def run_f1_pipeline():
     except Exception as e:
         logger.error(f"❌ Pipeline failed: {e}")
         raise
-
+    
 def main():
     if len(sys.argv) > 1 and sys.argv[1] == "--run-now":
         logger.info("🚀 F1 Scheduler started")
