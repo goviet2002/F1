@@ -401,7 +401,7 @@ async def scrape_f1_driver_data(all_driver_links):
     end_time = time.time()
     total_time = end_time - start_time
     
-    logger.info(f"Total execution time: {total_time:.2f} seconds")
+    logger.info(f"\nCompleted drivers data collection in {total_time:.2f} seconds")
     
     # Delete checkpoint file after successful completion
     checkpoint_file = os.path.join(CHECKPOINTS_DIR, "driver_results_latest.json")

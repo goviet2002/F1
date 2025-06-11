@@ -425,7 +425,7 @@ async def scrape_f1_team_data(all_team_links):
     end_time = time.time()
     total_time = end_time - start_time
     
-    logger.info(f"Total execution time: {total_time:.2f} seconds")
+    logger.info(f"\nCompleted teams data collection in {total_time:.2f} seconds")
     
     # Delete checkpoint file after successful completion
     checkpoint_file = os.path.join(CHECKPOINTS_DIR, "team_results_latest.json")
