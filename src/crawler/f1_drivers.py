@@ -424,7 +424,7 @@ async def scrape_f1_driver_data(all_driver_links):
         "execution_time": total_time
     }
 
-if __name__ == "__main__":
+def main():
     # First collect all driver links
     collect_links = asyncio.run(collect_driver_links())
 
@@ -433,4 +433,7 @@ if __name__ == "__main__":
 
     # # Then process all drivers with the collected links
     all_data = asyncio.run(scrape_f1_driver_data(collect_links[0]))
+    
+if __name__ == "__main__":
+    main()
 

@@ -448,8 +448,8 @@ async def scrape_f1_team_data(all_team_links):
         "team_standings": standings_results,
         "execution_time": total_time
     }
-
-if __name__ == "__main__":
+    
+def main():
     # First collect all team links
     collect_links = asyncio.run(collect_team_links())
     
@@ -457,5 +457,8 @@ if __name__ == "__main__":
     current_teams = asyncio.run(collect_current_teams_data())
 
     # Then process all teams with the collected links
-    all_data = asyncio.run(scrape_f1_team_data(collect_links[0]))
+    all_data = asyncio.run(scrape_f1_team_data(collect_links[0]))   
+    
+if __name__ == "__main__":
+    main()
 

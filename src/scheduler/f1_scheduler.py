@@ -5,6 +5,8 @@ from datetime import datetime
 import sys
 import os
 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..",)))
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
@@ -22,14 +24,6 @@ def run_f1_pipeline():
     logger.info("🏁 Starting F1 Weekly Pipeline")
     
     try:
-        import sys
-        import os
-        
-        # Add the project root to sys.path to prioritize local modules
-        project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-        src_path = os.path.join(project_root, 'src')
-        if src_path not in sys.path:
-            sys.path.insert(0, src_path)
         
         # Now import your local modules
         from crawler.f1_drivers import main as crawl_drivers

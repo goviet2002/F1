@@ -154,7 +154,9 @@ async def collect_fastest_laps_data(start_year=years[0], end_year=years[-1]):
             "data": combined_data
         }
 
-if __name__ == "__main__":
+def main():
     # Collect fastest lap data
     asyncio.run(collect_fastest_laps_data())
 
+if __name__ == "__main__":
+    main()
