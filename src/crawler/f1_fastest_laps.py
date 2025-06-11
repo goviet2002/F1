@@ -6,11 +6,10 @@ import json
 import time
 import sys
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from utils.path import get_project_root
-from utils.crawling_helpers import ssl_context, head, base_url, years, test_function
+PROJECT_ROOT = os.getcwd()
+sys.path.append(PROJECT_ROOT)
+from src.utils.crawling_helpers import ssl_context, head, base_url, years
 
-PROJECT_ROOT = get_project_root()
 DATA_DIR = os.path.join(PROJECT_ROOT, "data", "f1_fastest_laps")
 os.makedirs(DATA_DIR, exist_ok=True)
 CHECKPOINTS_DIR = os.path.join(PROJECT_ROOT, "data", "f1_checkpoints")

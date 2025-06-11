@@ -5,7 +5,8 @@ from datetime import datetime
 import sys
 import os
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..",)))
+SRC_PATH = os.path.join(os.getcwd(), 'src')
+sys.path.append(SRC_PATH)
 
 # Configure logging
 logging.basicConfig(

@@ -2,11 +2,11 @@ import os
 import json
 import sys
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from utils.path import get_project_root
+PROJECT_ROOT = os.path.join(os.getcwd(), 'src')
+sys.path.append(PROJECT_ROOT)
+from crawler.f1_race import PROJECT_ROOT
 from utils.tranform_helpers import normalize_name
 
-PROJECT_ROOT = get_project_root()
 DATA_DIR = os.path.join(PROJECT_ROOT, "data")
 RACE_DATA_DIR = os.path.join(PROJECT_ROOT, "data", "f1_race_data")
 

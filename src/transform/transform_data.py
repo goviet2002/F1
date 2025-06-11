@@ -5,7 +5,8 @@ import re
 import datetime
 import sys
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+sys.path.append(os.path.join(os.getcwd(), 'src'))
+
 from utils.tranform_helpers import safe_float, safe_int, get_fact_table_name, generate_team_id, \
                                 generate_unique_driver_id, normalize_driver_name, find_driver_id
 from utils.country_list import country_list
