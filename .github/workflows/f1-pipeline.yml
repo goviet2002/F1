@@ -2,7 +2,7 @@ name: F1 Weekly Data Pipeline
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # Every xx at x:xx AM UTC
+    - cron: '* * * * *'   # Every Monday at 1:00 AM UTC
   workflow_dispatch:     # Manual trigger button
 
 jobs:
