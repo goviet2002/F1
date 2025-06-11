@@ -169,8 +169,12 @@ def main():
     if success:
         print(f"\nSuccess! View your data at:")
         print(f"https://console.cloud.google.com/bigquery?project={GOOGLE_CLOUD_PROJECT_ID}")
+        
+        return True
+    
     else:
         print("Some errors occurred during loading")
+        return False
 
 if __name__ == "__main__":
     main()
