@@ -365,5 +365,7 @@ def main():
     collect_links = asyncio.run(collect_race_links())
     all_data = asyncio.run(scrape_f1_data_with_checkpoints(collect_links[0]))
 
+    return True
+
 if __name__ == "__main__":
     main()

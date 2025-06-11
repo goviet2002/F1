@@ -695,6 +695,8 @@ def main():
     save_transformed_data(dimensions, fact_tables)
     
     print("\n✅ Transformation complete!")
+    
+    return True
 
 def save_transformed_data(dimensions, facts):
     """Save transformed data as JSON files"""

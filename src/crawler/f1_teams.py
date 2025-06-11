@@ -455,7 +455,9 @@ def main():
     current_teams = asyncio.run(collect_current_teams_data())
 
     # Then process all teams with the collected links
-    all_data = asyncio.run(scrape_f1_team_data(collect_links[0]))   
+    all_data = asyncio.run(scrape_f1_team_data(collect_links[0])) 
+    
+    return True  
     
 if __name__ == "__main__":
     main()
