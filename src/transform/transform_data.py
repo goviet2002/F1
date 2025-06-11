@@ -10,7 +10,7 @@ from utils.tranform_helpers import safe_float, safe_int, get_fact_table_name, ge
                                 generate_unique_driver_id, normalize_driver_name, find_driver_id
 from utils.country_list import country_list
 
-from transform_qualifying import extract_starting_grid_positions, is_multi_part_qualifying, process_combined_qualifying, \
+from transform.transform_qualifying import extract_starting_grid_positions, is_multi_part_qualifying, process_combined_qualifying, \
                                  enforce_qualifying_schema, DATA_DIR, RACE_DATA_DIR
 
 def discover_sessions():
