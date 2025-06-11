@@ -20,32 +20,23 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-def wait_for_all_background_tasks(max_wait_minutes=60, sleep_interval=30):
-    """Wait for background tasks with timeout protection"""
-    start_time = time.time()
-    timeout = max_wait_minutes * 60
+async def run_all_crawlers():
+    """Run all crawlers concurrently"""
     
-    while time.time() - start_time < timeout:  # ← Timeout protection
-        try:
-            loop = asyncio.get_running_loop()
-            tasks = asyncio.all_tasks(loop)
-            active_tasks = [task for task in tasks if not task.done()]
-            
-            if not active_tasks:
-                logger.info("✅ No background tasks detected")
-                return True
-            
-            elapsed = int(time.time() - start_time)
-            logger.info(f"⏳ {len(active_tasks)} tasks running... ({elapsed}s/{timeout}s)")
-            time.sleep(sleep_interval)
-            
-        except RuntimeError:
-            logger.info("✅ No async event loop running")
-            return True
+    from crawler.f1_drivers import scrape_driver_async
+    from crawler.f1_teams import scrape_team_async
+    from crawler.f1_race import scrape_race_async
+    from crawler.f1_fastest_laps import scrape_fastest_laps_async
     
-    # Timeout reached - FAIL the pipeline
-    logger.error(f"❌ TIMEOUT: Tasks didn't complete in {max_wait_minutes} minutes!")
-    raise TimeoutError("Background tasks failed to complete")
+    scrape_results = await asyncio.gather(
+        scrape_driver_async(),
+        scrape_team_async(),
+        scrape_race_async(),
+        scrape_fastest_laps_async(),
+        return_exceptions=True
+    )
+    
+    return scrape_results
 
 def run_f1_pipeline():
     """Complete F1 data pipeline"""
@@ -53,35 +44,13 @@ def run_f1_pipeline():
     logger.info("🏁 Starting F1 Weekly Pipeline")
     
     try:
-        from crawler.f1_drivers import main as crawl_drivers
-        from crawler.f1_teams import main as crawl_teams
-        from crawler.f1_race import main as crawl_races
-        from crawler.f1_fastest_laps import main as crawl_fastest_laps
         from transform.transform_data import main as transform_data
         from storage.bigquery_loader import main as load_to_bigquery
         
         # Run pipeline steps with clear logging
         logger.info("=" * 60)
-        logger.info("🏎️ PHASE 1: Crawling F1 Drivers...")
-        crawl_drivers()
-        wait_for_all_background_tasks(max_wait_minutes=15, sleep_interval=10)
-        logger.info("✅ Drivers completed")
-        
-        logger.info("🏎️ PHASE 2: Crawling F1 Teams...")
-        crawl_teams()
-        wait_for_all_background_tasks(max_wait_minutes=15, sleep_interval=10)
-        logger.info("✅ Teams completed")
-        
-        logger.info("🏎️ PHASE 3: Crawling F1 Races...")
-        crawl_races()
-        wait_for_all_background_tasks(max_wait_minutes=15, sleep_interval=30)
-        logger.info("✅ Races completed")
-        
-        logger.info("🏎️ PHASE 4: Crawling F1 Fastest Laps...")
-        crawl_fastest_laps()
-        wait_for_all_background_tasks(max_wait_minutes=15, sleep_interval=5)
-        logger.info("✅ Fastest Laps completed")
-        
+        logger.info("🏎️ PHASE 1: Crawling F1 Data...")
+        asyncio.run(run_all_crawlers())
         logger.info("✅ ALL CRAWLING COMPLETED")
         
         logger.info("=" * 60)
@@ -104,7 +73,7 @@ def run_f1_pipeline():
 def main():
     if len(sys.argv) > 1 and sys.argv[1] == "--run-now":
         logger.info("🚀 F1 Scheduler started")
-        logger.info("📅 Schedule: Every Monday at 6:00 AM")
+        logger.info("📅 Schedule: Every Monday at 3:00 AM")
         run_f1_pipeline()
 
 if __name__ == "__main__":

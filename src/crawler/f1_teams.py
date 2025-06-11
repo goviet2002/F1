@@ -338,7 +338,7 @@ async def collect_current_teams_data():
                         team[key] = value
                 
                 all_team_data.append(team)
-                print(f"Processed team: {team_name}")
+                # print(f"Processed team: {team_name}")
             else:
                 # Still add the basic team data even if profile fetch failed
                 all_team_data.append(team)
@@ -446,18 +446,22 @@ async def scrape_f1_team_data(all_team_links):
         "team_standings": standings_results,
         "execution_time": total_time
     }
-    
-def main():
+
+async def scrape_team_async():
     # First collect all team links
-    collect_links = asyncio.run(collect_team_links())
+    collect_links =  await collect_team_links()
     
     # Collect current teams data from the main teams page and detailed profiles
-    current_teams = asyncio.run(collect_current_teams_data())
+    current_teams = await collect_current_teams_data()
 
     # Then process all teams with the collected links
-    all_data = asyncio.run(scrape_f1_team_data(collect_links[0])) 
+    all_data = await scrape_f1_team_data(collect_links[0])
     
-    return True  
+    return True
+    
+def main():
+    """Main function to run the team scraping"""
+    asyncio.run(scrape_team_async())
     
 if __name__ == "__main__":
     main()

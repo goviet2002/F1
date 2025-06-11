@@ -423,17 +423,22 @@ async def scrape_f1_driver_data(all_driver_links):
         "execution_time": total_time
     }
 
-def main():
+
+async def scrape_driver_async():
     # First collect all driver links
-    collect_links = asyncio.run(collect_driver_links())
+    collect_links = await collect_driver_links()
 
     # Collect detailed profiles for current season drivers
-    asyncio.run(collect_current_driver_profiles())
+    await collect_current_driver_profiles()
 
     # # Then process all drivers with the collected links
-    all_data = asyncio.run(scrape_f1_driver_data(collect_links[0]))
+    all_data = await scrape_f1_driver_data(collect_links[0])
     
     return True
+
+def main():
+    """Main entry point for the driver scraping script"""
+    asyncio.run(scrape_driver_async())
     
 if __name__ == "__main__":
     main()

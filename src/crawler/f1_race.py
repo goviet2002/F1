@@ -361,11 +361,14 @@ async def scrape_f1_data_with_checkpoints(all_race_links):
             "execution_time": total_time
         }
         
-def main():
-    collect_links = asyncio.run(collect_race_links())
-    all_data = asyncio.run(scrape_f1_data_with_checkpoints(collect_links[0]))
-
+async def scrape_race_async():
+    collect_links = await collect_race_links()
+    all_data = await scrape_f1_data_with_checkpoints(collect_links[0])
+    
     return True
+
+def main():
+    asyncio.run(scrape_race_async())
 
 if __name__ == "__main__":
     main()
