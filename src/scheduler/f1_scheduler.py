@@ -34,21 +34,36 @@ def run_f1_pipeline():
         from transform.transform_data import main as transform_data
         from storage.bigquery_loader import main as load_to_bigquery
         
-        # Run pipeline steps
-        logger.info("🏎️ Crawling F1 data...")
+        # Run pipeline steps with clear logging
+        logger.info("=" * 60)
+        logger.info("🏎️ PHASE 1: Crawling F1 Drivers...")
         crawl_drivers()
-        crawl_teams() 
+        logger.info("✅ Drivers crawling completed")
+        
+        logger.info("🏎️ PHASE 2: Crawling F1 Teams...")
+        crawl_teams()
+        logger.info("✅ Teams crawling completed")
+        
+        logger.info("🏎️ PHASE 3: Crawling F1 Races...")
         crawl_races()
+        logger.info("✅ Races crawling completed")
+        
+        logger.info("🏎️ PHASE 4: Crawling F1 Fastest Laps...")
         crawl_fastest_laps()
+        logger.info("✅ Fastest laps crawling completed")
         
-        logger.info("🔄 Transforming data...")
+        logger.info("=" * 60)
+        logger.info("🔄 PHASE 5: Transforming data...")
         transform_data()
+        logger.info("✅ Data transformation completed")
         
-        logger.info("📊 Loading to BigQuery...")
+        logger.info("📊 PHASE 6: Loading to BigQuery...")
         load_to_bigquery()
+        logger.info("✅ BigQuery loading completed")
         
         duration = datetime.now() - start_time
-        logger.info(f"✅ Pipeline completed in {duration}")
+        logger.info("=" * 60)
+        logger.info(f"✅ Complete pipeline finished in {duration}")
         
     except Exception as e:
         logger.error(f"❌ Pipeline failed: {e}")
