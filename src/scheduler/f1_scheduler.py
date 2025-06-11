@@ -4,6 +4,7 @@ import logging
 from datetime import datetime
 import sys
 import os
+import asyncio
 
 SRC_PATH = os.path.join(os.getcwd(), 'src')
 sys.path.append(SRC_PATH)
@@ -19,14 +20,39 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+def wait_for_all_background_tasks(max_wait_minutes=60):
+    """Wait for background tasks with timeout protection"""
+    start_time = time.time()
+    timeout = max_wait_minutes * 60
+    
+    while time.time() - start_time < timeout:  # ← Timeout protection
+        try:
+            loop = asyncio.get_running_loop()
+            tasks = asyncio.all_tasks(loop)
+            active_tasks = [task for task in tasks if not task.done()]
+            
+            if not active_tasks:
+                logger.info("✅ No background tasks detected")
+                return True
+            
+            elapsed = int(time.time() - start_time)
+            logger.info(f"⏳ {len(active_tasks)} tasks running... ({elapsed}s/{timeout}s)")
+            time.sleep(30)
+            
+        except RuntimeError:
+            logger.info("✅ No async event loop running")
+            return True
+    
+    # Timeout reached - FAIL the pipeline
+    logger.error(f"❌ TIMEOUT: Tasks didn't complete in {max_wait_minutes} minutes!")
+    raise TimeoutError("Background tasks failed to complete")
+
 def run_f1_pipeline():
     """Complete F1 data pipeline"""
     start_time = datetime.now()
     logger.info("🏁 Starting F1 Weekly Pipeline")
     
     try:
-        
-        # Now import your local modules
         from crawler.f1_drivers import main as crawl_drivers
         from crawler.f1_teams import main as crawl_teams
         from crawler.f1_race import main as crawl_races
@@ -36,28 +62,20 @@ def run_f1_pipeline():
         
         # Run pipeline steps with clear logging
         logger.info("=" * 60)
-        logger.info("🏎️ PHASE 1: Crawling F1 Drivers...")
+        logger.info("🏎️ PHASE 1: Crawling F1 Data...")
         crawl_drivers()
-        logger.info("✅ Drivers crawling completed")
-        
-        logger.info("🏎️ PHASE 2: Crawling F1 Teams...")
         crawl_teams()
-        logger.info("✅ Teams crawling completed")
-        
-        logger.info("🏎️ PHASE 3: Crawling F1 Races...")
         crawl_races()
-        logger.info("✅ Races crawling completed")
-        
-        logger.info("🏎️ PHASE 4: Crawling F1 Fastest Laps...")
         crawl_fastest_laps()
-        logger.info("✅ Fastest laps crawling completed")
+        wait_for_all_background_tasks()
+        logger.info("✅ Crawling completed")
         
         logger.info("=" * 60)
-        logger.info("🔄 PHASE 5: Transforming data...")
+        logger.info("🔄 PHASE 2: Transforming data...")
         transform_data()
         logger.info("✅ Data transformation completed")
         
-        logger.info("📊 PHASE 6: Loading to BigQuery...")
+        logger.info("📊 PHASE 3: Loading to BigQuery...")
         load_to_bigquery()
         logger.info("✅ BigQuery loading completed")
         
