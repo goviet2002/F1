@@ -5,6 +5,9 @@ import sys
 import os
 import json
 import time
+import logging
+
+logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = os.getcwd()
 sys.path.append(PROJECT_ROOT)
@@ -164,7 +167,7 @@ async def collect_team_links():
         with open(os.path.join(DATA_DIR, "team_standing.json"), 'w', encoding='utf-8') as f:
             json.dump(teams_data, f, indent=2, ensure_ascii=False)
         
-        print(f"Saved {len(teams)} team standings to team_standing.json")
+        logger.info(f"Saved {len(teams)} team standings to team_standing.json")
                 
         return all_team_links, headers_teams, teams
 
@@ -351,7 +354,7 @@ async def collect_current_teams_data():
         with open(profiles_file, 'w', encoding='utf-8') as f:
             json.dump(all_team_data, f, indent=2, ensure_ascii=False)
         
-        print(f"Saved complete data for {len(all_team_data)} teams to {profiles_file}")
+        logger.info(f"Saved complete data for {len(all_team_data)} teams to {profiles_file}")
         
         return all_team_data
 
@@ -373,7 +376,7 @@ async def scrape_f1_team_data(all_team_links):
     
     async with aiohttp.ClientSession(connector=connector, timeout=timeout) as session:
         # Process team standings checkpoints
-        print("Processing team standings...")
+        logger.info("Processing team standings...")
         standings_results = []
         checkpoint_count = 0
         
@@ -422,13 +425,13 @@ async def scrape_f1_team_data(all_team_links):
     end_time = time.time()
     total_time = end_time - start_time
     
-    print(f"Total execution time: {total_time:.2f} seconds")
+    logger.info(f"Total execution time: {total_time:.2f} seconds")
     
     # Delete checkpoint file after successful completion
     checkpoint_file = os.path.join(CHECKPOINTS_DIR, "team_results_latest.json")
     if os.path.exists(checkpoint_file):
         os.remove(checkpoint_file)
-        print(f"Deleted checkpoint file: {checkpoint_file}")
+        logger.info(f"Deleted checkpoint file: {checkpoint_file}")
 
     # # Create a summary file
     # summary = {

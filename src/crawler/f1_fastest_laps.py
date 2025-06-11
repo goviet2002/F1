@@ -5,6 +5,9 @@ import os
 import json
 import time
 import sys
+import logging
+
+logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = os.getcwd()
 sys.path.append(PROJECT_ROOT)
@@ -21,7 +24,7 @@ async def scrape_fastest_laps(session, year):
     
     async with session.get(url, headers=head) as response:
         if response.status != 200:
-            print(f"Failed to load {url}. Status: {response.status}")
+            logger.info(f"Failed to load {url}. Status: {response.status}")
             return None
 
         html = await response.text()
@@ -138,15 +141,15 @@ async def collect_fastest_laps_data(start_year=years[0], end_year=years[-1]):
         
         end_time = time.time()
         total_time = end_time - start_time
-        print(f"\nCompleted fastest laps data collection in {total_time:.2f} seconds")
-        print(f"Total entries collected: {len(combined_data)}")
-        print(f"All data saved to: {combined_file_path}")
+        logger.info(f"\nCompleted fastest laps data collection in {total_time:.2f} seconds")
+        logger.info(f"Total entries collected: {len(combined_data)}")
+        logger.info(f"All data saved to: {combined_file_path}")
         
         # Delete checkpoint file after successful completion
         checkpoint_file = os.path.join(CHECKPOINTS_DIR, "fastest_laps_latest.json")
         if os.path.exists(checkpoint_file):
             os.remove(checkpoint_file)
-            print(f"Deleted checkpoint file: {checkpoint_file}")
+            logger.info(f"Deleted checkpoint file: {checkpoint_file}")
         
         return {
             "headers": all_headers,

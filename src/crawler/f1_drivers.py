@@ -6,6 +6,9 @@ import os
 import json
 import pandas as pd
 import time
+import logging
+
+logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = os.getcwd()
 sys.path.append(PROJECT_ROOT)
@@ -166,7 +169,7 @@ async def collect_driver_links():
         with open(os.path.join(DATA_DIR, "race_standing.json"), 'w', encoding='utf-8') as f:
             json.dump(drivers_data, f, indent=2, ensure_ascii=False)
         
-        print(f"Saved {len(drivers)} driver standings to race_standing.json")
+        logger.info(f"Saved {len(drivers)} driver standings to race_standing.json")
                 
         return all_driver_links, headers_drivers, drivers
 
@@ -330,7 +333,7 @@ async def collect_current_driver_profiles(current_year=years[-1]):
         with open(profiles_file, 'w', encoding='utf-8') as f:
             json.dump(profiles_data, f, indent=2, ensure_ascii=False)
             
-        print(f"Saved {len(driver_profiles)} driver profiles to {profiles_file}")
+        logger.info(f"Saved {len(driver_profiles)} driver profiles to {profiles_file}")
         
         return all_headers, normalized_profiles
 
@@ -352,7 +355,7 @@ async def scrape_f1_driver_data(all_driver_links):
     
     async with aiohttp.ClientSession(connector=connector, timeout=timeout) as session:
         # Process driver standings checkpoints
-        print("Processing driver standings...")
+        logger.info("Processing driver standings...")
         standings_results = []
         checkpoint_count = 0
         
@@ -398,13 +401,13 @@ async def scrape_f1_driver_data(all_driver_links):
     end_time = time.time()
     total_time = end_time - start_time
     
-    print(f"Total execution time: {total_time:.2f} seconds")
+    logger.info(f"Total execution time: {total_time:.2f} seconds")
     
     # Delete checkpoint file after successful completion
     checkpoint_file = os.path.join(CHECKPOINTS_DIR, "driver_results_latest.json")
     if os.path.exists(checkpoint_file):
         os.remove(checkpoint_file)
-        print(f"Deleted checkpoint file: {checkpoint_file}")
+        logger.info(f"Deleted checkpoint file: {checkpoint_file}")
 
     # # Create a summary file
     # summary = {
