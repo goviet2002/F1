@@ -25,8 +25,6 @@ def run_f1_pipeline():
     logger.info("🏁 Starting F1 Weekly Pipeline")
     
     try:
-        import sys
-        import os
         sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
         
         # Import your modules
@@ -58,19 +56,10 @@ def run_f1_pipeline():
         raise
 
 def main():
-    """Scheduler main loop"""
-    logger.info("🚀 F1 Scheduler started")
-    logger.info("📅 Schedule: Every Monday at 6:00 AM")
-    
-    # Schedule the pipeline
-    schedule.every().monday.at("06:00").do(run_f1_pipeline)
-    
-    while True:
-        schedule.run_pending()
-        time.sleep(60)
-
-if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--run-now":
         logger.info("🚀 F1 Scheduler started")
         logger.info("📅 Schedule: Every Monday at 6:00 AM")
         run_f1_pipeline()
+
+if __name__ == "__main__":
+    main()
