@@ -1,9 +1,9 @@
 import schedule
 import time
 import logging
+from datetime import datetime
 import sys
 import os
-from datetime import datetime
 
 # Configure logging
 logging.basicConfig(
@@ -17,7 +17,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Add src path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 
 def run_f1_pipeline():
     """Complete F1 data pipeline"""
@@ -25,6 +25,10 @@ def run_f1_pipeline():
     logger.info("🏁 Starting F1 Weekly Pipeline")
     
     try:
+        import sys
+        import os
+        sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+        
         # Import your modules
         from crawler.f1_drivers import main as crawl_drivers
         from crawler.f1_teams import main as crawl_teams
