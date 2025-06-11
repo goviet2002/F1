@@ -69,6 +69,8 @@ jobs:
         run: |
           git config --local user.email "anhviet2002.vna@gmail.com"
           git config --local user.name "goviet2002"
+          git fetch origin main
+          git rebase origin/main
           git add data/
           git commit -m "🏎️ Update F1 data - $(date +'%Y-%m-%d %H:%M:%S UTC')"
           git push origin main
