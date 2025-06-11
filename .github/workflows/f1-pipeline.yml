@@ -1,0 +1,61 @@
+name: F1 Weekly Data Pipeline
+
+on:
+  schedule:
+    - cron: '45 17 * * 3'  # Every Monday at 6:00 AM UTC
+  workflow_dispatch:     # Manual trigger button
+
+jobs:
+  f1-data-collection:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies from pyproject.toml
+        run: |
+          pip install --upgrade pip
+          pip install .
+          
+      - name: Set up Chrome for Selenium
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+          
+      - name: Create data directories
+        run: |
+          mkdir -p data/raw
+          mkdir -p data/transformed_data/dimensions
+          mkdir -p data/transformed_data/facts
+          mkdir -p data/f1_race_data
+          mkdir -p data/f1_checkpoints
+          
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v1
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+          
+      - name: Set up Google Cloud SDK
+        uses: google-github-actions/setup-gcloud@v1
+        
+      - name: Run F1 Data Pipeline
+        run: python src/scheduler/f1_scheduler.py --run-now
+        env:
+          GOOGLE_CLOUD_PROJECT: ${{ secrets.GCP_PROJECT_ID }}
+          
+      - name: Upload logs on failure
+        if: failure()
+        uses: actions/upload-artifact@v3
+        with:
+          name: f1-pipeline-logs
+          path: |
+            f1_pipeline.log
+            *.log
+          retention-days: 30
