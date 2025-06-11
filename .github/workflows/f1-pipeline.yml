@@ -1,8 +1,14 @@
 name: F1 Weekly Data Pipeline
 
 on:
+  push:
+    branches:
+      - main  # Runs when code is pushed to the 'main' branch
+  pull_request:
+    branches:
+      - main  # Runs when a pull request targets the 'main' branch
   schedule:
-    - cron: '*/10 * * * *'   # Every Monday at 1:00 AM UTC
+    - cron: '*/3 * * * *'   # Every Monday at 1:00 AM UTC
   workflow_dispatch:     # Manual trigger button
 
 jobs:
@@ -13,6 +19,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
         
       - name: Set up Python 3.11
         uses: actions/setup-python@v4
