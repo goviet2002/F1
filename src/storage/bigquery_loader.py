@@ -3,11 +3,14 @@ import os
 from google.cloud import bigquery
 from google.cloud.exceptions import NotFound
 import logging
+import sys
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-from configuration import (
+from storage.configuration import (
     GOOGLE_CLOUD_PROJECT_ID,
     BIGQUERY_DATASET_ID,
     DIMENSIONS_DIR,
