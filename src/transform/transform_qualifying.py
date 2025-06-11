@@ -1,6 +1,9 @@
 import os
 import json
 import sys
+import logging
+
+logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = os.path.join(os.getcwd(), 'src')
 sys.path.append(PROJECT_ROOT)
@@ -249,7 +252,7 @@ def process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fa
         
         # If no sprint qualifying but has sprint grid, create qualifying from grid data
         if not sprint_sessions and has_sprint_grid:
-            print(f"Race {race_id} ({year} {grand_prix}): No sprint qualifying file, using sprint_grid.json")
+            logger.info(f"Race {race_id} ({year} {grand_prix}): No sprint qualifying file, using sprint_grid.json")
             try:
                 with open(sprint_grid_file, 'r', encoding='utf-8') as f:
                     sprint_grid_data = json.load(f)
@@ -410,7 +413,7 @@ def extract_starting_grid_positions(race_id_map):
     sprint_grid_map = {}  # (race_id, driver_name) -> sprint_grid_position
     sprint_grid_times = {}  # (race_id, driver_name) -> sprint_qualifying_time
     
-    print("Extracting starting grid positions and times...")
+    logger.info("Extracting starting grid positions and times...")
     
     for year_dir in os.listdir(RACE_DATA_DIR):
         year_path = os.path.join(RACE_DATA_DIR, year_dir)

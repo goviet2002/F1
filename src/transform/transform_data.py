@@ -4,6 +4,9 @@ from collections import defaultdict
 import re
 import datetime
 import sys
+import logging
+
+logger = logging.getLogger(__name__)
 
 sys.path.append(os.path.join(os.getcwd(), 'src'))
 
@@ -628,14 +631,14 @@ def extract_countries_dimensions(country_list):
             'country_name': country_name
         }
     
-    print(f"Created {len(countries)} countries")
+    logger.info(f"Created {len(countries)} countries")
     return countries
 
 def main():
-    print("Starting F1 Data Transformation...")
+    logger.info("Starting F1 Data Transformation...")
     
     # Step 1: Discover all sessions
-    print("\n1. Discovering sessions...")
+    logger.info("\n1. Discovering sessions...")
     session_types, session_files, race_metadata = discover_sessions()
     
     # print("Discovered Session Types:")
@@ -649,11 +652,11 @@ def main():
     #     for i, headers in enumerate(headers_set, 1):
     #         print(f"    Variation {i}: {list(headers)}")    
             
-    print(f"\nTotal session files: {len(session_files)}")
-    print(f"Total race metadata files: {len(race_metadata)}")
+    logger.info(f"\nTotal session files: {len(session_files)}")
+    logger.info(f"Total race metadata files: {len(race_metadata)}")
     
     # Step 2: Extract all dimensions
-    print("\n2. Extracting dimensions...")
+    logger.info("\n2. Extracting dimensions...")
     
     # Extract from f1_data folder
     race_sessions_dims = extract_race_sessions_dimensions(session_files, race_metadata)
@@ -672,13 +675,13 @@ def main():
         'countries': countries_dims
     }
     
-    print(f"Found {len(dimensions['drivers'])} drivers")
-    print(f"Found {len(dimensions['teams'])} teams")
-    print(f"Found {len(dimensions['races'])} races")
-    print(f"Found {len(dimensions['sessions'])} sessions")
+    logger.info(f"Found {len(dimensions['drivers'])} drivers")
+    logger.info(f"Found {len(dimensions['teams'])} teams")
+    logger.info(f"Found {len(dimensions['races'])} races")
+    logger.info(f"Found {len(dimensions['sessions'])} sessions")
     
     # Step 3: Transform to facts
-    print("\n3. Transforming to fact tables...")
+    logger.info("\n3. Transforming to fact tables...")
     fact_tables = {}
     fact_tables['team_standings'] = extract_team_standings_facts(dimensions)
     fact_tables['driver_standings'] = extract_driver_standings_facts(dimensions)
@@ -686,15 +689,15 @@ def main():
     race_results = transform_race_results_to_facts(session_files, dimensions)
     fact_tables.update(race_results)
     
-    print("Fact tables created:")
+    logger.info("Fact tables created:")
     for table_name, records in fact_tables.items():
-        print(f"  {table_name}: {len(records)} records")
+        logger.info(f"  {table_name}: {len(records)} records")
     
     # Step 4: Save the results
-    print("\n4. Saving transformed data...")
+    logger.info("\n4. Saving transformed data...")
     save_transformed_data(dimensions, fact_tables)
     
-    print("\n✅ Transformation complete!")
+    logger.info("\n✅ Transformation complete!")
     
     return True
 
@@ -713,14 +716,14 @@ def save_transformed_data(dimensions, facts):
         
         with open(dim_path, 'w', encoding='utf-8') as f:
             json.dump(dim_list, f, indent=2, ensure_ascii=False)
-            print(f"  Saved {len(dim_list)} {dim_name} to {dim_name}.json")
+            logger.info(f"  Saved {len(dim_list)} {dim_name} to {dim_name}.json")
     
     # Save facts
     for fact_name, fact_data in facts.items():
         fact_path = os.path.join(TRANSFORM_DIR, "facts", f'{fact_name}.json')
         with open(fact_path, 'w', encoding='utf-8') as f:
             json.dump(fact_data, f, indent=2, ensure_ascii=False)
-            print(f"  Saved {len(fact_data)} records to {fact_name}.json")
+            logger.info(f"  Saved {len(fact_data)} records to {fact_name}.json")
             
 if __name__ == "__main__":
     main()
