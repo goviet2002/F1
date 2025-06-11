@@ -362,7 +362,7 @@ async def scrape_f1_driver_data(all_driver_links):
             year_dir = os.path.join(DATA_DIR, str(year))
             os.makedirs(year_dir, exist_ok=True)
             
-            print(f"Processing {len(year_links)} drivers for year {year}")
+            # print(f"Processing {len(year_links)} drivers for year {year}")
             
             # Process driver results
             driver_results = []
@@ -393,7 +393,7 @@ async def scrape_f1_driver_data(all_driver_links):
                     with open(checkpoint_file, 'w', encoding='utf-8') as f:
                         json.dump(driver_results, f, indent=2, ensure_ascii=False)
             
-            print(f"Processed {results_processed} drivers for year {year}")
+            # print(f"Processed {results_processed} drivers for year {year}")
     
     end_time = time.time()
     total_time = end_time - start_time

@@ -95,7 +95,7 @@ async def collect_fastest_laps_data(start_year=years[0], end_year=years[-1]):
 
     async with aiohttp.ClientSession(connector=connector, timeout=timeout) as session:
         for i, year in enumerate(range(start_year, end_year + 1)):
-            print(f"Fetching fastest lap data for {year}...")
+            # print(f"Fetching fastest lap data for {year}...")
             year_data = await scrape_fastest_laps(session, year)
             
             if year_data:
@@ -116,7 +116,7 @@ async def collect_fastest_laps_data(start_year=years[0], end_year=years[-1]):
                     "data": year_data["data"]
                 }
                 
-                print(f"Added {len(year_data['data'])} entries from {year}")
+                # print(f"Added {len(year_data['data'])} entries from {year}")
                 
                 # Save checkpoint at intervals
                 checkpoint_file = os.path.join(CHECKPOINTS_DIR, "fastest_laps_latest.json")
@@ -124,7 +124,7 @@ async def collect_fastest_laps_data(start_year=years[0], end_year=years[-1]):
                     with open(checkpoint_file, 'w', encoding='utf-8') as f:
                         json.dump(all_data_by_year, f, indent=2, ensure_ascii=False)
                     
-                    print(f"Saved checkpoint after processing {year}")
+                    # print(f"Saved checkpoint after processing {year}")
             else:
                 print(f"No data available for {year}")
         

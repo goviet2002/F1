@@ -383,7 +383,7 @@ async def scrape_f1_team_data(all_team_links):
             year_dir = os.path.join(DATA_DIR, str(year))
             os.makedirs(year_dir, exist_ok=True)
             
-            print(f"Processing {len(year_links)} teams for year {year}")
+            # print(f"Processing {len(year_links)} teams for year {year}")
             
             # Process team results
             team_results = []
@@ -417,7 +417,7 @@ async def scrape_f1_team_data(all_team_links):
                     with open(checkpoint_file, 'w', encoding='utf-8') as f:
                         json.dump(team_results, f, indent=2, ensure_ascii=False)
                 
-            print(f"Processed {results_processed} teams for year {year}")
+            # print(f"Processed {results_processed} teams for year {year}")
     
     end_time = time.time()
     total_time = end_time - start_time
