@@ -2,11 +2,11 @@ name: F1 Weekly Data Pipeline
 
 on:
   schedule:
-    - cron: '10 17 * * 3'
-  workflow_dispatch:     # Manual trigger button
+    - cron: '17 17 * * 3'
+  workflow_dispatch:
 
 permissions:
-  contents: write  # Allow writing to repository
+  contents: write
   actions: read
 
 jobs:
@@ -19,6 +19,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
         
       - name: Set up Python 3.11
         uses: actions/setup-python@v4
@@ -38,16 +39,14 @@ jobs:
       - name: Create data directories
         run: |
           mkdir -p data/raw
-          mkdir -p data/transformed_data/dimensions
-          mkdir -p data/transformed_data/facts
-          mkdir -p data/f1_race_data
           mkdir -p data/f1_checkpoints
           
       - name: Authenticate to Google Cloud
         uses: google-github-actions/auth@v1
         with:
           credentials_json: ${{ secrets.GCP_SA_KEY }}
-          
+          project_id: ${{ secrets.GCP_PROJECT_ID }}
+        
       - name: Set up Google Cloud SDK
         uses: google-github-actions/setup-gcloud@v1
         
@@ -55,15 +54,15 @@ jobs:
         run: python src/scheduler/f1_scheduler.py --run-now
         env:
           GOOGLE_CLOUD_PROJECT: ${{ secrets.GCP_PROJECT_ID }}
-
+          
       - name: Check for data changes
         id: verify-changed-files
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            echo "changed=true" >> $GITHUB_OUTPUT
-          else
+          if git diff --quiet data/; then
             echo "changed=false" >> $GITHUB_OUTPUT
-          fi    
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
       
       - name: Commit and push data updates
         if: steps.verify-changed-files.outputs.changed == 'true'
@@ -72,14 +71,13 @@ jobs:
           git config --local user.name "goviet2002"
           git add data/
           git commit -m "🏎️ Update F1 data - $(date +'%Y-%m-%d %H:%M:%S UTC')"
-          git push
+          git push origin main
           
       - name: Upload logs on failure
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v3
         with:
-          name: f1-pipeline-logs
+          name: pipeline-logs
           path: |
-            f1_pipeline.log
+            logs/
             *.log
-          retention-days: 30
