@@ -1,14 +1,8 @@
 name: F1 Weekly Data Pipeline
 
 on:
-  push:
-    branches:
-      - main  # Runs when code is pushed to the 'main' branch
-  pull_request:
-    branches:
-      - main  # Runs when a pull request targets the 'main' branch
   schedule:
-    - cron: '35 16 * * 3'
+    - cron: '05 17 * * 3'
   workflow_dispatch:     # Manual trigger button
 
 jobs:
