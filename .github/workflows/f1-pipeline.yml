@@ -2,8 +2,12 @@ name: F1 Weekly Data Pipeline
 
 on:
   schedule:
-    - cron: '05 17 * * 3'
+    - cron: '10 17 * * 3'
   workflow_dispatch:     # Manual trigger button
+
+permissions:
+  contents: write  # Allow writing to repository
+  actions: read
 
 jobs:
   f1-data-collection:
