@@ -20,7 +20,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-def wait_for_all_background_tasks(max_wait_minutes=60):
+def wait_for_all_background_tasks(max_wait_minutes=60, sleep_interval=30):
     """Wait for background tasks with timeout protection"""
     start_time = time.time()
     timeout = max_wait_minutes * 60
@@ -37,7 +37,7 @@ def wait_for_all_background_tasks(max_wait_minutes=60):
             
             elapsed = int(time.time() - start_time)
             logger.info(f"⏳ {len(active_tasks)} tasks running... ({elapsed}s/{timeout}s)")
-            time.sleep(30)
+            time.sleep(sleep_interval)
             
         except RuntimeError:
             logger.info("✅ No async event loop running")
@@ -62,13 +62,27 @@ def run_f1_pipeline():
         
         # Run pipeline steps with clear logging
         logger.info("=" * 60)
-        logger.info("🏎️ PHASE 1: Crawling F1 Data...")
+        logger.info("🏎️ PHASE 1: Crawling F1 Drivers...")
         crawl_drivers()
+        wait_for_all_background_tasks(max_wait_minutes=15, sleep_interval=10)
+        logger.info("✅ Drivers completed")
+        
+        logger.info("🏎️ PHASE 2: Crawling F1 Teams...")
         crawl_teams()
+        wait_for_all_background_tasks(max_wait_minutes=15, sleep_interval=10)
+        logger.info("✅ Teams completed")
+        
+        logger.info("🏎️ PHASE 3: Crawling F1 Races...")
         crawl_races()
+        wait_for_all_background_tasks(max_wait_minutes=15, sleep_interval=30)
+        logger.info("✅ Races completed")
+        
+        logger.info("🏎️ PHASE 4: Crawling F1 Fastest Laps...")
         crawl_fastest_laps()
-        wait_for_all_background_tasks()
-        logger.info("✅ Crawling completed")
+        wait_for_all_background_tasks(max_wait_minutes=15, sleep_interval=5)
+        logger.info("✅ Fastest Laps completed")
+        
+        logger.info("✅ ALL CRAWLING COMPLETED")
         
         logger.info("=" * 60)
         logger.info("🔄 PHASE 2: Transforming data...")

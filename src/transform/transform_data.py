@@ -638,9 +638,9 @@ def main():
     print("\n1. Discovering sessions...")
     session_types, session_files, race_metadata = discover_sessions()
     
-    print("Discovered Session Types:")
-    for session_name, headers_set in session_types.items():
-        print(f"  {session_name}: {len(headers_set)} variations")
+    # print("Discovered Session Types:")
+    # for session_name, headers_set in session_types.items():
+    #     print(f"  {session_name}: {len(headers_set)} variations")
     
     # # Show all practice session variations
     # print("\nPractice Session Variations:")
