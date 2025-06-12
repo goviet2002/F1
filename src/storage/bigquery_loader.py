@@ -154,7 +154,7 @@ class BigQueryLoader:
             logger.info(f"{table.table_id}: {table_ref.num_rows:,} rows")
 
 def main():
-    print("🏎️  Loading F1 Data to BigQuery...")
+    logger.info("🏎️  Loading F1 Data to BigQuery...")
     
     # Check if transformed data exists
     if not os.path.exists("data/transformed_data"):
@@ -167,8 +167,8 @@ def main():
     success = loader.load_all_data()
     
     if success:
-        print(f"\nSuccess! View your data at:")
-        print(f"https://console.cloud.google.com/bigquery?project={GOOGLE_CLOUD_PROJECT_ID}")
+        logger.info(f"\nSuccess! View your data at:")
+        logger.info(f"https://console.cloud.google.com/bigquery?project={GOOGLE_CLOUD_PROJECT_ID}")
         
         return True
     
