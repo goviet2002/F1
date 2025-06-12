@@ -85,25 +85,3 @@ jobs:
           path: |
             logs/
             *.log
-
-      - name: Send success notification
-        if: success()
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: smtp.gmail.com
-          server_port: 587
-          username: ${{ secrets.EMAIL_USERNAME }}
-          password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: "✅ F1 Pipeline Completed Successfully"
-          body: |
-            🏎️ F1 Data Pipeline completed successfully!
-            
-            Run Details:
-            - Workflow: ${{ github.workflow }}
-            - Run ID: ${{ github.run_id }}
-            - Timestamp: ${{ github.event.head_commit.timestamp }}
-            - Commit: ${{ github.sha }}
-            
-            View logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-          to: anhviet2002.vna@gmail.com
-          from: F1 Pipeline Bot
