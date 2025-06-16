@@ -2,7 +2,7 @@ name: F1 Weekly Data Pipeline
 
 on:
   schedule:
-    - cron: '0 0 * * 1'  # 00:00 Monday UTC
+    - cron: '0 11 * * 1'  # 00:00 Monday UTC
   workflow_dispatch:
 
 permissions:
