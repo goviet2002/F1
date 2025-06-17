@@ -50,5 +50,9 @@ I have developed some analytical SQL queries and a simple machine learning model
 - **Machine Learning model results** estimate the probability of winning from pole position at around 13.9%, providing insight into the impact of starting grid position.
   
   ![ML Model](https://github.com/goviet2002/F1/blob/main/images/ML_predict_winner_from_pole.jpg)
-  
+
+## Future Work
+Planned enhancements include developing a web interface to visually display F1 analytics and results, as well as integrating a chatbot that allows users to query the data and retrieve information interactively. This will make data exploration more accessible and user-friendly.
+
+## Disclaimer
 Due to Formula 1’s Terms & Conditions, this repository contains **code only**—no scraped data is included.  
