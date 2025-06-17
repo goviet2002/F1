@@ -1,5 +1,54 @@
-## Demo Limitations
+# F1 Data Pipeline
+This project implements a robust, automated ETL (Extract, Transform, Load) pipeline for Formula 1 data, designed for reliability, scalability, and cloud integration. The pipeline is orchestrated via GitHub Actions and leverages modern Python data engineering practices.
 
-Due to Formula 1’s Terms & Conditions, this repository contains **code only**—no scraped data or F1 screenshots are included.  
-- **Local Demo:** Run `npm start` and view the app at `http://localhost:3000` with your own data.  
-- **Hosted Demo Alternative:** The live site (or screenshots below) uses either the Ergast Developer API or a sanitized sample dataset.
+## Extract
+- **Web Crawling**: Custom Python crawlers use **aiohttp** and **BeautifulSoup** to asynchronously scrape F1 data from the official Formula 1 website, including:
+    - Driver standings and profiles
+    - Team standings and profiles
+    - Race results, sessions, and fastest laps
+  
+  Asynchronous requests enable the pipeline to fetch multiple web pages in parallel, significantly reducing the total extraction time compared to traditional sequential scraping. This is especially valuable for large, multi-year datasets and frequent updates.
+
+- **Checkpointing**: Intermediate results and checkpoints are saved in **f1_checkpoints** folder to support incremental extraction and recovery from failures.
+
+- **Data Storage**: Raw and processed data are stored in **structured JSON** files under data, organized by entity and year.
+
+## Transform
+- **Automatic schema detection**: Identifies and adapts to changes in data structure across years and session types (Practice, Qualifying, Race, etc.).
+  
+- **Dynamic column mapping**: Handles different or missing columns for each session.
+  
+- **Session-specific parsing**: Applies custom logic for each session type to extract and normalize relevant data.
+  
+- **Consistent output schema**: Normalizes all records to a unified structure for reliable downstream analytics.
+
+- **Fact and Dimension Modeling**: The pipeline builds **star-schema-style** tables:
+  - Dimensions: Drivers, teams, races, sessions, countries
+  - Facts: Race results, qualifying results, fastest laps, standings
+    
+  ![Data Model](https://github.com/goviet2002/F1/blob/main/images/data_model.jpg)
+
+## Load
+- **Cloud Data Warehouse Integration**: Transformed data is loaded into **Google BigQuery using the google-cloud-bigquery library**.
+  - Automated table creation and schema inference.
+  - Bulk loading of both dimension and fact tables.
+  
+- **Automation**: The entire ETL process is orchestrated by **f1_scheduler.py** and scheduled via a GitHub Actions workflow for weekly execution on **Monday at 00:00 UTC**.
+
+## Analysis
+I have developed some analytical SQL queries and a simple machine learning model in BigQuery to explore the F1 data. For example:
+- **Race standings queries** show each driver’s current points, position changes, and championship ranking after the current race (updated result after every new race).
+  
+  ![Query](https://github.com/goviet2002/F1/blob/main/images/Current%20Race%20Result%20-%20Standing_query.jpg)
+  ![Query Result](https://github.com/goviet2002/F1/blob/main/images/Current%20Race%20Result%20-%20Standing_result.jpg)
+
+- **Win streak analysis** identifies drivers like Max Verstappen and Sebastian Vettel with the longest consecutive wins in F1 history.
+  
+  ![Query](https://github.com/goviet2002/F1/blob/main/images/driver_most_streaks_query.jpg)
+  ![Query Result](https://github.com/goviet2002/F1/blob/main/images/driver_most_streaks_result.jpg)
+
+- **Machine Learning model results** estimate the probability of winning from pole position at around 13.9%, providing insight into the impact of starting grid position.
+  
+  ![ML Model](https://github.com/goviet2002/F1/blob/main/images/ML_predict_winner_from_pole.jpg)
+  
+Due to Formula 1’s Terms & Conditions, this repository contains **code only**—no scraped data is included.  
