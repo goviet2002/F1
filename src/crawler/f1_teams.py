@@ -6,6 +6,7 @@ import os
 import json
 import time
 import logging
+import re
 
 logger = logging.getLogger(__name__)
 
@@ -21,12 +22,11 @@ os.makedirs(CHECKPOINTS_DIR, exist_ok=True)
 async def scrape_teams_standing(session, year):
     """Scrape team standings for a specific year"""
     url = f"{base_url}/en/results/{year}/team"
-    
-    # Initialize variables with default empty values
+
     data = []
     headers = []
     team_links = []
-    
+
     async with session.get(url, headers=head) as response:
         if response.status != 200:
             print(f"Failed to load {url}. Status: {response.status}")
@@ -34,51 +34,53 @@ async def scrape_teams_standing(session, year):
 
         html = await response.text()
         soup = BeautifulSoup(html, 'lxml')
-        
-        # Find table
+
+        # Find the correct table
         table = soup.find('table', class_='f1-table-with-data')
-        
-        if table:
-            headers = [header.text.strip() for header in table.find('thead').find_all('th')]
-            # Add YEAR to headers
-            if 'Year' not in headers:
-                headers.append('Year')
-            
-            rows = table.find('tbody').find_all('tr')
-            data = []
-            team_links = []
-            
-            for row in rows:
-                cols = row.find_all('td')
-                row_data = []
-                
-                for i, col in enumerate(cols):
-                    if i == 1:  # Team name column
-                        # Extract team name
-                        team_a = col.find('a')
-                        if team_a:
-                            team_name = team_a.text.strip()
-                            row_data.append(team_name)
-                        else:
-                            row_data.append(col.text.strip())
-                    else:
-                        row_data.append(col.text.strip())
-                
-                # Add year to each row
-                row_data.append(str(year))
-                data.append(row_data)
-                
-                # Extract team link
-                team_link = cols[1].find('a')['href'] if cols[1].find('a') else None
-                if team_link:
-                    # Make sure the team_link starts with a slash if needed
-                    if not team_link.startswith('/'):
-                        team_link = f"/{team_link}"
-                        
-                    # Add the full URL
-                    full_link = f"{base_url}/en/results/{year}{team_link}"
-                    team_links.append((row_data[1], full_link, year))  # Add year to link tuple
-                
+        if not table:
+            return data, headers, team_links
+
+        # Extract headers
+        headers = [th.get_text(strip=True) for th in table.find('thead').find_all('th')]
+        if 'Year' not in headers:
+            headers.append('Year')
+
+        rows = table.find('tbody').find_all('tr')
+        for row in rows:
+            cols = row.find_all('td')
+            if len(cols) < 3:
+                continue  # skip malformed rows
+
+            # Position
+            position = cols[0].get_text(strip=True)
+
+            # Team name and link
+            team_td = cols[1]
+            team_a = team_td.find('a')
+            if team_a:
+                team_name = team_a.get_text(strip=True)
+                team_link = team_a.get('href', '')
+                # Normalize link
+                if team_link.startswith('/../../'):
+                    team_link = team_link.replace('/../../', '/')
+                if not team_link.startswith('/'):
+                    team_link = '/' + team_link
+                full_link = f"{base_url}{team_link}"
+            else:
+                team_name = team_td.get_text(strip=True)
+                full_link = None
+
+            # Points
+            points = cols[2].get_text(strip=True)
+
+            # Compose row data
+            row_data = [position, team_name, points, str(year)]
+            data.append(row_data)
+
+            # Save team link tuple if available
+            if full_link:
+                team_links.append((team_name, full_link, year))
+
         return data, headers, team_links
 
 async def scrape_team_results(session, team_url):
@@ -111,10 +113,23 @@ async def scrape_team_results(session, team_url):
         for row in rows:
             cols = row.find_all('td')
             row_data = []
-            
-            for col in cols:
-                row_data.append(col.text.strip())
-                
+            for i, col in enumerate(cols):
+                if i == 0:
+                    # Grand Prix cell: get only the visible text after the SVG
+                    a = col.find('a')
+                    if a:
+                        # Get the last text node (should be the visible name)
+                        grand_prix = ""
+                        for content in reversed(a.contents):
+                            if isinstance(content, str) and content.strip():
+                                grand_prix = content.strip()
+                                break
+                        text = grand_prix
+                    else:
+                        text = col.get_text(strip=True)
+                else:
+                    text = col.get_text(strip=True)
+                row_data.append(text)
             data.append(row_data)
                 
         return data, headers, team_code
@@ -173,83 +188,69 @@ async def collect_team_links():
 
 async def scrape_team_profile(session, team_name, team_code):
     """Scrape detailed profile information for a team from the main teams page"""
-    # Extract the team name part for the URL
-    name_part = team_name.lower().replace(' ', '-')
-    
-    # Construct profile URL
-    profile_url = f"{base_url}/en/teams/{name_part}.html"
-    
+    # Use the team_code directly, do not add .html
+    profile_url = f"{base_url}/en/teams/{team_code}"
+
     try:
         async with session.get(profile_url, headers=head) as response:
             if response.status != 200:
                 print(f"Team profile not found: {profile_url}. Status: {response.status}")
                 return None, None
-            
+
             html = await response.text()
             soup = BeautifulSoup(html, 'lxml')
-            
-            # Get the team info section (with Full Team Name, Base, etc.)
-            team_info_section = soup.find('div', class_='f1-dl')
-            
-            # Initialize lists for headers and data
-            headers = ["name", "team_code", "profile_url"]
-            data = [team_name, team_code, profile_url]
-            
-            if team_info_section:
-                # Extract info from dt/dd pairs
-                dt_elements = team_info_section.find_all('dt')
-                dd_elements = team_info_section.find_all('dd')
-                
-                for dt, dd in zip(dt_elements, dd_elements):
-                    # Convert header to lowercase with underscores
-                    header = dt.text.strip().lower().replace(' ', '_')
-                    data.append(dd.text.strip())
-                    headers.append(header)
 
-            # Get driver information
-            drivers_section = soup.select('figure.bg-brand-white')
-            
-            if drivers_section and len(drivers_section) >= 1:
-                # First driver
-                driver1_div = drivers_section[0].find('figcaption').find('div')
-                if driver1_div:
-                    # Get driver number
-                    driver1_number_elem = driver1_div.find('p', class_='f1-heading')
-                    # Get driver name
-                    driver1_name_elem = driver1_div.find_all('p', class_='f1-heading')[1] if len(driver1_div.find_all('p', class_='f1-heading')) > 1 else None
-                    
-                    if driver1_number_elem:
-                        headers.append("driver_1_no")
-                        data.append(driver1_number_elem.text.strip())
-                    if driver1_name_elem:
-                        headers.append("driver_1")
-                        data.append(driver1_name_elem.text.strip())
-            
-            if drivers_section and len(drivers_section) >= 2:
-                # Second driver
-                driver2_div = drivers_section[1].find('figcaption').find('div')
-                if driver2_div:
-                    # Get driver number
-                    driver2_number_elem = driver2_div.find('p', class_='f1-heading')
-                    # Get driver name
-                    driver2_name_elem = driver2_div.find_all('p', class_='f1-heading')[1] if len(driver2_div.find_all('p', class_='f1-heading')) > 1 else None
-                    
-                    if driver2_number_elem:
-                        headers.append("driver_2_no")
-                        data.append(driver2_number_elem.text.strip())
-                    if driver2_name_elem:
-                        headers.append("driver_2")
-                        data.append(driver2_name_elem.text.strip())
-            
-            return headers, data
+            profile = {
+                "name": team_name,
+                "team_code": team_code,
+                "profile_url": profile_url,
+            }
+
+            # --- Car image ---
+            car_img = soup.find("img", alt=lambda x: x and team_name.lower() in x.lower())
+            if car_img:
+                profile["car_img"] = car_img.get("src", "")
+
+            # --- Drivers ---
+            profile["drivers"] = []
+            for card in soup.select('a[data-f1rd-a7s-click="driver_card_click"]'):
+                driver = {}
+                # Driver name
+                name_elem = card.select_one('p.typography-module_display-l-bold__m1yaJ')
+                if name_elem:
+                    driver["name"] = name_elem.text.strip()
+                # Driver image
+                img_elem = card.select_one('div.absolute img')
+                if img_elem:
+                    driver["img"] = img_elem.get("src", "")
+                # Nationality (flag title)
+                flag_elem = card.select_one('svg[role="presentation"] title')
+                if flag_elem:
+                    # Remove "Flag of " prefix if present
+                    nationality = flag_elem.text.strip()
+                    if nationality.lower().startswith("flag of "):
+                        nationality = nationality[8:].strip()
+                    driver["nationality"] = nationality
+                profile["drivers"].append(driver)
+
+            # --- All <dl> blocks (team info, statistics, summary) ---
+            for dl in soup.find_all('dl'):
+                for div in dl.find_all('div', class_='DataGrid-module_item__cs9Zd'):
+                    dt = div.find('dt')
+                    dd = div.find('dd')
+                    if dt and dd:
+                        key = dt.text.strip().lower().replace(' ', '_')
+                        value = dd.text.strip()
+                        profile[key] = value
+
+            return list(profile.keys()), list(profile.values())
     except Exception as e:
         print(f"Error scraping profile for {team_name}: {e}")
         return None, None
 
 async def scrape_teams_listing(session):
-    """Scrape teams directly from the main F1 teams listing page"""
+    """Scrape teams directly from the main F1 teams listing page (2025 structure)"""
     url = f"{base_url}/en/teams"
-    
     async with session.get(url, headers=head) as response:
         if response.status != 200:
             print(f"Failed to load {url}. Status: {response.status}")
@@ -257,60 +258,43 @@ async def scrape_teams_listing(session):
 
         html = await response.text()
         soup = BeautifulSoup(html, 'lxml')
-        
-        # Find all team links
-        team_items = soup.select('a[href^="/en/teams/"]')
-        team_links = []
-        
-        for item in team_items:
-            team_url = item['href']
-            if team_url.count('/') >= 3:  # Make sure it's a team details page
-                # Extract team name
-                team_name_elem = item.select_one('.f1-heading[class*="font-bold"]')
-                if team_name_elem:
-                    team_name = team_name_elem.text.strip()
-                    
-                    # Extract position
-                    position_elem = item.select_one('.f1-heading-black')
-                    position = position_elem.text.strip() if position_elem else ""
-                    
-                    # Extract points
-                    points_elem = item.select_one('.f1-heading-wide')
-                    points = points_elem.text.strip() if points_elem else ""
-                    
-                    # Extract team logo URL
-                    logo_elem = item.select_one('img[alt="' + team_name + '"]')
-                    logo_url = logo_elem['src'] if logo_elem else ""
-                    
-                    # Extract team color - find the parent div that has text-COLOR class
-                    team_card = item.select_one('div[class*="text-"]')
-                    team_color = "#"
-                    if team_card:
-                        color_classes = [c for c in team_card.get('class', []) if c.startswith('text-') and not c == 'text-brand-black']
-                        if color_classes:
-                            team_color += color_classes[0].replace('text-', '')
-                    
-                    # Extract car image URL
-                    car_img = item.select_one('.flex.items-baseline img')
-                    car_img_url = car_img['src'] if car_img else ""
-                    
-                    # Get team code from URL
-                    team_code = team_url.split('/')[-1]
-                    
-                    team_data = {
-                        'name': team_name,
-                        'team_code': team_code,
-                        'position': position,
-                        'points': points,
-                        'logo_url': logo_url,
-                        'car_img_url': car_img_url, 
-                        'team_color': team_color,
-                        'year': years[-1]  # Current year
-                    }
-                    
-                    team_links.append(team_data)
-        
-        return team_links
+
+        teams = []
+        # Each team card
+        for card in soup.select('a.group\\/team-card'):
+            team = {}
+            # Team name
+            name_elem = card.select_one('p.typography-module_display-l-bold__m1yaJ')
+            team['name'] = name_elem.text.strip() if name_elem else ""
+            # Team code (from href)
+            href = card.get('href', '')
+            team['team_code'] = href.split('/')[-1] if href else ""
+            team['profile_url'] = base_url + href if href else ""
+            # Team logo
+            logo_elem = card.select_one('.TeamLogo-module_teamlogo__lA3j1 img')
+            team['logo_url'] = logo_elem['src'] if logo_elem else ""
+            # Car image
+            car_img_elem = card.select_one('span.relative img.absolute')
+            team['car_img_url'] = car_img_elem['src'] if car_img_elem else ""
+            # Team color (from style)
+            style = card.get('style', '')
+            import re
+            match = re.search(r'--f1-team-colour:\s*([^;]+);', style)
+            team['team_color'] = match.group(1) if match else ""
+            # Drivers
+            team['drivers'] = []
+            for driver in card.select('span.flex.gap-px-8.rounded-s.items-center'):
+                driver_name = " ".join([
+                    x.text.strip() for x in driver.select('span.typography-module_body-xs-regular__0B0St, span.typography-module_body-xs-bold__TovJz')
+                ])
+                driver_img_elem = driver.select_one('img')
+                driver_img = driver_img_elem['src'] if driver_img_elem else ""
+                team['drivers'].append({
+                    'name': driver_name,
+                    'img': driver_img
+                })
+            teams.append(team)
+        return teams
 
 async def collect_current_teams_data():
     """Collect comprehensive team data from the main teams page and individual profiles"""
