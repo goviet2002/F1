@@ -23,8 +23,8 @@ This project implements a robust, automated ETL (Extract, Transform, Load) pipel
 - **Consistent output schema**: Normalizes all records to a unified structure for reliable downstream analytics.
 
 - **Fact and Dimension Modeling**: The pipeline builds **star-schema-style** tables:
-  - Dimensions: Drivers, teams, races, sessions, countries
-  - Facts: Race results, qualifying results, fastest laps, standings
+  - Dimensions: drivers, teams, races, sessions, countries.
+  - Facts: race_results, qualifying_results, practice_results, fastest_laps, pit_stops, team_standings, driver_standings.
     
   ![Data Model](https://github.com/goviet2002/F1/blob/main/images/DataModel.png)
 
