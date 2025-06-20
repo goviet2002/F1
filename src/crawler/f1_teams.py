@@ -41,9 +41,10 @@ async def scrape_teams_standing(session, year):
             return data, headers, team_links
 
         # Extract headers
-        headers = [th.get_text(strip=True) for th in table.find('thead').find_all('th')]
-        if 'Year' not in headers:
-            headers.append('Year')
+        headers = ['Pos', 'Team', 'Pts', 'Year']
+        # headers = [th.get_text(strip=True) for th in table.find('thead').find_all('th')]
+        # if 'Year' not in headers:
+        #     headers.append('Year')
 
         rows = table.find('tbody').find_all('tr')
         for row in rows:
@@ -103,8 +104,9 @@ async def scrape_team_results(session, team_url):
             print(f"No results table found for {team_url}")
             return [], [], team_code
             
-        # Get headers
-        headers = [header.text.strip() for header in table.find('thead').find_all('th')]
+        # Get headers automatically, but since format changed, we keep the old format
+        # headers = [header.text.strip() for header in table.find('thead').find_all('th')]
+        headers = ['Grand prix', 'Date', 'Pts']
         
         # Get race results
         rows = table.find('tbody').find_all('tr')
@@ -321,8 +323,16 @@ async def collect_current_teams_data():
                 
                 # Merge with basic data
                 for key, value in profile_dict.items():
-                    if key not in team or not team[key]:  # Don't overwrite existing values
+                    if key not in team or not team[key]:
                         team[key] = value
+                
+                # Ensure 'name' is set to 'full_team_name' if 'name' is empty
+                if not team.get("name") and team.get("full_team_name"):
+                    team["name"] = team["full_team_name"]
+                
+                # Remove 'full_team_name' to avoid redundancy
+                if "full_team_name" in team:
+                    del team["full_team_name"]
                 
                 all_team_data.append(team)
                 # print(f"Processed team: {team_name}")
