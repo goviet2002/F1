@@ -26,7 +26,7 @@ This project implements a robust, automated ETL (Extract, Transform, Load) pipel
   - Dimensions: Drivers, teams, races, sessions, countries
   - Facts: Race results, qualifying results, fastest laps, standings
     
-  ![Data Model](https://github.com/goviet2002/F1/blob/main/images/data_model.jpg)
+  ![Data Model](https://github.com/goviet2002/F1/blob/main/images/DataModel.png)
 
 ## Load
 - **Cloud Data Warehouse Integration**: Transformed data is loaded into **Google BigQuery using the google-cloud-bigquery library**.

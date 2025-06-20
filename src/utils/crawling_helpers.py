@@ -2,6 +2,7 @@ from datetime import datetime
 import certifi
 import aiohttp
 import ssl
+import unicodedata
 
 ssl_context = ssl.create_default_context(cafile=certifi.where())
 
@@ -17,3 +18,17 @@ async def test_function(param, functions):
     async with aiohttp.ClientSession(connector=connector) as session:
         result = await functions(session, param)
         return result
+    
+def standardize_folder_name(name):
+    """Convert any name to a consistent folder name format"""
+    # Normalize Unicode characters
+    folder_name = unicodedata.normalize('NFKD', name)
+    # Remove non-ASCII characters
+    folder_name = ''.join([c for c in folder_name if not unicodedata.combining(c)])
+    # Convert to lowercase
+    folder_name = folder_name.lower()
+    # Replace special characters
+    folder_name = folder_name.replace("'", "")
+    folder_name = folder_name.replace("-", "_")
+    folder_name = folder_name.replace(" ", "_")
+    return folder_name

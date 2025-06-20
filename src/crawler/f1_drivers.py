@@ -183,7 +183,7 @@ async def process_driver_data(session, driver_link_tuple):
         
         return driver_details
     except Exception as e:
-        print(f"Error processing driver {driver_name}: {e}")
+        print(f"Error processing driver {driver_name}: {e} with {url}")
         return None
 
 async def collect_driver_links():
@@ -267,8 +267,11 @@ async def scrape_driver_profile(session, driver_name, profile_url):
                     key = dt.text.strip().lower().replace(' ', '_')
                     value = dd.text.strip()
                     profile[key] = value
+                    
+        return profile
 
-        return list(profile.keys()), list(profile.values())
+        # This returns headers and data 
+        # return list(profile.keys()), list(profile.values()) 
 
 async def collect_current_driver_profiles(current_year=years[-1]):
     """Collect detailed profiles for current season drivers from the main drivers page"""
@@ -296,30 +299,22 @@ async def collect_current_driver_profiles(current_year=years[-1]):
                     driver_links.append((driver_name, profile_url))
 
         # --- Process each driver profile ---
-        all_headers = []
         driver_profiles = []
 
         for driver_name, driver_url in driver_links:
-            headers, data = await scrape_driver_profile(session, driver_name, driver_url)
-            if headers and data:
-                for header in headers:
-                    if header not in all_headers:
-                        all_headers.append(header)
-                driver_profiles.append(data)
+            profile = await scrape_driver_profile(session, driver_name, driver_url)
+            if profile:
+                driver_profiles.append(profile)
 
-        # Normalize data - ensure all rows have the same number of fields
-        normalized_profiles = []
+        # Optionally, collect all unique headers if you want
+        all_headers = set()
         for profile in driver_profiles:
-            profile_dict = dict(zip(headers, profile))
-            normalized_row = []
-            for header in all_headers:
-                normalized_row.append(profile_dict.get(header, ""))
-            normalized_profiles.append(normalized_row)
+            all_headers.update(profile.keys())
+        all_headers = list(all_headers)
 
-        # Save profiles to a JSON file in table format
+        # Save as a list of dicts
         profiles_data = {
-            "headers": all_headers,
-            "drivers": normalized_profiles
+            "drivers": driver_profiles
         }
 
         profiles_file = os.path.join(DATA_DIR, f"{current_year}_driver_profiles.json")
@@ -328,7 +323,7 @@ async def collect_current_driver_profiles(current_year=years[-1]):
 
         logger.info(f"Saved {len(driver_profiles)} driver profiles to {profiles_file}")
 
-        return all_headers, normalized_profiles
+        return all_headers
 
 async def scrape_f1_driver_data(all_driver_links):
     """Scrape all F1 driver data organized by year"""

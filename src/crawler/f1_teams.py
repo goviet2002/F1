@@ -190,7 +190,6 @@ async def collect_team_links():
 
 async def scrape_team_profile(session, team_name, team_code):
     """Scrape detailed profile information for a team from the main teams page"""
-    # Use the team_code directly, do not add .html
     profile_url = f"{base_url}/en/teams/{team_code}"
 
     try:
@@ -208,10 +207,23 @@ async def scrape_team_profile(session, team_name, team_code):
                 "profile_url": profile_url,
             }
 
+            # --- Logo image ---
+            logo_img = soup.find("img", class_="relative z-40 h-px-32")
+            if logo_img:
+                profile["logo_url"] = logo_img.get("src", "")
+            else:
+                profile["logo_url"] = ""
+
             # --- Car image ---
-            car_img = soup.find("img", alt=lambda x: x and team_name.lower() in x.lower())
+            car_img = soup.find("img", class_="relative z-40 max-w-full max-h-[90px] md:max-h-[127px] lg:max-h-[183px]")
             if car_img:
-                profile["car_img"] = car_img.get("src", "")
+                profile["car_img_url"] = car_img.get("src", "")
+            else:
+                profile["car_img_url"] = ""
+
+            # --- Remove car_img if present ---
+            if "car_img" in profile:
+                del profile["car_img"]
 
             # --- Drivers ---
             profile["drivers"] = []
@@ -228,7 +240,6 @@ async def scrape_team_profile(session, team_name, team_code):
                 # Nationality (flag title)
                 flag_elem = card.select_one('svg[role="presentation"] title')
                 if flag_elem:
-                    # Remove "Flag of " prefix if present
                     nationality = flag_elem.text.strip()
                     if nationality.lower().startswith("flag of "):
                         nationality = nationality[8:].strip()

@@ -4,15 +4,16 @@ import asyncio
 import os
 import json
 import time
-import unicodedata
 import sys
 import logging
+from playwright.async_api import async_playwright
+from urllib.parse import urlparse
 
 logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = os.getcwd()
 sys.path.append(PROJECT_ROOT)
-from src.utils.crawling_helpers import ssl_context, head, base_url, years
+from src.utils.crawling_helpers import ssl_context, head, base_url, years, standardize_folder_name
 
 DATA_DIR = os.path.join(PROJECT_ROOT, "data", "f1_race_data")
 os.makedirs(DATA_DIR, exist_ok=True)
@@ -20,48 +21,101 @@ CHECKPOINTS_DIR = os.path.join(PROJECT_ROOT, "data", "f1_checkpoints")
 os.makedirs(CHECKPOINTS_DIR, exist_ok=True)
 
 async def scrape_races_year(session, year):
-    # URL of the page
     url = f"{base_url}/en/results/{year}/races"
 
-    # Send a GET request to the URL
     async with session.get(url, headers=head) as response:
         if response.status != 200:
-            print(f"Failed to load {url}. Status: {response.status_code}")
+            print(f"Failed to load {url}. Status: {response.status}")
             return []
 
-        # Parse the HTML content using BeautifulSoup
         html = await response.text()
         soup = BeautifulSoup(html, 'lxml')
-        
-        # Find table
+
         table = soup.find('table', class_='f1-table-with-data')
-        
-        if table:
-            headers = [header.text.strip() for header in table.find('thead').find_all('th')]
-            
-            rows = table.find('tbody').find_all('tr')
-            data = []
-            race_links = []
-            
-            for row in rows:
-                cols = row.find_all('td')
-                row_data = []
-                
-                for i, col in enumerate(cols):
-                    if i == 2: #Driver column
-                        winner = col.text.strip().replace("\xa0", " ")[:-3]
-                        row_data.append(winner)
-                    else:
-                        row_data.append(col.text.strip())
-                        
-                # Append the row data to the data list (only once per row)
-                data.append(row_data)
-                
-                # Extract race link
-                race_link = cols[0].find('a')['href']
-                full_link = f"{base_url}/en/results/{year}/{race_link}"
-                race_links.append((row_data[0], full_link))
-                
+        if not table:
+            print(f"No race table found for {year}")
+            return [], [], []
+
+        # Extract headers from <p> inside <th>
+        # headers = [th.p.text.strip() for th in table.find('thead').find_all('th')]
+        headers = ['Grand Prix', 'Date', 'Winner', 'Car', 'Laps', 'Time']
+
+        rows = table.find('tbody').find_all('tr')
+        data = []
+        race_links = []
+
+        for row in rows:
+            cols = row.find_all('td')
+            row_data = []
+
+            # 1. Grand Prix name (after SVG in <a>)
+            gp_cell = cols[0]
+            a_tag = gp_cell.find('a')
+            if a_tag:
+                svg = a_tag.find('svg')
+                if svg and svg.next_sibling:
+                    gp_name = svg.next_sibling.strip()
+                else:
+                    gp_name = a_tag.get_text(strip=True)
+                row_data.append(gp_name)
+                # Race link
+                race_href = a_tag.get('href', '')
+                # Clean up relative URL
+                if race_href.startswith("/"):
+                    full_link = base_url.rstrip("/") + race_href
+                else:
+                    full_link = base_url.rstrip("/") + "/" + race_href
+                race_links.append((gp_name, full_link))
+            else:
+                row_data.append(gp_cell.text.strip())
+                race_links.append((gp_cell.text.strip(), ""))
+
+            # 2. Date
+            date_cell = cols[1]
+            date_val = date_cell.find('p').text.strip() if date_cell.find('p') else date_cell.text.strip()
+            row_data.append(date_val)
+
+            # 3. Winner (from <span class="test">)
+            winner_cell = cols[2]
+            winner_name = ""
+            test_span = winner_cell.find('span', class_='test')
+            if test_span:
+                first_name = test_span.find('span', class_='max-lg:hidden')
+                last_name = test_span.find('span', class_='max-md:hidden')
+                if first_name and last_name:
+                    winner_name = f"{first_name.text.strip()} {last_name.text.strip()}"
+                else:
+                    winner_name = test_span.get_text(strip=True)
+            else:
+                winner_name = winner_cell.text.strip()
+            row_data.append(winner_name)
+
+            # 4. Team (from <span> after logo)
+            team_cell = cols[3]
+            team_name = ""
+            team_span = team_cell.find('span', class_='flex')
+            if team_span:
+                logo_span = team_span.find('span', class_='TeamLogo-module_teamlogo__lA3j1')
+                if logo_span and logo_span.next_sibling:
+                    team_name = logo_span.next_sibling.strip()
+                else:
+                    team_name = team_span.get_text(strip=True)
+            else:
+                team_name = team_cell.text.strip()
+            row_data.append(team_name)
+
+            # 5. Laps
+            laps_cell = cols[4]
+            laps_val = laps_cell.find('p').text.strip() if laps_cell.find('p') else laps_cell.text.strip()
+            row_data.append(laps_val)
+
+            # 6. Time
+            time_cell = cols[5]
+            time_val = time_cell.find('p').text.strip() if time_cell.find('p') else time_cell.text.strip()
+            row_data.append(time_val)
+
+            data.append(row_data)
+
         return data, headers, race_links
 
 async def scrape_race_location(session, race_url):
@@ -73,7 +127,7 @@ async def scrape_race_location(session, race_url):
         soup = BeautifulSoup(html, 'lxml')
         
         # Find the location table
-        header_section = soup.find('div', class_='max-tablet:flex-col flex gap-xs')
+        header_section = soup.find('div', class_='flex flex-col gap-px-6 text-text-3')
         
         if header_section:
             location_info = header_section.find_all('p')
@@ -84,20 +138,6 @@ async def scrape_race_location(session, race_url):
             city = track[1]
             
         return race_date, circuit, city
-    
-def standardize_folder_name(name):
-    """Convert any name to a consistent folder name format"""
-    # Normalize Unicode characters
-    folder_name = unicodedata.normalize('NFKD', name)
-    # Remove non-ASCII characters
-    folder_name = ''.join([c for c in folder_name if not unicodedata.combining(c)])
-    # Convert to lowercase
-    folder_name = folder_name.lower()
-    # Replace special characters
-    folder_name = folder_name.replace("'", "")
-    folder_name = folder_name.replace("-", "_")
-    folder_name = folder_name.replace(" ", "_")
-    return folder_name
 
 async def process_race_location(session, race_link_tuple):
     grand_prix, url = race_link_tuple
@@ -112,28 +152,36 @@ async def process_race_location(session, race_link_tuple):
         return None
 
 # Get available sessions for a race
-async def scrape_race_sessions(session, race_url):
-    async with session.get(race_url, headers=head) as response:
-        if response.status != 200:
-            print(f"Failed to load {race_url}. Status: {response.status_code}")
-            return []
+async def scrape_race_sessions(race_url):
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        page = await browser.new_page()
+        await page.set_viewport_size({"width": 1300, "height": 800})
+        await page.goto(race_url, wait_until="domcontentloaded")
 
-        # Parse the HTML content using BeautifulSoup
-        html = await response.text()   
-        soup = BeautifulSoup(html, 'lxml')
-        session_items = soup.find_all("ul", class_="f1-sidebar-wrapper")
-        li = session_items[0].find_all("li")
-        sessions = []
+        await page.wait_for_selector('#sidebar-dropdown')
+        await page.click('#sidebar-dropdown')
         
-        for item in li:
-                link = item.find("a")
-                if link:
-                    session_name = link.text.strip()
-                    session_link = f"{base_url}{link['href']}"
-                    sessions.append((session_name, session_link))
-        if not sessions:
-            None
+        parsed = urlparse(race_url)
+        base_path = parsed.path.rsplit('/', 1)[0] + '/'
+        
+        # Directly extract session links with Playwright
+        session_elements = await page.query_selector_all('a.DropdownMenuItem-module_dropdown-menu-item__6Y3-v')
+        
+        sessions = []
+        for elem in session_elements:
+            href = await elem.get_attribute('href')
+            if href and len(href) > len("/en/results/2025/races") and href.startswith(base_path):
+                # Try to get the country/session name from the nested span if present
+                country_span = await elem.query_selector('span.mr-px-32')
+                if country_span:
+                    continue
+                else:
+                    session_text = await elem.inner_text()
+                    session_name = session_text.replace("Active", "").strip()
+                    sessions.append((session_name, f"https://www.formula1.com{href}"))
 
+        await browser.close()
         return sessions
 
 async def scrape_race_results(session, session_url, session_name=None):
@@ -153,7 +201,8 @@ async def scrape_race_results(session, session_url, session_name=None):
             print(f"No table found for {session_url}")
             return None
         
-        headers = [header.text.strip() for header in table.find('thead').find_all('th')]
+        # headers = [header.text.strip() for header in table.find('thead').find_all('th')]
+        headers = [['Pos', 'No', 'Driver', 'Car', 'Time', 'Laps']]
         rows = table.find('tbody').find_all('tr')
         data = []
         
@@ -262,7 +311,7 @@ async def scrape_f1_data_with_checkpoints(all_race_links):
         checkpoint_count = 0
         
         for i, link in enumerate(all_race_links):
-            sessions = await scrape_race_sessions(session, link[1])
+            sessions = await scrape_race_sessions(link[1])
             
             if sessions:
                 session_results.append(sessions)
