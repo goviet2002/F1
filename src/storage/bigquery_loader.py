@@ -167,9 +167,9 @@ def main():
     success = loader.load_all_data()
     
     if success:
-        logger.info(f"\nSuccess! View your data at:")
-        logger.info(f"https://console.cloud.google.com/bigquery?project={GOOGLE_CLOUD_PROJECT_ID}")
-        
+        # logger.info(f"\nSuccess! View your data at:")
+        # logger.info(f"https://console.cloud.google.com/bigquery?project={GOOGLE_CLOUD_PROJECT_ID}")
+        logger.info(f"\nSuccess!")
         return True
     
     else:
