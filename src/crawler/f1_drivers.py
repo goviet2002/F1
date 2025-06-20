@@ -7,6 +7,7 @@ import json
 import pandas as pd
 import time
 import logging
+from urllib.parse import urljoin
 import re
 
 logger = logging.getLogger(__name__)
@@ -86,11 +87,7 @@ async def scrape_drivers_standing(session, year):
             # For detailed scraping (if needed elsewhere)
             if driver_a and driver_a['href']:
                 driver_href = driver_a['href']
-                # Ensure only one slash between base_url and href
-                if driver_href.startswith("/"):
-                    profile_url = base_url + driver_href
-                else:
-                    profile_url = base_url + "/" + driver_href
+                profile_url = urljoin(base_url, driver_href)
                 driver_links.append((name, profile_url, year))
 
         return data, headers, driver_links
@@ -295,10 +292,7 @@ async def collect_current_driver_profiles(current_year=years[-1]):
                 driver_name = " ".join([p.text.strip() for p in name_parts])
                 href = a.get('href')
                 if href:
-                    if href.startswith("/"):
-                        profile_url = base_url + href
-                    else:
-                        profile_url = base_url + "/" + href
+                    profile_url = urljoin(base_url, href)
                     driver_links.append((driver_name, profile_url))
 
         # --- Process each driver profile ---
