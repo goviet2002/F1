@@ -19,9 +19,9 @@ CHECKPOINTS_DIR = os.path.join(PROJECT_ROOT, "data", "f1_checkpoints")
 os.makedirs(CHECKPOINTS_DIR, exist_ok=True)
 
 async def scrape_fastest_laps(session, year):
-    """Scrape fastest lap data for a specific year"""
+    """Scrape fastest lap data for a specific year (new 2025+ format)"""
     url = f"{base_url}/en/results/{year}/fastest-laps"
-    
+
     async with session.get(url, headers=head) as response:
         if response.status != 200:
             logger.info(f"Failed to load {url}. Status: {response.status}")
@@ -29,60 +29,83 @@ async def scrape_fastest_laps(session, year):
 
         html = await response.text()
         soup = BeautifulSoup(html, 'lxml')
-        
+
         # Find table
         table = soup.find('table', class_='f1-table-with-data')
-        
         if not table:
             print(f"No fastest lap data found for {year}")
             return None
-            
-        # Get headers
-        headers = [header.text.strip() for header in table.find('thead').find_all('th')]
+
+        # Get headers (from <p> inside <th>)
+        # headers = [th.p.text.strip() for th in table.find('thead').find_all('th')]
+        headers = ["Grand Prix", "Driver", "Car", "Time"]
         
         # Get rows
         rows = table.find('tbody').find_all('tr')
         data = []
-        
+
         for row in rows:
             cols = row.find_all('td')
             row_data = []
-            
-            # Extract Grand Prix name
-            grand_prix = cols[0].text.strip()
-            row_data.append(grand_prix)
-            
-            # Extract Driver name (handle responsive design spans)
-            driver_cell = cols[1]
-            first_name_span = driver_cell.select_one('span.max-desktop\\:hidden')
-            last_name_span = driver_cell.select_one('span.max-tablet\\:hidden')
-            
-            if first_name_span and last_name_span:
-                first_name = first_name_span.text.strip()
-                last_name = last_name_span.text.strip()
-                driver_name = f"{first_name} {last_name}"
+
+            # 1. Grand Prix name (from <a> text, after SVG)
+            gp_cell = cols[0]
+            a_tag = gp_cell.find('a')
+            if a_tag:
+                # The text after the SVG is the GP name
+                gp_name = a_tag.get_text(strip=True)
+                # Remove the flag SVG text if present
+                svg = a_tag.find('svg')
+                if svg and svg.next_sibling:
+                    gp_name = svg.next_sibling.strip()
+                row_data.append(gp_name)
             else:
-                # For older pages without responsive spans
+                row_data.append(gp_cell.text.strip())
+
+            # 2. Driver name (from <span class="test">)
+            driver_cell = cols[1]
+            driver_name = ""
+            test_span = driver_cell.find('span', class_='test')
+            if test_span:
+                # Get all visible name spans
+                first_name = test_span.find('span', class_='max-lg:hidden')
+                last_name = test_span.find('span', class_='max-md:hidden')
+                if first_name and last_name:
+                    driver_name = f"{first_name.text.strip()} {last_name.text.strip()}"
+                else:
+                    driver_name = test_span.get_text(strip=True)
+            else:
                 driver_name = driver_cell.text.strip()
-                
             row_data.append(driver_name)
-            
-            # Extract Car/Team name
-            car = cols[2].text.strip()
-            row_data.append(car)
-            
-            # Extract Time
-            time = cols[3].text.strip()
-            row_data.append(time)
-                
+
+            # 3. Team name (from <span> after logo)
+            team_cell = cols[2]
+            team_name = ""
+            team_span = team_cell.find('span', class_='flex')
+            if team_span:
+                # The team name is the text after the logo <span>
+                logo_span = team_span.find('span', class_='TeamLogo-module_teamlogo__lA3j1')
+                if logo_span and logo_span.next_sibling:
+                    team_name = logo_span.next_sibling.strip()
+                else:
+                    team_name = team_span.get_text(strip=True)
+            else:
+                team_name = team_cell.text.strip()
+            row_data.append(team_name)
+
+            # 4. Time (from <p>)
+            time_cell = cols[3]
+            time_val = time_cell.find('p').text.strip() if time_cell.find('p') else time_cell.text.strip()
+            row_data.append(time_val)
+
             data.append(row_data)
-        
+
         # Create output structure
         output = {
             "headers": headers,
             "data": data
         }
-        
+
         return output
 
 async def collect_fastest_laps_data(start_year=years[0], end_year=years[-1]):
