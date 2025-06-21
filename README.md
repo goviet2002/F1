@@ -1,7 +1,7 @@
-# F1 Data Pipeline
+# 🏎️ F1 Data Pipeline
 This project implements a robust, automated ETL (Extract, Transform, Load) pipeline for Formula 1 data, designed for reliability, scalability, and cloud integration. The pipeline is orchestrated via GitHub Actions and leverages modern Python data engineering practices.
 
-## Extract
+## 🔍 Extract
 - **Web Crawling**: Custom Python crawlers use **aiohttp**, **BeautifulSoup**, and **Playwright** to asynchronously and interactively scrape F1 data from the official Formula 1 website, including:
     - Driver standings and profiles
     - Team standings and profiles
@@ -13,7 +13,7 @@ This project implements a robust, automated ETL (Extract, Transform, Load) pipel
 
 - **Data Storage**: Raw and processed data are stored in **structured JSON** files under data, organized by entity and year.
 
-## Transform
+## 🔄 Transform
 - **Automatic schema detection**: Identifies and adapts to changes in data structure across years and session types (Practice, Qualifying, Race, etc.).
   
 - **Dynamic column mapping**: Handles different or missing columns for each session.
@@ -28,14 +28,14 @@ This project implements a robust, automated ETL (Extract, Transform, Load) pipel
     
   ![Data Model](https://github.com/goviet2002/F1/blob/main/images/DataModel.png)
 
-## Load
+## 📥 Load
 - **Cloud Data Warehouse Integration**: Transformed data is loaded into **Google BigQuery using the google-cloud-bigquery library**.
   - Automated table creation and schema inference.
   - Bulk loading of both dimension and fact tables.
   
 - **Automation**: The entire ETL process is orchestrated by **f1_scheduler.py** and scheduled via a GitHub Actions workflow for weekly execution on **Monday at 00:00 UTC**.
 
-## Analysis
+## 📊 Analysis
 I have developed some analytical SQL queries and a simple machine learning model in BigQuery to explore the F1 data. For example:
 - **Race standings queries** show each driver’s current points, position changes, and championship ranking after the current race (updated result after every new race).
   
@@ -51,9 +51,9 @@ I have developed some analytical SQL queries and a simple machine learning model
   
   ![ML Model](https://github.com/goviet2002/F1/blob/main/images/ML_predict_winner_from_pole.jpg)
 
-## Future Work
+## 🚧 Future Work
 Planned enhancements include developing more advanced analytical queries and machine learning models for deeper F1 data analysis.
 
 
-## Disclaimer
+## ⚠️ Disclaimer
 Due to Formula 1’s Terms & Conditions, this repository contains **code only**—no scraped data is included.  
