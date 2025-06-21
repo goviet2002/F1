@@ -47,7 +47,7 @@ I have developed some analytical SQL queries and a simple machine learning model
   ![Query](https://github.com/goviet2002/F1/blob/main/images/driver_most_streaks_query.jpg)
   ![Query Result](https://github.com/goviet2002/F1/blob/main/images/driver_most_streaks_result.jpg)
 
-- **Machine Learning model results** estimate the probability of winning from pole position at around 13.9%, providing insight into the impact of starting grid position.
+- **Machine Learning model results** estimate the probability of winning from pole position at around `13.9%`, providing insight into the impact of starting grid position.
   
   ![ML Model](https://github.com/goviet2002/F1/blob/main/images/ML_predict_winner_from_pole.jpg)
 
