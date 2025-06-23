@@ -14,6 +14,7 @@ logger = logging.getLogger(__name__)
 PROJECT_ROOT = os.getcwd()
 sys.path.append(PROJECT_ROOT)
 from src.utils.crawling_helpers import ssl_context, head, base_url, years, standardize_folder_name
+from urllib.parse import urljoin
 
 DATA_DIR = os.path.join(PROJECT_ROOT, "data", "f1_race_data")
 os.makedirs(DATA_DIR, exist_ok=True)
@@ -60,11 +61,8 @@ async def scrape_races_year(session, year):
                 row_data.append(gp_name)
                 # Race link
                 race_href = a_tag.get('href', '')
-                # Clean up relative URL
-                if race_href.startswith("/"):
-                    full_link = base_url.rstrip("/") + race_href
-                else:
-                    full_link = base_url.rstrip("/") + "/" + race_href
+                # Use urljoin to handle relative URLs correctly
+                full_link = urljoin(base_url, race_href)
                 race_links.append((gp_name, full_link))
             else:
                 row_data.append(gp_cell.text.strip())
