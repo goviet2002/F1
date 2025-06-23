@@ -31,4 +31,7 @@ def standardize_folder_name(name):
     folder_name = folder_name.replace("'", "")
     folder_name = folder_name.replace("-", "_")
     folder_name = folder_name.replace(" ", "_")
+    # Special case for Caesars Palace
+    if folder_name in ["caesar_s_palace", "caesars_palace"]:
+        return "caesars_palace"
     return folder_name

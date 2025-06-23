@@ -1,39 +1,65 @@
-from bs4 import BeautifulSoup
-import os
-import aiohttp
 import asyncio
+import time
+from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeoutError
+import os
 import sys
+import aiohttp
 PROJECT_ROOT = os.getcwd()
 sys.path.append(PROJECT_ROOT)
-from src.utils.crawling_helpers import ssl_context, head, base_url, years, standardize_folder_name
+from src.crawler.f1_race import collect_race_links, scrape_race_sessions_batch, scrape_races_year
+from src.utils.crawling_helpers import ssl_context
 
-async def scrape_race_location(race_url):
-    connector = aiohttp.TCPConnector(ssl=ssl_context)
+CONCURRENCY = 8 # Adjust as needed
+
+timeout_count = 0  # Global counter for timeouts
+
+async def scrape_one(browser, name, url):
+    global timeout_count
+    print(f"\n[{time.strftime('%X')}] Scraping sessions for: {name} ({url})")
+    t2 = time.time()
+    try:
+        sessions = await scrape_race_sessions_batch(browser, url)
+    except PlaywrightTimeoutError:
+        print(f"  Timeout scraping {url}")
+        timeout_count += 1
+        sessions = []
+    t3 = time.time()
+    print(f"  Sessions found: {len(sessions)} (in {t3 - t2:.2f} seconds)")
+    for s_name, s_url in sessions:
+        print(f"    - {s_name}: {s_url}")
+
+async def main():
+    global timeout_count
+    start = time.time()
+    print(f"Started at {time.strftime('%X')}")
     
-        # Create a longer timeout
-    timeout = aiohttp.ClientTimeout(total=60)
-    async with aiohttp.ClientSession(connector=connector, timeout=timeout) as session:
-        async with session.get(race_url, headers=head) as response:
-            if response.status != 200:
-                print(f"Failed to load {race_url}. Status: {response.status_code}")
-                return []
-            html = await response.text()
-            soup = BeautifulSoup(html, 'lxml')
-            
-            # Find the location table
-            header_section = soup.find('div', class_='flex flex-col gap-px-6 text-text-3')
-            
-            if header_section:
-                location_info = header_section.find_all('p')
-                
-                race_date = location_info[0].text.strip()
-                track = location_info[1].text.strip().split(", ")
-                circuit = track[0]
-                city = track[1]
-                
-            return race_date, circuit, city
+    # Get all race links
+    t0 = time.time()
+    all_race_links, _, _ = await collect_race_links()
+    t1 = time.time()
+    print(f"Total races found: {len(all_race_links)} (collected in {t1 - t0:.2f} seconds)")
+    
+    test_links = all_race_links
+    
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        sem = asyncio.Semaphore(CONCURRENCY)
+        async def sem_scrape(name, url):
+            async with sem:
+                await scrape_one(browser, name, url)
+        tasks = [sem_scrape(name, url) for name, url in test_links]
+        await asyncio.gather(*tasks)
+        await browser.close()
+    end = time.time()
+    print(f"\nFinished at {time.strftime('%X')}, total elapsed: {end - start:.2f} seconds")
+    print(f"Total timeouts: {timeout_count}")
 
-
-
-
-print(asyncio.run(scrape_race_location("https://www.formula1.com/en/results/2000/races/47/australia/race-result")))
+async def a():
+    connector = aiohttp.TCPConnector(ssl=ssl_context)
+    async with aiohttp.ClientSession(connector=connector) as session:
+        results = await scrape_races_year(session, 2025)
+        return results
+        
+if __name__ == "__main__":
+    asyncio.run(main())
+    # Uncomment the line below to test the

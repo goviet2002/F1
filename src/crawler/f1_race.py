@@ -6,8 +6,7 @@ import json
 import time
 import sys
 import logging
-from playwright.async_api import async_playwright
-from urllib.parse import urlparse
+import re
 
 logger = logging.getLogger(__name__)
 
@@ -151,36 +150,22 @@ async def process_race_location(session, race_link_tuple):
 
 # Get available sessions for a race
 async def scrape_race_sessions(race_url):
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
-        page = await browser.new_page()
-        await page.set_viewport_size({"width": 1300, "height": 800})
-        await page.goto(race_url, wait_until="domcontentloaded")
+    async with aiohttp.ClientSession() as session:
+        async with session.get(race_url, headers=head) as response:
+            html = await response.text()
+            soup = BeautifulSoup(html, "lxml")
+            dropdown = soup.find_all("a", class_="DropdownMenuItem-module_dropdown-menu-item__6Y3-v")
+            sessions = []
+            m = re.search(r"(/races/\d+/[a-z0-9\-]+)/", race_url)
+            race_path = m.group(1) if m else None
+            for item in dropdown:
+                session_name = item.get_text(strip=True).replace("Active", "").strip()
+                session_url = item.get("href")
+                # Filter out links with "Flag of" in the name
+                if race_path and session_url and race_path in session_url and "Flag of" not in session_name:
+                    sessions.append((session_name, f"https://www.formula1.com{session_url}"))
+            return sessions
 
-        await page.wait_for_selector('#sidebar-dropdown')
-        await page.click('#sidebar-dropdown')
-        
-        parsed = urlparse(race_url)
-        base_path = parsed.path.rsplit('/', 1)[0] + '/'
-        
-        # Directly extract session links with Playwright
-        session_elements = await page.query_selector_all('a.DropdownMenuItem-module_dropdown-menu-item__6Y3-v')
-        
-        sessions = []
-        for elem in session_elements:
-            href = await elem.get_attribute('href')
-            if href and len(href) > len("/en/results/2025/races") and href.startswith(base_path):
-                # Try to get the country/session name from the nested span if present
-                country_span = await elem.query_selector('span.mr-px-32')
-                if country_span:
-                    continue
-                else:
-                    session_text = await elem.inner_text()
-                    session_name = session_text.replace("Active", "").strip()
-                    sessions.append((session_name, f"https://www.formula1.com{href}"))
-
-        await browser.close()
-        return sessions
 
 async def scrape_race_results(session, session_url, session_name=None):
     async with session.get(session_url, headers=head) as response:
@@ -200,7 +185,7 @@ async def scrape_race_results(session, session_url, session_name=None):
             return None
         
         # headers = [header.text.strip() for header in table.find('thead').find_all('th')]
-        headers = [['Pos', 'No', 'Driver', 'Car', 'Time', 'Laps']]
+        headers = ['Pos', 'No', 'Driver', 'Car', 'Time', 'Laps']
         rows = table.find('tbody').find_all('tr')
         data = []
         
