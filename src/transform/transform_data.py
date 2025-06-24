@@ -622,7 +622,7 @@ def transform_race_results_to_facts(session_files, dimensions):
     # Process combined qualifying sessions
     process_combined_qualifying(qualifying_sessions, dimensions, fact_tables, fact_counters, 
                               starting_grid_map, starting_grid_times, sprint_grid_map, sprint_grid_times)
-    
+
     # Enforce schema for qualifying_results
     enforce_qualifying_schema(fact_tables)
 

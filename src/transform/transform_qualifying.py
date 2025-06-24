@@ -47,7 +47,7 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
     all_drivers = set()
     for session_name, data in qualifying_data.items():
         headers = data.get('header', [])
-        driver_idx = headers.index('Driver') if 'Driver' in headers else -1
+        driver_idx = headers.index('DRIVER') if 'DRIVER' in headers else -1
         
         if driver_idx >= 0:
             for row in data.get('data', []):
@@ -141,7 +141,7 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
             header_indexes = {col: idx for idx, col in enumerate(headers)}
             
             # Find this driver's row
-            driver_idx = header_indexes.get('Driver', -1)
+            driver_idx = header_indexes.get('DRIVER', -1)
             if driver_idx < 0:
                 continue
                 
@@ -316,11 +316,11 @@ def convert_sprint_grid_to_qualifying(sprint_grid_data):
     }
     
     # Map existing columns from sprint_grid
-    driver_idx = headers.index('Driver') if 'Driver' in headers else -1
-    pos_idx = headers.index('Pos') if 'Pos' in headers else -1
-    no_idx = headers.index('No') if 'No' in headers else -1
-    car_idx = headers.index('Car') if 'Car' in headers else -1
-    time_idx = headers.index('Time') if 'Time' in headers else -1
+    driver_idx = headers.index('DRIVER') if 'DRIVER' in headers else -1
+    pos_idx = headers.index('POS') if 'POS' in headers else -1
+    no_idx = headers.index('NO') if 'NO' in headers else -1
+    car_idx = headers.index('TEAM') if 'TEAM' in headers else -1
+    time_idx = headers.index('TIME') if 'TIME' in headers else -1
     
     for row in data_rows:
         if len(row) == 0 or not row[0]:  # Skip empty rows
