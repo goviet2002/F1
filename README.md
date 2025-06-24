@@ -2,7 +2,7 @@
 This project implements a robust, automated ETL (Extract, Transform, Load) pipeline for Formula 1 data, designed for reliability, scalability, and cloud integration. The pipeline is orchestrated via GitHub Actions and leverages modern Python data engineering practices.
 
 ## 🔍 Extract
-- **Web Crawling**: Custom Python crawlers use `aiohttp`, `BeautifulSoup`, and `Playwright` to asynchronously and interactively scrape F1 data from the official Formula 1 website, including:
+- **Web Crawling**: Custom Python crawlers use `aiohttp` and `BeautifulSoup` to asynchronously and interactively scrape F1 data from the official Formula 1 website, including:
     - Driver standings and profiles
     - Team standings and profiles
     - Race results, sessions, and fastest laps

@@ -6,6 +6,7 @@ import datetime
 import sys
 import logging
 
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 sys.path.append(os.path.join(os.getcwd(), 'src'))
@@ -497,6 +498,13 @@ def transform_race_results_to_facts(session_files, dimensions):
                     'session_id': session_id
                 }
                 
+                if fact_table == 'pit_stops':
+                    record.update({
+                        'time' : None,
+                        'total' : None,
+                        'time_of_day' : None,
+                    })
+                    
                 if fact_table == 'fastest_laps':
                     record.update({
                         'position': None,
@@ -517,17 +525,16 @@ def transform_race_results_to_facts(session_files, dimensions):
                     record['driver_id'] = None
                     record['team_id'] = None
                     record['time'] = None
-                    record['gap'] = None
                     record['laps'] = None
                     
                     # Then populate available data
                     for col, idx in header_indexes.items():
                         if idx < len(row) and row[idx]:
-                            if col == 'Driver':
+                            if col == 'DRIVER':
                                 driver_name = row[idx]
                                 driver_id =  find_driver_id(driver_name, year, driver_cache, dimensions, missing_drivers)
                                 record['driver_id'] = driver_id
-                            elif col == 'Car':
+                            elif col == 'TEAM':
                                 team_name = row[idx]
                                 team_id = team_id_map.get(team_name)
                                 if not team_id:
@@ -544,25 +551,23 @@ def transform_race_results_to_facts(session_files, dimensions):
                                     team_id_map[team_name] = team_id
                                     
                                 record['team_id'] = team_id
-                            elif col == 'Pos':
+                            elif col == 'POS':
                                 record['position'] = row[idx]
-                            elif col == 'No':
+                            elif col == 'NO':
                                 record['number'] = safe_int(row[idx])
-                            elif col == 'Time':
+                            elif col == 'TIME / GAP':
                                 record['time'] = row[idx]
-                            elif col == 'Gap':
-                                record['gap'] = row[idx]
-                            elif col == 'Laps':
+                            elif col == 'LAPS':
                                 record['laps'] = safe_int(row[idx])
                 else:
                     # Handle other session types
                     for col, idx in header_indexes.items():
                         if idx < len(row) and row[idx]:
-                            if col == 'Driver':
+                            if col == 'DRIVER':
                                 driver_name = row[idx]
                                 driver_id = find_driver_id(driver_name, year, driver_cache, dimensions, missing_drivers)
                                 record['driver_id'] = driver_id
-                            elif col == 'Car':
+                            elif col == 'TEAM':
                                 team_name = row[idx]
                                 team_id = team_id_map.get(team_name)
                                 if not team_id:
@@ -580,23 +585,25 @@ def transform_race_results_to_facts(session_files, dimensions):
                                     
                                 record['team_id'] = team_id
                                 
-                            elif col == 'Time':
+                            elif col == 'TIME':
                                 record['time'] = row[idx]
-                            elif col == 'No':
+                            elif col == 'NO':
                                 record['number'] = safe_int(row[idx])
-                            elif col == 'Laps':
-                                record['laps'] = safe_int(row[idx])
-                            elif col == 'Lap':
+                            elif col == 'LAPS':
+                                # Only add 'laps' if not fastest_laps or pit_stop_summary table
+                                if fact_table not in ['fastest_laps', 'pit_stops']:
+                                    record['laps'] = safe_int(row[idx])
+                            elif col == 'LAP':
                                 record['lap'] = safe_int(row[idx])
-                            elif col == 'Pts':
+                            elif col == 'PTS':
                                 record['points'] = safe_float(row[idx])
-                            elif col == "Stops":
+                            elif col == "STOPS":
                                 record['stops'] = safe_int(row[idx])
-                            elif col == "Pos":
+                            elif col in ['POS', 'RACE POS']:
                                 record['position'] = row[idx]
-                            elif col == 'Time/retired':
+                            elif col == 'TIME / RETIRED':
                                 record['time'] = row[idx]
-                            elif col == 'Avg speed':
+                            elif col == 'AVG SPEED':
                                 record['avg_speed'] = safe_float(row[idx])
                             else:
                                 col_name = col.lower().replace(' ', '_')

@@ -8,6 +8,7 @@ import sys
 import logging
 import re
 
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = os.getcwd()
@@ -37,8 +38,8 @@ async def scrape_races_year(session, year):
             return [], [], []
 
         # Extract headers from <p> inside <th>
-        # headers = [th.p.text.strip() for th in table.find('thead').find_all('th')]
-        headers = ['Grand Prix', 'Date', 'Winner', 'Car', 'Laps', 'Time']
+        headers = [th.p.text.strip().replace('.', '') for th in table.find('thead').find_all('th')]
+        # headers = ['Grand Prix', 'Date', 'Winner', 'Car', 'Laps', 'Time']
 
         rows = table.find('tbody').find_all('tr')
         data = []
@@ -184,8 +185,8 @@ async def scrape_race_results(session, session_url, session_name=None):
             print(f"No table found for {session_url}")
             return None
         
-        # headers = [header.text.strip() for header in table.find('thead').find_all('th')]
-        headers = ['Pos', 'No', 'Driver', 'Car', 'Time', 'Laps']
+        headers = [th.p.text.strip().replace('.', '') for th in table.find('thead').find_all('th')]
+        # headers = ['Pos', 'No', 'Driver', 'Car', 'Time', 'Laps']
         rows = table.find('tbody').find_all('tr')
         data = []
         

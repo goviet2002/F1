@@ -3,6 +3,7 @@ import json
 import sys
 import logging
 
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = os.path.join(os.getcwd(), 'src')
@@ -153,22 +154,22 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
                         if col_idx < len(row) and row[col_idx]:
                             value = row[col_idx]
                             
-                            if col_name == 'Pos' and record['position'] is None:
+                            if col_name == 'POS' and record['position'] is None:
                                 try:
                                     record['position'] = value
                                 except (ValueError, TypeError):
                                     record['position'] = None
                             
-                            elif col_name == 'No' and record['number'] is None:
+                            elif col_name == 'NO' and record['number'] is None:
                                 try:
                                     record['number'] = int(value)
                                 except (ValueError, TypeError):
                                     record['number'] = None
                             
-                            elif col_name == 'Car' and record['team_id'] is None:
+                            elif col_name == 'TEAM' and record['team_id'] is None:
                                 record['team_id'] = team_id_map.get(value, value.replace(' ', '-'))
                             
-                            elif col_name == 'Laps' and record['laps'] is None:
+                            elif col_name == 'LAPS' and record['laps'] is None:
                                 record['laps'] = value
                             
                             # Handle Q1, Q2, Q3 columns directly
@@ -180,7 +181,7 @@ def combine_qualifying_data(qualifying_data, race_id, dimensions, qualifying_ses
                                 record['q3'] = value
                             
                             # Handle generic Time column (for older formats)
-                            elif col_name == 'Time':
+                            elif col_name == 'TIME':
                                 # Determine which Q session this is based on session name
                                 q_column = get_q_column_from_session(session_name)
                                 if q_column and record[q_column] is None:
@@ -368,7 +369,7 @@ def enforce_qualifying_schema(fact_tables):
             for col in QUALIFYING_HEADER:
                 if col == "qualifying_result_id":
                     new_rec[col] = rec.get(col, rec_id)
-                elif col == "no":
+                elif col == "number":
                     # Convert 'no' to int, handle non-numeric values
                     no_value = rec.get(col)
                     if no_value is not None:
@@ -444,9 +445,9 @@ def extract_starting_grid_positions(race_id_map):
                         grid_data = json.load(f)
                     
                     headers = grid_data.get('header', [])
-                    driver_idx = headers.index('Driver') if 'Driver' in headers else -1
-                    pos_idx = headers.index('Pos') if 'Pos' in headers else -1
-                    time_idx = headers.index('Time') if 'Time' in headers else -1
+                    driver_idx = headers.index('DRIVER') if 'DRIVER' in headers else -1
+                    pos_idx = headers.index('POS') if 'POS' in headers else -1
+                    time_idx = headers.index('TIME') if 'TIME' in headers else -1
 
                     if driver_idx >= 0 and pos_idx >= 0:
                         for row in grid_data.get('data', []):
@@ -476,9 +477,9 @@ def extract_starting_grid_positions(race_id_map):
                         sprint_data = json.load(f)
                     
                     headers = sprint_data.get('header', [])
-                    driver_idx = headers.index('Driver') if 'Driver' in headers else -1
-                    pos_idx = headers.index('Pos') if 'Pos' in headers else -1
-                    time_idx = headers.index('Time') if 'Time' in headers else -1
+                    driver_idx = headers.index('DRIVER') if 'DRIVER' in headers else -1
+                    pos_idx = headers.index('POS') if 'POS' in headers else -1
+                    time_idx = headers.index('TIME') if 'TIME' in headers else -1
 
                     if driver_idx >= 0 and pos_idx >= 0:
                         for row in sprint_data.get('data', []):

@@ -7,6 +7,7 @@ import time
 import sys
 import logging
 
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = os.getcwd()
@@ -37,8 +38,8 @@ async def scrape_fastest_laps(session, year):
             return None
 
         # Get headers (from <p> inside <th>)
-        # headers = [th.p.text.strip() for th in table.find('thead').find_all('th')]
-        headers = ["Grand Prix", "Driver", "Car", "Time"]
+        headers = [th.p.text.strip().replace('.', '') for th in table.find('thead').find_all('th')]
+        # headers = ["Grand Prix", "Driver", "Car", "Time"]
         
         # Get rows
         rows = table.find('tbody').find_all('tr')

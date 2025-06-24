@@ -8,6 +8,7 @@ import time
 import logging
 import re
 
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = os.getcwd()
@@ -41,8 +42,8 @@ async def scrape_teams_standing(session, year):
             return data, headers, team_links
 
         # Extract headers
-        headers = ['Pos', 'Team', 'Pts', 'Year']
-        # headers = [th.get_text(strip=True) for th in table.find('thead').find_all('th')]
+        # headers = ['Pos', 'Team', 'Pts', 'Year']
+        headers = [th.p.text.strip().replace('.', '') for th in table.find('thead').find_all('th')]
         # if 'Year' not in headers:
         #     headers.append('Year')
 
@@ -105,8 +106,8 @@ async def scrape_team_results(session, team_url):
             return [], [], team_code
             
         # Get headers automatically, but since format changed, we keep the old format
-        # headers = [header.text.strip() for header in table.find('thead').find_all('th')]
-        headers = ['Grand prix', 'Date', 'Pts']
+        headers = [th.p.text.strip().replace('.', '') for th in table.find('thead').find_all('th')]
+        # headers = ['Grand prix', 'Date', 'Pts']
         
         # Get race results
         rows = table.find('tbody').find_all('tr')
