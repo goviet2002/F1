@@ -28,6 +28,8 @@ This project implements a robust, automated ETL (Extract, Transform, Load) pipel
     
   ![Data Model](https://github.com/goviet2002/F1/blob/main/images/DataModel.png)
 
+  *Data model diagram generated with [dbdiagram.io](https://dbdiagram.io).*
+
 ## 📥 Load
 - **Cloud Data Warehouse Integration**: Transformed data is loaded into `Google BigQuery` using the `google-cloud-bigquery` library.
   - Automated table creation and schema inference.
@@ -56,4 +58,5 @@ Planned enhancements include developing more advanced analytical queries and mac
 
 
 ## ⚠️ Disclaimer
+This repository is for **personal education** only. 
 Due to Formula 1’s Terms & Conditions, this repository contains **code only**—no scraped data is included.  
