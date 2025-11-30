@@ -52,9 +52,6 @@ class BigQueryLoader:
     def load_json_to_table(self, json_file_path, table_name, write_disposition="WRITE_TRUNCATE"):
         """Load JSON file to BigQuery table"""
         table_id = f"{self.project_id}.{self.dataset_id}.{table_name}"
-        
-        # Delete table before loading
-        self.delete_table_if_exists(table_name)
 
         # Check if file exists and has data
         if not os.path.exists(json_file_path):
