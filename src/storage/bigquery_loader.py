@@ -40,10 +40,22 @@ class BigQueryLoader:
             self.client.create_dataset(dataset)
             logger.info(f"Created dataset {self.dataset_id}")
     
+    def delete_table_if_exists(self, table_name):
+        """Delete a BigQuery table if it exists"""
+        table_id = f"{self.project_id}.{self.dataset_id}.{table_name}"
+        try:
+            self.client.delete_table(table_id)
+            logger.info(f"Deleted table {table_id}")
+        except NotFound:
+            logger.info(f"Table {table_id} does not exist, skipping delete.")
+
     def load_json_to_table(self, json_file_path, table_name, write_disposition="WRITE_TRUNCATE"):
         """Load JSON file to BigQuery table"""
         table_id = f"{self.project_id}.{self.dataset_id}.{table_name}"
         
+        # Delete table before loading
+        self.delete_table_if_exists(table_name)
+
         # Check if file exists and has data
         if not os.path.exists(json_file_path):
             logger.warning(f"File not found: {json_file_path}")
