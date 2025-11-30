@@ -21,7 +21,7 @@ os.makedirs(CHECKPOINTS_DIR, exist_ok=True)
 
 async def scrape_fastest_laps(session, year):
     """Scrape fastest lap data for a specific year (new 2025+ format)"""
-    url = f"{base_url}/en/results/{year}/fastest-laps"
+    url = f"{base_url}/en/results/{year}/awards/fastest-laps"
 
     async with session.get(url, headers=head) as response:
         if response.status != 200:
@@ -31,82 +31,54 @@ async def scrape_fastest_laps(session, year):
         html = await response.text()
         soup = BeautifulSoup(html, 'lxml')
 
-        # Find table
-        table = soup.find('table', class_='f1-table-with-data')
+        # Find the awards table by id
+        table_wrapper = soup.find('div', id='awards-table')
+        if not table_wrapper:
+            print(f"No awards table found for {year}")
+            return None
+        table = table_wrapper.find('table')
         if not table:
             print(f"No fastest lap data found for {year}")
             return None
 
-        # Get headers (from <p> inside <th>)
-        headers = [th.p.text.strip().replace('.', '') for th in table.find('thead').find_all('th')]
-        # headers = ["Grand Prix", "Driver", "Car", "Time"]
-        
+        # Get headers from <th>
+        headers = [th.text.strip() for th in table.find('thead').find_all('th')]
+
         # Get rows
         rows = table.find('tbody').find_all('tr')
         data = []
-
         for row in rows:
             cols = row.find_all('td')
             row_data = []
-
-            # 1. Grand Prix name (from <a> text, after SVG)
+            # 1. Grand Prix name
             gp_cell = cols[0]
             a_tag = gp_cell.find('a')
             if a_tag:
-                # The text after the SVG is the GP name
-                gp_name = a_tag.get_text(strip=True)
-                # Remove the flag SVG text if present
-                svg = a_tag.find('svg')
-                if svg and svg.next_sibling:
-                    gp_name = svg.next_sibling.strip()
+                # Get only the text after the SVG (the Grand Prix name)
+                texts = [t for t in a_tag.stripped_strings if not t.startswith("Flag of")]
+                gp_name = " ".join(texts)
                 row_data.append(gp_name)
             else:
                 row_data.append(gp_cell.text.strip())
-
-            # 2. Driver name (from <span class="test">)
-            driver_cell = cols[1]
-            driver_name = ""
-            test_span = driver_cell.find('span', class_='test')
-            if test_span:
-                # Get all visible name spans
-                first_name = test_span.find('span', class_='max-lg:hidden')
-                last_name = test_span.find('span', class_='max-md:hidden')
-                if first_name and last_name:
-                    driver_name = f"{first_name.text.strip()} {last_name.text.strip()}"
-                else:
-                    driver_name = test_span.get_text(strip=True)
+            # 2. Winner name
+            winner_cell = cols[1]
+            first_name = winner_cell.find('span', class_='max-lg:hidden')
+            last_name = winner_cell.find('span', class_='max-md:hidden')
+            if first_name and last_name:
+                winner = f"{first_name.text.strip()} {last_name.text.strip()}"
             else:
-                driver_name = driver_cell.text.strip()
-            row_data.append(driver_name)
-
-            # 3. Team name (from <span> after logo)
-            team_cell = cols[2]
-            team_name = ""
-            team_span = team_cell.find('span', class_='flex')
-            if team_span:
-                # The team name is the text after the logo <span>
-                logo_span = team_span.find('span', class_='TeamLogo-module_teamlogo__lA3j1')
-                if logo_span and logo_span.next_sibling:
-                    team_name = logo_span.next_sibling.strip()
-                else:
-                    team_name = team_span.get_text(strip=True)
-            else:
-                team_name = team_cell.text.strip()
-            row_data.append(team_name)
-
-            # 4. Time (from <p>)
-            time_cell = cols[3]
-            time_val = time_cell.find('p').text.strip() if time_cell.find('p') else time_cell.text.strip()
+                winner = winner_cell.get_text(strip=True)
+            row_data.append(winner)
+            # 3. Time
+            time_cell = cols[2]
+            time_val = time_cell.get_text(strip=True)
             row_data.append(time_val)
-
             data.append(row_data)
 
-        # Create output structure
         output = {
             "headers": headers,
             "data": data
         }
-
         return output
 
 async def collect_fastest_laps_data(start_year=years[0], end_year=years[-1]):

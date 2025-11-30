@@ -7,6 +7,7 @@ import json
 import time
 import logging
 import re
+from urllib.parse import urljoin
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -21,9 +22,7 @@ CHECKPOINTS_DIR = os.path.join(PROJECT_ROOT, "data", "f1_checkpoints")
 os.makedirs(CHECKPOINTS_DIR, exist_ok=True)
 
 async def scrape_teams_standing(session, year):
-    """Scrape team standings for a specific year"""
     url = f"{base_url}/en/results/{year}/team"
-
     data = []
     headers = []
     team_links = []
@@ -36,105 +35,65 @@ async def scrape_teams_standing(session, year):
         html = await response.text()
         soup = BeautifulSoup(html, 'lxml')
 
-        # Find the correct table
-        table = soup.find('table', class_='f1-table-with-data')
+        # Updated table selector
+        table = soup.find('table', class_='Table-module_table__cKsW2')
         if not table:
             return data, headers, team_links
 
-        # Extract headers
-        # headers = ['Pos', 'Team', 'Pts', 'Year']
-        headers = [th.p.text.strip().replace('.', '') for th in table.find('thead').find_all('th')]
-        # if 'Year' not in headers:
-        #     headers.append('Year')
+        # Updated header extraction
+        headers = [th.get_text(strip=True).replace('.', '') for th in table.find('thead').find_all('th')]
 
         rows = table.find('tbody').find_all('tr')
         for row in rows:
             cols = row.find_all('td')
             if len(cols) < 3:
-                continue  # skip malformed rows
+                continue
 
-            # Position
             position = cols[0].get_text(strip=True)
-
-            # Team name and link
-            team_td = cols[1]
-            team_a = team_td.find('a')
+            team_a = cols[1].find('a')
             if team_a:
                 team_name = team_a.get_text(strip=True)
                 team_link = team_a.get('href', '')
-                # Normalize link
-                if team_link.startswith('/../../'):
-                    team_link = team_link.replace('/../../', '/')
-                if not team_link.startswith('/'):
-                    team_link = '/' + team_link
-                full_link = f"{base_url}{team_link}"
+                full_link = urljoin(base_url, team_link)
             else:
-                team_name = team_td.get_text(strip=True)
+                team_name = cols[1].get_text(strip=True)
                 full_link = None
 
-            # Points
             points = cols[2].get_text(strip=True)
-
-            # Compose row data
             row_data = [position, team_name, points, str(year)]
             data.append(row_data)
 
-            # Save team link tuple if available
             if full_link:
                 team_links.append((team_name, full_link, year))
 
         return data, headers, team_links
 
 async def scrape_team_results(session, team_url):
-    """Scrape detailed information for a specific team"""
     async with session.get(team_url, headers=head) as response:
         if response.status != 200:
             print(f"Failed to load {team_url}. Status: {response.status}")
             return None, None, None
-        
+
         html = await response.text()
         soup = BeautifulSoup(html, 'lxml')
-        
-        # Extract team code from URL
+
         url_parts = team_url.split('/')
         team_code = url_parts[-1] if len(url_parts) > 2 else None
-        
-        # Get the race results table
-        table = soup.find('table', class_='f1-table-with-data')
+
+        table = soup.find('table', class_='Table-module_table__cKsW2')
         if not table:
             print(f"No results table found for {team_url}")
             return [], [], team_code
-            
-        # Get headers automatically, but since format changed, we keep the old format
-        headers = [th.p.text.strip().replace('.', '') for th in table.find('thead').find_all('th')]
-        # headers = ['Grand prix', 'Date', 'Pts']
-        
-        # Get race results
+
+        headers = [th.get_text(strip=True).replace('.', '') for th in table.find('thead').find_all('th')]
         rows = table.find('tbody').find_all('tr')
         data = []
-        
+
         for row in rows:
             cols = row.find_all('td')
-            row_data = []
-            for i, col in enumerate(cols):
-                if i == 0:
-                    # Grand Prix cell: get only the visible text after the SVG
-                    a = col.find('a')
-                    if a:
-                        # Get the last text node (should be the visible name)
-                        grand_prix = ""
-                        for content in reversed(a.contents):
-                            if isinstance(content, str) and content.strip():
-                                grand_prix = content.strip()
-                                break
-                        text = grand_prix
-                    else:
-                        text = col.get_text(strip=True)
-                else:
-                    text = col.get_text(strip=True)
-                row_data.append(text)
+            row_data = [col.get_text(strip=True) for col in cols]
             data.append(row_data)
-                
+
         return data, headers, team_code
     
 async def process_team_data(session, team_link_tuple):

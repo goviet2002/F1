@@ -34,12 +34,13 @@ async def scrape_drivers_standing(session, year):
         html = await response.text()
         soup = BeautifulSoup(html, 'lxml')
 
-        table = soup.find('table', class_='f1-table-with-data')
+        table = soup.find('table', class_='Table-module_table__cKsW2')
+        headers = [th.get_text(strip=True).replace('.', '') for th in table.find('thead').find_all('th')]
+
         if not table:
             return [], [], []
 
-        # Only these headers and in this order:
-        headers = [th.p.text.strip().replace('.', '') for th in table.find('thead').find_all('th')]
+        headers = [th.get_text(strip=True).replace('.', '') for th in table.find('thead').find_all('th')]
         # headers = ["Pos", "Driver", "Nationality", "Car", "Pts", "Year"]
         data = []
         driver_links = []
@@ -109,7 +110,7 @@ async def scrape_driver_results(session, driver_url):
         driver_code = url_parts[-2] if len(url_parts) > 2 else None
 
         # Get the race results table
-        table = soup.find('table', class_='f1-table-with-data')
+        table = soup.find('table', class_='Table-module_table__cKsW2')
         if not table:
             print(f"No results table found for {driver_url}")
             return [], [], driver_code
@@ -119,7 +120,7 @@ async def scrape_driver_results(session, driver_url):
         # for th in table.find('thead').find_all('th'):
         #     p = th.find('p')
         #     headers.append(p.text.strip() if p else th.text.strip())
-        headers = [th.p.text.strip().replace('.', '') for th in table.find('thead').find_all('th')]
+        headers = [th.get_text(strip=True).replace('.', '') for th in table.find('thead').find_all('th')]
 
         # Get race results
         rows = table.find('tbody').find_all('tr')

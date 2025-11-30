@@ -32,14 +32,14 @@ async def scrape_races_year(session, year):
         html = await response.text()
         soup = BeautifulSoup(html, 'lxml')
 
-        table = soup.find('table', class_='f1-table-with-data')
+        # Updated table selector
+        table = soup.find('table', class_='Table-module_table__cKsW2')
         if not table:
             print(f"No race table found for {year}")
             return [], [], []
 
-        # Extract headers from <p> inside <th>
-        headers = [th.p.text.strip().replace('.', '') for th in table.find('thead').find_all('th')]
-        # headers = ['Grand Prix', 'Date', 'Winner', 'Car', 'Laps', 'Time']
+        # Updated header extraction
+        headers = [th.get_text(strip=True).replace('.', '') for th in table.find('thead').find_all('th')]
 
         rows = table.find('tbody').find_all('tr')
         data = []
@@ -47,70 +47,17 @@ async def scrape_races_year(session, year):
 
         for row in rows:
             cols = row.find_all('td')
-            row_data = []
-
-            # 1. Grand Prix name (after SVG in <a>)
+            row_data = [col.get_text(strip=True) for col in cols]
+            # Grand Prix name and link
             gp_cell = cols[0]
             a_tag = gp_cell.find('a')
             if a_tag:
-                svg = a_tag.find('svg')
-                if svg and svg.next_sibling:
-                    gp_name = svg.next_sibling.strip()
-                else:
-                    gp_name = a_tag.get_text(strip=True)
-                row_data.append(gp_name)
-                # Race link
+                gp_name = a_tag.get_text(strip=True)
                 race_href = a_tag.get('href', '')
-                # Use urljoin to handle relative URLs correctly
                 full_link = urljoin(base_url, race_href)
                 race_links.append((gp_name, full_link))
             else:
-                row_data.append(gp_cell.text.strip())
                 race_links.append((gp_cell.text.strip(), ""))
-
-            # 2. Date
-            date_cell = cols[1]
-            date_val = date_cell.find('p').text.strip() if date_cell.find('p') else date_cell.text.strip()
-            row_data.append(date_val)
-
-            # 3. Winner (from <span class="test">)
-            winner_cell = cols[2]
-            winner_name = ""
-            test_span = winner_cell.find('span', class_='test')
-            if test_span:
-                first_name = test_span.find('span', class_='max-lg:hidden')
-                last_name = test_span.find('span', class_='max-md:hidden')
-                if first_name and last_name:
-                    winner_name = f"{first_name.text.strip()} {last_name.text.strip()}"
-                else:
-                    winner_name = test_span.get_text(strip=True)
-            else:
-                winner_name = winner_cell.text.strip()
-            row_data.append(winner_name)
-
-            # 4. Team (from <span> after logo)
-            team_cell = cols[3]
-            team_name = ""
-            team_span = team_cell.find('span', class_='flex')
-            if team_span:
-                logo_span = team_span.find('span', class_='TeamLogo-module_teamlogo__lA3j1')
-                if logo_span and logo_span.next_sibling:
-                    team_name = logo_span.next_sibling.strip()
-                else:
-                    team_name = team_span.get_text(strip=True)
-            else:
-                team_name = team_cell.text.strip()
-            row_data.append(team_name)
-
-            # 5. Laps
-            laps_cell = cols[4]
-            laps_val = laps_cell.find('p').text.strip() if laps_cell.find('p') else laps_cell.text.strip()
-            row_data.append(laps_val)
-
-            # 6. Time
-            time_cell = cols[5]
-            time_val = time_cell.find('p').text.strip() if time_cell.find('p') else time_cell.text.strip()
-            row_data.append(time_val)
 
             data.append(row_data)
 
@@ -173,34 +120,22 @@ async def scrape_race_results(session, session_url, session_name=None):
         if response.status != 200:
             print(f"Failed to load {session_url}. Status: {response.status_code}")
             return []
-        
-        # Parse the HTML content using BeautifulSoup
+
         html = await response.text()
         soup = BeautifulSoup(html, 'lxml')
-            
-        # Find the location table
-        table = soup.find('table', class_='f1-table-with-data')
-        
+
+        table = soup.find('table', class_='Table-module_table__cKsW2')
         if not table:
             print(f"No table found for {session_url}")
             return None
-        
-        headers = [th.p.text.strip().replace('.', '') for th in table.find('thead').find_all('th')]
-        # headers = ['Pos', 'No', 'Driver', 'Car', 'Time', 'Laps']
+
+        headers = [th.get_text(strip=True).replace('.', '') for th in table.find('thead').find_all('th')]
         rows = table.find('tbody').find_all('tr')
         data = []
-        
+
         for row in rows:
             cols = row.find_all('td')
-            row_data = []
-            
-            for i, col in enumerate(cols):
-                if i == 2: #Driver column
-                    winner = col.text.strip().replace("\xa0", " ")[:-3]
-                    row_data.append(winner)
-                else:
-                    row_data.append(col.text.strip())
-                    
+            row_data = [col.get_text(strip=True) for col in cols]
             data.append(row_data)
         return headers, data, session_url, session_name
 
