@@ -27,4 +27,3 @@ jobs:
           commit_message: "🤖 Keep Alive: Scheduled activity commit"
           file_pattern: '.keep-alive'
           push_options: '--force'
-          github_token: ${{ secrets.PAT }}
