@@ -16,8 +16,7 @@ jobs:
         # GITHUB_TOKEN has limitations, so a PAT is safer for self-triggering commits
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PAT }} 
-
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Create or Update a timestamp file
         run: |
           DATE=$(date +%Y-%m-%dT%H:%M:%S)
