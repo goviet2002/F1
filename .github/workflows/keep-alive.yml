@@ -12,19 +12,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        # Use a Personal Access Token (PAT) here for maximum reliability
-        # GITHUB_TOKEN has limitations, so a PAT is safer for self-triggering commits
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
+
       - name: Create or Update a timestamp file
         run: |
           DATE=$(date +%Y-%m-%dT%H:%M:%S)
           echo "Last Keep Alive Commit: $DATE" > .keep-alive
           
       - name: Commit and Push
-        # Use a dedicated action to handle committing and pushing easily
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "🤖 Keep Alive: Scheduled activity commit"
-          file_pattern: '.keep-alive' # Only commit the newly created/updated file
-          # Use the GITHUB_TOKEN to commit, which should be fine for a simple file update
-          # but note the PAT recommendation in the checkout step for best practice.
+          file_pattern: '.keep-alive'
+          push_options: '--force'
+          github_token: ${{ secrets.PAT }}
