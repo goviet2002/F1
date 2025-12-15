@@ -141,6 +141,7 @@ def extract_race_sessions_dimensions(session_files, race_metadata_files):
                 'race_id': race_id,
                 'year': int(year),
                 'grand_prix': metadata.get('grand_prix', grand_prix),
+                'grand_prix_norm': metadata.get('grand_prix', grand_prix).lower().replace(' ', '_').replace('-', '_').replace("'", ""),
                 'circuit': metadata.get('circuit', ''),
                 'city': metadata.get('city', ''),
                 'start_date': start_date,
@@ -436,7 +437,8 @@ def transform_race_results_to_facts(session_files, dimensions):
     # Map year+grand_prix to race_id
     race_id_map = {}
     for race_id, race_info in dimensions['races'].items():
-        race_id_map[(race_info['year'], race_info['grand_prix'].lower().replace(' ', '_').replace('-', '_').replace("'", ""))] = race_id
+        # Use normalized grand prix name for mapping
+        race_id_map[(race_info['year'], race_info['grand_prix_norm'])] = race_id
     
     # Build lookup maps
     team_id_map = {t['team_name']: t['team_id'] for t in dimensions['teams'].values()}
