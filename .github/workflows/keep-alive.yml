@@ -7,6 +7,9 @@ on:
   workflow_dispatch:
     # Allows for manual triggering if needed
 
+permissions:
+  contents: write
+
 jobs:
   keep_alive:
     runs-on: ubuntu-latest
@@ -14,7 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create or Update a timestamp file
         run: |
