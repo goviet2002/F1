@@ -30,24 +30,27 @@ class BigQueryLoader:
     def _create_dataset_if_not_exists(self):
         """Create BigQuery dataset if it doesn't exist"""
         dataset_ref = self.client.dataset(self.dataset_id)
-        
+
         try:
             self.client.get_dataset(dataset_ref)
             logger.info(f"Dataset {self.dataset_id} already exists")
         except NotFound:
             dataset = bigquery.Dataset(dataset_ref)
             dataset.location = "EU"
+            # Set default table expiration to 7 days (in seconds)
+            dataset.default_table_expiration_ms = 7 * 24 * 60 * 60 * 1000
             self.client.create_dataset(dataset)
-            logger.info(f"Created dataset {self.dataset_id}")
+            logger.info(f"Created dataset {self.dataset_id} with 7-day table expiration")
     
-    def delete_table_if_exists(self, table_name):
-        """Delete a BigQuery table if it exists"""
-        table_id = f"{self.project_id}.{self.dataset_id}.{table_name}"
+    # IF you use Sandbox free version, dataset can only exist 7 days, so we need to delete and recreate it each time
+    def delete_dataset_if_exists(self):
+        """Delete the BigQuery dataset if it exists (including all tables)"""
+        dataset_ref = self.client.dataset(self.dataset_id)
         try:
-            self.client.delete_table(table_id)
-            logger.info(f"Deleted table {table_id}")
-        except NotFound:
-            logger.info(f"Table {table_id} does not exist, skipping delete.")
+            self.client.delete_dataset(dataset_ref, delete_contents=True, not_found_ok=True)
+            logger.info(f"Deleted dataset {self.dataset_id}")
+        except Exception as e:
+            logger.error(f"Failed to delete dataset {self.dataset_id}: {e}")
 
     def load_json_to_table(self, json_file_path, table_name, write_disposition="WRITE_TRUNCATE"):
         """Load JSON file to BigQuery table"""
