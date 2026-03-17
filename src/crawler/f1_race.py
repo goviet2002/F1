@@ -197,9 +197,11 @@ async def scrape_f1_data_with_checkpoints(all_race_links):
                 # Save directly to hierarchical structure
                 grand_prix, circuit, city, year, date = result
                 
-                # Use standardized folder naming
-                gp_name = standardize_folder_name(grand_prix)
-                race_dir = os.path.join(DATA_DIR, str(year), gp_name)
+                url = link[1]
+                parts = url.split('/')
+                race_location = parts[8] if len(parts) > 8 else "unknown"
+                race_location = standardize_folder_name(race_location)
+                race_dir = os.path.join(DATA_DIR, str(year), race_location)
                 os.makedirs(race_dir, exist_ok=True)
                 
                 # Save race metadata
